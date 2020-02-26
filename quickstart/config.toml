@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+[permalinks]
+  posts = "/:slug"
+
+[taxonomies]
+  category = "category"
+  tag = "tags"

@@ -116,21 +116,34 @@ function wordpressImport(backupXmlFile, outputDir){
     });
 }
 
+function retrievePaths(image){
+    var url = image['guid'][0]['_'];
+    var imagePath = url.replace(/https:\/\/radekmaziarka.pl|https:\/\/radblog.pl|http:\/\/radblog.pl/,'').replace('/wp-content/uploads/','');
+    var currentFilePath = 'uploads/' + imagePath;
+    var targetFilePath = 'quickstart/static/images/' + imagePath;
+    var folderPath = 'quickstart/static/images/' + imagePath.substring(0, 7);
+
+    var paths = {
+        imagePath, currentFilePath, targetFilePath, folderPath
+    };
+    console.log(JSON.stringify(paths));
+
+    image.paths = paths;
+}
+
+function copyImages(image){
+    myMkdirSync(image.paths.folderPath);
+    fs.createReadStream(image.paths.currentFilePath).pipe(fs.createWriteStream(image.paths.targetFilePath));
+}
+
 function handleImagesXML(result){
     var images = result.rss.channel[0].item;
 
+    images.forEach(retrievePaths);   
+
+    images.forEach(copyImages);    
+
     groupedImages = groupBy(images, image => image['wp:post_parent']);
-
-    images.forEach((image) =>{
-        var url = image['guid'][0]['_'];
-        var imagePath = url.replace(/https:\/\/radekmaziarka.pl\/wp-content\/|https:\/\/radblog.pl\/wp-content\/|http:\/\/radblog.pl\/wp-content\//,'');
-
-        var folderPath = 'quickstart/static/images/' + imagePath.replace('uploads/','').substring(0, 7);
-        myMkdirSync(folderPath);
-
-        var targetFilePath = 'quickstart/static/images/' + imagePath.replace('uploads/','');
-        fs.createReadStream(imagePath).pipe(fs.createWriteStream(targetFilePath));
-    })
 }
 
 function handlePostsXML(err, result) {
@@ -219,6 +232,14 @@ function handlePostsXML(err, result) {
                 // tags = tags.join(", ");
                 tagString = 'tags: [\'' + tags.join("', '") + "']\n";
                 // console.log(tagString);
+            }
+
+            var postId = post['post_id'];
+            console.log(postId);
+            var featuredImage = groupedImages[postId][0];
+            if(featuredImage){
+                var imagePath = featuredImage.paths.imagePath;
+                console.log(imagePath);
             }
 
             var pmap = {fname:'', comments:[]};

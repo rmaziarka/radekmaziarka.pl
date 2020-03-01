@@ -3,6 +3,7 @@ title: 'Event Storming - mapowanie ograniczeń'
 slug: '/2019/02/22/event-storming-mapowanie-ograniczen/'
 date: Fri, 22 Feb 2019 22:40:23 +0000
 draft: false
+featured_image: 'images/2018/05/eventstorming.logo_.png'
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

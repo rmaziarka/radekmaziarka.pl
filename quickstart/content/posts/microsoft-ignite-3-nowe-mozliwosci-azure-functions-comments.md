@@ -3,6 +3,7 @@ title: 'Microsoft Ignite - 3 nowe możliwości Azure Functions'
 slug: '/2017/09/26/microsoft-ignite-3-nowe-mozliwosci-azure-functions/'
 date: Tue, 26 Sep 2017 21:38:35 +0000
 draft: false
+featured_image: 'images/2016/05/996635-cloud.jpg'
 category: 'Serverless'
 tags: ['']
 ---

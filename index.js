@@ -38,7 +38,7 @@ var inputFile =  process.argv[3];
 var outputDir = process.argv[4];
 
 var mergeComments = (process.argv[5] == 'm')?'m':'s' ;
-var groupedImages = [];
+var imagesById = {};
 
 
 if (fs.existsSync(outputDir)) {
@@ -85,14 +85,14 @@ var myMkdirSync = function(dir){
 }
 
 function groupBy(list, keyGetter) {
-    const map = new Map();
+    const map = {}
     list.forEach((item) => {
          const key = keyGetter(item);
-         const collection = map.get(key);
-         if (!collection) {
-             map.set(key, [item]);
+         var array = map[key];
+         if (!array) {
+            map[key] = [item];
          } else {
-             collection.push(item);
+            array.push(item);
          }
     });
     return map;
@@ -109,9 +109,9 @@ function wordpressImport(backupXmlFile, outputDir){
         parser.parseString(data, (err, result) => {
             handleImagesXML(result);
             
-            // fs.readFile(backupXmlFile, function(err, data) {
-            //     parser.parseString(data, handlePostsXML);
-            // });
+            fs.readFile(backupXmlFile, function(err, data) {
+                parser.parseString(data, handlePostsXML);
+            });
         });
     });
 }
@@ -122,11 +122,11 @@ function retrievePaths(image){
     var currentFilePath = 'uploads/' + imagePath;
     var targetFilePath = 'quickstart/static/images/' + imagePath;
     var folderPath = 'quickstart/static/images/' + imagePath.substring(0, 7);
+    var blogPath = 'images/' + imagePath;
 
     var paths = {
-        imagePath, currentFilePath, targetFilePath, folderPath
+        blogPath, currentFilePath, targetFilePath, folderPath
     };
-    console.log(JSON.stringify(paths));
 
     image.paths = paths;
 }
@@ -141,9 +141,11 @@ function handleImagesXML(result){
 
     images.forEach(retrievePaths);   
 
-    images.forEach(copyImages);    
+    //images.forEach(copyImages);    
 
-    groupedImages = groupBy(images, image => image['wp:post_parent']);
+    images.forEach(image => {
+        imagesById[image['wp:post_id'][0]] = image;
+    });
 }
 
 function handlePostsXML(err, result) {
@@ -185,6 +187,7 @@ function handlePostsXML(err, result) {
         var fileContent = '';
         var fileHeader = '';
         var postMaps = {};
+        var featuredImagePath = '';
         
         posts.forEach(function(post){
             var postMap = {};
@@ -234,12 +237,17 @@ function handlePostsXML(err, result) {
                 // console.log(tagString);
             }
 
-            var postId = post['post_id'];
-            console.log(postId);
-            var featuredImage = groupedImages[postId][0];
-            if(featuredImage){
-                var imagePath = featuredImage.paths.imagePath;
-                console.log(imagePath);
+            featuredImagePath = '';
+            var metaArray = post['wp:postmeta'] || [];
+            var featuredThumbnailMeta = metaArray.filter(meta => {
+                return meta['wp:meta_key'][0] === '_thumbnail_id';
+            })[0];
+
+            if(featuredThumbnailMeta){
+                console.log(JSON.stringify(featuredThumbnailMeta));
+                var featuredImageId = featuredThumbnailMeta['wp:meta_value'][0];
+                var featuredImage = imagesById[featuredImageId];
+                featuredImagePath = featuredImage.paths.blogPath;
             }
 
             var pmap = {fname:'', comments:[]};
@@ -255,7 +263,11 @@ function handlePostsXML(err, result) {
                 markdown = tds.turndown(content);
                 // console.log(markdown);
 
-                fileHeader = `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\ncategory: '${categoryName}'\n${tagString}---\n`;
+                fileHeader = ''
+                fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
+                if(featuredImagePath)
+                    fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+                fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
                 fileContent = `${fileHeader}\n${markdown}`;
                 pmap.header = `${fileHeader}\n`;
 

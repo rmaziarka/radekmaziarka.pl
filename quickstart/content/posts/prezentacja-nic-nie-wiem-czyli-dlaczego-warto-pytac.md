@@ -3,6 +3,7 @@ title: '"Nic nie wiem" - czyli dlaczego warto pytać'
 slug: '/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/'
 date: Thu, 14 Dec 2017 14:37:13 +0000
 draft: false
+featured_image: 'images/2017/12/ask-why-1.jpg'
 category: 'Różne'
 tags: ['Agile', 'BDD']
 ---

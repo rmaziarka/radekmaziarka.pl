@@ -3,6 +3,7 @@ title: 'Serverless - Introduction [1]'
 slug: '/2017/07/05/serverless-introduction-1/'
 date: Wed, 05 Jul 2017 22:35:42 +0000
 draft: false
+featured_image: 'images/2017/07/benjamin-child-19747.jpg'
 category: 'Serverless'
 tags: ['']
 ---

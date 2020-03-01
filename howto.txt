@@ -1,1 +1,1 @@
-node index.js w radekmaziarka.wordpress.2020-02-23.xml quickstart/content/posts
+node index.js w posts.xml quickstart/content/posts

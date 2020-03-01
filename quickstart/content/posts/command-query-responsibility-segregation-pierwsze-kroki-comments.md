@@ -3,6 +3,7 @@ title: 'Command Query Responsibility Segregation — pierwsze kroki'
 slug: '/2018/06/07/command-query-responsibility-segregation-pierwsze-kroki/'
 date: Thu, 07 Jun 2018 19:13:57 +0000
 draft: false
+featured_image: 'images/2017/08/command-query.jpg'
 category: 'Wzorce projektowe'
 tags: ['CQRS', 'design patterns']
 ---

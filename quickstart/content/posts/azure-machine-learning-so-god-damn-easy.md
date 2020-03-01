@@ -3,6 +3,7 @@ title: 'Azure Machine Learning - so god damn easy'
 slug: '/2017/11/12/azure-machine-learning-so-god-damn-easy/'
 date: Sun, 12 Nov 2017 18:43:17 +0000
 draft: false
+featured_image: 'images/2017/11/OverviewOfAzureML_960.jpg'
 category: 'Data science'
 tags: ['Azure', 'Machine Learning']
 ---

@@ -3,6 +3,7 @@ title: 'Event Storming - retrospection'
 slug: '/2018/05/24/event-storming-retrospection/'
 date: Thu, 24 May 2018 22:21:45 +0000
 draft: false
+featured_image: 'images/2018/05/eventstorming.logo_.png'
 category: 'Event Storming'
 tags: ['domain driven design', 'event storming']
 ---

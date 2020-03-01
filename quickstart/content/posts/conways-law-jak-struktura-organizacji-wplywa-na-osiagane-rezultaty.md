@@ -3,6 +3,7 @@ title: 'Conway''s Law - jak struktura organizacji wpływa na osiągane rezultaty
 slug: '/2019/02/25/conways-law-jak-struktura-organizacji-wplywa-na-osiagane-rezultaty/'
 date: Mon, 25 Feb 2019 20:58:01 +0000
 draft: false
+featured_image: 'images/2019/02/acropolis-2725918_960_720.jpg'
 category: 'Różne'
 tags: ['']
 ---

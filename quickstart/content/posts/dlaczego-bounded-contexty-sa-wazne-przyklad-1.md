@@ -3,6 +3,7 @@ title: 'Dlaczego Bounded Contexty są ważne – partie produktów a działy fir
 slug: '/2018/08/28/dlaczego-bounded-contexty-sa-wazne-przyklad-1/'
 date: Tue, 28 Aug 2018 20:33:44 +0000
 draft: false
+featured_image: 'images/2018/07/private-1665019_960_720.jpg'
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

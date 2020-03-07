@@ -22,52 +22,13 @@ tds.addRule('wppreblock', {
     }
 })
 
-// console.log(`No. of arguments passed: ${process.argv.length}`);
-
-if (process.argv.length < 5){
-    // ${process.argv[1]}
-    console.log(`Usage: blog2md [b|w] <BACKUP XML> <OUTPUT DIR> m|s`)
-    console.log(`\t b for parsing Blogger(Blogspot) backup`);
-    console.log(`\t w for parsing WordPress backup`);
-    return 1;
-}
-
-var option = process.argv[2];
-var inputFile =  process.argv[3];
-
-var outputDir = process.argv[4];
-
-var mergeComments = (process.argv[5] == 'm')?'m':'s' ;
+var outputPostsDir = 'quickstart/content/posts';
+var outputPagesDir = 'quickstart/content/pages';
 var imagesById = {};
 
 
-if (fs.existsSync(outputDir)) {
-    console.log(`WARNING: Given output directory "${outputDir}" already exists. Files will be overwritten.`)
-}
-else{
-    fs.mkdirSync(outputDir);
-}
+wordpressImport();
 
-
-if (mergeComments == 'm'){
-    console.log(`INFO: Comments requested to be merged along with posts. (m)`);
-}
-else{
-    console.log(`INFO: Comments requested to be a separate .md file(m - default)`);
-}
-
-
-
-if( option.toLowerCase() == 'b'){
-    bloggerImport(inputFile, outputDir);
-}
-else if(option.toLowerCase() == 'w'){
-    wordpressImport(inputFile, outputDir);
-}
-else {
-    console.log('Only b (Blogger) and w (WordPress) are valid options');
-    return;
-}
 
 var myMkdirSync = function(dir){
     if (fs.existsSync(dir)){
@@ -101,7 +62,7 @@ function groupBy(list, keyGetter) {
 
 
 
-function wordpressImport(backupXmlFile, outputDir){
+function wordpressImport(){
     var parser = new xml2js.Parser();
 
 
@@ -109,8 +70,12 @@ function wordpressImport(backupXmlFile, outputDir){
         parser.parseString(data, (err, result) => {
             handleImagesXML(result);
             
-            fs.readFile(backupXmlFile, function(err, data) {
-                parser.parseString(data, handlePostsXML);
+            // fs.readFile('posts.xml', function(err, data) {
+            //     parser.parseString(data, handlePostsXML);
+            // });
+
+            fs.readFile('pages.xml', function(err, data) {
+                parser.parseString(data, handlePagesXML);
             });
         });
     });
@@ -244,16 +209,15 @@ function handlePostsXML(err, result) {
             })[0];
 
             if(featuredThumbnailMeta){
-                console.log(JSON.stringify(featuredThumbnailMeta));
                 var featuredImageId = featuredThumbnailMeta['wp:meta_value'][0];
                 var featuredImage = imagesById[featuredImageId];
                 featuredImagePath = featuredImage.paths.blogPath;
             }
 
             var pmap = {fname:'', comments:[]};
-            pmap.fname = outputDir+'/'+fname+'-comments.md';
+            pmap.fname = outputPostsDir+'/'+fname+'-comments.md';
 
-            fname = outputDir+'/'+fname+'.md';
+            fname = outputPostsDir+'/'+fname+'.md';
             pmap.postName = fname;
             console.log(`fname: '${fname}'`);
             
@@ -324,6 +288,95 @@ function handlePostsXML(err, result) {
 
 }
 
+function handlePagesXML(err, result) {
+    if (err) {
+        console.log(`Error parsing xml file (${backupXmlFile})\n${JSON.stringify(err)}`); 
+        return 1;
+    }
+    // console.dir(result); 
+    // console.log(JSON.stringify(result)); return;
+    var posts = [];
+    
+    // try {
+        posts = result.rss.channel[0].item;
+        
+        console.log(`Total Post count: ${posts.length}`);
+
+        posts = posts.filter(function(post){
+            var status = '';
+            if(post["wp:status"]){
+                status = post["wp:status"].join(''); 
+            }
+            // console.log(post["wp:status"].join(''));
+            return status != "private" && status != "inherit" 
+        });
+
+
+        // console.log(posts)
+        console.log(`Post count: ${posts.length}`);
+
+        var title = '';
+        var slug = '';
+        var content = '';
+        var categoryName = '';
+        var published = '';
+        var comments = [];
+        var fname = '';
+        var markdown = '';
+        var fileContent = '';
+        var fileHeader = '';
+        var featuredImagePath = '';
+        
+        posts.forEach(function(post){
+            var postMap = {};
+
+            title = post.title[0].trim();
+            slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
+            
+            title = title.replace(/'/g, "''");
+
+            published = post.pubDate;
+            fname = post["wp:post_name"][0] || post["wp:post_id"];
+            markdown = '';
+            
+            if (comments){
+                console.log(`comments: '${comments.length}'`);    
+            }
+            
+            featuredImagePath = '';
+            var metaArray = post['wp:postmeta'] || [];
+            var featuredThumbnailMeta = metaArray.filter(meta => {
+                return meta['wp:meta_key'][0] === '_thumbnail_id';
+            })[0];
+
+            if(featuredThumbnailMeta){
+                var featuredImageId = featuredThumbnailMeta['wp:meta_value'][0];
+                var featuredImage = imagesById[featuredImageId];
+                featuredImagePath = featuredImage.paths.blogPath;
+            }
+
+            fname = outputPagesDir+'/'+fname+'.md';
+            
+            if (post["content:encoded"]){
+                // console.log('content available');
+                content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
+                markdown = tds.turndown(content);
+                // console.log(markdown);
+
+                fileHeader = ''
+                fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
+                if(featuredImagePath)
+                    fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+                fileHeader+='---\n';
+                fileContent = `${fileHeader}\n${markdown}`;
+
+                writeToFile(fname, fileContent);                
+            }
+
+        });
+
+}
+
 function writeComments(postMaps){
 
     if (mergeComments == 'm'){
@@ -359,7 +412,6 @@ function writeComments(postMaps){
 function writeToFile(filename, content, append=false){
 
     if(append){
-        console.log(`DEBUG: going to append to ${filename}`);
         try{
             fs.appendFileSync(filename, content);
             console.log(`Successfully appended to ${filename}`);
@@ -370,7 +422,6 @@ function writeToFile(filename, content, append=false){
         }
 
     }else{
-        console.log(`DEBUG: going to write to ${filename}`);
         try{
             fs.writeFileSync(filename, content);
             console.log(`Successfully written to ${filename}`);

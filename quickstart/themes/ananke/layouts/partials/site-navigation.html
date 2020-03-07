@@ -1,22 +1,89 @@
-<nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90 dib">
-      {{ .Site.Title }}
-    </a>
-    <div class="flex-l items-center">
-      {{ partial "i18nlist.html" . }}
-      {{ if .Site.Menus.main }}
-        <ul class="pl0 mr3">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-            </a>
-          </li>
+<nav class="menu" role="navigation">
+  <div class="wrap">
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+              <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                  <a href="{{ .URL }}">
+                      {{ .Pre }}
+                      <span>{{ .Name }}</span>
+                  </a>
+              </li>
+              <ul class="sub-menu">
+                  {{ range .Children }}
+                      <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                          <a href="{{ .URL }}">{{ .Name }}</a>
+                      </li>
+                  {{ end }}
+              </ul>
+          {{ else }}
+              <li>
+                  <a href="{{ .URL }}">
+                      {{ .Pre }}
+                      <span>{{ .Name }}</span>
+                  </a>
+              </li>
           {{ end }}
-        </ul>
       {{ end }}
-      {{ partialCached "social-follow.html" . }}
-    </div>
+  </ul>
   </div>
 </nav>
+
+<style>
+.menu{
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000 !important;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+  box-shadow: 0 0 4px 0 #eee;
+  height: 48px;
+  font-family: Poppins, Arial, sans-serif;
+  line-height: 48px;
+  box-sizing: border-box;
+
+  float: left;
+    text-align: center;
+    color: #161616;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.menu .wrap{
+  width: 1170px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.menu ul{
+  list-style: none;
+  position: relative;
+}
+
+.menu ul li{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.menu .sub-menu{
+  position: absolute;
+  overflow: visible;
+  visibility: hidden;
+  display: block;
+  opacity: 0;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  transition: all .25s ease-in;
+  z-index: 110;
+  line-height: 1.8666;
+}
+
+</style>

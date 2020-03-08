@@ -70,13 +70,13 @@ function wordpressImport(){
         parser.parseString(data, (err, result) => {
             handleImagesXML(result);
             
-            // fs.readFile('posts.xml', function(err, data) {
-            //     parser.parseString(data, handlePostsXML);
-            // });
-
-            fs.readFile('pages.xml', function(err, data) {
-                parser.parseString(data, handlePagesXML);
+            fs.readFile('posts.xml', function(err, data) {
+                parser.parseString(data, handlePostsXML);
             });
+
+            // fs.readFile('pages.xml', function(err, data) {
+            //     parser.parseString(data, handlePagesXML);
+            // });
         });
     });
 }
@@ -160,20 +160,20 @@ function handlePostsXML(err, result) {
             title = post.title[0].trim();
             slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
             
-            // console.log(title);
-
-            // if (title && title.indexOf("'")!=-1){
             title = title.replace(/'/g, "''");
-            // }
+
 
             published = post.pubDate;
+
+            // not published 
+            if(published === 'Thu, 01 Jan 1970 00:00:00 +0000')
+                return;
+
+            var publishedDate = new Date(published);
+            var publishedFolderName = publishedDate.toISOString().slice(0,4) + '/' + publishedDate.toISOString().slice(0,7)
             comments = post['wp:comment'];
             fname = post["wp:post_name"][0] || post["wp:post_id"];
             markdown = '';
-            // if (post.guid && post.guid[0] && post.guid[0]['_']){
-            //     fname = path.basename(post.guid[0]['_']);
-            // }
-            // console.log(comments);
 
             console.log(`\n\n\n\ntitle: '${title}'`);
             console.log(`published: '${published}'`);
@@ -217,12 +217,13 @@ function handlePostsXML(err, result) {
             var pmap = {fname:'', comments:[]};
             pmap.fname = outputPostsDir+'/'+fname+'-comments.md';
 
-            fname = outputPostsDir+'/'+fname+'.md';
+            fname = outputPostsDir+'/'+publishedFolderName+ '/'+fname+'.md';
+            var fdir = outputPostsDir+'/'+publishedFolderName + '/';
             pmap.postName = fname;
             console.log(`fname: '${fname}'`);
             
             if (post["content:encoded"]){
-                // console.log('content available');
+                console.log(post["content:encoded"]);
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
                 // console.log(markdown);
@@ -237,6 +238,8 @@ function handlePostsXML(err, result) {
 
                 // fileContent = `---\ntitle: '${title}'\ndate: ${published}\ndraft: false\n${tagString}---\n\n${markdown}`;
 
+                
+                myMkdirSync(fdir);
                 writeToFile(fname, fileContent);
                 
             }
@@ -273,7 +276,7 @@ function handlePostsXML(err, result) {
                     cmt.author.email = (comment["wp:comment_author_email"]?comment["wp:comment_author_email"].pop():'');
                     cmt.author.url = (comment["wp:comment_author_url"]?comment["wp:comment_author_url"].pop():'');
 
-                    ccontent += `#### [${cmt.author.name}](${cmt.author.url} "${cmt.author.email}") - ${cmt.published}\n\n${cmt.content}\n<hr />\n`;
+                    ccontent += `#### [${cmt.author.name}](${cmt.author.url} "${cmt.author.email}") - ${cmt.published}\n\n${cmt.content}\n`;
 
                     pmap.comments.push(cmt);
                 }
@@ -339,10 +342,6 @@ function handlePagesXML(err, result) {
             fname = post["wp:post_name"][0] || post["wp:post_id"];
             markdown = '';
             
-            if (comments){
-                console.log(`comments: '${comments.length}'`);    
-            }
-            
             featuredImagePath = '';
             var metaArray = post['wp:postmeta'] || [];
             var featuredThumbnailMeta = metaArray.filter(meta => {
@@ -379,11 +378,6 @@ function handlePagesXML(err, result) {
 
 function writeComments(postMaps){
 
-    if (mergeComments == 'm'){
-        console.log('DEBUG: merge comments requested');
-    }else{
-        console.log('DEBUG: separate comments requested (defaulted)');
-    }
     for (var pmap in postMaps){
         var comments = postMaps[pmap].comments;
         console.log(`post id: ${pmap} has ${comments.length} comments`);
@@ -394,24 +388,18 @@ function writeComments(postMaps){
             comments.forEach(function(comment){
                 var readableDate = '<time datetime="'+comment.published+'">' + moment(comment.published).format("MMM d, YYYY") + '</time>';
 
-                ccontent += `#### ${comment.title}\n[${comment.author.name}](${comment.author.url} "${comment.author.email}") - ${readableDate}\n\n${comment.content}\n<hr />\n`;
+                ccontent += `#### ${comment.title}\n[${comment.author.name}](${comment.author.url} "${comment.author.email}") - ${readableDate}\n\n${comment.content}\n`;
             });
 
-            if (mergeComments == 'm'){
-                writeToFile(postMaps[pmap].postName, `\n---\n### Comments:\n${ccontent}`, true);
-            }else{
-                writeToFile(postMaps[pmap].fname, `${postMaps[pmap].header}\n${ccontent}`);
-            }
-            
+            writeToFile(postMaps[pmap].postName, `\n\n---\n### Comments:\n${ccontent}`, true);
         }
     }
 }
 
-
-
 function writeToFile(filename, content, append=false){
 
     if(append){
+        console.log(`DEBUG: going to append to ${filename}`);
         try{
             fs.appendFileSync(filename, content);
             console.log(`Successfully appended to ${filename}`);
@@ -422,6 +410,7 @@ function writeToFile(filename, content, append=false){
         }
 
     }else{
+        console.log(`DEBUG: going to write to ${filename}`);
         try{
             fs.writeFileSync(filename, content);
             console.log(`Successfully written to ${filename}`);

@@ -22,8 +22,8 @@ tds.addRule('wppreblock', {
     }
 })
 
-var outputPostsDir = 'quickstart/content/posts';
-var outputPagesDir = 'quickstart/content/pages';
+var outputPostsDir = 'page/content/posts';
+var outputPagesDir = 'page/content/pages';
 var imagesById = {};
 
 
@@ -85,8 +85,8 @@ function retrievePaths(image){
     var url = image['guid'][0]['_'];
     var imagePath = url.replace(/https:\/\/radekmaziarka.pl|https:\/\/radblog.pl|http:\/\/radblog.pl/,'').replace('/wp-content/uploads/','');
     var currentFilePath = 'uploads/' + imagePath;
-    var targetFilePath = 'quickstart/static/images/' + imagePath;
-    var folderPath = 'quickstart/static/images/' + imagePath.substring(0, 7);
+    var targetFilePath = 'page/static/images/' + imagePath;
+    var folderPath = 'page/static/images/' + imagePath.substring(0, 7);
     var blogPath = 'images/' + imagePath;
 
     var paths = {

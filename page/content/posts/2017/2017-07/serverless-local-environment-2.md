@@ -22,28 +22,28 @@ Quick start
 
 At the beginning I had to **install package** which allows to run Azure Function locally:
 
-\[code\]npm i -g azure-functions-core-tools\[/code\]
+```npm i -g azure-functions-core-tools```
 
 And you will see that required packages will be installed:
 
-\[code\]C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azurefunctions - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
+```C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azurefunctions - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
 C:\\Users\\Radosław\\AppData\\Roaming\\npm\\func - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
 C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azfun - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
 C:\\Users\\Radosław\\AppData\\Roaming\\npm
-\`-- azure-functions-core-tools@1.0.0-beta.100\[/code\]
+\`-- azure-functions-core-tools@1.0.0-beta.100```
 
 In that point these commands **should** run Azure Functions CLI:
 
-*   func
-*   azfun
-*   azurefunctions
+ *   func
+ *   azfun
+ *   azurefunctions
 
 Resolving packages error
 ------------------------
 
 And of course they didn't run this CLI. I got such error:
 
-\[code\]$ func
+```$ func
  module.js:442
  throw err;
  ^
@@ -54,13 +54,13 @@ at Function.Module.\_load (module.js:388:25)
 at Module.runMain (module.js:575:10)
 at run (node.js:348:7)
 at startup (node.js:140:9)
-at node.js:463:3\[/code\]
+at node.js:463:3```
 
 Console is trying to find Azure Function's modules in Git folder. Why? I couldn't find explanation of this behavior. I tried running function CLI from Console / Bash / Powershell and they all resulted with the same failure.
 
 So I omitted this problem with creating linking from node modules to Git workplace. And it solved the problem:
 
-\[code\]C:\\Program Files\\Git: mklink /D node\_modules %USERPROFILE%\\AppData\\Roaming\\npm\\node\_modules\[/code\]
+```C:\\Program Files\\Git: mklink /D node\_modules %USERPROFILE%\\AppData\\Roaming\\npm\\node\_modules```
 
 I know that this is a workaround but it's better than nothing. If you know how to solve this problem properly please write a comment at the bottom of this post :)
 
@@ -78,49 +78,49 @@ Simple scenario
 
 At the beginning I wanted to try, whether a straightforward scenario, about connection to blob storage, will work. First I needed to add **function project**:
 
-\[code\]func init Functions\[/code\]
+```func init Functions```
 
 Which resulted with:
 
-\[code\]Writing .gitignore
+```Writing .gitignore
 Writing host.json
 Writing local.settings.json
 Created launch.json
-Initialized empty Git repository in C:/Users/rmaziarka/documents/Projects/Functions/.git/\[/code\]
+Initialized empty Git repository in C:/Users/rmaziarka/documents/Projects/Functions/.git/```
 
 Then I moved to created folder and used a **template** provided by Azure Functions CLI:
 
-\[code\]func new --language JavaScript --template BlobTrigger -name BlobTriggerJS\[/code\]
+```func new --language JavaScript --template BlobTrigger -name BlobTriggerJS```
 
 It created a function in my project's folder:
 
-\[code\]Select a language: JavaScript
+```Select a language: JavaScript
 Select a template: BlobTrigger
-Function name: \[BlobTriggerJS\] 
+Function name: [BlobTriggerJS] 
 Writing C:\\Users\\rmaziarka\\Documents\\Projects\\BlobTriggerJS\\index.js
 Writing C:\\Users\\rmaziarka\\Documents\\Projects\\BlobTriggerJS\\readme.md
 Writing C:\\Users\\rmaziarka\\Documents\\Projects\\BlobTriggerJS\\sample.dat
-Writing C:\\Users\\rmaziarka\\Documents\\Projects\\BlobTriggerJS\\function.json\[/code\]
+Writing C:\\Users\\rmaziarka\\Documents\\Projects\\BlobTriggerJS\\function.json```
 
 Moreover I had to specify which **storage account** I wanted to use:
 
-\[code\]func settings add AzureWebJobsStorage UseDevelopmentStorage=true\[/code\]
+```func settings add AzureWebJobsStorage UseDevelopmentStorage=true```
 
 This variable was set in **local.settings.json **\- in this file you can specify local parameters of your functions:
 
-\[javascript\]{
- "IsEncrypted": false,
- "Values": {
- "AzureWebJobsStorage": "UseDevelopmentStorage=true"
- },
- "ConnectionStrings": {}
-}\[/javascript\]
+[javascript]{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true"
+  },
+  "ConnectionStrings": {}
+}[/javascript]
 
 By default function will attach to blob storage named **samples-workitems**. You can change it in **function.json** file.
 
 To be completely sure that my solution is worth something I **runned** my function:
 
-\[code\]func host start\[/code\]
+```func host start```
 
 You can check how it works (clik to open):
 

@@ -14,10 +14,10 @@ You can find slides from my presentation on [Slideshare](https://www.slideshare
 
 Also, you can check my blog posts:
 
-1.  [splitting code to commands and queries](http://radblog.pl/en/2017/08/18/cqrs-first-step-split-to-commands-and-queries)
-2.  [different data access](/2017/10/31/cqrs-second-step-different-data-access/)
-3.  [creating read model synchronously](/cqrs-third-step-simple-read-model/)
-4.  creating read model asynchronously with SignalR notification
+ 1.  [splitting code to commands and queries](http://radblog.pl/en/2017/08/18/cqrs-first-step-split-to-commands-and-queries)
+ 2.  [different data access](/2017/10/31/cqrs-second-step-different-data-access/)
+ 3.  [creating read model synchronously](/cqrs-third-step-simple-read-model/)
+ 4.  creating read model asynchronously with SignalR notification
 
 ---
 ### Comments:

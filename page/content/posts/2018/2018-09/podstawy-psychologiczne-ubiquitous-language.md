@@ -15,12 +15,12 @@ Tyle teorii. Praktyka pokazuje, że zespoły nie skupiają się na wspólnym ję
 Zasada Kategoryzacji - teoria
 -----------------------------
 
-Zasada [\[1\]](#1) została opisania w 1978 roku przez Eleanor Rosch. Mówi ona, że rzeczywistość postrzegamy przez pryzmat prototypów, z których każdy odznacza się szczególnymi dla siebie cechami. Są to:
+Zasada [[1]](#1) została opisania w 1978 roku przez Eleanor Rosch. Mówi ona, że rzeczywistość postrzegamy przez pryzmat prototypów, z których każdy odznacza się szczególnymi dla siebie cechami. Są to:
 
-*   percepcja - jak postrzegamy dany element,
-*   funkcja - jaką funkcję spełnia dany element,
-*   motoryka - co z danym elementem robimy, jak nasze ciało reaguje,
-*   cel - jaki rezultat da nam operowanie / egzystowanie z danym elementem.
+ *   percepcja - jak postrzegamy dany element,
+ *   funkcja - jaką funkcję spełnia dany element,
+ *   motoryka - co z danym elementem robimy, jak nasze ciało reaguje,
+ *   cel - jaki rezultat da nam operowanie / egzystowanie z danym elementem.
 
 Następnie każdy element otoczenia próbujemy wpasowywać w ten prototyp. W zależności, które cechy spełnia i w jakim stopniu,  będzie należał do tej kategorii lub nie. Proces wpasowywania się w daną kategorię nazywamy **kategoryzacją**.
 
@@ -40,21 +40,21 @@ Zasada Kategoryzacji - znaczenie
 
 Proces kategoryzacji jest kluczowym procesem, który zachodzi w naszych umysłach cały czas. Dzięki temu możemy natychmiastowo oceniać sytuację, nie poświęcać energii na myślenie o otaczających nas obiektach, reagować na zmiany. Przykładamy nowe elementy do naszej matrycy i wiemy jak reagować - uciekać czy walczyć, iść przez czy omijać, jeść czy zostawić.
 
-To, co jest ważne, to fakt, że każdy z nas ma inne cechy w danych kategoriach. Zależy to od naszego pochodzenia, doświadczeń życiowych, wychowania, języka itd. Jeśli weźmiemy pod uwagę kategorię czasu, to inne cechy będzie ona miała dla osób ze świata zachodu (Europa, Ameryka), a inne dla świata wschodniego (Chiny, Tajlandia) [\[2\]](#2):
+To, co jest ważne, to fakt, że każdy z nas ma inne cechy w danych kategoriach. Zależy to od naszego pochodzenia, doświadczeń życiowych, wychowania, języka itd. Jeśli weźmiemy pod uwagę kategorię czasu, to inne cechy będzie ona miała dla osób ze świata zachodu (Europa, Ameryka), a inne dla świata wschodniego (Chiny, Tajlandia) [[2]](#2):
 
-*   Świat zachodu postrzega czas w sposób linearny; z przeszłością, teraźniejszością i przyszłością; mający konkretne połączenia zdarzeniowe; „Czas ucieka”
-*   Świat wschodu postrzega czas w sposób cykliczny; odtwarzający wydarzenia w regularnych okresach; „Czasu jest zawsze dużo”
+ *   Świat zachodu postrzega czas w sposób linearny; z przeszłością, teraźniejszością i przyszłością; mający konkretne połączenia zdarzeniowe; „Czas ucieka”
+ *   Świat wschodu postrzega czas w sposób cykliczny; odtwarzający wydarzenia w regularnych okresach; „Czasu jest zawsze dużo”
 
 Różnice w przypisaniu elementów do kategorii - teoria
 -----------------------------------------------------
 
 W teorii kategoryzacji ważne jest również wpasowywanie się słów w daną kategorię. Jeśli mamy słowo, które dla mnie się wpasowuje w kategorię A, ale dla drugiej osoby w kategorię B, to nie będziemy w stanie się ze sobą porozumieć. Druga osoba może:
 
-*   dziwić się, dlaczego danym słowem opisujemy konkretny przedmiot / zdarzenie,
-*   nie zrozumieć, co mieliśmy jej do przekazania,
-*   całkowicie pominąć, co do niej mówiliśmy.
+ *   dziwić się, dlaczego danym słowem opisujemy konkretny przedmiot / zdarzenie,
+ *   nie zrozumieć, co mieliśmy jej do przekazania,
+ *   całkowicie pominąć, co do niej mówiliśmy.
 
-George Lakoff i Mark Johnson, w swojej książce bazującej na teorii kategoryzacji [\[3\]](#3), opisali jak różnice w kategoriach zmuszają nas do negocjacji z drugą osobą. Piszą, że na początku dyskusji staramy się stworzyć tzw. wspólny grunt, by nasze zrozumienie rzeczywistości było spójne. Wraz z kolejnymi minutami ustalamy wzajemnie, na jakie wartości się zgadzamy, jakie są kategorie, którymi się posługujemy, które słowa należą do jakiej kategorii.
+George Lakoff i Mark Johnson, w swojej książce bazującej na teorii kategoryzacji [[3]](#3), opisali jak różnice w kategoriach zmuszają nas do negocjacji z drugą osobą. Piszą, że na początku dyskusji staramy się stworzyć tzw. wspólny grunt, by nasze zrozumienie rzeczywistości było spójne. Wraz z kolejnymi minutami ustalamy wzajemnie, na jakie wartości się zgadzamy, jakie są kategorie, którymi się posługujemy, które słowa należą do jakiej kategorii.
 
 Różnice w przypisaniu słów do kategorii - przykład humorystyczny
 ----------------------------------------------------------------
@@ -63,40 +63,40 @@ Ciekawym, dość jaskrawym przykładem pokazującym różnice w przypisywaniu s�
 
 Otóż słowo pole zalicza się do dwóch, kompletnie różnych kategorii. W zależności od miejsca zamieszkania jesteśmy uczeni do innego postrzegania tego słowa:
 
-*   Obszar na zewnątrz
+ *   Obszar na zewnątrz
     
-    *   percepcja - brak ścian, brak zamknięcia, niebo nad głową,
-    *   funkcja - możliwość spaceru, jazdy rowerem/samochodem,
-    *   motoryka - wychodzi się z wnętrza do zewnętrza przez drzwi / bramę,
-    *   cel - dotarcie gdzieś, spotkanie się ze znajomymi.
+     *   percepcja - brak ścian, brak zamknięcia, niebo nad głową,
+     *   funkcja - możliwość spaceru, jazdy rowerem/samochodem,
+     *   motoryka - wychodzi się z wnętrza do zewnętrza przez drzwi / bramę,
+     *   cel - dotarcie gdzieś, spotkanie się ze znajomymi.
     
-*   Obszar rolniczy
+ *   Obszar rolniczy
     
-    *   percepcja – grunty orne, rośliny, zboża,
-    *   funkcja - możliwość uprawy, zasiewania, obsadzania,
-    *   motoryka – kopie się, jeździ traktorem, usuwa chwasty,
-    *   cel – produkcja żywności.
+     *   percepcja – grunty orne, rośliny, zboża,
+     *   funkcja - możliwość uprawy, zasiewania, obsadzania,
+     *   motoryka – kopie się, jeździ traktorem, usuwa chwasty,
+     *   cel – produkcja żywności.
     
 
 [![](https://radblog.pl/wp-content/uploads/2018/09/ul-2.png)](https://radblog.pl/wp-content/uploads/2018/09/ul-2.png)
 
-Tych kategorii uczymy się od początku naszego życia. I teraz nauka używania słowa „pole” w innym kontekście nie nadejdzie szybko. **Taka zmiana jest trudna**, gdyż zaburza dobrze zbudowane i pielęgnowane dopasowanie. Jako zwierzęta bardzo trudno się adaptujemy, ponieważ to zmienia nasze odruchy, praktyki, reakcje i postrzeganie rzeczywistości. Mamy zbiór [\[4\]](#4) podświadomych odruchów, których zmiana jest bardzo trudna i wymaga dużo czasu.
+Tych kategorii uczymy się od początku naszego życia. I teraz nauka używania słowa „pole” w innym kontekście nie nadejdzie szybko. **Taka zmiana jest trudna**, gdyż zaburza dobrze zbudowane i pielęgnowane dopasowanie. Jako zwierzęta bardzo trudno się adaptujemy, ponieważ to zmienia nasze odruchy, praktyki, reakcje i postrzeganie rzeczywistości. Mamy zbiór [[4]](#4) podświadomych odruchów, których zmiana jest bardzo trudna i wymaga dużo czasu.
 
 Prototypy Programistyczne
 -------------------------
 
 Chcąc opisać przykład bardziej bliski programistom, musimy najpierw nakreślić, w jaki sposób postrzegają oni świat.
 
-Programiści nie widzą świata w taki sposób, jak inne osoby - szczególnie podczas programowania. Dochodzi tutaj do zmiany kategorii i powiązań [\[5\]](#5) [\[6\]](#6), na takie, które odpowiadają światowi kompilowanemu. Chcąc programować musimy się dostosować mentalnie do warunków, jakie są wymagane, by móc pisać program. Myślimy **abstrakcyjnie** – ponieważ za pomocą abstrakcyjnych „klocków” budujemy aplikacje.
+Programiści nie widzą świata w taki sposób, jak inne osoby - szczególnie podczas programowania. Dochodzi tutaj do zmiany kategorii i powiązań [[5]](#5) [[6]](#6), na takie, które odpowiadają światowi kompilowanemu. Chcąc programować musimy się dostosować mentalnie do warunków, jakie są wymagane, by móc pisać program. Myślimy **abstrakcyjnie** – ponieważ za pomocą abstrakcyjnych „klocków” budujemy aplikacje.
 
 Przejdźmy np. po kategorii „kontener na dane”:
 
-*   percepcja – ustawione koło siebie elementy, logicznie bądź fizycznie; określona pojemność,
-*   funkcja – iteracja, wybranie pierwszego / ostatniego elementu, sortowanie,
-*   motoryka – wrzuca się tam elementy, wyciąga je,
-*   cel – agregacja danych w jednym miejscu.
+ *   percepcja – ustawione koło siebie elementy, logicznie bądź fizycznie; określona pojemność,
+ *   funkcja – iteracja, wybranie pierwszego / ostatniego elementu, sortowanie,
+ *   motoryka – wrzuca się tam elementy, wyciąga je,
+ *   cel – agregacja danych w jednym miejscu.
 
-Do tej kategorii programista zaliczyłby np. tablicę, kolekcję, listę. W naszych dyskusjach programistycznych możemy używać tych słów, jako synonimów, ponieważ należą one do jednej kategorii. Są one tożsame, przez co używane wymiennie. **Język programistyczny wpływa na nasz sposób postrzegania rzeczywistości** [\[7\]](#7). Jednak dla osób nietechnicznych, a takimi są przeważnie nasi klienci, takie postrzeganie jest kompletnie obce.
+Do tej kategorii programista zaliczyłby np. tablicę, kolekcję, listę. W naszych dyskusjach programistycznych możemy używać tych słów, jako synonimów, ponieważ należą one do jednej kategorii. Są one tożsame, przez co używane wymiennie. **Język programistyczny wpływa na nasz sposób postrzegania rzeczywistości** [[7]](#7). Jednak dla osób nietechnicznych, a takimi są przeważnie nasi klienci, takie postrzeganie jest kompletnie obce.
 
 Różnice w przypisaniu słów do kategorii - przykład biznesowy
 ------------------------------------------------------------
@@ -137,29 +137,29 @@ Materiały:
 
 Prezentacja - [link do OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgvJXF-jV7Hs7Ov-Snw).
 
-\[1\] Eleanor Rosh – Principles of Categorization[http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778\_083247.pdf](http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778_083247.pdf)
+[1] Eleanor Rosh – Principles of Categorization[http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778\_083247.pdf](http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778_083247.pdf)
 
-\[2\] Richard Lewis - How Different Cultures Understand Time
+[2] Richard Lewis - How Different Cultures Understand Time
 
 [https://www.businessinsider.com/how-different-cultures-understand-time-2014-5?IR=T](https://www.businessinsider.com/how-different-cultures-understand-time-2014-5?IR=T)
 
-\[3\] George Lakoff and Mark Johnsen (2003) - Metaphors we live by
+[3] George Lakoff and Mark Johnsen (2003) - Metaphors we live by
 
 [http://shu.bg/tadmin/upload/storage/161.pdf](http://shu.bg/tadmin/upload/storage/161.pdf)
 
-\[4\] Wendy Wood and Dennis Runger - Psychology of Habit
+[4] Wendy Wood and Dennis Runger - Psychology of Habit
 
 [https://pdfs.semanticscholar.org/cfd7/237c53905b7ce622fa967bf2c817fce4f979.pdf](https://pdfs.semanticscholar.org/cfd7/237c53905b7ce622fa967bf2c817fce4f979.pdf)
 
-\[5\] Christopher Douce - Metaphors we program by
+[5] Christopher Douce - Metaphors we program by
 
 [https://docs.google.com/viewerng/viewer?url=http://www.ppig.org/sites/ppig.org/files/2004-PPIG-16th-douce.pdf](https://docs.google.com/viewerng/viewer?url=http://www.ppig.org/sites/ppig.org/files/2004-PPIG-16th-douce.pdf)
 
-\[6\] John M. Lawler- Metapthors we compute by
+[6] John M. Lawler- Metapthors we compute by
 
 [http://www-personal.umich.edu/~jlawler/meta4compute.html](http://www-personal.umich.edu/~jlawler/meta4compute.html)
 
-\[7\] Wikipedia – Linguistic relativity
+[7] Wikipedia – Linguistic relativity
 
 [https://en.wikipedia.org/wiki/Linguistic\_relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
 

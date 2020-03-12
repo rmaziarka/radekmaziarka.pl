@@ -8,7 +8,7 @@ category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---
 
-// wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
+ // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
 
 Wydawać by się mogło, że [architektura zdarzeniowa](https://medium.com/high-alpha/event-driven-architecture-a-primer-f636395d0295) nie będzie cierpiała na problemy braku kontekstów. Moduły aplikacji komunikują się zdarzeniami. W jednym miejscu informujemy o dokonaniu pewnej akcji, a reagujemy na nią w innym miejscu. Dzięki temu mamy większą separację modułów od siebie i lepszy rozkład odpowiedzialności. Prawda?
 
@@ -19,9 +19,9 @@ Problem
 
 Załóżmy, że w module Sklepu, po zakupie produktu rzucasz zdarzenie ProductWasSold_. _ Zawiera ono następujące pola:
 
-*   Id
-*   Name
-*   Price
+ *   Id
+ *   Name
+ *   Price
 
 Integrują się z nim 2 moduły - Zamówień i Dostaw - które obsługują dodanie zamówienia i stworzenie dostawy w reakcji na zakup produktu. Funkcjonalności są od siebie oddzielone - każdy moduł spełnia swoje potrzeby.
 
@@ -53,8 +53,8 @@ Taki sposób działania pozwala ukryć nasze wewnętrzne zmiany przed światem z
 
 W naszym powyższym przypadku moglibyśmy mieć 2 różne zdarzenia, np.
 
-*   ProductWasSold
-*   ProductWasSoldIntegrationEvent
+ *   ProductWasSold
+ *   ProductWasSoldIntegrationEvent
 
 Pierwsze zdarzenie byłoby rzucane wewnętrznie. Następnie moduł chwytałby to zdarzenie i zmieniał je w zdarzenie integracyjne, obsługując zmianę informacji. Dzięki temu, nawet jeśli zdarzenie domenowe by się zmieniło, to na nas byłby jedynie obowiązek, by zapewnić ciągłość pomiędzy oboma typami zdarzeń.
 

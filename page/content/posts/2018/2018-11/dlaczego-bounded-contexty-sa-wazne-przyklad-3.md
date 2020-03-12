@@ -8,7 +8,7 @@ category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---
 
-// wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
+ // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
 
 Po poprzednich, bardziej teoretycznych postach, nadszedł czas, by przejść do praktyki. W kilku następnych wpisach pokażę problemy, jakie powstały przez brak wydzielonych kontekstów w aplikacji.
 
@@ -19,9 +19,9 @@ Sytuacja biznesowa
 
 Firma posiada w sprzedaży szeroki pakiet produktów. Każdy z produktów ma zdefiniowanych część parametrów:
 
-*   Waga – kg
-*   Wymiary – cm x cm x cm
-*   Zużycie energii - kWh
+ *   Waga – kg
+ *   Wymiary – cm x cm x cm
+ *   Zużycie energii - kWh
 
 I jeszcze kilka dodatkowych – w sumie 10.
 
@@ -41,8 +41,8 @@ Dynamiczne parametry
 
 Klient po zobaczeniu stworzonego rozwiązania postanowił zmienić nieco sposób działania parametrów. Od teraz powinniśmy móc je dynamicznie przypisywać – dla każdej kategorii osobno. Np.
 
-*   Zużycie (farby) – ml / m2
-*   Długość nogawki (spodnie) – cm
+ *   Zużycie (farby) – ml / m2
+ *   Długość nogawki (spodnie) – cm
 
 Część parametrów byłaby domyślna i niezmienna dla danej kategorii. Stworzone raporty / dashboardy powinny dalej korzystać z pre-definiowanych parametrów – chcemy mieć dokładnie to samo doświadczenie co poprzednio.
 

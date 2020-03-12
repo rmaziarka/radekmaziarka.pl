@@ -12,93 +12,93 @@ Przedstawione przeze mnie do tej pory przykłady walidacji były zdecydowanie pr
 
 Na samym początku stwórzmy repozytorium użytkowników, które będziemy wstrzykiwać do walidatora. Ponieważ w przykładzie nie używam bazy danych, repozytorium będzie zwracało domyślną listę obiektów:
 
-\[code lang="csharp"\]
+```csharp
 public class UserRepository:IUserRepository
 {
- public IEnumerable<User> GetAll()
- {
- return new User\[\]
- {
- new User() {Id = 1, Email = "john@gmail.com", UserName = "john", Password = "123456"},
- new User() {Id = 2, Email = "rick@gmail.com", UserName = "rick", Password = "654321"},
- };
- }
+    public IEnumerable<User> GetAll()
+    {
+        return new User[]
+        {
+            new User() {Id = 1, Email = "john@gmail.com", UserName = "john", Password = "123456"},
+            new User() {Id = 2, Email = "rick@gmail.com", UserName = "rick", Password = "654321"},
+        };
+    }
 }
 
 public interface IUserRepository
 {
- IEnumerable<User> GetAll();
+    IEnumerable<User> GetAll();
 }
-\[/code\]
+```
 
 Następnie do walidatora _UserViewModel_ wstrzyknijmy powyższe repozytorium i dodajmy regułę walidacji o unikalnym emailu.
 
-\[code lang="csharp"\]
+```csharp
 public class UserViewModelValidator : AbstractValidator<UserViewModel>
 {
- private IUserRepository userRepository;
+    private IUserRepository userRepository;
 
- public UserViewModelValidator(IUserRepository userRepository)
- {
- this.userRepository = userRepository;
+    public UserViewModelValidator(IUserRepository userRepository)
+    {
+        this.userRepository = userRepository;
 
- this.RuleFor(r => r.UserName).NotEmpty().Length(0, 50);
+        this.RuleFor(r => r.UserName).NotEmpty().Length(0, 50);
 
- this.RuleFor(r => r.Email).NotEmpty().EmailAddress().Length(0, 100)
- .Must(BeUnique).WithMessage("Email must be unique.");
+        this.RuleFor(r => r.Email).NotEmpty().EmailAddress().Length(0, 100)
+            .Must(BeUnique).WithMessage("Email must be unique.");
 
- this.RuleFor(r => r.Password).NotEmpty().Length(6, 50);
- }
+        this.RuleFor(r => r.Password).NotEmpty().Length(6, 50);
+    }
 
- private bool BeUnique(string email)
- {
- var emailFound = userRepository.GetAll().Any(u => u.Email == email);
- return !emailFound;
- }
+    private bool BeUnique(string email)
+    {
+        var emailFound = userRepository.GetAll().Any(u => u.Email == email);
+        return !emailFound;
+    }
 }
-\[/code\]
+```
 
 Teraz część najważniejsza - połączenie naszego kontenera z _FluentValidation_. Ja mój przykład oparłem o kontener _Autofac_, ale analogiczny kod można stworzyć dla każdego używanego przez nas kontenera. Poniższe 2 listy kodu znajdują się w konfiguracji kontenera, u mnie w pliku _Global.asax.cs_.
 
 Najpierw przeskanujmy nasz projekt w poszukiwaniu walidatorów,aby połączyć je z interfejsami.
 
-\[code lang="csharp"\]
+```csharp
 AssemblyScanner.FindValidatorsInAssembly(Assembly.GetExecutingAssembly())
- .ForEach(match =>
- {
- builder.RegisterType(match.ValidatorType).As(match.InterfaceType);
- });
-\[/code\]
+    .ForEach(match =>
+    {
+        builder.RegisterType(match.ValidatorType).As(match.InterfaceType);
+    });
+```
 
 Kolejnym krokiem będzie poinformowanie _FluentValidation_, że walidatory powinny być instancjonowane przez _Autofac_. Robi się to przez rozwinięcie istniejącej już konfiguracji o informacje o fabryce walidatorów. Taką konfigurację trzeba dokonać osobno dla _ASP.NET MVC_ i _ASP.NET WebAPI_.
 
-\[code lang="csharp"\]
+```csharp
 FluentValidation.Mvc.FluentValidationModelValidatorProvider.Configure(
- p => p.ValidatorFactory = new AutofacValidatorFactory(container));
+    p => p.ValidatorFactory = new AutofacValidatorFactory(container));
 
 FluentValidation.WebApi.FluentValidationModelValidatorProvider.Configure(GlobalConfiguration.Configuration, 
- p => p.ValidatorFactory = new AutofacValidatorFactory(container));
-\[/code\]
+    p => p.ValidatorFactory = new AutofacValidatorFactory(container));
+```
 
 Poniżej przedstawiam przykładowy kod fabryki walidatorów. Wyszukuje ona w kontenerze walidator wymaganego typu.
 
-\[code lang="csharp"\]
+```csharp
 public class AutofacValidatorFactory : ValidatorFactoryBase
 {
- private readonly IContainer container;
+    private readonly IContainer container;
 
- public AutofacValidatorFactory(IContainer container)
- {
- this.container = container;
- }
+    public AutofacValidatorFactory(IContainer container)
+    {
+        this.container = container;
+    }
 
- public override IValidator CreateInstance(Type validatorType)
- {
- IValidator validator = (IValidator)container.Resolve(validatorType);
- return validator;
- }
+    public override IValidator CreateInstance(Type validatorType)
+    {
+        IValidator validator = (IValidator)container.Resolve(validatorType);
+        return validator;
+    }
 }
-\[/code\]
+```
 
 I to wszystko - wstrzykiwanie zależności do walidatorów powinno działać. Nie potrzeba dodatkowej konfiguracji w samym _MVC_ / _WebAPI_ \- _FluentValidation_ przez konfigurację fabryki wszystkim się zajmuje. By być całkowicie pewnym dokonajmy prostych testów tej funkcjonalności dokonując zapytań z poziomu przeglądarki i Postmana.
 ![chrome_2016-04-18_23-26-54](http://radblog.pl/wp-content/uploads/2016/04/chrome_2016-04-18_23-26-54.png)
@@ -130,8 +130,8 @@ Oczywiście tak jest - możliwym rozwiązaniem jest tak jak podałeś powyżej w
 
 Można się również pokusić o usunięcie cachowania / buforowania walidatorów przez lekki hak na WebAPI:
 
- Assembly httpAssembly = Assembly.Load("System.Web.Http");
- Type cacheType = httpAssembly.GetType("System.Web.Http.Validation.IModelValidatorCache");
- GlobalConfiguration.Configuration.Services.Clear(cacheType));
+            Assembly httpAssembly = Assembly.Load("System.Web.Http");
+            Type cacheType = httpAssembly.GetType("System.Web.Http.Validation.IModelValidatorCache");
+            GlobalConfiguration.Configuration.Services.Clear(cacheType));
 
 Co usunie nam mechanizm buforowania i sprawi że zawsze będzie wywoływane tworzenie walidatora. Niestety interfejs IModelValidatorCache jest internal, przez wymagane jest wsparcie się refleksją.

@@ -16,40 +16,40 @@ To avoid such problems **I can fully recommend** Sam Newman's book ["Building M
 
 Let me show you my list, about what I found interesting in this book [(click here to omit)](#list-end):
 
-*   Evolutionary Architect guidelines
-*   Explanation why we should start from monolith and when should you divide it
+ *   Evolutionary Architect guidelines
+ *   Explanation why we should start from monolith and when should you divide it
     
-    *   And why [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) is crucial with a decomposition of a monolith
+     *   And why [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) is crucial with a decomposition of a monolith
     
-*   Different models of integrations between services
-*   2 kinds of event architecture
-*   [Catastrophic failover ](https://martinfowler.com/bliki/CatastrophicFailover.html) - and how to handle it
-*   Why sometimes [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is wrong in the world of microservices
-*   Integration patterns for User Interface
-*   [Strangler pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)  - request mappings between legacy and the new system
-*   How to split the database - 5 ideas
-*   Report databases - 5 patterns
-*   The need for deep automatization
+ *   Different models of integrations between services
+ *   2 kinds of event architecture
+ *   [Catastrophic failover ](https://martinfowler.com/bliki/CatastrophicFailover.html) - and how to handle it
+ *   Why sometimes [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is wrong in the world of microservices
+ *   Integration patterns for User Interface
+ *   [Strangler pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)  - request mappings between legacy and the new system
+ *   How to split the database - 5 ideas
+ *   Report databases - 5 patterns
+ *   The need for deep automatization
     
-    *   [Docker](https://www.docker.com/) and dynamic environments
+     *   [Docker](https://www.docker.com/) and dynamic environments
     
-*   [Mountebank](http://www.mbtest.org/)  -  library to fake HTTP / TCP requests
-*   [Consumer-driven contract tests](https://martinfowler.com/articles/consumerDrivenContracts.html) \- remedy for end-to-end tests
+ *   [Mountebank](http://www.mbtest.org/)  -  library to fake HTTP / TCP requests
+ *   [Consumer-driven contract tests](https://martinfowler.com/articles/consumerDrivenContracts.html) \- remedy for end-to-end tests
     
-    *   [Pact](https://docs.pact.io/) \- library for CDC tests
+     *   [Pact](https://docs.pact.io/) \- library for CDC tests
     
-*   [MTBF](https://en.wikipedia.org/wiki/Mean_time_between_failures) and [MTTR](https://en.wikipedia.org/wiki/Mean_time_to_repair)  - often is better to embrace failure
-*   [Graphite](https://graphiteapp.org/) \- a tool for generation and analysis of metric data - CPU, RAM, timings
-*   [Synthetic monitoring](https://martinfowler.com/bliki/SyntheticMonitoring.html) - production testing
-*   Metrics importance - well-implemented metrics helps business to react to problems and make choices
-*   Mulitple microservices authentication options
-*   [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - how it affects microservices
+ *   [MTBF](https://en.wikipedia.org/wiki/Mean_time_between_failures) and [MTTR](https://en.wikipedia.org/wiki/Mean_time_to_repair)  - often is better to embrace failure
+ *   [Graphite](https://graphiteapp.org/) \- a tool for generation and analysis of metric data - CPU, RAM, timings
+ *   [Synthetic monitoring](https://martinfowler.com/bliki/SyntheticMonitoring.html) - production testing
+ *   Metrics importance - well-implemented metrics helps business to react to problems and make choices
+ *   Mulitple microservices authentication options
+ *   [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - how it affects microservices
     
-    *   How Conway's law affected building Microsoft Vista
+     *   How Conway's law affected building Microsoft Vista
     
-*   [Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead) pattern - how to achieve isolation between components
-*   Scaling databases options, both from read and write sides
-*   Dynamic service register libraries - [Consul](https://www.consul.io/) and [Eureka](https://github.com/Netflix/eureka)
+ *   [Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead) pattern - how to achieve isolation between components
+ *   Scaling databases options, both from read and write sides
+ *   Dynamic service register libraries - [Consul](https://www.consul.io/) and [Eureka](https://github.com/Netflix/eureka)
 
 Each chapter contains multiple topics that you want to add to your OneNote. I noted further appealing topics but I won't bother you with them - I am sure that each of you will find something new and outstanding in that book.
 

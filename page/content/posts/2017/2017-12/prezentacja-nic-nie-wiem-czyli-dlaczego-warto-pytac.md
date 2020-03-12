@@ -16,10 +16,10 @@ W naszym informatycznym świecie projekcja powoduje to, że realne potrzeby kli
 
 Sam pracowałem przy wielu systemach gdzie wystąpił ten problem np.:
 
-*   Platforma sklepów online - wdrożenie funkcjonalności promocji, podczas gdy klienci o nią nie prosili.
-*   System do zarządzania flotą samolotów - generowanie wykresów innego typu niż pracownicy potrzebowali.
-*   System do zarządzania dostawami towarów - dokładne odwzorowanie funkcji magazynu, gdy pracownicy chcieli jedynie import z Excela i edycję wielu wierszy.
-*   Platforma abonamentów online - skupienie się na klientach biznesowych, a tak naprawdę oni sami nie byli zainteresowani współpracą.
+ *   Platforma sklepów online - wdrożenie funkcjonalności promocji, podczas gdy klienci o nią nie prosili.
+ *   System do zarządzania flotą samolotów - generowanie wykresów innego typu niż pracownicy potrzebowali.
+ *   System do zarządzania dostawami towarów - dokładne odwzorowanie funkcji magazynu, gdy pracownicy chcieli jedynie import z Excela i edycję wielu wierszy.
+ *   Platforma abonamentów online - skupienie się na klientach biznesowych, a tak naprawdę oni sami nie byli zainteresowani współpracą.
 
 Niestety ten ostatni przykład związany jest moim wlasnym błędem. Poświęciłem naprawdę dużo czasu i pieniędzy na stworzenie czegoś, czego finalnie nawet nie udało się testowo wdrożyć. Zamiast programować platformę mogłem zapytać się klientów końcowych o ich potrzeby i na podstawie tej wiedzy zweryfikować i odpowiednio dostosować swój pierwotny pomysł.
 
@@ -43,9 +43,9 @@ Tutaj część osób mogłaby się zapytać co my programiści możemy zapropono
 
 Gdy rozumiemy potrzeby biznesowe klienta to już podczas planowania pracy programistycznej jesteśmy w stanie:
 
-*   Prawidłowo określić sensowność danej funkcji i poprawić błąd analizy biznesowej.
-*   Na podstawie wiedzy o budowie systemu zaproponować tańsze rozwiązanie problemu.
-*   Zaplanować wykonanie funkcji najprostszym sposobem i ominąć czasochłonne działania, które nie są kluczowe dla całosci.
+ *   Prawidłowo określić sensowność danej funkcji i poprawić błąd analizy biznesowej.
+ *   Na podstawie wiedzy o budowie systemu zaproponować tańsze rozwiązanie problemu.
+ *   Zaplanować wykonanie funkcji najprostszym sposobem i ominąć czasochłonne działania, które nie są kluczowe dla całosci.
 
 Nikt nam nie każe być maszyną przetwarzającą wymagania, kawę i pizzę w kod - powinniśmy pytać analityków czy product ownerów w jakim celu mamy wdrażać daną funkcję, jaką wartość z tego będzie miał klient, w czym mu ona pomoże. Takie podejście sprawi, że lepiej poznamy potrzeby stojące za wymaganiami i będziemy mogli mądrzej / wydajniej przełożyć te wymagania na kod systemu.
 

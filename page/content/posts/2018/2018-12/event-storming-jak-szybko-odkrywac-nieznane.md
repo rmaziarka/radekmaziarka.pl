@@ -38,13 +38,13 @@ Po umieszczeniu wszystkich zdarzeń na ścianie zaczyna się porządkowanie i uk
 
 Aby bardziej uwidocznić prawidłowości zachodzące w analizowanym procesie przychodzą nam z pomocą karteczki w innych kolorach, których zadaniem jest zwizualizowanie dodatkowych informacji o systemie:
 
-*   Jasno-żółte – notatki, opisujące jakiś szerszy temat
-*   Różowe – problemy / niejasności / ryzyka
-*   Liliowy – zewnętrzne systemy
-*   Małe żółte – aktorzy / osoby / działy
-*   Zielone – szanse na rozwój / poprawę
-*   Niebieskie – komendy
-*   Inne
+ *   Jasno-żółte – notatki, opisujące jakiś szerszy temat
+ *   Różowe – problemy / niejasności / ryzyka
+ *   Liliowy – zewnętrzne systemy
+ *   Małe żółte – aktorzy / osoby / działy
+ *   Zielone – szanse na rozwój / poprawę
+ *   Niebieskie – komendy
+ *   Inne
 
 Nowe kolory wprowadzamy je do warsztatu stopniowo, kiedy potrzebujemy uzyskać daną informację od naszych kolegów.
 
@@ -53,12 +53,12 @@ Cele warsztatu
 
 Rezultatem dobrze przeprowadzonego warsztatu jest pełny widok naszego systemu, zarysowane procesy biznesowe i sposób ich interakcji z użytkownikami i zewnętrznymi systemami. Taka wiedza pozwala nam na:
 
-*   głębsze zrozumienie systemu nad którym pracujemy, ustalenie wspólnego postrzegania pomiędzy wieloma pracownikami / stakeholderami
-*   wizualizację sposobu pracy systemu, która pozwala np. podzielić go na mniejsze części / mikroserwisy
-*   odpowiednio szybką wymianę wiedzy, aby np. wdrożyć nowych programistów do pracy nad systemem
-*   analizę aktualnych problemów systemu wraz z pomysłami jak je naprawić
-*   stworzenie planu na dodanie nowej funkcjonalności do obecnego systemu
-*   predykcję możliwości rozwoju naszego systemu i osiągania większych zysków
+ *   głębsze zrozumienie systemu nad którym pracujemy, ustalenie wspólnego postrzegania pomiędzy wieloma pracownikami / stakeholderami
+ *   wizualizację sposobu pracy systemu, która pozwala np. podzielić go na mniejsze części / mikroserwisy
+ *   odpowiednio szybką wymianę wiedzy, aby np. wdrożyć nowych programistów do pracy nad systemem
+ *   analizę aktualnych problemów systemu wraz z pomysłami jak je naprawić
+ *   stworzenie planu na dodanie nowej funkcjonalności do obecnego systemu
+ *   predykcję możliwości rozwoju naszego systemu i osiągania większych zysków
 
 Przykładowy rezultat warsztatu
 ==============================
@@ -69,13 +69,13 @@ Jeden wielu z takich warsztatów przeprowadziliśmy dla naszego klienta. Zadanie
 
 Warsztat trwał kilka godzin, a po skończeniu pracy byliśmy w stanie zrozumieć:
 
-*   Jakie części systemu są trywialne i nie musimy się nimi przejmować
-*   Jakie części systemy powinny zostać od siebie odseparowane do osobnych modułów / mikroserwisów
-*   Gdzie powinny leżeć granice takich modułów
-*   W jaki sposób powinny się te moduły komunikować
-*   Jak gromadzić dane pomiędzy modułami, by nie mieć zbyt częstej komunikacji
-*   Jakie mamy realne i potencjalne problemy z obecnym systemem, które musimy rozwiązać
-*   Które systemy zewnętrzne sprawiają problemy
+ *   Jakie części systemu są trywialne i nie musimy się nimi przejmować
+ *   Jakie części systemy powinny zostać od siebie odseparowane do osobnych modułów / mikroserwisów
+ *   Gdzie powinny leżeć granice takich modułów
+ *   W jaki sposób powinny się te moduły komunikować
+ *   Jak gromadzić dane pomiędzy modułami, by nie mieć zbyt częstej komunikacji
+ *   Jakie mamy realne i potencjalne problemy z obecnym systemem, które musimy rozwiązać
+ *   Które systemy zewnętrzne sprawiają problemy
 
 Wszyscy uczestnicy warsztatów byli bardzo zadowoleni z rezultatów, ale jednocześnie zdumieni, że to wszystko udało się osiągnąć w ciągu jednego dnia.
 
@@ -97,9 +97,9 @@ Istnieje wiele materiałów opisujących warsztat Event Stormingu, zarówno w j�
 
 Także, do dzieła! Gdyby Cię interesował temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)** lub pozostałe posty z tego tematu:
 
-*   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
-*   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
-*   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
+ *   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
+ *   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
+ *   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
 
 ---
 ### Comments:

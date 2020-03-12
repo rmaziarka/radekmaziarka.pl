@@ -45,12 +45,12 @@ Mówi się, że [błędy poznawcze](https://pl.wikipedia.org/wiki/B%C5%82%C4%85d
 
 Warsztat pozwala mylić i następnie szybko uczyć się na swojej pomyłce:
 
-*   Niechęć do straty - Zrzucenie błędnej kartki na ziemie nie kosztuje nas wiele, a ułatwia podejmowanie decyzji i zachęca do poprawy wizualizacji naszego procesu.
-*   Efekt potwierdzenia / [zaprzeczenia](https://pl.wikipedia.org/wiki/Efekt_zaprzeczania) – Przez odpowiednie zadawanie sobie pytań typu „Co może pójść nie tak?”, „Czy możliwy jest inny scenariusz?” łatwiej jest wyprowadzić uczestników z własnej nieomylności.
-*   [Iluzja grupowania](https://pl.wikipedia.org/wiki/Iluzja_grupowania) – Wizualizując proces łatwiej zauważymy, że nie jest on taki powtarzalny / regularny jak nam się wydawało.
-*   [Efekt skupienia](https://pl.wikipedia.org/wiki/Efekt_skupienia) – Warsztat pozwala pokazać pełne spektrum problemu, przez co można uniknąć skupienia się na detalach ważnych tylko dla jednej osoby / grupy osób.
-*   [Heurestyka zakotwiczenia](https://pl.wikipedia.org/wiki/Heurystyka_zakotwiczenia_i_dostosowania) – Mając koło siebie grono osób z różnych obszarów łatwiej jest uniknąć zaczepienia tylko na jednej, pierwszej informacji.
-*   [Złudzenie planowania](https://pl.wikipedia.org/wiki/Z%C5%82udzenie_planowania) – Warsztaty obrazują prawdziwą, a nie kreowaną złożoność procesu (systemy zewnętrzne, persony, scenariusze, wąskie gardła) co pozwala zdać sobie sprawę ze skalą problemu, z którym się zmagamy.
+ *   Niechęć do straty - Zrzucenie błędnej kartki na ziemie nie kosztuje nas wiele, a ułatwia podejmowanie decyzji i zachęca do poprawy wizualizacji naszego procesu.
+ *   Efekt potwierdzenia / [zaprzeczenia](https://pl.wikipedia.org/wiki/Efekt_zaprzeczania) – Przez odpowiednie zadawanie sobie pytań typu „Co może pójść nie tak?”, „Czy możliwy jest inny scenariusz?” łatwiej jest wyprowadzić uczestników z własnej nieomylności.
+ *   [Iluzja grupowania](https://pl.wikipedia.org/wiki/Iluzja_grupowania) – Wizualizując proces łatwiej zauważymy, że nie jest on taki powtarzalny / regularny jak nam się wydawało.
+ *   [Efekt skupienia](https://pl.wikipedia.org/wiki/Efekt_skupienia) – Warsztat pozwala pokazać pełne spektrum problemu, przez co można uniknąć skupienia się na detalach ważnych tylko dla jednej osoby / grupy osób.
+ *   [Heurestyka zakotwiczenia](https://pl.wikipedia.org/wiki/Heurystyka_zakotwiczenia_i_dostosowania) – Mając koło siebie grono osób z różnych obszarów łatwiej jest uniknąć zaczepienia tylko na jednej, pierwszej informacji.
+ *   [Złudzenie planowania](https://pl.wikipedia.org/wiki/Z%C5%82udzenie_planowania) – Warsztaty obrazują prawdziwą, a nie kreowaną złożoność procesu (systemy zewnętrzne, persony, scenariusze, wąskie gardła) co pozwala zdać sobie sprawę ze skalą problemu, z którym się zmagamy.
 
 [![](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9432.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9432.jpg)Bardzo dobrym podsumowaniem, dlaczego błędy poznawcze są kosztowne, jest powyższe zdjęcie – **każda z tych kartek to błędna decyzja, którą odrzuciliśmy jeszcze na etapie analizy biznesowej**. Gdyby została ona zaimplementowana to koszt jej poprawy byłby 1000-krotnie większy niż zrzucenie kartki na ziemię.
 
@@ -65,9 +65,9 @@ Divergent / Emergent / Convergent - [http://timkastelle.org/blog/2010/10/two-way
 
 Warsztaty pozwalają zaadresować ten problem poprzez podział pracy nad procesem na 3 fazy:
 
-*   Divergent - Rozpoczynamy od fazy podziału danego procesu na mniejsze. Każdy opisuje co jest dla niego ważne w i czym się powinniśmy zająć.
-*   Emergent – Adresujemy rezultat poprzedniej fazy, poprzez odpowiednią strukturyzację i pracę w grupach. Jednak nie nad każdym elementem musi przystawać cała grupa – możemy podzielić się na mniejsze części i odpowiednio nad nimi pracować.
-*   Convergent – Na końcu, krok po kroku, coraz bardziej zawężamy rezultaty warsztatu. Ostatecznie wybieramy te, które są dla nas najważniejsze i od których chcielibyśmy rozpocząć dalszą pracę.
+ *   Divergent - Rozpoczynamy od fazy podziału danego procesu na mniejsze. Każdy opisuje co jest dla niego ważne w i czym się powinniśmy zająć.
+ *   Emergent – Adresujemy rezultat poprzedniej fazy, poprzez odpowiednią strukturyzację i pracę w grupach. Jednak nie nad każdym elementem musi przystawać cała grupa – możemy podzielić się na mniejsze części i odpowiednio nad nimi pracować.
+ *   Convergent – Na końcu, krok po kroku, coraz bardziej zawężamy rezultaty warsztatu. Ostatecznie wybieramy te, które są dla nas najważniejsze i od których chcielibyśmy rozpocząć dalszą pracę.
 
 Taka formuła warsztatu jest bardzo efektywna – pozwala skupić się na tym, co jest dla nas ważne, ale jednocześnie inne osoby mogą pracować zupełnie oddzielnie. **Praca przyśpiesza, bo możemy pracować równolegle.**
 
@@ -91,10 +91,10 @@ Chyba Event Storming za bardzo zawrócił mi w głowie 😉 Niech Event Storming
 
 PS. Gdyby Cię interesował temat to polecam moje [szkolenie z Event Stormingu](https://radekmaziarka.pl/szkolenia-event-storming/) lub pozostałe posty z tego tematu:
 
-*   [Event Storming - Jak szybko odkrywać nieznane](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)
-*   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
-*   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
-*   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
+ *   [Event Storming - Jak szybko odkrywać nieznane](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)
+ *   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
+ *   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
+ *   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
 
 ---
 ### Comments:

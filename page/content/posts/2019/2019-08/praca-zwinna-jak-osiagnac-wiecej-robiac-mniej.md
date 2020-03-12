@@ -17,7 +17,7 @@ Minimalizacja Work-in-progress
 
 Pracując w swoim otoczeniu biznesowym mamy możliwość brania coraz to większej ilości zadań. Robię X, ale jednocześnie ktoś poprosił o Y to też nad tym pracuje, a Z leży już rozgrzebane od tygodnia. Wydaje nam się, że dzięki temu osiągamy więcej. Pracujemy efektywnie, bo jednocześnie dowozimy kilka różnych funkcjonalności. Duży błąd.
 
-\[caption id="attachment\_1867" align="aligncenter" width="770"\][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law-1024x496.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com\[/caption\]
+[caption id="attachment\_1867" align="aligncenter" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law-1024x496.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com[/caption]
 
 W 1961 roku John Little udowodnił prawo, nazwane później jego nazwiskiem – [prawo Little’a](https://pl.wikipedia.org/wiki/Prawo_Little%E2%80%99a). Mówi ono, że średni czas przebywania pojedynczego zadania w systemie bezpośrednio koreluje z ilością zadań. Im więcej mamy zadań, a nie zwiększamy mocy przerobowych (załóżmy, że nie robimy nadgodzin), tym dłużej zadania trwają. Redukując ilość trwających zadań zmniejszamy czas dostarczenia.
 
@@ -30,18 +30,18 @@ Praca w małych partiach
 
 Największym wrogiem minimalizacji Work-in-progress są ogromne zadania:
 
-*   Praca trwa nad nimi godzinami, dniami, a nawet tygodniami.
-*   Zanim skończymy jedno zadanie wskakuje kolejne, którym musimy się zająć.
-*   Trudno jest ustalić kryterium zakończenia zadania.
-*   Często zdarzają się przestoje, ponieważ pojawiły się dodatkowe zależności.
-*   Mają dużo błędów, które opóźniają ich wykonanie.
+ *   Praca trwa nad nimi godzinami, dniami, a nawet tygodniami.
+ *   Zanim skończymy jedno zadanie wskakuje kolejne, którym musimy się zająć.
+ *   Trudno jest ustalić kryterium zakończenia zadania.
+ *   Często zdarzają się przestoje, ponieważ pojawiły się dodatkowe zależności.
+ *   Mają dużo błędów, które opóźniają ich wykonanie.
 
 Aby zminimalizować ilość trwającej pracy najlepszym sposobem jest praca na małych partiach. Bardzo dobrze obrazuje to gra [Penny Game](https://medium.com/@brunodelb/the-agile-game-penny-game-to-observe-the-influence-of-the-batch-size-of-tickets-on-a-kanban-board-ead307542e52):
 
-*   Osoby są umieszczone jedna po drugiej
-*   Pierwsza osoba odwraca monety
-*   Może przełożyć odwrócone monety dopiero, gdy uzbiera odpowiednia ilość w partii
-*   Ilość w partii zmienia się co rundę, odpowiednio: wszystkie / 20 / 10 / 5 / 1 moneta
+ *   Osoby są umieszczone jedna po drugiej
+ *   Pierwsza osoba odwraca monety
+ *   Może przełożyć odwrócone monety dopiero, gdy uzbiera odpowiednia ilość w partii
+ *   Ilość w partii zmienia się co rundę, odpowiednio: wszystkie / 20 / 10 / 5 / 1 moneta
 
 Po zakończonej grze jasno widać, że najszybciej praca przebiega, gdy przekazujemy pracę do następnej osoby wcześniej, niż później. Przy przesuwaniu wszystkich monet gra trwa kilka minut, przy 1 monecie może zamknąć się poniżej minuty. I tak samo jest w naszej codziennej pracy.
 
@@ -54,7 +54,7 @@ Praca w zespole dostarczającym to praca wspólna, mająca na celu dostarczanie 
 
 Np. często słyszy się o takim pojęciu jak „górka testerska”. Czyli mamy jednego testera w zespole, który nie wyrabia się z testowaniem funkcjonalności, których dostarczamy. Z drugiej strony developerzy wrzucają co raz to nowe zadania jeszcze tylko zwiększając ilość pracy testera. Nikogo nie interesuje, ile zadań jest rozpoczęte – ważne, by wyrabiać kolejne zadania. A to wcale nie posuwa nas do przodu, a nawet jeszcze bardziej opóźnia dostarczanie.
 
-\[caption id="attachment\_1868" align="aligncenter" width="550"\][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png) By Newcastle Systems at https://www.newcastlesys.com/blog/warehouse-bottlenecks-that-need-your-attention\[/caption\]
+[caption id="attachment\_1868" align="aligncenter" width="550"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png) By Newcastle Systems at https://www.newcastlesys.com/blog/warehouse-bottlenecks-that-need-your-attention[/caption]
 
 Dlatego zamiast skupiać się na efektywności pojedynczej osoby warto spojrzeć szerzej i zastanowić się co jest naszym [wąskim gardłem](https://mfiles.pl/pl/index.php/W%C4%85skie_gard%C5%82o) w procesie. I ten problem starać się rozwiązywać. Możemy przecież spytać naszego testera, czy nie pomóc mu w testowaniu konkretnego obszaru, którego sami nie pisaliśmy. Albo przeanalizować z nim poszczególne zadania przed rozpoczęciem pracy, by uniknąć trywialnych błędów. Zdejmiemy z niego część obowiązków a dzięki temu przyśpieszymu cały proces.
 
@@ -76,7 +76,7 @@ I nie mam tutaj na celu typowych spotkań typu Retrospektywa. One są tylko jedn
 
 Samodoskonalenie można postrzegać jak wdrożenie w życie schematu nazwanego [Cyklem Deminga](https://pl.wikipedia.org/wiki/Cykl_Deminga).
 
-\[caption id="attachment\_1869" align="aligncenter" width="400"\][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png) By Karn Bulsuk at https://pl.wikipedia.org/wiki/Cykl\_Deminga\[/caption\]
+[caption id="attachment\_1869" align="aligncenter" width="400"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png) By Karn Bulsuk at https://pl.wikipedia.org/wiki/Cykl\_Deminga[/caption]
 
 Do tego nie potrzeba żadnych specjalnych spotkań, ceremonii, inicjatyw. Widzimy, że coś nie działa odpowiednio i staramy się to zaadresować. Metodą małych kroków poprawiamy rzeczywistość wokół nas. Z dnia na dzień nasza praca staje się o wiele przyjemniejsza, ale przede wszystkim bardziej efektywna.
 
@@ -89,12 +89,12 @@ Odpowiednio dobrze dobrane narzędzia bądź techniki pozwalają nam z tymi prob
 
 Możemy zastosować np.:
 
-*   [Limit Work-in-Progress](https://kanbanize.com/kanban-resources/getting-started/what-is-wip/) – by nie przekraczać zbyt dużej ilości rozgrzebanych zadań
-*   [Macierz zależności](https://en.wikipedia.org/wiki/Design_structure_matrix) – by zwizualizować które komponenty łączą się ze sobą
-*   [Wydrukowanie Definition of Ready / Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will/) – by zawsze przypominały o sposobie pracy w zespole
-*   [Oznaczenie pracy nieplanowanej](https://medium.com/agilelab/unplanned-work-cheat-sheet-fc30b7392ed8) – by później się zastanowić nad powodami jej wystąpienia
-*   [Naklejenie kartki z blokerem](https://www.infoq.com/articles/blockers-defects-process-improvement/) – by pokazać, że kolejny dzień nie możemy nad czymś pracować
-*   [Barometr zespołu](https://blog.crisp.se/2014/01/30/jimmyjanlen/team-barometer-self-evaluation-tool) – by dostrzec jakie jest morale zespołu
+ *   [Limit Work-in-Progress](https://kanbanize.com/kanban-resources/getting-started/what-is-wip/) – by nie przekraczać zbyt dużej ilości rozgrzebanych zadań
+ *   [Macierz zależności](https://en.wikipedia.org/wiki/Design_structure_matrix) – by zwizualizować które komponenty łączą się ze sobą
+ *   [Wydrukowanie Definition of Ready / Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will/) – by zawsze przypominały o sposobie pracy w zespole
+ *   [Oznaczenie pracy nieplanowanej](https://medium.com/agilelab/unplanned-work-cheat-sheet-fc30b7392ed8) – by później się zastanowić nad powodami jej wystąpienia
+ *   [Naklejenie kartki z blokerem](https://www.infoq.com/articles/blockers-defects-process-improvement/) – by pokazać, że kolejny dzień nie możemy nad czymś pracować
+ *   [Barometr zespołu](https://blog.crisp.se/2014/01/30/jimmyjanlen/team-barometer-self-evaluation-tool) – by dostrzec jakie jest morale zespołu
 
 W zasadzie ogranicza nas jedynie własna wyobraźnia. Bądź narzędzie, które używamy. Dlatego też jestem zwolennikiem pracy przy tablicy fizycznej, kiedy zespół jest kolokowany fizycznie – łatwiej jest dokonywać takich zmian jakie nam są potrzebne. Przy systemie informatycznym jest to o wiele trudniejsze (ale nie niemożliwe).
 

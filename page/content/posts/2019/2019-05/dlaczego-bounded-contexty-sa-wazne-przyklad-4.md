@@ -8,7 +8,7 @@ category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---
 
-// wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
+ // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
 
 Po poprzednich, bardziej teoretycznych postach, warto przejść do praktyki. W kilku następnych postach pokażę problemy, jakie powstały przez brak wydzielonych kontekstów w aplikacji.
 
@@ -55,8 +55,8 @@ Rozwiązanie
 
 W zasadzie, w opisanej sytuacji są możliwe 2 rozwiązania, które zależą od tego, jak chcemy uformować zespoły:
 
-*   Biznes i developerzy razem - planujemy ścisłą kooperację pomiędzy działem biznesowych i technicznym, która będzie przyporządkowana kontekstom biznesowym
-*   Biznes i developerzy osobno - chcemy by każdy z tych działów mógł pracować niezależnie od siebie, na podstawie zdefiniowanych reguł pracy
+ *   Biznes i developerzy razem - planujemy ścisłą kooperację pomiędzy działem biznesowych i technicznym, która będzie przyporządkowana kontekstom biznesowym
+ *   Biznes i developerzy osobno - chcemy by każdy z tych działów mógł pracować niezależnie od siebie, na podstawie zdefiniowanych reguł pracy
 
 ### Biznes i developerzy razem
 

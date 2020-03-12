@@ -14,19 +14,19 @@ Załóżmy, że dostałeś podwyżkę. Podpisujesz aneks do umowy i następnie m
 
 **Z zewnątrz, jako pracownik (jako użytkownik modułu):**
 
-*   nikt Ci nie pozwoli samemu zmienić sobie informacji o pensji (brak możliwości modyfikacji bazy danych spoza modułu)
-*   nie masz również zielonego pojęcia w jaki sposób składowane są dane o Tobie (brak wiedzy o strukturze wewnętrznej modułu)
-*   na straży działu stoi pani Krysia (określone API)
-*   do niej składa się podpisany aneks umowy z podwyżką (żądanie HTTP do modułu)
-*   pani Krysia mówi że przyjęła aneks (odpowiedź HTTP 200 OK)
-*   po miesiącu pracy dostajesz wyższe wynagrodzenie (wiadomość asynchroniczna otrzymana z modułu)
+ *   nikt Ci nie pozwoli samemu zmienić sobie informacji o pensji (brak możliwości modyfikacji bazy danych spoza modułu)
+ *   nie masz również zielonego pojęcia w jaki sposób składowane są dane o Tobie (brak wiedzy o strukturze wewnętrznej modułu)
+ *   na straży działu stoi pani Krysia (określone API)
+ *   do niej składa się podpisany aneks umowy z podwyżką (żądanie HTTP do modułu)
+ *   pani Krysia mówi że przyjęła aneks (odpowiedź HTTP 200 OK)
+ *   po miesiącu pracy dostajesz wyższe wynagrodzenie (wiadomość asynchroniczna otrzymana z modułu)
 
 **Z wewnątrz, jako dział finansów (konkretny moduł):**
 
-*   masz panią Krysię odpowiedzialną za kontakt z petentami (określone API)
-*   po złożeniu aneksu osoby z działu analizują umowę (wewnętrzna logika biznesowa)
-*   w następstwie pani Ania, główna księgowa, podwyższa pensję w systemie (aktualizacja bazy danych)
-*   gdy mija miesiąc to Ania wysyła odpowiednio wyższe wynagrodzenie (wiadomość asynchroniczna wysłana z modułu)
+ *   masz panią Krysię odpowiedzialną za kontakt z petentami (określone API)
+ *   po złożeniu aneksu osoby z działu analizują umowę (wewnętrzna logika biznesowa)
+ *   w następstwie pani Ania, główna księgowa, podwyższa pensję w systemie (aktualizacja bazy danych)
+ *   gdy mija miesiąc to Ania wysyła odpowiednio wyższe wynagrodzenie (wiadomość asynchroniczna wysłana z modułu)
 
 I teraz hipotetyczna sytuacja – chcemy zmienić system finansowy na inny. Z punktu widzenia pracownika to jego proces aktualizacji wartości pensji się nie zmieni. Zostanie zmieniony jedynie wewnętrzny sposób działania działu finansów. Pracownik będzie nieświadomy tych zmian – dla niego ważny jest rezultat końcowy.
 

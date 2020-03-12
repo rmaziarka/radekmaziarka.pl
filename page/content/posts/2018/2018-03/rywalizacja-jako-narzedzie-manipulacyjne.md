@@ -30,8 +30,8 @@ Jest to może tylko ciekawostka, ale pokazuje jak łatwo jest nami manipulować 
 
 Oczywiście o ile w ramach WROC# Pub Quiz był to raczej efektu uboczny - liczyła się dobra zabawa - tak w realnym życiu może nie być tak kolorowo:
 
-*   Firmy tworzą rywalizację, by pracownicy mocniej się angażowali i konkurowali ze sobą o wyższą sprzedaż.
-*   W grach stosuje się grywalizację i konkurencję pomiędzy uczestnikami, by napędzić zakupy bonusów / dodatków / usprawnień.
-*   Na licytacjach, gdzie mamy ograniczoną ilość czasu, kupujemy towary drożej niż byśmy chcieli.
+ *   Firmy tworzą rywalizację, by pracownicy mocniej się angażowali i konkurowali ze sobą o wyższą sprzedaż.
+ *   W grach stosuje się grywalizację i konkurencję pomiędzy uczestnikami, by napędzić zakupy bonusów / dodatków / usprawnień.
+ *   Na licytacjach, gdzie mamy ograniczoną ilość czasu, kupujemy towary drożej niż byśmy chcieli.
 
 Mając na uwadze powyższe przypadki, warto być wyczulonym na każdą sytuację, gdzie konkurujemy ze sobą. Bardzo możliwe, że ktoś nami manipuluje, w celu osiągnięcia własnych korzyści.

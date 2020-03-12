@@ -15,16 +15,16 @@ $stateProvider
         resolve: {
             ..
             url: "/orders/{userId}",
-            orders: \['$stateParams', 'ordersService',
+            orders: ['$stateParams', 'ordersService',
                 function ($stateParams, ordersService) {
                     var userId = $stateParams.userId;
                     return ordersService.getOrders(userId);
                 }
-            \]
+            ]
         }
     });
 
-ordersCtrl.$inject = \['orders'\];
+ordersCtrl.$inject = ['orders'];
 function ordersCtrl(orders) { }
 
 ```
@@ -37,7 +37,7 @@ import { Resolve, ActivatedRouteSnapshot } from '@angular/router';
 import { OrdersService } from './contacts.service';
 
 @Injectable()
-export class OrdersResolve implements Resolve<Order\[\]> {
+export class OrdersResolve implements Resolve<Order[]> {
 
   constructor(private OrdersService: ordersService) {}
 
@@ -53,9 +53,9 @@ import { OrdersResolver } from '../resolvers';
 
 @NgModule({
   ...
-  providers: \[
+  providers: [
     OrdersResolver
-  \]
+  ]
 })
 export class AppModule {}
 ```
@@ -63,7 +63,7 @@ And **add resolver in routes**:
 ```
 import { OrdersResolver } from '../resolvers';
 
-export const AppRoutes: Routes = \[
+export const AppRoutes: Routes = [
   ...
   { 
     path: 'orders/:userId',
@@ -72,7 +72,7 @@ export const AppRoutes: Routes = \[
       orders: OrdersResolve
     }
   }
-\];
+];
 ```
 At the end, you **gather data from route object**:
 ```
@@ -84,7 +84,7 @@ export class OrdersComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    var orders = this.route.snapshot.data\['contact'\];
+    var orders = this.route.snapshot.data['contact'];
   }
 }
 ```

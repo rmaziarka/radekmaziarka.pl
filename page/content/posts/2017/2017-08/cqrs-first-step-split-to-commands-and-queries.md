@@ -12,10 +12,10 @@ This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/
 
 I will write about:
 
-1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
-2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
-3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
-4.  creating read model asynchronously with SignalR notification
+ 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
+ 4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
@@ -32,26 +32,26 @@ You find first weak spot - **product management**. Your products contain dynamic
 
 These models are heavily used by **ProductsService** - mainly consumer of logic from **ProductsController.** In this place, you want to start your focus. Below there is a simplified view of this service, with only 2 actions listed:
 
-*   GetProducts - returns products for product's grid
-*   ChangeProductFieldValue - sets value for specific product's field
+ *   GetProducts - returns products for product's grid
+ *   ChangeProductFieldValue - sets value for specific product's field
 
 ```
     public class ProductsService: IProductsService
     {
-        private readonly ProductDatabase \_database;
-        private readonly ICategoryFieldService \_categoryFieldService;
-        private readonly IFieldValidatorFactory \_fieldValidatorFactory;
-        private readonly IProductFieldHelper \_productFieldHelper;
+        private readonly ProductDatabase _database;
+        private readonly ICategoryFieldService _categoryFieldService;
+        private readonly IFieldValidatorFactory _fieldValidatorFactory;
+        private readonly IProductFieldHelper _productFieldHelper;
         
         public ProductsService(ProductDatabase database, 
             ICategoryFieldService categoryFieldService, 
             IProductFieldHelper productFieldHelper, 
             IFieldValidatorFactory fieldValidatorFactory)
         {
-            \_database = database;
-            \_categoryFieldService = categoryFieldService;
-            \_productFieldHelper = productFieldHelper;
-            \_fieldValidatorFactory = fieldValidatorFactory;
+            _database = database;
+            _categoryFieldService = categoryFieldService;
+            _productFieldHelper = productFieldHelper;
+            _fieldValidatorFactory = fieldValidatorFactory;
         }
 
         public IEnumerable<Product> GetProducts(GetProductsDto dto)
@@ -71,7 +71,7 @@ These models are heavily used by **ProductsService** - mainly consumer of logi
             if (dto.FieldValues != null)
             {
                 var fieldIds = dto.FieldValues.Select(fv => fv.Key).ToList();
-                var fields = \_database.Fields.Where(f => fieldIds.Contains(f.Id)).ToList();
+                var fields = _database.Fields.Where(f => fieldIds.Contains(f.Id)).ToList();
 
                 products = this.FilterFields(dto.FieldValues, fields, products);
             }
@@ -132,7 +132,7 @@ These models are heavily used by **ProductsService** - mainly consumer of logi
                 this.\_productFieldHelper.ReplaceFieldValue(product, dto.FieldId, dto.FieldValue);
             }
 
-            \_database.SaveChanges();
+            _database.SaveChanges();
         }
     }
 ```
@@ -180,11 +180,11 @@ Then you define handlers of these requests - they need to implement [IRequestHan
 ```
     public class GetProductsQueryHandler: IRequestHandler<GetProductsQuery, IEnumerable<Product>>
     {
-        private readonly ProductDatabase \_database;
+        private readonly ProductDatabase _database;
 
         public GetProductsQueryHandler(ProductDatabase database)
         {
-            \_database = database;
+            _database = database;
         }
 
         IEnumerable<Product> IRequestHandler<GetProductsQuery, IEnumerable<Product>>.Handle(GetProductsQuery command)
@@ -204,7 +204,7 @@ Then you define handlers of these requests - they need to implement [IRequestHan
             if (command.FieldValues != null)
             {
                 var fieldIds = command.FieldValues.Select(fv => fv.Key).ToList();
-                var fields = \_database.Fields.Where(f => fieldIds.Contains(f.Id)).ToList();
+                var fields = _database.Fields.Where(f => fieldIds.Contains(f.Id)).ToList();
 
                 products = this.FilterFields(command.FieldValues, fields, products);
             }
@@ -245,20 +245,20 @@ Then you define handlers of these requests - they need to implement [IRequestHan
 ```
     public class ChangeProductFieldValueCommandHandler: IRequestHandler<ChangeProductFieldValueCommand>
     {
-        private readonly ProductDatabase \_database;
-        private readonly ICategoryFieldService \_categoryFieldService;
-        private readonly IFieldValidatorFactory \_fieldValidatorFactory;
-        private readonly IProductFieldHelper \_productFieldHelper;
+        private readonly ProductDatabase _database;
+        private readonly ICategoryFieldService _categoryFieldService;
+        private readonly IFieldValidatorFactory _fieldValidatorFactory;
+        private readonly IProductFieldHelper _productFieldHelper;
 
         public ChangeProductFieldValueCommandHandler(ProductDatabase database, 
             ICategoryFieldService categoryFieldService, 
             IProductFieldHelper productFieldHelper, 
             IFieldValidatorFactory fieldValidatorFactory)
         {
-            \_database = database;
-            \_categoryFieldService = categoryFieldService;
-            \_productFieldHelper = productFieldHelper;
-            \_fieldValidatorFactory = fieldValidatorFactory;
+            _database = database;
+            _categoryFieldService = categoryFieldService;
+            _productFieldHelper = productFieldHelper;
+            _fieldValidatorFactory = fieldValidatorFactory;
         }
 
         public void Handle(ChangeProductFieldValueCommand command)
@@ -284,13 +284,13 @@ Then you define handlers of these requests - they need to implement [IRequestHan
                 this.\_productFieldHelper.ReplaceFieldValue(product, command.FieldId, command.FieldValue);
             }
 
-            \_database.SaveChanges();
+            _database.SaveChanges();
         }
     }
 ```
 Finally, you change your ProductController to publish messages by the injected mediator:
 ```
-    \[RoutePrefix("products")\]
+    [RoutePrefix("products")]
     public class ProductsController : ApiController
     {
         private readonly IMediator mediator;
@@ -300,15 +300,15 @@ Finally, you change your ProductController to publish messages by the injected m
             this.mediator = mediator;
         }
 
-        \[HttpGet\]
-        \[Route("")\]
-        public async Task<IEnumerable<Product>> Get(\[FromUri\]GetProductsQuery query)
+        [HttpGet]
+        [Route("")]
+        public async Task<IEnumerable<Product>> Get([FromUri]GetProductsQuery query)
         {
             return await this.mediator.Send(query);
         }
 
-        \[HttpPut\]
-        \[Route("{productId}/fieldvalue")\]
+        [HttpPut]
+        [Route("{productId}/fieldvalue")]
         public async Task ChangeProductFieldValue(int productId, ChangeProductFieldValueCommand command)
         {
             command.ProductId = productId;
@@ -324,12 +324,12 @@ The advantage from this step:
 
 Moving from typical layered pattern to Command/Query one, without further actions, has several advantages:
 
-*   Concern on Single Responsibility Principle - one class which handles a request.
-*   Clearly defined target and dependencies.
-*   Avoidance of mixing code which modifies data and returns it.
-*   Deeper view of your system - finding a correlation between handlers, not layers.
-*   Less effort in maintenance and more detailed refactoring.
-*   Ease of writing unit tests.
+ *   Concern on Single Responsibility Principle - one class which handles a request.
+ *   Clearly defined target and dependencies.
+ *   Avoidance of mixing code which modifies data and returns it.
+ *   Deeper view of your system - finding a correlation between handlers, not layers.
+ *   Less effort in maintenance and more detailed refactoring.
+ *   Ease of writing unit tests.
 
 In our case, such change gave us a better understanding of our system and possibility to move toward more complicated solutions.
 

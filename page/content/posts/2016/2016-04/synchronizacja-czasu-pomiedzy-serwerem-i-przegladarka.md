@@ -14,70 +14,70 @@ Jedną z funkcjonalności tej aplikacji był licznik czasu przy pytaniu testowym
 
 Ratunkiem okazał się poniższy kod:
 
-\[code lang="javascript"\]
+```javascript
 (function () {
- var timeSync = {};
- window.timeSync = timeSync;
+    var timeSync = {};
+    window.timeSync = timeSync;
 
- timeSync.url = "/Home/GetServerTime";
- timeSync.httpMethod = "GET";
- timeSync.dataType = "json";
- timeSync.contentType = "application/json; charset=utf-8";
+    timeSync.url = "/Home/GetServerTime";
+    timeSync.httpMethod = "GET";
+    timeSync.dataType = "json";
+    timeSync.contentType = "application/json; charset=utf-8";
 
- timeSync.getTimeDifference = function () {
+    timeSync.getTimeDifference = function () {
 
- var roundTripStart = new Date();
- var clientTime = new Date();
+        var roundTripStart = new Date();
+        var clientTime = new Date();
 
- return $.ajax({
- type: timeSync.httpMethod,
- url: timeSync.url,
- dataType: timeSync.dataType,
- contentType: timeSync.contentType,
- async: false
- })
- .then(function (serverTimeString) {
- var roundTrip = new Date().getTime() - roundTripStart.getTime();
+        return $.ajax({
+            type: timeSync.httpMethod,
+            url: timeSync.url,
+            dataType: timeSync.dataType,
+            contentType: timeSync.contentType,
+            async: false
+        })
+        .then(function (serverTimeString) {
+                var roundTrip = new Date().getTime() - roundTripStart.getTime();
 
- var serverTime = new Date(serverTimeString);
+                var serverTime = new Date(serverTimeString);
 
 
- var timeDifference = (serverTime.getTime() - roundTrip) - clientTime.getTime();
+                var timeDifference = (serverTime.getTime() - roundTrip) - clientTime.getTime();
 
- return timeDifference;
- });
- }
+                return timeDifference;
+            });
+    }
 })()
-\[/code\]
+```
 
 Jest to funkcja, która pozwala pobrać aktualny czas z serwera i wyliczyć różnicę pomiędzy przeglądarką a zdalnym serwisem. Wzorowałem się na [poście](https://codemadesimple.wordpress.com/2012/06/18/timesync-with-asp-net-mvc-4/), który jednak w rzeczywistym zastosowaniu nie działał poprawnie, a dodatkowo potrzebował kolejnych bibliotek do działania. Tutaj mamy prosty fragment, który robi dokładnie to co potrzebujemy - pobiera czas z serwera, odejmuje czas potrzebny na obsługę żądania i zwraca różnicę pomiędzy czasem serwerowym, a przeglądarką. Do poprawnego działania będziemy potrzebować jeszcze kontrolera **HomeController**, który będzie zwracał nam odpowiednio sformatowaną godzinę.
 
-\[code lang="csharp"\]
+```csharp
 public class HomeController : Controller
 {
- public ActionResult GetServerTime()
- {
- return Json(DateTime.Now.ToString("yyyy'-'MM'-'ddTHH':'mm':'ss.fff%K"), JsonRequestBehavior.AllowGet);
- }
+	public ActionResult GetServerTime()
+	{
+		return Json(DateTime.Now.ToString("yyyy'-'MM'-'ddTHH':'mm':'ss.fff%K"), JsonRequestBehavior.AllowGet);
+	}
 }
-\[/code\]
+```
 
 Samo wywołanie jest bardzo proste - wywołujemy metodę **getTimeDifference** i w momencie odczytania różnicy czasów używamy jej do zsynchronizowania naszych dat wyświetlanych użytkownikowi. W aplikacji **WROC#** użyłem tej metody by poprawnie obsłużyć zakończenie czasu testu.
 
-\[code lang="javascript"\]
+```javascript
 window.timeSync
- .getTimeDifference()
- .done(function (timeDifference) {
- var endDateString = '@Model.EndDate.ToString("o")';
- var endDate = new Date(endDateString);
+	.getTimeDifference()
+	.done(function (timeDifference) {
+		var endDateString = '@Model.EndDate.ToString("o")';
+		var endDate = new Date(endDateString);
 
- var clientEndDateTicks = endDate - timeDifference;
+		var clientEndDateTicks = endDate - timeDifference;
 
- var clientEndDate = new Date(clientEndDateTicks);
+		var clientEndDate = new Date(clientEndDateTicks);
 
- // użycie liczniak jQuery który odmierza czas i przekierowuje na stronę podsumowania gdy czas się skończy
- });
-\[/code\]
+		// użycie liczniak jQuery który odmierza czas i przekierowuje na stronę podsumowania gdy czas się skończy
+	});
+```
 
 Jeśli ktoś był na WROC# to wie, że synchronizacja działała poprawnie, więc z pełnym zaufaniem mogę wam polecić ten kod :)
 

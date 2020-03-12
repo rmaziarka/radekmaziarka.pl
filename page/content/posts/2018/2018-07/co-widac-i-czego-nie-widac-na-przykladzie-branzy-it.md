@@ -14,9 +14,9 @@ Abstrahując od ekonomicznych aspektów tej książki zastanowiło mnie, na ile 
 
 Mi do głowy przychodzi kilka pomysłów:
 
-*   Prowadząc projekt skupiamy się na rozwiązywaniu bieżących problemów, ponieważ są one dla nas prostsze i dają natychmiastowe rezultaty. Nie znaczy to, że za rogiem nie czyha na nas duży problem, który celowo odkładaliśmy, by np. ktoś inny go przejął.
-*   Mając do wyboru technologię, której będziemy używać w projekcie, wybieramy tą, która nam najbardziej pasuje. Nie bierzemy jednak pod uwagę naszych kolegów, którzy nie są w niej kompetentni. W rezultacie mamy szybki kick-off, którym odpowiednio kierujemy, ale już w dalszej perspektywie zespół nie poradzi sobie z utrzymaniem wysokiej jakości oprogramowania.
-*   Firma skupiając się na dostarczaniu projektów klientom przekłada szybkość i częstotliwość dodawania kolejnych funkcjonalności nad uczenie się i współdzielenie wiedzy. Powoduje to, że przez pewien okres mamy większe zyski spowodowane kolejnymi wdrożeniami. Niestety, nie rozwijamy się i długofalowo będzie nam coraz trudniej konkurować na rynku IT.
+ *   Prowadząc projekt skupiamy się na rozwiązywaniu bieżących problemów, ponieważ są one dla nas prostsze i dają natychmiastowe rezultaty. Nie znaczy to, że za rogiem nie czyha na nas duży problem, który celowo odkładaliśmy, by np. ktoś inny go przejął.
+ *   Mając do wyboru technologię, której będziemy używać w projekcie, wybieramy tą, która nam najbardziej pasuje. Nie bierzemy jednak pod uwagę naszych kolegów, którzy nie są w niej kompetentni. W rezultacie mamy szybki kick-off, którym odpowiednio kierujemy, ale już w dalszej perspektywie zespół nie poradzi sobie z utrzymaniem wysokiej jakości oprogramowania.
+ *   Firma skupiając się na dostarczaniu projektów klientom przekłada szybkość i częstotliwość dodawania kolejnych funkcjonalności nad uczenie się i współdzielenie wiedzy. Powoduje to, że przez pewien okres mamy większe zyski spowodowane kolejnymi wdrożeniami. Niestety, nie rozwijamy się i długofalowo będzie nam coraz trudniej konkurować na rynku IT.
 
 Ten temat wydaje się jednak o wiele szerszy. Jakie wy macie przemyślenia w tym temacie?
 

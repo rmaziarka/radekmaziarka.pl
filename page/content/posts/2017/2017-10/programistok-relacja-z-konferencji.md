@@ -20,13 +20,13 @@ Gdzie indziej dostaniecie podkładkę pod myszkę w haftowane wzory? Tylko w Bia
 
 Jednocześnie konferencja miała **bardzo wysoki poziom merytoryczny**, co można było zauważyć po liście ciekawych prelekcji, ale także po rozmowach z samymi uczestnikami. Różnorodność technologiczna pozwalała na wyjście ze swojego "grajdołka" i spojrzenie na proces tworzenia oprogramowania trochę szerzej, z innej perspektywy. Z dyskusji pomiędzy z kolegami z branży dowiedziałem się np.
 
-*   Jak wygląda proces testów i mockowania w Pythonie - C# tutaj mógłby się uczyć prostoty.
-*   Dlaczego w Ruby on Rails magia frameworka jest jednocześnie dobra i zła.
-*   Historii o przejściu firmy z Ruby na Elixira.
-*   Zalet i wad języków funkcyjnych, na podstawie doświadczeń z własnych firm / projektów.
-*   Zalet i wad braku dużego governance dla platforma, jak to w przypadku MS.
-*   Jak bardzo Pythonowcy kochają Open Source.
-*   Dlaczego ludzie nie lubili Microsoftu i dlaczego się to zmienia 😀
+ *   Jak wygląda proces testów i mockowania w Pythonie - C# tutaj mógłby się uczyć prostoty.
+ *   Dlaczego w Ruby on Rails magia frameworka jest jednocześnie dobra i zła.
+ *   Historii o przejściu firmy z Ruby na Elixira.
+ *   Zalet i wad języków funkcyjnych, na podstawie doświadczeń z własnych firm / projektów.
+ *   Zalet i wad braku dużego governance dla platforma, jak to w przypadku MS.
+ *   Jak bardzo Pythonowcy kochają Open Source.
+ *   Dlaczego ludzie nie lubili Microsoftu i dlaczego się to zmienia 😀
 
 Dobrze wypadł **before**, co się nie zdarza zawsze. W ogóle skąd oni takie miejsce znaleźli na spotkanie - Klub 18. Białostockiego Pułku Rozpoznawczego, wszędzie flagi, orły i trofea. Prezentacje były lekkie i ciekawe (DDD połączony z roastem Procenta 💗), a pomysł na integrację uczestników przy stolikach tematycznych warty skopiowania podczas innych imprez. Zawsze jest łatwiej podejść do nieznanej grupki osób z tekstem "Ale jaki ja dopiero miałem fuckup to nie uwierzycie". Okazało się także, że zaraz obok jest festiwal piwa, więc sporo osób o 22 wyruszyło tam by kontynuować zabawę (mnie nie mogło zabraknąć).
 

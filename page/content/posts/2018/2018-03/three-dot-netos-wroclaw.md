@@ -10,9 +10,9 @@ tags: ['.Net', 'performance', 'three dot netos']
 
 [Trzej Dot Netos](https://dotnetos.org/) w składzie Łukasz Pyrzyk, Konrad Kokosa i Szymon Kulec 16 marca odwiedzili Wrocław. Maestro wydajności i sztuki optymalizacji opowiadali o tematach im bliskim:
 
-*   How to make a tabasco sauce from a GPU using C# - Łukasz
-*   A Garbage Collector, his collections and what it implies for you - Konrad
-*   The Secret Serialization Sauce and its spicy mysteries - Szymon
+ *   How to make a tabasco sauce from a GPU using C# - Łukasz
+ *   A Garbage Collector, his collections and what it implies for you - Konrad
+ *   The Secret Serialization Sauce and its spicy mysteries - Szymon
 
 Wszystko podlane odpowiednią ilością ostrego sosu, by doprowadzić uczestników do wrzenia od ilości technologicznej wiedzy 😉
 
@@ -29,11 +29,11 @@ Jeśli nie mamy karty graficznej (Łukasz też nie ma 😁) to można użyć chm
 
 GPU jest dobre do obsługi dużej ilości małych zadań, więc **nie sprawdzi się w każdym przypadku**:
 
-1.  Kiedy nie mamy operacji równoleglych.
-2.  Kiedy mamy różnorodność zadań - GPU nie da rady obsłużyć wielu różnych problemów jednocześnie.
-3.  Kiedy musimy się synchronizować.
-4.  Kiedy używany dużo pamięci.
-5.  Kiedy możemy zoptymalizować kod na CPU.
+ 1.  Kiedy nie mamy operacji równoleglych.
+ 2.  Kiedy mamy różnorodność zadań - GPU nie da rady obsłużyć wielu różnych problemów jednocześnie.
+ 3.  Kiedy musimy się synchronizować.
+ 4.  Kiedy używany dużo pamięci.
+ 	5.  Kiedy możemy zoptymalizować kod na CPU.
 
 Łukasz do zabawy z obsługą GPU polecał 2 frameworki - [Alea](http://www.aleagpu.com/release/3_0_4/doc/) i [Hybrydizer](https://devblogs.nvidia.com/hybridizer-csharp/) - pozostałe nie są wspierane.
 

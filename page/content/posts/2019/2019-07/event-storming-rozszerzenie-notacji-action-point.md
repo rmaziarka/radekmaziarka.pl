@@ -16,7 +16,7 @@ Alberto Brandolini, twórca techniki Event Stormingu. często podkreśla, że no
 
 Alberto często przywołuje w tym miejscu metaforę pizzy. Każda pizza składa się z ciasta, sera i sosu pomidorowego. Jedyną różnicą będa składniki, które można dowolnie dobierać.
 
-\[caption id="attachment\_1766" align="alignnone" width="446"\][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)\[/caption\]
+[caption id="attachment\_1766" align="alignnone" width="446"][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)[/caption]
 
 Zatem, skoro sam twórca techniki zachęca nas do kreatywności i dostosowywania notacji do własnych potrzeb, to powinniśmy z tego korzystać bez obaw, że zostaniemy posądzeniu o herezje!
 
@@ -31,9 +31,9 @@ Action Point to element ściśle związany z **Hot Spotami**. Zanim wytłumaczę
 
 Hot Spot czyli różowa karteczka, obrócona o 45% względem Eventu może symbolizować kilka rzeczy:
 
-*   brak wiedzy / niepewność
-*   uwagi odnośnie problemów w procesie.
-*   ryzyko
+ *   brak wiedzy / niepewność
+ *   uwagi odnośnie problemów w procesie.
+ *   ryzyko
 
 Czyli Hot Spot może mieć formę **pytająca** - 'Czy na pewno tak to działa? Czy we wszystkich procesach to występuje?' - albo formę **twierdzącą** - 'Ten proces jest wolny!'
 
@@ -41,8 +41,8 @@ Hot Spoty w formie pytania **mogą** oznaczać, że wśród naszych expertów do
 
 **Action Point**, to po prostu informacja o osobie (obecnej na sesji),  która ma za zadanie znaleźć odpowiedź na **pytanie** zadane w Hot Spocie. Z reguły sprowadza się to do zrobienia spotkania z inną osobą nie będącej na sesji, która może znać na nie odpowiedź. Przykład:
 
-*   Hot Spot:  "Czy wysyłamy towar za pobraniem?"
-*   Action Point: "Marek (który jest obecny na sesji) ma porozmawiać z Marianem z działu sprzedaży i go dopytać, on będzie wiedział!"
+ *   Hot Spot:  "Czy wysyłamy towar za pobraniem?"
+ *   Action Point: "Marek (który jest obecny na sesji) ma porozmawiać z Marianem z działu sprzedaży i go dopytać, on będzie wiedział!"
 
 Może w konsekwencji takiego spotkania Marek dowie się więcej od Mariana i będzie mógł wrócić z wiedza na kolejną sesji. Może Marek zaprosi Mariana na kolejną sesje? Sprawy mogą różnie się potoczyć. Ważne, żeby odnotować na modelu informację o takim planowanym spotkaniu.
 
@@ -55,8 +55,8 @@ Action Point sprawdzają się również świetnie w przypadku Hot Spotów w form
 
 Czasami podczas sesji, zdarza się, że pewna informacja o problemie powoduje ożywioną dyskusję. Jeżeli podczas takiej dyskusji pojawią się propozycje z kim trzeba na dany temat porozmawiać aby spróbować rozwiązać dany problem warto takiego coś zapisać w formie Action Pointu. Przykład:
 
-*   Hot Spot: "Często występują opóźnienia w wysyłce towaru!"
-*   Action Point: "Spotkanie Kierownika działu wysyłki z Grażyną (grażyna jest obecna na sesji)"
+ *   Hot Spot: "Często występują opóźnienia w wysyłce towaru!"
+ *   Action Point: "Spotkanie Kierownika działu wysyłki z Grażyną (grażyna jest obecna na sesji)"
 
 Ważne jest aby nie przesadzić i nie starać się przypisać Action Pointów do każdego Hot Spota.
 Nie o to w tym chodzi! **Moja heurystyka jest następująca**:
@@ -68,7 +68,7 @@ Notacja
 
 Do oznaczania action pointów wybrałem karteczkę standardowych rozmiarów koloru żółtego.
 
-\[caption id="attachment\_1769" align="alignnone" width="195"\][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point\[/caption\]
+[caption id="attachment\_1769" align="alignnone" width="195"][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point[/caption]
 
 Ktoś może zapytać “Ło Panie, po co kolejna nowa karteczka w notacji !? Nie można tego zapisać w formie notatki?”
 

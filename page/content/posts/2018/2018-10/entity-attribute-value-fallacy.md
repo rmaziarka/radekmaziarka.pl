@@ -12,10 +12,10 @@ tags: ['ddd', 'domain driven design']
 
 I've been involved in a few projects which tried to use the similar [EAV structure](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model) ([SQL](https://www.researchgate.net/figure/The-Main-Concept-of-the-Entity-Attribute-Value-Model-The-entity-attribute-value-serves_fig2_257884193) or [JSON replacement](https://coussej.github.io/2016/01/14/Replacing-EAV-with-JSONB-in-PostgreSQL/)) to embrace difficult logic inside of the system. Mostly because we wanted to handle "unknown need" from a business perspective. For example, we wanted to use a similar structure for modeling:
 
-*   Apartment
-*   Restaurant
-*   Car
-*   Bike
+ *   Apartment
+ *   Restaurant
+ *   Car
+ *   Bike
 
 etc. The client naturally couldn't predict all the future possible uses of the application. So the best option to prevent from the rebuilding it was to add dynamic structure. With entities and entities types, like the above ones.
 
@@ -28,9 +28,9 @@ There is this [presentation](https://www.youtube.com/watch?v=n-hTQro_yos) on DDD
 
 "_The c__omplexity does not lie in relationships between objects._ _The complexity lies in:_
 
-*   _Why there is a relationship?_
-*   _Why it the domain the way it is?_
-*   _What objectives does the domain want to achieve?"_
+ *   _Why there is a relationship?_
+ *   _Why it the domain the way it is?_
+ *   _What objectives does the domain want to achieve?"_
 
 and it is very applicable to our solution.
 

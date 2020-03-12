@@ -9,36 +9,36 @@ tags: ['']
 
 In my application, I wanted to handle double click on grid's row by redirecting user to page, which contained detailed data about this particular row. Unfortunately, none of existing implementation did not satisfied me, because it either binded to _dbClick_ event in controller, or used _rowTemplate_ to show data in grid. I was very determined to create a new directive to handle it, because I needed a shared solution to avoid copying code from one controller to another. So i created my own implementation - **kendoGridRowDblClick** directive:
 
-\[code lang="js"\]
+```javascript
 (function () {
- angular.module('moduleName').directive('kendoGridRowDblClick', kendoGridRowDblClick);
+    angular.module('moduleName').directive('kendoGridRowDblClick', kendoGridRowDblClick);
 
- function kendoGridRowDblClick() {
- return {
- link: function (scope, element, attrs) {
- scope.$on("kendoWidgetCreated", function (event, widget) {
+    function kendoGridRowDblClick() {
+        return {
+            link: function (scope, element, attrs) {
+                scope.$on("kendoWidgetCreated", function (event, widget) {
 
- if (widget !== element.getKendoGrid())
- return;
+                    if (widget !== element.getKendoGrid())
+                        return;
 
- attachDblClickToRows(scope, element, attrs);
+                    attachDblClickToRows(scope, element, attrs);
 
- element.data("kendoGrid").bind('dataBound', function () {
- attachDblClickToRows(scope, element, attrs);
- });
- });
- }
- };
+                    element.data("kendoGrid").bind('dataBound', function () {
+                        attachDblClickToRows(scope, element, attrs);
+                    });
+                });
+            }
+        };
 
- function attachDblClickToRows(scope, element, attrs) {
- element.find('tbody tr').on('dblclick', function (event) {
- var rowScope = angular.element(event.currentTarget).scope();
- scope.$eval(attrs.kendoGridRowDblClick, { rowData: rowScope.dataItem });
- });
- }
- }
+        function attachDblClickToRows(scope, element, attrs) {
+                element.find('tbody tr').on('dblclick', function (event) {
+                    var rowScope = angular.element(event.currentTarget).scope();
+                    scope.$eval(attrs.kendoGridRowDblClick, { rowData: rowScope.dataItem });
+                });
+        }
+    }
 })();
-\[/code\]
+```
 
 Directive's link function runs before initialization of kendo grid, so we need to postpone binding to _dbClick_ event. At the beginning, I used _$timeout_ to do it, but i decided not to make such workaround in my code. Finally I bumped into [this](http://docs.telerik.com/kendo-ui/AngularJS/global-events) article, describing _kendoWidgetCreated_ event,  which allowed me to connect directly to initialization of my grid.
 
@@ -48,18 +48,18 @@ In _attachDblClickToRows_ function I used _angular.element _and _scope.$eval
 
 Use of this directive is very simple:
 
-\[code lang="html"\]
+```html
 
 
 <div kendo-grid options="ctrl.gridOptions" kendo-grid-row-dbl-click="ctrl.rowDblClick(rowData)">
-\[/code\]
+```
 
 
-\[code lang="js"\]
+```javascript
 self.rowDblClick = function(rowData) {
- // redirect user to details page
+    // redirect user to details page
 };
-\[/code\]
+```
 
 Such implementation allows me to use this directive in various places in my application without bindings to the same grid's events. My controllers are cleaner and it's much easier to understand what logic is done, when _dblClick_ event is raised.
 

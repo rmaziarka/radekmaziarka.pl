@@ -8,7 +8,7 @@ category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---
 
-// wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
+ // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
 
 Mając już bazowe pojęcie, czym są konteksty i jak je zaimplementować warto pochylić się jeszcze nad jedną kwestią - języka używanego w danym kontekście. Na pierwszy rzut oka wydaje się to dziwnym pomysłem. Jednak, gdy zaczniemy implementować nasze konteksty, to nagle język może się stać dużą przeszkodą...
 
@@ -39,8 +39,8 @@ To jest równocześnie bardzo silnym wyznacznikiem, że mamy do czynienia z ró�
 
 Wracając do naszego przypadku sklepu internetowego. Pracownicy różnych działów mają inne wymagania i inaczej postrzegają to, co jest dla nich ważne. Przez to używają innego słownictwa:
 
-*   Zamówienia - klient (płatność) i produkty (cena)
-*   Dostawy - odbiorca (miejsce odbioru) i towary (gabaryty)
+ *   Zamówienia - klient (płatność) i produkty (cena)
+ *   Dostawy - odbiorca (miejsce odbioru) i towary (gabaryty)
 
 Chcąc te różnice poprawnie odwzorować w aplikacji trzeba się posłużyć tłumaczeniem zwrotów pomiędzy kontekstami. Np. przechodząc z kontekstu zamówień do kontekstu dostaw będziemy musieli przetłumaczyć obiekt **Customer** na **Recipient** i dodać odpowiedni adres dostawy – **RecipientAddress**. Dzięki temu w kontekście dostaw będziemy używali żargonu osób, które odpowiadają za dostarczanie towarów klientowi.
 

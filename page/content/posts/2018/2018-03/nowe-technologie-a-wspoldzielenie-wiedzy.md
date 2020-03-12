@@ -8,9 +8,9 @@ category: 'Wzorce projektowe'
 tags: ['design patterns', 'event sourcing', 'knowledge sharing', 'vue']
 ---
 
-*   Używałem Event Sourcingu - dlaczego nie użyjemy go teraz w naszym projekcie?
-*   Ten nowy framework Vue.js jest super. Kiedy zrobimy coś w nim na produkcji?
-*   Od niedawna na Azure jest dostępny Event Grid, może dodamy go do naszej aplikacji?
+ *   Używałem Event Sourcingu - dlaczego nie użyjemy go teraz w naszym projekcie?
+ *   Ten nowy framework Vue.js jest super. Kiedy zrobimy coś w nim na produkcji?
+ *   Od niedawna na Azure jest dostępny Event Grid, może dodamy go do naszej aplikacji?
 
 Wszystkie powyższe pytania są typowe dla nas - programistów. Z chęcią staramy się dodać do projektu nowe biblioteki, a gdy nam się na to nie pozwala, narzekamy na otaczający świat i na nakładane obostrzenia.
 

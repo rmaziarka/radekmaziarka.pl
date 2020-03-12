@@ -14,12 +14,12 @@ It's worth spending some time during early weeks of a project to think about **f
 
 I described six of them:
 
-*   [Developer's notes](#developers-notes)
-*   [Provisioning](#provisioning)
-*   [Build / deploy system](#build-deploy)
-*   [Authentication](#authentication)
-*   [Monitoring](#monitoring)
-*   [Data security](#data-security)
+ *   [Developer's notes](#developers-notes)
+ *   [Provisioning](#provisioning)
+ *   [Build / deploy system](#build-deploy)
+ *   [Authentication](#authentication)
+ *   [Monitoring](#monitoring)
+ *   [Data security](#data-security)
 
 You probably won't need all these points to be implemented in your projects but all of them are worth memorizing ;)
 
@@ -28,9 +28,9 @@ Developer's notes
 
 For me it's a very important thing, even if you are a single person working on an application. You and your colleagues need a place to share your knowledge / ideas / choices about the project that you are working on. You can think that this is not a problem because you understand what is going on, but for me, this conviction has **three clear drawbacks**:
 
-*   First is that you won't remember such things after one month / one quarter / one year, and such information could be very valuable at that time.
-*   Second is that your notes can justify the choices that you made in that time - this time-travel can ease process of understanding why went way A, not B
-*   Third is that new teammates will be able to dive into your application with less problem cause knowledge regarding project is described in notes
+ *   First is that you won't remember such things after one month / one quarter / one year, and such information could be very valuable at that time.
+ *   Second is that your notes can justify the choices that you made in that time - this time-travel can ease process of understanding why went way A, not B
+ *   Third is that new teammates will be able to dive into your application with less problem cause knowledge regarding project is described in notes
 
 These notes can be stored in [markdown](https://en.wikipedia.org/wiki/Markdown) HTML files, [OneNote's notes](https://www.onenote.com/) in shared drive, or in Atlassian's [Confluence](https://www.atlassian.com/software/confluence) project collaboration app - most important thing is accessing to this tool should be easy and editing should be allowed to all members of a team.
 

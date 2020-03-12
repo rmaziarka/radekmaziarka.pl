@@ -16,13 +16,13 @@ I heard that machine learning can simplify finding an answer to such question 
 
 So how to start with such task? Let me explain:
 
-*   [Preparing data](#preparing-data)
-*   [Creating experiment](#creating-experiment)
-*   [Choosing relevant parameters](#choosing-relevant)
-*   [Choosing algorithms](#choosing-algorithms)
-*   [Training the model](#training-model)
-*   [Evaluating models](#evaluating-models)
-*   [Summary](#summary)
+ *   [Preparing data](#preparing-data)
+ *   [Creating experiment](#creating-experiment)
+ *   [Choosing relevant parameters](#choosing-relevant)
+ *   [Choosing algorithms](#choosing-algorithms)
+ *   [Training the model](#training-model)
+ *   [Evaluating models](#evaluating-models)
+ *   [Summary](#summary)
 
 Azure Machine Learning portal
 -----------------------------
@@ -86,10 +86,10 @@ You need to remember that you **cannot train your model on a whole amount of da
 
 To train your model you need:
 
-*   Select preferred parameters - **Select Columns in DataSet **in Data Transformation -> Manipulation
-*   Separate data in 2 chunks - **Split Data **in Data Transformation -> Sample and Split
-*   Add algorithms - **Decision Forest Regression** / **Linear Regression **in Machine Learning -> Initialize Model
-*   Run training - **Train Model **in Machine Learning -> Initialize Model
+ *   Select preferred parameters - **Select Columns in DataSet **in Data Transformation -> Manipulation
+ *   Separate data in 2 chunks - **Split Data **in Data Transformation -> Sample and Split
+ *   Add algorithms - **Decision Forest Regression** / **Linear Regression **in Machine Learning -> Initialize Model
+ *   Run training - **Train Model **in Machine Learning -> Initialize Model
 
 After running the experiment you will get a trained model with result parameters / decision trees.
 

@@ -28,8 +28,8 @@ Event Storming pozwala zaadresować ten problem. Do samego warsztatu w firmie mo
 
 Dla zwiększenia czytelności wydzieliliśmy te 2 metody do osobnych postów:
 
-*   [Big Picture](https://radblog.pl/2018/12/10/event-storming-w-organizacji-big-picture/)
-*   [Single Process](https://radblog.pl/2018/12/10/event-storming-w-organizacji-single-process/)
+ *   [Big Picture](https://radblog.pl/2018/12/10/event-storming-w-organizacji-big-picture/)
+ *   [Single Process](https://radblog.pl/2018/12/10/event-storming-w-organizacji-single-process/)
 
 podsumowanie
 ============

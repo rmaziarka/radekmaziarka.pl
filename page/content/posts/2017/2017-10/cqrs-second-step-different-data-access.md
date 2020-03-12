@@ -12,10 +12,10 @@ This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/c
 
 I will write about:
 
-1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
-2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
-3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
-4.  creating read model asynchronously with SignalR notification
+ 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
+ 4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
@@ -35,11 +35,11 @@ You find your first bottleneck - gathering product's offer currently is taking t
 ```
     public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<Product>>
     {
-        private readonly ProductDatabase \_database;
+        private readonly ProductDatabase _database;
 
         public GetProductsQueryHandler(ProductDatabase database)
         {
-            \_database = database;
+            _database = database;
         }
 
         public IEnumerable<Product> Handle(GetProductsQuery command)
@@ -77,14 +77,14 @@ You find your first bottleneck - gathering product's offer currently is taking t
 ```
 With such state of the database ([diagram](http://radblog.pl/wp-content/uploads/2017/10/ProductDatabase.jpg) / [code](https://gist.github.com/rmaziarka/480b3fecfb5871a91a0e9fd9b076fd7d)) such querying can take a while. Of course, you can split your query and do multiple requests to the database but it only hides the problem but doesn't solve it. You realize that you need only a small amount of this information from queried objects, but they are significant to fulfill clients' needs - we need to show product list with:
 
-*   Category name
-*   Main picture
-*   Manufacturer name and picture
-*   Related products with pictures
-*   How many time product has been bought
-*   Product's field values
-*   Average review ratings and last 5 reviews
-*   3 best discounts for this product
+ *   Category name
+ *   Main picture
+ *   Manufacturer name and picture
+ *   Related products with pictures
+ *   How many time product has been bought
+ *   Product's field values
+ *   Average review ratings and last 5 reviews
+ *   3 best discounts for this product
 
 So you decide to do something different - change your query model and introduce new option to access database that will allow doing more advanced querying.
 
@@ -198,11 +198,11 @@ After it, with the power of Dapper, you are parse data to strongly-typed classes
 ```
     public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<ProductVm>>
     {
-        private readonly SqlConnection \_connection;
+        private readonly SqlConnection _connection;
 
         public GetProductsQueryHandler(SqlConnection connection)
         {
-            \_connection = connection;
+            _connection = connection;
         }
 
         public IEnumerable<ProductVm> Handle(GetProductsQuery command)
@@ -210,7 +210,7 @@ After it, with the power of Dapper, you are parse data to strongly-typed classes
             List<ProductVm> products;
             var sqlQuery = QueryHelper.GetQuery<GetProductsQueryHandler>();
 
-            using (var multi = \_connection.QueryMultiple(sqlQuery,
+            using (var multi = _connection.QueryMultiple(sqlQuery,
                 new { command.Page, Take = command.Take, CategoryId = command.CategoryId }))
             {
                 var products = multi.Read<ProductVm>().ToList();
@@ -238,14 +238,14 @@ After it, with the power of Dapper, you are parse data to strongly-typed classes
 ```
 **Advantages:**
 
-*   Almost that fast as SQL
-*   Returning multiple datasets in one query
-*   Built-in mapping
+ *   Almost that fast as SQL
+ *   Returning multiple datasets in one query
+ *   Built-in mapping
 
 **Disadvantages:**
 
-*   Mixing SQL  and C#
-*   Harder to maintain
+ *   Mixing SQL  and C#
+ *   Harder to maintain
 
 ### AutoMapper + ProjectTo
 
@@ -255,10 +255,10 @@ After it, with the power of Dapper, you are parse data to strongly-typed classes
 
 What is really worth mentioning, is that with ProjectTo you can do the stuff, which you can typically do in normal mappings:
 
-*   Mapping arrays
-*   Aggregating (sum / average / max / min)
-*   Getting first or last
-*   Flattening objects
+ *   Mapping arrays
+ *   Aggregating (sum / average / max / min)
+ *   Getting first or last
+ *   Flattening objects
 
 So you create a map which defines your expectations. Because of **conventions** (Category.Name will be automatically transferred into CategoryName) this map is not so hard to read and maintain.
 ```
@@ -290,11 +290,11 @@ After that your simplify query handler because you don’t need all these includ
 ```
     public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<ProductVm>>
     {
-        private readonly ProductDatabase \_database;
+        private readonly ProductDatabase _database;
 
         public GetProductsQueryHandler(ProductDatabase database)
         {
-            \_database = database;
+            _database = database;
         }
 
         IEnumerable<ProductVm> IRequestHandler<GetProductsQuery, IEnumerable<ProductVm>>.Handle(GetProductsQuery command)
@@ -317,16 +317,16 @@ After that your simplify query handler because you don’t need all these includ
 ```
 **Advantages:**
 
-*   Default conventions
-*   Ease of object / array mapping
-*   Aggregate functions
-*   Great association with Entity Framework
-*   Everything is done in C# code
+ *   Default conventions
+ *   Ease of object / array mapping
+ *   Aggregate functions
+ *   Great association with Entity Framework
+ *   Everything is done in C# code
 
 **Disadvantages:**
 
-*   No possibility for database tweaks
-*   Slower than other more database-centric solutions (but still fast)
+ *   No possibility for database tweaks
+ *   Slower than other more database-centric solutions (but still fast)
 
 ### Comparing Dapper and AutoMapper + ProjectTo
 

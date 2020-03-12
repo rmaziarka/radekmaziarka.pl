@@ -21,76 +21,76 @@ W tym artykule pokażę podstawy _FluentValidation_, zaś w kolejnych będę prz
 
 Rozpoczniemy od instalacji _FluentValidation_ w naszym projekcie. Aby to zrobić wpisujemy w _Package Manager Console_:
 
-\[code\]
+```
 Install-Package FluentValidation
-\[/code\]
+```
 
 Następnie utwórzmy klasę dla typowego użytkownika systemu:
 
-\[code lang="csharp"\]
+```csharp
 public class User
 {
- public string UserName { get; set; }
+    public string UserName { get; set; }
 
- public string Email { get; set; }
+    public string Email { get; set; }
 
- public string Password { get; set; }
+    public string Password { get; set; }
 }
-\[/code\]
+```
 
 I teraz pojawia się pytanie jak zwalidować obiekt tej klasy przez naszą nową bibliotekę. Najłatwiej jest to zrobić przez użycie abstrakcyjnej klasy _AbstractValidator,_ dostępnej w _FluentValidation_, po której dziedziczymy tworząc nasz walidator. Jest ona generyczna, a my wskazujemy na klasę, którą chcemy walidować.
 
-\[code lang="csharp"\]
+```csharp
 public class UserValidator: AbstractValidator<User>
 {
- public UserValidator()
- {
- this.RuleFor(r => r.UserName).NotEmpty().Length(0, 50);
+    public UserValidator()
+    {
+        this.RuleFor(r => r.UserName).NotEmpty().Length(0, 50);
 
- this.RuleFor(r => r.Email).NotEmpty().EmailAddress().Length(0, 100);
+        this.RuleFor(r => r.Email).NotEmpty().EmailAddress().Length(0, 100);
 
- this.RuleFor(r => r.Password).NotEmpty().Length(6, 50);
- }
+        this.RuleFor(r => r.Password).NotEmpty().Length(6, 50);
+    }
 }
-\[/code\]
+```
 
 W konstruktorze tworzymy nasze reguły używając metody _RuleFor _i wskazując na pole, które chcemy walidować. Następnie używając _Extension Methods_ dopisujemy kolejne reguły biznesowe, jakie ma to pole spełniać. Dzięki _Fluent Interface _dopisujemy te reguły jedna po drugiej, przez co wszystko czyta się bardzo prosto i od razu widzimy, jakie są zasady dla każdego z naszych pól.
 
 Aby zwalidować obiekt użytkownika, tworzymy walidator i używamy metody _Validate_. I tyle, po prostu działa.
 
-\[code lang="csharp"\]
+```csharp
 class Program
 {
- static void Main(string\[\] args)
- {
- var validator = new UserValidator();
- var user = new User() { Email = "user@gmail.com", Password = "123456", UserName = "user" };
- var validationResult = validator.Validate(user);
+    static void Main(string[] args)
+    {
+        var validator = new UserValidator();
+        var user = new User() { Email = "user@gmail.com", Password = "123456", UserName = "user" };
+        var validationResult = validator.Validate(user);
 
- Console.WriteLine($"Wynik walidacji: {validationResult.IsValid}");
- }
+        Console.WriteLine($"Wynik walidacji: {validationResult.IsValid}");
+    }
 }
-\[/code\]
+```
 
 ![ConsoleFluentValidation2](http://radblog.pl/wp-content/uploads/2016/03/ConsoleFluentValidation2.png)
 
 I jak widzimy - walidacja się powiodła. Dodając drugiego użytkownika, który nie przechodzi walidacji, i rozwijając trochę wizualizację wyniku można dość do takiego wyniku:
 
-\[code lang="csharp"\]
+```csharp
 var validator = new UserValidator();
 
-var usersToValidate = new User\[\]
+var usersToValidate = new User[]
 {
- new User() {Email = "user@gmail.com", Password = "123456", UserName = "user"},
- new User() {Email = "user@gmail", Password = "123", UserName = ""}
+    new User() {Email = "user@gmail.com", Password = "123456", UserName = "user"},
+    new User() {Email = "user@gmail", Password = "123", UserName = ""}
 };
 
 foreach (var user in usersToValidate)
 {
- var result = validator.Validate(user);
- // wypisanie rezultatów
+    var result = validator.Validate(user);
+    // wypisanie rezultatów
 }
-\[/code\]
+```
 
 ![ConsoleFluentValidation](http://radblog.pl/wp-content/uploads/2016/03/ConsoleFluentValidation-2.png)
 

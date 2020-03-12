@@ -32,9 +32,9 @@ Mi osobiście bardzo pomógł proces przeprowadzania **code review** w zespole
 
 Warto jednocześnie pamiętać, że rozwój osobisty, nie musi się skupiać stricte na aspektach technicznych. Warto też wspomnieć o innych obszarach, w których można rozwijać zespół. Weź pod uwagę, że np.:
 
-*   Prowadzenie demo przed klientem może poprawić pewność siebie i umiejętności prezentacji.
-*   Pomoc w budowaniu oferty sprzedażowej pozwoli szerzej spojrzeć na proces wytwarzania oprogramowania.
-*   Analiza wymagań z analitykiem i klientem da głębsze zrozumienie powodów tworzenia danego systemu.
-*   Udział w rekrutacji / prowadzenie retro / wystąpienie na show&tell da możliwość sprawdzić się w innej roli niż zwykle.
+ *   Prowadzenie demo przed klientem może poprawić pewność siebie i umiejętności prezentacji.
+ *   Pomoc w budowaniu oferty sprzedażowej pozwoli szerzej spojrzeć na proces wytwarzania oprogramowania.
+ *   Analiza wymagań z analitykiem i klientem da głębsze zrozumienie powodów tworzenia danego systemu.
+ *   Udział w rekrutacji / prowadzenie retro / wystąpienie na show&tell da możliwość sprawdzić się w innej roli niż zwykle.
 
 Każda taka aktywność może pomóc rozwijać twój zespół.

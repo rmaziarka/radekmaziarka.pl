@@ -19,10 +19,10 @@ Prawo Conway’a – przypadek teoretyczny
 
 Załóżmy, że mamy firmę, która ma działy skierowane na różne segmenty rynku samochodowego:
 
-*   samochodów osobowych
-*   samochodów dostawczych małych
-*   samochodów ciężarowych
-*   sprzętu budowlanego.
+ *   samochodów osobowych
+ *   samochodów dostawczych małych
+ *   samochodów ciężarowych
+ *   sprzętu budowlanego.
 
 Działy pracują wewnątrz jednej firmy, ale mają osobne departamenty, zarządzanie, finansowanie i wskaźniki raportowe. Są skoncentrowane na rozwoju swojego segmentu, mają jasno opisane cele i zakres pracy.
 
@@ -35,9 +35,9 @@ Prawo Conway’a – świat IT
 
 Prawo Conway’a bardzo mocno wpływa na tworzone przez nas rozwiązania informatyczne. Eric Raymond, współzałożyciel Open Source Initiative, określił w [Jargon](http://catb.org/~esr/jargon/html/C/Conways-Law.html), że: „Jeśli masz 4 grupy pracujące nad kompilatorem, to dostaniesz 4-krokowy kompilator”. Jest to opisanie prostego spostrzeżenia:
 
-*   Mamy osobne grupy, które muszą ze sobą współpracować
-*   Synchronizując się ustalą parametry współpracy
-*   Te parametry przeniosą się na interfejsy współpracy ich modułów w kodzie.
+ *   Mamy osobne grupy, które muszą ze sobą współpracować
+ *   Synchronizując się ustalą parametry współpracy
+ *   Te parametry przeniosą się na interfejsy współpracy ich modułów w kodzie.
 
 Prawo Conway’a uzasadnia również nacisk na [cross-functional teams](https://agileforall.com/org-structure-software-architecture-and-cross-functional-teams/) i wspieranie trendu [DevOps](https://devops.com/what-can-conways-law-teach-us-about-devops/). Im większa ilość osób w zespole mogących przekrojowo rozwiązać problemy, tym mniej zależności od innych zespołów i niepotrzebych opóźnień / strat czasu. Wszystko może zamknąć się w „jednym pokoju” – analiza / zaimplementowanie / przetestowanie / wdrożenie.
 
@@ -74,10 +74,10 @@ Prawo Conway’a – wpływ na pracę organizacji
 
 Jeśli struktura organizacji spełnia potrzeby biznesowe tej organizacji to w teorii nie dzieje się żaden problem. Gorzej, jeśli struktura nie będzie dostosowana do problemu jaki ta organizacja chce rozwiązać, bo wtedy:
 
-*   Dokonanie jakiejkolwiek decyzji będzie wymagało bardzo wielu decyzji w bardzo wielu różnych grupach.
-*   Komunikacja przez wiele grup, warstw i hierarchii będzie bardzo wolna i nieefektywna. Będą występowały błędy w tłumaczeniach przez co właściwa wiadomość może w ogóle nie dotrzeć do adresata.
-*   Wszelkiego rodzaju reguły, polityki, procedury będą się stawały barierą do podejmowania decyzji i zmian strategicznych.
-*   Ludzie będą trwali w swoich nawykach obawiając się zmiany. W ich mniemaniu może ona doprowadzić do utraty władzy i pozycji w organizacji.
+ *   Dokonanie jakiejkolwiek decyzji będzie wymagało bardzo wielu decyzji w bardzo wielu różnych grupach.
+ *   Komunikacja przez wiele grup, warstw i hierarchii będzie bardzo wolna i nieefektywna. Będą występowały błędy w tłumaczeniach przez co właściwa wiadomość może w ogóle nie dotrzeć do adresata.
+ *   Wszelkiego rodzaju reguły, polityki, procedury będą się stawały barierą do podejmowania decyzji i zmian strategicznych.
+ *   Ludzie będą trwali w swoich nawykach obawiając się zmiany. W ich mniemaniu może ona doprowadzić do utraty władzy i pozycji w organizacji.
 
 Struktura organizacji będzie raczej broniła sama siebie, zamiast wspierać dostosowywanie się do problemu jaki ma ona rozwiązywać.
 
@@ -88,11 +88,11 @@ Prawo Conway’a – powody działania
 
 Prawo Conway’a nie jest prawem w sensie stricte – nie można udowodnić jego działania tak jak innych praw fizycznych. Ale jest wiele powodów, dlaczego ludzie mogą działać według tego prawa:
 
-*   Ograniczenia komunikacyjne – komunikowanie się ze sobą zbyt wielu osób naraz jest niemożliwe. Tworzymy abstrakcje, w postaci grup / zespołów które działają jako jedność.
-*   [Spójność grupy](https://pl.wikipedia.org/wiki/Sp%C3%B3jno%C5%9B%C4%87_grupy) i [syndrom grupowego myślenia](https://pl.wikipedia.org/wiki/Syndrom_grupowego_my%C5%9Blenia) – mechanizmy psychologiczne sprawiające, że grupy podejmują wspólne decyzje, czasami irracjonalne.
-*   [Trybalizm](https://en.wikipedia.org/wiki/Tribalism) – poczucie bliskości z grupą, którą się identyfikujemy. Ten wrodzony atawizm powoduje, że łatwiej akceptujemy rozwiązania bliskie naszemu otoczeniu i rywalizujemy z grupami przeciwnymi.
-*   [Teoria poznawczego obciążenia](https://en.wikipedia.org/wiki/Cognitive_load) – zgodnie z tą teorią porcja informacji, na której możemy naraz operować jest skończona. Pracując w grupie będziesz skupiał się na wiedzy wewnątrz niej i filtrował wiedzę spoza niej.
-*   Błędy poznawcze takie jak [nie wymyślono tutaj](https://en.wikipedia.org/wiki/Not_invented_here), [efekt IKEA](https://en.wikipedia.org/wiki/IKEA_effect), [stereotypowanie](https://pl.wikipedia.org/wiki/Stereotyp), [skrzywienie zawodowe](https://pl.wikipedia.org/wiki/Skrzywienie_zawodowe), [kolektywny narcyzm](https://en.wikipedia.org/wiki/Collective_narcissism)
+ *   Ograniczenia komunikacyjne – komunikowanie się ze sobą zbyt wielu osób naraz jest niemożliwe. Tworzymy abstrakcje, w postaci grup / zespołów które działają jako jedność.
+ *   [Spójność grupy](https://pl.wikipedia.org/wiki/Sp%C3%B3jno%C5%9B%C4%87_grupy) i [syndrom grupowego myślenia](https://pl.wikipedia.org/wiki/Syndrom_grupowego_my%C5%9Blenia) – mechanizmy psychologiczne sprawiające, że grupy podejmują wspólne decyzje, czasami irracjonalne.
+ *   [Trybalizm](https://en.wikipedia.org/wiki/Tribalism) – poczucie bliskości z grupą, którą się identyfikujemy. Ten wrodzony atawizm powoduje, że łatwiej akceptujemy rozwiązania bliskie naszemu otoczeniu i rywalizujemy z grupami przeciwnymi.
+ *   [Teoria poznawczego obciążenia](https://en.wikipedia.org/wiki/Cognitive_load) – zgodnie z tą teorią porcja informacji, na której możemy naraz operować jest skończona. Pracując w grupie będziesz skupiał się na wiedzy wewnątrz niej i filtrował wiedzę spoza niej.
+ *   Błędy poznawcze takie jak [nie wymyślono tutaj](https://en.wikipedia.org/wiki/Not_invented_here), [efekt IKEA](https://en.wikipedia.org/wiki/IKEA_effect), [stereotypowanie](https://pl.wikipedia.org/wiki/Stereotyp), [skrzywienie zawodowe](https://pl.wikipedia.org/wiki/Skrzywienie_zawodowe), [kolektywny narcyzm](https://en.wikipedia.org/wiki/Collective_narcissism)
 
 Mechanizmy psychologiczne powodują, że łatwiej myśli nam się w kategoriach otoczenia, w którym pracujemy na co dzień. Nie wychodzimy i nie chcemy wychodzić na zewnątrz ram, w które jesteśmy wtłoczeni. Współpraca pomiędzy grupami / zespołami / działami wymaga od nas więcej wysiłku i zaangażowania.
 
@@ -140,13 +140,13 @@ Zasady dobrej struktury
 
 Poniżej przedstawiłem krótki spis elementów, które warto brać pod uwagę próbując tworzyć dobrą strukturę:
 
-*   Zakładany cel biznesowy
-*   Autonomia
-*   Ilość grup kontaktu / zależności
-*   Rodzaje grup społecznych / kulturowych
-*   Ogólna kultura organizacyjna
-*   Możliwe wąskie gardła
-*   Szansa na zmianę
+ *   Zakładany cel biznesowy
+ *   Autonomia
+ *   Ilość grup kontaktu / zależności
+ *   Rodzaje grup społecznych / kulturowych
+ *   Ogólna kultura organizacyjna
+ *   Możliwe wąskie gardła
+ *   Szansa na zmianę
 
 Oczywiście nie jest to zbiór kompletny, raczej krótkie prześlizgnięcie się po temacie. Bardzo dużo o różnych heurystykach tworzenia struktury zespołów i ich organizacji wewnętrznej pisze na swoim [blogu](https://medium.com/nick-tune-tech-strategy-blog) Nick Tune. Celowo używa on słowa „heurestyka” – tutaj nie ma dobrych i złych wyborów. Wszystkie zasady są raczej wskazówkami, która mogą, ale nie muszą, przybliżyć nas do bardziej efektywnej struktury.
 

@@ -48,9 +48,9 @@ Aktorzy – jakimi rękoma będziemy optymalizowali
 
 Tutaj przechodzimy do nieco nieoczekiwanej części – kim jesteśmy w stanie zrealizować dany cel. Ta kwestia na początku wydaje się oczywista, ale jeśli głębiej się nad nią zastanowimy to już taka nie jest. Np. w omawianym tutaj kontekście nie zawsze jest nią zespół programistyczny.
 
-*   Dla celu „Implementacja zadań przez zespoły nie dotyka tego samego kodu” osobą może być Product Owner, który zacznie lepiej dzielić zadania na obszary.
-*   Dla celu „Mamy pewność, że wypuszczona zmiana nie wpływa na inne części systemu” osobą może być dodatkowy tester, który zautomatyzuje część scenariuszy i przetestuje manualnie te pozostałe.
-*   Dla celu „Zmniejszenie błędów na styku zespół A – B o 80%” osobą będzie project manager, który zorganizuje spotkanie liderów zespołu by raz na 2 tygodnie przegadywali wspólnie planowane zmiany.
+ *   Dla celu „Implementacja zadań przez zespoły nie dotyka tego samego kodu” osobą może być Product Owner, który zacznie lepiej dzielić zadania na obszary.
+ *   Dla celu „Mamy pewność, że wypuszczona zmiana nie wpływa na inne części systemu” osobą może być dodatkowy tester, który zautomatyzuje część scenariuszy i przetestuje manualnie te pozostałe.
+ *   Dla celu „Zmniejszenie błędów na styku zespół A – B o 80%” osobą będzie project manager, który zorganizuje spotkanie liderów zespołu by raz na 2 tygodnie przegadywali wspólnie planowane zmiany.
 
 Nie chodzi tutaj o wyjście z wszystkimi możliwymi osobami z projektu. Raczej o pewien eksperyment myślowy, który pozwoli wyjść poza ramy typowych odpowiedzi. Czasem rozwiązanie przychodzi z zewnątrz, czasem nie wszystko trzeba rozwiązywać technicznie.
 
@@ -61,15 +61,15 @@ W tej części skupiamy się jak nasza akcja wpłynie na ostateczny cel. Czyli c
 
 Co nie jest wpływem:
 
-*   Mikroserwisy
-*   Osobne kanały wdrożeniowe
-*   Różne bazy danych
+ *   Mikroserwisy
+ *   Osobne kanały wdrożeniowe
+ *   Różne bazy danych
 
 Co jest wpływem:
 
-*   Autonomia pracy zespołów
-*   Możliwość wdrażania niezależnych zmian
-*   Modele danych dostosowane do problemu
+ *   Autonomia pracy zespołów
+ *   Możliwość wdrażania niezależnych zmian
+ *   Modele danych dostosowane do problemu
 
 Dlaczego to jest ważne? **Definiując wpływ, a nie rozwiązania, możemy wyjść z różnymi rozwiązaniami do danego wpływu.** Skupiając się na rozwiązaniu zawsze będziemy sobie mogli uzasadnić, że nie ma innego wyjścia z danej sytuacji.
 
@@ -82,20 +82,20 @@ Wtedy też można dokonać walidacji czy nasze pierwsze rozwiązania dalej mają
 
 Chcąc osiągnąć:
 
-*   Autonomię pracy zespołów trzeba odpowiednio podzielić zakres odpowiedzialności i zdefiniować ramy kooperacji,
-*   Możliwość wdrażania niezależnych zmian można zrealizować jako monorepo z różnymi ścieżkami i budowanie ich niezależnie
-*   Osobne modele danych dostosowane do problemu da się wykonać wewnątrz jednej bazy danych, wymuszając brak relacji pomiędzy sobą (testami bądź zaleceniami)
+ *   Autonomię pracy zespołów trzeba odpowiednio podzielić zakres odpowiedzialności i zdefiniować ramy kooperacji,
+ *   Możliwość wdrażania niezależnych zmian można zrealizować jako monorepo z różnymi ścieżkami i budowanie ich niezależnie
+ *   Osobne modele danych dostosowane do problemu da się wykonać wewnątrz jednej bazy danych, wymuszając brak relacji pomiędzy sobą (testami bądź zaleceniami)
 
 itd.
 
 Na żadną z powyższych kwestii same mikroserwisy nie dadzą nam odpowiedzi. Dużo z problemów, z którymi musimy się rozprawić wdrażając mikroserwisy, **są nie tylko techniczne, ale także socjotechniczne bądź biznesowe**:
 
-*   Jak podzielić naszą domenę biznesową na mniejsze części
-*   Jak zarządzać wymaganiami na styku domen
-*   Które zespoły będą opiekować się poszczególnymi mikroserwisami
-*   Czy te zespoły mają odpowiednie kompetencje do takiej pracy
-*   Czy mamy wsparcie klienta w zmianach
-*   Czy klient rozumie problemy wynikające z mikroserwisów (opóźnienia, możliwą niespójność danych, dodatkową pracę)
+ *   Jak podzielić naszą domenę biznesową na mniejsze części
+ *   Jak zarządzać wymaganiami na styku domen
+ *   Które zespoły będą opiekować się poszczególnymi mikroserwisami
+ *   Czy te zespoły mają odpowiednie kompetencje do takiej pracy
+ *   Czy mamy wsparcie klienta w zmianach
+ *   Czy klient rozumie problemy wynikające z mikroserwisów (opóźnienia, możliwą niespójność danych, dodatkową pracę)
 
 Simon Brown i mikroserwisy
 ==========================
@@ -110,14 +110,14 @@ Aby mieć dobry system mikroserwisowy trzeba umieć go dobrze skomponentyzować.
 
 Więc jeśli chcesz:
 
-*   Odseparować logikę biznesową – wystarczą komponenty
-*   Pracować niezależnie – wystarczą komponenty
-*   Mieć model dostosowany do problemu – wystarczą komponenty
+ *   Odseparować logikę biznesową – wystarczą komponenty
+ *   Pracować niezależnie – wystarczą komponenty
+ *   Mieć model dostosowany do problemu – wystarczą komponenty
 
 Lub kiedy:
 
-*   Masz małą aplikację – nie potrzebujesz mikroserwisów (podzielisz system na 2 zbyt złączone komponenty)
-*   Domena jest nieznana – nie potrzebujesz mikroserwisów (źle wydzielisz granice mikroserwisów)
-*   Zespoły nie są wielofunkcyjne – nie potrzebujesz mikroserwisów (musisz najpierw zmienić strukturę zespołów)
+ *   Masz małą aplikację – nie potrzebujesz mikroserwisów (podzielisz system na 2 zbyt złączone komponenty)
+ *   Domena jest nieznana – nie potrzebujesz mikroserwisów (źle wydzielisz granice mikroserwisów)
+ *   Zespoły nie są wielofunkcyjne – nie potrzebujesz mikroserwisów (musisz najpierw zmienić strukturę zespołów)
 
 Także najpierw należy się zastanowić po co, a później brać się za robotę 😉

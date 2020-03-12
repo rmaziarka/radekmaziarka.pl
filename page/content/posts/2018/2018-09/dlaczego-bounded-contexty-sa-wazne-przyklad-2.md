@@ -8,7 +8,7 @@ category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---
 
-// wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
+ // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/).
 
 Po poprzednich, bardziej teoretycznych postach, nadszedł czas, by przejść do praktyki. W kilku następnych wpisach pokażę problemy, jakie powstały przez brak wydzielonych kontekstów w aplikacji.
 

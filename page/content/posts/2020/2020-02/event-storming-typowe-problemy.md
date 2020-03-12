@@ -14,9 +14,9 @@ Planując jakikolwiek z nich (nie tylko Event Storming) warto zwrócić uwagę n
 
 Pogrupowałem (dość arbitralnie) problemy w 3 grupy:
 
-*   [Praca z ludźmi](#ludzie)
-*   [Miejsce warsztatu](#miejsce)
-*   [Facylitator](#facylitator)
+ *   [Praca z ludźmi](#ludzie)
+ *   [Miejsce warsztatu](#miejsce)
+ *   [Facylitator](#facylitator)
 
 [![](https://radekmaziarka.pl/wp-content/uploads/2020/02/people-2557396_1920.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/people-2557396_1920.jpg)
 
@@ -109,10 +109,10 @@ Częstym problemem z przeprowadzaniem Event Stormingu jest jego literalny odbió
 
 Alberto Brandolini opowiada, że warsztat jest jak pizza – ma pewną bazę, ale pozostałe elementy możemy wybierać w dowolny sposób. Dlatego też powinno kształtować notację i kierunek warsztatu dynamicznie, w zależności od zaistniałych problemów:
 
-*   Nie trzeba wykorzystywać całej notacji
-*   Nowe karteczki można wprowadzać w innej kolejności
-*   Pewne elementy warto celowo pominąć bądź wykorzystać w inny sposób
-*   Długość poszczególnych faz adaptujemy do zaistniałej sytuacji
+ *   Nie trzeba wykorzystywać całej notacji
+ *   Nowe karteczki można wprowadzać w innej kolejności
+ *   Pewne elementy warto celowo pominąć bądź wykorzystać w inny sposób
+ *   Długość poszczególnych faz adaptujemy do zaistniałej sytuacji
 
 Dzięki takiemu podejściu łatwiej jest nam przynieść wartość warsztatem, bo odrzucamy to co jest niepotrzebne i skupiamy się na najważniejszych rzeczach.
 

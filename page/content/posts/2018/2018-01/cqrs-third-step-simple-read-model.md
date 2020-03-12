@@ -12,10 +12,10 @@ This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/
 
 I will write about:
 
-1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
-2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
-3.  [creating simple read model](http://radblog.pl/2018/01/08/cqrs-third-step-simple-read-model/)
-4.  creating read model asynchronously with SignalR notification
+ 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](http://radblog.pl/2018/01/08/cqrs-third-step-simple-read-model/)
+ 4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
@@ -95,13 +95,13 @@ Now you add throwing an event in every command handler which is dedicated to the
 ```
     public class AddProductCommandHandler : IRequestHandler<AddProductCommand>
     {
-        private readonly ProductDatabase \_database;
-        private readonly IMediator \_mediator;
+        private readonly ProductDatabase _database;
+        private readonly IMediator _mediator;
 
         public AddProductCommandHandler(ProductDatabase database, IMediator mediator)
         {
-            \_database = database;
-            \_mediator = mediator;
+            _database = database;
+            _mediator = mediator;
         }
 
         public void Handle(AddProductCommand command)
@@ -110,7 +110,7 @@ Now you add throwing an event in every command handler which is dedicated to the
             // add product to database
             
             var @event = new ProductAddedEvent(product.Id, product.Name, product.CategoryId);
-            \_mediator.Publish(@event);
+            _mediator.Publish(@event);
         }
     }
 ```
@@ -153,17 +153,17 @@ You create event handlers very straightforward - they create or gather product f
 ```
     public class ProductAddedEventHandler: INotificationHandler<ProductAddedEvent>
     {
-        private readonly IProductReadModelRepository \_repo;
+        private readonly IProductReadModelRepository _repo;
 
         public ProductAddedEventHandler(IProductReadModelRepository repo)
         {
-            \_repo = repo;
+            _repo = repo;
         }
 
         public void Handle(ProductAddedEvent @event)
         {
             var product = new ProductReadModel(@event);
-            \_repo.Insert(product);
+            _repo.Insert(product);
         }
     }
 ```
@@ -173,21 +173,21 @@ To be able to find and modify read models you create an additional repository:
 ```
     public class ProductReadModelRepository : IProductReadModelRepository
     {
-        private readonly SqlConnection \_sqlConnection;
+        private readonly SqlConnection _sqlConnection;
 
         public ProductReadModelRepository(SqlConnection sqlConnection)
         {
-            \_sqlConnection = sqlConnection;
+            _sqlConnection = sqlConnection;
         }
 
         public ProductReadModel Find(int productId)
         {
-            return \_sqlConnection.QuerySingle<ProductReadModel>("SELECT \* FROM Products WHERE Id = @Id", new { Id = productId });
+            return _sqlConnection.QuerySingle<ProductReadModel>("SELECT \* FROM Products WHERE Id = @Id", new { Id = productId });
         }
 
         public void Insert(ProductReadModel product)
         {
-            \_sqlConnection.Execute(
+            _sqlConnection.Execute(
                 @"INSERT INTO Products (Id, Name, CategoryId, OrderAmount, Review, FieldValues) 
                 VALUES(@Id, @Name, @CategoryId, @OrderAmount @Review, @FieldValues)",
                 product);
@@ -195,7 +195,7 @@ To be able to find and modify read models you create an additional repository:
 
         public void Update(ProductReadModel product)
         {
-            \_sqlConnection.Execute(
+            _sqlConnection.Execute(
                 @"UPDATE Products (Name, CategoryId, OrderAmount, Review, FieldValues) 
                 VALUES(@Name, @CategoryId, @OrderAmount @Review, @FieldValues)
                 WHERE Id = @Id",
@@ -229,17 +229,17 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
 ```
     public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<Product>>
     {
-        private readonly SqlConnection \_sqlConnection;
-        private readonly Dictionary<SortColumn, string> \_sortColumnDict = new Dictionary<SortColumn, string>()
+        private readonly SqlConnection _sqlConnection;
+        private readonly Dictionary<SortColumn, string> _sortColumnDict = new Dictionary<SortColumn, string>()
         {
-            \[SortColumn.ReviewCount\] = "JSON\_VALUE(Review, '$.Count') ",
-            \[SortColumn.ReviewAverage\] = "JSON\_VALUE(Review, '$.Average') ",
-            \[SortColumn.OrderAmount\] = "OrderAmount "
+            [SortColumn.ReviewCount] = "JSON\_VALUE(Review, '$.Count') ",
+            [SortColumn.ReviewAverage] = "JSON\_VALUE(Review, '$.Average') ",
+            [SortColumn.OrderAmount] = "OrderAmount "
         };
 
         public GetProductsQueryHandler(SqlConnection sqlConnection)
         {
-            \_sqlConnection = sqlConnection;
+            _sqlConnection = sqlConnection;
         }
 
         IEnumerable<Product> IRequestHandler<GetProductsQuery, IEnumerable<Product>>.Handle(GetProductsQuery command)
@@ -267,12 +267,12 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
             }
 
             // ordering
-            var orderBy = \_sortColumnDict\[command.SortColumn\];
+            var orderBy = _sortColumnDict[command.SortColumn];
             orderBy += command.SortOrder == SortOrder.Ascending ? "ASC" : "DESC";
             builder.OrderBy(orderBy);
 
             // running SQL query
-            var products = \_sqlConnection.Query<ProductReadModel>(selector.RawSql, selector.Parameters);
+            var products = _sqlConnection.Query<ProductReadModel>(selector.RawSql, selector.Parameters);
 
             return products;
         }
@@ -280,9 +280,9 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
 ```
 You build your SQL query in query handler adding dynamically WHERE and ORDER parameters, depending on values in command:
 
-*   Filtering by review average rating - checking if a rating is higher or equal than sent.
-*   Filtering by field value - checking is field value is equal as in command.
-*   Ordering by Review Count / Review Average Rating / Order Amount.
+ *   Filtering by review average rating - checking if a rating is higher or equal than sent.
+ *   Filtering by field value - checking is field value is equal as in command.
+ *   Ordering by Review Count / Review Average Rating / Order Amount.
 
 Your products query currently is not using any additional table - just the ProductsReadModel. With a [mechanism](https://docs.microsoft.com/en-us/sql/relational-databases/json/index-json-data) to index JSON columns, your queries are performing a way better than before.
 
@@ -306,11 +306,11 @@ Result SQL looks like [that](https://gist.github.com/rmaziarka/fd7921fc70e19d74f
 
 Of course, this is the simplest solution and with more complex scenarios, it won't be sufficient to cover all edge cases. More sophisticated solutions are:
 
-*   Custom mechanism to drop whole read model and recreate it on demand. You can define it on database or system level.
-*   Batching data migration, depending on a data structure.
-*   [Feature flags](https://martinfowler.com/articles/feature-toggles.html) - allows switching the products query handler from the previous model to new read model.
-*   [Blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - works together with feature flag to get the certainty that returned view is the same.
-*   [Event sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing) - create an event for existing data and store all new events additionally in the different table. Then start [projection](https://abdullin.com/post/event-sourcing-projections/).
+ *   Custom mechanism to drop whole read model and recreate it on demand. You can define it on database or system level.
+ *   Batching data migration, depending on a data structure.
+ *   [Feature flags](https://martinfowler.com/articles/feature-toggles.html) - allows switching the products query handler from the previous model to new read model.
+ *   [Blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - works together with feature flag to get the certainty that returned view is the same.
+ *   [Event sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing) - create an event for existing data and store all new events additionally in the different table. Then start [projection](https://abdullin.com/post/event-sourcing-projections/).
 
 Summary
 -------

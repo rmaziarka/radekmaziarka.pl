@@ -16,9 +16,9 @@ W poprzednim poście opowiedziałem ogólnie czym są Bounded Contexty. Jednak 
 
 Aplikacja bez kontekstów używa tych samych klas / serwisów / struktur bazodanowych do rozwiązywania różnych problemów. Nie ma w tym nic niewłaściwego, kiedy nasz system startuje - nie znamy wtedy jeszcze szczególnych wymagań, przez co wszystko dobrze mieści się w jednym modelu. Jednak długofalowo taki sposób jego tworzenia aplikacji potrafi mocno utrudniać jej rozwój i utrzymanie. Biorąc za przykład system e-commercowy, skutki takiego rozwiązania mogą być następujące:
 
-*   tabela Order będzie zawierała ogromną ilość kolumn wymaganych do wszystkich możliwych przypadków użycia
-*   serwis OrderService będzie miał dziesiątki mieszających się metod
-*   klasa OrderViewModel będzie zawierał pola reużywane w wielu odmiennych widokach
+ *   tabela Order będzie zawierała ogromną ilość kolumn wymaganych do wszystkich możliwych przypadków użycia
+ *   serwis OrderService będzie miał dziesiątki mieszających się metod
+ *   klasa OrderViewModel będzie zawierał pola reużywane w wielu odmiennych widokach
 
 W takim układzie jakakolwiek zmiana wymagań będzie skutkowała dotkliwą refaktoryzacją dużej części systemu.
 

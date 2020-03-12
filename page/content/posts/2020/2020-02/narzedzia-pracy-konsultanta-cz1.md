@@ -14,14 +14,14 @@ Narzędzia, które opiszę skupiają się na różnych aspektach pracy – defin
 
 Może was to zdziwić, ale nie rozpocznę od Event Stormingu 😉, choć oczywiście też znalazł się w moim zestawieniu. Lista technik, o których opowiem jest następująca:
 
-1.  [Impact Mapping](#im)
-2.  [Business Model Canvas](#bmc)
-3.  [Event Storming](#es)
-4.  [Macierze](#matrix)
-5.  Value Stream Mapping
-6.  Wardley Maps
-7.  Example Mapping
-8.  System Thinking diagram
+ 1.  [Impact Mapping](#im)
+ 2.  [Business Model Canvas](#bmc)
+ 3.  [Event Storming](#es)
+ 4.  [Macierze](#matrix)
+ 	5.  Value Stream Mapping
+ 	6.  Wardley Maps
+ 	7.  Example Mapping
+ 	8.  System Thinking diagram
 
 Zanim przejdziemy do poszczególnych technik i narzędzi, wyjaśnijmy, dlaczego stosowanie takich narzędzi jest warte uwagi.
 
@@ -138,12 +138,12 @@ Macierz Wartość / Koszt - [https://hygger.io/blog/lean-prioritization-approach
 
 Dana macierz pozwala nam zastanowić się wspólnie nad różnymi aspektami naszych decyzji. Możemy spojrzeć na nasze wybory z różnych stron by nie zapomnieć o żadnej z nich. Tutaj mogę przytoczyć następujące macierze:
 
-*   Wartość / Ryzyko – chcemy zobaczyć jak ryzykowne jest uzyskanie danej wartości. Przydatne, jeśli nasze decyzje mogą nie być tylko pozytywne.
-*   Wartość / Koszt – pokazanie wydatków na daną pracę w porównaniu, ile możemy uzyskać. Sprawdza się przy współpracy z osobami biznesowymi na temat kosztów pracy zespołów programistycznych.
-*   Satysfakcja / Funkcjonalność – zwana także modelem Kano, pozwala lepiej zrozumieć czego potrzebują od nas nasi klienci. Przydatne, gdy chcemy skupić się na poprawie jakości lub zaadresowaniu nietypowych potrzeb.
-*   Krótkoterminowy zysk / Długoterminowy zysk – wizualizacja możliwych rezultatów w ujęciu krótkiego i dalekiego horyzontu czasowego. Warte wykorzystania, gdy wydaje nam się, że „szybkie zyski” mogą nas później pogrążyć.
-*   Firma / pracownik – wykres zbierający możliwe zyski danej decyzji dla firmy i pracownika. Chcąc działać stabilnie powinniśmy równoważyć te dwa obszary by żaden nie był poszkodowany.
-*   Ilość / Jakość – przedstawienie naszych decyzji / metryk w formie nacisku na jedną z osi. Na tej podstawie łatwo jest znaleźć braki w przeciwnej części macierzy np. gdy mamy metryki zbierające ilość nowych klientów, ale brakuje nam metryk oceniających zysk na nich.
+ *   Wartość / Ryzyko – chcemy zobaczyć jak ryzykowne jest uzyskanie danej wartości. Przydatne, jeśli nasze decyzje mogą nie być tylko pozytywne.
+ *   Wartość / Koszt – pokazanie wydatków na daną pracę w porównaniu, ile możemy uzyskać. Sprawdza się przy współpracy z osobami biznesowymi na temat kosztów pracy zespołów programistycznych.
+ *   Satysfakcja / Funkcjonalność – zwana także modelem Kano, pozwala lepiej zrozumieć czego potrzebują od nas nasi klienci. Przydatne, gdy chcemy skupić się na poprawie jakości lub zaadresowaniu nietypowych potrzeb.
+ *   Krótkoterminowy zysk / Długoterminowy zysk – wizualizacja możliwych rezultatów w ujęciu krótkiego i dalekiego horyzontu czasowego. Warte wykorzystania, gdy wydaje nam się, że „szybkie zyski” mogą nas później pogrążyć.
+ *   Firma / pracownik – wykres zbierający możliwe zyski danej decyzji dla firmy i pracownika. Chcąc działać stabilnie powinniśmy równoważyć te dwa obszary by żaden nie był poszkodowany.
+ *   Ilość / Jakość – przedstawienie naszych decyzji / metryk w formie nacisku na jedną z osi. Na tej podstawie łatwo jest znaleźć braki w przeciwnej części macierzy np. gdy mamy metryki zbierające ilość nowych klientów, ale brakuje nam metryk oceniających zysk na nich.
 
 To jest kilka wykorzystywanych przeze mnie porównań, jednak nie musicie się w nich zamykać. W ramach swojego problemu możecie dobrać takie ramy, jakie są potrzebne. Prawie nic was tutaj nie ogranicza. Prawie…
 

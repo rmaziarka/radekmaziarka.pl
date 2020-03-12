@@ -59,11 +59,11 @@ Pozostałe prezentacje
 
 Nie sposób każdej prelekcji opisać tak dokładnie, ale na tej konferencji było naprawdę dużo wartych polecenia:
 
-*   Wiktor Sztajerowski - Polyglot persistence
-*   Piotr Stawirej - Modern agile retrospectives
-*   Mateusz Budzar - Profesjonalny developer. Kto to taki?
-*   Maciej Trojniarz - Upewnij się, że dostarczasz increment, a nie ekskrement produktu.
-*   Krzysztof Rakowski - Dziel się wiedzą i buduj swoją markę: 7 kroków do skutecznego pisania
+ *   Wiktor Sztajerowski - Polyglot persistence
+ *   Piotr Stawirej - Modern agile retrospectives
+ *   Mateusz Budzar - Profesjonalny developer. Kto to taki?
+ *   Maciej Trojniarz - Upewnij się, że dostarczasz increment, a nie ekskrement produktu.
+ *   Krzysztof Rakowski - Dziel się wiedzą i buduj swoją markę: 7 kroków do skutecznego pisania
 
 Networking
 ----------

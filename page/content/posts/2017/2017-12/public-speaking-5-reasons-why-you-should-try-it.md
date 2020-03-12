@@ -12,20 +12,20 @@ More than two years ago I started my journey with public speakings. And it went 
 
 In term of public speaking I am not talking only about standing on the stand and shouting towards people but all activities like:
 
-*   giving a presentation or lightning talk in your project / company
-*   being a trainer during a workshop
-*   present your ideas in meeting in front of your superiors / managers
-*   sharing your knowledge in podcast / youtube videos
+ *   giving a presentation or lightning talk in your project / company
+ *   being a trainer during a workshop
+ *   present your ideas in meeting in front of your superiors / managers
+ *   sharing your knowledge in podcast / youtube videos
 
 Therefore, all these events when you are heard by a group of people and they only listen to you.
 
 I grouped advantages of public speaking in 5 points:
 
-*   [Self confidence](#self-confidence)
-*   [Knowledge sharing](#knowledge-sharing)
-*   [Deeper learning](#deeper-learning)
-*   [Become a tech leader](#tech-leader)
-*   [Increase your market value](#market-value)
+ *   [Self confidence](#self-confidence)
+ *   [Knowledge sharing](#knowledge-sharing)
+ *   [Deeper learning](#deeper-learning)
+ *   [Become a tech leader](#tech-leader)
+ *   [Increase your market value](#market-value)
 
 Self confidence
 ---------------
@@ -58,11 +58,11 @@ To be able to teach other people / present something you have to get a deeper 
 
 To be able to teach other people you will need to go **higher in learning ladder** -  evaluating or defending some technology, comparing it to other fields, demonstrating it to end users. But during preparing for the presentation you will get this knowledge seamlessly:
 
-*   You will try to answer questions that you assume someone will ask
-*   You will think about connections to other technologies / patterns
-*   You will get arguments to defend / critique your case
-*   You will show how to use this technology in real use-case scenarios
-*   And plenty of more
+ *   You will try to answer questions that you assume someone will ask
+ *   You will think about connections to other technologies / patterns
+ *   You will get arguments to defend / critique your case
+ *   You will show how to use this technology in real use-case scenarios
+ *   And plenty of more
 
 [Chad Fowler](https://www.linkedin.com/in/fowlerchad/) (Chief Technology of [Wunderlist](https://www.wunderlist.com/) which currently works for Microsoft), told at DevDay conference that he used writing a [Programming Ruby](https://pragprog.com/titles/ruby/programming-ruby) book to deepen his knowledge in Ruby language. He wasn't an expert but he became after this book.
 

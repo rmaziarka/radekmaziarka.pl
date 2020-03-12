@@ -28,20 +28,20 @@ _Rysunek 1 Przykładowa transformacja strumienia w Gulp_
 
 Instalacja Gulp i jego pluginów następuje przez wpisanie w konsoli:
 
-\[code lang="js"\]
+```javascript
 npm install package-name
-\[/code\]
+```
 
 Pluginy można wyszukiwać na stronie repozytorium npm dostępnym pod adresem [www.npmjs.com](https://www.npmjs.com/). Praktycznie wszystkie pluginy do Gulp są poprzedzone przedrostkiem gulp-\* np. gulp-less.
 
 Zadania deklarujemy w pliku gulpfile.js, a uruchamiamy je wpisując w konsoli gulp i nazwa zadania (pusty gulp uruchomi zadanie domyślne _default_). Przykładowy plik gulpfile.js:
 
-\[code lang="js"\]
+```javascript
 var gulp = require('gulp');
 gulp.task('default', function () {
- // run tasks here
+    // run tasks here
 });
-\[/code\]
+```
 
 Dokładniejsza instrukcja dostępna jest na stronie Gulp w platformie GitHub, w zakładce dokumentacji.
 
@@ -65,13 +65,13 @@ _Rysunek 2 Okno Task Runner Explorer w Visual Studio_
 *   Rozwiązanie: Obie te biblioteki kompilują pliki znalezione w przekazanej ścieżce, a nastepnie umieszcają je we wskazanym przez nas miejscu docelowym. Posiadają duże możliwości konfiguracji, ale podstawowe użycie wymaga jedynie kilku linijek kodu.
 *   Przykład:
 
-\[code lang="js"\]
+```javascript
 gulp.task('less', function () {
- return gulp.src('./styles/\*\*/\*.less')
- .pipe(less())
- .pipe(gulp.dest('./dest/css'));
+    return gulp.src('./styles/\*\*/\*.less')
+        .pipe(less())
+        .pipe(gulp.dest('./dest/css'));
 });
-\[/code\]
+```
 
  
 
@@ -82,14 +82,14 @@ gulp.task('less', function () {
 *   Rozwiązanie: Pierwsze dwie biblioteki zajmują się minifikacją plików JS/CSS. gulp-concat łączy zminifikowane pliki w jedną całość. gulp-inject potrafi wylistować wszystkie pliki do pliku HTML. Dzięki temu mamy możliwość zareagować na konfigurację builda (Debug/Release) i wylistować albo wszystkie pliki, albo tylko te zminifikowane.
 *   Przykład
 
-\[code lang="js"\]
+```javascript
 gulp.task('minify-js', function () {
- return gulp.src('./scripts/\*\*/\*.js')
- .pipe(uglify())
- .pipe(concat('all.min.js'))
- .pipe(gulp.dest('./dest/'));
+    return gulp.src('./scripts/\*\*/\*.js')
+        .pipe(uglify())
+        .pipe(concat('all.min.js'))
+        .pipe(gulp.dest('./dest/'));
 })
-\[/code\]
+```
 
  
 
@@ -100,14 +100,14 @@ gulp.task('minify-js', function () {
 *   Rozwiązanie: main-bower-files pozwala przeczytać zależności naszego projektu z bower.json i pobrać listę ścieżek do tych plików. Następnie przez gulp-inject jesteśmy w stanie wylistować je w naszym głównym pliku HTML lub dołączyć do napisanego wcześniej mechanizmu minifikacyjnego.
 *   Przykład:
 
-\[code lang="js"\]
+```javascript
 gulp.task('bower', function () {
- var bowerFiles = mainBowerFiles();
- return gulp.src('./index.html')
- .pipe(inject(gulp.src(bowerFiles)))
- .pipe(gulp.dest('./'));
+    var bowerFiles = mainBowerFiles();
+    return gulp.src('./index.html')
+        .pipe(inject(gulp.src(bowerFiles)))
+        .pipe(gulp.dest('./'));
 });
-\[/code\]
+```
 
  
 
@@ -118,13 +118,13 @@ gulp.task('bower', function () {
 *   Rozwiązanie: Obie powyższe biblioteki przeszukują katalogi projektu i wczytują wszystkie pliki o wymaganej sygnaturze (pierwszy \*.html, drugi \*.lang.json). Następnie każdy z nich tworzy jeden połączony plik, który po wczytaniu do aplikacji zapewni Angularowi cache dla wszystkich widoków i tłumaczeń, przez co eliminujemy zbędne żądania.
 *   Przykład:
 
-\[code lang="js"\]
+```javascript
 gulp.task('templates', function () {
- return gulp.src('./templates/\*\*/\*.html')
- .pipe(angularTemplateCache())
- .pipe(gulp.dest('./dest/'));
+    return gulp.src('./templates/\*\*/\*.html')
+        .pipe(angularTemplateCache())
+        .pipe(gulp.dest('./dest/'));
 });
-\[/code\]
+```
 
  
 
@@ -135,15 +135,15 @@ gulp.task('templates', function () {
 *   Rozwiązanie: Biblioteka wrzuca pliki do wcześniej stworzonego kontenera (Azure Blob). Ma duże możliwości konfiguracyjne i pozwala m.in. uruchamić „suchy” przebieg, który w konfiguracji Debug nie wyśle plików do kontenera. Dodając wskazanie w Azure CDN na nasz blob mamy szybki mechanizm udostępniania plików, który przyśpiesza działanie aplikacji
 *   Przykład:
 
-\[code lang="js"\]
+```javascript
 gulp.task('upload-to-azure', function () {
- return gulp.src(\['./dest/\*.js', './dest/\*.css'\])
- .pipe(deployAzureCdn({
- containerName: 'containerName',
- serviceOptions: \['blobName', 'password'\],
- }));
+    return gulp.src(['./dest/\*.js', './dest/\*.css'])
+        .pipe(deployAzureCdn({
+            containerName: 'containerName',
+            serviceOptions: ['blobName', 'password'],
+        }));
 });
-\[/code\]
+```
 
  
 
@@ -154,13 +154,13 @@ gulp.task('upload-to-azure', function () {
 *   Rozwiązanie: Biblioteka wylicza hash zawartości i dodaje go na koniec nazwy pliku. Dzięki temu po każdej zmianie zawartości pliki różnią się nazwami i są oddzielnie dostępne z poziomu CDN. Jednocześnie niezmienione pliki są nadal cachowane i są szybciej dostępne dla aplikacji.
 *   Przykład:
 
-\[code lang="js"\]
+```javascript
 gulp.task('version', function () {
- return gulp.src(\['./dest/\*.js', './dest/\*.css'\])
- .pipe(rev())
- .pipe(gulp.dest('./dest'));
+    return gulp.src(['./dest/\*.js', './dest/\*.css'])
+        .pipe(rev())
+        .pipe(gulp.dest('./dest'));
 });
-\[/code\]
+```
 
  
 

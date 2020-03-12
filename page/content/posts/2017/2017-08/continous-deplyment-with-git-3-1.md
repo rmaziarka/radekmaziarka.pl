@@ -20,11 +20,11 @@ At the beginning you need to create repository to connect it to remote function 
 Then you need to create you Function App in Azure portal. Find "function app" and choose parameters:
 ![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_22-51-00.png)
 
-*   **App name** - Name of group of your functions (in my case Azure-Function-Poc).
-*   **Subsciption** - Which subscription will take costs of this Function App.
-*   **Resource group** - choose how would you like to group tour resources.
-*   **Hosting plan -** You can choose from charging from every Function App or gather it together inside one App Service Plan. I have chosen simple charging.
-*   **Storage** - function needs to be storage in some Azure Storage account. We can either create it or use existing one. I create new azurefunctionpoc
+ *   **App name** - Name of group of your functions (in my case Azure-Function-Poc).
+ *   **Subsciption** - Which subscription will take costs of this Function App.
+ *   **Resource group** - choose how would you like to group tour resources.
+ *   **Hosting plan -** You can choose from charging from every Function App or gather it together inside one App Service Plan. I have chosen simple charging.
+ *   **Storage** - function needs to be storage in some Azure Storage account. We can either create it or use existing one. I create new azurefunctionpoc
 
 You don't need to add Azure Insight. After clicking Create, in a moment you will got your function.
 
@@ -53,7 +53,7 @@ Configuration in Azure
 
 With such deplyment you don't need to change any option in your Function App - everything will work from the beginning. Parameters as **AzureWebJobsStorage** are automatically set with connection string to your remote Azure Storage, which was provider during creation of app.
 
-You can check your settings in Function App -> Platfom Features tab -> GENERAL SETTINGS section -> Application settings -> App settings section -> **AzureWebJobsStorage**.
+You can check your settings in Function App -> Platfom Features tab -> GENERAL SETTINGS section -> Application settings -> App settings section -> **AzureWebJobsStorage**. 
 
 Testing remote Function App
 ---------------------------

@@ -19,22 +19,22 @@ Załóżmy że mamy proces sprzedaży biletów kinowych. Użytkownik wybiera god
 
 Mamy 2 osobne konteksty:
 
-*   Zamawianie biletów - zarządza procesem rezerwacji, trzyma wszystkie informacje klienta.
-*   Sale - zarządza miejscami na sali, dba by nie było podwójnie zajętego miejsca.
+ *   Zamawianie biletów - zarządza procesem rezerwacji, trzyma wszystkie informacje klienta.
+ *   Sale - zarządza miejscami na sali, dba by nie było podwójnie zajętego miejsca.
 
 Problem jaki się pojawiał to w przypadku kliknięcia Rezerwuj na stronie sali trzeba było dokonać 2 operacji:
 
-*   Zajęcie krzeseł
-*   Stworzenie rezerwacji na te krzesła
+ *   Zajęcie krzeseł
+ *   Stworzenie rezerwacji na te krzesła
 
 Czyli 2 różne operacje w 2 różnych kontekstach. Zastanawiałem się jak to zrobić by najmniej zabolało to systemu. Jednak ciężko było uciec od czegoś na kształt sagi:
 
-*   (UI) Kliknięcie Zarezerwuj ->
-*   (Zamawianie biletów) Stwórz rezerwację -> Rezerwacja stworzona ->
-*   (Zamawianie biletów) Uruchom sagę -> Wyślij żądanie "Zajmij krzesła" ->
-*   (Sale) Zajmij krzesła -> Krzesła zajęte ->
-*   (Zamawianie biletów) Saga zakończona -> Rezerwacja dokonana ->
-*   (UI) Widok dokonanej rezerwacji
+ *   (UI) Kliknięcie Zarezerwuj ->
+ *   (Zamawianie biletów) Stwórz rezerwację -> Rezerwacja stworzona ->
+ *   (Zamawianie biletów) Uruchom sagę -> Wyślij żądanie "Zajmij krzesła" ->
+ *   (Sale) Zajmij krzesła -> Krzesła zajęte ->
+ *   (Zamawianie biletów) Saga zakończona -> Rezerwacja dokonana ->
+ *   (UI) Widok dokonanej rezerwacji
 
 Saga utrzymuje rezerwację w stanie spójności i nie pozwala na jej stworzenie w momencie, kiedy krzesła nie zostały zajęte. Gdyby tak się stało to saga anulowałaby rezerwację.
 

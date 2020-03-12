@@ -17,22 +17,22 @@ Dla mnie wzorzec Repository, w obecnym kształcie w jakim jest on stosowany czy
 
 Repozytoria promowane w obecnym kształcie mają swoje wady:
 
-*   Promują duże klasy które są agregatorami wszystkich metod nad daną encją. Nie jest ważne biznesowe użycie danej metody, mamy zbiór niepowiązanych ze sobą metod mających tylko wspólne źródło danych. Tworzy się później śmietnisko jednorazowych metod.
-*   Metody łączące ze sobą 2 lub więcej encji są umieszczane wg subiektywnej opinii w jednym z repozytoriów. W następstwie osoba uważająca inaczej albo straci czas szukając tej metody, lub stworzy jej odpowiednik w drugim repozytorium.
-*   Tworzymy opakowania na mechanizmy bazy danych, które uniemożliwiają nam skorzystanie z nich bez dodawania kolejnych metod. Lazy loading/eager fetching, cache 1/2 poziomu, transakcje i wiele innych.
-*   Repozytoria posiadające jednocześnie metody zapisu i odczytu łamią zasadę SRP - Bogard dobrze pokazał to na przykładzie dekompozycji wzorca Repository w swojej [prezentacji](https://vimeo.com/131633177).
-*   Repozytoria zachęcają do wprowadzania wyłomów tworząc metody zwracające IQueryable, metody pozwalające filtrować z przekazaniem funkcji filtrującej itd. Wszystko to by szybciej pisać i omijać problemy z dodawaniem kolejnych metod do repozytorium. Jednak tworzy to problem przenoszenia logiki wyciągania danych z bazy do użytkowników repozytorium.
+ *   Promują duże klasy które są agregatorami wszystkich metod nad daną encją. Nie jest ważne biznesowe użycie danej metody, mamy zbiór niepowiązanych ze sobą metod mających tylko wspólne źródło danych. Tworzy się później śmietnisko jednorazowych metod.
+ *   Metody łączące ze sobą 2 lub więcej encji są umieszczane wg subiektywnej opinii w jednym z repozytoriów. W następstwie osoba uważająca inaczej albo straci czas szukając tej metody, lub stworzy jej odpowiednik w drugim repozytorium.
+ *   Tworzymy opakowania na mechanizmy bazy danych, które uniemożliwiają nam skorzystanie z nich bez dodawania kolejnych metod. Lazy loading/eager fetching, cache 1/2 poziomu, transakcje i wiele innych.
+ *   Repozytoria posiadające jednocześnie metody zapisu i odczytu łamią zasadę SRP - Bogard dobrze pokazał to na przykładzie dekompozycji wzorca Repository w swojej [prezentacji](https://vimeo.com/131633177).
+ *   Repozytoria zachęcają do wprowadzania wyłomów tworząc metody zwracające IQueryable, metody pozwalające filtrować z przekazaniem funkcji filtrującej itd. Wszystko to by szybciej pisać i omijać problemy z dodawaniem kolejnych metod do repozytorium. Jednak tworzy to problem przenoszenia logiki wyciągania danych z bazy do użytkowników repozytorium.
 
 Dużo osób wzbrania się przez użyciem bezpośrednio w kodzie kontekstu bazy przez opinię, że wtedy nie można poprawnie testować kodu ponieważ musimy zapewnić bazie dane na jakich ma kontekst operować. I wg mnie jest to niesłuszna obawa. Można sprawić by kontekt używał pod spodem listy encji / bazy in-memory, dzięki czemu testy będą przebiegały szybciej, a my będziemy mieli lepiej przetestowany kod. Robienie abstrakcji sprawi że napiszemy więcej kodu, a będziemy mieli mniejszą pewność że kod działa tak jak powinien.
 
 Ja jako zamienniki repozytorium używałbym (w zależności od skomplikowania domeny):
 
-*   W prostych domenach (słowniki, listy) używanie wprost DbContextu lub prostego [interfejsu](https://dotnetfiddle.net/LIc6gn) na DbContext’cie który zwraca IDbSet danego typu. Mamy przez to możliwość mockowania i zachowaną prostotę.
-*   Można również wstrzykiwać bezpośrednio IDbSet i wtedy mamy jedynie możliwość robienia zapytań. Dla prostych przypadków np. zapytania po obiekt przez identyfikator to bardzo słuszna droga.
-*   [DataSourceResult](http://docs.telerik.com/kendo-ui/aspnet-mvc/helpers/grid/ajax-binding) od kendo które potrafi zwrócić dane z grida odpowiednio przefiltrowane / posortowane itd.
-*   [Query Objecty](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/) które tworzymy dla bardziej skomplikowanego żądania danych. Dzieki temu mamy większą granulację i zachowaną zasadę SRP.
-*   AutoMapper i [ProjectTo](https://github.com/AutoMapper/AutoMapper/wiki/Queryable-Extensions), który zamienia mapowanie encji -> dto na kod SQL wykonywany w jednym zapytaniu.
-*   [Breeze](http://www.getbreezenow.com/breezejs) który pozwala wystawić interfejs IQueryable na zewnątrz i odpowiednio queryować zbiór danych. Są dodatki do prawie każdego języka i źródła danych.
+ *   W prostych domenach (słowniki, listy) używanie wprost DbContextu lub prostego [interfejsu](https://dotnetfiddle.net/LIc6gn) na DbContext’cie który zwraca IDbSet danego typu. Mamy przez to możliwość mockowania i zachowaną prostotę.
+ *   Można również wstrzykiwać bezpośrednio IDbSet i wtedy mamy jedynie możliwość robienia zapytań. Dla prostych przypadków np. zapytania po obiekt przez identyfikator to bardzo słuszna droga.
+ *   [DataSourceResult](http://docs.telerik.com/kendo-ui/aspnet-mvc/helpers/grid/ajax-binding) od kendo które potrafi zwrócić dane z grida odpowiednio przefiltrowane / posortowane itd.
+ *   [Query Objecty](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/) które tworzymy dla bardziej skomplikowanego żądania danych. Dzieki temu mamy większą granulację i zachowaną zasadę SRP.
+ *   AutoMapper i [ProjectTo](https://github.com/AutoMapper/AutoMapper/wiki/Queryable-Extensions), który zamienia mapowanie encji -> dto na kod SQL wykonywany w jednym zapytaniu.
+ *   [Breeze](http://www.getbreezenow.com/breezejs) który pozwala wystawić interfejs IQueryable na zewnątrz i odpowiednio queryować zbiór danych. Są dodatki do prawie każdego języka i źródła danych.
 
 Szczególnie ciekawa jest idea query objectów (finderów) - pisali o tym [Bogard](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/) i [Ayende](https://ayende.com/blog/3955/repository-is-the-new-singleton). Tworzymy obiekt zapytania, która wystawia metodę Execute (tak jest u Bogarda) zwracającą dane odpowiednio przefiltrowane i zmapowane. Jest to świetny sposób by sprawić by nasz kod był bardziej zorientowany domenowo, nie łamał zasady SRP i był całkowicie testowalny. Używałem tego wzorca podczas pisania jednej z mojej aplikacji i kod był o wiele lepiej zrozumiały i rozszerzalny niż w przypadku użycia wzorca Repository. Każda domena aplikacji miała własne query, które mapowały dane z bazy do odpowiedników biznesowych używanych w danych domenach.
 
@@ -40,18 +40,18 @@ Wzorzec Repository ma sens jeśli będzie ukrywał pod sobą dodatkową logikę
 
 Na koniec zostawię zagregowaną listę artykułów / postów mających podobne uwagi w tym temacie. Na nich się wzorowałem pisząc ten artykuł i są one rozszerzeniem tego posta:
 
-*   [https://ayende.com/blog/3955/repository-is-the-new-singleton](https://ayende.com/blog/3955/repository-is-the-new-singleton)
-*   [http://www.ben-morris.com/why-the-generic-repository-is-just-a-lazy-anti-pattern/](http://www.ben-morris.com/why-the-generic-repository-is-just-a-lazy-anti-pattern/)
-*   [http://blog.sapiensworks.com/post/2012/03/05/The-Generic-Repository-Is-An-Anti-Pattern.aspx/](http://blog.sapiensworks.com/post/2012/03/05/The-Generic-Repository-Is-An-Anti-Pattern.aspx/)
-*   [https://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/](https://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/)
-*   [https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/)
-*   [http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/](http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/)
-*   [http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/](http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/)
-*   [http://codingtv.pl/repozytorium-stosowac-czy-nie/](http://codingtv.pl/repozytorium-stosowac-czy-nie/)
-*   http://commitandrun.pl/2016/05/11/Repozytorium\_najbardziej\_niepotrzebny\_wzorzec\_projektowy/
-*   [http://forum.4programmers.net/Inzynieria\_oprogramowania/214921-wzorzec\_repozytorium?p=940208#id940208 ](http://forum.4programmers.net/Inzynieria_oprogramowania/214921-wzorzec_repozytorium?p=940208#id940208)
-*   [http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433](http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433)
-*   [http://forum.4programmers.net/Inzynieria\_oprogramowania/230646-testowanie\_repository?p=1018514#id1018514 ](http://forum.4programmers.net/Inzynieria_oprogramowania/230646-testowanie_repository?p=1018514#id1018514)
+ *   [https://ayende.com/blog/3955/repository-is-the-new-singleton](https://ayende.com/blog/3955/repository-is-the-new-singleton)
+ *   [http://www.ben-morris.com/why-the-generic-repository-is-just-a-lazy-anti-pattern/](http://www.ben-morris.com/why-the-generic-repository-is-just-a-lazy-anti-pattern/)
+ *   [http://blog.sapiensworks.com/post/2012/03/05/The-Generic-Repository-Is-An-Anti-Pattern.aspx/](http://blog.sapiensworks.com/post/2012/03/05/The-Generic-Repository-Is-An-Anti-Pattern.aspx/)
+ *   [https://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/](https://lostechies.com/jimmybogard/2012/09/20/limiting-your-abstractions/)
+ *   [https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/](https://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/)
+ *   [http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/](http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/)
+ *   [http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/](http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/)
+ *   [http://codingtv.pl/repozytorium-stosowac-czy-nie/](http://codingtv.pl/repozytorium-stosowac-czy-nie/)
+ *   http://commitandrun.pl/2016/05/11/Repozytorium\_najbardziej\_niepotrzebny\_wzorzec\_projektowy/
+ *   [http://forum.4programmers.net/Inzynieria\_oprogramowania/214921-wzorzec\_repozytorium?p=940208#id940208 ](http://forum.4programmers.net/Inzynieria_oprogramowania/214921-wzorzec_repozytorium?p=940208#id940208)
+ *   [http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433](http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433)
+ *   [http://forum.4programmers.net/Inzynieria\_oprogramowania/230646-testowanie\_repository?p=1018514#id1018514 ](http://forum.4programmers.net/Inzynieria_oprogramowania/230646-testowanie_repository?p=1018514#id1018514)
 
 ---
 ### Comments:
@@ -113,7 +113,7 @@ Kłócimy się tutaj nad semantyką. IMO jak używam zamiennie IDbSet i Query to
 
 Może panowie rozjaśnię to za was:
 - CQS to stary jak świat "programowania" concept podzielenia chociażby różnych metod/funkcji na te które tylko coś zwracają i nic nie modyfikują, od tych które coś zmieniają.
-- CQRS można rozumieć na dwa sposoby, w pierwszym to to samo co powyższe, a w drugim to "nowożytna" "metodologia" budowania aplikacji oparta o CQS, kolejkowanie wiadomości/zdarzeń(Rabbit MQ, NetBus, whatever) i bazę w stylu "Event Sourcing"(najmniej chętnie SQL)
+- CQRS można rozumieć na dwa sposoby, w pierwszym to to samo co powyższe, a w drugim to "nowożytna" "metodologia" budowania aplikacji oparta o CQS,  kolejkowanie wiadomości/zdarzeń(Rabbit MQ, NetBus, whatever) i bazę w stylu "Event Sourcing"(najmniej chętnie SQL)
 Dlatego najlepiej używać CQS gdy mówimy tylko o rozdzieleniu odczytu od modyfikacji, "QueryObject" gdy mówimy o obiekcie opakowującym i reprezentującym zapytanie w trakcie, QueryBuilderze gdy mówimy o obiekcie składającym z kodu zapytanie np. (IQueryable i podobne). A CQRS gdy mówimy o tej "modnej" koncepcji.
 #### 
 [Radosław Maziarka]( "maziarka.radoslaw@outlook.com") - <time datetime="2016-02-10 22:05:00">Feb 3, 2016</time>

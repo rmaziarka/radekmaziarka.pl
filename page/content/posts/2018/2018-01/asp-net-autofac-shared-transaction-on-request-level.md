@@ -16,7 +16,7 @@ First, you need to create an instance of Autofac interface **IAutofacActionFilt
 ```
     public class TransactionActionFilter : IAutofacActionFilter
     {
-        private TransactionScope \_transaction;
+        private TransactionScope _transaction;
 
         public Task OnActionExecutedAsync(HttpActionExecutedContext actionExecutedContext, CancellationToken cancellationToken)
         {
@@ -45,7 +45,7 @@ First, you need to create an instance of Autofac interface **IAutofacActionFilt
 ```
 The filter creates transaction every executed action and completes it when there is no error. These posts ([1](https://blogs.msdn.microsoft.com/dbrowne/2010/06/03/using-new-transactionscope-considered-harmful/), [2](https://particular.net/blog/transactionscope-and-async-await-be-one-with-the-flow)) describe why, by default, you should create **TransactionScope **with above options.
 
-Then you need to register your filter during the creation of Autofac **ContainerBuilder** \- typically when the application is being started.
+Then you need to register your filter during the creation of Autofac **ContainerBuilder **\- typically when the application is being started.
 ```
         protected void Application\_Start()
         {

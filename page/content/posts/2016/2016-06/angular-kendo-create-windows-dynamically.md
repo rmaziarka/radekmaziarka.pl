@@ -12,67 +12,67 @@ In my application there is a page, which contains 15 windows. Each windows is a 
 
 I created service called **windowsLoader** which listens to open windows event. Manager contains dictionary, which maps event name to windows template url and in load handler calls for template from cache. Then it compiles downloaded template and opens window. Of course, I haven't forgotten about cleaning, so it binds to **deactivate**'s event to remove element from DOM after closing window.
 
-\[code lang="js"\]
+```javascript
 angular.module('application')
- .service('someDomain.windowsLoader', windowsLoader);
+    .service('someDomain.windowsLoader', windowsLoader);
 
-windowsLoader.$inject = \['$rootScope', '$http', '$templateCache', '$compile'\];
+windowsLoader.$inject = ['$rootScope', '$http', '$templateCache', '$compile'];
 function windowsLoader($rootScope, $http, $templateCache, $compile) {
 
- var eventToWindowUrlDict = {
- 'someDomain.openWindow': '/app/pathTo/windowTemplates/windowTemplate.html',
- 'someDomain.openAnotherWindow': '/app/pathTo/windowTemplates/anotherWindowTemplate.html'
- }
+    var eventToWindowUrlDict = {
+        'someDomain.openWindow': '/app/pathTo/windowTemplates/windowTemplate.html',
+        'someDomain.openAnotherWindow': '/app/pathTo/windowTemplates/anotherWindowTemplate.html'
+    }
 
- Object.keys(eventToWindowUrlDict).forEach(function (eventName) {
- $rootScope.$on(eventName, loadWindow);
- });
+    Object.keys(eventToWindowUrlDict).forEach(function (eventName) {
+        $rootScope.$on(eventName, loadWindow);
+    });
 
- function loadWindow(event) {
- var windowTemplateUrl = eventToWindowUrlDict\[event.name\];
- var args = arguments;
+    function loadWindow(event) {
+        var windowTemplateUrl = eventToWindowUrlDict[event.name];
+        var args = arguments;
 
- $http.get(windowTemplateUrl, { cache: $templateCache }).success(function (tplContent) {
- var scope = $rootScope.$new();
- var element = $compile(tplContent)(scope);
+        $http.get(windowTemplateUrl, { cache: $templateCache }).success(function (tplContent) {
+            var scope = $rootScope.$new();
+            var element = $compile(tplContent)(scope);
 
- var ctrl = element.scope().ctrl;
- ctrl.openWindow.apply(ctrl, args);
- ctrl.window.bind('deactivate', function () {
- element.remove();
- });
- });
- }
+            var ctrl = element.scope().ctrl;
+            ctrl.openWindow.apply(ctrl, args);
+            ctrl.window.bind('deactivate', function () {
+                element.remove();
+            });
+        });
+    }
 }
-\[/code\]
+```
 
 To be consistent I use convention, that every window should have controller named as **ctrl**, and kendo window should be called **window**. It allows me to use this manager in every situation.
 
 This is example of my window:
-\[code lang="html"\]
+```html
 <div kendo-window="ctrl.window" ng-controller="domain.someWindowCtrl as ctrl" 
- k-modal="true" k-visible="false">
- ...
+    k-modal="true" k-visible="false">
+     ...
 </div>
-\[/code\]
+```
 
 And example of window's controller
-\[code lang="js"\]
+```javascript
 angular.module('application')
- .controller('domain.someWindowCtrl', ctrl);
+    .controller('domain.someWindowCtrl', ctrl);
 
-ctrl.$inject = \['injectedService'\];
+ctrl.$inject = ['injectedService'];
 function ctrl(injectedService) {
- var self = this;
+    var self = this;
 
- self.openWindow = function (event, eventData) {
- // logic before opening window
+    self.openWindow = function (event, eventData) {
+        // logic before opening window
 
- self.window.center();
- self.window.open();
- }
+        self.window.center();
+        self.window.open();
+    }
 }
-\[/code\]
+```
 
 ### Problem with controls' cascading
 
@@ -80,21 +80,21 @@ The drawbacks of such solution is, that during template compilation, created win
 
 I found solution on kendo's angular documentation, which mentions about **k-ng-delay** directive. It allows to postpone control initialization, and wait till directive parameter is defined.
 
-\[code lang="html"\]
+```html
 <input kendo-drop-down-list k-ng-model="ctrl.modelId" k-cascade-from="'parentControlId'" 
- k-cascade-from-field="'fieldId'" k-ng-delay="ctrl.parentInitialized"
- k-data-source="ctrl.list" k-data-value-field="'id'" k-data-text-field="'number'" />
-\[/code\]
+       k-cascade-from-field="'fieldId'" k-ng-delay="ctrl.parentInitialized"
+       k-data-source="ctrl.list" k-data-value-field="'id'" k-data-text-field="'number'"  />
+```
 
-\[code lang="js"\]
+```javascript
 self.openWindow = function (event, eventData) {
- self.parentInitialized= true;
- // logic before opening window
+    self.parentInitialized= true;
+    // logic before opening window
 
- self.window.center();
- self.window.open();
+    self.window.center();
+    self.window.open();
 }
-\[/code\]
+```
 
 As you can see, I attach my control to **parentInitialized** field and set it to true during window opening. And it works :)
 

@@ -17,12 +17,12 @@ Rozproszony system zamówień
 
 Załóżmy, że posiadamy rozproszony system e-commerce. Każdy z mikroserwisów realizuje swoją funkcję:
 
-*   Stan produktów
-*   Cenniki
-*   Rabaty
-*   Atrybuty i parametry produktu
-*   Płatności
-*   Zamówienia
+ *   Stan produktów
+ *   Cenniki
+ *   Rabaty
+ *   Atrybuty i parametry produktu
+ *   Płatności
+ *   Zamówienia
 
 System posiada pewną dozę odseparowania od siebie – niezależne aplikacje i bazy danych. Gdy jednak dochodzi do składania zamówienia, wymagane jest sprawdzenie danych w 5 pozostałych serwisach, by zamówienie mogło zostać zrealizowane. Chcemy mieć natychmiastową spójność – być pewni, że w żadnym z miejsc dane nie zostały zmienione.
 
@@ -70,9 +70,9 @@ Tutaj dochodzimy do sedna – kontekst (w naszym przypadku w postaci mikroserwis
 
 Koordynacja jest osiągana za pomocą:
 
-*   [Komunikatów asynchronicznych](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication#single-receiver-message-based-communication) – kontekst informuje pozostałe konteksty np. kolejką, że nadeszła zmiana
-*   [Sag](https://microservices.io/patterns/data/saga.html) – wzbudzany jest proces poboczny, który następnie zarządza koordynacją informacji
-*   [Zdarzeń](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication#asynchronous-event-driven-communication) – konteksty poboczne informują kontekst zależny, w ramach odwrócenia zależności
+ *   [Komunikatów asynchronicznych](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication#single-receiver-message-based-communication) – kontekst informuje pozostałe konteksty np. kolejką, że nadeszła zmiana
+ *   [Sag](https://microservices.io/patterns/data/saga.html) – wzbudzany jest proces poboczny, który następnie zarządza koordynacją informacji
+ *   [Zdarzeń](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication#asynchronous-event-driven-communication) – konteksty poboczne informują kontekst zależny, w ramach odwrócenia zależności
 
 Takie działania pozwalają nam na osiąganie ostatecznej spójności, jednocześnie nie wymuszając natychmiastowej synchronizacji pomiędzy kontekstami.
 
@@ -94,9 +94,9 @@ Czy zawsze warto?
 
 Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są silnie spójne, wykorzystując do tego odpowiednie wzorce i bazy danych np. CosmosDB i jego [różne poziomy spójności](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels). Można też spróbować rozwiązywać opisane wyżej problemy za pomocą skomplikowanych wdrożeń i rozwiązań technicznych z obszarów Service Meshy. Ma to jednak swoje wady:
 
-*   Raz, że mamy spadki na wydajności spowodowane narzutem komunikacyjnym i synchronizacyjnym.
-*   Dwa, że bardzo trudno stworzyć taki model danych który spełni naraz wszystkie przypadki biznesowe.
-*   Trzy, że te rozwiązania techniczne też mają swój poziom skomplikowania, często o wiele wyższy niż rozwiązania związane z kontekstami i ostateczną spójnością.
+ *   Raz, że mamy spadki na wydajności spowodowane narzutem komunikacyjnym i synchronizacyjnym.
+ *   Dwa, że bardzo trudno stworzyć taki model danych który spełni naraz wszystkie przypadki biznesowe.
+ *   Trzy, że te rozwiązania techniczne też mają swój poziom skomplikowania, często o wiele wyższy niż rozwiązania związane z kontekstami i ostateczną spójnością.
 
 O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to [Kacper Gunia](https://twitter.com/cakper) na konferencji Explore DDD:
 

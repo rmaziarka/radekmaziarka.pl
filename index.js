@@ -226,24 +226,7 @@ function handlePostsXML(err, result) {
                 console.log(post["content:encoded"]);
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
-                markdown = replaceAll(markdown, '\\[code\\]','```');
-                markdown = replaceAll(markdown, '\\[code lang="xml"\\]','```xml');
-                markdown = replaceAll(markdown, '\\[code lang="html"\\]','```html');
-                markdown = replaceAll(markdown, '\\[code lang="javascript"\\]','```javascript');
-                markdown = replaceAll(markdown, '\\[/code\\]','```');
-                markdown = replaceAll(markdown, '\\[code lang="js"\\]','```javascript');
-                markdown = replaceAll(markdown, '\\[code language="typescript"\\]','```typescript');
-                markdown = replaceAll(markdown, '\\[code lang="csharp"\\]','```csharp');
-                markdown = replaceAll(markdown, '\\[code lang="html"\\]','```html');
-                markdown = replaceAll(markdown, '\\[','[');
-                markdown = replaceAll(markdown, '\\]',']');
-                markdown = replaceAll(markdown, ' \\_',' _');
-                // hack to change punctation level when spaces are not trailed
-                markdown = replaceAll(markdown, '	*', '*');
-                markdown = replaceAll(markdown, '	1', '1');
-                markdown = replaceAll(markdown, '	2', '2');
-                markdown = replaceAll(markdown, '	3', '3');
-                markdown = replaceAll(markdown, '	4', '4');
+                markdown = replaceCodeMarkups(markdown);
 
 
                 fileHeader = ''
@@ -307,6 +290,32 @@ function handlePostsXML(err, result) {
 
         });
 
+}
+
+function replaceCodeMarkups(markdown){
+    markdown = replaceAll(markdown, '\\[code\\]','```');
+    markdown = replaceAll(markdown, '\\[code lang="xml"\\]','```xml');
+    markdown = replaceAll(markdown, '\\[code lang="html"\\]','```html');
+    markdown = replaceAll(markdown, '\\[code lang="javascript"\\]','```javascript');
+    markdown = replaceAll(markdown, '\\[/code\\]','```');
+    markdown = replaceAll(markdown, '\\[code lang="js"\\]','```javascript');
+    markdown = replaceAll(markdown, '\\[code language="typescript"\\]','```typescript');
+    markdown = replaceAll(markdown, '\\[code lang="csharp"\\]','```csharp');
+    markdown = replaceAll(markdown, '\\[code lang="html"\\]','```html');
+    
+    // replace additional escaped characters 
+    markdown = replaceAll(markdown, '\\[','[');
+    markdown = replaceAll(markdown, '\\]',']');
+    markdown = replaceAll(markdown, ' \\_',' _');
+    
+    // hack to change punctation level when spaces are not trailed
+    markdown = replaceAll(markdown, '	*', '*');
+    markdown = replaceAll(markdown, '	1', '1');
+    markdown = replaceAll(markdown, '	2', '2');
+    markdown = replaceAll(markdown, '	3', '3');
+    markdown = replaceAll(markdown, '	4', '4');
+
+    return;
 }
 
  function replaceAll(str, find, replace) {

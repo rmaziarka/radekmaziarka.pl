@@ -74,9 +74,9 @@ function wordpressImport(){
                 parser.parseString(data, handlePostsXML);
             });
 
-            // fs.readFile('pages.xml', function(err, data) {
-            //     parser.parseString(data, handlePagesXML);
-            // });
+            fs.readFile('pages.xml', function(err, data) {
+                parser.parseString(data, handlePagesXML);
+            });
         });
     });
 }
@@ -227,6 +227,7 @@ function handlePostsXML(err, result) {
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
                 markdown = replaceCodeMarkups(markdown);
+                markdown = fixImagesURL(markdown);
 
 
                 fileHeader = ''
@@ -315,12 +316,21 @@ function replaceCodeMarkups(markdown){
     markdown = replaceAll(markdown, '	3', '3');
     markdown = replaceAll(markdown, '	4', '4');
 
-    return;
+    return markdown;
 }
 
- function replaceAll(str, find, replace) {
+function fixImagesURL(str){
+    return str;
+
+    if(!str) return;
+    str = str.replace(/-[0-9]+x[0-9]*/g,'');
+    return str;
+}
+
+function replaceAll(str, find, replace) {
     return str.replace(new RegExp(find.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g'), replace);
 };
+
 
 function handlePagesXML(err, result) {
     if (err) {
@@ -391,7 +401,7 @@ function handlePagesXML(err, result) {
                 // console.log('content available');
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
-                // console.log(markdown);
+                markdown = fixImagesURL(markdown);
 
                 fileHeader = ''
                 fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;

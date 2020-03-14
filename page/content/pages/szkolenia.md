@@ -6,7 +6,9 @@ draft: false
 featured_image: 'images/2019/07/szkolenia.jpg'
 ---
 
-W ramach mojej codziennej pracy uczę zespoły programistyczne jak lepiej osiągać swoje cele, organizując różnego rodzaju warsztaty i szkolenia. Mam za sobą szkolenia "Train the trainer", które przygotowały mnie jak najefektyywniej przekazywać wiedzę uczestnikom moich warsztatów. Jeśli chciałbyś bym pojawił się w Twoim zespole to skontaktuj się ze mną przez [formularz kontaktowy](/kontakt) lub złap mnie na [Twitterze](https://twitter.com/RadekMaziarka) 🙂
+W ramach mojej codziennej pracy uczę zespoły programistyczne jak lepiej osiągać swoje cele, organizując różnego rodzaju warsztaty i szkolenia. Mam za sobą szkolenia "Train the trainer", które przygotowały mnie jak najefektyywniej przekazywać wiedzę uczestnikom moich warsztatów.
+
+Jeśli chciałbyś bym pojawił się w Twoim zespole to skontaktuj się ze mną przez [formularz kontaktowy](/kontakt) lub złap mnie na [Twitterze](https://twitter.com/RadekMaziarka) 🙂
 
 Lista szkoleń
 =============
@@ -15,19 +17,19 @@ Szkolenia i warsztaty podzieliłem na 2 rodzaje - te techniczne i miękkie:
 
 ### [Techniczne](/szkolenia/techniczne)
 
-*   [Event Storming - projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania)
-*   [Wzorce architektoniczne](/szkolenia/wzorce-architektoniczne/)
-*   [DDD i Mikroserwisy](/szkolenia/ddd-i-mikroserwisy)
-*   [Loosely-Coupled Architecture](/szkolenia/loosely-coupled-architecture)
-*   [CQRS](/szkolenia/cqrs)
+ 	*   [Event Storming - projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania)
+ 	*   [Wzorce architektoniczne](/szkolenia/wzorce-architektoniczne/)
+ 	*   [DDD i Mikroserwisy](/szkolenia/ddd-i-mikroserwisy)
+ 	*   [Loosely-Coupled Architecture](/szkolenia/loosely-coupled-architecture)
+ 	*   [CQRS](/szkolenia/cqrs)
 
 ### [Miękkie](/szkolenia/szkolenia/miekkie)
 
-*   [Event Storming - Big Picture](/szkolenia/event-storming-big-picture)
-*   [Event Storming - Train the Trainer](/szkolenia/event-storming-train-the-trainer/)
-*   [Wprowadzenie do Agile](/szkolenia/wprowadzenie-do-agile)
-*   [Scrum](/szkolenia/agile-scrum)
-*   [Team Leader](/szkolenia/team-leader)
+ 	*   [Event Storming - Big Picture](/szkolenia/event-storming-big-picture)
+ 	*   [Event Storming - Train the Trainer](/szkolenia/event-storming-train-the-trainer/)
+ 	*   [Wprowadzenie do Agile](/szkolenia/wprowadzenie-do-agile)
+ 	*   [Scrum](/szkolenia/agile-scrum)
+ 	*   [Team Leader](/szkolenia/team-leader)
 
 Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb [daj mi znać](/kontakt)! Z chęcią przygotuję coś specjalnie dla Ciebie.
 

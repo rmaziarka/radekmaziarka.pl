@@ -9,7 +9,7 @@ tags: ['']
 
 Jeśli denerwuje was lokalne przeszukiwanie logów czy ślęczenie z debuggerem by dowiedzieć się czy wasza aplikacja się poprawnie zachowuje, to mam dla was proste rozwiązanie. Polecono mi je jeszcze kilka lat temu i w prosty sposób rozwiązuje moje problemy. [Log2Console](https://log2console.codeplex.com/)
 
-![Log2Console_1](http://radblog.pl/wp-content/uploads/2016/06/Log2Console_1.png)
+![Log2Console_1](/images/2016/06/Log2Console_1.png)
 
 Aplikacja nasłuchuje dany port, na który są rzucane logi z aplikacji. Następnie wypisuje je, kolorując w zależności od poziomu loga. Aby tego dokonać wystarczy jedynie dodać odpowiedni wpis w pliku konfiguracyjnym loggera, by logi leciały także przez UDP.
 

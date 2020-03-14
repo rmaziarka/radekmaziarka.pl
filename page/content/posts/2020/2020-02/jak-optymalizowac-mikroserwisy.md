@@ -7,7 +7,7 @@ category: 'Wzorce projektowe'
 tags: ['microservices', 'modulith', 'monolith']
 ---
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/bait.gif)](https://radekmaziarka.pl/wp-content/uploads/2020/02/bait.gif)
+[![](/images/2020/02/bait.gif)](/images/2020/02/bait.gif)
 
 Tytuł tego artykułu jest przynętą (zarzutką), ale celową.
 
@@ -24,7 +24,7 @@ Impact Mapping
 
 Sposobów na lepsze podejmowanie decyzji jest kilka. Ostatnio stosuję i staram się promować model Gojko Adzica zwany Impact Mappingiem:
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/impact-mapping.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/impact-mapping.jpg)
+[![](/images/2020/02/impact-mapping.jpg)](/images/2020/02/impact-mapping.jpg)
 
 Aby poprawnie wybrać właściwe rozwiązanie, najpierw trzeba odpowiednio zdefiniować jaki cel chcemy osiągnąć. Na jego podstawie możemy zdefiniować aktorów, czyli osoby, które będą partycypowały w uzyskaniu tego celu. Następnie przechodzimy do opisania wpływu jaki te osoby dokonają na naszym celu. Na końcu określamy jakimi narzędziami wypracujemy ten wpływ. Te narzędzia mogą się dzielić na jeszcze mniejsze zadania.
 
@@ -102,7 +102,7 @@ Simon Brown i mikroserwisy
 
 W dużej części przypadków mikroserwisy nie są odpowiedzią na postawiony cel, przynajmniej nie na początku projektu. Wszystko to zamyka się w odpowiednio podzielonym monolicie i dobrze odseparowanych od siebie modułach / komponentach. Simon Brown w swojej [prezentacji](https://www.youtube.com/watch?v=5OjqD-ow8GE) przedstawiał drogę do mikroserwisów jako ostatni etap dobrej komponentyzacji (twór własny) swojego systemu:
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/monolith-microservices.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/monolith-microservices.jpg)
+[![](/images/2020/02/monolith-microservices.jpg)](/images/2020/02/monolith-microservices.jpg)
 
 To co się rzuca w oczy na tym diagramie to fakt, że mikroserwisy zawierają w sobie głownie aspekty techniczne. I na nich skupiają się programiści, zapominając jednak o najważniejszym.
 

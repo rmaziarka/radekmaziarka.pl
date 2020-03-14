@@ -8,7 +8,7 @@ category: 'Serverless'
 tags: ['']
 ---
 
-_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](http://radblog.pl/en/category/serverless/)._
+_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](/category/serverless/)._
 
 In this part I will show you how easy is to connect our function stored in GIT repository to Azure cloud, with continous deployment after every commit.
 
@@ -18,7 +18,7 @@ Repository and Function App
 At the beginning you need to create repository to connect it to remote function app. In this step GIT repository is not fully required - you can connect Azure function to storages like OneDrive or Dropbox but it is easier to show you how the changes occur in our code, when it stays on GitHub (public repo FTW). You can check my code on [https://github.com/rmaziarka/AzureFunctionsPoc](https://github.com/rmaziarka/AzureFunctionsPoc) - this is the same code from previous scenario, only published to GH.
 
 Then you need to create you Function App in Azure portal. Find "function app" and choose parameters:
-![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_22-51-00.png)
+![](/images/2017/08/chrome_2017-08-02_22-51-00.png)
 
  *   **App name** - Name of group of your functions (in my case Azure-Function-Poc).
  *   **Subsciption** - Which subscription will take costs of this Function App.
@@ -33,20 +33,20 @@ Deployment from GitHub
 
 After creation you go inside the function and choose option to setup the deployment: tab Platform features -> CODE DEPLOYMENT section -> Deployment option.
 
-![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_23-07-42.png)
+![](/images/2017/08/chrome_2017-08-02_23-07-42.png)
 
 Then you go through Setup, you choose GitHub, authenticate with this provider and check repository and branch you want to connecto to Function App.
 
-![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_23-10-22.png)
+![](/images/2017/08/chrome_2017-08-02_23-10-22.png)
  
 
 You get the window about creation the package and in the moment you get confirmation message:
 
- ![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_23-13-19.png)
+ ![](/images/2017/08/chrome_2017-08-02_23-13-19.png)
 
 After these steps you should got your function in Azure portal:
 
-![](http://radblog.pl/wp-content/uploads/2017/08/chrome_2017-08-02_23-16-03.png)
+![](/images/2017/08/chrome_2017-08-02_23-16-03.png)
 
 Configuration in Azure
 ----------------------
@@ -60,7 +60,7 @@ Testing remote Function App
 
 You can add some file to check whether your function is working. To remote Azure Storage you can drag any file and in function **Logs** you can check how function is responding to new file (clik to open).
 
-[![](http://radblog.pl/wp-content/uploads/2017/08/2017-08-02_23-55-06.gif)](http://radblog.pl/wp-content/uploads/2017/08/2017-08-02_23-55-06.gif)
+[![](/images/2017/08/2017-08-02_23-55-06.gif)](/images/2017/08/2017-08-02_23-55-06.gif)
 
 As you can see, function is responding to the new file in blob, describing name and size in log window in function panel.
 

@@ -24,7 +24,7 @@ W takim układzie jakakolwiek zmiana wymagań będzie skutkowała dotkliwą ref
 
 ### Schemat Bounded Contextu w systemie
 
-[![](https://radblog.pl/wp-content/uploads/2018/07/POWERPNT_2018-07-29_22-52-10-1.png)](https://radblog.pl/wp-content/uploads/2018/07/POWERPNT_2018-07-29_22-52-10-1.png)
+[![](/images/2018/07/POWERPNT_2018-07-29_22-52-10-1.png)](/images/2018/07/POWERPNT_2018-07-29_22-52-10-1.png)
 
 Implementacją kontekstów w aplikacji mogą być np. osobne moduły, które komunikują się przez określone API np. serwisów. Moduły zawierają w sobie zarówno klasy realizujące logikę biznesową jak i schematy przechowywch danych wymaganych w danym kontekście. Ma to na celu zamknięcie odpowiedzialności wewnątrz modułu i udostępnienie tylko takiego jej wycinku, na jaki chcemy pozwolić.
 

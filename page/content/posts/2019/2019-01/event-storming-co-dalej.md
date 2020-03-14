@@ -24,7 +24,7 @@ Jeśli rezultat warsztatu jest bardziej liniowy można pokusić się do zrzutu d
 2 - Design Level
 ----------------
 
-To najbardziej kardynalna forma kontynuowania warsztatu. Opisany (niestety na ten moment dość skąpo) w książce [Event Storming](https://leanpub.com/introducing_eventstorming) Alberta Brandoliniego.[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/1.jpg)](https://leanpub.com/introducing_eventstorming)
+To najbardziej kardynalna forma kontynuowania warsztatu. Opisany (niestety na ten moment dość skąpo) w książce [Event Storming](https://leanpub.com/introducing_eventstorming) Alberta Brandoliniego.[![](/images/2019/01/1.jpg)](https://leanpub.com/introducing_eventstorming)
 
 Z poziomu problemu (jakim był Big Picture) przechodzimy na warstwę rozwiązania – projektujemy konkretny system, który będzie implementował zdefiniowane wcześniej potrzeby. Za pomocą komend, polityk, read modeli i agregatów opiszemy pracę naszego systemu.
 
@@ -35,7 +35,7 @@ Na ten moment najlepszy opis Design Levelu jest dostępny na [blogu](https://bui
 
 Idea [Top Five](http://www.designkit.org/methods/15) pożyczona jest z Design Kitu – ogromnego zbioru różnych pomysłów na wypracowywanie innowacyjnych rozwiązań.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/3-e1548508655865.png)](http://www.designkit.org/methods/15)
+[![](/images/2019/01/3-e1548508655865.png)](http://www.designkit.org/methods/15)
 
 Ta metoda mówi by wybrać 5 najważniejszych problemów / usprawnień / akcji i zająć się nimi na samym początku. Możemy na nie głosować razem (jeden backlog), bądź osobno (czasem warto móc różnie wartościować problemy i usprawnienia) – wszystko zależy od naszych potrzeb.
 
@@ -46,7 +46,7 @@ Dzięki temu wyjdziemy z warsztatu z gotowymi pomysłami czym się zając na sam
 
 Rozwiązanie, które może przypaść do gustu analitykom biznesowym, którzy przygotowują zadania dla zespołu.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/4.jpg)](https://manifesto.co.uk/user-story-mapping/)
+[![](/images/2019/01/4.jpg)](https://manifesto.co.uk/user-story-mapping/)
 
 Warsztat pozwala na zgrupowanie aktywności użytkownika na każdym ekranie i pokazuje jego podróż po systemie. Dodatkowo daje możliwość zarządzania iteracyjnością tworzenia systemu – widzimy co będzie dostarczone w pierwszym rzucie, a co dopiero później. O wiele łatwiej dzięki temu planować rezultat naszych prac w kolejnych fazach.
 
@@ -57,7 +57,7 @@ Powyższe zdjęcie pochodzi ze strony [manifesto.co.uk](https://manifesto.co.uk/
 
 Technika polecana przez [Kenniego Baas-Schwegler](https://www.youtube.com/watch?v=WvkBKvMnyuc), który często mówi o niej jednym tchem wraz z Event Stormingiem.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/5.png)](https://cucumber.io/blog/2015/12/08/example-mapping-introduction)
+[![](/images/2019/01/5.png)](https://cucumber.io/blog/2015/12/08/example-mapping-introduction)
 
 [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) pozwala zwizualizować reguły jakimi rządzi się dane zadanie i jakie są przykłady spełniające te reguły. Obok wskazujemy pytania / problemy, które mogą nie być na ten moment rozwiązywalne.
 
@@ -68,7 +68,7 @@ Dzięki temu możemy przed implementacją zrzucić wszystkie edge-case’y, na k
 
 Możliwa kontynuacja powyższego warsztatu. Technika opisana pierwotnie przez Martina Fowlera na [blogu](https://martinfowler.com/bliki/SpecificationByExample.html) w 2004 roku, na podstawie której Gojko Adzic napisał później [książkę](https://www.goodreads.com/book/show/10288718-specification-by-example).
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/6.jpg)](https://www.thoughtworks.com/insights/blog/specification-example)
+[![](/images/2019/01/6.jpg)](https://www.thoughtworks.com/insights/blog/specification-example)
 
 Na podstawie przykładów z poprzedniego warsztatu jesteśmy w stanie stworzyć w następnym kroku powtarzalne testy, które powinien spełniać nasz system. Powyższy przykład ze strony [ThoughtWorks](https://www.thoughtworks.com/insights/blog/specification-example) opisuje takie przypadki dla aplikacji służącej do zamawiania herbaty.
 
@@ -79,7 +79,7 @@ W dalszym terminie te testy mogą stać się naszą specyfikacją, która będzi
 
 Patrząc na zdarzenia koncentrujemy się na tym co dla nas widoczne. Nie widzimy innej rzeczy – czasu jaki jest potrzebny na przejście pomiędzy kolejnymi zdarzeniami. A w wielu przypadkach to właśnie czas jest o wiele groźniejszy niż same wydarzenia.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/7.jpg)](https://tallyfy.com/value-stream-mapping/)
+[![](/images/2019/01/7.jpg)](https://tallyfy.com/value-stream-mapping/)
 
 Dlatego też powstało narzędzie [Value Stream Mapping](https://tallyfy.com/value-stream-mapping/). Ma ono na celu wizualizację zarówno czasu wykonywania konkretnych akcji, jak i czasu pomiędzy nimi. Widzimy co rozpoczyna konkretny, większy proces biznesowy i gdzie się on kończy. Podsumowaniem jest analiza, ile trwała praca i jaki był jej koszt..
 
@@ -90,7 +90,7 @@ Takie narzędzie może nam pomóc znaleźć wąskie gardło w planowanym rozwią
 
 Często będziemy używać warsztatu Big Picture do opisu naszego aktualnego systemu. Jak w takim razie zarządzać zmianami?
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/8.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/01/8.jpg)
+[![](/images/2019/01/8.jpg)](/images/2019/01/8.jpg)
 
 Polecam w tym momencie zrobić dogrywkę warsztatu używając innych kolorów karteczek. Możemy nowe zdarzenia bizensowe oznaczać np. jako karteczki fioletowe (lub dowolny inny, który nie użyliśmy). Możemy część karteczek oznaczyć X by pokazać że już one nie mają miejsca. Ograniczenia zależą jedynie od naszej kreatywności.
 
@@ -101,7 +101,7 @@ Taka technika pozwala zwizualizować czym się różni stan obecny od stanu poż
 
 Kupić czy napisać dany komponent samemu? Częsty problem, ale wydaje się, że Simon Wardley znalazł bardzo dobre rozwiązanie tej zagadki.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/9.jpg)](https://medium.com/wardleymaps)
+[![](/images/2019/01/9.jpg)](https://medium.com/wardleymaps)
 
 Technika [Wardley Maps](https://medium.com/wardleymaps) pozwala na analizę komponentów w zależności od ich widoczności przez klienta i stopnia zaawansowania uproduktowienia. Na tej podstawie możemy podejmować decyzje czy dany moduł wykorzystać / kupić / stworzyć samemu.
 
@@ -110,7 +110,7 @@ Temat map Simona jest o wiele szerszy i pozwala na mapowanie o wiele większej i
 10 - Roadmap / estimation
 -------------------------
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/01/10.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/01/10.jpg)Mając już przemyślane i sprawdzone pozostałe kroki warto by się zastanowić nad podjęciem decyzji.
+[![](/images/2019/01/10.jpg)](/images/2019/01/10.jpg)Mając już przemyślane i sprawdzone pozostałe kroki warto by się zastanowić nad podjęciem decyzji.
 
  
 

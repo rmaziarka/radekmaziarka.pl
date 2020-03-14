@@ -8,7 +8,7 @@ category: 'Leadership'
 tags: ['leadership']
 ---
 
-// wszystkie porady zostały zebrane w [podsumowaniu cyklu](https://radblog.pl/2018/05/17/porady-dla-team-leadera-podsumowanie/).
+// wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
 Stwórz atmosferę bezpieczeństwa
 -------------------------------

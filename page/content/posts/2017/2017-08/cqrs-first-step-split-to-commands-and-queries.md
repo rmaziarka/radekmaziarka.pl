@@ -8,13 +8,13 @@ category: 'Design patterns'
 tags: ['']
 ---
 
-This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.ople who won't be attending my presentation.
+This post series is driven by my [lightning talk](/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.ople who won't be attending my presentation.
 
 I will write about:
 
- 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
- 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
- 3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
+ 1.  [splitting code to commands and queries](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](/2018/01/08/cqrs-third-step-simple-read-model/)
  4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
@@ -28,7 +28,7 @@ Let's assume that you work on an e-commerce platform. You got plenty of contr
 
 You think that system that will advantage from introducing CQRS but you find it too overwhelming and hard to implement in the current situation. On the other hand, you feel that multiple parts of your codebase are painfully difficult to understand and you want to do something with that. You would like to **implement this** **pattern step by step**, without hard breakings in your current code.
 
-You find first weak spot - **product management**. Your products contain dynamic fields, with own validation for every defined field. Moreover fields are bound to categories so we cannot add a field value to a product that is not corresponding to a product category. At the beginning of the project you followed [this article](http://radblog.pl/2016/03/30/dynamic-model-validation-with-fluent-validation/) about creating and validating a dynamic model which resulted in such [product structure](https://gist.github.com/rmaziarka/bda1abb4891b9394d45cbc60b9cc92fc).
+You find first weak spot - **product management**. Your products contain dynamic fields, with own validation for every defined field. Moreover fields are bound to categories so we cannot add a field value to a product that is not corresponding to a product category. At the beginning of the project you followed [this article](/2016/03/30/dynamic-model-validation-with-fluent-validation/) about creating and validating a dynamic model which resulted in such [product structure](https://gist.github.com/rmaziarka/bda1abb4891b9394d45cbc60b9cc92fc).
 
 These models are heavily used by **ProductsService** - mainly consumer of logic from **ProductsController.** In this place, you want to start your focus. Below there is a simplified view of this service, with only 2 actions listed:
 
@@ -143,7 +143,7 @@ Your **ProductService **demands some action.
 Command and queries
 -------------------
 
-[![](https://radblog.pl/wp-content/uploads/2017/08/command-query.jpg)](https://radblog.pl/wp-content/uploads/2017/08/command-query.jpg)
+[![](/images/2017/08/command-query.jpg)](/images/2017/08/command-query.jpg)
 
 > CQRS is a simple pattern – two objects for command/queries where once there was one.
 

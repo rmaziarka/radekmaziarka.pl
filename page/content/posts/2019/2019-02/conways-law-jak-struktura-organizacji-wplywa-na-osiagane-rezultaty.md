@@ -41,7 +41,7 @@ Prawo Conway’a bardzo mocno wpływa na tworzone przez nas rozwiązania informa
 
 Prawo Conway’a uzasadnia również nacisk na [cross-functional teams](https://agileforall.com/org-structure-software-architecture-and-cross-functional-teams/) i wspieranie trendu [DevOps](https://devops.com/what-can-conways-law-teach-us-about-devops/). Im większa ilość osób w zespole mogących przekrojowo rozwiązać problemy, tym mniej zależności od innych zespołów i niepotrzebych opóźnień / strat czasu. Wszystko może zamknąć się w „jednym pokoju” – analiza / zaimplementowanie / przetestowanie / wdrożenie.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/1.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/1.jpg)
+[![](/images/2019/02/1.jpg)](/images/2019/02/1.jpg)
 
 Dużo się mówi o prawie Conway’a w kontekście [mikroserwisów](https://martinfowler.com/articles/microservices.html#OrganizedAroundBusinessCapabilities). Nieprawidłowy podział osób będzie skutkował problemami komunikacyjnymi, które następnie przełożą się na tworzone rozwiązanie. Również zbyt słaba autonomia zespołów może być problemem. Każdy zespół będzie wpływać na siebie nazwajem, co zostanie skopiowane na architekturę – stworzony zostanie system mocno ze sobą związany (tightly-coupled).
 
@@ -50,7 +50,7 @@ Prawo Conway’a – przypadki rzeczywiste
 
 W literaturze możemy znaleźć 2 świetne materiały o działaniu tego prawa w praktyce.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/2.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/2.jpg)
+[![](/images/2019/02/2.jpg)](/images/2019/02/2.jpg)
 
 Microsoft w swojej [analizie](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf) opisał w jaki sposób jego struktura organizacji wpłynęła na ilość błędów i jakość systemu Microsoft Vista. Na podstawie prawdziwych danych dokonano obliczeń, które jasno wskazały, że skomplikowana struktura i niejasny proces decyzyjny negatywnie wpłynęły na dostarczone rozwiązanie.
 
@@ -70,7 +70,7 @@ Ta osoba wymusiła więc na nas wdrożenie swojego spojrzenia na to jak nasze ro
 Prawo Conway’a – wpływ na pracę organizacji
 ===========================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/3.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/3.jpg)
+[![](/images/2019/02/3.jpg)](/images/2019/02/3.jpg)
 
 Jeśli struktura organizacji spełnia potrzeby biznesowe tej organizacji to w teorii nie dzieje się żaden problem. Gorzej, jeśli struktura nie będzie dostosowana do problemu jaki ta organizacja chce rozwiązać, bo wtedy:
 
@@ -84,7 +84,7 @@ Struktura organizacji będzie raczej broniła sama siebie, zamiast wspierać dos
 Prawo Conway’a – powody działania
 =================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/4.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/4.jpg)
+[![](/images/2019/02/4.jpg)](/images/2019/02/4.jpg)
 
 Prawo Conway’a nie jest prawem w sensie stricte – nie można udowodnić jego działania tak jak innych praw fizycznych. Ale jest wiele powodów, dlaczego ludzie mogą działać według tego prawa:
 
@@ -107,7 +107,7 @@ Manewr mówi, by przygotowywać tak strukturę organizacji, by odpowiadała potr
 
 Bardzo ciekawy przykład takiego manewru opisał Simon Wardley w swoim [cyklu tweetów](https://twitter.com/swardley/status/1087511545091899392?lang=en).
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/5.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/5.jpg)
+[![](/images/2019/02/5.jpg)](/images/2019/02/5.jpg)
 
 Organizacja silosowa (departamentowa) miała problemy z dostosowywaniem się do zmian – część osób z silosu chciała wdrażać zmiany a część była bardziej oporna. Postanowiono więc podzielić organizację ze względu na poziom stabilności pracy. To pozwoliło grupom pracować w zespołach cross-funkcjonalnych, skupionych na swoich celach, realizujących je w taki sposób jaki był im najbardziej odpowiadający.
 
@@ -118,7 +118,7 @@ Zmiana, zmiana, zmiana
 
 Niestety nawet najlepiej działająca struktura nie uchroni się przed zmianami jakie przynosi czas. Może zmienić się otoczenie biznesowe, sytuacja na rynku, pojawi się bądź ubędzie kolejny konkurent. Poza tym zmiana może pojawić się także wewnątrz – firma może zająć się inną niszą czy dodatkowymi praktykami lub po prostu powiększyć się poza swoje obecne możliwości. Każda taka sytuacja może sprawić, że struktura firmy z pożądanej i właściwej stanie się kontrproduktywna.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/6.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/6.jpg)
+[![](/images/2019/02/6.jpg)](/images/2019/02/6.jpg)
 
 GCHQ w swoim dokumencie [GCHQ: Boiling Frogs](https://github.com/gchq/BoilingFrogs/blob/master/GCHQ_Boiling_Frogs.pdf) opisują jak w dzisiejszych czasach ważne jest umiejętne dostosowywanie się do zmiennych realiów biznesowych. Należy odchodzić od zmian typu „Big Bang”**,** bo trwają one zbyt długo i nie dostarczają pokładanych w nich wartości. Trzeba szybko testować nowe pomysły, popełniać błędy i uczyć się na ich podstawie.
 
@@ -129,7 +129,7 @@ Spotify Fallacy – czyli dlaczego nie kopiować struktury
 
 Częstym problemem w budowie organizacji jest skopiowanie od innych istniejącej u nich struktury bez zastanowienia się jakie funkcje ona spełnia może ona powodować. A przede wszystkim z jakiej potrzeby biznesowej ona wychodzi i w jakiej kulturze działa.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/7.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/7.jpg)
+[![](/images/2019/02/7.jpg)](/images/2019/02/7.jpg)
 
 Wiele firm zaczęło kopiować sposób [organizacji pracy Spotify](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf), nie patrząc w jakich realiach firmowych on działa. A jest bardzo wiele czynników, które sprawiają, że jest on możliwy do wdrożenia: [kultura społeczna Skandynawii](https://zenexmachina.wordpress.com/2017/07/25/why-spotifys-agile-patterns-work-and-why-you-shouldnt-copy-them/), [kultura pracy zwinnej](http://blog.kevingoldsmith.com/2014/03/14/thoughts-on-emulating-spotifys-matrix-organization-in-other-companies/), [otoczenie biznesowe](https://medium.com/the-ready/how-to-build-your-own-spotify-model-dce98025d32f). Sama zmiana trwała u nich 3 lata. A często kopiowanie struktury jest wdrażane w sposób automatyczny – wczoraj było po staremu, dziś już jest inaczej. To nie zadziała.
 

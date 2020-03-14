@@ -14,7 +14,7 @@ Mając za sobą praktykę Team Leadera, chciałbym opisać kilka kwestii na jak
 
 Zebrało się ich aż 10 😀. Żeby nie zanudzać was ścianą tekstu w jednym artykule rozbiłem ten temat na mniejsze posty - po 2 porady w każdym.
 
-// wszystkie porady zostały zebrane w [podsumowaniu cyklu](https://radblog.pl/2018/05/17/porady-dla-team-leadera-podsumowanie/).
+// wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
 Poznaj mocne i słabe strony zespołu
 -----------------------------------

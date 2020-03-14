@@ -21,9 +21,9 @@ Zdarzenie domenowe – serce warsztatu
 
 Event Storming opiera się na zdarzeniach domenowych – faktach opisujących pracę naszego systemu. Każde zdarzenie zapisujemy na karteczce i umieszczamy na ścianie. Poniżej moje (lekko niestarannie napisane) zdarzenie- dodanie produktu do koszyka.
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/1.jpg)](https://radblog.pl/wp-content/uploads/2018/12/1.jpg)
+[![](/images/2018/12/1.jpg)](/images/2018/12/1.jpg)
 
-Każda karteczka to istotna informacja o wydarzeniu jakie zaistniało w systemie. Wszyscy uczestnicy systemu (prawie), niezależnie od siebie, umieszczają swoje karteczki na wcześniej przygotowanej ścianie. W zależności od ilości zdarzeń ściana po tej fazie pracy może wyglądać np. tak:[![](https://radblog.pl/wp-content/uploads/2018/12/6.jpg)](https://radblog.pl/wp-content/uploads/2018/12/6.jpg)
+Każda karteczka to istotna informacja o wydarzeniu jakie zaistniało w systemie. Wszyscy uczestnicy systemu (prawie), niezależnie od siebie, umieszczają swoje karteczki na wcześniej przygotowanej ścianie. W zależności od ilości zdarzeń ściana po tej fazie pracy może wyglądać np. tak:[![](/images/2018/12/6.jpg)](/images/2018/12/6.jpg)
 
 Nawet jeśli na pierwszy rzut oka wydaje wam się to przytłaczające, uwierzcie mi - rezultat jest fenomenalny – w kilka chwil nasi koledzy i inni pracownicy są w stanie zrzucić prawie całą / dużą część wiedzy o swoim systemie na wspólną przestrzeń.
 
@@ -34,7 +34,7 @@ Strukturyzacja
 
 Po umieszczeniu wszystkich zdarzeń na ścianie zaczyna się porządkowanie i układanie powyższych karteczek, w taki sposób, by nasze zdarzenia połączyć we wspólne procesy biznesowe / przypadki użycia. Każdy taki proces możemy analizować osobno, przechodząc go chronologicznie od początku do końca, jak i odwrotnie, by zyskiwać coraz większą wiedzę jak nasz proces zachodzi.
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/5.jpg)](https://radblog.pl/wp-content/uploads/2018/12/5.jpg)
+[![](/images/2018/12/5.jpg)](/images/2018/12/5.jpg)
 
 Aby bardziej uwidocznić prawidłowości zachodzące w analizowanym procesie przychodzą nam z pomocą karteczki w innych kolorach, których zadaniem jest zwizualizowanie dodatkowych informacji o systemie:
 
@@ -65,7 +65,7 @@ Przykładowy rezultat warsztatu
 
 Jeden wielu z takich warsztatów przeprowadziliśmy dla naszego klienta. Zadaniem było zrozumieć jak działa duży, monolityczy system i zaplanować podzielenie go na mniejsze części. Poniżej rezultat naszego warsztatu (zdjęcie z 1/2 całości):
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/4.jpg)](https://radblog.pl/wp-content/uploads/2018/12/4.jpg)
+[![](/images/2018/12/4.jpg)](/images/2018/12/4.jpg)
 
 Warsztat trwał kilka godzin, a po skończeniu pracy byliśmy w stanie zrozumieć:
 
@@ -97,9 +97,9 @@ Istnieje wiele materiałów opisujących warsztat Event Stormingu, zarówno w j�
 
 Także, do dzieła! Gdyby Cię interesował temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)** lub pozostałe posty z tego tematu:
 
- *   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
- *   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
- *   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
+ *   [Event Storming – Narzędzie usprawniające pracę organizacji](/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
+ *   [Event Storming – Mapowanie ograniczeń](/2019/02/22/event-storming-mapowanie-ograniczen/)
+ *   [Event Storming – Co dalej?](/2019/01/26/event-storming-co-dalej/)
 
 ---
 ### Comments:

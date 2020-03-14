@@ -8,13 +8,13 @@ category: 'Design patterns'
 tags: ['CQRS', 'Dapper', 'Domain Events', 'Entity Framework', 'MediatR']
 ---
 
-This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.
+This post series is driven by my [lightning talk](/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.
 
 I will write about:
 
- 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
- 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
- 3.  [creating simple read model](http://radblog.pl/2018/01/08/cqrs-third-step-simple-read-model/)
+ 1.  [splitting code to commands and queries](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](/2018/01/08/cqrs-third-step-simple-read-model/)
  4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
@@ -24,14 +24,14 @@ Stay tuned ;)
 Recent state of your app
 ------------------------
 
-In the [second step](http://radblog.pl/2017/10/31/cqrs-second-step-different-query-model/), you have changed your slow queries to use a more lightweight option to query the database: [ProjectTo](http://automapper.readthedocs.io/en/latest/Queryable-Extensions.html) extension and [Dapper](https://github.com/StackExchange/Dapper) ORM.
+In the [second step](/2017/10/31/cqrs-second-step-different-query-model/), you have changed your slow queries to use a more lightweight option to query the database: [ProjectTo](http://automapper.readthedocs.io/en/latest/Queryable-Extensions.html) extension and [Dapper](https://github.com/StackExchange/Dapper) ORM.
 
 As the result of your actions, the system is performing faster. Only required places have been refactored - remaining command and queries, which were optimal, wasn't affected and work seamlessly.
 
 Your current bottleneck - listless searching
 --------------------------------------------
 
-One of your new requirements is to implement more **complex filtering** - by the dynamic field values and by average rating with additional **conditional ordering**. Your complicated query ([listed here](http://radblog.pl/en/2017/10/31/cqrs-second-step-different-data-access/#dapper)) gets even more complicated.
+One of your new requirements is to implement more **complex filtering** - by the dynamic field values and by average rating with additional **conditional ordering**. Your complicated query ([listed here](/2017/10/31/cqrs-second-step-different-data-access/#dapper)) gets even more complicated.
 
 After implementation, you find out that performance of the system has decreased significantly. A need for filtering data by selected columns is killing the database. You dive into this problem and, using SQL Server Profiler, realize that multiple JOIN and WHERE clauses over field value / order / rating tables are making database query too slow to accept, for an everyday user.
 
@@ -40,7 +40,7 @@ You heard that creating a **different data model **could help with this situati
 Simple read model - to the rescue
 ---------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model.jpg)](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model.jpg)
+[![](/images/2018/01/simple-read-model.jpg)](/images/2018/01/simple-read-model.jpg)
 
 Read model is about creating a different store of your data with simplified schema and lower connections to other tables. You still use your previous tables but you treat them as write model.
 
@@ -51,7 +51,7 @@ Creating read model is a different thing. You don't want to fill two (or more) d
 Domain events
 -------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1.jpg)](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1.jpg)
+[![](/images/2018/01/domain-events-1.jpg)](/images/2018/01/domain-events-1.jpg)
 
 [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) gives you multiple building blocks to help to build a better system. [Domain event](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation) is one of them - it allows you to handle additional logic that is not crucial in your current context. For example, you would like to send an email after placing an order. You publish a domain event and handle it in a custom handler.
 
@@ -59,7 +59,7 @@ You are able to introduce Domain events to your application in service pattern, 
 
 So you design a graph to show how the events will be thrown and used to create required read model.
 
-[![](http://radblog.pl/wp-content/uploads/2017/12/domain-events.png)](http://radblog.pl/wp-content/uploads/2017/12/domain-events.png)
+[![](/images/2017/12/domain-events.png)](/images/2017/12/domain-events.png)
 
 Every action, which embraces products, at the end publishes an event. It is handed in the event handler (specially dedicated for product read model) which adds or modify particular data in the database. Simple but powerful.
 
@@ -291,7 +291,7 @@ Transaction between Dapper and EF
 
 To avoid losing data between command handlers and event handlers, in case of failure, there is a need to implement database transaction. It should embrace logic defined in both handlers but it should not affect your written code. So you decide to implement it at the infrastructure level.
 
-There are multiple ways to do it, [at the request level](http://radblog.pl/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/), [at the command level](http://radblog.pl/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/), etc. You decide to do it at the command level to make it more flexible and fine-grained.
+There are multiple ways to do it, [at the request level](/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/), [at the command level](/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/), etc. You decide to do it at the command level to make it more flexible and fine-grained.
 
 Creating transaction between database calls versus saving changes in every command / event and handling failure is a decision that everybody needs to make, depending on your requirements. To deepen this topic I recommend a great article in [.NET Microservices. Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation#single-transaction-across-aggregates-versus-eventual-consistency-across-aggregates) book.
 

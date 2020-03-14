@@ -14,7 +14,7 @@ Trwa właśnie kolejna edycja konferencji [Microsoft Ignite](https://www.microso
 
 Do Azure Functions zostały dodane bindingi z usługi Azure Cosmos DB (wcześniej znane jako Azure DocumentDB). Oznacza to, że możemy podpiąć się bezpośrednio pod daną tabelę / graf / dokument i uruchamiać funkcję kiedy te zbiory zostaną zmienione.
 
-![](http://radblog.pl/wp-content/uploads/2017/09/46e71098-271d-454f-9df5-6feb42f02c4a.png)
+![](/images/2017/09/46e71098-271d-454f-9df5-6feb42f02c4a.png)
 
 Umożliwia to tworzenie procesów biznesowych połączonych bezpośrednio do źródła danych, bez narzutu związanego z rzucaniem i obsługą eventów z Event Grida / kolejki.
 
@@ -24,7 +24,7 @@ Umożliwia to tworzenie procesów biznesowych połączonych bezpośrednio do źr
 
 Twór jeszcze niedawno dla mnie nieznany - MS Graph umożliwia podpięcie się do całego obszaru usług Microsoftu (Outlook / OneDrive / Calendar i inne). Zyskujemy ogromny zbiór API, który umożliwia nam na pobieranie / modyfikację danych a także interakcje z daną usługą (tworzenie spotkań w kalendarzu, zarządzanie użytownikami w kontaktach itd).
 
-![](http://radblog.pl/wp-content/uploads/2017/09/microsoft_graph.png)
+![](/images/2017/09/microsoft_graph.png)
 
 Dzięki połączeniu Azure Functions i Microsoft Graph mamy możliwość czytać i zmieniać dane w plikach Excela, plikach na OneDrive, wysyłać emaile z Outlooka, a także podpinać się pod webhooki zdefiniowane bezpośrednio w MS Graph. Więcej przeczytacie [tutaj](https://docs.microsoft.com/pl-pl/azure/azure-functions/functions-bindings-microsoft-graph).
 
@@ -32,7 +32,7 @@ Dzięki połączeniu Azure Functions i Microsoft Graph mamy możliwość czyta�
 
 Do tej pory nie było wsparcia dla Azure Functions dla Linuxa i Maca, przez co jedyną opcją na profesjonalny development był Windows. To się właśnie zmieniło, przez pojawienie się wersji Azure Functions 2.0.
 
-![](http://radblog.pl/wp-content/uploads/2017/09/891e92c1-b595-4733-9d9c-33db6d422153.gif)
+![](/images/2017/09/891e92c1-b595-4733-9d9c-33db6d422153.gif)
 
 Możemy pisać i debugować nasze funkcje używając do tego Azure Function Core Tools i Visual Studio Code (oczywiście zwykłe Visual Studio też działa). Można pisać w C#, F#, JavaScript, Java, więc zbiór całkiem niezły jak na początek.
 

@@ -20,6 +20,6 @@ W ramach [szkoły Agile](https://szkolaagile.graosens.org.pl/) wystąpiłem z 
      *   Sebastian Gębski - "Cargo Cults„ [https://www.youtube.com/watch?v=fJh\_\_\_](https://www.youtube.com/watch?v=fJh___1qJA8)[1qJA8](https://www.youtube.com/watch?v=fJh___1qJA8)
      *   Jimmy Bogard – „The Gemba Walk for designing software” -  [https://jimmybogard.com/the-gemba-walk-for-designing-software/](https://jimmybogard.com/the-gemba-walk-for-designing-software/)
      *   Greg Young – „Stop overengineering” [https://www.youtube.com/watch?v=GRr4xeMn1uU](https://www.youtube.com/watch?v=GRr4xeMn1uU)
-     *   Radek Maziarka „Nic nie wiem – czyli dlaczego warto pytać” - [http://radblog.pl/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/](http://radblog.pl/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/)
+     *   Radek Maziarka „Nic nie wiem – czyli dlaczego warto pytać” - [/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/](/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/)
      *   Dave Snowden – „ Complex Adaptive Systems ” - [https://www.youtube.com/watch?v=l4-vpegxYPg](https://www.youtube.com/watch?v=l4-vpegxYPg)
      *   Myroslava Zelenska – „Cognitive biases in software development” - [https://medium.com/@myroslavazel/cognitive-biases-in-software-development-part-1-developers-495466573718](https://medium.com/@myroslavazel/cognitive-biases-in-software-development-part-1-developers-495466573718)

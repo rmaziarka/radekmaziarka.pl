@@ -19,7 +19,7 @@ Wszystko podlane odpowiednią ilością ostrego sosu, by doprowadzić uczestnik
 Obsługa GPU z poziomu C# - Łukasz
 ---------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DYbRI3yXcAYQkcZ.jpg)](https://radblog.pl/wp-content/uploads/2018/03/DYbRI3yXcAYQkcZ.jpg)
+[![](/images/2018/03/DYbRI3yXcAYQkcZ.jpg)](/images/2018/03/DYbRI3yXcAYQkcZ.jpg)
 
 Łukasz opowiedział o obsłudze GPU z poziomu kodu C#. Może nam się to wydawać zbyteczne - po co zajmować się takimi rzeczami? Okazuje się, że użycie przez StackOverflow karty graficznej za 400$ do przetwarzania informacji o tagach było wydajniejsze niż użycie serwera z 72 rdzeniami CPU. **Ogromny przyrost mocy za pomocą użycia podstawowych komponentów**.
 
@@ -40,7 +40,7 @@ GPU jest dobre do obsługi dużej ilości małych zadań, więc **nie sprawdzi s
 Optymalizacja zużycia pamięci - Konrad
 --------------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DYbebQtXkAAZ_d0.jpg)](https://radblog.pl/wp-content/uploads/2018/03/DYbebQtXkAAZ_d0.jpg)
+[![](/images/2018/03/DYbebQtXkAAZ_d0.jpg)](/images/2018/03/DYbebQtXkAAZ_d0.jpg)
 
 Konrad opowiedział o optymalizacji zużycia pamięci i przyśpieszania pracy naszych aplikacji za pomocą prostych poprawek naszego kodu. Niewielkie zmiany w naszym kodzie mogą mieć ogromny wpływ na wydajność i poprawić działanie naszej aplikacji.
 
@@ -55,7 +55,7 @@ Cała prezentacja opierała się na narzędziu [Tune](https://github.com/kkokos
 Różne drogi serializacji w .NET - Szymon
 ----------------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/20180316_201504.jpg)](https://radblog.pl/wp-content/uploads/2018/03/20180316_201504.jpg)
+[![](/images/2018/03/20180316_201504.jpg)](/images/2018/03/20180316_201504.jpg)
 
 Szymon opowiedział o różnych sposobach serializacji danych w .NET. Przeszedł od zaszłości XMLowych, przez 2 biblioteki do serializowania JSONa po serializatory binarne i własny serializator, stworzony na potrzeby NServiceBusa. Każdy krok to spojrzenie z różnej perspektywy na potrzeby i wymagania stawiane przez nasze aplikacje.
 
@@ -76,14 +76,14 @@ Chłopaki postanowili stworzyć spójny branding dla swojej inicjatywy i reklamo
 
 Strzałem w dziesiątkę były **sosy tabasco**, brandowane ich inicjatywą. Sosy były dostępne dla uczestników wydarzenia w ramach pytań i odpowiedzi, co dawało fajny kontakt z publicznością i lepszy odbiór samych prezentacji. Ludzie chętnie się angażowali, były dyskusje, wymiana doświadczeń. Sam sos był też dostępny w trybie Insider, ja dostałem go w takim pięknym pudełeczku już nieco wcześniej 😉
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DYRKTb4WkAEiR-L.jpg)](https://radblog.pl/wp-content/uploads/2018/03/DYRKTb4WkAEiR-L.jpg)[![](https://radblog.pl/wp-content/uploads/2018/03/20180228_114921-2.jpg)](https://radblog.pl/wp-content/uploads/2018/03/20180228_114921-2.jpg)
+[![](/images/2018/03/DYRKTb4WkAEiR-L.jpg)](/images/2018/03/DYRKTb4WkAEiR-L.jpg)[![](/images/2018/03/20180228_114921-2.jpg)](/images/2018/03/20180228_114921-2.jpg)
 
 Podsumowanie
 ------------
 
 Zbierając informacje o tym evencie razem - było to świetne wydarzenie, zarówno pod kątem merytorycznym jak i społecznościowym. Duża dawka wiedzy, mili ludzie, przyjemny after-party. Czekam z niecierpliwością co 3 gringos jeszcze wymyślą 😊
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DYkI2D4WAAAQztU.jpg)](https://radblog.pl/wp-content/uploads/2018/03/DYkI2D4WAAAQztU.jpg)
+[![](/images/2018/03/DYkI2D4WAAAQztU.jpg)](/images/2018/03/DYkI2D4WAAAQztU.jpg)
 
 PS. Zagarnięta sala w Kociej Kołysce przez team .NET 😉
 

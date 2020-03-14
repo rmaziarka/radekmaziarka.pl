@@ -45,7 +45,7 @@ Następnie produkty trafiają do magazynu, transportowane ciężarówką. I tam,
 
 Później dział Jakości sprawdza jakość przywiezionych produktów. A robi to po fabrycznym numerze produkcji. Produkty o tym samym numerze często jechały na różnych samochodach i były składane jako jedna partia już po przyjęciu. Więc dla działu Jakości partia produktów są to wszystkie produkty z tym samym fabrycznym numerem produkcji.
 
-[![](https://radblog.pl/wp-content/uploads/2018/08/POWERPNT_2018-08-28_22-26-51.png)](https://radblog.pl/wp-content/uploads/2018/08/POWERPNT_2018-08-28_22-26-51.png)
+[![](/images/2018/08/POWERPNT_2018-08-28_22-26-51.png)](/images/2018/08/POWERPNT_2018-08-28_22-26-51.png)
 
 Okazało się, że ten sam zwrot jest kompletnie inaczej postrzegany w każdym z działów, przez co powinien zostać odmiennie zamodelowany.
 

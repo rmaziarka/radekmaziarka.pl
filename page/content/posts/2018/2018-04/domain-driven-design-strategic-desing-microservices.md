@@ -10,7 +10,7 @@ tags: ['ddd', 'design pattern', 'microservices']
 
 I finished work on my presentation about “Domain Driven Design - Strategic Design & Microservices” which will be shown as in [Silesian Microsoft Group](https://www.meetup.com/en-AU/Śląska-Grupa-Microsoft-Meetup/events/250018468/).
 
-If you attended this presentation please share your thoughts in this [survey](https://radblog.pl/ddd-form).
+If you attended this presentation please share your thoughts in this [survey](/ddd-form).
 
 You can find slides from my presentation on [Slideshare](https://www.slideshare.net/RadosawMaziarka/domain-driven-design-strategic-patterns-and-microservices), or download it from [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgtBVEwOE7p3y6woZ6Q).
 

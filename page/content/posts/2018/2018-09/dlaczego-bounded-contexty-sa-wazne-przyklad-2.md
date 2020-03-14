@@ -64,7 +64,7 @@ Główny problem leży w rozumieniu czym jest produkt – **dla działów admini
 
 Dział administracji posiadałby własny model produktów, dostosowany do ich potrzeb. Następnie dział klientów pobierałby dane o produktach przez ogólnodostępne API i na ich podstawie budował własny model produktów. Sam zakup odbywałby się jednak już po stronie administracji, by mieć pewność, że nie sprzedajemy towarów poniżej ich stanów.
 
-[![](https://radblog.pl/wp-content/uploads/2018/09/POWERPNT_2018-09-17_21-33-09.png)](https://radblog.pl/wp-content/uploads/2018/09/POWERPNT_2018-09-17_21-33-09.png)
+[![](/images/2018/09/POWERPNT_2018-09-17_21-33-09.png)](/images/2018/09/POWERPNT_2018-09-17_21-33-09.png)
 
 Jeśli pojawiłyby się jakieś zmiany w dziale administracji to zadaniem programistów byłaby taka praca, by nie naruszyć stworzonego już API. Ale wewnętrznie mogliby wypracowywać rozwiązanie, które jest dla nich najbardziej optymalne.
 

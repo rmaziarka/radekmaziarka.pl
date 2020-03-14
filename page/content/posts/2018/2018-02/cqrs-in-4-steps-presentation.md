@@ -14,9 +14,9 @@ You can find slides from my presentation on [Slideshare](https://www.slideshare
 
 Also, you can check my blog posts:
 
- 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
- 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
- 3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
+ 1.  [splitting code to commands and queries](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](/2018/01/08/cqrs-third-step-simple-read-model/)
  4.  creating read model asynchronously with SignalR notification
 
 Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps) and I encourage you to go through materials:
@@ -31,7 +31,7 @@ Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps
  *   Maciek Aniserowicza - CQRS pragmatycznie - [https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie\_597c9425dc0d60997f2bb17f\_pdf](https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie_597c9425dc0d60997f2bb17f_pdf)
  *   Future Processing - CQRS Simple Architecture - [https://www.future-processing.pl/blog/cqrs-simple-architecture/](https://www.future-processing.pl/blog/cqrs-simple-architecture/)
  *   Derek Comartin - Fat Controllers CQRS Diet - [https://codeopinion.com/fat-controller-cqrs-diet-notifications](https://codeopinion.com/fat-controller-cqrs-diet-notifications)
- *   Radek Maziarka - First step - Split to commands and queries - [http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ *   Radek Maziarka - First step - Split to commands and queries - [/2017/08/19/cqrs-first-step-split-to-commands-and-queries/](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
 
 **More generic about CQRS:**
 
@@ -41,7 +41,7 @@ Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps
  *   Udi Dahan - Clarified CQRS - [http://udidahan.com/2009/12/09/clarified-cqrs/](http://udidahan.com/2009/12/09/clarified-cqrs/)
  *   CQRS in Node.js - [https://medium.com/@domagojk/patterns-for-designing-flexible-architecture-in-node-js-cqrs-es-onion-7eb10bbefe17](https://medium.com/@domagojk/patterns-for-designing-flexible-architecture-in-node-js-cqrs-es-onion-7eb10bbefe17)
  *   Herberto Graca - From CQS to CQRS -  [https://herbertograca.com/2017/10/19/from-cqs-to-cqrs/](https://herbertograca.com/2017/10/19/from-cqs-to-cqrs/)
- *   Radek Maziarka - CQRS in 4 steps - [http://radblog.pl/2018/02/19/cqrs-in-4-steps-presentation/](http://radblog.pl/2018/02/19/cqrs-in-4-steps-presentation/)
+ *   Radek Maziarka - CQRS in 4 steps - [/2018/02/19/cqrs-in-4-steps-presentation/](/2018/02/19/cqrs-in-4-steps-presentation/)
 
 **CQRS in polish:**
 

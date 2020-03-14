@@ -17,7 +17,7 @@ Powstaje więc pytanie – skąd taka popularność tego warsztatu? Co powoduje,
 
 Gdy zastanawiamy się and jakimkolwiek procesem czy aktywnością mamy zwykle w głowie konkretne czynności, które muszą mieć miejsce. Jednak proste spisanie ich powoduje, że nie dostrzegamy czy przypadkiem nie mówimy tylko o „happy path”, nie wiemy jaka jest kolejność czynności, czy nie nakładają się one na siebie, czy są one wykywane równolegle czy nie. Powoduje to zamieszanie i ostatecznie mało zrozumiały proces. A ten przekształca się ostatecznie w mało zrozumiały i nieefektywny kawałek systemu.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2018/12/1.jpg)](https://radekmaziarka.pl/wp-content/uploads/2018/12/1.jpg)
+[![](/images/2018/12/1.jpg)](/images/2018/12/1.jpg)
 
 Użycie czasu przeszłego i skupienie się na zdarzeniach pozwala nam stworzyć klarowny przebieg danego procesu czy historii. Nie ma wtedy miejsca na niejasności – coś wydarzyło się wcześniej albo później. Zamiast listy czynności, która może być ułożona dowolnie, mamy jasny plan wykonanych aktywności.
 
@@ -32,7 +32,7 @@ Człowiek jest istotą kierującą się głównie zmysłem wzroku. Colin Ware w 
 
 Mając to na uwadze przypomnij sobie te wszystkie spotkania, gdzie prowadzący przez długi czas tłumaczył jakiś proces po prostu rzucając słowa w eter. Albo pokazywany był olbrzymi dokument Word na małym telewizorze. Takie spotkania są nie tylko nieefektywne – **słuchanie procesu powoduje, że każdy ma w głowie jego inną realizację**. W teorii wszyscy myślimy o tym samym – w praktyce rozbijemy się o kolejność czy zrozumienie co znaczą pojedyncze elementy.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9424.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9424.jpg)
+[![](/images/2019/05/IMG_9424.jpg)](/images/2019/05/IMG_9424.jpg)
 
 Event Storming pozwala dobrze zwizualizować proces, z którym się zmagamy. Dzięki niemu można jednocześnie zobaczyć całe spektrum sytuacji by w kilku krokach skupić się na małym jego wycinku. Widzimy, gdzie proces się zaczyna, gdzie rozgałęzia, gdzie są problemy, które zidentyfikowaliśmy. **Mając pełny ogląd sytuacji łatwiej zauważysz, że coś nie gra w procesie** – twój mózg nie będzie w stanie połączyć ze sobą kolejnych kropek.
 
@@ -52,14 +52,14 @@ Warsztat pozwala mylić i następnie szybko uczyć się na swojej pomyłce:
  *   [Heurestyka zakotwiczenia](https://pl.wikipedia.org/wiki/Heurystyka_zakotwiczenia_i_dostosowania) – Mając koło siebie grono osób z różnych obszarów łatwiej jest uniknąć zaczepienia tylko na jednej, pierwszej informacji.
  *   [Złudzenie planowania](https://pl.wikipedia.org/wiki/Z%C5%82udzenie_planowania) – Warsztaty obrazują prawdziwą, a nie kreowaną złożoność procesu (systemy zewnętrzne, persony, scenariusze, wąskie gardła) co pozwala zdać sobie sprawę ze skalą problemu, z którym się zmagamy.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9432.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/IMG_9432.jpg)Bardzo dobrym podsumowaniem, dlaczego błędy poznawcze są kosztowne, jest powyższe zdjęcie – **każda z tych kartek to błędna decyzja, którą odrzuciliśmy jeszcze na etapie analizy biznesowej**. Gdyby została ona zaimplementowana to koszt jej poprawy byłby 1000-krotnie większy niż zrzucenie kartki na ziemię.
+[![](/images/2019/05/IMG_9432.jpg)](/images/2019/05/IMG_9432.jpg)Bardzo dobrym podsumowaniem, dlaczego błędy poznawcze są kosztowne, jest powyższe zdjęcie – **każda z tych kartek to błędna decyzja, którą odrzuciliśmy jeszcze na etapie analizy biznesowej**. Gdyby została ona zaimplementowana to koszt jej poprawy byłby 1000-krotnie większy niż zrzucenie kartki na ziemię.
 
 4\. Praca równoległa i wspólna
 ==============================
 
 W korporacjach bardzo często spotkania są synonimem tracenia czasu. Nie bez przyczyny. Niekończące się dyskusje, wymóg uzyskania konsensusu czy dominacja pewnych osób powoduje, że osiągane rezultaty nie są satysfakcjonujące. Często wchodzimy na spotkanie z celem omówienia potrzebnych dla nas kwestii, a wychodzimy z poczuciem, że zostaliśmy pominięci.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/gamestorming2.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/gamestorming2.jpg)
+[![](/images/2019/05/gamestorming2.jpg)](/images/2019/05/gamestorming2.jpg)
 
 Divergent / Emergent / Convergent - [http://timkastelle.org/blog/2010/10/two-ways-to-select-ideas/](http://timkastelle.org/blog/2010/10/two-ways-to-select-ideas/)
 
@@ -89,12 +89,12 @@ To co przedstawiłem powyżej to kilka elementów, które w mojej ocenie sprawia
 
 Chyba Event Storming za bardzo zawrócił mi w głowie 😉 Niech Event Storming będzie z Nami!
 
-PS. Gdyby Cię interesował temat to polecam moje [szkolenie z Event Stormingu](https://radekmaziarka.pl/szkolenia-event-storming/) lub pozostałe posty z tego tematu:
+PS. Gdyby Cię interesował temat to polecam moje [szkolenie z Event Stormingu](/szkolenia-event-storming/) lub pozostałe posty z tego tematu:
 
- *   [Event Storming - Jak szybko odkrywać nieznane](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)
- *   [Event Storming – Narzędzie usprawniające pracę organizacji](https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
- *   [Event Storming – Mapowanie ograniczeń](https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/)
- *   [Event Storming – Co dalej?](https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/)
+ *   [Event Storming - Jak szybko odkrywać nieznane](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)
+ *   [Event Storming – Narzędzie usprawniające pracę organizacji](/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
+ *   [Event Storming – Mapowanie ograniczeń](/2019/02/22/event-storming-mapowanie-ograniczen/)
+ *   [Event Storming – Co dalej?](/2019/01/26/event-storming-co-dalej/)
 
 ---
 ### Comments:

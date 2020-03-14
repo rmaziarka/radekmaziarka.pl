@@ -10,7 +10,7 @@ Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb daj mi znać! Z 
 [Event Storming - PROJEKTOWANIE OPROGRAMOWANIA](/szkolenia/event-storming-projektowanie-oprogramowania)
 =======================================================================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-projektowanie-oprogramowania)
+[![](/images/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-projektowanie-oprogramowania)
 
 Czyli tzw. Event Storming Design Level. Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
 
@@ -21,7 +21,7 @@ Zobacz jak wykorzystać tę technikę w swojej codziennej pracy! [Więcej o szko
 [Wzorce architektoniczne](/szkolenia/wzorce-architektoniczne)
 =============================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/Wzorce-Architektoniczne.jpg)](/szkolenia/wzorce-architektoniczne)
+[![](/images/2019/09/Wzorce-Architektoniczne.jpg)](/szkolenia/wzorce-architektoniczne)
 
 Cytując Wikipedię "wzorzec architektoniczny (ang. architectural pattern) – uznany i sprawdzony sposób rozwiązania danego problemu z zakresu architektury oprogramowania." Wiedza na temat wzorców pozwala przyśpieszyć wdrażanie nowych funkcjonalności, uspójnić tworzone oprogramowanie czy zmniejszych ilość powstających błędów.
 
@@ -30,7 +30,7 @@ Jednak nie są to tzw. silver bullety. Każdy z wzorców niesie za sobą konkret
 [DDD i Mikroserwisy](/szkolenia/ddd-i-mikroserwisy/)
 ====================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/Mikroserwisy.jpg)](/szkolenia/ddd-i-mikroserwisy/)
+[![](/images/2019/09/Mikroserwisy.jpg)](/szkolenia/ddd-i-mikroserwisy/)
 
 Mikroserwisy jeszcze kilka lat temu miały zostać lekiem na całe zło związane z skomplikowanym i niezrozumiałym monolitem. Jednak dziś już wiemy, że było to oszustwo – mikroserwisy, wdrażane niepoprawnie, jedynie mnożą problemy zamiast je upraszczać. Kończymy z jeszcze trudniejszym systemem niż mieliśmy, dostarczając jeszcze mniejszą wartość biznesową klientom.
 
@@ -41,7 +41,7 @@ Naucz się tworzyć wydajne mikroserwisy! [Więcej o szkoleniu.](/szkolenia/ddd
 [Loosely-coupled architecture](/szkolenia/loosely-coupled-architecture/)
 ========================================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/Loosely-coupled.jpg)](/szkolenia/loosely-coupled-architecture/)
+[![](/images/2019/09/Loosely-coupled.jpg)](/szkolenia/loosely-coupled-architecture/)
 
 Rozwijasz swój system już przez dłuższy czas i widzisz, że wszystko jest ze sobą niesamowicie splątane. Komponenty wołają siebie w sposób calkowicie losowy. Każda zmiana wymaga synchronizacji bardzo wielu osób. W takim środowisku trudno o wysoką wydajność i bezproblemowość przy wprowadzaniu nowych funkcjonalności.
 
@@ -52,7 +52,7 @@ Sprawdź jak tworzyć architekturę, która oprze się próbie czasu! [Więcej 
 [CQRS](/szkolenia/cqrs/)
 ========================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/CQRS.jpg)](/szkolenia/cqrs/)
+[![](/images/2019/09/CQRS.jpg)](/szkolenia/cqrs/)
 
 Command Query Responsibility Segregation czyli w skrócie CQRS. Wzorzec opisany przez Grega Younga w 2009 roku stał się aktualnie podstawą przy tworzeniu systemów informatycznych. Sam wzorzec jest dość prosty do wdrożenia przy starcie projektu. W przypadku systemów legacy spora ilość osób myśli, że już nie da się nic zrobić i trzeba rozwijać system w dotychczasowy sposób.
 

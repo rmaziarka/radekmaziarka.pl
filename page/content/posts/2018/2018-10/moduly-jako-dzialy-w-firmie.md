@@ -32,7 +32,7 @@ I teraz hipotetyczna sytuacja – chcemy zmienić system finansowy na inny. Z pu
 
 Identycznie powinny działać nasze moduły. **Nie powinniśmy narzucać użytkownikom naszego modułu znajomości wewnętrznych detali** – oni nie są tym zainteresowani. Chcą z nami kontaktować się na pewnym poziomie abstrakcji, który pozwoli im jasne wykonywanie żądań i uzyskiwanie rezultatów.
 
-Więcej o samych modułach w oprogramowaniu możecie przeczytać w moim cyklu o [Bounded Contextach ](https://radblog.pl/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/)🙂
+Więcej o samych modułach w oprogramowaniu możecie przeczytać w moim cyklu o [Bounded Contextach ](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/)🙂
 
 ---
 ### Comments:

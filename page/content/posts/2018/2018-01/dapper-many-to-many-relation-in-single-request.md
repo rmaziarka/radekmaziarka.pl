@@ -8,7 +8,7 @@ category: 'ORM'
 tags: ['Dapper', 'MS SQL']
 ---
 
-During my [CQRS journey](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/), I implemented many-to-many data querying, in the single database request. I achieved getting all products with associated entities at the same time.
+During my [CQRS journey](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/), I implemented many-to-many data querying, in the single database request. I achieved getting all products with associated entities at the same time.
 
 To achieve the same, we need to define a **temporary table** to store all first-level entities:
 ```

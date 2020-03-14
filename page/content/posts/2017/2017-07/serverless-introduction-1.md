@@ -8,7 +8,7 @@ category: 'Serverless'
 tags: ['']
 ---
 
-_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](http://radblog.pl/en/category/serverless/)._
+_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](/category/serverless/)._
 
 ### Introduction
 

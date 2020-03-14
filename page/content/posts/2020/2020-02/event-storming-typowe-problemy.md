@@ -18,7 +18,7 @@ Pogrupowałem (dość arbitralnie) problemy w 3 grupy:
  *   [Miejsce warsztatu](#miejsce)
  *   [Facylitator](#facylitator)
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/people-2557396_1920.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/people-2557396_1920.jpg)
+[![](/images/2020/02/people-2557396_1920.jpg)](/images/2020/02/people-2557396_1920.jpg)
 
 Praca z ludźmi
 ==============
@@ -31,7 +31,7 @@ Warto więc przed Event Stormingiem postawić cel, do którego się przygotujemy
 
 ### Osoby nieumiejące rozmawiać z biznesem
 
-Często generalizuje się, mówiąc, że programiści to osoby nieprzygotowane do życia w społeczeństwie. Jest to oczywiście nieprawda, ale charakter naszej pracy może dość mocno wpływać na nasz sposób myślenia i utrudniać rozmowę z osobami nietechnicznymi ([mój post](https://radekmaziarka.pl/2018/09/28/podstawy-psychologiczne-ubiquitous-language/) na ten temat). Może to powodować kilka problemów.
+Często generalizuje się, mówiąc, że programiści to osoby nieprzygotowane do życia w społeczeństwie. Jest to oczywiście nieprawda, ale charakter naszej pracy może dość mocno wpływać na nasz sposób myślenia i utrudniać rozmowę z osobami nietechnicznymi ([mój post](/2018/09/28/podstawy-psychologiczne-ubiquitous-language/) na ten temat). Może to powodować kilka problemów.
 
 Najmniejszym z nich jest używania ściśle języka technicznego. Osoby spoza świata IT będą się w tym momencie czuły obco, przez co naturalnie będą się wycofywać z dyskusji. Nie będziemy wtedy tworzyć pożądanego [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) i budowali relacji pomiędzy grupami. Warto więc skupiać się na wspieraniu uczestników w używaniu spójnego języka - poprawiać zbyt zawiłe technologiczne terminy i zamieniać je na te bliższe codziennemu życiu.
 
@@ -57,7 +57,7 @@ Brak jasnej agendy i planu spotkania może wzbudzić w ludziach strach, że wars
 
 Plan, nawet szczątkowy, z zapowiedzianymi miejscami na chwilę dla siebie, pozwala w kontrolowany sposób maksymalizować skupienie, a następnie przeznaczać czas na odpoczynek. Robimy jedną rzecz i robimy ją dobrze – albo praca nad problemem albo przerwa. Dzięki temu szybciej osiągamy wymagany rezultat, a uczestnicy są bardziej zadowoleni.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/meeting-room-730679_960_720.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/meeting-room-730679_960_720.jpg)
+[![](/images/2020/02/meeting-room-730679_960_720.jpg)](/images/2020/02/meeting-room-730679_960_720.jpg)
 
 Miejsce warsztatu
 =================
@@ -82,7 +82,7 @@ Nawet tak błaha rzecz jak niewystarczająca liczba kartek i marketów potrafi s
 
 Dlatego podczas warsztatu karteczek i markerów powinno być o wiele więcej niż uczestników. Tak, by ich zostało jeszcze dużo po warsztacie. Nie zmarnują się – wykorzystasz je przy następnym. Za to ich duża ilość pozwoli zgromadzonym nie przejmować się czy komuś czegoś zabraknie. Uczestnicy będą mogli się w pełni skupić się tylko na rozwiązywaniu problemu.
 
-Jeśli chcesz nieco oszczędzić na kosztach warsztatu możesz sprawdzić mój [poprzedni post](https://radekmaziarka.pl/2019/06/15/event-storming-ile-kosztuje-przeprowadzenie-warsztatu/).
+Jeśli chcesz nieco oszczędzić na kosztach warsztatu możesz sprawdzić mój [poprzedni post](/2019/06/15/event-storming-ile-kosztuje-przeprowadzenie-warsztatu/).
 
 ### Brak przekąsek
 
@@ -92,7 +92,7 @@ Warto więc w miejscu nieco oddalonym od ściany postawić lekkie przekąski bą
 
 Często przy takich miejscach rozgrywają się naprawdę ciekawe dyskusje, które później będą miały odzwierciedlenie karteczkach na ścianie. Nie zabraniajmy ludziom rozmów w ich ulubionym środowisku – zadbajmy tylko, by miało to później przełożenie na rezultat pracy.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/white-board-593309_960_720.jpg)](https://radekmaziarka.pl/wp-content/uploads/2020/02/white-board-593309_960_720.jpg)
+[![](/images/2020/02/white-board-593309_960_720.jpg)](/images/2020/02/white-board-593309_960_720.jpg)
 
 Facylitator
 ===========
@@ -131,4 +131,4 @@ W artykule przedstawiłem kilkanaście różnych problemów z warsztatów, w kt�
 
 A z jakimi problemami się Ty zmierzyłeś? Daj znać w komentarzach 😊
 
-PS. Gdyby Cię interesował temat to polecam moje[**warsztaty z Event Stormingu**](https://radekmaziarka.pl/szkolenia/event-storming) lub sprawdzenie [pozostałych postów](/category/event-storming/) z tego tematu.
+PS. Gdyby Cię interesował temat to polecam moje[**warsztaty z Event Stormingu**](/szkolenia/event-storming) lub sprawdzenie [pozostałych postów](/category/event-storming/) z tego tematu.

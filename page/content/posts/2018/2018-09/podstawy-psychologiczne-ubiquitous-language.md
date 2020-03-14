@@ -29,7 +29,7 @@ Zasada Kategoryzacji - praktyka
 
 Omówmy wspomnianą zasadę na przykładzie opisywanej przez Rosch kategorii krzesła. Przechodząc przez konkretne cechy:
 
-[![](https://radblog.pl/wp-content/uploads/2018/09/ul-1.jpg)](https://radblog.pl/wp-content/uploads/2018/09/ul-1.jpg)
+[![](/images/2018/09/ul-1.jpg)](/images/2018/09/ul-1.jpg)
 
 Do tej kategorii będą wchodziły krzesła, fotele, taborety, ale także wiszące krzesła czy krzesła barowe. Nie będą spełniały one wszystkich cech np. percepcyjnych jak nogi, ale będą miały te same funkcje i elementy motoryczne.
 
@@ -78,7 +78,7 @@ Otóż słowo pole zalicza się do dwóch, kompletnie różnych kategorii. W zal
      *   cel – produkcja żywności.
     
 
-[![](https://radblog.pl/wp-content/uploads/2018/09/ul-2.png)](https://radblog.pl/wp-content/uploads/2018/09/ul-2.png)
+[![](/images/2018/09/ul-2.png)](/images/2018/09/ul-2.png)
 
 Tych kategorii uczymy się od początku naszego życia. I teraz nauka używania słowa „pole” w innym kontekście nie nadejdzie szybko. **Taka zmiana jest trudna**, gdyż zaburza dobrze zbudowane i pielęgnowane dopasowanie. Jako zwierzęta bardzo trudno się adaptujemy, ponieważ to zmienia nasze odruchy, praktyki, reakcje i postrzeganie rzeczywistości. Mamy zbiór [[4]](#4) podświadomych odruchów, których zmiana jest bardzo trudna i wymaga dużo czasu.
 
@@ -103,7 +103,7 @@ Różnice w przypisaniu słów do kategorii - przykład biznesowy
 
 Załóżmy, że klient prosi nas o listę produktów na stronie głównej. My odpowiadamy mu, w zależności od sytuacji, o liście / tablicy / kolekcji elementów. Dla nas jest to zrozumiałe, bo należy do wspólnej kategorii – „kontenera na dane”. Niestety dla niego takie postrzeganie rzeczywistości jest obce. Mieszamy tutaj frazy mające różne funkcje i leżące w z różnych kategoriach:
 
-[![](https://radblog.pl/wp-content/uploads/2018/09/ul-3.jpg)](https://radblog.pl/wp-content/uploads/2018/09/ul-3.jpg)
+[![](/images/2018/09/ul-3.jpg)](/images/2018/09/ul-3.jpg)
 
 I teraz nasz klient biznesowy może być zdziwiony i nie rozumieć, o czym mówimy i co mamy na myśli. Taka różnica będzie go wybijała z kontekstu, dziwiła, utrudniała przekazanie nam informacji i zrozumienie naszego przekazu.  Użycie naszego slangu programistycznego w gronie osób, którym nie jest on bliski, powoduje nieporozumienia.
 

@@ -39,7 +39,7 @@ Nieco szerzej opisałem ten temat w poście o [zaletach Event Stormingu](http://
 
 Pierwszym narzędziem, które chcę polecić jest [Impact Mapping](https://www.impactmapping.org/) opisany przez Gojko Adzica. Jest to technika pozwalająca wybrać problem, który chcemy rozwiązywać. To jest taki swoisty krok przed.
 
-Ma to szalenie ważne konsekwencje w kontekście pracy grupowej. Zwykle staramy się złapać zbyt wiele srok za ogon. Tracimy przez to strasznie dużo czasu na zmianę kontekstów, rośnie nam [work-in-progress](https://radekmaziarka.pl/2019/08/14/praca-zwinna-jak-osiagnac-wiecej-robiac-mniej/), wolniej walidujemy nasze rozwiązania. W rezultacie wydłużamy czas dowiezienia czegoś wartościowego.
+Ma to szalenie ważne konsekwencje w kontekście pracy grupowej. Zwykle staramy się złapać zbyt wiele srok za ogon. Tracimy przez to strasznie dużo czasu na zmianę kontekstów, rośnie nam [work-in-progress](/2019/08/14/praca-zwinna-jak-osiagnac-wiecej-robiac-mniej/), wolniej walidujemy nasze rozwiązania. W rezultacie wydłużamy czas dowiezienia czegoś wartościowego.
 
 ![](https://www.impactmapping.org/assets/im_template.png)
 
@@ -97,13 +97,13 @@ Jeśli nie potrafimy stworzyć abstraktu na 1 stronę A4 to znaczy, że nasza ko
 3 - Event Storming
 ==================
 
-Kiedy mamy już zdefiniowany cel, to kolejnym świetnym warsztatem jest [Event Storming](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/) opisany przez Alberto Brandoliniego. Jest to technika pozwalająca zwizualizować jak będzie wyglądać nasze ostateczne rozwiązanie, biorąc pod uwagę różne scenariusze i sytuacje brzegowe.
+Kiedy mamy już zdefiniowany cel, to kolejnym świetnym warsztatem jest [Event Storming](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/) opisany przez Alberto Brandoliniego. Jest to technika pozwalająca zwizualizować jak będzie wyglądać nasze ostateczne rozwiązanie, biorąc pod uwagę różne scenariusze i sytuacje brzegowe.
 
 Niestety tego zwykle brakuje w przypadku planowania naszego rozwiązania, zarówno technicznego jak i biznesowego. Ludzie naturalnie myślą idąc przez „happy-path”, nie biorąc pod uwagę specyficznych przypadków. Zwykle samo rozwiązanie jest tak duże, że przekracza ich możliwości percepcji. W takiej sytuacji trudno jest znaleźć wszystkie możliwe dziury.
 
 A to się bardzo mści. Jeśli bowiem nie znajdziemy tych problemów na etapie planowania to znajdziemy je dopiero podczas implementacji. Zwykle wtedy jest za późno by najlepszą odpowiedź i robi się wszystko byle jak – byle szybko. Im dłużej w taki sposób działamy tym gorsze jest nasze rozwiązanie.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png)](https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png)
+[![](/images/2020/02/event-storming-part.png)](/images/2020/02/event-storming-part.png)
 
 Kadr książki Introducing Event Storming - [https://leanpub.com/introducing\_eventstorming](https://leanpub.com/introducing_eventstorming)
 

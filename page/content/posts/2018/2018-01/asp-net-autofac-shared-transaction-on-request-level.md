@@ -61,7 +61,7 @@ The filter is registered with an **InstancePerRequest **option, which forces 
 
 In most cases you want to register the filter for all controllers, that's why its registered against **ApiController**.But you can implement more sophisticated logic there, even with some reflection included.
 
-PS. [Here](http://radblog.pl/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/) you find how to achieve database transaction on a **command** **level**.
+PS. [Here](/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/) you find how to achieve database transaction on a **command** **level**.
 
 ---
 ### Comments:

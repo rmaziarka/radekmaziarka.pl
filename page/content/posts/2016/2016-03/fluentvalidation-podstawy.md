@@ -72,7 +72,7 @@ class Program
 }
 ```
 
-![ConsoleFluentValidation2](http://radblog.pl/wp-content/uploads/2016/03/ConsoleFluentValidation2.png)
+![ConsoleFluentValidation2](/images/2016/03/ConsoleFluentValidation2.png)
 
 I jak widzimy - walidacja się powiodła. Dodając drugiego użytkownika, który nie przechodzi walidacji, i rozwijając trochę wizualizację wyniku można dość do takiego wyniku:
 
@@ -92,7 +92,7 @@ foreach (var user in usersToValidate)
 }
 ```
 
-![ConsoleFluentValidation](http://radblog.pl/wp-content/uploads/2016/03/ConsoleFluentValidation-2.png)
+![ConsoleFluentValidation](/images/2016/03/ConsoleFluentValidation-2.png)
 
 Komunikaty walidacyjne są dostarczane razem z tłumaczeniami, przez co nie musimy się przemęczać przy ich samodzielnym wymyślaniu. Oczywiście każdy komunikat można zmienić, co pokażę w następnym poście.
 

@@ -109,7 +109,7 @@ Został tylko formularz dodawania użytkowników w _HTML_. Pod każdym polem fo
 
 Po uruchomieniu naszej aplikacji i wpisaniu błędnych danych pojawia się taki o to widok:
 
-![FluentValidationMVC](http://radblog.pl/wp-content/uploads/2016/03/FluentValidationMVC.png)
+![FluentValidationMVC](/images/2016/03/FluentValidationMVC.png)
 
 Czyli nasza walidacja działa i nieprawidłowe dane zostały zwrócone do użytkownika w celu ich poprawienia.
 
@@ -159,7 +159,7 @@ public class AddressViewModelValidator : AbstractValidator<AddressViewModel>
 ```
 
 I rezultat:
-![FluentValidationMVC2](http://radblog.pl/wp-content/uploads/2016/03/FluentValidationMVC2.png)
+![FluentValidationMVC2](/images/2016/03/FluentValidationMVC2.png)
 
 ### Podsumowanie
 

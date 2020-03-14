@@ -16,7 +16,7 @@ W tym poście będę zbierał materiały opublikowane w cyklu "Dlaczego Bounded 
  *   [Przykład braku kontekstów - Partie produktów a działy firmy](/2018/08/28/dlaczego-bounded-contexty-sa-wazne-przyklad-1/)
  *   [Przykład braku kontekstów - Produkty pojedyńcze i produkty grupowe](/2018/09/17/dlaczego-bounded-contexty-sa-wazne-przyklad-2/)
  *   [Przykład braku kontekstów - Parametry produktów](/2018/11/26/dlaczego-bounded-contexty-sa-wazne-przyklad-3/)
- *   [Przykład braku kontekstów - Narzędzia Business Inteligence](https://radekmaziarka.pl/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/)
+ *   [Przykład braku kontekstów - Narzędzia Business Inteligence](/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/)
  *   [Architektura zdarzeniowa](/2019/03/26/dlaczego-bounded-contexty-sa-wazne-architektura-zdarzeniowa/)
  *   [Ostateczna spójność](/2019/09/26/dlaczego-bounded-contexty-sa-wazne-ostateczna-spojnosc/)
  *   Jak wyznaczać konteksty?

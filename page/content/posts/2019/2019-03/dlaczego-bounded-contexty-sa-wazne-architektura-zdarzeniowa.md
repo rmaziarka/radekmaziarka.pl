@@ -47,7 +47,7 @@ Rozwiązanie
 
 Rozwiązaniem jest jasny podział na te zdarzenia, które są dostępne tylko wewnątrz naszego modułu i te, którymi dzielimy się na zewnątrz. Czyli na tzw. **zdarzenia domenowe i integracyjne**. Pisał o nich Jimmy jako rozwinięcie swojego tweeta, a ciekawą implementację można znaleźć na stronach Microsoftu (zdarzenia [domenowe](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation) / [integracyjne](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/integration-event-based-microservice-communications)).
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/03/image20.png)](https://radekmaziarka.pl/wp-content/uploads/2019/03/image20.png)
+[![](/images/2019/03/image20.png)](/images/2019/03/image20.png)
 
 Taki sposób działania pozwala ukryć nasze wewnętrzne zmiany przed światem zewnętrzym. Możemy modyfikować nasz sposób działania - dodawać nowe zdarzenia, zmieniać istniejące, usuwać niepotrzebne – o ile nasz kontrakt jest utrzymywany.
 

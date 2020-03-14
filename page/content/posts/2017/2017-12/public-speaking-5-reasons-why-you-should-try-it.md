@@ -43,7 +43,7 @@ Knowledge sharing
 
 Typically, you run public speakings to share your knowledge with other people. You want to distribute new ideas, thoughts, new look on some topic. Or maybe just teach your folks about technology that they need to know, being on your current project. But in every this situation, **you increase their level of wisdom** and they start to be more competent in the area you describe. They start doing their work in a more effective way. They find some interesting way of using your ideas. Sometimes nothing happens for a quite long time and then - boom - a moment of clarity changes people minds.
 
-[![](http://radblog.pl/wp-content/uploads/2017/12/knowledge-sharing.jpg)](http://radblog.pl/wp-content/uploads/2017/12/knowledge-sharing.jpg)
+[![](/images/2017/12/knowledge-sharing.jpg)](/images/2017/12/knowledge-sharing.jpg)
 
 Giving them broader insight has one more additional advantage. **People have to understand an idea to support and justify it** - without this knowledge, you won't find allies to advocate your choices.  You won't introduce a better framework or library into the project. Pattern, that you know that will help in your current situation, won't be established because people will reject it due to low understanding of its value. To recommend implementing new technologies in your company you need to have competent people around you.
 
@@ -54,7 +54,7 @@ Deeper learning
 
 To be able to teach other people / present something you have to get a deeper knowledge about your topic. It's easy to recall some info, google it and then use it, but it's much harder to spread this knowledge between other people. Just look at the [Bloom’s Taxonomy of learning](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/).
 
-![](http://radblog.pl/wp-content/uploads/2017/11/Blooms-Taxonomy.jpg)
+![](/images/2017/11/Blooms-Taxonomy.jpg)
 
 To be able to teach other people you will need to go **higher in learning ladder** -  evaluating or defending some technology, comparing it to other fields, demonstrating it to end users. But during preparing for the presentation you will get this knowledge seamlessly:
 

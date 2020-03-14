@@ -228,6 +228,7 @@ function handlePostsXML(err, result) {
                 markdown = replaceCodeMarkups(markdown);
                 markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
+                markdown = removeDomainHostNames(markdown);
 
 
                 fileHeader = ''
@@ -325,6 +326,23 @@ function replacePunctation(markdown){
     return markdown;
 }
 
+function removeDomainHostNames(markdown){
+    // images
+    markdown = replaceAll(markdown, 'https://radekmaziarka.pl/wp-content/uploads/', '/images/')
+    markdown = replaceAll(markdown, 'http://radblog.pl/wp-content/uploads/', '/images/')
+    markdown = replaceAll(markdown, 'https://radblog.pl/wp-content/uploads/', '/images/')
+
+    // address with language
+    markdown = replaceAll(markdown, 'http://radblog.pl/en', '');
+    markdown = replaceAll(markdown, 'http://radblog.pl/pl', '');
+
+    // addresses without language
+    markdown = replaceAll(markdown, 'https://radekmaziarka.pl', '');
+    markdown = replaceAll(markdown, 'http://radblog.pl', '');
+    markdown = replaceAll(markdown, 'https://radblog.pl', '');
+    return markdown;
+}
+
 function fixImagesURL(str){
     if(!str) return '';
     str = str.replace(/-[0-9]+x[0-9]*/g,'');
@@ -407,6 +425,7 @@ function handlePagesXML(err, result) {
                 markdown = tds.turndown(content);
                 markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
+                markdown = removeDomainHostNames(markdown);
 
                 fileHeader = ''
                 fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;

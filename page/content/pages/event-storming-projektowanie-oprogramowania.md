@@ -21,7 +21,7 @@ Siedziba klienta
 Opis WARSZTATU
 ==============
 
-Nazywany również tzw. [Event Storming](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/) Design Level. Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](https://radekmaziarka.pl/kontakt).**
+Nazywany również tzw. [Event Storming](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/) Design Level. Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
 Przed tym warsztatem wymagane jest zrealizowanie jego poprzedniej części - [Big Picture](/szkolenia/event-storming-big-picture/).
 

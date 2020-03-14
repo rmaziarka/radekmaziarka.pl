@@ -101,8 +101,8 @@ public class AutofacValidatorFactory : ValidatorFactoryBase
 ```
 
 I to wszystko - wstrzykiwanie zależności do walidatorów powinno działać. Nie potrzeba dodatkowej konfiguracji w samym _MVC_ / _WebAPI_ \- _FluentValidation_ przez konfigurację fabryki wszystkim się zajmuje. By być całkowicie pewnym dokonajmy prostych testów tej funkcjonalności dokonując zapytań z poziomu przeglądarki i Postmana.
-![chrome_2016-04-18_23-26-54](http://radblog.pl/wp-content/uploads/2016/04/chrome_2016-04-18_23-26-54.png)
-![chrome_2016-04-18_23-27-12](http://radblog.pl/wp-content/uploads/2016/04/chrome_2016-04-18_23-27-12.png)
+![chrome_2016-04-18_23-26-54](/images/2016/04/chrome_2016-04-18_23-26-54.png)
+![chrome_2016-04-18_23-27-12](/images/2016/04/chrome_2016-04-18_23-27-12.png)
 
 Widzimy, że zarówno dla _ASP.NET MVC jak_ i _ASP.NET WebAPI_ walidacja zadziałała i dostajemy komunikat o wymaganym unikalnym mailu.
 

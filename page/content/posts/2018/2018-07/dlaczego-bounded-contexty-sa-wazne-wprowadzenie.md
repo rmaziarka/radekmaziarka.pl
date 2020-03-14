@@ -20,7 +20,7 @@ Próba implementacji różnych funkcjonalności w jednym modelu kończy się mie
 
 ### Bounded Context
 
-[![](https://radblog.pl/wp-content/uploads/2018/07/bounded-context-orders-delivery.jpg)](https://radblog.pl/wp-content/uploads/2018/07/bounded-context-orders-delivery.jpg)
+[![](/images/2018/07/bounded-context-orders-delivery.jpg)](/images/2018/07/bounded-context-orders-delivery.jpg)
 
 Konteksty mają za zadanie podzielić skomplikowaną dziedzinę biznesową na kilka mniejszych, dostosowanych do problemu jaki aktualnie rozwiązujemy. **Dany kontekst zawiera w sobie własny model** odwzorowujący konkretne potrzeby, warunki i procesy biznesowe. Pozostałe konkteksty nie powinny mieć wpływu na działania zachodzące wewnątrz innego kontekstu – mogą jedynie zobaczyć rezultaty tych działań. Zmienianie danych wewnątrz kontekstu nie powinno być możliwe bez nadzoru samego kontektu – może to zburzyć wypracowane zasady i sprawić że dane nie będą poprawne. Takie działania pozwalają zachować spójność, którymi rządzi się dany kontekst.
 

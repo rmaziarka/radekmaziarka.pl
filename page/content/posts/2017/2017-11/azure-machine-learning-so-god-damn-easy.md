@@ -29,7 +29,7 @@ Azure Machine Learning portal
 
 Isn't it remind you something? ;)
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_01-07-05.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_01-07-05.png)
+[![](/images/2017/11/chrome_2017-11-12_01-07-05.png)](/images/2017/11/chrome_2017-11-12_01-07-05.png)
 
 Preparing Data
 --------------
@@ -44,14 +44,14 @@ If you need to convert data from PDF file I can recommend you [PDFtoExcel](https
 
 Then you need to add this CSV file to **DATASETS** section. As you can see, I focused on phosphorus and its absorption.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_14-55-50.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_14-55-50.png)
+[![](/images/2017/11/chrome_2017-11-12_14-55-50.png)](/images/2017/11/chrome_2017-11-12_14-55-50.png)
 
 Creating experiment
 -------------------
 
 Then, with delivered data, you can start your experiment. You need to go to **EXPERIMENTS** tab, create a blank experiment and name your experiment. Then you can drag-and-drop your data from **Saved Datasets**. Everything there works as drag-and-drop, and connecting blocks - pretty awesome.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_16-07-51.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_16-07-51.png)
+[![](/images/2017/11/chrome_2017-11-12_16-07-51.png)](/images/2017/11/chrome_2017-11-12_16-07-51.png)
 
 Choosing relevant parameters
 ----------------------------
@@ -62,18 +62,18 @@ Usually part of the data **won't be relevant** to your desired value - it is sto
 
 So you need to find **Filter Based Feature Selection** block from Feature Selection menu.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_16-08-39.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_16-08-39.png)
+[![](/images/2017/11/chrome_2017-11-12_16-08-39.png)](/images/2017/11/chrome_2017-11-12_16-08-39.png)
 
 Then, after running your experiment, you will get a list of parameters with a correlation:
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-01-59.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-01-59.png)
+[![](/images/2017/11/chrome_2017-11-12_15-01-59.png)](/images/2017/11/chrome_2017-11-12_15-01-59.png)
 
 Choosing algorithms
 -------------------
 
 The second important thing to consider in your experiment is which particular algorithm you need to use to find a solution. Fortunately, Azure Machine Learning contains an [algorithm cheat sheet](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet) which leads you by the hand to find the best fitting algorithm to your problem.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png)](http://radblog.pl/wp-content/uploads/2017/11/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png)
+[![](/images/2017/11/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png)](/images/2017/11/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png)
 
 In my circumstances, I had to predict an absorption by the variety of parameters so I decided to use 2 algorithms: [linear regression](https://msdn.microsoft.com/en-us/library/azure/dn905978.aspx),and [decision forest regression](https://msdn.microsoft.com/en-us/library/azure/dn905862.aspx).
 
@@ -93,7 +93,7 @@ To train your model you need:
 
 After running the experiment you will get a trained model with result parameters / decision trees.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-16-25.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-16-25.png)
+[![](/images/2017/11/chrome_2017-11-12_15-16-25.png)](/images/2017/11/chrome_2017-11-12_15-16-25.png)
 
 Evaluating models
 -----------------
@@ -104,11 +104,11 @@ At the beginning, you need to check if trained model works well with the rest a
 
 Then concat outputs of Score Models into **Evaluate Model **(Machine Learning -> Evaluate) to check the results.
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-46-45.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-46-45.png)
+[![](/images/2017/11/chrome_2017-11-12_15-46-45.png)](/images/2017/11/chrome_2017-11-12_15-46-45.png)
 
 Opening model evaluation will result with such view:
 
-[![](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-56-43.png)](http://radblog.pl/wp-content/uploads/2017/11/chrome_2017-11-12_15-56-43.png)
+[![](/images/2017/11/chrome_2017-11-12_15-56-43.png)](/images/2017/11/chrome_2017-11-12_15-56-43.png)
 
 [Coeffient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) under 0.5 is recognized as the **unsatisfactory match **so unfortunately, with our data, we won't be able to create the model to calculate phosphorus absorption. But there are other chemical elements in the document so we will try to investigate them as well.
 

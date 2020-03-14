@@ -28,7 +28,7 @@ Koszt błędów
 
 Ten teoretycznie prosty mechanizm, jakim jest projekcja, ma miażdżąco duże znaczenie finansowe w przypadku tworzeniu systemów informacyjnych. [IBM](ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf) opierając się o dane [National Institute of Standards & Technology](https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf) przeanalizowało jakie koszty generują błędy w każdej fazie projektu. Wyniki badania przedstawia wykres poniżej:
 
-[![](http://radblog.pl/wp-content/uploads/2017/12/POWERPNT_2017-12-14_00-19-20.png)](http://radblog.pl/wp-content/uploads/2017/12/POWERPNT_2017-12-14_00-19-20.png)
+[![](/images/2017/12/POWERPNT_2017-12-14_00-19-20.png)](/images/2017/12/POWERPNT_2017-12-14_00-19-20.png)
 
 Widać, że koszty naprawy błędów rosną wraz z kolejnymi fazami projektu. Im wcześniej zauważymy błąd wymagań lub nieścisłość, tym większą mamy efektywność finansową naszej produkcji software’u. **Każde 1000 złotych wydane** już na początku na dogłębną analizę potrzeb naszych klientów pozwala **zaoszczędzić nawet 30 tysięcy złotych** w fazie produkcji, dzięki uniknięciu różnego rodzaju re-worków, drastycznych zmian, niepotrzebnych funcjonalności. **30x mniej kosztów **\- ogromny mnożnik.
 

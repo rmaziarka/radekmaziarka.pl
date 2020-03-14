@@ -14,11 +14,11 @@ W książce ["Wywieranie wpływu na ludzi. Teoria i praktyka"](http://lubimyczyt
 
 Podczas after-party WROC# zorganizowaliśmy **Pub Quiz** - zabawę w formie pytań z różnych dziedzin - od pytań dotyczących Wrocławia, przez gry i filmy programistyczne po uwielbiany przez wszystkich JavaScript. Osoby chętne podzieliły się na 6-osobowe zespoły i odpowiadały na zadawane pytania. Gra miała być pewnym testem formuły, która podpatrzyliśmy na NDC London.
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/pubquiz-1.jpg)](https://radblog.pl/wp-content/uploads/2018/03/pubquiz-1.jpg)
+[![](/images/2018/03/pubquiz-1.jpg)](/images/2018/03/pubquiz-1.jpg)
 
 Jedną z zasad naszej gry było zdobywanie punktu za każda poprawną odpowiedź. Odpowiedzi były jednoznaczne (dostawałeś punkt lub nie), więc ocenianie było szybkie i w miarę bezproblemowe. Był tylko jeden szczegół - nie powiedzieliśmy, po co się te punkty zbiera.
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/whoseline.jpg)](https://radblog.pl/wp-content/uploads/2018/03/whoseline.jpg)
+[![](/images/2018/03/whoseline.jpg)](/images/2018/03/whoseline.jpg)
 
 W show [Whose Line Is It Anyway](https://en.wikipedia.org/wiki/Whose_Line_Is_It_Anyway%3F_(U.S._TV_series)), prowadzący rozdawał punkty, które nie miały żadnego znaczenia - były jedynie zabawnym przerywnikiem. My również nie poinformowaliśmy, po co liczyliśmy punkty. Uczestnicy odpowiadali na pytania, podliczaliśmy poprawne odpowiedzi pod koniec rundy i kontynuowaliśmy grę. W teorii nie powinno być zawziętej rywalizacji, ponieważ nie było ku temu żadnego racjonalnego powodu.
 

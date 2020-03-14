@@ -26,7 +26,7 @@ Materials:
 
  *   [Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps](https://www.goodreads.com/book/show/39080433-accelerate)
  *   [Simon Brown - Modular Monolith](https://www.youtube.com/watch?v=5OjqD-ow8GE)
- *   [Cohesion & Coupling](https://radekmaziarka.pl/wp-content/uploads/2019/05/CohesionCoupling.pdf)
+ *   [Cohesion & Coupling](/images/2019/05/CohesionCoupling.pdf)
  *   [Martin Fowler - Presentation Domain Data Layering ](https://martinfowler.com/bliki/PresentationDomainDataLayering.html)
  *   [Jimmy Bogard - Vertical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture/)
  *   [David Parnas  - On the Criteria To Be Used in Decomposing Systems into Modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)

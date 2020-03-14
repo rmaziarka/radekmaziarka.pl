@@ -57,7 +57,7 @@ But these are only raw points - **book gets a lot when it's taken as a whole**.Â
 
 To sum it up - you definitely should read this book. Soon (about summer 2018) Sam plans to release 2nd edition of the book. He will write about microservicesÂ in a frontend, serverless architecture and new solutions to migrate from monolith to microservices. Worth checking even more.
 
-So [slash the monolith!](http://radblog.pl/wp-content/uploads/2018/02/slash-the-monolith.jpg)
+So [slash the monolith!](/images/2018/02/slash-the-monolith.jpg)
 
 ---
 ### Comments:

@@ -50,7 +50,7 @@ Then you need to register your filter during the creation of Autofac **Containe
 ```
 MediatR checks if there are any registered pipeline behaviors and applies them to all incoming commands.
 
-PS. [Here](http://radblog.pl/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/) you find how to achieve database transaction on a **request level**.
+PS. [Here](/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/) you find how to achieve database transaction on a **request level**.
 
 ---
 ### Comments:

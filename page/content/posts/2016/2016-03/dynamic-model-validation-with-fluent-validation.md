@@ -317,7 +317,7 @@ foreach (var product in products)
 }
 ```
 
-![dynamicValidationResult](http://radblog.pl/wp-content/uploads/2016/03/dynamicValidationResult.jpg)
+![dynamicValidationResult](/images/2016/03/dynamicValidationResult.jpg)
 
 ### Summary
 

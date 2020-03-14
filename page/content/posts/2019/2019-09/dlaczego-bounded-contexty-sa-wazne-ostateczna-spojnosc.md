@@ -42,7 +42,7 @@ Biorąc powyższe pod uwagę, natychmiastowo rzuca się w oczy pierwszy problem.
 
 Standardowym rozwiązaniem w tej sytuacji jest wykorzystywanie powtórzenia żądań. Jednak to nie rozwiązuje do końca naszych problemów. Każde takie zapytanie to czas i zasoby, które są potrzebne do przetworzenia żądania. W drastycznych sytuacjach możemy dojść do momentu, kiedy całe żądanie zostanie anulowane.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc1.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc1.jpg)Dodatkowa zależność jest mniej oczywista. Zespoły pracujące nad pozostałymi serwisami muszą synchronizować swoją pracę z zespołem serwisu zamówień. Jeśli chcemy np. dokonać aktualizacji serwisu rabatów i unieruchomić serwis na godzinę to bezpośrednio wpłynie to na składanie zamówień. Żadne z nich nie będzie mogło mieć miejsca przez zadane okienko czasowe.
+[![](/images/2019/09/bc1.jpg)](/images/2019/09/bc1.jpg)Dodatkowa zależność jest mniej oczywista. Zespoły pracujące nad pozostałymi serwisami muszą synchronizować swoją pracę z zespołem serwisu zamówień. Jeśli chcemy np. dokonać aktualizacji serwisu rabatów i unieruchomić serwis na godzinę to bezpośrednio wpłynie to na składanie zamówień. Żadne z nich nie będzie mogło mieć miejsca przez zadane okienko czasowe.
 
 To też łączy się z wprowadzaniem jakichkolwiek zmian kontraktu. Nie jesteśmy w stanie dokonać ich w serwisie zależnym, dopóki serwis główny wymaga bezpośrednio tego kontraktu. Wszystkie zmiany muszą być nakładane w tym samym momencie po obu stronach.
 
@@ -55,7 +55,7 @@ Brak systemów informatycznych
 
 Żeby sobie uzmysłowić rozwiązanie tego problemu dobrze jest posłużyć się przykładem z czasów, kiedy jeszcze nie było Internetu, a szczególnie systemów rozproszonych. #KiedyśToByło
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc2.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc2.jpg)
+[![](/images/2019/09/bc2.jpg)](/images/2019/09/bc2.jpg)
 
 Składając zamówienie w sklepie nie było fizycznej możliwości, by za każdym razem sprawdzać poziomy cen czy ilość produktów w hurtowniach. Sklepy posiadały określone informacje w ramach, których działały. Wszystkie operacje zachodziły na miejscu, a tylko przypadki brzegowe były konsultowane dalej. **Sklepy był autonomicznym bytem**, który mógł działać bez natychmiastowej informacji z zewnątrz.
 
@@ -83,7 +83,7 @@ Tłumacząc to na nasz system e-commerce – serwis zamówień jako pojedynczy k
 
 Jednak nie mamy 100% pewności np. że ceny są dokładnie takie jak w kontekście cenników. Najczęściej tak będzie, ale przez możliwe kilkusekundowe opóźnienie w transporcie danych może zdarzyć się rozbieżność. Jednak po tym czasie zmiany zostaną naniesione na kontekst zamówień i system ostatecznie będzie spójny.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc3.png)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc3.png)
+[![](/images/2019/09/bc3.png)](/images/2019/09/bc3.png)
 
 W podobny sposób zarządza się ilością towarów. Systemy e-commerce stawiają na rozdział pomiędzy stanem sprzedażowym a stanem magazynowym. W kontekście zamówień mamy możliwość sprzedawania towaru, którego realnie nie posiadamy. Na podstawie zamówień kontekst stanu produktów informowałby, że danego towaru jest aktualnie za mało i należy go dokupić / wyprodukować.
 
@@ -100,7 +100,7 @@ Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są siln
 
 O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to [Kacper Gunia](https://twitter.com/cakper) na konferencji Explore DDD:
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png)
+[![](/images/2019/09/bc4.png)](/images/2019/09/bc4.png)
 
 Bardzo często będziemy zaskoczeni jak coś, co dla nas mogło być nie do zaakceptowania, będzie bez przymrużenia okiem zaakceptowane przez ekspertów domenowych. Dla nich np. synchronizacja informacji w ciągu 2 sekund jest tak absurdalnie niska, że w zasadzie pomijalna. A jeśli jakiś towar sprzedaje się tak szybko, że nie dajemy radę sprawdzać jego stanów magazynowych to jest to raczej wskazanie, by ich nie sprawdzać w ogóle 😉
 
@@ -111,7 +111,7 @@ Jeśli po przeczytaniu tego artykułu dalej masz w głowie takie przemyślenie: 
 
 Systemy rozproszone mogą być postrzegane jako podzbiór [systemów złożonych](https://pl.wikipedia.org/wiki/System_z%C5%82o%C5%BCony). Czyli są (bądź powinny być) zmieniające się w czasie, adaptowalne, odporne na problemy / uszkodzenia. Aby jednak systemy posiadały takie przymiotniki potrzebne są też pewne komponenty, które pozwolą mu działać w opisany sposób.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc5.png)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc5.png)
+[![](/images/2019/09/bc5.png)](/images/2019/09/bc5.png)
 
 W książce [Thinking in Systems](https://www.goodreads.com/book/show/3828902-thinking-in-systems) Donatella Meadows świetnie opisała koncept zapasów (stock) – buforów, które przetrzymują materiały do wykorzystania dalej. Poszczególny komponent systemu jest w stanie generować rezultat (outflow) bez napływu dodatkowych materiałów (inflow). Nie jest to działanie długotrwałe, ale krótkofalowo potrafi uchronić daną część od możliwych problemów.
 

@@ -33,6 +33,6 @@ Na podstawie moich doświadczeń w dotychczasowych projektach chciałbym zapreze
  *   Wojciech Seliga - „Plantacje programistów - kolonializm XXI wieku” [https://www.youtube.com/watch?v=dyGaJ82o41k](https://www.youtube.com/watch?v=dyGaJ82o41k)
  *   Jimmy Bogard – „The Gemba Walk for designing software” -  [https://jimmybogard.com/the-gemba-walk-for-designing-software/](https://jimmybogard.com/the-gemba-walk-for-designing-software/)
  *   Greg Young – „Stop overengineering” [https://www.youtube.com/watch?v=GRr4xeMn1uU](https://www.youtube.com/watch?v=GRr4xeMn1uU)
- *   Radek Maziarka „Nic nie wiem – czyli dlaczego warto pytać” - [http://radblog.pl/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/](http://radblog.pl/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/)
+ *   Radek Maziarka „Nic nie wiem – czyli dlaczego warto pytać” - [/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/](/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/)
  *   Jez Humble – „Why Scaling Agile Doesn't Work” - [https://www.youtube.com/watch?v=2zYxWEZ0gYg](https://www.youtube.com/watch?v=2zYxWEZ0gYg)
  *   Dave Snowden – „ Complex Adaptive Systems ” \- [https://www.youtube.com/watch?v=l4-vpegxYPg](https://www.youtube.com/watch?v=l4-vpegxYPg)

@@ -8,7 +8,7 @@ category: 'Fluent Validation'
 tags: ['']
 ---
 
-Ten post został pierwotnie napisany w [języku angielskim](http://radblog.pl/en/2016/03/30/dynamic-model-validation-with-fluent-validation/), ale żeby kontynuować cykl o Fluent Validation, postanowiłem go przetłumaczyć na język polski.
+Ten post został pierwotnie napisany w [języku angielskim](/2016/03/30/dynamic-model-validation-with-fluent-validation/), ale żeby kontynuować cykl o Fluent Validation, postanowiłem go przetłumaczyć na język polski.
 
 Czasami, wraz z rozwojem systemu, pojawia się potrzeba zaimplementowania dynamicznego modelu. Na przykład, w sklepie internetowym administrator chciałby zdefiniować dodatkowe pola dla konkretnych kategorii produktów. Następnie pracownicy sklepu, na podstawie tych pól, dodawaliby do produktów potrzebne informacje. Naturalnie, taki dynamizm w definiowaniu modelu nie powinien pozwolić pracownikowi dodać nieprawidłowego pola - wszystko powinno być odpowiednio zwalidowane. Taka walidacja wydaje się skomplikowana, ale w oparciu o FluentValidation nie jest trudna do zaimplementowania i utrzymywania.
 
@@ -319,7 +319,7 @@ foreach (var product in products)
 }
 ```
 
-![dynamicValidationResult](http://radblog.pl/wp-content/uploads/2016/03/dynamicValidationResult.jpg)
+![dynamicValidationResult](/images/2016/03/dynamicValidationResult.jpg)
 
 ### Podsumowanie
 

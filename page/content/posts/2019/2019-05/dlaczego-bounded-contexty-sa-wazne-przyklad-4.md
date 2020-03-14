@@ -26,7 +26,7 @@ Rozwiązanie techniczne
 
 Po zakupie narzędzia BI połączono się z tabelami wewnątrz bazy danych platformy (narzędzia te rzadko łączą się przez API) w celu pobierania i analizy danych. Biznes (analitycy, PMowie itd.) pracowali na tych samych strukturach danych co developerzy.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie1.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie1.jpg)
+[![](/images/2019/05/artykul-BC-zdjecie1.jpg)](/images/2019/05/artykul-BC-zdjecie1.jpg)
 
 Platforma była w tym czasie rozszerzana o nowe funkcjonalności, które modyfikowały jej sposób działania.
 
@@ -62,7 +62,7 @@ W zasadzie, w opisanej sytuacji są możliwe 2 rozwiązania, które zależą od 
 
 Jeśli chcemy mieć bliską współpracę pomiędzy zespołami a osobami biznesowymi to lepiej jest uformować wspólne zespoły – tzw. cross-funkcjonalne. W tym przypadku np. zespół zajmujący się kontekstem sklepu rozszerza się o dodatkowego analityka. Nowa formacja pracuje razem, by rozwijać dane rozwiązanie, w obszarze danego zespołu. Można powiedzieć, że dany analityk staje się w tym momencie analitykiem sklepu – koordynującym dany obszar.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie2.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie2.jpg)
+[![](/images/2019/05/artykul-BC-zdjecie2.jpg)](/images/2019/05/artykul-BC-zdjecie2.jpg)
 
 Taki analityk pracuje ściśle z zespołem współdzieląc odpowiedzialność za realizowane zadania. Plan na nowe funkcjonalności sklepu, zarówno w platformie i narzędziu BI, jest bezpośrednio ze sobą związany. Praca zespołu jest silnie skoncentrowana by rozwijać te 2 produkty razem.
 
@@ -74,7 +74,7 @@ Jeśli chcemy mieć separację pomiędzy osobami biznesowymi, a zespołem, to tr
 
 Można to osiągnąć np. tworząc osobne tabele, które będą zawierały dane skierowane jedynie dla narzędzia BI. Zespół będzie populował te dane w odpowiedniej częstotliwości, którą zdefiniuje w ramach kontraktu. Biznes będzie się łączyć jedynie do tych tabel, mając słowo od zespołu, że dane zawsze będą dostarczane na czas.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie3.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/05/artykul-BC-zdjecie3.jpg)
+[![](/images/2019/05/artykul-BC-zdjecie3.jpg)](/images/2019/05/artykul-BC-zdjecie3.jpg)
 
 To rozwiązanie wymaga więcej pracy od zespołu programistycznego (aktualizacja danych, dbanie o przypadki desynchronizacji etc.), ale tworzy jasne ramy współpracy, zapewniając autonomię i bezpieczeństwo zmian. Celowo pominąłem w poście opisy sposobów tworzenia i populowania takich tabel BI - to temat na kompletnie inną dyskusję 😉
 

@@ -8,7 +8,7 @@ category: 'Fluent Validation'
 tags: ['']
 ---
 
-W [poprzednim poście](http://radblog.pl/pl/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/) z cyklu _FluentValidation_ pokazałem jak dodać _FluentValidation_ do _ASP.NET MVC_.  W takim razie pora na pokaz integracji z _ASP.NET Web API._
+W [poprzednim poście](/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/) z cyklu _FluentValidation_ pokazałem jak dodać _FluentValidation_ do _ASP.NET MVC_.  W takim razie pora na pokaz integracji z _ASP.NET Web API._
 
 Zaczynamy od dodania do naszego projektu biblioteki łączącej _FluentValidation_ z _WebApi._
 
@@ -74,7 +74,7 @@ public class UserController : ApiController
 ```
 
 Uruchamiając Postmana i wysyłając proste żądanie dostajemy poprawną odpowiedź:
-![chrome_2016-04-12_22-04-22](http://radblog.pl/wp-content/uploads/2016/04/chrome_2016-04-12_22-04-22.png)
+![chrome_2016-04-12_22-04-22](/images/2016/04/chrome_2016-04-12_22-04-22.png)
 
 Czyli nasza walidacja działa - dostajemy błąd HTTP 400 i komunikat błędu.
 
@@ -118,7 +118,7 @@ config.Filters.Add(new ModelStateFilterAttribute());
 ```
 
 Dzięki temu, przy identycznym żądaniu z Postmana, dostajemy listę błędów modelu.
-![chrome_2016-04-12_22-27-31](http://radblog.pl/wp-content/uploads/2016/04/chrome_2016-04-12_22-27-31.png)
+![chrome_2016-04-12_22-27-31](/images/2016/04/chrome_2016-04-12_22-27-31.png)
 
 ### Podsumowanie
 

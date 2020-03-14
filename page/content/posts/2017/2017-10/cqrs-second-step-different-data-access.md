@@ -8,13 +8,13 @@ category: 'Design patterns'
 tags: ['']
 ---
 
-This post series is driven by my [lightning talk](http://radblog.pl/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.
+This post series is driven by my [lightning talk](/2017/09/17/cqrs-in-4-steps-lightning-talk/) about how to introduce [CQRS ](https://martinfowler.com/bliki/CQRS.html)to your project. I thought that would be good to explain this topic further for people who won't be attending my presentation.
 
 I will write about:
 
- 1.  [splitting code to commands and queries](http://radblog.pl/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
- 2.  [introducing different data access](http://radblog.pl/2017/10/31/cqrs-second-step-different-data-access)
- 3.  [creating simple read model](http://radblog.pl/en/2018/01/08/cqrs-third-step-simple-read-model/)
+ 1.  [splitting code to commands and queries](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
+ 2.  [introducing different data access](/2017/10/31/cqrs-second-step-different-data-access)
+ 3.  [creating simple read model](/2018/01/08/cqrs-third-step-simple-read-model/)
  4.  creating read model asynchronously with SignalR notification
 
 You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
@@ -75,7 +75,7 @@ You find your first bottleneck - gathering product's offer currently is taking t
         }
     }
 ```
-With such state of the database ([diagram](http://radblog.pl/wp-content/uploads/2017/10/ProductDatabase.jpg) / [code](https://gist.github.com/rmaziarka/480b3fecfb5871a91a0e9fd9b076fd7d)) such querying can take a while. Of course, you can split your query and do multiple requests to the database but it only hides the problem but doesn't solve it. You realize that you need only a small amount of this information from queried objects, but they are significant to fulfill clients' needs - we need to show product list with:
+With such state of the database ([diagram](/images/2017/10/ProductDatabase.jpg) / [code](https://gist.github.com/rmaziarka/480b3fecfb5871a91a0e9fd9b076fd7d)) such querying can take a while. Of course, you can split your query and do multiple requests to the database but it only hides the problem but doesn't solve it. You realize that you need only a small amount of this information from queried objects, but they are significant to fulfill clients' needs - we need to show product list with:
 
  *   Category name
  *   Main picture
@@ -93,7 +93,7 @@ It would be more difficult to introduce it with your previous, service pattern, 
 Different data access
 ---------------------
 
-[![](https://radblog.pl/wp-content/uploads/2017/10/different-data-access.jpg)](https://radblog.pl/wp-content/uploads/2017/10/different-data-access.jpg)
+[![](/images/2017/10/different-data-access.jpg)](/images/2017/10/different-data-access.jpg)
 
 Different data access is a realization of a simple thought:
 

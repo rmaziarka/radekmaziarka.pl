@@ -8,7 +8,7 @@ category: 'Serverless'
 tags: ['']
 ---
 
-_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](http://radblog.pl/en/category/serverless/)._
+_This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](/category/serverless/)._
 
 Why functions in Javascript?
 ----------------------------
@@ -124,7 +124,7 @@ To be completely sure that my solution is worth something I **runned** my functi
 
 You can check how it works (clik to open):
 
-[![](http://radblog.pl/wp-content/uploads/2017/07/rT0NWJa.gif)](http://radblog.pl/wp-content/uploads/2017/07/rT0NWJa.gif)
+[![](/images/2017/07/rT0NWJa.gif)](/images/2017/07/rT0NWJa.gif)
 
 Besides the initial problems - creating local functions is that simple ;)
 

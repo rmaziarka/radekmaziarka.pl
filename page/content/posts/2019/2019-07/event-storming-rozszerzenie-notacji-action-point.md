@@ -16,7 +16,7 @@ Alberto Brandolini, twórca techniki Event Stormingu. często podkreśla, że no
 
 Alberto często przywołuje w tym miejscu metaforę pizzy. Każda pizza składa się z ciasta, sera i sosu pomidorowego. Jedyną różnicą będa składniki, które można dowolnie dobierać.
 
-[caption id="attachment\_1766" align="alignnone" width="446"][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)[/caption]
+[caption id="attachment\_1766" align="alignnone" width="446"][![](/images/2019/07/gordon-ramsey-pizza.jpg)](/images/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)[/caption]
 
 Zatem, skoro sam twórca techniki zachęca nas do kreatywności i dostosowywania notacji do własnych potrzeb, to powinniśmy z tego korzystać bez obaw, że zostaniemy posądzeniu o herezje!
 
@@ -25,7 +25,7 @@ W tej serii artykułów chciałbym przedstawić kilka propozycji rozszerzenia no
  Action Point
 =============
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/07/action-point.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/action-point.jpg)
+[![](/images/2019/07/action-point.jpg)](/images/2019/07/action-point.jpg)
 
 Action Point to element ściśle związany z **Hot Spotami**. Zanim wytłumaczę jego rolę i znaczenie,przyjrzyjmy się bliżej definicji Hot Spot’u.
 
@@ -68,7 +68,7 @@ Notacja
 
 Do oznaczania action pointów wybrałem karteczkę standardowych rozmiarów koloru żółtego.
 
-[caption id="attachment\_1769" align="alignnone" width="195"][![](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point[/caption]
+[caption id="attachment\_1769" align="alignnone" width="195"][![](/images/2019/07/yellow-cards.jpg)](/images/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point[/caption]
 
 Ktoś może zapytać “Ło Panie, po co kolejna nowa karteczka w notacji !? Nie można tego zapisać w formie notatki?”
 

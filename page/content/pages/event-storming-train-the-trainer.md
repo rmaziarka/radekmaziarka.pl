@@ -29,7 +29,7 @@ Warsztat ten jest przeprowadzany dla np.:
  *   Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
  *   Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
 
-Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](https://radekmaziarka.pl/kontakt).**
+Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
 Wiedza uzyskana na WARSZTACIE:
 ==============================

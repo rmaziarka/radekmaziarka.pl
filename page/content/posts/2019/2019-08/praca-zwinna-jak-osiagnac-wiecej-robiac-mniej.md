@@ -8,7 +8,7 @@ category: 'Agile'
 tags: ['Agile', 'Scrum']
 ---
 
-Przeprowadzałem niedawno kolejne szkolenie z tematu [Wprowadzenie do Agile](https://radekmaziarka.pl/szkolenia/wprowadzenie-do-agile/). I wciąż zaskakuje mnie jak techniki zwinne są płytko rozumiane wewnątrz zespołów rozwijających oprogramowanie. Większość osób rozumie jaki cel mają konkretne spotkania Scrumowe. Jednak jest to tylko zrozumienie frameworka – nie mówi nic o podstawach za tym stojącym.
+Przeprowadzałem niedawno kolejne szkolenie z tematu [Wprowadzenie do Agile](/szkolenia/wprowadzenie-do-agile/). I wciąż zaskakuje mnie jak techniki zwinne są płytko rozumiane wewnątrz zespołów rozwijających oprogramowanie. Większość osób rozumie jaki cel mają konkretne spotkania Scrumowe. Jednak jest to tylko zrozumienie frameworka – nie mówi nic o podstawach za tym stojącym.
 
 Chciałbym więc w tym artykule przekazać kilka porad, w jaki sposób pracować bardziej zwinnie. Dzięki temu osiągamy więcej, pracując mniej niż wcześniej.
 
@@ -17,7 +17,7 @@ Minimalizacja Work-in-progress
 
 Pracując w swoim otoczeniu biznesowym mamy możliwość brania coraz to większej ilości zadań. Robię X, ale jednocześnie ktoś poprosił o Y to też nad tym pracuje, a Z leży już rozgrzebane od tygodnia. Wydaje nam się, że dzięki temu osiągamy więcej. Pracujemy efektywnie, bo jednocześnie dowozimy kilka różnych funkcjonalności. Duży błąd.
 
-[caption id="attachment\_1867" align="aligncenter" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com[/caption]
+[caption id="attachment\_1867" align="aligncenter" width="770"][![](/images/2019/08/Water-Tank-Littles-Law.png)](/images/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com[/caption]
 
 W 1961 roku John Little udowodnił prawo, nazwane później jego nazwiskiem – [prawo Little’a](https://pl.wikipedia.org/wiki/Prawo_Little%E2%80%99a). Mówi ono, że średni czas przebywania pojedynczego zadania w systemie bezpośrednio koreluje z ilością zadań. Im więcej mamy zadań, a nie zwiększamy mocy przerobowych (załóżmy, że nie robimy nadgodzin), tym dłużej zadania trwają. Redukując ilość trwających zadań zmniejszamy czas dostarczenia.
 
@@ -54,7 +54,7 @@ Praca w zespole dostarczającym to praca wspólna, mająca na celu dostarczanie 
 
 Np. często słyszy się o takim pojęciu jak „górka testerska”. Czyli mamy jednego testera w zespole, który nie wyrabia się z testowaniem funkcjonalności, których dostarczamy. Z drugiej strony developerzy wrzucają co raz to nowe zadania jeszcze tylko zwiększając ilość pracy testera. Nikogo nie interesuje, ile zadań jest rozpoczęte – ważne, by wyrabiać kolejne zadania. A to wcale nie posuwa nas do przodu, a nawet jeszcze bardziej opóźnia dostarczanie.
 
-[caption id="attachment\_1868" align="aligncenter" width="550"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/bottleneck.png) By Newcastle Systems at https://www.newcastlesys.com/blog/warehouse-bottlenecks-that-need-your-attention[/caption]
+[caption id="attachment\_1868" align="aligncenter" width="550"][![](/images/2019/08/bottleneck.png)](/images/2019/08/bottleneck.png) By Newcastle Systems at https://www.newcastlesys.com/blog/warehouse-bottlenecks-that-need-your-attention[/caption]
 
 Dlatego zamiast skupiać się na efektywności pojedynczej osoby warto spojrzeć szerzej i zastanowić się co jest naszym [wąskim gardłem](https://mfiles.pl/pl/index.php/W%C4%85skie_gard%C5%82o) w procesie. I ten problem starać się rozwiązywać. Możemy przecież spytać naszego testera, czy nie pomóc mu w testowaniu konkretnego obszaru, którego sami nie pisaliśmy. Albo przeanalizować z nim poszczególne zadania przed rozpoczęciem pracy, by uniknąć trywialnych błędów. Zdejmiemy z niego część obowiązków a dzięki temu przyśpieszymu cały proces.
 
@@ -76,7 +76,7 @@ I nie mam tutaj na celu typowych spotkań typu Retrospektywa. One są tylko jedn
 
 Samodoskonalenie można postrzegać jak wdrożenie w życie schematu nazwanego [Cyklem Deminga](https://pl.wikipedia.org/wiki/Cykl_Deminga).
 
-[caption id="attachment\_1869" align="aligncenter" width="400"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/deming-cycle.png) By Karn Bulsuk at https://pl.wikipedia.org/wiki/Cykl\_Deminga[/caption]
+[caption id="attachment\_1869" align="aligncenter" width="400"][![](/images/2019/08/deming-cycle.png)](/images/2019/08/deming-cycle.png) By Karn Bulsuk at https://pl.wikipedia.org/wiki/Cykl\_Deminga[/caption]
 
 Do tego nie potrzeba żadnych specjalnych spotkań, ceremonii, inicjatyw. Widzimy, że coś nie działa odpowiednio i staramy się to zaadresować. Metodą małych kroków poprawiamy rzeczywistość wokół nas. Z dnia na dzień nasza praca staje się o wiele przyjemniejsza, ale przede wszystkim bardziej efektywna.
 

@@ -32,7 +32,7 @@ Rozwiązanie techniczne
 
 Aplikacja posiada moduł administratora, gdzie posiadamy formularz umożliwiający nam wpisanie wymaganych przez nas parametrów produktu. Następnie te dane są wykorzystywane w pozostałej części aplikacji.
 
-[![](https://radblog.pl/wp-content/uploads/2018/11/1.png)](https://radblog.pl/wp-content/uploads/2018/11/1.png)
+[![](/images/2018/11/1.png)](/images/2018/11/1.png)
 
 Niskopoziomowo, obie części korzystają z tego samego zbioru danych – modelu Product. Parametry są bezpośrednio wykorzystywane we wszystkich wyszukiwarkach, raportach, dashboardach itd.
 
@@ -51,7 +51,7 @@ Dynamiczne parametry – rozwiązanie techniczne
 
 Stworzono system dynamicznych parametrów – na kształt [Entity-Attribute-Value](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model). Każdy parametr to osobny byt w bazie danych, który jest przypisany do danej kategorii. Następnie łączy się parametr i produkt, przez wartość parametru.
 
-[![](https://radblog.pl/wp-content/uploads/2018/11/2.jpg)](https://radblog.pl/wp-content/uploads/2018/11/2.jpg)
+[![](/images/2018/11/2.jpg)](/images/2018/11/2.jpg)
 
 Niestety wszystkie dotychczasowe miejsca korzystające z pre-definiowanych parametrów produktów musiały zostać przepisane. Postanowiono w każdym z miejsc analizować strukturę wartości parametrów i pobierać wartości. Każdy jeden moduł tworzący raporty zaczął w tym momencie rozwiązywać strukturę EAV.
 
@@ -67,7 +67,7 @@ System anglosaski – rozwiązanie techniczne
 
 Rozwiązaniem technicznym tego problemu było dodanie do struktury EAV definicji systemu miar. Następnie wartość parametru została wzbogacona o informację jakiego systemu dotyczy ten parametr.
 
-[![](https://radblog.pl/wp-content/uploads/2018/11/3.jpg)](https://radblog.pl/wp-content/uploads/2018/11/3.jpg)
+[![](/images/2018/11/3.jpg)](/images/2018/11/3.jpg)
 
 Niestety ta zmiana wpłynęła negatywnie na pre-definiowane parametry w starych częściach systemu. Do analizy struktury EAV została dodana kolejna funkcjonalność, pozwalająca pobierać zawsze jednostki metryczne.
 
@@ -87,7 +87,7 @@ Produkt dla administratorów to byt dynamiczny, który w zależności od potrzeb
 
 Dlatego, o ile model EAV świetnie się sprawdza w stosunku do części administratorskiej, to kompletnie nie odpowiada potrzebom pozostałych części systemu. Zdecydowanie lepszym rozwiązaniem byłoby zdefiniowanie płaskiego modelu produktu jako naszego kontraktu z API kontekstu administratora.
 
-[![](https://radblog.pl/wp-content/uploads/2018/11/4.jpg)](https://radblog.pl/wp-content/uploads/2018/11/4.jpg)
+[![](/images/2018/11/4.jpg)](/images/2018/11/4.jpg)
 
 Takie działanie pozwalałoby nam chronić wewnętrzną strukturę parametrów, umożliwiając wprowadzanie wymaganych zmian. Jednocześnie pozostałe części systemu dostawałyby bardziej zrozumiały model, który nie narzuca na nich zrozumienie jak działają parametry.
 

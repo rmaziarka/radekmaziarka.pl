@@ -25,13 +25,13 @@ Osobiście polecam karteczki dwóch firm, które oferują zdecydowanie tańsze z
 
 Pierwsza z nich to marka **OFFICE** (wersja neon). Koszt standardowego bloczka o wymiarach 76x76mm to 2PLN.
 
-[caption id="attachment\_1751" align="alignnone" width="300"][![](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-1.png)](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-1.png) Różowe karteczki, czyli Hot Spot.[/caption]
+[caption id="attachment\_1751" align="alignnone" width="300"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png) Różowe karteczki, czyli Hot Spot.[/caption]
 
 Ich jakość jest naprawdę bardzo dobra a cena bardzo niska.
 
 Druga to firma **STICK'N**.
 
-[caption id="attachment\_1752" align="alignnone" width="300"][![](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-2.png)](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-2.png) Zdarzenia domenowe są koloru pomarańczowego.[/caption]
+[caption id="attachment\_1752" align="alignnone" width="300"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png) Zdarzenia domenowe są koloru pomarańczowego.[/caption]
 
 Cena to około 3PLN. Jakość również bardzo dobra!
 
@@ -59,7 +59,7 @@ Może również wykorzystać szary papier wykorzystywany do pakowania przesyłek
 
 Ważne aby nie przyklejać karteczke bezpośrednio do ściany. Po pierwsze klej z karteczek może ją pobrudzić. Po drugie po zakończeniu sesji będziemy prawdopodobnie chcieli przenieść powstały model w inne miejsce niż to, gdzie robiliśmy warsztat.
 
-[caption id="attachment\_1753" align="alignnone" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg) Przykład wykorzystania szarej rolki papieru, dostepnej na każdej poczcie. (obrazek pochodzi z : https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d)[/caption]
+[caption id="attachment\_1753" align="alignnone" width="770"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg) Przykład wykorzystania szarej rolki papieru, dostepnej na każdej poczcie. (obrazek pochodzi z : https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d)[/caption]
 
 Event Storming starter kit
 ==========================
@@ -81,11 +81,11 @@ Poniżej skompletowałem zestaw, kupowany przy stanie braku absolutnie wszystkie
 
 Taśmy malarskiej (oprócz do wydzielania subdomen) użyjemy do przyklejenia papieru do ściany tak by stworzyć nasz warsztat pracy.
 
-[caption id="attachment\_1754" align="alignnone" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg) Przygotowywanie miejsca pracy przy użyciu taśmy malarskiej.[/caption]
+[caption id="attachment\_1754" align="alignnone" width="770"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg) Przygotowywanie miejsca pracy przy użyciu taśmy malarskiej.[/caption]
 
 Całość zamknie się w około 150 zł netto
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)
+[![](/images/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)
 
 Oczywiście to jest wyliczenie skrajnie pesymistyczne – musielibyście nie mieć absolutnie niczego: markerów, karteczek, papieru. W większości przypadków możecie użyć już istniejących u was karteczek, nawet jeśli lekko nagnie to powszechnie obowiązującą nomenklaturę kolorystyczną lub wielkościową. Markery pożyczycie od kolegów albo z recepcji. Taśma papieru może być już dostępna, bo macie akurat dużą drukarkę w firmie.
 

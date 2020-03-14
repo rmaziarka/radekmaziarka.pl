@@ -28,103 +28,103 @@ Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak tworzyć mikroserw
 Wiedza uzyskana na szkoleniu:
 =============================
 
- 	*   Wiedza na temat architektury mikroserwisów
- 	*   Zrozumienie zysków i kosztów wdrażania tej architektury
- 	*   Umiejętność poprawnego zamodelowania mikroserwisu
- 	*   Wiedza jak integrować / testować / wizualizować / monitorować mikroserwisy
- 	*   Kompetencja jak zarządzać transakcjami w świecie mikroserwisów
+ *   Wiedza na temat architektury mikroserwisów
+ *   Zrozumienie zysków i kosztów wdrażania tej architektury
+ *   Umiejętność poprawnego zamodelowania mikroserwisu
+ *   Wiedza jak integrować / testować / wizualizować / monitorować mikroserwisy
+ *   Kompetencja jak zarządzać transakcjami w świecie mikroserwisów
 
 Możliwy zakres szkolenia:
 =========================
 
- 	*   Podstawy mikroserwisów
+ *   Podstawy mikroserwisów
     
-     	*   Jakie są pryncypia architektury mikroserwisowej
-     	*   Kiedy stosować tą architekturę
-     	*   Kiedy nie stosować / wystarczy zwykły modularny monolit
+     *   Jakie są pryncypia architektury mikroserwisowej
+     *   Kiedy stosować tą architekturę
+     *   Kiedy nie stosować / wystarczy zwykły modularny monolit
     
- 	*   Modelowanie serwisów
+ *   Modelowanie serwisów
     
-     	*   Podstawy Domain Driven Design
-     	*   Bounded Context a mikroserwis
-     	*   Podstawy modelowania
-     	*   Strategie dekompozycji mikroserwisów
-     	*   Zasada pojedyńczej odpowiedzialności mikroserwisów
-     	*   Reużywalność
+     *   Podstawy Domain Driven Design
+     *   Bounded Context a mikroserwis
+     *   Podstawy modelowania
+     *   Strategie dekompozycji mikroserwisów
+     *   Zasada pojedyńczej odpowiedzialności mikroserwisów
+     *   Reużywalność
     
- 	*   Loosely-Coupled Architecture
+ *   Loosely-Coupled Architecture
     
-     	*   Czym jest architektura luźno ze sobą związana i jakie przynosi zyski
-     	*   Miary spójności
-     	*   Miary złączenia
-     	*   Miara częstotliwości zmian
-     	*   Trade-offy
-     	*   Mikroserwisy a Loosely-Coupled Architecture
+     *   Czym jest architektura luźno ze sobą związana i jakie przynosi zyski
+     *   Miary spójności
+     *   Miary złączenia
+     *   Miara częstotliwości zmian
+     *   Trade-offy
+     *   Mikroserwisy a Loosely-Coupled Architecture
     
- 	*   Komunikacja międzyserwisowa
+ *   Komunikacja międzyserwisowa
     
-     	*   Metody komunikacji
-     	*   Komunikacja synchroniczna
-     	*   Komunikacja asynchroniczna
-     	*   Dobre i złe praktyki
+     *   Metody komunikacji
+     *   Komunikacja synchroniczna
+     *   Komunikacja asynchroniczna
+     *   Dobre i złe praktyki
     
- 	*   Integracja międzyserwisowa
+ *   Integracja międzyserwisowa
     
-     	*   Strategie integracji
-     	*   Określanie odpowiedzialności
-     	*   Izolacja mikroserwisów
-     	*   Choreografia a orkiestracja
+     *   Strategie integracji
+     *   Określanie odpowiedzialności
+     *   Izolacja mikroserwisów
+     *   Choreografia a orkiestracja
     
- 	*   Testy w świecie mikroserwisów
+ *   Testy w świecie mikroserwisów
     
-     	*   Rodzaje testów
-     	*   Anty wzorzec - testy E2E
-     	*   Testy kontraktów
-     	*   Testy na produkcji
-     	*   Metryki testów
+     *   Rodzaje testów
+     *   Anty wzorzec - testy E2E
+     *   Testy kontraktów
+     *   Testy na produkcji
+     *   Metryki testów
     
- 	*   Transakcje a mikroserwisy
+ *   Transakcje a mikroserwisy
     
-     	*   Rozproszone transakcje
-     	*   Jak modelować by nie mieć transakcji
-     	*   Wzorzec sagi
-     	*   Wzorzec process managera
+     *   Rozproszone transakcje
+     *   Jak modelować by nie mieć transakcji
+     *   Wzorzec sagi
+     *   Wzorzec process managera
     
- 	*   Techniczne wzorce
+ *   Techniczne wzorce
     
-     	*   REST
-     	*   CQRS
-     	*   Event Driven Architecture
-     	*   Event Sourcing
-     	*   API Gateway
-     	*   Service Discovery
+     *   REST
+     *   CQRS
+     *   Event Driven Architecture
+     *   Event Sourcing
+     *   API Gateway
+     *   Service Discovery
     
- 	*   Socjotechniczne wzorce
+ *   Socjotechniczne wzorce
     
-     	*   Zespoły programistyczne a mikroserwisy
-     	*   Prawo Conway'a
-     	*   Zespoły nastawione na aktywności i rezultaty
-     	*   Wzorce pracy zespołowej
+     *   Zespoły programistyczne a mikroserwisy
+     *   Prawo Conway'a
+     *   Zespoły nastawione na aktywności i rezultaty
+     *   Wzorce pracy zespołowej
     
- 	*   Wizualizacja architektury - Model C4
+ *   Wizualizacja architektury - Model C4
     
-     	*   Czym jest model C4
-     	*   Context
-     	*   Container
-     	*   Component
-     	*   Code
+     *   Czym jest model C4
+     *   Context
+     *   Container
+     *   Component
+     *   Code
     
- 	*   Event Storming - metoda do szybkiego odkrywania i modelowania logiki biznesowej
+ *   Event Storming - metoda do szybkiego odkrywania i modelowania logiki biznesowej
     
-     	*   Podstawy techniki
-     	*   Modelowanie procesów biznesowych
-     	*   Projektowanie aplikacji
-     	*   Określanie granic modułów
+     *   Podstawy techniki
+     *   Modelowanie procesów biznesowych
+     *   Projektowanie aplikacji
+     *   Określanie granic modułów
     
- 	*   Legacy - transformacja do mikroserwisów
+ *   Legacy - transformacja do mikroserwisów
     
-     	*   Od czego zacząć
-     	*   Rozdział obszarów bezstanowych
-     	*   Rozdział obszarów stanowych
-     	*   Wzorce podziału bazy danych
-     	*   Wzorce podmiany aplikacji
+     *   Od czego zacząć
+     *   Rozdział obszarów bezstanowych
+     *   Rozdział obszarów stanowych
+     *   Wzorce podziału bazy danych
+     *   Wzorce podmiany aplikacji

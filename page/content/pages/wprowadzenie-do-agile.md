@@ -28,51 +28,51 @@ Podczas mojego szkolenia chciałbym przekazać Ci czym jest praca zwinna i jakie
 Wiedza uzyskana na WARSZTACIE:
 ==============================
 
- 	*   Główne zasady pracy zwinnej
- 	*   Standardy wdrażania procesów Agile w firmie
- 	*   Praktyki budowy organizacj zwinnej
- 	*   Analiza dobrych i złych metryk
- 	*   Informacje jak pomyślnie wdrożyć Scrum w swoim zespole
+ *   Główne zasady pracy zwinnej
+ *   Standardy wdrażania procesów Agile w firmie
+ *   Praktyki budowy organizacj zwinnej
+ *   Analiza dobrych i złych metryk
+ *   Informacje jak pomyślnie wdrożyć Scrum w swoim zespole
 
 Możliwy zakres WARSZTATU:
 =========================
 
- 	*   Lean Development
+ *   Lean Development
     
-     	*   7 zasad Lean Software Development
-     	*   Kanban
-     	*   8 strat pracy
-     	*   Raport A3
+     *   7 zasad Lean Software Development
+     *   Kanban
+     *   8 strat pracy
+     *   Raport A3
     
- 	*   Teoria ograniczeń i
+ *   Teoria ograniczeń i
     
-     	*   Wąskie gardła
-     	*   Efektywność a rezultaty
-     	*   Praca niedokończona
+     *   Wąskie gardła
+     *   Efektywność a rezultaty
+     *   Praca niedokończona
     
- 	*   Struktura organizacyjna
+ *   Struktura organizacyjna
     
-     	*   Prawo Conway'a
-     	*   Struktura aktywnościowa a rezultatowa
-     	*   Metryki
+     *   Prawo Conway'a
+     *   Struktura aktywnościowa a rezultatowa
+     *   Metryki
     
- 	*   Zasady Agile
+ *   Zasady Agile
     
-     	*   Filozofia Agile
-     	*   Zespół wielofunkcyjny
-     	*   Praca zwinna zespołu
-     	*   Podejście strategiczne / taktyczne / operacyjne
-     	*   Cykl Deminga
+     *   Filozofia Agile
+     *   Zespół wielofunkcyjny
+     *   Praca zwinna zespołu
+     *   Podejście strategiczne / taktyczne / operacyjne
+     *   Cykl Deminga
     
- 	*   Scrum
+ *   Scrum
     
-     	*   Zasady pracy
-     	*   Ceremonie
-     	*   Persony
-     	*   Artefakty
+     *   Zasady pracy
+     *   Ceremonie
+     *   Persony
+     *   Artefakty
     
- 	*   DevOps
+ *   DevOps
     
-     	*   Główne zasady
-     	*   Miary pracy
-     	*   Pętle zwrotne
+     *   Główne zasady
+     *   Miary pracy
+     *   Pętle zwrotne

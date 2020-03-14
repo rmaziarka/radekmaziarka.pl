@@ -17,7 +17,7 @@ Minimalizacja Work-in-progress
 
 Pracując w swoim otoczeniu biznesowym mamy możliwość brania coraz to większej ilości zadań. Robię X, ale jednocześnie ktoś poprosił o Y to też nad tym pracuje, a Z leży już rozgrzebane od tygodnia. Wydaje nam się, że dzięki temu osiągamy więcej. Pracujemy efektywnie, bo jednocześnie dowozimy kilka różnych funkcjonalności. Duży błąd.
 
-[caption id="attachment\_1867" align="aligncenter" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law-1024x496.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com[/caption]
+[caption id="attachment\_1867" align="aligncenter" width="770"][![](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png)](https://radekmaziarka.pl/wp-content/uploads/2019/08/Water-Tank-Littles-Law.png) By Christoph Roser at AllAboutLean.com[/caption]
 
 W 1961 roku John Little udowodnił prawo, nazwane później jego nazwiskiem – [prawo Little’a](https://pl.wikipedia.org/wiki/Prawo_Little%E2%80%99a). Mówi ono, że średni czas przebywania pojedynczego zadania w systemie bezpośrednio koreluje z ilością zadań. Im więcej mamy zadań, a nie zwiększamy mocy przerobowych (załóżmy, że nie robimy nadgodzin), tym dłużej zadania trwają. Redukując ilość trwających zadań zmniejszamy czas dostarczenia.
 

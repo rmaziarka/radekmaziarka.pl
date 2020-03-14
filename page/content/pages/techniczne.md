@@ -10,7 +10,7 @@ Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb daj mi znać! Z 
 [Event Storming - PROJEKTOWANIE OPROGRAMOWANIA](/szkolenia/event-storming-projektowanie-oprogramowania)
 =======================================================================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_-300x149.png)](/szkolenia/event-storming-projektowanie-oprogramowania)
+[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-projektowanie-oprogramowania)
 
 Czyli tzw. Event Storming Design Level. Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
 

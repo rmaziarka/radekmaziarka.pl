@@ -12,8 +12,8 @@ featured_image: 'images/2018/05/eventstorming.logo_.png'
 
 Możliwe jest przeprowadzenie różnych rodzajów tego warsztatu. Poniżej przedstawiłem te najpopularniejsze:
 
- 	*   [Big Picture](/szkolenia/event-storming-big-picture/)
- 	*   [Projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania/)
- 	*   [Train the Trainer](/event-storming-train-the-trainer/)
+ *   [Big Picture](/szkolenia/event-storming-big-picture/)
+ *   [Projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania/)
+ *   [Train the Trainer](/event-storming-train-the-trainer/)
 
 Jeśli interesuje Cię ten temat **[skontaktuj się ze mną ](https://radekmaziarka.pl/kontakt)**lub złap mnie na [**Twitterze**. ](https://twitter.com/RadekMaziarka)Jeśli nie przekonałem Cię na tyle, sprawdź [moje posty](https://radekmaziarka.pl/category/event-storming/) w tematach Event Stormingu 😊

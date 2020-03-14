@@ -28,37 +28,37 @@ Warsztaty skupią się na przekazaniu komplementarnej informacji czym jest Scrum
 Wiedza uzyskana na WARSZTACIE:
 ==============================
 
- 	*   Podstawy zwinnych metod produkcji
- 	*   Różnice pomiędzy pracą tradycyjną a adaptacyjną
- 	*   Zasady pracy w Scrumie - role / spotkania / artefakty
- 	*   Strategie planowania i estymowania prac
- 	*   Umiejętność dostosowywania Scruma do własnego otoczenia biznesowego
+ *   Podstawy zwinnych metod produkcji
+ *   Różnice pomiędzy pracą tradycyjną a adaptacyjną
+ *   Zasady pracy w Scrumie - role / spotkania / artefakty
+ *   Strategie planowania i estymowania prac
+ *   Umiejętność dostosowywania Scruma do własnego otoczenia biznesowego
 
 Możliwy zakres WARSZTATU:
 =========================
 
- 	*   Wstęp do programowania zwinnego
+ *   Wstęp do programowania zwinnego
     
-     	*   Filozofia Agile
-     	*   Zespół wielofunkcyjny
-     	*   Praca zwinna zespołu
-     	*   Podejście strategiczne / taktyczne / operacyjne
+     *   Filozofia Agile
+     *   Zespół wielofunkcyjny
+     *   Praca zwinna zespołu
+     *   Podejście strategiczne / taktyczne / operacyjne
     
- 	*   Scrum
+ *   Scrum
     
-     	*   Zasady pracy
-     	*   Spotkania / persony / artefakty
-     	*   Definiowanie celów i praca z rejestrem zadań
-     	*   Przeszkody i sposoby radzenia sobie z nimi
+     *   Zasady pracy
+     *   Spotkania / persony / artefakty
+     *   Definiowanie celów i praca z rejestrem zadań
+     *   Przeszkody i sposoby radzenia sobie z nimi
     
- 	*   Estymacja
+ *   Estymacja
     
-     	*   Jednostki estymacyjne
-     	*   Techniki szacowania
-     	*   Estymacja strategiczna
+     *   Jednostki estymacyjne
+     *   Techniki szacowania
+     *   Estymacja strategiczna
     
- 	*   Monitorowanie
+ *   Monitorowanie
     
-     	*   Techniki monitorowania
-     	*   Określanie prędkość zespołu
-     	*   Psychologia a monitorowanie
+     *   Techniki monitorowania
+     *   Określanie prędkość zespołu
+     *   Psychologia a monitorowanie

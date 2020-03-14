@@ -28,17 +28,17 @@ Przed tym warsztatem wymagane jest zrealizowanie jego poprzedniej części - [Bi
 Wiedza uzyskana na WARSZTACIE:
 ==============================
 
- 	*   Informacja na temat najlepszych praktyk modelowania aplikacji
- 	*   Określenie modułów / obszarów możliwych do niezależnej implementacji
- 	*   Opracowanie planu na integrację modułów między sobą
- 	*   Wizualizacja szczegółów biznesowych i technicznych
- 	*   Możliwy timeline pracy nad projektem
+ *   Informacja na temat najlepszych praktyk modelowania aplikacji
+ *   Określenie modułów / obszarów możliwych do niezależnej implementacji
+ *   Opracowanie planu na integrację modułów między sobą
+ *   Wizualizacja szczegółów biznesowych i technicznych
+ *   Możliwy timeline pracy nad projektem
 
 Możliwy zakres WARSZTATU:
 =========================
 
- 	*   Definicja komend / polityk / reguł / operacji
- 	*   Wizualizacja widoków danych
- 	*   Zdefiniowanie obiektów biznesowych
- 	*   Określenie testów akceptacyjnych
- 	*   Opracowanie planu czasowego wdrożenia systemu
+ *   Definicja komend / polityk / reguł / operacji
+ *   Wizualizacja widoków danych
+ *   Zdefiniowanie obiektów biznesowych
+ *   Określenie testów akceptacyjnych
+ *   Opracowanie planu czasowego wdrożenia systemu

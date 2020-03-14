@@ -40,7 +40,7 @@ You heard that creating a **different data model **could help with this situati
 Simple read model - to the rescue
 ---------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model-1024x473.jpg)](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model.jpg)](https://radblog.pl/wp-content/uploads/2018/01/simple-read-model.jpg)
 
 Read model is about creating a different store of your data with simplified schema and lower connections to other tables. You still use your previous tables but you treat them as write model.
 
@@ -51,7 +51,7 @@ Creating read model is a different thing. You don't want to fill two (or more) d
 Domain events
 -------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1-1024x434.jpg)](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1.jpg)](https://radblog.pl/wp-content/uploads/2018/01/domain-events-1.jpg)
 
 [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) gives you multiple building blocks to help to build a better system. [Domain event](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation) is one of them - it allows you to handle additional logic that is not crucial in your current context. For example, you would like to send an email after placing an order. You publish a domain event and handle it in a custom handler.
 

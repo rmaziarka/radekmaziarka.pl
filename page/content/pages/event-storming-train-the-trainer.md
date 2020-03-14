@@ -25,24 +25,24 @@ Szkolę członków zespołu z techniki [Event Stormingu](/2018/12/06/event-storm
 
 Warsztat ten jest przeprowadzany dla np.:
 
- 	*   Nowych zespołów chcących wejść w świat Event Stormingu
- 	*   Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
- 	*   Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
+ *   Nowych zespołów chcących wejść w świat Event Stormingu
+ *   Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
+ *   Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
 
 Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](https://radekmaziarka.pl/kontakt).**
 
 Wiedza uzyskana na WARSZTACIE:
 ==============================
 
- 	*   Umiejętność przeprowadzania warsztatów w swojej firmie / organizacji
- 	*   Wady i zalety każdego z kroków warsztatu
- 	*   Szeroka notacja dostosowywalna do potrzeby biznesowej
- 	*   Podstawy psychologiczne stojące za każdym elementem Event Stormingu
- 	*   Dobre i złe praktyki przeprowadzanej sesji
- 	*   Rozwiązania trudnych sytuacji podczas warsztatu
+ *   Umiejętność przeprowadzania warsztatów w swojej firmie / organizacji
+ *   Wady i zalety każdego z kroków warsztatu
+ *   Szeroka notacja dostosowywalna do potrzeby biznesowej
+ *   Podstawy psychologiczne stojące za każdym elementem Event Stormingu
+ *   Dobre i złe praktyki przeprowadzanej sesji
+ *   Rozwiązania trudnych sytuacji podczas warsztatu
 
 Możliwy zakres WARSZTATU:
 =========================
 
- 	*   [Event Storming - Big Picture](/szkolenia/event-storming-big-picture/)
- 	*   [Event Storming - projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania)
+ *   [Event Storming - Big Picture](/szkolenia/event-storming-big-picture/)
+ *   [Event Storming - projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania)

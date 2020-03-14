@@ -14,7 +14,7 @@ We started our Event Storming workshop based on the existing system. This system
 
 The workshop's aim was to **split monolith into business subdomain** - have a greater view on understanding how these subdomains affect one another. Having this knowledge, we wanted to think it over and to come up with some ideas of how to split our system into particular modules / bounded context. In the end, we’ve made it – we’ve accomplished this goal. Part of the result below:
 
-[![](https://radblog.pl/wp-content/uploads/2018/05/DdfVYTgUwAIjlCv-1024x599.jpg)](https://radblog.pl/wp-content/uploads/2018/05/DdfVYTgUwAIjlCv.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/05/DdfVYTgUwAIjlCv.jpg)](https://radblog.pl/wp-content/uploads/2018/05/DdfVYTgUwAIjlCv.jpg)
 
 Unfortunately, our system is enormous so we haven't managed to split it completely. However, we went through the main use-case, which causes various problems and spans across the whole system. It resulted in many different subdomains which encapsulate business logic cohesively and communicate by clear, definite patterns. Such knowledge allowed our architect team to start working on a plan how to split the application into business modules. **We were astonished** **how great understanding we gained in such short time**. Spending 8 hours together in front of a wall, with many different sticky cards, helped us visualize business logic and figure out how it affects each other. We wouldn't get this much value just with sitting at the table and arguing ourselves about proposed modules.
 

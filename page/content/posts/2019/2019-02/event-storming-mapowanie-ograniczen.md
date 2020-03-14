@@ -30,7 +30,7 @@ Skupiamy się na wizualizacji procesu działania naszej grupy. Mapujemy każde z
 
 Koncentracja tylko na jednej warstwie na raz pozwala wejść bardzo głęboko w problemy, nie skupiając się na tym co będzie dalej. Każda informacja jest wartościowa – nawet jeśli Ty nie będziesz wiedział, jak to rozwiązać to możliwe, że twój kolega / koleżanka będzie. Dopiero mając wszystkie nasze ograniczenia jasne dla wszystkich członków zespołu można iść dalej i proponować rozwiązania.
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/0-1-1024x620.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/0-1.jpg)
+[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/0-1.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/0-1.jpg)
 
 Efekty były zaskakujące.  Zespół jest złożony z programistów z wieloletnim doświadczeniem a także z osób po studiach managerskich, gdzie zwinne metodyki rozbijano na czynniki pierwsze. Ale nawet tutaj natrafili na sytuację, gdy te same zdania Scrum Guide były interpretowane w sposób zgoła inny. Czytając ten sam materiał dochodzili do przeciwnych wniosków. Warsztaty pozwoliły im to niezrozumienie zwizualizować, a następnie zaadresować problem.
 

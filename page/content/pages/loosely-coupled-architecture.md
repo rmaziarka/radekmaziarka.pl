@@ -28,45 +28,45 @@ Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak luźno powiązana 
 Wiedza uzyskana na szkoleniu:
 =============================
 
- 	*   Informacja jak architektura luźno powiązana wpływa na system pracy
- 	*   Zasady projektowania systemów w oparciu o Loosely-Coupled Architecture
- 	*   Najczęstsze sposoby łamiania architektury luźno powiązanej
- 	*   Wiedza jak budować zespoły by działały niezależnie
+ *   Informacja jak architektura luźno powiązana wpływa na system pracy
+ *   Zasady projektowania systemów w oparciu o Loosely-Coupled Architecture
+ *   Najczęstsze sposoby łamiania architektury luźno powiązanej
+ *   Wiedza jak budować zespoły by działały niezależnie
 
 Możliwy zakres szkolenia:
 =========================
 
- 	*   Podstawy Loosely-Coupled Architecture
+ *   Podstawy Loosely-Coupled Architecture
     
-     	*   Pryncypia Loosely-Coupled Architecture
-     	*   Badania na temat Loosely-Coupled Architecture
-     	*   Wykorzystanie Loosely-Coupled Architecture
-     	*   Loosely-Coupled Architecture a System Thinking
+     *   Pryncypia Loosely-Coupled Architecture
+     *   Badania na temat Loosely-Coupled Architecture
+     *   Wykorzystanie Loosely-Coupled Architecture
+     *   Loosely-Coupled Architecture a System Thinking
     
- 	*   Zasady Loosely-Coupled Architecture
+ *   Zasady Loosely-Coupled Architecture
     
-     	*   Miary spójności
-     	*   Miary złączenia
-     	*   Miara częstotliwości zmian
-     	*   Trade-offy
+     *   Miary spójności
+     *   Miary złączenia
+     *   Miara częstotliwości zmian
+     *   Trade-offy
     
- 	*   Najczęstsze łamania Loosely-Coupled Architecture
+ *   Najczęstsze łamania Loosely-Coupled Architecture
     
-     	*   DRY
-     	*   Over-responsibility
-     	*   Shared database
-     	*   Temporal Coupling
+     *   DRY
+     *   Over-responsibility
+     *   Shared database
+     *   Temporal Coupling
     
- 	*   Mikroserwisy a Loosely-Coupled Architecture
+ *   Mikroserwisy a Loosely-Coupled Architecture
     
-     	*   Definicja zachowań
-     	*   Definicja granic
-     	*   Definicja integracji
-     	*   Najczęstsze problemy
+     *   Definicja zachowań
+     *   Definicja granic
+     *   Definicja integracji
+     *   Najczęstsze problemy
     
- 	*   Socjotechniczne wzorce
+ *   Socjotechniczne wzorce
     
-     	*   Zespoły programistyczne a Loosely-Coupled Architecture
-     	*   Prawo Conway'a
-     	*   Zespoły nastawione na aktywności i rezultaty
-     	*   Wzorce pracy zespołowej
+     *   Zespoły programistyczne a Loosely-Coupled Architecture
+     *   Prawo Conway'a
+     *   Zespoły nastawione na aktywności i rezultaty
+     *   Wzorce pracy zespołowej

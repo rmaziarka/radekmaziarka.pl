@@ -27,35 +27,35 @@ Moim szkoleniem chciałbym przybliżyć Ci wzorzec CQRS i pomóc Ci krok po krok
 
 Warszaty mogą trwać:
 
- 	*   1 dzień - teoria i projektowanie
- 	*   2 dni - teoria, projektowanie i implementacja w .NET / Javascript
+ *   1 dzień - teoria i projektowanie
+ *   2 dni - teoria, projektowanie i implementacja w .NET / Javascript
 
 Wiedza uzyskana na warsztacie:
 ==============================
 
- 	*   Podstawy wzorca CQRS
- 	*   Wiedza jak krok po kroku wdrażać wzorzec do swojego systemu
- 	*   Informacja na temat wad i zalet każdego z etapów wzorca
- 	*   Adaptacja CQRS w systemach Legacy
+ *   Podstawy wzorca CQRS
+ *   Wiedza jak krok po kroku wdrażać wzorzec do swojego systemu
+ *   Informacja na temat wad i zalet każdego z etapów wzorca
+ *   Adaptacja CQRS w systemach Legacy
 
 Możliwy zakres szkolenia:
 =========================
 
- 	*   Podstawy Command Query Responsibility Segregation
- 	*   4 etapy CQRS
+ *   Podstawy Command Query Responsibility Segregation
+ *   4 etapy CQRS
     
-     	*   Command and Queries
-     	*   Different data access
-     	*   Simple Read Model
-     	*   Asynchronous Read Model
+     *   Command and Queries
+     *   Different data access
+     *   Simple Read Model
+     *   Asynchronous Read Model
     
- 	*   Wzorce wspomagające
+ *   Wzorce wspomagające
     
-     	*   Correlation Identifier
-     	*   Data Consistency Primer
-     	*   Domain Events
-     	*   Repository
-     	*   Materialized View
-     	*   Compensating Transaction
+     *   Correlation Identifier
+     *   Data Consistency Primer
+     *   Domain Events
+     *   Repository
+     *   Materialized View
+     *   Compensating Transaction
     
- 	*   Wdrożenie do systemów Legacy
+ *   Wdrożenie do systemów Legacy

@@ -19,7 +19,7 @@ Po co w ogóle Event Storming w organizacji
 
 Każda firma lub organizacja posiada ustalone procesy (jasno lub mgliście), które pozwalają jej działać i osiągać cele. Często jednak sposób działania poszczególnych jednostek, bądź całych działów nie jest efektywny. Nie zauważamy, co się dzieje obok nas, pewne rzeczy dzieją się zupełnie bez naszej wiedzy, a równie często zdarza się, robimy kilka razy to samo. Zachodzi tutaj  problem dystrybucji wiedzy, który świetnie przedstawił Alberto w swojej [prezentacji](https://www.slideshare.net/ziobrando/50000-orange-stickies-later/12) o Event Stormingu:
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/knowledge-distribution-1024x542.jpg)](https://radblog.pl/wp-content/uploads/2018/12/knowledge-distribution.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/12/knowledge-distribution.jpg)](https://radblog.pl/wp-content/uploads/2018/12/knowledge-distribution.jpg)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Typowym, najczęściej stosowanym, rozwiązaniem tych problemów jest zwiększenie liczby organizowanych spotkań i wysyłanych maili. Poświęca się coraz większej ilości czasu na komunikację, a zazwyczaj nie przynosi to żadnych rezultatów. Tracimy czas na spotkaniach, zamiast zajmować się pracą. Czujemy, że możemy działać efektywniej, ale nie potrafimy do tego dojść.

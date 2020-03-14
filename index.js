@@ -227,6 +227,7 @@ function handlePostsXML(err, result) {
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
                 markdown = replaceCodeMarkups(markdown);
+                markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
 
 
@@ -309,7 +310,13 @@ function replaceCodeMarkups(markdown){
     markdown = replaceAll(markdown, '\\]',']');
     markdown = replaceAll(markdown, ' \\_',' _');
     
-    // hack to change punctation level when spaces are not trailed
+
+    return markdown;
+}
+
+    
+// hack to change punctation level when spaces are not trailed
+function replacePunctation(markdown){
     markdown = replaceAll(markdown, '	*', '*');
     markdown = replaceAll(markdown, '	1', '1');
     markdown = replaceAll(markdown, '	2', '2');
@@ -320,9 +327,7 @@ function replaceCodeMarkups(markdown){
 }
 
 function fixImagesURL(str){
-    return str;
-
-    if(!str) return;
+    if(!str) return '';
     str = str.replace(/-[0-9]+x[0-9]*/g,'');
     return str;
 }
@@ -401,6 +406,7 @@ function handlePagesXML(err, result) {
                 // console.log('content available');
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
+                markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
 
                 fileHeader = ''

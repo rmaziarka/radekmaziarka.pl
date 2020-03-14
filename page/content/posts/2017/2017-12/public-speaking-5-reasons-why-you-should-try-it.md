@@ -54,7 +54,7 @@ Deeper learning
 
 To be able to teach other people / present something you have to get a deeper knowledge about your topic. It's easy to recall some info, google it and then use it, but it's much harder to spread this knowledge between other people. Just look at the [Bloom’s Taxonomy of learning](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/).
 
-![](http://radblog.pl/wp-content/uploads/2017/11/Blooms-Taxonomy-650x366.jpg)
+![](http://radblog.pl/wp-content/uploads/2017/11/Blooms-Taxonomy.jpg)
 
 To be able to teach other people you will need to go **higher in learning ladder** -  evaluating or defending some technology, comparing it to other fields, demonstrating it to end users. But during preparing for the presentation you will get this knowledge seamlessly:
 

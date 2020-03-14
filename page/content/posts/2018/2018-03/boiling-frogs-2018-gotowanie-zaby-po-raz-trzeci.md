@@ -13,14 +13,14 @@ Po raz 3. spotkaliśmy się we Wrocławiu, by posłuchać najlepszych prelegent�
 Tomasz Kaczmarzyk - Wstęp
 -------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DZCkUxuXkAABvgL-1-300x195.jpg "by Łukasz Dziedziul | https://twitter.com/ldziedziul/status/977461830246428673")](https://radblog.pl/wp-content/uploads/2018/03/DZCkUxuXkAABvgL-1.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/03/DZCkUxuXkAABvgL-1.jpg "by Łukasz Dziedziul | https://twitter.com/ldziedziul/status/977461830246428673")](https://radblog.pl/wp-content/uploads/2018/03/DZCkUxuXkAABvgL-1.jpg)
 
 [Tomasz](https://twitter.com/tkaczmarzyk), jak co roku, w świetny sposób powitał gości. Muszę przyznać, że to sztuka - kolejny raz opowiadać o motywie [gotowania żab](https://krokdozdrowia.com/syndrom-gotujacej-sie-zaby-takiego/) i robić to w sposób interesujący. Opisywał brak rozwoju jako przyczynę przyszłych problemów i motywował uczestników do ciągłego dbania o własny rozwój. Bardzo trafił do mnie obrazek przedstawiający koło upadku oprogramowania - brak odpowiedzialności napędza brak zrozumienia, utratę jakości i w rezultacie problemy z utrzymywanym systemem.
 
 Mariusz Gil - Discovering unknown domain with Event Storming
 ------------------------------------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DZCqq38WAAU82hJ-300x169.jpg "by Robert Podsiadły | https://twitter.com/robert59p/status/97746879218292326")](https://radblog.pl/wp-content/uploads/2018/03/DZCqq38WAAU82hJ.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/03/DZCqq38WAAU82hJ.jpg "by Robert Podsiadły | https://twitter.com/robert59p/status/97746879218292326")](https://radblog.pl/wp-content/uploads/2018/03/DZCqq38WAAU82hJ.jpg)
 
 To była prezentacja na którą najbardziej czekałem. I się opłaciło. W zasadzie, jakbym musiał po tej prezentacji opuścić konferencję to i tak byłbym szczęśliwy. [Mariusz](https://twitter.com/mariuszgil) w przystępny sposób wytłumaczył koncepcję [Event Stormingu](https://en.wikipedia.org/wiki/Event_storming), o której czytałem i słuchałem od dawna. Koncepcję, która łączy tzw. "biznes" ze światem programistycznym, pozwala wspólnie ugruntować wiedzę na temat projektu i pomóc dostarczyć go w takiej postaci, jakiej klient potrzebuje. Mariusz podrzucił nawet ciekawą historię użycia Event Stormingu w pracy z klientem - po jej zastosowaniu projekt został zatrzymany, ponieważ uświadomiono sobie jak bardzo realne potrzeby różnią się od planowanego oprogramowania. Prezentację Mariusza, powinni obejrzeć wszyscy, którzy współpracują z klientem.
 
@@ -29,7 +29,7 @@ Z Mariuszem porozmawiałem później jak ten koncept przekazać dalej - już od 
 Jakub Kubryński - Engineering architecture
 ------------------------------------------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DZC6G-HXkAALv9E-300x169.jpg "by Adam Wiciak | https://twitter.com/adwiciak/status/977485761619644417")](https://radblog.pl/wp-content/uploads/2018/03/DZC6G-HXkAALv9E.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/03/DZC6G-HXkAALv9E.jpg "by Adam Wiciak | https://twitter.com/adwiciak/status/977485761619644417")](https://radblog.pl/wp-content/uploads/2018/03/DZC6G-HXkAALv9E.jpg)
 
 Kolejna świetna prezentacja. [Jakub](https://twitter.com/jkubrynski) opowiadał o dobrej architekturze i wzorcach, jakie powinniśmy wprowadzać by tak wysoką jakość osiągnąć. Przypomniał istotność bazowania na metrykach i danych, by móc sprawdzać czy wciąż jesteśmy na dobrej drodze. Mocno zaznaczył, że dobra architektura to architektura zmian i adaptacji - błędy będą się zdarzały, ale trzeba dbać o to, by jak najszybciej sobie z nimi radzić, a nie koncentrować się na by było ich jak najmniej. Analogicznie mówił zresztą sam Sam Newman w swojej [książce o mikroserwisach](https://radblog.pl/2018/02/02/building-microservices-sam-newman-book-review/).
 
@@ -68,7 +68,7 @@ Nie sposób każdej prelekcji opisać tak dokładnie, ale na tej konferencji by�
 Networking
 ----------
 
-[![](https://radblog.pl/wp-content/uploads/2018/03/DZDYWbSWAAUrZpD-300x225.jpg "by Paweł Klimczyk | https://twitter.com/pwlklm/status/977519001185193985")](https://radblog.pl/wp-content/uploads/2018/03/DZDYWbSWAAUrZpD.jpg)[![](https://radblog.pl/wp-content/uploads/2018/03/DZDGVLBXUAAQLH9-300x225.jpg "by Łukasz Pyrzyk | https://twitter.com/lukaszpyrzyk/status/977499268079607809")](https://radblog.pl/wp-content/uploads/2018/03/DZDGVLBXUAAQLH9.jpg)[![](https://radblog.pl/wp-content/uploads/2018/03/DZFK4Y-W0AEy2YH-300x225.jpg "by Ann | https://twitter.com/annbet_/status/977644937373249536")](https://radblog.pl/wp-content/uploads/2018/03/DZFK4Y-W0AEy2YH.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/03/DZDYWbSWAAUrZpD.jpg "by Paweł Klimczyk | https://twitter.com/pwlklm/status/977519001185193985")](https://radblog.pl/wp-content/uploads/2018/03/DZDYWbSWAAUrZpD.jpg)[![](https://radblog.pl/wp-content/uploads/2018/03/DZDGVLBXUAAQLH9.jpg "by Łukasz Pyrzyk | https://twitter.com/lukaszpyrzyk/status/977499268079607809")](https://radblog.pl/wp-content/uploads/2018/03/DZDGVLBXUAAQLH9.jpg)[![](https://radblog.pl/wp-content/uploads/2018/03/DZFK4Y-W0AEy2YH.jpg "by Ann | https://twitter.com/annbet_/status/977644937373249536")](https://radblog.pl/wp-content/uploads/2018/03/DZFK4Y-W0AEy2YH.jpg)
 
 Słyszałem parę razy, że prelekcje to tylko dodatek do konferencji. Tutaj ciężko o takie stwierdzenie, ale poziom networkingu na Boiling Frogs był naprawdę wysoki. Świetnie było spotkać te wszystkie osoby, które się na codzień followuje na Twitterze i czyta ich przemyślenia. Grono osób było naprawdę szerokie - przyjechały grupy programistyczne z całej Polski, prelegenci, dużo znajomych. Każdy był otwarty na dyskusję i wymianę doświadczeń. Rozmowy na after-party ciągnęły się bardzo długo i po nagłym ataku zmiany czasu wróciliśmy do domu lekko przed 4. Masa wiedzy, dobrych praktyk, pomysłów - tego nie da żadna prezentacja oglądana online.
 

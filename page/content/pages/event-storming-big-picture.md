@@ -28,19 +28,19 @@ Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy, wraz z uwspólni
 Wiedza uzyskana na WARSZTACIE:
 ==============================
 
- 	*   Zrozumienie skali problemu z którym się zmagasz
- 	*   Zdefiniowanie podprocesów i relacji między nimi
- 	*   Wizualizacja utrudnień i wąskich gardeł
- 	*   Analiza możliwych rozwiązań i usprawnień procesu
- 	*   Uspójnienie zrozumienia problemu wewnątrz zespołu i wyłapanie błędów
- 	*   Poprawa komunikacji pomiędzy grupami
+ *   Zrozumienie skali problemu z którym się zmagasz
+ *   Zdefiniowanie podprocesów i relacji między nimi
+ *   Wizualizacja utrudnień i wąskich gardeł
+ *   Analiza możliwych rozwiązań i usprawnień procesu
+ *   Uspójnienie zrozumienia problemu wewnątrz zespołu i wyłapanie błędów
+ *   Poprawa komunikacji pomiędzy grupami
 
 Możliwy zakres WARSZTATU:
 =========================
 
- 	*   Eksploracja procesów
- 	*   Strukturyzacja procesów
- 	*   Analiza grup i stron zewnętrznych
- 	*   Definicja usprawnień
- 	*   Określenie metryk i ryzyk
- 	*   Wybór pierwszych akcji
+ *   Eksploracja procesów
+ *   Strukturyzacja procesów
+ *   Analiza grup i stron zewnętrznych
+ *   Definicja usprawnień
+ *   Określenie metryk i ryzyk
+ *   Wybór pierwszych akcji

@@ -30,38 +30,38 @@ Podczas mojego szkolenia chciałbym przekazać Ci wiedzę na temat wzorców arch
 Wiedza uzyskana na szkoleniu:
 =============================
 
- 	*   Wiedza na temat wzorców architektonicznych
- 	*   Zrozumienie zysków i kosztów każdego z wzorców
- 	*   Umiejętność dobrania wzorca do napotkanego problemu
- 	*   Kompetencja do wdrożenia wzorca wraz z odpowiednią dokumentacją i testami
+ *   Wiedza na temat wzorców architektonicznych
+ *   Zrozumienie zysków i kosztów każdego z wzorców
+ *   Umiejętność dobrania wzorca do napotkanego problemu
+ *   Kompetencja do wdrożenia wzorca wraz z odpowiednią dokumentacją i testami
 
 Możliwy zakres szkolenia:
 =========================
 
- 	*   Czym jest architektura oprogramowania
- 	*   Architektura aplikacji a systemu
- 	*   Architektury aplikacji
+ *   Czym jest architektura oprogramowania
+ *   Architektura aplikacji a systemu
+ *   Architektury aplikacji
     
-     	*   CRUD
-     	*   N-layer
-     	*   CQRS
-     	*   Hexagonal Architecture
-     	*   Ports and Adapters
-     	*   Event driven architecture
-     	*   Serverless
-     	*   Lambda architecture
-     	*   Actors
+     *   CRUD
+     *   N-layer
+     *   CQRS
+     *   Hexagonal Architecture
+     *   Ports and Adapters
+     *   Event driven architecture
+     *   Serverless
+     *   Lambda architecture
+     *   Actors
     
- 	*   Architektury systemu
+ *   Architektury systemu
     
-     	*   Moduły jako osobne aplikacje
-     	*   Microservices
-     	*   REST / GraphQL
-     	*   Message-driven architecture
-     	*   Microkernel
-     	*   Space based architecture
+     *   Moduły jako osobne aplikacje
+     *   Microservices
+     *   REST / GraphQL
+     *   Message-driven architecture
+     *   Microkernel
+     *   Space based architecture
     
- 	*   Jak opisywać architekturę - model opisu architektury C4
- 	*   Jak testować architekturę
- 	*   Jak mierzyć architekturę
- 	*   Jak dokumentować architekturę
+ *   Jak opisywać architekturę - model opisu architektury C4
+ *   Jak testować architekturę
+ *   Jak mierzyć architekturę
+ *   Jak dokumentować architekturę

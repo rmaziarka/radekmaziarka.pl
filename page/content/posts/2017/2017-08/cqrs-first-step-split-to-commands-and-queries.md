@@ -143,7 +143,7 @@ Your **ProductService **demands some action.
 Command and queries
 -------------------
 
-[![](https://radblog.pl/wp-content/uploads/2017/08/command-query-1024x478.jpg)](https://radblog.pl/wp-content/uploads/2017/08/command-query.jpg)
+[![](https://radblog.pl/wp-content/uploads/2017/08/command-query.jpg)](https://radblog.pl/wp-content/uploads/2017/08/command-query.jpg)
 
 > CQRS is a simple pattern – two objects for command/queries where once there was one.
 

@@ -23,7 +23,7 @@ Event Storming opiera się na zdarzeniach domenowych – faktach opisujących pr
 
 [![](https://radblog.pl/wp-content/uploads/2018/12/1.jpg)](https://radblog.pl/wp-content/uploads/2018/12/1.jpg)
 
-Każda karteczka to istotna informacja o wydarzeniu jakie zaistniało w systemie. Wszyscy uczestnicy systemu (prawie), niezależnie od siebie, umieszczają swoje karteczki na wcześniej przygotowanej ścianie. W zależności od ilości zdarzeń ściana po tej fazie pracy może wyglądać np. tak:[![](https://radblog.pl/wp-content/uploads/2018/12/6-1024x677.jpg)](https://radblog.pl/wp-content/uploads/2018/12/6.jpg)
+Każda karteczka to istotna informacja o wydarzeniu jakie zaistniało w systemie. Wszyscy uczestnicy systemu (prawie), niezależnie od siebie, umieszczają swoje karteczki na wcześniej przygotowanej ścianie. W zależności od ilości zdarzeń ściana po tej fazie pracy może wyglądać np. tak:[![](https://radblog.pl/wp-content/uploads/2018/12/6.jpg)](https://radblog.pl/wp-content/uploads/2018/12/6.jpg)
 
 Nawet jeśli na pierwszy rzut oka wydaje wam się to przytłaczające, uwierzcie mi - rezultat jest fenomenalny – w kilka chwil nasi koledzy i inni pracownicy są w stanie zrzucić prawie całą / dużą część wiedzy o swoim systemie na wspólną przestrzeń.
 
@@ -65,7 +65,7 @@ Przykładowy rezultat warsztatu
 
 Jeden wielu z takich warsztatów przeprowadziliśmy dla naszego klienta. Zadaniem było zrozumieć jak działa duży, monolityczy system i zaplanować podzielenie go na mniejsze części. Poniżej rezultat naszego warsztatu (zdjęcie z 1/2 całości):
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/4-1024x768.jpg)](https://radblog.pl/wp-content/uploads/2018/12/4.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/12/4.jpg)](https://radblog.pl/wp-content/uploads/2018/12/4.jpg)
 
 Warsztat trwał kilka godzin, a po skończeniu pracy byliśmy w stanie zrozumieć:
 

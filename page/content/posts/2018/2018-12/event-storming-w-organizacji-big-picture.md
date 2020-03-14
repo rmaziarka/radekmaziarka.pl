@@ -12,7 +12,7 @@ tags: ['ddd', 'domain driven design', 'event storming']
 
 Event Storming Big Picture ma za zadanie rozpoznać w możliwie najkrótszym czasie jak najwięcej różnych procesów, co pozwoli następnie skupić się na najważniejszych z nich. Poniżej przykład z takiej sesji, przeprowadzonej w [Rowerek.pl](https://rowerek.pl)
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/1-1-1024x576.jpg)](https://radblog.pl/wp-content/uploads/2018/12/1-1.jpg) [![](https://radblog.pl/wp-content/uploads/2018/12/2-3-1024x560.jpg)](https://radblog.pl/wp-content/uploads/2018/12/2-3.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/12/1-1.jpg)](https://radblog.pl/wp-content/uploads/2018/12/1-1.jpg) [![](https://radblog.pl/wp-content/uploads/2018/12/2-3.jpg)](https://radblog.pl/wp-content/uploads/2018/12/2-3.jpg)
 
 Przechodzimy przez wszystkie elementy standardowego warsztatu, wizualizując zdarzenia, problemy i możliwości, osoby i firmy zewnętrzne. Każda osoba ma możliwość dodania swojej kartki, nikt nie jest wyłączony. Odpowiednia strukturyzacja chwilę trwa i w zależności od skali grupy, można ją podzielić na kilka części.
 

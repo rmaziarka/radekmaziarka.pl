@@ -10,7 +10,7 @@ Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb daj mi znać! Z 
 [Event Storming - BIG PICTURE](/szkolenia/event-storming-big-picture)
 =====================================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_-300x149.png)](/szkolenia/event-storming-big-picture)
+[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-big-picture)
 
 Poszukujesz lekkiej metody do pracy wspólnej nad wymaganiami? Chciałbyś zburzyć mury dzielące działy programistyczne od reszty świata? Pragniesz, aby twoje projekty były bardziej przewidywalne, a klienci zawsze zadowoleni? Już nie musisz szukać dalej!
 
@@ -21,13 +21,13 @@ Zobacz jak efektywnie rozwiązać twój problem! [Więcej o szkoleniu.](/szkolen
 [Event Storming - Train the trainer](/szkolenia/event-storming-train-the-trainer)
 =================================================================================
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_-300x149.png)](/szkolenia/event-storming-train-the-trainer)
+[![](https://radekmaziarka.pl/wp-content/uploads/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-train-the-trainer)
 
 Szkolenie dla członków zespołu z techniki Event Stormingu, aby byli w stanie przeprowadzać takie warsztaty na kanwie własnych projektów. Warsztat ten jest przeprowadzany dla:
 
- 	*   Nowych zespołów chcących wejść w świat Event Stormingu
- 	*   Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
- 	*   Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
+ *   Nowych zespołów chcących wejść w świat Event Stormingu
+ *   Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
+ *   Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
 
 Naucz się wykorzystywać Event Storming już dziś! [Więcej o szkoleniu.](/szkolenia/event-storming-train-the-trainer)
 

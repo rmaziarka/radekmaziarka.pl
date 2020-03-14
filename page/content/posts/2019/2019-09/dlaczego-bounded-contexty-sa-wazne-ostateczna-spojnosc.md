@@ -100,7 +100,7 @@ Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są siln
 
 O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to [Kacper Gunia](https://twitter.com/cakper) na konferencji Explore DDD:
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4-300x238.png)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png)
+[![](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png)](https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png)
 
 Bardzo często będziemy zaskoczeni jak coś, co dla nas mogło być nie do zaakceptowania, będzie bez przymrużenia okiem zaakceptowane przez ekspertów domenowych. Dla nich np. synchronizacja informacji w ciągu 2 sekund jest tak absurdalnie niska, że w zasadzie pomijalna. A jeśli jakiś towar sprzedaje się tak szybko, że nie dajemy radę sprawdzać jego stanów magazynowych to jest to raczej wskazanie, by ich nie sprawdzać w ogóle 😉
 

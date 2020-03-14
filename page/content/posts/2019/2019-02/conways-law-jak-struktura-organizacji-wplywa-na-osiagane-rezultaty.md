@@ -107,7 +107,7 @@ Manewr mówi, by przygotowywać tak strukturę organizacji, by odpowiadała potr
 
 Bardzo ciekawy przykład takiego manewru opisał Simon Wardley w swoim [cyklu tweetów](https://twitter.com/swardley/status/1087511545091899392?lang=en).
 
-[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/5-1024x576.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/5.jpg)
+[![](https://radekmaziarka.pl/wp-content/uploads/2019/02/5.jpg)](https://radekmaziarka.pl/wp-content/uploads/2019/02/5.jpg)
 
 Organizacja silosowa (departamentowa) miała problemy z dostosowywaniem się do zmian – część osób z silosu chciała wdrażać zmiany a część była bardziej oporna. Postanowiono więc podzielić organizację ze względu na poziom stabilności pracy. To pozwoliło grupom pracować w zespołach cross-funkcjonalnych, skupionych na swoich celach, realizujących je w taki sposób jaki był im najbardziej odpowiadający.
 

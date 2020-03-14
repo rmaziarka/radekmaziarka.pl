@@ -12,7 +12,7 @@ tags: ['ddd', 'domain driven design', 'event storming']
 
 Event Storming Single Process skupia się na bardzo dokładnym odwzorowaniu jednego procesu, w celu maksymalizacji jego zrozumienia i uporządkowania. Poniżej przykład z takiej sesji, przeprowadzonej w [Objectivity](https://objectivity.co.uk)
 
-[![](https://radblog.pl/wp-content/uploads/2018/12/3-1-1-1024x269.jpg)](https://radblog.pl/wp-content/uploads/2018/12/3-1-1.jpg)
+[![](https://radblog.pl/wp-content/uploads/2018/12/3-1-1.jpg)](https://radblog.pl/wp-content/uploads/2018/12/3-1-1.jpg)
 
 W tym rodzaju warsztatu zastanawiamy się nad konkretnym procesem, odrzucając wszystko co wokół. Nie interesuje nas szerokie spektrum, skupiamy naszą uwagę tylko na tych elementach, które mogą mieć wpływ na nasz proces.
 

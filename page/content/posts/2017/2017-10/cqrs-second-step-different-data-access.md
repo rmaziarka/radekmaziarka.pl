@@ -93,7 +93,7 @@ It would be more difficult to introduce it with your previous, service pattern, 
 Different data access
 ---------------------
 
-[![](https://radblog.pl/wp-content/uploads/2017/10/different-data-access-1024x492.jpg)](https://radblog.pl/wp-content/uploads/2017/10/different-data-access.jpg)
+[![](https://radblog.pl/wp-content/uploads/2017/10/different-data-access.jpg)](https://radblog.pl/wp-content/uploads/2017/10/different-data-access.jpg)
 
 Different data access is a realization of a simple thought:
 

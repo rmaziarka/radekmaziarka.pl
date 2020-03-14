@@ -223,7 +223,6 @@ function handlePostsXML(err, result) {
             console.log(`fname: '${fname}'`);
             
             if (post["content:encoded"]){
-                console.log(post["content:encoded"]);
                 content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
                 markdown = replaceCodeMarkups(markdown);

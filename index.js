@@ -22,8 +22,8 @@ tds.addRule('wppreblock', {
     }
 })
 
-var outputPostsDir = 'page/content/posts';
-var outputPagesDir = 'page/content/pages';
+var getOutputPostsDir = (language) => `page/content/${language}/posts`;
+var getOutputPagesDir = (language) => `page/content/${language}/pages`;
 var imagesById = {};
 
 
@@ -147,6 +147,7 @@ function handlePostsXML(err, result) {
         var categoryName = '';
         var published = '';
         var comments = [];
+        var language = '';
         var fname = '';
         var markdown = '';
         var fileContent = '';
@@ -194,6 +195,8 @@ function handlePostsXML(err, result) {
                         tags.push(category['_']);
                     else if (category.$.domain === 'category')
                         categoryName = category['_'];
+                    else if(category.$.domain === 'language')
+                        language = category.$.nicename;
                 });
 
                 // console.log(tags.join(", "));
@@ -215,6 +218,7 @@ function handlePostsXML(err, result) {
             }
 
             var pmap = {fname:'', comments:[]};
+            var outputPostsDir = getOutputPostsDir(language);
             pmap.fname = outputPostsDir+'/'+fname+'-comments.md';
 
             fname = outputPostsDir+'/'+publishedFolderName+ '/'+fname+'.md';
@@ -392,6 +396,7 @@ function handlePagesXML(err, result) {
         var fileContent = '';
         var fileHeader = '';
         var featuredImagePath = '';
+        var language = '';
         
         posts.forEach(function(post){
             var postMap = {};
@@ -417,6 +422,15 @@ function handlePagesXML(err, result) {
                 featuredImagePath = featuredImage.paths.blogPath;
             }
 
+            var categories = post.category;
+
+            categories.forEach(function (category){
+                if(category.$.domain === 'language')
+                    language = category.$.nicename;
+            });
+
+
+            var outputPagesDir = getOutputPagesDir(language);
             fname = outputPagesDir+'/'+fname+'.md';
             
             if (post["content:encoded"]){
@@ -434,6 +448,7 @@ function handlePagesXML(err, result) {
                 fileHeader+='---\n';
                 fileContent = `${fileHeader}\n${markdown}`;
 
+                myMkdirSync(outputPagesDir);
                 writeToFile(fname, fileContent);                
             }
 

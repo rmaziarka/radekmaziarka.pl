@@ -1,0 +1,119 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+defaultContentLanguage  = "pl"
+
+[permalinks]
+  posts = "/:slug"
+  pages = "/:slug"
+
+[taxonomies]
+  category = "category"
+  tag = "tags"
+
+[languages]
+  [languages.pl]
+    title = "Radek Maziarka Blog"
+    contentDir = "content/pl"
+    weight = 1     
+  [languages.en]
+    title = "Radek Maziarka Blog"
+    contentDir = "content/en"
+    weight = 2
+
+[[languages.pl.menu.main]]
+  identifier = "main"
+  name = "Strona główna"
+  url = "/"
+  weight = 10
+
+[[languages.pl.menu.main]]
+  identifier = "category-leadership"
+  name = "Leadership"
+  url = "/category/leadership/"
+  weight = 20
+
+[[languages.pl.menu.main]]
+  identifier = "category-wzorce-projektowe"
+  name = "Wzorce projektowe"
+  url = "/category/wzorce-projektowe/"
+  weight = 30
+
+[[languages.pl.menu.main]]
+  identifier = "szkolenia"
+  name = "Szkolenia"
+  url = "/szkolenia"
+  weight = 40
+
+[[languages.pl.menu.main]]
+  identifier = "szkolenia-techniczne"
+  name = "Techniczne"
+  url = "/szkolenia/techniczne"
+  weight = 10
+  parent = "szkolenia"
+
+[[languages.pl.menu.main]]
+  identifier = "szkolenia-miekkie"
+  name = "Techniczne"
+  url = "/szkolenia/miekkie"
+  weight = 20
+  parent = "szkolenia"
+
+[[languages.pl.menu.main]]
+  identifier = "o-mnie"
+  name = "O mnie"
+  url = "/o-mnie"
+  weight = 50
+
+[[languages.pl.menu.main]]
+  identifier = "o-mnie-prelekcje"
+  name = "Prelekcje"
+  url = "/prelekcje"
+  weight = 10
+  parent = "o-mnie"
+  
+[[languages.pl.menu.main]]
+  identifier = "o-mnie-kontakt"
+  name = "Kontakt"
+  url = "/kontakt"
+  weight = 20
+  parent = "o-mnie"
+
+[[languages.pl.menu.main]]
+  identifier = "english-posts"
+  name = "Check out english posts"
+  url = "/en"
+  weight = 60
+  
+[[languages.en.menu.main]]
+  identifier = "main"
+  name = "Main Page"
+  url = "/en"
+  weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "about-me"
+  name = "About me"
+  url = "/en/about-me"
+  weight = 20
+
+[[languages.en.menu.main]]
+  identifier = "design-patterns"
+  name = "Design patterns"
+  url = "/en/category/design-patterns"
+  weight = 30
+
+
+[[languages.en.menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/en/contact"
+  weight = 40
+
+[[languages.en.menu.main]]
+  identifier = "polish-posts"
+  name = "Sprawdź polskie posty"
+  url = "/"
+  weight = 50
+

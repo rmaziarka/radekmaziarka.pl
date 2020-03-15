@@ -4,6 +4,7 @@ slug: '/2016/06/23/angular-kendo-create-windows-dynamically/'
 date: Thu, 23 Jun 2016 21:40:06 +0000
 draft: false
 featured_image: 'images/2016/06/photo-1446149710962-26e48a6bda51.jpg'
+aliases: ['/2016/06/23/angular-kendo-create-windows-dynamically/']
 category: 'Kendo'
 tags: ['']
 ---

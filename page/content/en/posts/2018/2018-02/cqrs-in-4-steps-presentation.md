@@ -4,6 +4,7 @@ slug: '/2018/02/19/cqrs-in-4-steps-presentation/'
 date: Mon, 19 Feb 2018 22:38:47 +0000
 draft: false
 featured_image: 'images/2018/02/cqrs-in-4-steps.jpg'
+aliases: ['/2018/02/19/cqrs-in-4-steps-presentation/']
 category: 'Design patterns'
 tags: ['AutoMapper', 'CQRS', 'ddd', 'event sourcing', 'MediatR']
 ---

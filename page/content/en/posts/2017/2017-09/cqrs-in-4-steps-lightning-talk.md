@@ -4,6 +4,7 @@ slug: '/2017/09/17/cqrs-in-4-steps-lightning-talk/'
 date: Sat, 16 Sep 2017 23:13:49 +0000
 draft: false
 featured_image: 'images/2017/08/first-step.jpg'
+aliases: ['/2017/09/17/cqrs-in-4-steps-lightning-talk/']
 category: 'Design patterns'
 tags: ['']
 ---

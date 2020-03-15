@@ -4,6 +4,7 @@ slug: '/2018/02/02/building-microservices-sam-newman-book-review/'
 date: Thu, 01 Feb 2018 23:34:05 +0000
 draft: false
 featured_image: 'images/2018/02/microservices.jpg'
+aliases: ['/2018/02/02/building-microservices-sam-newman-book-review/']
 category: 'Review'
 tags: ['architecture', 'book', 'ddd', 'microservices', 'monitoring', 'monolith', 'review', 'SOA']
 ---

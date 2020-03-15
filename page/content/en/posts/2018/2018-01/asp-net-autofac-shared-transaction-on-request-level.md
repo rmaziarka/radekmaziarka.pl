@@ -4,6 +4,7 @@ slug: '/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/'
 date: Thu, 04 Jan 2018 01:01:24 +0000
 draft: false
 featured_image: 'images/2018/01/autofac.png'
+aliases: ['/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/']
 category: 'ASP.NET'
 tags: ['ASP.NET', 'Autofac', 'Dapper', 'Entity Framework', 'Web Api']
 ---

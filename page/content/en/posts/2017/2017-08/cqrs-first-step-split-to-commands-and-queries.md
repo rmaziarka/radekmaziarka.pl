@@ -4,6 +4,7 @@ slug: '/2017/08/19/cqrs-first-step-split-to-commands-and-queries/'
 date: Sat, 19 Aug 2017 09:08:46 +0000
 draft: false
 featured_image: 'images/2017/08/command-query.jpg'
+aliases: ['/2017/08/19/cqrs-first-step-split-to-commands-and-queries/']
 category: 'Design patterns'
 tags: ['']
 ---

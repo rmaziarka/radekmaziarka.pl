@@ -4,6 +4,7 @@ slug: '/2018/01/22/dapper-json-type-custom-mapper/'
 date: Mon, 22 Jan 2018 17:27:46 +0000
 draft: false
 featured_image: 'images/2018/01/00_Dapper.jpg'
+aliases: ['/2018/01/22/dapper-json-type-custom-mapper/']
 category: 'ORM'
 tags: ['Dapper', 'JSON', 'MS SQL', 'ORM']
 ---

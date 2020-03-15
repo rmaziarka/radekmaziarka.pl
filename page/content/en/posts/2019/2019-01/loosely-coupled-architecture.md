@@ -4,6 +4,7 @@ slug: '/2019/01/15/loosely-coupled-architecture/'
 date: Tue, 15 Jan 2019 13:10:45 +0000
 draft: false
 featured_image: 'images/2019/01/loosely-coupled-architecture-1.jpg'
+aliases: ['/2019/01/15/loosely-coupled-architecture/']
 category: 'Design patterns'
 tags: ['architecture', 'ddd', 'design pattern', 'microservices']
 ---

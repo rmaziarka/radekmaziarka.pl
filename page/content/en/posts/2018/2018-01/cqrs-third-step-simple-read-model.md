@@ -4,6 +4,7 @@ slug: '/2018/01/08/cqrs-third-step-simple-read-model/'
 date: Mon, 08 Jan 2018 10:33:54 +0000
 draft: false
 featured_image: 'images/2018/01/simple-read-model.jpg'
+aliases: ['/2018/01/08/cqrs-third-step-simple-read-model/']
 category: 'Design patterns'
 tags: ['CQRS', 'Dapper', 'Domain Events', 'Entity Framework', 'MediatR']
 ---

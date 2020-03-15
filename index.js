@@ -133,7 +133,7 @@ function handlePostsXML(err, result) {
                 status = post["wp:status"].join(''); 
             }
             // console.log(post["wp:status"].join(''));
-            return status != "private" && status != "inherit" 
+            return status != "private" && status != "inherit" && status != 'draft' && status != 'pending'
         });
 
 
@@ -239,6 +239,9 @@ function handlePostsXML(err, result) {
                 fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
                 if(featuredImagePath)
                     fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+                if(language === 'en')
+                    fileHeader += `aliases: ['${slug}']\n`;
+                
                 fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
                 fileContent = `${fileHeader}\n${markdown}`;
                 pmap.header = `${fileHeader}\n`;

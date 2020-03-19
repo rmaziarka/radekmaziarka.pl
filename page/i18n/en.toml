@@ -2,10 +2,10 @@
 other = "More"
 
 [allTitle]
-other = "All {{.Title }}"
+other = "All posts"
 
 [recentTitle]
-other = "Recent {{.Title }}"
+other = "Recent posts"
 
 [readMore]
 other = "read more"

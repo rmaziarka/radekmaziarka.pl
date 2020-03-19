@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
 defaultContentLanguage  = "pl"
+disqusShortname = "radekmaziarka-pl"
 
 [permalinks]
   posts = "/:slug"

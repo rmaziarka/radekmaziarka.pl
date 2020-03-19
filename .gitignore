@@ -90,6 +90,14 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate / tfplan files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
 # Site itself
 
 quickstart/public/*

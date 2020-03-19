@@ -1,7 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
 defaultContentLanguage  = "pl"
 disqusShortname = "radekmaziarka-pl"
 

@@ -30,3 +30,10 @@ other = "Adres email jest wymagany."
 
 [send]
 other = "Wyślij"
+
+[category]
+other = "Kategoria"
+
+[tag]
+other = "Tag"
+

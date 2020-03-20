@@ -21,9 +21,9 @@ steps:
    hugo --log -v
   displayName: 'Generate Blog'
 
-- task: PublishBuildArtifacts@1
+- task: PublishPipelineArtifact@0
   displayName: Publish Blog
   inputs:
-    PathtoPublish: '$(blog.path)/public'
-    ArtifactName: $(Build.BuildId)
+    targetPath: '$(blog.path)/public'
+    artifactName: $(Build.BuildId)
     publishLocation: 'Container'

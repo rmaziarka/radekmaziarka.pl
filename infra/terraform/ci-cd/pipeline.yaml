@@ -1,0 +1,11 @@
+trigger:
+- master
+
+stages:
+# build stage: build site codebase to use for deployment
+- stage: build
+  jobs:
+    - template: ci-cd/build.yaml
+- stage: release-test
+  jobs:
+    - template: ci-cd/release.yaml

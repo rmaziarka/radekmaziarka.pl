@@ -1,0 +1,16 @@
+pool:
+  vmImage: "ubuntu-16.04"
+
+steps:
+- task: DownloadPipelineArtifact@2
+  inputs:
+    artifact: $(Build.BuildId)
+    path: $(Build.SourcesDirectory)/bin
+
+- task: AzureFileCopy@4
+  inputs:
+    sourcePath: $(Build.SourcesDirectory)/bin
+    azureSubscription: 'radekmaziarka.pl-test'
+    destination: azureBlob
+    storage: radekmaziarkateststorage
+    containerName: $web

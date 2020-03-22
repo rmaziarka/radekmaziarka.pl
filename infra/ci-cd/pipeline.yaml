@@ -10,6 +10,6 @@ stages:
         'hugo.version': '0.67.1'
         'blog.path': './page'
       
-- stage: release-test
+- stage: release_test
   jobs:
     - template: /infra/ci-cd/release.yaml

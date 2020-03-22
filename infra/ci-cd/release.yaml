@@ -1,13 +1,17 @@
-steps:
-- task: DownloadPipelineArtifact@2
-  inputs:
-    artifact: $(Build.BuildId)
-    path: $(Build.SourcesDirectory)/bin
+jobs:
+- job: Release test
+  pool:
+    vmImage: ubuntu-latest
+  steps:
+  - task: DownloadPipelineArtifact@2
+    inputs:
+      artifact: $(Build.BuildId)
+      path: $(Build.SourcesDirectory)/bin
 
-- task: AzureFileCopy@4
-  inputs:
-    sourcePath: $(Build.SourcesDirectory)/bin
-    azureSubscription: 'radekmaziarka.pl-test'
-    destination: azureBlob
-    storage: radekmaziarkateststorage
-    containerName: $web
+  - task: AzureFileCopy@4
+    inputs:
+      sourcePath: $(Build.SourcesDirectory)/bin
+      azureSubscription: 'radekmaziarka.pl-test'
+      destination: azureBlob
+      storage: radekmaziarkateststorage
+      containerName: $web

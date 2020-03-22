@@ -1,19 +1,31 @@
-steps:
-- script: |
-   wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   
-  displayName: "Download HUGO"
+parameters:
+- name: 'hugo.version'
+  type: string
+  default: false
+- name: 'blog.path'
+  type: string
+  default:
 
-- script: 'sudo dpkg -i hugo_$(hugo.version)_Linux-64bit.deb'
-  displayName: "Install HUGO"
+jobs:
+- job: Build
+  pool:
+    vmImage: ubuntu-latest
+  steps:
+  - script: |
+    wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   
+    displayName: "Download HUGO"
 
-- script: |
-   cd $(blog.path)
-   hugo --log -v
-  displayName: 'Generate Blog'
+  - script: 'sudo dpkg -i hugo_$(hugo.version)_Linux-64bit.deb'
+    displayName: "Install HUGO"
 
-- task: PublishPipelineArtifact@0
-  displayName: Publish Blog
-  inputs:
-    targetPath: '$(blog.path)/public'
-    artifactName: $(Build.BuildId)
-    publishLocation: 'Container'
+  - script: |
+    cd $(blog.path)
+    hugo --log -v
+    displayName: 'Generate Blog'
+
+  - task: PublishPipelineArtifact@0
+    displayName: Publish Blog
+    inputs:
+      targetPath: '$(blog.path)/public'
+      artifactName: $(Build.BuildId)
+      publishLocation: 'Container'

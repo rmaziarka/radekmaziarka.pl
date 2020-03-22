@@ -1,10 +1,3 @@
-pool:
-  vmImage: "ubuntu-16.04"
-
-variables:
-  hugo.version: '0.67.1'
-  blog.path: './page'
-
 steps:
 - script: |
    wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   

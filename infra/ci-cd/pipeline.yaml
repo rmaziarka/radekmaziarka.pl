@@ -11,6 +11,5 @@ stages:
         'blog.path': './page'
       
 - stage: release
-=======
   jobs:
     - template: /infra/ci-cd/release.yaml

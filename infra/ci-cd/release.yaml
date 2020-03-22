@@ -1,7 +1,7 @@
 jobs:
 - job: release_test
   pool:
-    vmImage: ubuntu-latest
+    vmImage: windows-latest
   steps:
   - task: DownloadPipelineArtifact@2
     inputs:

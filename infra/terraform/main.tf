@@ -30,8 +30,23 @@ resource "azurerm_storage_account" "default" {
   }
 }
 
-resource "azurerm_storage_container" "default" {
-  name                  = "content"
-  storage_account_name  = azurerm_storage_account.default.name
-  container_access_type = "private"
+resource "azurerm_cdn_profile" "default" {
+  name                = "radekmaziarka-test"
+  location            = azurerm_resource_group.default.location
+  resource_group_name = azurerm_resource_group.default.name
+  sku                 = "Standard_Microsoft"
+}
+
+resource "azurerm_cdn_endpoint" "default" {
+  name                = "radekmaziarka-test"
+  profile_name        = azurerm_cdn_profile.default.name
+  location            = azurerm_resource_group.default.location
+  resource_group_name = azurerm_resource_group.default.name
+
+  origin {
+    name      = "radekmaziarka-test"
+    host_name = "${azurerm_storage_account.default.name}.z6.web.core.windows.net"
+  }
+
+  origin_host_header  = "${azurerm_storage_account.default.name}.z6.web.core.windows.net"
 }

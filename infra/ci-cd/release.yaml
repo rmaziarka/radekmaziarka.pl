@@ -15,8 +15,8 @@ jobs:
       azureSubscription: 'radekmaziarka.pl-test'
       scriptLocation: inlineScript
       inlineScript: |
-         az storage blob upload-batch --d "$web" --source $(Build.SourcesDirectory)/bin 
-         --account-name radekmaziarkateststorage
+         az storage blob upload-batch --destination "$web" 
+         --source $(Build.SourcesDirectory)/bin --account-name radekmaziarkateststorage
 
   - task: AzureCLI@1
     displayName: 'Azure CLI: Purge CDN'

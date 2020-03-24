@@ -17,7 +17,7 @@ jobs:
       inlineScript: |
          az storage blob upload-batch --destination-container $web --source $(Build.SourcesDirectory)/bin 
          --account-name radekmaziarkateststorage 
-         --account-key $env:STORAGE_ACCOUNT_KEY
+         --account-key $STORAGE_ACCOUNT_KEY
       env:
         STORAGE_ACCOUNT_KEY: $(storageAccountKey)
 

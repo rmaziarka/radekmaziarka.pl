@@ -50,3 +50,33 @@ resource "azurerm_cdn_endpoint" "default" {
 
   origin_host_header  = "${azurerm_storage_account.default.name}.z6.web.core.windows.net"
 }
+
+resource "azurerm_dns_zone" "default" {
+  name                = "test.radekmaziarka.pl"
+  resource_group_name = azurerm_resource_group.default.name
+}
+
+
+resource "azurerm_public_ip" "default" {
+  name                = "radekmaziarka-test"
+  location            = azurerm_resource_group.default.location
+  resource_group_name = azurerm_resource_group.default.name
+  allocation_method   = "Dynamic"
+  ip_version          = "IPv4"
+}
+
+resource "azurerm_dns_a_record" "default" {
+  name                = "@"
+  zone_name           = azurerm_dns_zone.default.name
+  resource_group_name = azurerm_resource_group.default.name
+  ttl                 = 300
+  target_resource_id  = azurerm_public_ip.default.id
+}
+
+resource "azurerm_dns_cname_record" "default" {
+  name                = "test.radekmaziarka.pl"
+  zone_name           = azurerm_dns_zone.default.name
+  resource_group_name = azurerm_resource_group.default.name
+  ttl                 = 300
+  record              = "radekmaziarka-test.azureedge.net"
+}

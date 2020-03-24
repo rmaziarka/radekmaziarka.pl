@@ -34,7 +34,7 @@ resource "azurerm_cdn_profile" "default" {
   name                = "radekmaziarka-test"
   location            = azurerm_resource_group.default.location
   resource_group_name = azurerm_resource_group.default.name
-  sku                 = "Standard_Microsoft"
+  sku                 = "Standard_Verizon"
 }
 
 resource "azurerm_cdn_endpoint" "default" {

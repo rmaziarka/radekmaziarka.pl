@@ -1,7 +1,7 @@
 jobs:
 - job: release_test
   pool:
-    vmImage: windows-latest
+    vmImage: ubuntu-latest
   steps:
   - checkout: none
   - task: DownloadPipelineArtifact@2
@@ -9,20 +9,22 @@ jobs:
       artifact: $(Build.BuildId)
       path: $(Build.SourcesDirectory)/bin
 
-  - task: AzureFileCopy@4
+  - task: AzureCLI@1
+    displayName: 'Azure CLI: copy files to storage'
     inputs:
-      sourcePath: $(Build.SourcesDirectory)/bin
       azureSubscription: 'radekmaziarka.pl-test'
-      destination: azureBlob
-      storage: radekmaziarkateststorage
-      containerName: $web
+      scriptLocation: inlineScript
+      inlineScript: |
+         az storage blob upload-batch --destination-container $web --source $(Build.SourcesDirectory)/bin 
+         --account-name radekmaziarkateststorage 
+         --account-key $env:STORAGE_ACCOUNT_KEY
+      env:
+        STORAGE_ACCOUNT_KEY: $(storageAccountKey)
 
   - task: AzureCLI@1
     displayName: 'Azure CLI: Purge CDN'
     inputs:
       azureSubscription: 'radekmaziarka.pl-test'
-
       scriptLocation: inlineScript
-
       inlineScript: |
         call az cdn endpoint purge  -g radekmaziarka-test -n radekmaziarka-test --profile-name radekmaziarka-test --content-paths "/*"

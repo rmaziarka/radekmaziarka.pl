@@ -16,3 +16,13 @@ jobs:
       destination: azureBlob
       storage: radekmaziarkateststorage
       containerName: $web
+
+  - task: AzureCLI@1
+    displayName: 'Azure CLI: Purge CDN'
+    inputs:
+      azureSubscription: 'radekmaziarka.pl-test'
+
+      scriptLocation: inlineScript
+
+      inlineScript: |
+        call az cdn endpoint purge  -g radekmaziarka-test -n radekmaziarka-test --profile-name radekmaziarka-test --content-paths "/*"

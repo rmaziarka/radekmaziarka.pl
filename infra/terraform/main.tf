@@ -36,11 +36,29 @@ resource "azurerm_storage_account" "default" {
   static_website {
     index_document = "index.html"
   }
-  custom_domain {
-    name = "test.radekmaziarka.pl"
-    use_subdomain = true
-  }
 }
+
+resource "azurerm_cdn_profile" "default" {
+  name                = "radekmaziarka-test"
+  location            = azurerm_resource_group.default.location
+  resource_group_name = azurerm_resource_group.default.name
+  sku                 = "Standard_Verizon"
+}
+
+resource "azurerm_cdn_endpoint" "default" {
+  name                = "radekmaziarka-test"
+  profile_name        = azurerm_cdn_profile.default.name
+  location            = azurerm_resource_group.default.location
+  resource_group_name = azurerm_resource_group.default.name
+
+  origin {
+    name      = "radekmaziarka-test"
+    host_name = "${azurerm_storage_account.default.name}.z6.web.core.windows.net"
+  }
+
+  origin_host_header  = "${azurerm_storage_account.default.name}.z6.web.core.windows.net"
+}
+
 
 // Cloudflare
 resource "cloudflare_zone" "default" {
@@ -74,17 +92,9 @@ resource "cloudflare_record" "radekmaziarka_2" {
 resource "cloudflare_record" "test_radekmaziarka" {
   zone_id = cloudflare_zone.default.id
   name    = "test"
-  value   = "radekmaziarkateststorage.z6.web.core.windows.net"
+  value   = "radekmaziarka-test.azureedge.net"
   type    = "CNAME"
-  proxied = true
-  ttl     = 1
-}
-
-resource "cloudflare_record" "verify_test_radekmaziarka" {
-  zone_id = cloudflare_zone.default.id
-  name    = "asverify.test"
-  value   = "asverify.radekmaziarkateststorage.z6.web.core.windows.net"
-  type    = "CNAME"
-  ttl     = 1
+  proxied = false
+  ttl     = 3600
 }
 

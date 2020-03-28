@@ -23,6 +23,9 @@
       <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
     {{ end }}
 
+    {{ $style := resources.Get "styles/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
     {{ block "favicon" . }}
       {{ partialCached "site-favicon.html" . }}
     {{ end }}

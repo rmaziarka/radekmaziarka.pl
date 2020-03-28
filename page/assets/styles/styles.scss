@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'page.scss';
+@import 'homePage.scss';
+@import 'posts.scss';
+@import 'categories';
+@import 'tags';
+
+body {
+  color: $textColor;
+  font-size: $textSize;
+}

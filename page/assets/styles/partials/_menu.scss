@@ -83,4 +83,17 @@
       color: $menuActiveColor;
     }
   }
+
+  &__arrow {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 5px;
+    width: 5px;
+    border-style: solid;
+    border-color: $arrowBackground;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    margin: -5px 0 0 8px;
+    vertical-align: middle;
+  }
 }

@@ -1,10 +1,19 @@
 $colorWhite: #fff;
 $colorBlack: #000;
 $colorGray: #454545;
+$colorGrayLight: #ebebeb;
 
 $fontSize14: 14px;
 $fontSize16: 16px;
 $fontSize24: 24px;
 
+$fontPopins: 'Poppins', sans-serif;
+$fontMerriweather: 'Merriweather', serif;
+
+$headerColor: $colorBlack;
+$headerFont: $fontPopins;
+
 $textColor: $colorGray;
 $textSize: $fontSize14;
+
+$borderColor: $colorGrayLight;

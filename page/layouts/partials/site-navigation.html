@@ -1,6 +1,6 @@
 <nav class="menu" role="navigation">
   <div class="center">
-    <ul class="menu__list">
+    <ul class="menu__list {{ .Lang }}">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
@@ -22,6 +22,7 @@
               <li class="menu__item">
                   <a class="menu__link" href="{{ .URL }}">
                       {{ .Pre }}
+                      <span></span>
                       <span>{{ .Name }}</span>
                   </a>
               </li>

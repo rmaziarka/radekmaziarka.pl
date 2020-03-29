@@ -17,6 +17,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
 }
 
+input {
+  color: $formColor;
+  font-family: $formFont;
+  font-weight: bold;
+  font-size: $formSize;
+  outline-style:none;
+  box-shadow:none;
+
+  &::placeholder {
+    color: $formColor;
+    font-family: $formFont;
+    font-weight: bold;
+    font-size: $formSize;
+  }
+}
+
 .center {
   width: 1170px;
   margin: 0 auto;
@@ -30,3 +46,4 @@ a {
 // Partials
 @import 'partials/header';
 @import 'partials/menu';
+@import 'partials/search';

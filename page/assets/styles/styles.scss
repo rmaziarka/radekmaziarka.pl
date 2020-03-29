@@ -17,5 +17,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
 }
 
+.center {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  color: $textColor;
+  font-family: inherit;
+}
+
 // Partials
 @import 'partials/header';
+@import 'partials/menu';

@@ -2,7 +2,9 @@ $colorWhite: #fff;
 $colorBlack: #000;
 $colorGray: #454545;
 $colorGrayLight: #ebebeb;
+$colorBlue: #318892;
 
+$fontSize11: 11px;
 $fontSize14: 14px;
 $fontSize16: 16px;
 $fontSize24: 24px;
@@ -10,10 +12,16 @@ $fontSize24: 24px;
 $fontPopins: 'Poppins', sans-serif;
 $fontMerriweather: 'Merriweather', serif;
 
+$backgroundColor: $colorWhite;
+
 $headerColor: $colorBlack;
 $headerFont: $fontPopins;
 
 $textColor: $colorGray;
 $textSize: $fontSize14;
+
+$menuFont: $fontPopins;
+$menuSize: $fontSize11;
+$menuActiveColor: $colorBlue;
 
 $borderColor: $colorGrayLight;

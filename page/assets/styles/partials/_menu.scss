@@ -1,0 +1,66 @@
+.menu {
+  background: $backgroundColor;
+  border: 1px solid $borderColor;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+
+  &__list {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:hover {
+      ul {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  &__submenu {
+    position: absolute;
+    overflow: visible;
+    visibility: hidden;
+    display: block;
+    list-style: none;
+    opacity: 0;
+    padding: 0;
+    background: $backgroundColor;
+    border: 1px solid $borderColor;
+    transition: all .25s ease-in;
+    z-index: 110;
+  }
+
+  &__subItem {
+    border-bottom: 1px solid $borderColor;
+    min-width: 240px;
+    max-width: 350px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    font-family: $menuFont;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 21px;
+    line-height: 48px;
+    font-weight: bold;
+    font-size: $menuSize;
+    transition: color .25s ease-in;
+
+    &:hover {
+      color: $menuActiveColor;
+    }
+  }
+}

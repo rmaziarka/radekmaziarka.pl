@@ -8,6 +8,7 @@
 body {
   color: $textColor;
   font-size: $textSize;
+  font-family: $textFont;
   padding: 0;
   margin: 0;
 }
@@ -41,9 +42,11 @@ input {
 a {
   color: $textColor;
   font-family: inherit;
+  text-decoration: none;
 }
 
 // Partials
 @import 'partials/header';
 @import 'partials/menu';
 @import 'partials/search';
+@import 'partials/summaryWithImage';

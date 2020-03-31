@@ -1,0 +1,25 @@
+.search {
+  float: right;
+
+  &__input {
+    border: 0;
+    padding: 4px 6px;
+    margin-top: 12px;
+    transition: width 0.3s ease-in;
+    width: 60px;
+
+    &:focus {
+      width: 150px;
+    }
+  }
+
+  &__button {
+    border: 0;
+    padding-right: 0;
+
+    &:hover {
+      cursor: pointer;
+
+    }
+  }
+}

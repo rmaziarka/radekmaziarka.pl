@@ -26,9 +26,9 @@
             </a>
         </h2>
         <div class="summaryWithImage__body">
-          {{ .Summary }}
+          {{ .Summary | truncate 220 }}
         </div>
-          <a href="{{.Permalink}}" class="">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+          <a href="{{.Permalink}}" class="moreLink">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
         {{/* TODO: add author
         <p class="">By {{ .Author }}</p> */}}
     </div>

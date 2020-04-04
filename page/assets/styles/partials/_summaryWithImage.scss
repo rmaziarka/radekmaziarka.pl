@@ -5,22 +5,26 @@
   padding: 0 15px;
   vertical-align: top;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0 40px;
 
   img {
     display: block;
+    margin-bottom: 25px;
     width: 100%;
   }
 
   &__title {
     font-family: $articleTitleFont;
     font-size: $articleTitleSize;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
 
     &:after {
       content: "";
       display: block;
       margin: 0 auto;
-      margin-top: 14px;
+      margin-top: 12px;
       width: 36px;
       border-bottom: 1px solid $colorBlue;
     }
@@ -29,7 +33,10 @@
   &__body {
     color: $articleBodyColor;
     font-size: $articleBodySize;
-    line-height: 2;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    text-rendering:optimizelegibility;
+    -webkit-font-smoothing: antialiased;
   }
 
   &__info {

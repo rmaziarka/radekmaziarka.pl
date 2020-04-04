@@ -46,7 +46,7 @@ resource "azurerm_cdn_profile" "default" {
 }
 
 resource "azurerm_cdn_endpoint" "default" {
-  name                = "radekmaziarka-test"
+  name                = "radekmaziarka-test-endpoint"
   profile_name        = azurerm_cdn_profile.default.name
   location            = azurerm_resource_group.default.location
   resource_group_name = azurerm_resource_group.default.name
@@ -92,9 +92,47 @@ resource "cloudflare_record" "radekmaziarka_2" {
 resource "cloudflare_record" "test_radekmaziarka" {
   zone_id = cloudflare_zone.default.id
   name    = "test"
-  value   = "radekmaziarka-test.azureedge.net"
+  value   = "radekmaziarka-test-endpoint.azureedge.net"
   type    = "CNAME"
   proxied = false
   ttl     = 3600
 }
 
+resource "cloudflare_record" "test_mx_10_1" {
+  zone_id = cloudflare_zone.default.id
+  name    = "test"
+  value   = "mail1.webio.pl"
+  type    = "MX"
+  priority = "10"
+}
+
+resource "cloudflare_record" "test_mx_10_2" {
+  zone_id = cloudflare_zone.default.id
+  name    = "test"
+  value   = "mail2.webio.pl"
+  type    = "MX"
+  priority = "10"
+}
+
+resource "cloudflare_record" "test_mx_10_3" {
+  zone_id = cloudflare_zone.default.id
+  name    = "test"
+  value   = "mail3.webio.pl"
+  type    = "MX"
+  priority = "10"
+}
+
+resource "cloudflare_record" "test_mx_90_1" {
+  zone_id = cloudflare_zone.default.id
+  name    = "test"
+  value   = "mailoffsite.webio.pl"
+  type    = "MX"
+  priority = "90"
+}
+
+resource "cloudflare_record" "test_mail_txt" {
+  zone_id = cloudflare_zone.default.id
+  name    = "test"
+  value   = "v=spf1 a mx ptr ip4:194.88.154.129/26 ip4:31.41.209.34 -all"
+  type    = "TXT"
+}

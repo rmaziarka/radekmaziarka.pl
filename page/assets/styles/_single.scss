@@ -1,4 +1,4 @@
-.homePage {
+.single {
   margin-top: 20px;
 
   &__content {
@@ -6,16 +6,9 @@
     width: 75%;
   }
 
-  &__post {
-    display: inline-block;
-    width: 50%;
-  }
-
   &__sidebar {
-    box-sizing: border-box;
+    width: 24.5%;
     display: inline-block;
     vertical-align: top;
-    width: 24.5%;
-
   }
 }

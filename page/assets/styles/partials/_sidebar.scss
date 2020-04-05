@@ -1,0 +1,42 @@
+.sidebar {
+  top: 40px;
+  position: sticky;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    border: 1px solid $borderColor;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__element {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    line-height: 1.5;
+    font-size: $sidebarSize;
+    color: $sidebarColor;
+    font-family: $sidebarFont;
+
+    &--more {
+      font-size: 14px;
+    }
+  }
+}

@@ -3,11 +3,19 @@
 
   &__content {
     display: inline-block;
-    width: 77%;
+    width: 75%;
   }
 
   &__post {
     display: inline-block;
     width: 50%;
+  }
+
+  &__sidebar {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 24.5%;
+    padding-left: 45px;
   }
 }

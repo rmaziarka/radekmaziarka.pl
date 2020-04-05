@@ -1,36 +1,22 @@
 {{ if eq .Site.Language.Lang "pl" }}
-<h5 class="widget-title"><span>Szkolenia</span></h5>
-<div class="textwidget custom-html-widget"><a href="/szkolenia/event-storming/">
-    <h5>Event Storming</h5>
+<aside class="sidebar">
+  <h5 class="sidebar__title"><span>Szkolenia</span></h5>
+  <a href="/szkolenia/event-storming/">
+    <h6 class="sidebar__element">Event Storming</h6>
     <img src="/images/2018/05/eventstorming.logo_.png">
   </a>
-  <a href="/szkolenia/wzorce-architektoniczne/">
-    <h5>Wzorce architektoniczne</h5>
-    <img src="/images/2019/09/Wzorce-Architektoniczne.jpg">
-  </a>
-  <a href="/szkolenia/wprowadzenie-do-agile/">
-    <h5>Wprowadzenie do Agile</h5>
-    <img src="/images/2019/09/Agile.jpg">
-  </a>
-  <a href="/szkolenia">
-    <h6>Pozostałe szkolenia</h6>
-  </a>
-</div>
-{{ else }}
-{{ $related := .Site.RegularPages.Related . | first 15 }}
+    <a href="/szkolenia/wzorce-architektoniczne/">
+      <h6 class="sidebar__element">Wzorce architektoniczne</h6>
+      <img src="/images/2019/09/Wzorce-Architektoniczne.jpg">
+    </a>
+    <a href="/szkolenia/wprowadzenie-do-agile/">
+      <h6 class="sidebar__element">Wprowadzenie do Agile</h6>
+      <img src="/images/2019/09/Agile.jpg">
+    </a>
+    <a href="/szkolenia">
+      <h6 class="sidebar__element sidebar__element--more">Pozostałe szkolenia</h6>
+    </a>
+</aside>
 
-{{ with $related }}
-<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-  <p class="f5 b mb3">{{ i18n "related" }}</p>
-  <ul class="pa0 list">
-    {{ range . }}
-    <li class="mb2">
-      <a href="{{ .RelPermalink }}">
-        {{- .Title -}}
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-</div>
-{{ end }}
+{{ else }}
 {{ end }}

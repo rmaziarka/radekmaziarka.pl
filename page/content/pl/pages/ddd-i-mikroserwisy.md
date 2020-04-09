@@ -1,6 +1,6 @@
 ---
 title: 'DDD i mikroserwisy'
-slug: '/szkolenia/ddd-i-mikroserwisy/'
+url: '/szkolenia/ddd-i-mikroserwisy/'
 date: Sun, 18 Aug 2019 10:54:58 +0000
 draft: false
 featured_image: 'images/2019/09/Mikroserwisy.jpg'

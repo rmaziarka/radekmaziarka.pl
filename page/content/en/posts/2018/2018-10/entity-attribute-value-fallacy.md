@@ -1,10 +1,9 @@
 ---
 title: 'Entity-Attribute-Value fallacy'
-slug: '/2018/10/26/entity-attribute-value-fallacy/'
+url: '/2018/10/26/entity-attribute-value-fallacy/'
 date: Fri, 26 Oct 2018 10:26:29 +0000
 draft: false
 featured_image: 'images/2018/10/buildings-690696_960_720.jpg'
-aliases: ['/2018/10/26/entity-attribute-value-fallacy/']
 category: 'Design patterns'
 tags: ['ddd', 'domain driven design']
 ---

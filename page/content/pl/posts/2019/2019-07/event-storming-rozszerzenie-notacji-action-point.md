@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - rozszerzenie notacji - Action Point'
-slug: '/2019/07/22/event-storming-rozszerzenie-notacji-action-point/'
+url: '/2019/07/22/event-storming-rozszerzenie-notacji-action-point/'
 date: Mon, 22 Jul 2019 09:06:16 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

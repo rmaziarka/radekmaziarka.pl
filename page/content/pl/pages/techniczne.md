@@ -1,6 +1,6 @@
 ---
 title: 'Szkolenia techniczne'
-slug: '/szkolenia/techniczne/'
+url: '/szkolenia/techniczne/'
 date: Mon, 29 Jul 2019 13:53:28 +0000
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Prelekcje'
-slug: '/prelekcje/'
+url: '/prelekcje/'
 date: Sun, 21 Oct 2018 21:08:08 +0000
 draft: false
 featured_image: 'images/2019/07/prelekcje.jpg'

@@ -18,7 +18,7 @@ disqusShortname = "radekmaziarka-pl"
     weight = 1     
   [languages.en]
     title = "Radek Maziarka Blog"
-    contentDir = "content/en"
+    contentDir = "content"
     weight = 2
 
 [[languages.pl.menu.main]]
@@ -82,19 +82,19 @@ disqusShortname = "radekmaziarka-pl"
 [[languages.pl.menu.main]]
   identifier = "english-posts"
   name = "Check out english posts"
-  url = "/en"
+  url = ""
   weight = 60
   
 [[languages.en.menu.main]]
   identifier = "main"
   name = "Main Page"
-  url = "/en"
+  url = ""
   weight = 10
 
 [[languages.en.menu.main]]
   identifier = "about-me"
   name = "About me"
-  url = "/en/about-me"
+  url = "/about-me"
   weight = 20
 
 [[languages.en.menu.main]]
@@ -107,7 +107,7 @@ disqusShortname = "radekmaziarka-pl"
 [[languages.en.menu.main]]
   identifier = "contact"
   name = "Contact"
-  url = "/en/contact"
+  url = "/contact"
   weight = 40
 
 [[languages.en.menu.main]]

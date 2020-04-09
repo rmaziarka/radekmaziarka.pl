@@ -1,6 +1,6 @@
 ---
 title: 'Podstawy psychologiczne Ubiquitous Language'
-slug: '/2018/09/28/podstawy-psychologiczne-ubiquitous-language/'
+url: '/2018/09/28/podstawy-psychologiczne-ubiquitous-language/'
 date: Thu, 27 Sep 2018 23:31:29 +0000
 draft: false
 featured_image: 'images/2018/09/artificial-intelligence-2228610_1920.jpg'

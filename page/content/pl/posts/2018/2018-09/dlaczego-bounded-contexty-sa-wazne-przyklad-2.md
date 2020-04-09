@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne – produkty pojedyńcze i produkty grupowe'
-slug: '/2018/09/17/dlaczego-bounded-contexty-sa-wazne-przyklad-2/'
+url: '/2018/09/17/dlaczego-bounded-contexty-sa-wazne-przyklad-2/'
 date: Mon, 17 Sep 2018 18:49:32 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'

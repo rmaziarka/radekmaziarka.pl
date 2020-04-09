@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne – język'
-slug: '/2018/08/20/dlaczego-bounded-contexty-sa-wazne-jezyk/'
+url: '/2018/08/20/dlaczego-bounded-contexty-sa-wazne-jezyk/'
 date: Mon, 20 Aug 2018 21:11:54 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'

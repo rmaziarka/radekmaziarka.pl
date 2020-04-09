@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - jak szybko odkrywać nieznane?'
-slug: '/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/'
+url: '/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/'
 date: Thu, 06 Dec 2018 07:06:04 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

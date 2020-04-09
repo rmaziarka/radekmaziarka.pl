@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming'
-slug: '/szkolenia/event-storming/'
+url: '/szkolenia/event-storming/'
 date: Thu, 14 Mar 2019 21:56:01 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

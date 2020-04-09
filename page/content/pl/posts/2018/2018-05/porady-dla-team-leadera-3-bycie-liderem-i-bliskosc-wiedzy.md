@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [3] - bycie liderem i bliskość wiedzy'
-slug: '/2018/05/27/porady-dla-team-leadera-3-bycie-liderem-i-bliskosc-wiedzy/'
+url: '/2018/05/27/porady-dla-team-leadera-3-bycie-liderem-i-bliskosc-wiedzy/'
 date: Sun, 27 May 2018 17:23:17 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720-1.jpg'

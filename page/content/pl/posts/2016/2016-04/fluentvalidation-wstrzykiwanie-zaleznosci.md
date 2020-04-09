@@ -1,6 +1,6 @@
 ---
 title: 'FluentValidation - wstrzykiwanie zależności'
-slug: '/2016/04/18/fluentvalidation-wstrzykiwanie-zaleznosci/'
+url: '/2016/04/18/fluentvalidation-wstrzykiwanie-zaleznosci/'
 date: Mon, 18 Apr 2016 22:11:15 +0000
 draft: false
 featured_image: 'images/2016/04/photo-1456428746267-a1756408f782-1.jpg'

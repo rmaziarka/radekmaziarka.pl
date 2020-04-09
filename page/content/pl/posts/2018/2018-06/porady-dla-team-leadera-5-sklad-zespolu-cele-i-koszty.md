@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [5] - skład zespołu & cele i koszty'
-slug: '/2018/06/26/porady-dla-team-leadera-5-sklad-zespolu-cele-i-koszty/'
+url: '/2018/06/26/porady-dla-team-leadera-5-sklad-zespolu-cele-i-koszty/'
 date: Tue, 26 Jun 2018 22:43:57 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720-1.jpg'

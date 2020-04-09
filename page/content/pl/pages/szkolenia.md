@@ -1,6 +1,6 @@
 ---
 title: 'Szkolenia'
-slug: '/szkolenia/'
+url: '/szkolenia/'
 date: Wed, 13 Mar 2019 19:45:45 +0000
 draft: false
 featured_image: 'images/2019/07/szkolenia.jpg'

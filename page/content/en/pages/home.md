@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-slug: '/home/'
+url: '/home/'
 date: Sun, 24 Jun 2018 15:19:57 +0000
 draft: false
 ---

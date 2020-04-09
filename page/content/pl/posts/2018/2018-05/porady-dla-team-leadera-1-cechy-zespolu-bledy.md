@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [1] - cechy zespołu i błędy'
-slug: '/2018/05/16/porady-dla-team-leadera-1-cechy-zespolu-bledy/'
+url: '/2018/05/16/porady-dla-team-leadera-1-cechy-zespolu-bledy/'
 date: Wed, 16 May 2018 21:02:19 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720.jpg'

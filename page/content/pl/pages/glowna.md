@@ -1,6 +1,6 @@
 ---
 title: 'Główna'
-slug: '/glowna/'
+url: '/glowna/'
 date: Sun, 24 Jun 2018 15:34:09 +0000
 draft: false
 ---

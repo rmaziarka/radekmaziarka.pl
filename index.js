@@ -109,7 +109,7 @@ function handlePostsXML(err, result) {
     console.log(`Post count: ${posts.length}`);
 
     var title = '';
-    var slug = '';
+    var postUrl = '';
     var content = '';
     var tags = [];
     var categoryName = '';
@@ -124,7 +124,7 @@ function handlePostsXML(err, result) {
     posts.forEach(function(post){
 
         title = post.title[0].trim();
-        slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
+        postUrl = post.link[0].trim().replace('https://radekmaziarka.pl','');
         
         title = title.replace(/'/g, "''");
 
@@ -194,11 +194,9 @@ function handlePostsXML(err, result) {
 
 
             fileHeader = ''
-            fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
+            fileHeader += `---\ntitle: '${title}'\nurl: '${postUrl}'\ndate: ${published}\ndraft: false\n`;
             if(featuredImagePath)
                 fileHeader+= `featured_image: '${featuredImagePath}'\n`;
-            if(language === 'en')
-                fileHeader += `aliases: ['${slug}']\n`;
             
             fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
             fileContent = `${fileHeader}\n${markdown}`;
@@ -320,7 +318,7 @@ function handlePagesXML(err, result) {
         console.log(`Pages count: ${pages.length}`);
 
         var title = '';
-        var slug = '';
+        var pageUrl = '';
         var content = '';
         var published = '';
         var fname = '';
@@ -334,7 +332,7 @@ function handlePagesXML(err, result) {
             var postMap = {};
 
             title = page.title[0].trim();
-            slug = page.link[0].trim().replace('https://radekmaziarka.pl','');
+            pageUrl = page.link[0].trim().replace('https://radekmaziarka.pl','');
             
             title = title.replace(/'/g, "''");
 
@@ -373,7 +371,7 @@ function handlePagesXML(err, result) {
                 markdown = removeDomainHostNames(markdown);
 
                 fileHeader = ''
-                fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
+                fileHeader += `---\ntitle: '${title}'\nurl: '${pageUrl}'\ndate: ${published}\ndraft: false\n`;
                 if(featuredImagePath)
                     fileHeader+= `featured_image: '${featuredImagePath}'\n`;
                 fileHeader+='---\n';

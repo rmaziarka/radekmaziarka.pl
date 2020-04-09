@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - zmapuj dowolny proces'
-slug: '/2019/10/21/event-storming-zmapuj-dowolny-proces/'
+url: '/2019/10/21/event-storming-zmapuj-dowolny-proces/'
 date: Mon, 21 Oct 2019 13:35:30 +0000
 draft: false
 featured_image: 'images/2019/10/event-storming-jak-zmapowac-dowolny-proces.jpg'

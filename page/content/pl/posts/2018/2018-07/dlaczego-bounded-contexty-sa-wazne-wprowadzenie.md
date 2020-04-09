@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne - wprowadzenie'
-slug: '/2018/07/18/dlaczego-bounded-contexty-sa-wazne-wprowadzenie/'
+url: '/2018/07/18/dlaczego-bounded-contexty-sa-wazne-wprowadzenie/'
 date: Wed, 18 Jul 2018 20:48:22 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'

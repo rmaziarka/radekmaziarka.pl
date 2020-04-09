@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [4] - delegacja i standardy'
-slug: '/2018/06/11/porady-dla-team-leadera-4-delegacja-i-standardy/'
+url: '/2018/06/11/porady-dla-team-leadera-4-delegacja-i-standardy/'
 date: Mon, 11 Jun 2018 05:52:01 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720-1.jpg'

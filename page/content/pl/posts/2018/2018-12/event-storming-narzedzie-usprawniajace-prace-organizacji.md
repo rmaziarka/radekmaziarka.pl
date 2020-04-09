@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - narzędzie usprawniające pracę organizacji'
-slug: '/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/'
+url: '/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/'
 date: Mon, 10 Dec 2018 22:26:27 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

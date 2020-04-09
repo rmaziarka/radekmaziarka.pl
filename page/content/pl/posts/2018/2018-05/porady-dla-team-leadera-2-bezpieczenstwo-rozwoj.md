@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [2] - bezpieczeństwo i rozwój'
-slug: '/2018/05/21/porady-dla-team-leadera-2-bezpieczenstwo-rozwoj/'
+url: '/2018/05/21/porady-dla-team-leadera-2-bezpieczenstwo-rozwoj/'
 date: Mon, 21 May 2018 18:04:37 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720-1.jpg'

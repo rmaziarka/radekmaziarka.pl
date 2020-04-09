@@ -1,6 +1,6 @@
 ---
 title: 'Wzorce architektoniczne'
-slug: '/szkolenia/wzorce-architektoniczne/'
+url: '/szkolenia/wzorce-architektoniczne/'
 date: Mon, 29 Jul 2019 11:42:22 +0000
 draft: false
 featured_image: 'images/2019/09/Wzorce-Architektoniczne.jpg'

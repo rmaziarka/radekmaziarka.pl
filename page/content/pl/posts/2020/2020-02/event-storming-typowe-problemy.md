@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - typowe problemy'
-slug: '/2020/02/09/event-storming-typowe-problemy/'
+url: '/2020/02/09/event-storming-typowe-problemy/'
 date: Sun, 09 Feb 2020 15:34:03 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

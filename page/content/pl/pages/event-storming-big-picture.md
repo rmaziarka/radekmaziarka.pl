@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - Big Picture'
-slug: '/szkolenia/event-storming-big-picture/'
+url: '/szkolenia/event-storming-big-picture/'
 date: Thu, 15 Aug 2019 11:58:10 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

@@ -1,6 +1,6 @@
 ---
 title: 'Szkolenia miękkie'
-slug: '/szkolenia/miekkie/'
+url: '/szkolenia/miekkie/'
 date: Mon, 29 Jul 2019 13:54:26 +0000
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'FluentValidation - integracja z ASP.NET MVC'
-slug: '/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/'
+url: '/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/'
 date: Sun, 13 Mar 2016 22:03:33 +0000
 draft: false
 category: 'Fluent Validation'

@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming w organizacji - Single Process'
-slug: '/2018/12/10/event-storming-w-organizacji-single-process/'
+url: '/2018/12/10/event-storming-w-organizacji-single-process/'
 date: Mon, 10 Dec 2018 22:20:48 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'

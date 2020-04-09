@@ -56,7 +56,7 @@ These models are heavily used by **ProductsService** - mainly consumer of logi
 
         public IEnumerable<Product> GetProducts(GetProductsDto dto)
         {
-            var products = this.\_database
+            var products = this._database
                     .Products
                     .Include(p => p.Category)
                     .Include(p => p.FieldValues)
@@ -111,13 +111,13 @@ These models are heavily used by **ProductsService** - mainly consumer of logi
 
         public void ChangeProductFieldValue(ChangeProductFieldValueDto dto)
         {
-            this.\_categoryFieldService.ValidateIfFieldCanBeAssignedToProduct(dto.FieldId, dto.ProductId);
+            this._categoryFieldService.ValidateIfFieldCanBeAssignedToProduct(dto.FieldId, dto.ProductId);
 
-            var fieldValidator = this.\_fieldValidatorFactory(dto.FieldId);
+            var fieldValidator = this._fieldValidatorFactory(dto.FieldId);
 
             fieldValidator.Validate(dto.FieldValue);
 
-            var product = this.\_database.Products
+            var product = this._database.Products
                 .Include(p => p.FieldValues)
                 .First(fv => fv.Id == dto.ProductId);
 
@@ -125,11 +125,11 @@ These models are heavily used by **ProductsService** - mainly consumer of logi
 
             if (fieldValue == null)
             {
-                this.\_productFieldHelper.AttachValueToField(product, dto.FieldId, dto.FieldValue);
+                this._productFieldHelper.AttachValueToField(product, dto.FieldId, dto.FieldValue);
             }
             else
             {
-                this.\_productFieldHelper.ReplaceFieldValue(product, dto.FieldId, dto.FieldValue);
+                this._productFieldHelper.ReplaceFieldValue(product, dto.FieldId, dto.FieldValue);
             }
 
             _database.SaveChanges();
@@ -189,7 +189,7 @@ Then you define handlers of these requests - they need to implement [IRequestHan
 
         IEnumerable<Product> IRequestHandler<GetProductsQuery, IEnumerable<Product>>.Handle(GetProductsQuery command)
         {
-            var products = this.\_database
+            var products = this._database
                     .Products
                     .Include(p => p.Category)
                     .Include(p => p.FieldValues)
@@ -263,13 +263,13 @@ Then you define handlers of these requests - they need to implement [IRequestHan
 
         public void Handle(ChangeProductFieldValueCommand command)
         {
-            this.\_categoryFieldService.ValidateIfFieldCanBeAssignedToProduct(command.FieldId, command.ProductId);
+            this._categoryFieldService.ValidateIfFieldCanBeAssignedToProduct(command.FieldId, command.ProductId);
 
-            var fieldValidator = this.\_fieldValidatorFactory(command.FieldId);
+            var fieldValidator = this._fieldValidatorFactory(command.FieldId);
 
             fieldValidator.Validate(command.FieldValue);
 
-            var product = this.\_database.Products
+            var product = this._database.Products
                 .Include(p => p.FieldValues)
                 .First(fv => fv.Id == command.ProductId);
 
@@ -277,11 +277,11 @@ Then you define handlers of these requests - they need to implement [IRequestHan
 
             if (fieldValue == null)
             {
-                this.\_productFieldHelper.AttachValueToField(product, command.FieldId, command.FieldValue);
+                this._productFieldHelper.AttachValueToField(product, command.FieldId, command.FieldValue);
             }
             else
             {
-                this.\_productFieldHelper.ReplaceFieldValue(product, command.FieldId, command.FieldValue);
+                this._productFieldHelper.ReplaceFieldValue(product, command.FieldId, command.FieldValue);
             }
 
             _database.SaveChanges();

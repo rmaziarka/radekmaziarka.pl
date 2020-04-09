@@ -26,9 +26,9 @@ At the beginning I had to **install package** which allows to run Azure Functio
 
 And you will see that required packages will be installed:
 
-```C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azurefunctions - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
-C:\\Users\\Radosław\\AppData\\Roaming\\npm\\func - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
-C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azfun - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node\_modules\\azure-functions-core-tools\\lib\\main.js
+```C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azurefunctions - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node_modules\\azure-functions-core-tools\\lib\\main.js
+C:\\Users\\Radosław\\AppData\\Roaming\\npm\\func - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node_modules\\azure-functions-core-tools\\lib\\main.js
+C:\\Users\\Radosław\\AppData\\Roaming\\npm\\azfun - C:\\Users\\Radosław\\AppData\\Roaming\\npm\\node_modules\\azure-functions-core-tools\\lib\\main.js
 C:\\Users\\Radosław\\AppData\\Roaming\\npm
 \`-- azure-functions-core-tools@1.0.0-beta.100```
 
@@ -48,9 +48,9 @@ And of course they didn't run this CLI. I got such error:
  throw err;
  ^
 
-Error: Cannot find module 'C:\\Program Files\\Git\\node\_modules\\azure-functions-core-tools\\lib\\main.js'
-at Function.Module.\_resolveFilename (module.js:440:15)
-at Function.Module.\_load (module.js:388:25)
+Error: Cannot find module 'C:\\Program Files\\Git\\node_modules\\azure-functions-core-tools\\lib\\main.js'
+at Function.Module._resolveFilename (module.js:440:15)
+at Function.Module._load (module.js:388:25)
 at Module.runMain (module.js:575:10)
 at run (node.js:348:7)
 at startup (node.js:140:9)
@@ -60,7 +60,7 @@ Console is trying to find Azure Function's modules in Git folder. Why? I couldn'
 
 So I omitted this problem with creating linking from node modules to Git workplace. And it solved the problem:
 
-```C:\\Program Files\\Git: mklink /D node\_modules %USERPROFILE%\\AppData\\Roaming\\npm\\node\_modules```
+```C:\\Program Files\\Git: mklink /D node_modules %USERPROFILE%\\AppData\\Roaming\\npm\\node_modules```
 
 I know that this is a workaround but it's better than nothing. If you know how to solve this problem properly please write a comment at the bottom of this post :)
 

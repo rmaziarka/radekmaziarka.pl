@@ -16,7 +16,7 @@ Zaczynamy od dodania do naszego projektu biblioteki łączącej _FluentValidati
 Install-Package FluentValidation.WebAPI
 ```
 
-Następnie w miejscu startu aplikacji (u mnie jest to _Application\_Start_ _Global.asax_) dodajemy kod odpowiedzialny za połączenie _FluentValidation_ z domyślną walidacją _WebAPI._
+Następnie w miejscu startu aplikacji (u mnie jest to _Application_Start_ _Global.asax_) dodajemy kod odpowiedzialny za połączenie _FluentValidation_ z domyślną walidacją _WebAPI._
 
 ```
 FluentValidationModelValidatorProvider.Configure(GlobalConfiguration.Configuration);

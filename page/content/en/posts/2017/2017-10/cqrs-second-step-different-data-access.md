@@ -44,7 +44,7 @@ You find your first bottleneck - gathering product's offer currently is taking t
 
         public IEnumerable<Product> Handle(GetProductsQuery command)
         {
-            var products = this.\_database
+            var products = this._database
                     .Products
                     .Include(p => p.Category)
                     .Include(p => p.Pictures)
@@ -299,7 +299,7 @@ After that your simplify query handler because you don’t need all these includ
 
         IEnumerable<ProductVm> IRequestHandler<GetProductsQuery, IEnumerable<ProductVm>>.Handle(GetProductsQuery command)
         {
-            var products = this.\_database.Products;
+            var products = this._database.Products;
 
             if (command.CategoryId.HasValue)
             {

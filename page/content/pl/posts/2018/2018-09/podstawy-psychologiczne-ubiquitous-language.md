@@ -137,7 +137,7 @@ Materiały:
 
 Prezentacja - [link do OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgvJXF-jV7Hs7Ov-Snw).
 
-[1] Eleanor Rosh – Principles of Categorization[http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778\_083247.pdf](http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778_083247.pdf)
+[1] Eleanor Rosh – Principles of Categorization[http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778_083247.pdf](http://commonweb.unifr.ch/artsdean/pub/gestens/f/as/files/4610/9778_083247.pdf)
 
 [2] Richard Lewis - How Different Cultures Understand Time
 
@@ -161,7 +161,7 @@ Prezentacja - [link do OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgvJXF-jV7Hs7Ov-
 
 [7] Wikipedia – Linguistic relativity
 
-[https://en.wikipedia.org/wiki/Linguistic\_relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
+[https://en.wikipedia.org/wiki/Linguistic_relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
 
 //pozostałe
 
@@ -175,7 +175,7 @@ Ben Liblit, Andrew Begel, and Eve Sweetser -  Cognitive Perspectives on the Rol
 
 Michael P. O’Brien - Software Comprehension – A Review & Research Direction
 
-[https://ulsites.ul.ie/csis/sites/default/files/csis\_software\_comprehension.pdf](https://ulsites.ul.ie/csis/sites/default/files/csis_software_comprehension.pdf)
+[https://ulsites.ul.ie/csis/sites/default/files/csis_software_comprehension.pdf](https://ulsites.ul.ie/csis/sites/default/files/csis_software_comprehension.pdf)
 
 Marian Petre  - Insights from expert software design practice
 

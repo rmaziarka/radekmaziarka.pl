@@ -16,7 +16,7 @@ Install-Package FluentValidation
 Install-Package FluentValidation.MVC5
 ```
 
-Następnie w miejscu startu aplikacji (u mnie jest to _Application\_Start_ _Global.asax_) dodajemy taki fragment kodu:
+Następnie w miejscu startu aplikacji (u mnie jest to _Application_Start_ _Global.asax_) dodajemy taki fragment kodu:
 
 ```
 FluentValidationModelValidatorProvider.Configure();

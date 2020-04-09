@@ -23,11 +23,11 @@ Na podstawie moich doświadczeń w dotychczasowych projektach chciałbym zapreze
 
  *   IBM – „Minimizing code defects to improve software quality and lower development costs.” [ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf](ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf)
  *   NIoST - „The Economic Impacts of Inadequate Infrastructure for Software Testing.” [https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf](https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf)
- *   List of cognitive biases - [https://en.wikipedia.org/wiki/List\_of\_cognitive\_biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases)
+ *   List of cognitive biases - [https://en.wikipedia.org/wiki/List_of_cognitive_biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases)
  *   Simon Sinek - Start with why -- how great leaders inspire action - [https://www.youtube.com/watch?v=4VdO7LuoBzM](https://www.youtube.com/watch?v=4VdO7LuoBzM)
  *   Start with why - [https://blog.hubspot.com/customers/3-takeaways-from-start-with-why](https://blog.hubspot.com/customers/3-takeaways-from-start-with-why)
  *   Dan north – „Introducing deliberate discovery” [https://dannorth.net/2010/08/30/introducing-deliberate-discovery/](https://dannorth.net/2010/08/30/introducing-deliberate-discovery/)
- *   Sebastian Gębski - "Cargo Cults„ [https://www.youtube.com/watch?v=fJh\_\_\_1qJA8](https://www.youtube.com/watch?v=fJh___1qJA8)
+ *   Sebastian Gębski - "Cargo Cults„ [https://www.youtube.com/watch?v=fJh___1qJA8](https://www.youtube.com/watch?v=fJh___1qJA8)
  *   Sebastian Gębski – „Developerzy którzy nie pytają dlaczego” [http://no-kill-switch.ghost.io/developers-who-dont-ask-why/](http://no-kill-switch.ghost.io/developers-who-dont-ask-why/)
  *   Jerzy Wickowicki – „Dociekliwość programisty. Pytaj dlaczego.” [http://jerzywickowski.pl/wizja/dociekliwosc-programisty-pytaj-dlaczego/](http://jerzywickowski.pl/wizja/dociekliwosc-programisty-pytaj-dlaczego/)
  *   Wojciech Seliga - „Plantacje programistów - kolonializm XXI wieku” [https://www.youtube.com/watch?v=dyGaJ82o41k](https://www.youtube.com/watch?v=dyGaJ82o41k)

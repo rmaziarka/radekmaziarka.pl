@@ -28,14 +28,14 @@ Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps
 
 **CQRS implementation:**
 
- *   Maciek Aniserowicza - CQRS pragmatycznie - [https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie\_597c9425dc0d60997f2bb17f\_pdf](https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie_597c9425dc0d60997f2bb17f_pdf)
+ *   Maciek Aniserowicza - CQRS pragmatycznie - [https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie_597c9425dc0d60997f2bb17f_pdf](https://kupdf.com/download/maciej-aniserowicz-cqrs-pragmatycznie_597c9425dc0d60997f2bb17f_pdf)
  *   Future Processing - CQRS Simple Architecture - [https://www.future-processing.pl/blog/cqrs-simple-architecture/](https://www.future-processing.pl/blog/cqrs-simple-architecture/)
  *   Derek Comartin - Fat Controllers CQRS Diet - [https://codeopinion.com/fat-controller-cqrs-diet-notifications](https://codeopinion.com/fat-controller-cqrs-diet-notifications)
  *   Radek Maziarka - First step - Split to commands and queries - [/2017/08/19/cqrs-first-step-split-to-commands-and-queries/](/2017/08/19/cqrs-first-step-split-to-commands-and-queries/)
 
 **More generic about CQRS:**
 
- *   Greg Young - CQRS Document - [https://cqrs.files.wordpress.com/2010/11/cqrs\_documents.pdf](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
+ *   Greg Young - CQRS Document - [https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
  *   Greg Young - CQRS and Event Sourcing - [https://www.youtube.com/watch?v=JHGkaShoyNs](https://www.youtube.com/watch?v=JHGkaShoyNs)
  *   Microsoft - CQRS Journey - [https://msdn.microsoft.com/en-us/library/jj554200.aspx](https://msdn.microsoft.com/en-us/library/jj554200.aspx)
  *   Udi Dahan - Clarified CQRS - [http://udidahan.com/2009/12/09/clarified-cqrs/](http://udidahan.com/2009/12/09/clarified-cqrs/)
@@ -45,7 +45,7 @@ Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps
 
 **CQRS in polish:**
 
- *   Bulldog - CQRS i Event Sourcing - [https://bulldogjob.pl/articles/122-cqrs-i-event-sourcing-czyli-latwa-droga-do-skalowalnosci-naszych-systemow\_](https://bulldogjob.pl/articles/122-cqrs-i-event-sourcing-czyli-latwa-droga-do-skalowalnosci-naszych-systemow_)
+ *   Bulldog - CQRS i Event Sourcing - [https://bulldogjob.pl/articles/122-cqrs-i-event-sourcing-czyli-latwa-droga-do-skalowalnosci-naszych-systemow_](https://bulldogjob.pl/articles/122-cqrs-i-event-sourcing-czyli-latwa-droga-do-skalowalnosci-naszych-systemow_)
  *   it-consulting - CQRS - [http://it-consulting.pl/autoinstalator/wordpress/2012/10/18/cqrs-czyli-kto-co-i-jak-zamawia-i-dostarcza/](http://it-consulting.pl/autoinstalator/wordpress/2012/10/18/cqrs-czyli-kto-co-i-jak-zamawia-i-dostarcza/)
  *   Łukasz Szydło - P&A + DDD + CQRS = 00 - [https://www.youtube.com/watch?v=yhYFL4ujYqY](https://www.youtube.com/watch?v=yhYFL4ujYqY)
 

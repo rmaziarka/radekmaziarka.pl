@@ -22,10 +22,10 @@ First, you need to create an instance of Autofac interface **IAutofacActionFilt
         {
             if (actionExecutedContext.Exception == null)
             {
-                this.\_transaction.Complete();
+                this._transaction.Complete();
             }
 
-            this.\_transaction.Dispose();
+            this._transaction.Dispose();
             return Task.CompletedTask;
         }
 
@@ -36,7 +36,7 @@ First, you need to create an instance of Autofac interface **IAutofacActionFilt
                 IsolationLevel = IsolationLevel.ReadCommitted,
                 Timeout = TransactionManager.MaximumTimeout
             };
-            this.\_transaction = new TransactionScope(TransactionScopeOption.Required, transactionOptions, 
+            this._transaction = new TransactionScope(TransactionScopeOption.Required, transactionOptions, 
                                                      TransactionScopeAsyncFlowOption.Enabled);
 
             return Task.CompletedTask;
@@ -47,7 +47,7 @@ The filter creates transaction every executed action and completes it when ther
 
 Then you need to register your filter during the creation of Autofac **ContainerBuilder **\- typically when the application is being started.
 ```
-        protected void Application\_Start()
+        protected void Application_Start()
         {
             ..
             var builder = new ContainerBuilder();

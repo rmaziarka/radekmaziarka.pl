@@ -247,6 +247,7 @@ function replaceCodeMarkups(markdown){
     // replace additional escaped characters 
     markdown = replaceAll(markdown, '\\[','[');
     markdown = replaceAll(markdown, '\\]',']');
+    markdown = replaceAll(markdown, '\\_','_');
     markdown = replaceAll(markdown, ' \\_',' _');
     
 

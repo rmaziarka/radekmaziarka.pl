@@ -232,8 +232,8 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
         private readonly SqlConnection _sqlConnection;
         private readonly Dictionary<SortColumn, string> _sortColumnDict = new Dictionary<SortColumn, string>()
         {
-            [SortColumn.ReviewCount] = "JSON\_VALUE(Review, '$.Count') ",
-            [SortColumn.ReviewAverage] = "JSON\_VALUE(Review, '$.Average') ",
+            [SortColumn.ReviewCount] = "JSON_VALUE(Review, '$.Count') ",
+            [SortColumn.ReviewAverage] = "JSON_VALUE(Review, '$.Average') ",
             [SortColumn.OrderAmount] = "OrderAmount "
         };
 
@@ -256,14 +256,14 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
             // filtering - rating
             if (command.AtLeastRating.HasValue)
             {
-                builder.Where("JSON\_VALUE(Review,'$.Average') >= @AtLeastRating", command);
+                builder.Where("JSON_VALUE(Review,'$.Average') >= @AtLeastRating", command);
             }
 
             // filtering - field values
             foreach (var fieldValue in command.FieldValues)
             {
                 var path = $"$.\\"{fieldValue.Key}\\""; // 1 => $."1"
-                builder.Where(@"JSON\_VALUE(FieldValues, @Path) = @Value", new { Path = path, Value = fieldValue.Value });
+                builder.Where(@"JSON_VALUE(FieldValues, @Path) = @Value", new { Path = path, Value = fieldValue.Value });
             }
 
             // ordering
@@ -302,7 +302,7 @@ Your system is currently running so you cannot just start applying new events b
 
 You decide to do it as straightforward as it can be - during the database migration. When a new structure for a read model is created, it will automatically be filled with desired data.
 
-Result SQL looks like [that](https://gist.github.com/rmaziarka/fd7921fc70e19d74f9184ba2884adb0e). It goes through every row in Products table and creates the analogical row in the ProductReadModel table. The most difficult part - flattening Field Values is accomplished by using a [STRING\_AGG](https://sqlperformance.com/2016/12/sql-performance/sql-server-v-next-string_agg-performance) function which allows concatenating multiple values into a single one. Unfortunately, the dynamic field value model requires CASE syntax to gather value from the proper column.
+Result SQL looks like [that](https://gist.github.com/rmaziarka/fd7921fc70e19d74f9184ba2884adb0e). It goes through every row in Products table and creates the analogical row in the ProductReadModel table. The most difficult part - flattening Field Values is accomplished by using a [STRING_AGG](https://sqlperformance.com/2016/12/sql-performance/sql-server-v-next-string_agg-performance) function which allows concatenating multiple values into a single one. Unfortunately, the dynamic field value model requires CASE syntax to gather value from the proper column.
 
 Of course, this is the simplest solution and with more complex scenarios, it won't be sufficient to cover all edge cases. More sophisticated solutions are:
 

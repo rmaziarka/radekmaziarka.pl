@@ -74,7 +74,7 @@ Dodatkowo w wielu firmach różne działy w firmie działają sprzecznie, częst
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Business_Model_Canvas.png/1920px-Business_Model_Canvas.png)
 
-Business Model Canvas - [https://pl.wikipedia.org/wiki/Business\_Model\_Canvas](https://pl.wikipedia.org/wiki/Business_Model_Canvas)
+Business Model Canvas - [https://pl.wikipedia.org/wiki/Business_Model_Canvas](https://pl.wikipedia.org/wiki/Business_Model_Canvas)
 
 Business Model Canvas pozwala nam uwspólnić wizje naszego produktu i skupić się na jego najważniejszych elementach. Jest to nasze bezpośrednie oświadczenie jak powinna działać nasza organizacja – na czym się skupiać, a co pomijać w swoich działaniach.
 
@@ -105,7 +105,7 @@ A to się bardzo mści. Jeśli bowiem nie znajdziemy tych problemów na etapie p
 
 [![](/images/2020/02/event-storming-part.png)](/images/2020/02/event-storming-part.png)
 
-Kadr książki Introducing Event Storming - [https://leanpub.com/introducing\_eventstorming](https://leanpub.com/introducing_eventstorming)
+Kadr książki Introducing Event Storming - [https://leanpub.com/introducing_eventstorming](https://leanpub.com/introducing_eventstorming)
 
 Event Storming pozwala nam zwizualizować cały proces biznesowy, biorąc pod uwagę różne aspekty i sposoby działania naszych pracowników / systemów. Widząc całość łatwiej jest zauważyć luki lub niespójności, zaproponować udoskonalenia, wybrać najważniejsze problemy do zaadresowania. Dodatkowo uwspólniamy naszą wiedzę o procesie dzieląc się swoim punktem widzenia.
 

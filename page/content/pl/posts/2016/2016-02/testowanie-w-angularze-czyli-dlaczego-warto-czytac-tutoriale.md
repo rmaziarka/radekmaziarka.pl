@@ -13,8 +13,8 @@ Przykładowy kod:
 
 ```typescript
     beforeEach(() => {
-        angular.mock.inject((\_someService\_: NameSpace.SomeService) => {
-            someService = _someService\_;
+        angular.mock.inject((_someService_: NameSpace.SomeService) => {
+            someService = _someService_;
         });
     });
 

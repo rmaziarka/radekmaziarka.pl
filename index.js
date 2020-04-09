@@ -1,13 +1,6 @@
 'use strict';
 
-/***
-    Usage: blog2md b|w <BLOGGER/WordPress BACKUP XML> <OUTPUT DIR>
-
-*/
-
-
 const fs = require('fs');
-const os = require('os');
 const path = require('path');
 const xml2js = require('xml2js');
 const TurndownService = require('turndown');
@@ -44,23 +37,6 @@ var myMkdirSync = function(dir){
         }
     }
 }
-
-function groupBy(list, keyGetter) {
-    const map = {}
-    list.forEach((item) => {
-         const key = keyGetter(item);
-         var array = map[key];
-         if (!array) {
-            map[key] = [item];
-         } else {
-            array.push(item);
-         }
-    });
-    return map;
-}
-
-
-
 
 function wordpressImport(){
     var parser = new xml2js.Parser();
@@ -106,7 +82,7 @@ function handleImagesXML(result){
 
     images.forEach(retrievePaths);   
 
-    //images.forEach(copyImages);    
+    images.forEach(copyImages);    
 
     images.forEach(image => {
         imagesById[image['wp:post_id'][0]] = image;
@@ -118,186 +94,144 @@ function handlePostsXML(err, result) {
         console.log(`Error parsing xml file (${backupXmlFile})\n${JSON.stringify(err)}`); 
         return 1;
     }
-    // console.dir(result); 
-    // console.log(JSON.stringify(result)); return;
-    var posts = [];
+
+    var posts = result.rss.channel[0].item;
     
-    // try {
-        posts = result.rss.channel[0].item;
+    posts = posts.filter(function(post){
+        var status = '';
+        if(post["wp:status"]){
+            status = post["wp:status"].join(''); 
+        }
+
+        return status != "private" && status != "inherit" && status != 'draft' && status != 'pending'
+    });
+
+    console.log(`Post count: ${posts.length}`);
+
+    var title = '';
+    var slug = '';
+    var content = '';
+    var tags = [];
+    var categoryName = '';
+    var published = '';
+    var language = '';
+    var fname = '';
+    var markdown = '';
+    var fileContent = '';
+    var fileHeader = '';
+    var featuredImagePath = '';
+    
+    posts.forEach(function(post){
+
+        title = post.title[0].trim();
+        slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
         
-        console.log(`Total Post count: ${posts.length}`);
-
-        posts = posts.filter(function(post){
-            var status = '';
-            if(post["wp:status"]){
-                status = post["wp:status"].join(''); 
-            }
-            // console.log(post["wp:status"].join(''));
-            return status != "private" && status != "inherit" && status != 'draft' && status != 'pending'
-        });
+        title = title.replace(/'/g, "''");
 
 
-        // console.log(posts)
-        console.log(`Post count: ${posts.length}`);
+        published = post.pubDate;
 
-        var title = '';
-        var slug = '';
-        var content = '';
-        var tags = [];
-        var categoryName = '';
-        var published = '';
-        var comments = [];
-        var language = '';
-        var fname = '';
-        var markdown = '';
-        var fileContent = '';
-        var fileHeader = '';
-        var postMaps = {};
-        var featuredImagePath = '';
+        var publishedDate = new Date(published);
+        var publishedFolderName = publishedDate.toISOString().slice(0,4) + '/' + publishedDate.toISOString().slice(0,7)
+        comments = post['wp:comment'];
+        fname = post["wp:post_name"][0] || post["wp:post_id"];
+        markdown = '';
+
+        console.log(`\n\n\n\ntitle: '${title}'`);
+        console.log(`published: '${published}'`);
         
-        posts.forEach(function(post){
-            var postMap = {};
+        if (comments){
+            console.log(`comments: '${comments.length}'`);    
+        }
+        
+        tags = [];
 
-            title = post.title[0].trim();
-            slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
-            
-            title = title.replace(/'/g, "''");
+        var categories = post.category;
+        var tagString = '';
 
+        if (categories && categories.length){
+            categories.forEach(function (category){
 
-            published = post.pubDate;
-
-            // not published 
-            if(published === 'Thu, 01 Jan 1970 00:00:00 +0000')
-                return;
-
-            var publishedDate = new Date(published);
-            var publishedFolderName = publishedDate.toISOString().slice(0,4) + '/' + publishedDate.toISOString().slice(0,7)
-            comments = post['wp:comment'];
-            fname = post["wp:post_name"][0] || post["wp:post_id"];
-            markdown = '';
-
-            console.log(`\n\n\n\ntitle: '${title}'`);
-            console.log(`published: '${published}'`);
-            
-            if (comments){
-                console.log(`comments: '${comments.length}'`);    
-            }
-            
-            tags = [];
-
-            var categories = post.category;
-            var tagString = '';
-
-            if (categories && categories.length){
-                categories.forEach(function (category){
-
-                    if(category.$.domain === 'post_tag')
-                        tags.push(category['_']);
-                    else if (category.$.domain === 'category')
-                        categoryName = category['_'];
-                    else if(category.$.domain === 'language')
-                        language = category.$.nicename;
-                });
-
-                // console.log(tags.join(", "));
-                // tags = tags.join(", ");
-                tagString = 'tags: [\'' + tags.join("', '") + "']\n";
-                // console.log(tagString);
-            }
-
-            featuredImagePath = '';
-            var metaArray = post['wp:postmeta'] || [];
-            var featuredThumbnailMeta = metaArray.filter(meta => {
-                return meta['wp:meta_key'][0] === '_thumbnail_id';
-            })[0];
-
-            if(featuredThumbnailMeta){
-                var featuredImageId = featuredThumbnailMeta['wp:meta_value'][0];
-                var featuredImage = imagesById[featuredImageId];
-                featuredImagePath = featuredImage.paths.blogPath;
-            }
-
-            var pmap = {fname:'', comments:[]};
-            var outputPostsDir = getOutputPostsDir(language);
-            pmap.fname = outputPostsDir+'/'+fname+'-comments.md';
-
-            fname = outputPostsDir+'/'+publishedFolderName+ '/'+fname+'.md';
-            var fdir = outputPostsDir+'/'+publishedFolderName + '/';
-            pmap.postName = fname;
-            console.log(`fname: '${fname}'`);
-            
-            if (post["content:encoded"]){
-                content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
-                markdown = tds.turndown(content);
-                markdown = replaceCodeMarkups(markdown);
-                markdown = replacePunctation(markdown);
-                markdown = fixImagesURL(markdown);
-                markdown = removeDomainHostNames(markdown);
-
-
-                fileHeader = ''
-                fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
-                if(featuredImagePath)
-                    fileHeader+= `featured_image: '${featuredImagePath}'\n`;
-                if(language === 'en')
-                    fileHeader += `aliases: ['${slug}']\n`;
-                
-                fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
-                fileContent = `${fileHeader}\n${markdown}`;
-                pmap.header = `${fileHeader}\n`;
-
-                // fileContent = `---\ntitle: '${title}'\ndate: ${published}\ndraft: false\n${tagString}---\n\n${markdown}`;
-
-                
-                myMkdirSync(fdir);
-                writeToFile(fname, fileContent);
-                
-            }
-
-            //comments:
-            /*
-                "wp:comment" [.each]
-                    wp:comment_author[0]
-                    wp:comment_author_email[0]
-                    wp:comment_author_url[0]
-                    wp:comment_date[0]
-                    wp:comment_content[0]
-                    wp:comment_approved[0] == 1
-                wp:post_id
-
-            */
-            var comments = post["wp:comment"] || [];
-            // console.dir(comments);
-            var anyApprovedComments = 0;
-            var ccontent = '';
-            comments.forEach(function(comment){
-                // console.log('')
-                if(comment["wp:comment_approved"].pop()){
-                    anyApprovedComments = 1;
-
-                    var cmt = {title:'', published:'', content:'', author:{}};
-
-                    cmt.published = (comment["wp:comment_date"]?comment["wp:comment_date"].pop():'');
-
-                    var cont = '<div>'+comment["wp:comment_content"].pop()+'</div>';
-                    cmt.content = (comment["wp:comment_content"]?tds.turndown(cont):'');
-
-                    cmt.author.name = (comment["wp:comment_author"]?comment["wp:comment_author"].pop():'');
-                    cmt.author.email = (comment["wp:comment_author_email"]?comment["wp:comment_author_email"].pop():'');
-                    cmt.author.url = (comment["wp:comment_author_url"]?comment["wp:comment_author_url"].pop():'');
-
-                    ccontent += `#### [${cmt.author.name}](${cmt.author.url} "${cmt.author.email}") - ${cmt.published}\n\n${cmt.content}\n`;
-
-                    pmap.comments.push(cmt);
-                }
+                if(category.$.domain === 'post_tag')
+                    tags.push(category['_']);
+                else if (category.$.domain === 'category')
+                    categoryName = category['_'];
+                else if(category.$.domain === 'language')
+                    language = category.$.nicename;
             });
 
-            //just a hack to re-use blogger writecomments method
-            if (pmap && pmap.comments && pmap.comments.length){
-                writeComments({"0": pmap});
-            }
+            tagString = 'tags: [\'' + tags.join("', '") + "']\n";
+        }
 
+        featuredImagePath = '';
+        var metaArray = post['wp:postmeta'] || [];
+        var featuredThumbnailMeta = metaArray.filter(meta => {
+            return meta['wp:meta_key'][0] === '_thumbnail_id';
+        })[0];
+
+        if(featuredThumbnailMeta){
+            var featuredImageId = featuredThumbnailMeta['wp:meta_value'][0];
+            var featuredImage = imagesById[featuredImageId];
+            featuredImagePath = featuredImage.paths.blogPath;
+        }
+
+        var pmap = {fname:'', comments:[]};
+        var outputPostsDir = getOutputPostsDir(language);
+        pmap.fname = outputPostsDir+'/'+fname+'-comments.md';
+
+        fname = outputPostsDir+'/'+publishedFolderName+ '/'+fname+'.md';
+        var fdir = outputPostsDir+'/'+publishedFolderName + '/';
+        pmap.postName = fname;
+        console.log(`fname: '${fname}'`);
+        
+        if (post["content:encoded"]){
+            content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
+            markdown = tds.turndown(content);
+            markdown = replaceCodeMarkups(markdown);
+            markdown = replacePunctation(markdown);
+            markdown = fixImagesURL(markdown);
+            markdown = removeDomainHostNames(markdown);
+
+
+            fileHeader = ''
+            fileHeader += `---\ntitle: '${title}'\nslug: '${slug}'\ndate: ${published}\ndraft: false\n`;
+            if(featuredImagePath)
+                fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+            if(language === 'en')
+                fileHeader += `aliases: ['${slug}']\n`;
+            
+            fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
+            fileContent = `${fileHeader}\n${markdown}`;
+            pmap.header = `${fileHeader}\n`;
+            myMkdirSync(fdir);
+            writeToFile(fname, fileContent);
+            
+        }
+
+        var comments = post["wp:comment"] || [];
+        comments.forEach(function(comment){
+            if(comment["wp:comment_approved"].pop()){
+                var cmt = {title:'', published:'', content:'', author:{}};
+
+                cmt.published = (comment["wp:comment_date"]?comment["wp:comment_date"].pop():'');
+
+                var cont = '<div>'+comment["wp:comment_content"].pop()+'</div>';
+                cmt.content = (comment["wp:comment_content"]?tds.turndown(cont):'');
+
+                cmt.author.name = (comment["wp:comment_author"]?comment["wp:comment_author"].pop():'');
+                cmt.author.email = (comment["wp:comment_author_email"]?comment["wp:comment_author_email"].pop():'');
+                cmt.author.url = (comment["wp:comment_author_url"]?comment["wp:comment_author_url"].pop():'');
+
+                pmap.comments.push(cmt);
+            }
         });
+
+        //just a hack to re-use blogger writecomments method
+        if (pmap && pmap.comments && pmap.comments.length){
+            writeComments({"0": pmap});
+        }
+
+    });
 
 }
 
@@ -366,16 +300,15 @@ function handlePagesXML(err, result) {
         console.log(`Error parsing xml file (${backupXmlFile})\n${JSON.stringify(err)}`); 
         return 1;
     }
-    // console.dir(result); 
-    // console.log(JSON.stringify(result)); return;
-    var posts = [];
+
+    var pages = [];
     
     // try {
-        posts = result.rss.channel[0].item;
+        pages = result.rss.channel[0].item;
         
-        console.log(`Total Post count: ${posts.length}`);
+        console.log(`Total Post count: ${pages.length}`);
 
-        posts = posts.filter(function(post){
+        pages = pages.filter(function(post){
             var status = '';
             if(post["wp:status"]){
                 status = post["wp:status"].join(''); 
@@ -384,16 +317,12 @@ function handlePagesXML(err, result) {
             return status != "private" && status != "inherit" 
         });
 
-
-        // console.log(posts)
-        console.log(`Post count: ${posts.length}`);
+        console.log(`Pages count: ${pages.length}`);
 
         var title = '';
         var slug = '';
         var content = '';
-        var categoryName = '';
         var published = '';
-        var comments = [];
         var fname = '';
         var markdown = '';
         var fileContent = '';
@@ -401,20 +330,20 @@ function handlePagesXML(err, result) {
         var featuredImagePath = '';
         var language = '';
         
-        posts.forEach(function(post){
+        pages.forEach(function(page){
             var postMap = {};
 
-            title = post.title[0].trim();
-            slug = post.link[0].trim().replace('https://radekmaziarka.pl','');
+            title = page.title[0].trim();
+            slug = page.link[0].trim().replace('https://radekmaziarka.pl','');
             
             title = title.replace(/'/g, "''");
 
-            published = post.pubDate;
-            fname = post["wp:post_name"][0] || post["wp:post_id"];
+            published = page.pubDate;
+            fname = page["wp:post_name"][0] || page["wp:post_id"];
             markdown = '';
             
             featuredImagePath = '';
-            var metaArray = post['wp:postmeta'] || [];
+            var metaArray = page['wp:postmeta'] || [];
             var featuredThumbnailMeta = metaArray.filter(meta => {
                 return meta['wp:meta_key'][0] === '_thumbnail_id';
             })[0];
@@ -425,7 +354,7 @@ function handlePagesXML(err, result) {
                 featuredImagePath = featuredImage.paths.blogPath;
             }
 
-            var categories = post.category;
+            var categories = page.category;
 
             categories.forEach(function (category){
                 if(category.$.domain === 'language')
@@ -436,9 +365,8 @@ function handlePagesXML(err, result) {
             var outputPagesDir = getOutputPagesDir(language);
             fname = outputPagesDir+'/'+fname+'.md';
             
-            if (post["content:encoded"]){
-                // console.log('content available');
-                content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
+            if (page["content:encoded"]){
+                content = '<div>'+page["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
                 markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
@@ -464,7 +392,6 @@ function writeComments(postMaps){
     for (var pmap in postMaps){
         var comments = postMaps[pmap].comments;
         console.log(`post id: ${pmap} has ${comments.length} comments`);
-        // console.dir(comments);
 
         if (comments.length){
             var ccontent = '';

@@ -4,6 +4,7 @@
 @import 'posts.scss';
 @import 'categories';
 @import 'tags';
+@import 'single';
 
 body {
   color: $textColor;
@@ -50,3 +51,6 @@ a {
 @import 'partials/menu';
 @import 'partials/search';
 @import 'partials/summaryWithImage';
+@import 'partials/moreLink';
+@import 'partials/sidebar';
+@import 'partials/footer';

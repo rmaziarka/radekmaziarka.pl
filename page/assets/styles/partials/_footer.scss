@@ -1,0 +1,11 @@
+footer {
+  padding: 25px 0;
+  color: $footerColor;
+  background: $footerBackground;
+  margin-top: 50px;
+  font-family: $footerFont;
+
+  a {
+    color: $footerColor;
+  }
+}

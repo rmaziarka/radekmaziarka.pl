@@ -1,0 +1,19 @@
+.moreLink {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 11px 12px;
+  border: 1px solid #e5e5e5;
+  background: #fbfbfb;
+  color: #777;
+  font-family: $buttonFont;
+  font-size: $buttonSize;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+
+  &:hover{
+    background-color: #000;
+    color: white;
+  }
+}

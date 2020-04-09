@@ -5,10 +5,12 @@ $colorGrayMedium: #b4b4b4;
 $colorGrayLight: #ebebeb;
 $colorBlue: #318892;
 
+$fontSize10: 10px;
 $fontSize11: 11px;
 $fontSize14: 14px;
 $fontSize16: 16px;
 $fontSize20: 20px;
+$fontSize23: 23px;
 $fontSize24: 24px;
 
 $fontPopins: 'Poppins', sans-serif;
@@ -35,7 +37,18 @@ $formColor: $colorGrayMedium;
 $formFont: $fontPopins;
 $formSize: $fontSize11;
 
-$articleTitleSize: $fontSize20;
+$articleTitleSize: $fontSize23;
 $articleTitleFont: $fontPopins;
 $articleBodySize: $fontSize14;
 $articleBodyColor: $colorGray;
+
+$buttonFont: $fontPopins;
+$buttonSize: $fontSize10;
+
+$sidebarFont: $fontPopins;
+$sidebarColor: $colorBlack;
+$sidebarSize: $fontSize16;
+
+$footerColor: $colorGrayMedium;
+$footerBackground: $colorGrayLight;
+$footerFont: $fontPopins;

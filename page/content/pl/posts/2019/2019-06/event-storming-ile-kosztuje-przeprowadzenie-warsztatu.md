@@ -14,8 +14,7 @@ Z Event Stormingiem jest jak z jazdą na rowerze - wymaga praktyki. Można przec
 
 Ile zatem kosztuje przeprowadzenie sesji dla średniej wielkości zespołu? Co trzeba mieć a bez czego można się obejść? Jak zoptymalizować koszty, bez utraty jakości?
 
-Karteczki
-=========
+# Karteczki
 
 Karteczki samoprzylepne (ang: Sticky Notes) czyli fundament naszego warsztatu. Będziemy ich potrzebować dosyć sporo i nie warto oszczędzać na ich ilości. Alberto Brandolini - czyli twórca techniki, dość mocno promuje karteczki marki Post-it.
 
@@ -39,15 +38,13 @@ Karteczki obu tych firm miałem okazje przetestować podczas wielu warsztatów i
 
 Gdzie je kupić i ile będzie mi ich potrzebne? Tutaj śmiało mogę polecić sklep internetowy [Office Media](https://b2b.officemedia.com.pl/). Oferują wszystkie kolory i rozmiary karteczek, które będą nam potrzebne do przeprowadzenia warsztatu - a to wszystko w jednym miejscu.
 
-Ile kupić karteczek? Dużo!
-==========================
+# Ile kupić karteczek? Dużo!
 
 Tak jak pisałem wcześniej **nie warto oszczędzać na ilości**. Uczestnicy warsztatu musza czuć, że materiałów biurowych mamy pod dostatkiem. Jakiekolwiek braki w tym obszarze mogą negatywnie wpłynąć na naszą sesje. Jeżeli widzimy, że czegoś brakuje to w sposób naturalny zaczynamy to oszczędzać - tak działa ludzki mózg.
 
 Te oszczędności mogą prowadzić do 'blokowania' się ludzi przed swobodnym dyskutowaniem o systemie/procesie, który modelujemy. W efekcie rezultat naszej sesji może być niepełny a czasami nawet błędny! Dlatego nie warto sabotować warsztatu i oszczędzać na ilości karteczek. Ta inwestycja na pewno się zwróci!
 
-Rolka Papieru
-=============
+# Rolka Papieru
 
 Kolejny fundament naszego warsztatu, bez którego nie można się obejść. Podobnie jak w przypadku karteczek opcji mamy kilka.
 
@@ -61,8 +58,7 @@ Ważne aby nie przyklejać karteczke bezpośrednio do ściany. Po pierwsze klej 
 
 [caption id="attachment_1753" align="alignnone" width="770"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg) Przykład wykorzystania szarej rolki papieru, dostepnej na każdej poczcie. (obrazek pochodzi z : https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d)[/caption]
 
-Event Storming starter kit
-==========================
+# Event Storming starter kit
 
 Poniżej skompletowałem zestaw, kupowany przy stanie braku absolutnie wszystkiego:
 

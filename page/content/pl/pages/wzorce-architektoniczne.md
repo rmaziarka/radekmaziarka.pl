@@ -18,8 +18,7 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-Opis szkolenia
-==============
+# Opis szkolenia
 
 Cytując Wikipedię:
 
@@ -27,16 +26,14 @@ Cytując Wikipedię:
 
 Podczas mojego szkolenia chciałbym przekazać Ci wiedzę na temat wzorców architektonicznych, wraz z informacjami w jakich kontekstach ich używać, a w jakich raczej są one odradzane. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-Wiedza uzyskana na szkoleniu:
-=============================
+# Wiedza uzyskana na szkoleniu:
 
  *   Wiedza na temat wzorców architektonicznych
  *   Zrozumienie zysków i kosztów każdego z wzorców
  *   Umiejętność dobrania wzorca do napotkanego problemu
  *   Kompetencja do wdrożenia wzorca wraz z odpowiednią dokumentacją i testami
 
-Możliwy zakres szkolenia:
-=========================
+# Możliwy zakres szkolenia:
 
  *   Czym jest architektura oprogramowania
  *   Architektura aplikacji a systemu

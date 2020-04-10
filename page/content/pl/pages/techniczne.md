@@ -7,8 +7,7 @@ draft: false
 
 Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb daj mi znać! Z chęcią przygotuję coś specjalnie dla Ciebie. [Skontaktuj się ze mną](/kontakt)
 
-[Event Storming - PROJEKTOWANIE OPROGRAMOWANIA](/szkolenia/event-storming-projektowanie-oprogramowania)
-=======================================================================================================
+# [Event Storming - PROJEKTOWANIE OPROGRAMOWANIA](/szkolenia/event-storming-projektowanie-oprogramowania)
 
 [![](/images/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-projektowanie-oprogramowania)
 
@@ -18,8 +17,7 @@ Przeważnie ten warsztat wykonywany jest po Event Stroming Big Picture – chcem
 
 Zobacz jak wykorzystać tę technikę w swojej codziennej pracy! [Więcej o szkoleniu.](/szkolenia/event-storming-projektowanie-oprogramowania)
 
-[Wzorce architektoniczne](/szkolenia/wzorce-architektoniczne)
-=============================================================
+# [Wzorce architektoniczne](/szkolenia/wzorce-architektoniczne)
 
 [![](/images/2019/09/Wzorce-Architektoniczne.jpg)](/szkolenia/wzorce-architektoniczne)
 
@@ -27,8 +25,7 @@ Cytując Wikipedię "wzorzec architektoniczny (ang. architectural pattern) – u
 
 Jednak nie są to tzw. silver bullety. Każdy z wzorców niesie za sobą konkretny koszt, który musimy ponieść by go wdrożyć. Dodatkowo pewne zmiany nie są możliwe, kiedy wykorzystujemy specyficzną architekturę. Czy wdrażać dany wzorzec? Jak to mawiają konsultanci - to zależy... [Więcej o szkoleniu.](/szkolenia/wzorce-architektoniczne)
 
-[DDD i Mikroserwisy](/szkolenia/ddd-i-mikroserwisy/)
-====================================================
+# [DDD i Mikroserwisy](/szkolenia/ddd-i-mikroserwisy/)
 
 [![](/images/2019/09/Mikroserwisy.jpg)](/szkolenia/ddd-i-mikroserwisy/)
 
@@ -38,8 +35,7 @@ Mikroserwisy powinny dostarczać konkretne możliwości biznesowe, a jak to robi
 
 Naucz się tworzyć wydajne mikroserwisy! [Więcej o szkoleniu.](/szkolenia/ddd-i-mikroserwisy/)
 
-[Loosely-coupled architecture](/szkolenia/loosely-coupled-architecture/)
-========================================================================
+# [Loosely-coupled architecture](/szkolenia/loosely-coupled-architecture/)
 
 [![](/images/2019/09/Loosely-coupled.jpg)](/szkolenia/loosely-coupled-architecture/)
 
@@ -49,8 +45,7 @@ Architektura "Loosely-Coupled" czyli luźno ze sobą związana została opisana 
 
 Sprawdź jak tworzyć architekturę, która oprze się próbie czasu! [Więcej o szkoleniu.](/szkolenia/loosely-coupled-architecture/)
 
-[CQRS](/szkolenia/cqrs/)
-========================
+# [CQRS](/szkolenia/cqrs/)
 
 [![](/images/2019/09/CQRS.jpg)](/szkolenia/cqrs/)
 

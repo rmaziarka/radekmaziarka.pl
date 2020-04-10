@@ -16,8 +16,7 @@ Warsztat ten jest skierowany i opisywany głównie na podstawie systemów inform
 
 Przeprowadzenie warsztatów nie wymaga specjalistycznej znajomości opasłych ksiąg i dziesiątek video – wszystko zaczyna się od pomarańczowej karteczki.
 
-Zdarzenie domenowe – serce warsztatu
-====================================
+# Zdarzenie domenowe – serce warsztatu
 
 Event Storming opiera się na zdarzeniach domenowych – faktach opisujących pracę naszego systemu. Każde zdarzenie zapisujemy na karteczce i umieszczamy na ścianie. Poniżej moje (lekko niestarannie napisane) zdarzenie- dodanie produktu do koszyka.
 
@@ -29,8 +28,7 @@ Nawet jeśli na pierwszy rzut oka wydaje wam się to przytłaczające, uwierzcie
 
 Dalej zaczyna się strukturyzacja powyższego rezultatu.
 
-Strukturyzacja
-==============
+# Strukturyzacja
 
 Po umieszczeniu wszystkich zdarzeń na ścianie zaczyna się porządkowanie i układanie powyższych karteczek, w taki sposób, by nasze zdarzenia połączyć we wspólne procesy biznesowe / przypadki użycia. Każdy taki proces możemy analizować osobno, przechodząc go chronologicznie od początku do końca, jak i odwrotnie, by zyskiwać coraz większą wiedzę jak nasz proces zachodzi.
 
@@ -48,8 +46,7 @@ Aby bardziej uwidocznić prawidłowości zachodzące w analizowanym procesie prz
 
 Nowe kolory wprowadzamy je do warsztatu stopniowo, kiedy potrzebujemy uzyskać daną informację od naszych kolegów.
 
-Cele warsztatu
-==============
+# Cele warsztatu
 
 Rezultatem dobrze przeprowadzonego warsztatu jest pełny widok naszego systemu, zarysowane procesy biznesowe i sposób ich interakcji z użytkownikami i zewnętrznymi systemami. Taka wiedza pozwala nam na:
 
@@ -60,8 +57,7 @@ Rezultatem dobrze przeprowadzonego warsztatu jest pełny widok naszego systemu, 
  *   stworzenie planu na dodanie nowej funkcjonalności do obecnego systemu
  *   predykcję możliwości rozwoju naszego systemu i osiągania większych zysków
 
-Przykładowy rezultat warsztatu
-==============================
+# Przykładowy rezultat warsztatu
 
 Jeden wielu z takich warsztatów przeprowadziliśmy dla naszego klienta. Zadaniem było zrozumieć jak działa duży, monolityczy system i zaplanować podzielenie go na mniejsze części. Poniżej rezultat naszego warsztatu (zdjęcie z 1/2 całości):
 
@@ -81,8 +77,7 @@ Wszyscy uczestnicy warsztatów byli bardzo zadowoleni z rezultatów, ale jednocz
 
 Po takim zastrzyku wiedzy mogliśmy podzielić się dalszą pracą i zacząć implementować lepsze rozwiązanie dla naszego klienta.
 
-Ogólne spojrzenie na Event Storming
-===================================
+# Ogólne spojrzenie na Event Storming
 
 Jak widać z przykładu, warsztaty Event Storming pozwalają w prostszy sposób zwizualizować sposób działania naszego systemu poprzez równoczesną i wspólną wymianę wiedzy między współpracownikami. Każda z osób jest zaangażowana, by dzieli się wiedzą o swoim obszarze prac, przekazując jak najwięcej informacji.
 
@@ -90,8 +85,7 @@ Ważne jest, że Event Storming ma bardzo niski próg wejścia, dzięki czemu ka
 
 Dodatkowym aspektem jest tutaj czas. Przez zrównoleglenie prac i podział grupy jesteśmy w stanie pracować efektywniej, dzięki czemu warsztaty są krótsze i dające wymierny efekt.
 
-Jak przeprowadzić taki warsztat
-===============================
+# Jak przeprowadzić taki warsztat
 
 Istnieje wiele materiałów opisujących warsztat Event Stormingu, zarówno w języku angielskim ([artykuł](https://buildplease.com/pages/fpc-2/) / [video](https://www.youtube.com/watch?v=04tGbixfGEY)) jak i polskim ([artykuł](https://rmakara.github.io/Event-Storming-Warsztaty-Agile-Wroclaw) / [video](https://www.youtube.com/watch?v=dhoXYRqghws)), nie wspominając już o tej najważniejszej [książce](https://leanpub.com/introducing_eventstorming). Bardzo ciekawy zbiór zawarł Mariusz Gil na GitHubie w repo [Awesome EventStorming](https://github.com/mariuszgil/awesome-eventstorming).
 

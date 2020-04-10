@@ -10,8 +10,7 @@ tags: ['leadership']
 
 // wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Zdaj sobie sprawę z bycia liderem
----------------------------------
+## Zdaj sobie sprawę z bycia liderem
 
 Część osób będzie Cię słuchała bez żadnych głosów zwątpienia – będzie tutaj wchodziła w grę [reguła autorytetu](http://jamowie.to/zabojczo-silna-regula-autorytetu/), opisywana przez Roberta Ciandiniego w książce “Wywieranie wpływu na ludzi. Teoria i praktyka”. Już z samej racji posiadania tytułu lidera twoi koledzy mogą być mniej chętni wchodzić z tobą w dyskusje i wyrażać swoje odmienne poglądy. Nie dlatego, że nie da się Ciebie przekonać, ale dlatego, że będą uważać, że jako lider najprawdopodobniej masz rację.
 
@@ -19,8 +18,7 @@ Z drugiej strony ty także możesz wpaść w pułapkę i jako team leader przes
 
 Aby być dobrym liderem trzeba mieć rozbudowaną autorefleksję – akceptować swoje braki i dawać się przekonywać swoim kolegom. Wiedzieć w którym momencie użyć władzy i zawsze robić to konstruktywnie i z odpowiednim wyjaśnieniem. Pomoże w tym **atmosfera otwartości**, która sprawi, że ludzie nie będą bali się skrytykować twojego zdania. Wiedza, że mogą Ci się sprzeciwić, a Ty weźmiesz pod uwagę ich zdanie, pozwala na stworzenie zespołu pełnego dobrych pomysłów i wartościowych uwag.
 
-Staraj się być blisko wiedzy
-----------------------------
+## Staraj się być blisko wiedzy
 
 Jako lider nie będziesz mieć czasu na dogłębne poznawanie frameworków, z którymi będzie pracować zespół. Z obecną częstotliwością pojawiania się nowych bibliotek Javascript nie poradziłby sobie z tym nawet dedykowany do tego full-time developer.
 

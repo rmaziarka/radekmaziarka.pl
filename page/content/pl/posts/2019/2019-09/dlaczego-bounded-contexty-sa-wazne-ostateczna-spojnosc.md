@@ -12,8 +12,7 @@ tags: ['ddd', 'domain driven design']
 
 Punktem, który często pojawia się podczas pisania systemów rozproszonych jest kwestia zapanowania nad spójnością danych. Temat jest bardzo często interpretowany w sposób kompletnie nieprzystający do rzeczywistości, w ramach której pracujemy. Ostateczna spójność (Eventual Consistency) jest odrzucana jako coś niepożądanego. Chcemy osiągnąć natychmiastową spójność, co rodzi więcej problemów niż tworzy zysków.
 
-Rozproszony system zamówień
-===========================
+# Rozproszony system zamówień
 
 Załóżmy, że posiadamy rozproszony system e-commerce. Każdy z mikroserwisów realizuje swoją funkcję:
 
@@ -26,8 +25,7 @@ Załóżmy, że posiadamy rozproszony system e-commerce. Każdy z mikroserwisów
 
 System posiada pewną dozę odseparowania od siebie – niezależne aplikacje i bazy danych. Gdy jednak dochodzi do składania zamówienia, wymagane jest sprawdzenie danych w 5 pozostałych serwisach, by zamówienie mogło zostać zrealizowane. Chcemy mieć natychmiastową spójność – być pewni, że w żadnym z miejsc dane nie zostały zmienione.
 
-Fallacies of distributed computing
-==================================
+# Fallacies of distributed computing
 
 Taki sposób tworzenia systemów mógł dawać radę, gdy system działał jako monolit. Mieliśmy połączenia do tej samej bazy danych, wszystko działo się w jednym procesie, łatwo było zawracać transakcje. Niestety, dziś jest inaczej. Teraz głównym trendem jest tworzenie systemów opartych o mikroserwisy. A ten świat rządzi się innymi prawami.
 
@@ -35,8 +33,7 @@ Taki sposób tworzenia systemów mógł dawać radę, gdy system działał jako 
 
 Niestety, nasz mindset wcale nie poszedł do przodu. Dalej staramy się pisać nasze systemy tak, jakby wszystko dało się zapewnić w sposób natychmiastowy. A to powoduje problemy, niekiedy naprawdę nieoczywiste.
 
-Zamówienia jako wąskie gardło
-=============================
+# Zamówienia jako wąskie gardło
 
 Biorąc powyższe pod uwagę, natychmiastowo rzuca się w oczy pierwszy problem. Nawet jeśli jesteśmy w stanie zapewnić 99% dostępności naszych serwisów, to jeśli w składaniu zamówienia bierze udział 6 takich serwisów, to nasza ogólna dostępność spada do 94% (0.99^6). Czyli zamiast gubić 1 zamówienie na 100 to zaczynamy ich gubić 6 razy więcej.
 
@@ -50,8 +47,7 @@ To też łączy się z wprowadzaniem jakichkolwiek zmian kontraktu. Nie jesteśm
 
 A więc co robić / jak żyć?
 
-Brak systemów informatycznych
-=============================
+# Brak systemów informatycznych
 
 Żeby sobie uzmysłowić rozwiązanie tego problemu dobrze jest posłużyć się przykładem z czasów, kiedy jeszcze nie było Internetu, a szczególnie systemów rozproszonych. #KiedyśToByło
 
@@ -63,8 +59,7 @@ Ostatecznie informacje docierały do sklepu – aktualizacje cen, możliwe iloś
 
 Teraz mamy Internet, systemy rozproszone i latające deskorolki (prawie…), ale to nie znaczy, że te reguły warto odłożyć do lamusa. Nawet najprostsze zamówienie w McDonaldzie jest ostatecznie spójne – otrzymanie burgera jest rozłączne od płacenia za niego. Rzeczywistość dookoła nas nie jest natychmiastowo spójna, bo to byłoby zbyt trudne do zrealizowania.
 
-Bounded context i ostateczna spójność
-=====================================
+# Bounded context i ostateczna spójność
 
 Tutaj dochodzimy do sedna – kontekst (w naszym przypadku w postaci mikroserwisu) jako pojedyncza jednostka spójności jest wobec samej siebie zawsze spójna. Wszystkie zmiany zachodzące wewnątrz niego są pewne. Ale nie powinien się starać za wszelką cenę być spójny z pozostałymi kontekstami. To by łamało autonomię i zmuszało do rozległych koordynacji.
 
@@ -76,8 +71,7 @@ Koordynacja jest osiągana za pomocą:
 
 Takie działania pozwalają nam na osiąganie ostatecznej spójności, jednocześnie nie wymuszając natychmiastowej synchronizacji pomiędzy kontekstami.
 
-E-commerce i ostateczna spójność
-================================
+# E-commerce i ostateczna spójność
 
 Tłumacząc to na nasz system e-commerce – serwis zamówień jako pojedynczy kontekst będzie spójny wewnętrznie tzn. sprzeda towary wg. swojej aktualnej wiedzy. Mamy 100% pewność, że udało się złożyć zamówienie wg. określonych kryteriów ceny, ilości i parametrów.
 
@@ -89,8 +83,7 @@ W podobny sposób zarządza się ilością towarów. Systemy e-commerce stawiaj�
 
 Taki podział sprawia, że **mamy dobrze odseparowane odpowiedzialności i możemy pracować w niezależny sposób**. Na pierwszy rzut oka wygląda to niepokojąco, ale tak działają największe platformy e-commerce na świecie i w Polsce. Np. Amazon wysyła na Kindla e-booka natychmiast po kliknięciu KUP, nie patrząc czy płatność się zakończyła. Pozwala to skupić się na zadowoleniu klienta i zająć się księgowaniem później.
 
-Czy zawsze warto?
-=================
+# Czy zawsze warto?
 
 Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są silnie spójne, wykorzystując do tego odpowiednie wzorce i bazy danych np. CosmosDB i jego [różne poziomy spójności](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels). Można też spróbować rozwiązywać opisane wyżej problemy za pomocą skomplikowanych wdrożeń i rozwiązań technicznych z obszarów Service Meshy. Ma to jednak swoje wady:
 
@@ -104,8 +97,7 @@ O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypa
 
 Bardzo często będziemy zaskoczeni jak coś, co dla nas mogło być nie do zaakceptowania, będzie bez przymrużenia okiem zaakceptowane przez ekspertów domenowych. Dla nich np. synchronizacja informacji w ciągu 2 sekund jest tak absurdalnie niska, że w zasadzie pomijalna. A jeśli jakiś towar sprzedaje się tak szybko, że nie dajemy radę sprawdzać jego stanów magazynowych to jest to raczej wskazanie, by ich nie sprawdzać w ogóle 😉
 
-Ostateczna spójność a myślenie systemowe
-========================================
+# Ostateczna spójność a myślenie systemowe
 
 Jeśli po przeczytaniu tego artykułu dalej masz w głowie takie przemyślenie: „Co mnie obchodzą możliwe problemy – po to tworzę system informatyczny, by mieć to w jednym miejscu spójnie” to może trafi do Ciebie poniższy argument.
 

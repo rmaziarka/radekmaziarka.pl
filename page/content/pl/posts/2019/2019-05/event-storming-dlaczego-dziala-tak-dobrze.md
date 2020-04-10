@@ -12,8 +12,7 @@ Event Storming zdobywa coraz większą popularność w świecie informatycznym i
 
 Powstaje więc pytanie – skąd taka popularność tego warsztatu? Co powoduje, że po zetknięciu się z tym warsztatem zaczynamy widzieć wartość z jego wykorzystywania w różnych dziedzinach swojej pracy lub życia? Dlatego ten warsztat jest taki efektywny?
 
-1\. Czas przeszły
-=================
+# 1\. Czas przeszły
 
 Gdy zastanawiamy się and jakimkolwiek procesem czy aktywnością mamy zwykle w głowie konkretne czynności, które muszą mieć miejsce. Jednak proste spisanie ich powoduje, że nie dostrzegamy czy przypadkiem nie mówimy tylko o „happy path”, nie wiemy jaka jest kolejność czynności, czy nie nakładają się one na siebie, czy są one wykywane równolegle czy nie. Powoduje to zamieszanie i ostatecznie mało zrozumiały proces. A ten przekształca się ostatecznie w mało zrozumiały i nieefektywny kawałek systemu.
 
@@ -25,8 +24,7 @@ To sprawia, że łatwiej jest znaleźć luki czy niejasności w naszym procesie.
 
 W czasie przeszłym po prostu łatwiej się myśli. Zauważ, że 95% książek i opowiadań jest pisana w czasie przeszłym. A przed pismem wszystkie historie były przekazywane w taki sposób. **W czasie przeszłym trudniej jest kłamać** czy mieszać, bo historia nie będzie nam się zgadzać. My ludzie jesteśmy predysponowani by lepiej pracować działając w oparciu o zdarzenia „X się wydarzyło”, „zrobiłem Y”.
 
-2 . Wizualizacja​
-=================
+# 2 . Wizualizacja​
 
 Człowiek jest istotą kierującą się głównie zmysłem wzroku. Colin Ware w [swojej pracy](http://www.ifs.tuwien.ac.at/~silvia/wien/vu-infovis/articles/book_information-visualization-perception-for-design_Ware_Chapter1.pdf) na temat wizualizacji pisał, że około 20% neuronów w naszym mózgu jest odpowiedzialne tylko i jedynie za przetwarzanie obrazu. Psycholog Linda Silverman, w książce [The Visual Spatial Learner](https://www.goodreads.com/book/show/673356.Upside_Down_Brilliance) przytacza badania, że 2/3 osób ma preferencje wizualno-przestrzenne.
 
@@ -38,8 +36,7 @@ Event Storming pozwala dobrze zwizualizować proces, z którym się zmagamy. Dzi
 
 Dodatkowo, podobnie jak papier - ściana przyjmie wszystko – w każdej chwili możemy dodać dowolną formę wizualizacji, jaka jest nam akurat potrzebna. Niekiedy warto jest pokazać miejsca styku z systemami zewnętrznymi, oznaczyć zdarzenia, gdzie zyskujemy bądź tracimy pieniądze, czy dodać metryki jakie chcemy zbierać. Każda taka informacja może być dla nas ważna, kiedy będziemy dalej pracowali nad naszym procesem.
 
-3\. Błędy poznawcze
-===================
+# 3\. Błędy poznawcze
 
 Mówi się, że [błędy poznawcze](https://pl.wikipedia.org/wiki/B%C5%82%C4%85d_poznawczy) to jeden z czynników, które powodują, że projekty nie są dowożone na czas, a komunikacja pomiędzy ludźmi szwankuje. Takie błędy jak [niechęć do straty](https://pl.wikipedia.org/wiki/Niech%C4%99%C4%87_do_straty), [efekt potwierdzenia](https://pl.wikipedia.org/wiki/Efekt_potwierdzenia), [błąd atrybucji](https://pl.wikipedia.org/wiki/Podstawowy_b%C5%82%C4%85d_atrybucji) sprawiają, że szukamy zbyt prostych rozwiązań bądź reagujemy w sposób instynktowny zamiast racjonalny. Niestety błędów poznawczych nie da się wyeliminować – są wpisane w sposób, w jaki działa ludzki organizm. Można za to niwelować ich skutki.
 
@@ -54,8 +51,7 @@ Warsztat pozwala mylić i następnie szybko uczyć się na swojej pomyłce:
 
 [![](/images/2019/05/IMG_9432.jpg)](/images/2019/05/IMG_9432.jpg)Bardzo dobrym podsumowaniem, dlaczego błędy poznawcze są kosztowne, jest powyższe zdjęcie – **każda z tych kartek to błędna decyzja, którą odrzuciliśmy jeszcze na etapie analizy biznesowej**. Gdyby została ona zaimplementowana to koszt jej poprawy byłby 1000-krotnie większy niż zrzucenie kartki na ziemię.
 
-4\. Praca równoległa i wspólna
-==============================
+# 4\. Praca równoległa i wspólna
 
 W korporacjach bardzo często spotkania są synonimem tracenia czasu. Nie bez przyczyny. Niekończące się dyskusje, wymóg uzyskania konsensusu czy dominacja pewnych osób powoduje, że osiągane rezultaty nie są satysfakcjonujące. Często wchodzimy na spotkanie z celem omówienia potrzebnych dla nas kwestii, a wychodzimy z poczuciem, że zostaliśmy pominięci.
 
@@ -73,8 +69,7 @@ Taka formuła warsztatu jest bardzo efektywna – pozwala skupić się na tym, c
 
 Wartym wspomnienia faktem jest używanie różowej karteczki na wskazanie problematycznych miejsc. Dzięki czemu możemy kontynuować pracę, nawet jeśli się do końca nie zgadzamy z aktualnym stanem procesu.
 
-5\. Na stojąco i rękoma
-=======================
+# 5\. Na stojąco i rękoma
 
 Spotkania mają jeszcze jedną dużą wadę – bardzo łatwo jest wprowadzić stan, gdzie czas wydaje się jakby płynął 1000 razy wolniej a wszyscy usypiają na swoich krzesłach. Nawet jeśli ludzie są aktywni to dłuższa praca siedząca jest mało efektywna. Opowiada o tym Marek Stój w swojej prezentacji Sitting Considered Deadly. Siedząc nasz mózg działa wolniej, trudniej nam się jest zaangażować a nasza kreatywność spada. Dodatkowo, porozumiewanie się jest bardzo utrudnione – osoby z drugiego końca stołu są dla nas prawie niedostępne. W takiej atmosferze osiąganie wysokich rezultatów będzie bardzo trudne.
 
@@ -82,8 +77,7 @@ Event Storming bardzo jasno określa, że warsztaty powinny się odbywać bez ud
 
 Sławek Sobótka, w odcinku podcastu [DevTalk](https://devstyle.pl/2019/03/08/devtalk-trio-s02e09-co-to-jest-event-storming/), zwraca uwagę również na jeszcze jeden fakt. Opowiada, że przyklejanie karteczek na ścianie powoduje operowanie rękoma w przestrzeni. Ma to rezultat w lepszym dokrwieniu naszego mózgu, co sprawia, że więcej zapamiętujemy i lepiej pracujemy („jesteśmy bardziej inteligentni”).
 
-Podsumowanie
-============
+# Podsumowanie
 
 To co przedstawiłem powyżej to kilka elementów, które w mojej ocenie sprawiają, że warsztat Event Stormingowy jest naprawdę efektywny. Ja sam nie wyobrażam sobie teraz siedzenie przez 8 godzin na spotkaniu i dyskutowaniu jak po kolei ma wyglądać proces implementowany w naszym systemie. Ogromna strata czasu i niskie rezultaty, zmęczeni nasi pracownicy i klienci.
 

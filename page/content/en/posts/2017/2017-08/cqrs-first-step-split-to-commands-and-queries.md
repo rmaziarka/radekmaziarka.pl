@@ -21,8 +21,7 @@ You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
 Stay tuned ;)
 
-Recent state of your app
-------------------------
+## Recent state of your app
 
 Let's assume that you work on an e-commerce platform. You got plenty of controllers, services and repositories in your project. Every controller use services, services use other services, multiple repositories, validators and helpers. **Dependency level increase** time and effort to find correlations between components and context in your application.
 
@@ -140,8 +139,7 @@ As you can see, only these 2 methods have already created a case for injecting
 
 Your **ProductService **demands some action.
 
-Command and queries
--------------------
+## Command and queries
 
 [![](/images/2017/08/command-query.jpg)](/images/2017/08/command-query.jpg)
 
@@ -319,8 +317,7 @@ Finally, you change your ProductController to publish messages by the injected m
 ```
 And this is it - you went your first step in CQRS journey. Command and query are defined in different files which can be treated separately with different approach about database querying, parameters validation and internal logic.
 
-The advantage from this step:
------------------------------
+## The advantage from this step:
 
 Moving from typical layered pattern to Command/Query one, without further actions, has several advantages:
 
@@ -333,8 +330,7 @@ Moving from typical layered pattern to Command/Query one, without further action
 
 In our case, such change gave us a better understanding of our system and possibility to move toward more complicated solutions.
 
-The moment of denying
----------------------
+## The moment of denying
 
 ![](https://media.giphy.com/media/CDJo4EgHwbaPS/giphy.gif)
 

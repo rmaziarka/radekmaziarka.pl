@@ -22,8 +22,7 @@ Zatem, skoro sam twórca techniki zachęca nas do kreatywności i dostosowywania
 
 W tej serii artykułów chciałbym przedstawić kilka propozycji rozszerzenia notacji, które może śmiało zaadoptować w innych sesjach, a które sprawdziły mi się podczas własnych sesji. Zaczniemy od **Action Point**.
 
- Action Point
-=============
+#  Action Point
 
 [![](/images/2019/07/action-point.jpg)](/images/2019/07/action-point.jpg)
 
@@ -48,8 +47,7 @@ Może w konsekwencji takiego spotkania Marek dowie się więcej od Mariana i bę
 
 Szalenie ważne jest aby pod koniec sesji,  zweryfikować cały model z Hot Spotów w formie pytającej. Tak jak już wcześniej wspomniałem pytania **mogą** oznaczać  niewiedzę, którą trzeba jakoś zaadresować. Jeżeli jest to niemożliwe podczas trwania sesji,  trzeba do **każdego** takiego Hot Spota przypisać  Action Point. Najgorsze co można zrobić to rozejść się po sesji z niewiedzą utrwalona w postaci Hot Spotów. Nie róbmy tego!
 
-Nie tylko pytania!
-==================
+# Nie tylko pytania!
 
 Action Point sprawdzają się również świetnie w przypadku Hot Spotów w formie twierdzącej!
 
@@ -63,8 +61,7 @@ Nie o to w tym chodzi! **Moja heurystyka jest następująca**:
 
 Hot Spoty w formie pytającej, które oznaczają niewiedzę powinny mieć przypisany Action Point - ktoś musi znaleźć odpowiedź na pytanie! W pozostałych przypadkach wszystko zależy od sytuacji i z jak ważnymi problemami się mierzymy. Warto tutaj słuchać co mówią uczestnicy sesji i jeżeli padnie propozycja - “Musimy o tym problemie porozmawiać z ….” - to  zróbmy z tego informację w postaci Action Pointa.
 
-Notacja
-=======
+# Notacja
 
 Do oznaczania action pointów wybrałem karteczkę standardowych rozmiarów koloru żółtego.
 

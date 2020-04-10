@@ -14,8 +14,7 @@ Event Storming staje się coraz popularniejszy i jest szeroko stosowany przy pro
 
 W tym artykule chcielibyśmy przedstawić w jaki sposób Event Storming pomógł w analizie właśnie takiej nieinformatycznej domeny - procesu rekrutacji w firmie ~ 500 osób.
 
-Skąd potrzeba na Event Storming w rekrutacji?
-=============================================
+# Skąd potrzeba na Event Storming w rekrutacji?
 
 W wielu organizacjach procesy są tworzone ewolucyjnie - nikt ich z góry nie planuje. Dostosowywane są one do obecnej sytuacji w sposób doraźny, kiedy jest bieżąca potrzeba. Firma zaś rośnie: 20 osób, potem 100, 500, jednak nikt się nie zastanawia czy poszczególne procesy dalej działają. Biznes przynosi zyski, płaci pracownikom w terminie - znaczy, że wszystko jest w porządku.
 
@@ -29,8 +28,7 @@ Jeśli nie mamy możliwości patrzeć na całość procesu, to może się to sko
 
 Jak zatem zweryfikować czy tak złożony proces jak rekrutacja działa odpowiednio, skoro w zależności od działu ma to dla niego inne znaczenie? Najlepiej jest zacząć od wizualizacji całego procesu – i tutaj wkracza Event Storming!
 
-Przed Event Stormingiem
-=======================
+# Przed Event Stormingiem
 
 Każdy kto już przeprowadzał sesje Event Storming’u wie, że najtrudniej jest wystartować – zebranie odpowiedniego grona nie jest prostym zadaniem. W proces rekrutacji zaangażowanych jest bardzo wiele osób z różnych działów. Trzeba było skoordynować kalendarze tak, by każdy mógł wygospodarować 4 godziny w jednym terminie.
 
@@ -42,8 +40,7 @@ W zorganizowaniu spotkania bardzo pomocne okazało się posiadanie zwolennika je
 
 Ostatecznie termin pierwszego spotkania udało się wyznaczyć na piątek 13:00 - 17:00.  Z psychologicznego punktu widzenia jest to najgorszy możliwy czas na intensywną pracę. Część osób myślała, że zacznie weekend wcześniej. Niestety, inaczej się nie udało ☹
 
-Rozpoczęcie warsztatu
-=====================
+# Rozpoczęcie warsztatu
 
 Warsztat zaczął się **od jasnego zdefiniowania celu** - chcemy zrozumieć, jak działa proces rekrutacji. Jak to wygląda z punktu widzenia poszczególnych działów, ile ludzi jest w to zaangażowanych, jakie narzędzie wykorzystywane są w procesie etc.
 
@@ -61,8 +58,7 @@ Z powyższym wiąże się również drugi temat – tzw. polskiego [„Zapierdal
 
 Te 2 tematy pokazują, że podczas warsztatu uczestniczy **muszą zbudować między sobą zaufanie**, bo tylko wtedy grupa jako całość będzie mogła efektywnie pracować i rozwiązywać problemy. Duża w tym rola facilitatora i odpowiedniego doboru uczestników. Czasami jedna niewłaściwa osoba na sali potrafi zablokować resztę uczestników, co przekłada się bezpośrednio na to, co podczas warsztatu uda się osiągnąć.
 
-Rezultaty pierwszej sesji
-=========================
+# Rezultaty pierwszej sesji
 
 [![](/images/2019/09/2_pierwsza-sesja.jpg)](/images/2019/09/2_pierwsza-sesja.jpg)
 
@@ -70,8 +66,7 @@ Pierwsza sesja zakończyła się dużym sukcesem. W ciągu 4h udało się zwizua
 
 Wciąż jednak nie mieliśmy jednoznacznych odpowiedzi na to, w jaki sposób poprawić nasz proces. Czuliśmy, że poświęcając jeszcze kilka godzin moglibyśmy dość do finalnych rezultatów.
 
-Przeprowadzamy drugą sesję
-==========================
+# Przeprowadzamy drugą sesję
 
 Efekty pierwszej sesji były tak dobre, że od razu padła propozycja zrobienia kolejnej, najszybciej jak się da. O ile zorganizowanie pierwszego warsztatu trwało 4 tygodnie, to na kolejny potrzebowaliśmy zaledwie 5 dni! Motywacja i energia do działania były tak duże, że synchronizacja tak sporej grupy nie stanowiła już problemu. **Jeżeli ludzie zobaczą, że coś działa i ma sens będą chcieli to kontynuować.**
 
@@ -81,8 +76,7 @@ Podczas drugiej sesji pracowaliśmy nad identyfikacją problemów i, o ile to mo
 
 Druga sesja miała zupełnie inną dynamikę niż pierwsza. Podczas pierwszej sesji uczestnicy potrzebowali czasu, żeby zaadoptować ten niekonwencjonalny sposób pracy, oswoić się z karteczkami, nabrać pewności siebie i poczuć się bezpiecznie. Podczas drugiej był ogień od samego początku!
 
-Rezultat warsztatu
-==================
+# Rezultat warsztatu
 
 To co widoczne poniżej, udało się stworzyć w ciągu 8 godzin (2 sesje po 4 godziny):
 
@@ -94,8 +88,7 @@ Każda osoba na sali była zadowolona z rezultatów. Osoby z HRu mocno się zdzi
 
 Ludzie skończyli Event Storming z nadziejami. Po raz pierwszy podzielili się swoimi problemami w tak szerokim gronie, zdefiniowali propozycje poprawy i kto się nimi zajmie. Niektóre tematy długo leżały na sercu pracowników firmy, ale o nich się milczało. Dzięki warsztatowi udało się to rozwiązać.
 
-Podsumowanie
-============
+# Podsumowanie
 
 Gdyby nie Event Storming to nie udałoby się przeprowadzić spotkania z takim rozmachem i przy tylu osobach. Wizualne spotkania pozwalają **łatwiej komunikować się i szybciej rozwiązywać problemy**. Po 8 godzinach mieliśmy gotowy rezultat. Każdy z uczestników potwierdzał, że był to czas dobrze spędzony. Część osób zostało nawet po godzinach, by podzielić się swoimi wrażeniami.
 

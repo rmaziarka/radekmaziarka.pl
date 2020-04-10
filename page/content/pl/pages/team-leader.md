@@ -18,15 +18,13 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-Opis WARSZTATU
-==============
+# Opis WARSZTATU
 
 Celem warsztatu jest przekazanie wszechstronnej wiedzy na temat praktyk pracy liderskiej. Przedstawienie jak lider może potęgować rezultaty zespołu, bądź powodować, że efektywność będzie spadać. Zapoznanie się z czynnikami psychologicznymi, które w niewidoczny sposób wpływają na pracę twojej drużyny.
 
 Po warsztacie uczestnicy posiadają szeroki wachlarz technik i umiejętności by skutecznie zarządzać pracą swoich zespołów. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-Wiedza uzyskana na WARSZTACIE:
-==============================
+# Wiedza uzyskana na WARSZTACIE:
 
  *   Główne zasady dotyczące dowodzenia pracą zespołu
  *   Umiejętność prawidłowego powierzania zadań zespołowi
@@ -35,8 +33,7 @@ Wiedza uzyskana na WARSZTACIE:
 
 Wiedzę z warsztatów opisałem w [kilku postach na moim blogu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Możliwy zakres WARSZTATU:
-=========================
+# Możliwy zakres WARSZTATU:
 
  *   Kim jest lider - szeroki punkt widzenia
  *   Przywódzctwo zespołu

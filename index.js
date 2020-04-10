@@ -6,7 +6,7 @@ const xml2js = require('xml2js');
 const TurndownService = require('turndown');
 var moment = require('moment');
 
-var tds = new TurndownService({ codeBlockStyle: 'fenced', fence: '```' })
+var tds = new TurndownService({ codeBlockStyle: 'fenced', fence: '```', headingStyle: 'atx' })
 
 tds.addRule('wppreblock', {
     filter: ['pre'],

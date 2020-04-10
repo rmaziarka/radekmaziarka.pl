@@ -10,8 +10,7 @@ tags: ['leadership']
 
 // wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Deleguj zadania
----------------
+## Deleguj zadania
 
 To jedno z najtrudniejszych zadań jakie lider ma przed sobą – **nauka delegowania zadań**. Oddawanie części swojej odpowiedzialności nigdy nie przychodzi łatwo. Na początku chcemy zajmować się wszystkim sami, co powoduje masę nerwów i prowadzi do całkowitego pochłonięcia naszego czasu. Brak przekazania odpowiedzialności będzie skutkować zespołem kompletnie biernym, bez własnej inicjatywy, który będzie tylko czekał, aż my podejmiemy decyzję.
 
@@ -21,8 +20,7 @@ Na szczęście istnieje szereg materiałów opisujących różne sposoby delegow
 
 Warto wiedzieć, na jakim etapie dojrzałości zespołu można stosować jakie metody. Pomaga tutaj [diagram Hersey’a – Blancharda](https://www.project-management-skills.com/situational-leadership-model.html), który opisuje, kiedy warto stosować metody typu: “zrób to, zrób tamto”, a kiedy zespół jest na takim poziomie dojrzałości, że będzie bez problemu sam dobierał sobie zadania.
 
-Opracujcie wspólne standardy
-----------------------------
+## Opracujcie wspólne standardy
 
 Ludzie pracują w różny sposób, każdy w oparciu o swoje mocne i słabe strony, doświadczenie i zgromadzone nawyki. Może to rodzić poczucie niezrozumienia w zespole: czemu dana funkcjonalność jest pisana w sposób X, testy nie spełniają wszystkich przypadków użycia, a ktoś wrzucił kod bez code review. Zespół, w którym nie ma ustalonych reguł pracy, będzie działał w sposób zdezorganizowany, co długoterminowo będzie prowadziło do zgrzytów i konfliktów w zespole.
 

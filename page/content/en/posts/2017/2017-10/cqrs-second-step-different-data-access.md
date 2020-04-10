@@ -21,15 +21,13 @@ You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
 Stay tuned ;)
 
-Recent state of your app
-------------------------
+## Recent state of your app
 
 After the previous step, you have refactored plenty of your services into separated queries and commands - applied first step in CQRS pattern. Few of services stayed the same, but they contained only 1 or two methods, so you decided to concentrate on things that matters and the rest leave it is.
 
 Now your application logic is defined in small, highly boundaried objects which are easier to tests and maintain. Unfortunately, it is only a structural change - you haven't improved the performance of your application. But with such clearly defined responsibilities you are able to find bottlenecks and do something with them.
 
-Your current bottleneck - slow querying:
-----------------------------------------
+## Your current bottleneck - slow querying:
 
 You find your first bottleneck - gathering product's offer currently is taking too much time, freezing user interface and blocking to do anything. Currently, your users don't apply advanced filterings or querying, but even without them reading data is slow and insufficient. When you look into it you realize that your query handler is trying to get too much data in one call which results with enormous SQL query.
 ```
@@ -90,8 +88,7 @@ So you decide to do something different - change your query model and introduce 
 
 It would be more difficult to introduce it with your previous, service pattern, but with current query-command orientation it is really easy because you are not breaking any other part of the system - you focus only on the current object and refactor to toward higher value.
 
-Different data access
----------------------
+## Different data access
 
 [![](/images/2017/10/different-data-access.jpg)](/images/2017/10/different-data-access.jpg)
 
@@ -336,8 +333,7 @@ AutoMapper / ProjectTo is easier it approach; you don't need any unknown syntax 
 
 Dapper is more powerful and closer to a database - you can optimize your queries on a lower level and gain additional performance.
 
-Summary
-=======
+# Summary
 
 The second step to implement CQRS in your project is pretty straightforward - focus on most annoying bottlenecks of your application and improve its performance through applying a **different approach** to read model. With splitting services to command and queries, there is no need to apply a new query model to a whole application. You can try with vary of frameworks to find most fitting to in your context - SQL Views, MicroORMs, AutoMapper + ProjectTo and others. Implement them, measure if you gained value, and then spread to other parts of your system.
 

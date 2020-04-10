@@ -16,8 +16,7 @@ tags: ['.Net', 'performance', 'three dot netos']
 
 Wszystko podlane odpowiednią ilością ostrego sosu, by doprowadzić uczestników do wrzenia od ilości technologicznej wiedzy 😉
 
-Obsługa GPU z poziomu C# - Łukasz
----------------------------------
+## Obsługa GPU z poziomu C# - Łukasz
 
 [![](/images/2018/03/DYbRI3yXcAYQkcZ.jpg)](/images/2018/03/DYbRI3yXcAYQkcZ.jpg)
 
@@ -37,8 +36,7 @@ GPU jest dobre do obsługi dużej ilości małych zadań, więc **nie sprawdzi s
 
 Łukasz do zabawy z obsługą GPU polecał 2 frameworki - [Alea](http://www.aleagpu.com/release/3_0_4/doc/) i [Hybrydizer](https://devblogs.nvidia.com/hybridizer-csharp/) - pozostałe nie są wspierane.
 
-Optymalizacja zużycia pamięci - Konrad
---------------------------------------
+## Optymalizacja zużycia pamięci - Konrad
 
 [![](/images/2018/03/DYbebQtXkAAZ_d0.jpg)](/images/2018/03/DYbebQtXkAAZ_d0.jpg)
 
@@ -52,8 +50,7 @@ Na koniec Konrad wspomniał o słowie kluczowym **stackalloc**, które pozwala p
 
 Cała prezentacja opierała się na narzędziu [Tune](https://github.com/kkokosa/Tune) - programu do śledzenia jak nasz kod C# jest transformowany do IL i ASM. Bardzo proste i potężne narzędzie stworzone przez Konrada - zachęcał do pomocy przy rozwijaniu go 😊
 
-Różne drogi serializacji w .NET - Szymon
-----------------------------------------
+## Różne drogi serializacji w .NET - Szymon
 
 [![](/images/2018/03/20180316_201504.jpg)](/images/2018/03/20180316_201504.jpg)
 
@@ -67,8 +64,7 @@ Później kolej przyszła na protokoły binarne - [Google Protocol Buffer](https
 
 Na koniec Szymon wspomniał o serializatorze, który napisali na potrzeby **NServiceBusa.** W firmie potrzebowali logować wszystkie zdarzenia jakie następowały w kontekście obsługi wiadomości. Dzięki głębokiemu zrozumieniu wymagań i sytuacji, w której chcą wykorzystać swój serializator, maksymalnie wykorzystali alokację pamięci i pominęli część pól. Pozwoliło im to osiągnąć wysoką wydajność, jaka jest potrzebna przy olbrzymiej ilości wiadomości używanej przez ich szynę. Szymon bardzo mocno podkreślił, że **pisanie swojego serializatora powinno nastąpić tylko wtedy, kiedy nie mamy już innej opcji**. W pozostałych sytuacjach wystarczą poprzednie serializatory.
 
-Marketing - Three Dot Netos
----------------------------
+## Marketing - Three Dot Netos
 
 To wydarzenie byłoby i tak świetnie znane w społeczności .NET, nawet bez mocnej promocji. Ale dobry marketing pozwala na zwiększenie zainteresowania i promuje dobre strony wydarzeń. Tutaj to zagrało znakomicie:
 
@@ -78,8 +74,7 @@ Strzałem w dziesiątkę były **sosy tabasco**, brandowane ich inicjatywą. So
 
 [![](/images/2018/03/DYRKTb4WkAEiR-L.jpg)](/images/2018/03/DYRKTb4WkAEiR-L.jpg)[![](/images/2018/03/20180228_114921-2.jpg)](/images/2018/03/20180228_114921-2.jpg)
 
-Podsumowanie
-------------
+## Podsumowanie
 
 Zbierając informacje o tym evencie razem - było to świetne wydarzenie, zarówno pod kątem merytorycznym jak i społecznościowym. Duża dawka wiedzy, mili ludzie, przyjemny after-party. Czekam z niecierpliwością co 3 gringos jeszcze wymyślą 😊
 

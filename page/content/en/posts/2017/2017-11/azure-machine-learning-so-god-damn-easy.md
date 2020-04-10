@@ -24,15 +24,13 @@ So how to start with such task? Let me explain:
  *   [Evaluating models](#evaluating-models)
  *   [Summary](#summary)
 
-Azure Machine Learning portal
------------------------------
+## Azure Machine Learning portal
 
 Isn't it remind you something? ;)
 
 [![](/images/2017/11/chrome_2017-11-12_01-07-05.png)](/images/2017/11/chrome_2017-11-12_01-07-05.png)
 
-Preparing Data
---------------
+## Preparing Data
 
 For most of your cases, this will be **most time-consuming** and annoying part.
 
@@ -46,15 +44,13 @@ Then you need to add this CSV file to **DATASETS** section. As you can see, I f
 
 [![](/images/2017/11/chrome_2017-11-12_14-55-50.png)](/images/2017/11/chrome_2017-11-12_14-55-50.png)
 
-Creating experiment
--------------------
+## Creating experiment
 
 Then, with delivered data, you can start your experiment. You need to go to **EXPERIMENTS** tab, create a blank experiment and name your experiment. Then you can drag-and-drop your data from **Saved Datasets**. Everything there works as drag-and-drop, and connecting blocks - pretty awesome.
 
 [![](/images/2017/11/chrome_2017-11-12_16-07-51.png)](/images/2017/11/chrome_2017-11-12_16-07-51.png)
 
-Choosing relevant parameters
-----------------------------
+## Choosing relevant parameters
 
 _TBH: At the beginning, my girlfriend, who is a Data Scientist, helped me to find relevant parameters. But later, I found in Azure Machine Learning portal option to do such thing so_ I _wanted to share this knowledge with you._
 
@@ -68,8 +64,7 @@ Then, after running your experiment, you will get a list of parameters with a 
 
 [![](/images/2017/11/chrome_2017-11-12_15-01-59.png)](/images/2017/11/chrome_2017-11-12_15-01-59.png)
 
-Choosing algorithms
--------------------
+## Choosing algorithms
 
 The second important thing to consider in your experiment is which particular algorithm you need to use to find a solution. Fortunately, Azure Machine Learning contains an [algorithm cheat sheet](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet) which leads you by the hand to find the best fitting algorithm to your problem.
 
@@ -77,8 +72,7 @@ The second important thing to consider in your experiment is which particular al
 
 In my circumstances, I had to predict an absorption by the variety of parameters so I decided to use 2 algorithms: [linear regression](https://msdn.microsoft.com/en-us/library/azure/dn905978.aspx),and [decision forest regression](https://msdn.microsoft.com/en-us/library/azure/dn905862.aspx).
 
-Training the model
-------------------
+## Training the model
 
 Training your model is running chosen algorithms to find what is the best patterns that map the variables to the target, and outputs model that captures these relationships.
 
@@ -95,8 +89,7 @@ After running the experiment you will get a trained model with result parameters
 
 [![](/images/2017/11/chrome_2017-11-12_15-16-25.png)](/images/2017/11/chrome_2017-11-12_15-16-25.png)
 
-Evaluating models
------------------
+## Evaluating models
 
 With a trained models you can go to the part where we check if a trained model might help you find a correlation between parameters and required value.
 
@@ -112,8 +105,7 @@ Opening model evaluation will result with such view:
 
 [Coeffient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) under 0.5 is recognized as the **unsatisfactory match **so unfortunately, with our data, we won't be able to create the model to calculate phosphorus absorption. But there are other chemical elements in the document so we will try to investigate them as well.
 
-Summary
--------
+## Summary
 
 Azure Machine Learning is **easily approachable** and **powerful platform** to provide machine learning components in developers life. There are varieties of materials ([MSDN](https://docs.microsoft.com/en-us/azure/machine-learning/preview/overview-what-is-azure-ml)), blogs, and videos ([Pluralsight](https://app.pluralsight.com/library/courses/azure-machine-learning-getting-started/)) explaining how to choose algorithms, parameters, and help you go through the process of calculation.
 

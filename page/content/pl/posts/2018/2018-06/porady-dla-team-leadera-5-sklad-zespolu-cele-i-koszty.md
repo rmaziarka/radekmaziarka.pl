@@ -10,8 +10,7 @@ tags: ['leadership']
 
 // wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Zarządzaj składem zespołu
--------------------------
+## Zarządzaj składem zespołu
 
 Lider nie musi trwać w tym co zastanie lub w tym co zostało mu dane. Warto tutaj być proaktywnym i samemu sprawdzić jakich kompetencji w zespole brakuje. **Lepiej jest szybko zareagować na brak osoby o danej kompetencji** niż trwać w tym stanie powodując opóźnienia w dostarczaniu aplikacji.
 
@@ -21,8 +20,7 @@ Warto również patrzyć na zespół pod kątem osobowości - może się okaza�
 
 Niestety, bycie liderem wiąże się także czasami z podejmowaniem decyzji o pomniejszeniu zespołu o osoby, które np. negatywnie wpływają na zespół bądź nie potrafią nawiązać efektywnej współpracy z resztą teamu. Generalnie musimy pamiętać o tym, że **nie zawsze jesteśmy w stanie zbudować zespół** na podstawie osób, które posiadamy.
 
-Myśl o celach i kosztach
-------------------------
+## Myśl o celach i kosztach
 
 Jako lider jesteś odpowiedzialny za dostarczanie kolejnych wersji produktu i w większości przypadków **nie będzie mógł być to software perfekcyjny**. Wybór pomiędzy dwoma, niekoniecznie najlepszymi drogami, może być twoją codziennością. Z myślenia taktycznego przechodzimy w strategiczne – musimy się zastanowić nad długofalowymi rezultatami naszych wyborów i patrzeć szerzej na cały proces. Musimy analizować cele, jakie chcemy zrealizować, aby swoimi decyzjami się do nich zbliżać.
 

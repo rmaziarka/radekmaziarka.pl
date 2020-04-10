@@ -25,8 +25,7 @@ public class ProductReadModel
 ```
 And we want store **Category** and **FieldValues** in the table, as JSON string.  How to handle JSON serialization and deserialization in Dapper?
 
-TypeHandlers
-------------
+## TypeHandlers
 
 TypeHandlers are an option in Dapper to serialize / deserialize objects during saving and querying the database. First, we define an implementation of **ITypeHandler** interface:
 ```
@@ -55,8 +54,7 @@ Then we register our type handlers during app startup:
 ```
 In that way, we achieve seamless objects serialization and deserialization without changing our code.
 
-Private fields
---------------
+## Private fields
 
 I like to keep my class setters private to force usage of strictly defined changing methods.
 

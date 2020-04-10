@@ -14,13 +14,11 @@ W poprzednim [artykule](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/
 
 Jednak, to czego brakuje w internecie, to informacji czy i w jaki sposób ten warsztat pozwalałby wyjść poza ramy systemów IT. **Postanowiliśmy więc opisać jak wykorzystać Event Storming do poprawy procesów firmy lub organizacji.** W opisie poniżej znajdziecie możliwe porady i nasze przemyślenia, wraz ze zdjęciami z warsztatów, które współprowadziliśmy.
 
-Po co w ogóle Event Storming w organizacji
-==========================================
+# Po co w ogóle Event Storming w organizacji
 
 Każda firma lub organizacja posiada ustalone procesy (jasno lub mgliście), które pozwalają jej działać i osiągać cele. Często jednak sposób działania poszczególnych jednostek, bądź całych działów nie jest efektywny. Nie zauważamy, co się dzieje obok nas, pewne rzeczy dzieją się zupełnie bez naszej wiedzy, a równie często zdarza się, robimy kilka razy to samo. Zachodzi tutaj  problem dystrybucji wiedzy, który świetnie przedstawił Alberto w swojej [prezentacji](https://www.slideshare.net/ziobrando/50000-orange-stickies-later/12) o Event Stormingu:
 
-[![](/images/2018/12/knowledge-distribution.jpg)](/images/2018/12/knowledge-distribution.jpg)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [![](/images/2018/12/knowledge-distribution.jpg)](/images/2018/12/knowledge-distribution.jpg)
 
 Typowym, najczęściej stosowanym, rozwiązaniem tych problemów jest zwiększenie liczby organizowanych spotkań i wysyłanych maili. Poświęca się coraz większej ilości czasu na komunikację, a zazwyczaj nie przynosi to żadnych rezultatów. Tracimy czas na spotkaniach, zamiast zajmować się pracą. Czujemy, że możemy działać efektywniej, ale nie potrafimy do tego dojść.
 
@@ -31,8 +29,7 @@ Dla zwiększenia czytelności wydzieliliśmy te 2 metody do osobnych postów:
  *   [Big Picture](/2018/12/10/event-storming-w-organizacji-big-picture/)
  *   [Single Process](/2018/12/10/event-storming-w-organizacji-single-process/)
 
-podsumowanie
-============
+# podsumowanie
 
 Event Storming pozwala w prostszy sposób zwizualizować pracę organizacji poprzez równoczesną i wspólną wymianę wiedzy między pracownikami. Każda osoba jest zaangażowana, dzieli się swoim obszarem prac, przekazuje jak najwięcej informacji na swój temat.
 

@@ -14,8 +14,7 @@ Wydawać by się mogło, że [architektura zdarzeniowa](https://medium.com/hig
 
 O wy naiwni!
 
-Problem
-=======
+# Problem
 
 Załóżmy, że w module Sklepu, po zakupie produktu rzucasz zdarzenie ProductWasSold_. _ Zawiera ono następujące pola:
 
@@ -31,8 +30,7 @@ Po konsultacjach okazuje się, że musimy wycofać nasze zmiany, bo zaadaptowani
 
 Chcieliśmy uciec od piekła integracji przez bazę danych – mamy złączenie na poziomie wydarzeń.
 
-Zdarzenia jako bottleneck
-=========================
+# Zdarzenia jako bottleneck
 
 Ten problem został już zauważony w społeczności programistycznej. Jimmy Bogard pisał na [Twitterze](https://twitter.com/jbogard/status/953202842948468736):
 
@@ -42,8 +40,7 @@ Również ThoughtWorks na swoim [Technology Radarze](https://www.thoughtworks.co
 
 Takie zachowanie tworzy ogromne powiązania pomiędzy poszczególnymi modułami systemu. Nie jesteśmy w stanie zmodyfikować kształtu danego zdarzenia – jest ono używane w zbyt wielu miejscach. Ostatecznie kończymy z systemem, w którym jakakolwiek zmiana jest bardzo kosztowna i wymaga wielu synchronizacji pomiędzy wszystkimi członkami danego projektu.
 
-Rozwiązanie
-===========
+# Rozwiązanie
 
 Rozwiązaniem jest jasny podział na te zdarzenia, które są dostępne tylko wewnątrz naszego modułu i te, którymi dzielimy się na zewnątrz. Czyli na tzw. **zdarzenia domenowe i integracyjne**. Pisał o nich Jimmy jako rozwinięcie swojego tweeta, a ciekawą implementację można znaleźć na stronach Microsoftu (zdarzenia [domenowe](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation) / [integracyjne](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/integration-event-based-microservice-communications)).
 
@@ -58,8 +55,7 @@ W naszym powyższym przypadku moglibyśmy mieć 2 różne zdarzenia, np.
 
 Pierwsze zdarzenie byłoby rzucane wewnętrznie. Następnie moduł chwytałby to zdarzenie i zmieniał je w zdarzenie integracyjne, obsługując zmianę informacji. Dzięki temu, nawet jeśli zdarzenie domenowe by się zmieniło, to na nas byłby jedynie obowiązek, by zapewnić ciągłość pomiędzy oboma typami zdarzeń.
 
-A może inaczej?
-===============
+# A może inaczej?
 
 Sławek Sobótka, na swojej prezentacji [DDD Q&A](https://www.youtube.com/watch?v=do-xqIbKZ_8), mówił o innym rozwiązaniu tego problemu. Polecał on po prostu, by wewnątrz jednego kontekstu nie rzucać zdarzeń. Zmiany w kilku agregatach mogłyby się odbywać wewnątrz serwisu domenowego, który dbałby, by oba obiekty się zmieniły. Nie potrzebowalibyśmy wtedy zdarzeń wewnątrz modułowych.
 

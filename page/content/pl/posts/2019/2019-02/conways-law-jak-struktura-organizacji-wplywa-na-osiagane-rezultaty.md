@@ -14,8 +14,7 @@ Temat [prawa Conwaya](http://www.melconway.com/Home/Conways_Law.html) jest od da
 
 Czyli organizacja będzie wytwarzała produkt, który będzie odwzorowaniem jej struktury komunikacyjnej.  Tylko co to znaczy i jak na nas wpływa? Samo prawo brzmi niestety nieco enigmatycznie. Ma jednak ogromne przełożenie na rezultaty pracy naszych zespołów.
 
-Prawo Conway’a – przypadek teoretyczny
-======================================
+# Prawo Conway’a – przypadek teoretyczny
 
 Załóżmy, że mamy firmę, która ma działy skierowane na różne segmenty rynku samochodowego:
 
@@ -30,8 +29,7 @@ Taka struktura będzie słabo rozwiązywała problemy lub wytwarzała rozwiązan
 
 Przy takiej strukturze pracy usprawnienia w ogóle nie będą zachodziły, lub nie będzie na nich kładziony odpowiedni nacisk.  Może dochodzić do „odkrywania koła na nowo” i narzekania na zbyt niską współpracę pomiędzy działami.  Każdy będzie bronił swojej odpowiedzialności i zwalał winę na innych.
 
-Prawo Conway’a – świat IT
-=========================
+# Prawo Conway’a – świat IT
 
 Prawo Conway’a bardzo mocno wpływa na tworzone przez nas rozwiązania informatyczne. Eric Raymond, współzałożyciel Open Source Initiative, określił w [Jargon](http://catb.org/~esr/jargon/html/C/Conways-Law.html), że: „Jeśli masz 4 grupy pracujące nad kompilatorem, to dostaniesz 4-krokowy kompilator”. Jest to opisanie prostego spostrzeżenia:
 
@@ -45,8 +43,7 @@ Prawo Conway’a uzasadnia również nacisk na [cross-functional teams](https://
 
 Dużo się mówi o prawie Conway’a w kontekście [mikroserwisów](https://martinfowler.com/articles/microservices.html#OrganizedAroundBusinessCapabilities). Nieprawidłowy podział osób będzie skutkował problemami komunikacyjnymi, które następnie przełożą się na tworzone rozwiązanie. Również zbyt słaba autonomia zespołów może być problemem. Każdy zespół będzie wpływać na siebie nazwajem, co zostanie skopiowane na architekturę – stworzony zostanie system mocno ze sobą związany (tightly-coupled).
 
-Prawo Conway’a – przypadki rzeczywiste
-======================================
+# Prawo Conway’a – przypadki rzeczywiste
 
 W literaturze możemy znaleźć 2 świetne materiały o działaniu tego prawa w praktyce.
 
@@ -58,8 +55,7 @@ Jest również bardzo dobry [papier naukowy](http://www.hbs.edu/faculty/Publicat
 
 Można też przytoczyć tutaj mniej oficjalne materiały jak [artykuł](https://www.dobreprogramy.pl/Microsoft-sie-zmienia-szef-Windowsa-nie-pasuje-do-inteligentnych-chmur,News,87205.html) Adama Golańskiego opisujący zmiany struktury Microsoftu podyktowane prawem Conway’a czy [dokument](https://assets.publishing.service.gov.uk/media/57a08da640f0b652dd001abc/Usability-issues-in-website-design.pdf) Nigela Bevana opisujący jak struktura organizacji wpływa na budowę strony internetowej tej firmy.
 
-Prawo Conway’a – mój przykład
-=============================
+# Prawo Conway’a – mój przykład
 
 Ja sam również bardzo mocno doświadczyłem działania tego prawa Conway'a. Stąd też moja inwestygacja na jego temat.
 
@@ -67,8 +63,7 @@ W jednym z moich poprzednich projektów była osoba, która posiadała w teorii 
 
 Ta osoba wymusiła więc na nas wdrożenie swojego spojrzenia na to jak nasze rozwiązanie powinno być zbudowane. Nie byliśmy w stanie tworzyć systemu tak jak potrzebujemy – każda zmiana musiała być z nim konsultowana. Skończyło się na ogromnych problemach i dziesiątkach straconych godzin na rework i dostosowywania.
 
-Prawo Conway’a – wpływ na pracę organizacji
-===========================================
+# Prawo Conway’a – wpływ na pracę organizacji
 
 [![](/images/2019/02/3.jpg)](/images/2019/02/3.jpg)
 
@@ -81,8 +76,7 @@ Jeśli struktura organizacji spełnia potrzeby biznesowe tej organizacji to w te
 
 Struktura organizacji będzie raczej broniła sama siebie, zamiast wspierać dostosowywanie się do problemu jaki ma ona rozwiązywać.
 
-Prawo Conway’a – powody działania
-=================================
+# Prawo Conway’a – powody działania
 
 [![](/images/2019/02/4.jpg)](/images/2019/02/4.jpg)
 
@@ -98,8 +92,7 @@ Mechanizmy psychologiczne powodują, że łatwiej myśli nam się w kategoriach 
 
 To wszystko powoduje, że tworzenie i wdrażanie rozwiązań pomiędzy grupami jest o wiele trudniejsze niż by się mogło na samym początku wydawać.
 
-Jak uciec przed prawem Conway’a?
-================================
+# Jak uciec przed prawem Conway’a?
 
 Nie można 😉, ale warto brać je pod uwagę przygotowując strukturę naszej firmy. Tak by działać razem z nim, a nie przeciwko niemu. To działanie jest nazywane również [odwrotnym manewrem Conway’a](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver).
 
@@ -113,8 +106,7 @@ Organizacja silosowa (departamentowa) miała problemy z dostosowywaniem się do 
 
 W organizacjach informatycznych taki podział może być realizowany np. przez wydzielenie [Center of Excellence](https://www.cio.com/article/3020409/business-process-management/7-it-centers-of-excellence-that-drive-organizational-productivity.html). Będzie on realizować politykę skoncentrowaną na testowaniu nowych rozwiązań, często jeszcze nie nadającym się do produkcyjnego wdrożenia. Następnie rezultatami swojej pracy będzie się dzielił z działami, którym zależy na bardziej stabilnym dostarczaniu wartości swoim interesariuszom.
 
-Zmiana, zmiana, zmiana
-======================
+# Zmiana, zmiana, zmiana
 
 Niestety nawet najlepiej działająca struktura nie uchroni się przed zmianami jakie przynosi czas. Może zmienić się otoczenie biznesowe, sytuacja na rynku, pojawi się bądź ubędzie kolejny konkurent. Poza tym zmiana może pojawić się także wewnątrz – firma może zająć się inną niszą czy dodatkowymi praktykami lub po prostu powiększyć się poza swoje obecne możliwości. Każda taka sytuacja może sprawić, że struktura firmy z pożądanej i właściwej stanie się kontrproduktywna.
 
@@ -124,8 +116,7 @@ GCHQ w swoim dokumencie [GCHQ: Boiling Frogs](https://github.com/gchq/BoilingFro
 
 Zmiany zaczęły zachodzić tak szybko, że organizacje niepotrafiące się ewolucyjnie adaptować będą zbyt długo trwały w swojej niszy. A ta szybko wyparuje.
 
-Spotify Fallacy – czyli dlaczego nie kopiować struktury
-=======================================================
+# Spotify Fallacy – czyli dlaczego nie kopiować struktury
 
 Częstym problemem w budowie organizacji jest skopiowanie od innych istniejącej u nich struktury bez zastanowienia się jakie funkcje ona spełnia może ona powodować. A przede wszystkim z jakiej potrzeby biznesowej ona wychodzi i w jakiej kulturze działa.
 
@@ -135,8 +126,7 @@ Wiele firm zaczęło kopiować sposób [organizacji pracy Spotify](https://blog.
 
 Praca w modelu macierzowym wymaga również klarownego i zdefiniowanego sposobu działania. W chwili, gdy jeden z wymiarów zaczyna przeważać nad drugim może dojść do kanibalizacji słabszego działu kosztem silniejszego.
 
-Zasady dobrej struktury
-=======================
+# Zasady dobrej struktury
 
 Poniżej przedstawiłem krótki spis elementów, które warto brać pod uwagę próbując tworzyć dobrą strukturę:
 
@@ -150,8 +140,7 @@ Poniżej przedstawiłem krótki spis elementów, które warto brać pod uwagę p
 
 Oczywiście nie jest to zbiór kompletny, raczej krótkie prześlizgnięcie się po temacie. Bardzo dużo o różnych heurystykach tworzenia struktury zespołów i ich organizacji wewnętrznej pisze na swoim [blogu](https://medium.com/nick-tune-tech-strategy-blog) Nick Tune. Celowo używa on słowa „heurestyka” – tutaj nie ma dobrych i złych wyborów. Wszystkie zasady są raczej wskazówkami, która mogą, ale nie muszą, przybliżyć nas do bardziej efektywnej struktury.
 
-Podsumowanie
-============
+# Podsumowanie
 
 Budowa i zarządzanie strukturą firmy jest zadaniem bardzo trudnym. Często spotyka się z oporem i każda zmiana dotkliwie wpływa na działanie firmy. Jednak należy pamiętać, że nie będziemy w stanie rozwiązać wszystkich problemów. Nie istnieje coś takiego jak struktura idealna. Wszystko się zmienia w czasie i trzeba aktualizować swoje rozwiązanie do problemów z jakimi się obecnie zmagamy.
 

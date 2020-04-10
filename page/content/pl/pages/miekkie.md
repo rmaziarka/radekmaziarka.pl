@@ -7,8 +7,7 @@ draft: false
 
 Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb daj mi znać! Z chęcią przygotuję coś specjalnie dla Ciebie. [Skontaktuj się ze mną](/kontakt)
 
-[Event Storming - BIG PICTURE](/szkolenia/event-storming-big-picture)
-=====================================================================
+# [Event Storming - BIG PICTURE](/szkolenia/event-storming-big-picture)
 
 [![](/images/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-big-picture)
 
@@ -18,8 +17,7 @@ Event Storming to lekka metoda do zespołowego odkrywania i modelowania procesó
 
 Zobacz jak efektywnie rozwiązać twój problem! [Więcej o szkoleniu.](/szkolenia/event-storming-big-picture)
 
-[Event Storming - Train the trainer](/szkolenia/event-storming-train-the-trainer)
-=================================================================================
+# [Event Storming - Train the trainer](/szkolenia/event-storming-train-the-trainer)
 
 [![](/images/2018/05/eventstorming.logo_.png)](/szkolenia/event-storming-train-the-trainer)
 
@@ -31,8 +29,7 @@ Szkolenie dla członków zespołu z techniki Event Stormingu, aby byli w stanie 
 
 Naucz się wykorzystywać Event Storming już dziś! [Więcej o szkoleniu.](/szkolenia/event-storming-train-the-trainer)
 
-[Wprowadzenie do Agile](/szkolenia/event-storming-train-the-trainer)
-====================================================================
+# [Wprowadzenie do Agile](/szkolenia/event-storming-train-the-trainer)
 
 [![](/images/2019/09/Agile.jpg)](/szkolenia/wprowadzenie-do-agile/)
 
@@ -42,8 +39,7 @@ Pozwól, że przedstawię Ci jakie są główne zasady pracy zwinnej, zarówno o
 
 Rozpocznij swoją transformację zwinną! [Więcej o szkoleniu.](/szkolenia/wprowadzenie-do-agile/)
 
-[Scrum](/szkolenia/agile-scrum/)
-================================
+# [Scrum](/szkolenia/agile-scrum/)
 
 [![](/images/2019/09/Scrum.jpg)](/szkolenia/agile-scrum/)
 
@@ -53,8 +49,7 @@ Wyjście od perspektywy osoby technicznej, zamiast od typowego Scrum Mastera, po
 
 Sprawdź jak pracować efektywniej każdego dnia! [Więcej o szkoleniu.](/szkolenia/agile-scrum/)
 
-[Team Leader](/szkolenia/team-leader/)
-======================================
+# [Team Leader](/szkolenia/team-leader/)
 
 [![](/images/2019/09/Team-Leader-2.jpg)](/szkolenia/team-leader/)
 

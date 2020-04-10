@@ -12,8 +12,7 @@ _This post is one in the cycle of posts related to serverless topic. To check al
 
 In this part I will show you how easy is to connect our function stored in GIT repository to Azure cloud, with continous deployment after every commit.
 
-Repository and Function App
----------------------------
+## Repository and Function App
 
 At the beginning you need to create repository to connect it to remote function app. In this step GIT repository is not fully required - you can connect Azure function to storages like OneDrive or Dropbox but it is easier to show you how the changes occur in our code, when it stays on GitHub (public repo FTW). You can check my code on [https://github.com/rmaziarka/AzureFunctionsPoc](https://github.com/rmaziarka/AzureFunctionsPoc) - this is the same code from previous scenario, only published to GH.
 
@@ -28,8 +27,7 @@ Then you need to create you Function App in Azure portal. Find "function app" an
 
 You don't need to add Azure Insight. After clicking Create, in a moment you will got your function.
 
-Deployment from GitHub
-----------------------
+## Deployment from GitHub
 
 After creation you go inside the function and choose option to setup the deployment: tab Platform features -> CODE DEPLOYMENT section -> Deployment option.
 
@@ -48,15 +46,13 @@ After these steps you should got your function in Azure portal:
 
 ![](/images/2017/08/chrome_2017-08-02_23-16-03.png)
 
-Configuration in Azure
-----------------------
+## Configuration in Azure
 
 With such deplyment you don't need to change any option in your Function App - everything will work from the beginning. Parameters as **AzureWebJobsStorage** are automatically set with connection string to your remote Azure Storage, which was provider during creation of app.
 
 You can check your settings in Function App -> Platfom Features tab -> GENERAL SETTINGS section -> Application settings -> App settings section -> **AzureWebJobsStorage**. 
 
-Testing remote Function App
----------------------------
+## Testing remote Function App
 
 You can add some file to check whether your function is working. To remote Azure Storage you can drag any file and in function **Logs** you can check how function is responding to new file (clik to open).
 

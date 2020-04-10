@@ -12,8 +12,7 @@ tags: ['ddd', 'domain driven design', 'event storming']
 
 Każdy z nas działa w organizacji, gdzie zmaga się z problemami zarówno ze swoją dzienną pracą jak i działaniem całej grupy projektowej. Niejednokrotnie trudności napotykamy także w kooperacji ze stronami zewnętrznymi jak inne firmy technologiczne czy też wybitnie wymagający interesariusze. Aby móc takie problemy rozwiązywać we wczesnych etapach egzystencji środowisko Agile stworzyło praktykę nazywaną [Retrospektywą](http://www.scrumdo.pl/2014/12/efektywna-retrospektywa-sprintu.html). Ma ona na celu zatrzymanie się na pewien czas i wspólne zastanowienie się jak usprawnić ich aktywności.
 
-Mapowanie ograniczeń
-====================
+# Mapowanie ograniczeń
 
 Niestety pytanie osób bezpośrednio jak poprawić ich sytuację nie zadziała – Dave Snowden mówi o tym w swojej [prezentacji](https://youtu.be/4o_TnYmDHsg?t=2485) na Agile People. Ludzie będą się skupiali na rozwiązaniach, które mają w głowę, a nie na realnych problemach z którymi się zmagają. Na sprawdzonych odpowiedziach, które niestety najprawdopodobniej były remedium na zupełnie inne problemy. Dlatego trzeba zajmować się jedną rzeczą naraz – najpierw mapowanie ograniczeń, a następnie możliwe propozycje usprawnień.[![](/images/2019/02/mapping-constraints.jpg)](https://www.youtube.com/watch?v=4o_TnYmDHsg&feature=youtu.be&t=2485)
 
@@ -21,8 +20,7 @@ Takie zachowanie pozwala nam zebrać stan, w którym się aktualnie znajdujemy, 
 
 Jeśli dana próba się powiedzie to staramy się je krokowo przeistoczyć w naszą codzienną praktykę. Dzięki temu posuwamy się do przodu krok po kroku, analizując nasze wady, działając sprawniej z każdą iteracją. Same usprawnienia też dobrze rozłożyć w czasie, zajmując się na start tymi najbardziej krytycznymi. Pytając retorycznie (retrorycznie?), czy te kilka rys na zderzaku Twojego wymarzonego Passata są większym priorytetem niż martwa turbina? No właśnie...
 
-Event Storming
-==============
+# Event Storming
 
 Tomek Kurowski opisał na [LinkiedIn](https://www.linkedin.com/feed/update/urn:li:activity:6504609931918864384) zastosowanie Event Stromingu do rozpoznania i rewizji procesu Scrumowego w obrębie całego zespołu projektowego pracującego w trybie zwinnym. I jak dla mnie to jest świetny pokaz wyżej wspomnianej techniki – mapowania ograniczeń.
 

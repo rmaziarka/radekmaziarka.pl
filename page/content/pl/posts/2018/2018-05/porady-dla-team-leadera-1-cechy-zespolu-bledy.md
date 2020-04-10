@@ -16,8 +16,7 @@ Zebrało się ich aż 10 😀. Żeby nie zanudzać was ścianą tekstu w jednym 
 
 // wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Poznaj mocne i słabe strony zespołu
------------------------------------
+## Poznaj mocne i słabe strony zespołu
 
 Pamiętaj, że zespół to zbiór indywidualnych cech każdej z osób. Aby osiągnąć maksymalną wydajność zespołu trzeba poznać drzemiące w każdym możliwości i wykorzystać je w takiej formie, aby najlepiej się zgrywały i pokrywały. Inaczej współpracownicy nie będą się znać nawzajem i będą niepotrzebnie tracili czas na nieporozumienia.
 
@@ -25,8 +24,7 @@ Weźmy za przykład osobę, która często nie kończy powierzonych jej zadań i
 
 Pomocne okażą się tutaj narzędzia typu [Strength Finder](https://www.gallupstrengthscenter.com/home/en-US/Index), które rozpoznają mocne strony zespołu (i twoje również). Przegadując wspólnie te cechy dostrzeżecie, w jaki sposób rzutują one na wasze zachowania i podejmowane decyzje. Uświadomicie sobie, dlaczego w niektórych momentach ktoś reaguje w taki, a nie inny sposób. Taka analiza pozwoli lepiej zrozumieć swoje wady i zalety, co przyczyni się do zwiększenia zaufania i zbudowania głębszej więzi w zespole.
 
-Pozwól ludziom popełniać błędy
-------------------------------
+## Pozwól ludziom popełniać błędy
 
 Jest takie powiedzenie, że aby nie popełniać błędów trzeba mieć doświadczenie. Z drugiej strony, żeby mieć doświadczenie trzeba popełniać błędy. I tego nie przeskoczymy.
 

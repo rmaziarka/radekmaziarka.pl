@@ -18,8 +18,7 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-Opis warsztatu
-==============
+# Opis warsztatu
 
 Command Query Responsibility Segragation jest coraz popularniejszy z powodu jego szerokiego zastosowania przy architekturze mikroserwisowej. Pozwala dobrze odseparować od siebie odpowiedzialność modyfikacji stanu aplikacji z jej pobieraniem.
 
@@ -30,16 +29,14 @@ Warszaty mogą trwać:
  *   1 dzień - teoria i projektowanie
  *   2 dni - teoria, projektowanie i implementacja w .NET / Javascript
 
-Wiedza uzyskana na warsztacie:
-==============================
+# Wiedza uzyskana na warsztacie:
 
  *   Podstawy wzorca CQRS
  *   Wiedza jak krok po kroku wdrażać wzorzec do swojego systemu
  *   Informacja na temat wad i zalet każdego z etapów wzorca
  *   Adaptacja CQRS w systemach Legacy
 
-Możliwy zakres szkolenia:
-=========================
+# Możliwy zakres szkolenia:
 
  *   Podstawy Command Query Responsibility Segregation
  *   4 etapy CQRS

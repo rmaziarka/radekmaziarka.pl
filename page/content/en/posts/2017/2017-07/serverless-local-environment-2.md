@@ -10,15 +10,13 @@ tags: ['']
 
 _This post is one in the cycle of posts related to serverless topic. To check all of them go to [serverless category](/category/serverless/)._
 
-Why functions in Javascript?
-----------------------------
+## Why functions in Javascript?
 
 For my client I decided to launch 3 functionalities in Azure Functions, written in Javascript language. At the beginning it was simpler for me to write function code in untyped language, where you can easily create structures and not concern about classes. That's why my tutorial won't describe how to start local environment and run functions in .NET languages, but you can follow tutorials described in Microsoft's [documentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs).
 
 I undestand that at some point you need to lean on languages like Typescript or C# to write better codebase but for my cases it wasn't required.
 
-Quick start
------------
+## Quick start
 
 At the beginning I had to **install package** which allows to run Azure Function locally:
 
@@ -38,8 +36,7 @@ In that point these commands **should** run Azure Functions CLI:
  *   azfun
  *   azurefunctions
 
-Resolving packages error
-------------------------
+## Resolving packages error
 
 And of course they didn't run this CLI. I got such error:
 
@@ -64,8 +61,7 @@ So I omitted this problem with creating linking from node modules to Git workpla
 
 I know that this is a workaround but it's better than nothing. If you know how to solve this problem properly please write a comment at the bottom of this post :)
 
-Beware the antiviruses
-----------------------
+## Beware the antiviruses
 
 I thought that after this fix my functions will work without any problems but I was wrong. I was trying to run function CLI by simply typing **func**. And nothing happened - literally nothing. Like empty function called, no output in console, just new line to type command.
 
@@ -73,8 +69,7 @@ I decided to check file **main.js **in azure-function-core-tools package folder
 
 My **Comodo Antivirus** was closing func.exe just after started running due. It was caused by calling func.exe from the inside of a other process - npm. Comodo calculated this behavior as so risky that it couldn't be allowed. But what is most frustrating - Comodo didn't prompted me any information about it, just was closing it silently. To resolve this case I had to disable func.exe from sandboxing, as written [here](https://help.comodo.com/topic-72-1-623-7666-.html).
 
-Simple scenario
----------------
+## Simple scenario
 
 At the beginning I wanted to try, whether a straightforward scenario, about connection to blob storage, will work. First I needed to add **function project**:
 

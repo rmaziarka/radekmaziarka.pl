@@ -14,8 +14,7 @@ Po poprzednich, bardziej teoretycznych postach, nadszedł czas, by przejść do 
 
 Wszystkie przytoczone przeze mnie przypadki braku kontekstów są realnymi przypadkami. Jedynie domena biznesowa została zmieniona na systemy zakupowe.
 
-Sytuacja biznesowa
-------------------
+## Sytuacja biznesowa
 
 Firma posiada dział administracji, który definiuje jakimi produktami obraca firma. Ustalają parametry, gabaryty, ilość.
 
@@ -23,15 +22,13 @@ Następnie istnieje kilka rodzajów klientów, którzy mogą rezerwować te towa
 
 Firma chciałaby, by dział administracji mógł w aplikacji zarządzać produktami, a klienci mogli dokonywać swoich transakcji.
 
-Rozwiązanie techniczne
-----------------------
+## Rozwiązanie techniczne
 
 Aplikacja powstała i podejmuje wszystkie opisane powyżej wymagania biznesowe. Administratorzy mają swoją część systemu, gdzie definiują produkty. Następnie klienci, w swojej części systemu, dokonują transakcji operując na tych produktach.
 
 Niskopoziomowo, obie części korzystają z tego samego zbioru danych – modelu Product. Te informacje są wykorzystywane we wszystkich podstronach tworzenia rezerwacji, podsumowaniach transakcji itd. Produkt był tam widoczny jako miniaturka zdjęcia, nazwa, cena, krótki opis i odnośnik do strony produktu.
 
-Zmiana biznesowa
-----------------
+## Zmiana biznesowa
 
 Czym byłoby życie bez zmiany? Dział administracji potrzebował stworzyć produkty grupowe – agregujące pozostałe produkty. Czyli możemy stworzyć osobny produkt z własnym opisem, ceną i zdjęciem, który zawiera w sobie kilka innych produktów. Z poziomu takiego produktu zgrupowanego możemy zarządzać wewnętrzną listą produktów – dodawać je i usuwać. Taki produkt zgrupowany będzie miał również kilka własnych pól.
 
@@ -39,15 +36,13 @@ W części klienckiej produkt zgrupowany nie byłby jednak rozróżnialny od zwy
 
 Jedyna różnica w części klienckiej leżała w zakupie produktu zgrupowanego – po jego zakupie powinna się zmniejszyć ilość wszystkich produktów wewnątrz grupy.
 
-Problem
--------
+## Problem
 
 Tylko jak to teraz zamodelować? Część osób pracująca nad częścią administratorską chciała stworzyć sobie odpowiednią strukturę, która dobrze odwzorowywałaby rzeczywistość. Mielibyśmy model GroupedProduct, który linkowałby do wszystkich pozostałych produktów.
 
 Niestety programiści części klienckiej zaprotestowali – dla nich zmiana takiego modelu wymusiłaby bardzo duże zmiany w ich części aplikacji. Nagle musieliby w każdym miejscu, w którym używali modelu Product używać naprzemiennie modeli Product i GroupedProduct. Czyli dodaliby logikę na każdym jednym wykorzystaniu produktu przez klienta.
 
-Rezultat
---------
+## Rezultat
 
 Ostatecznie silniejszy okazał się dział kliencki – stamtąd pochodziły pieniądze. Narzucili oni części administratorskiej zmiany, które nie spowodowałyby tyle problemów w części klienckiej.
 
@@ -57,8 +52,7 @@ Długoterminowo, po kilku dalszych zmianach w produktach zwykłych i zgrupowanyc
 
 Takie rozwiązanie spowodowało, że rozwijanie aplikacji jest bardzo problematyczne. Każdy z działów musi brać pod uwagę, że modyfikacja struktury produktu może spowodować błędy w praktycznie całej aplikacji. Nikt nie może być pewny stabilności systemu po dokonaniu zmian. Sam biznes jest niezadowolony, że dodanie nowych, teoretycznie prostych funkcjonalności, jest błędogenne.
 
-Bounded contexts
-----------------
+## Bounded contexts
 
 Główny problem leży w rozumieniu czym jest produkt – **dla działów administracji i klientów to nie są te same rodzaje produktów**. Spełniają różne funkcje, mają inne cele, inaczej się o nich rozmawia i myśli. Przez co też potrzebują innych modeli, by móc realizować te cele. Rozwiązaniem powyższego problemu byłoby stworzenie oddzielnych kontekstów dla działu administracji i klientów.
 

@@ -18,7 +18,7 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-# Opis WARSZTATU
+## Opis WARSZTATU
 
 Szkolę członków zespołu z techniki [Event Stormingu](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), aby byli w stanie przeprowadzać takie warsztaty na kanwie własnych projektów. Warsztaty te będą miały o wiele szerszą formę niż zwykłe warsztaty przeprowadzane z klientem czy wewnątrz projektu.
 
@@ -30,7 +30,7 @@ Warsztat ten jest przeprowadzany dla np.:
 
 Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-# Wiedza uzyskana na WARSZTACIE:
+## Wiedza uzyskana na WARSZTACIE:
 
  *   Umiejętność przeprowadzania warsztatów w swojej firmie / organizacji
  *   Wady i zalety każdego z kroków warsztatu
@@ -39,7 +39,7 @@ Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
  *   Dobre i złe praktyki przeprowadzanej sesji
  *   Rozwiązania trudnych sytuacji podczas warsztatu
 
-# Możliwy zakres WARSZTATU:
+## Możliwy zakres WARSZTATU:
 
  *   [Event Storming - Big Picture](/szkolenia/event-storming-big-picture/)
  *   [Event Storming - projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania)

@@ -187,6 +187,7 @@ function handlePostsXML(err, result) {
         if (post["content:encoded"]){
             content = '<div>'+post["content:encoded"]+'</div>'; //to resolve error if plain text returned
             markdown = tds.turndown(content);
+            markdown = markdown.replace(/\n# /g,'\n## ');
             markdown = replaceCodeMarkups(markdown);
             markdown = replacePunctation(markdown);
             markdown = fixImagesURL(markdown);
@@ -262,6 +263,7 @@ function replacePunctation(markdown){
     markdown = replaceAll(markdown, '	2', '2');
     markdown = replaceAll(markdown, '	3', '3');
     markdown = replaceAll(markdown, '	4', '4');
+    //markdown = replaceAll(markdown, '# ', '## ');
 
     return markdown;
 }
@@ -367,6 +369,7 @@ function handlePagesXML(err, result) {
             if (page["content:encoded"]){
                 content = '<div>'+page["content:encoded"]+'</div>'; //to resolve error if plain text returned
                 markdown = tds.turndown(content);
+                markdown = markdown.replace(/\n# /g,'\n## ');
                 markdown = replacePunctation(markdown);
                 markdown = fixImagesURL(markdown);
                 markdown = removeDomainHostNames(markdown);

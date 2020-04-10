@@ -333,7 +333,7 @@ AutoMapper / ProjectTo is easier it approach; you don't need any unknown syntax 
 
 Dapper is more powerful and closer to a database - you can optimize your queries on a lower level and gain additional performance.
 
-# Summary
+## Summary
 
 The second step to implement CQRS in your project is pretty straightforward - focus on most annoying bottlenecks of your application and improve its performance through applying a **different approach** to read model. With splitting services to command and queries, there is no need to apply a new query model to a whole application. You can try with vary of frameworks to find most fitting to in your context - SQL Views, MicroORMs, AutoMapper + ProjectTo and others. Implement them, measure if you gained value, and then spread to other parts of your system.
 

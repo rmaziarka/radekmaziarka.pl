@@ -100,7 +100,7 @@ Załóżmy, że klient prosi nas o listę produktów na stronie głównej. My od
 
 I teraz nasz klient biznesowy może być zdziwiony i nie rozumieć, o czym mówimy i co mamy na myśli. Taka różnica będzie go wybijała z kontekstu, dziwiła, utrudniała przekazanie nam informacji i zrozumienie naszego przekazu.  Użycie naszego slangu programistycznego w gronie osób, którym nie jest on bliski, powoduje nieporozumienia.
 
-# Proza życia klienta
+## Proza życia klienta
 
 Gdyby powyższy przykład był jednostkowym, to pewnie nikt nie kruszyłby tutaj kopii. Jednak, jako programiści mamy nadzwyczaj częste tendencje do używania terminów, które są w teorii wspólne, w praktyce zaś są spójne jedynie dla naszej grupy. Powyższy przykład jest jednym z wielu: użytkownik, biblioteka, funkcja, komponent, rekord, tabelka, mikroserwis itd. Mamy tendencję do przenoszenia przypadków biznesowych na znane nam elementy ze świata programowania – obiekt, klasa, serwis.
 
@@ -116,7 +116,7 @@ To, co się dzieje pod spodem to nauka różnych mentalnych modeli i kategorii k
 
 Jest to trudne, bo jednocześnie trzeba się nauczyć korzystać z 2 typów kategorii – abstrakcyjnych i tych biznesowych. Dlatego bardzo często programiści pomijają ten aspekt, skupiając się jedynie na technikaliach. Jednak bez nauki języka nie da się zrozumieć, w jaki sposób klient postrzega swój biznes.
 
-# Podsumowanie
+## Podsumowanie
 
 Powodem, dla którego warto stosować Ubiquitous Language jest większe skoncentrowanie się na potrzebach klienta, ich odwzorowanie w naszej aplikacji i w naszych modelach mentalnych. Będziemy mogli szybciej zrozumieć to, o czym klient mówi, co ma na myśli i proponować mu bardziej dopasowane rozwiązania.
 

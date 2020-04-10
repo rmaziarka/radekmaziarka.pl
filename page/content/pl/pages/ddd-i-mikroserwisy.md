@@ -18,13 +18,13 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-# Opis szkolenia
+## Opis szkolenia
 
 Wiedza na temat Domain-Driven Design jest niesamowicie pomocna, przy tworzeniu systemów opartych o architekturę mikroserwisów. Pozwala ona stworzyć rozwiązanie skalowalne, autonomiczne i odporne na zmiany.
 
 Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak tworzyć mikroserwisy aby na koniec dnia uznać decyzję odnośnie wybrania tej architektury za właściwą. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-# Wiedza uzyskana na szkoleniu:
+## Wiedza uzyskana na szkoleniu:
 
  *   Wiedza na temat architektury mikroserwisów
  *   Zrozumienie zysków i kosztów wdrażania tej architektury
@@ -32,7 +32,7 @@ Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak tworzyć mikroserw
  *   Wiedza jak integrować / testować / wizualizować / monitorować mikroserwisy
  *   Kompetencja jak zarządzać transakcjami w świecie mikroserwisów
 
-# Możliwy zakres szkolenia:
+## Możliwy zakres szkolenia:
 
  *   Podstawy mikroserwisów
     

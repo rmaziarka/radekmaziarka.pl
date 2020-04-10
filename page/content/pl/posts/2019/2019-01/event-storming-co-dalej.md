@@ -108,7 +108,7 @@ Pierwszym krokiem jest stworzenie roadmapy – planu na następne zadania, któr
 
 Nie można też zapomnieć o estymacji kosztów samego rozwiązania. Ciekawym sposobem na to jest analiza liczby zdarzeń w danej domenie. Możemy wtedy przemnożyć tę liczbę przez konkretną wartość pieniężną adekwatną do naszej firmy. Dodatkowo możemy wziąć poprawkę, jeśli dana domena jest tzw. „Core Domain” (możliwe utrudnienia) i podwyższyć cenę o 50%. [Adam Dymitruk](https://twitter.com/adymitruk), jeden z praktyków Event Stormingu, określa tą metodę estymacji za najbardziej dokładną w jego karierze.
 
-# Podsumowanie
+## Podsumowanie
 
 Sposobów, jak widać, jest wiele i zależą od rezultatów jakich oczekujemy. Zachęcam do poczytania o każdym z nich – może być tak, że w danej sytuacji dojdziecie do ściany z danym warsztatem i któreś z tych pomysłów mogą wam się przydać.
 

@@ -18,13 +18,13 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-# Opis WARSZTATU
+## Opis WARSZTATU
 
 Celem metod Agile jest iteracyjne podejście do tworzenia oprogramowania, dostarczające działający produkt w  określonych ramach czasowych. Pojęcie praktyk zwinnych weszło do użycia w roku 2001 ([manifest programowania zwinnego](https://agilemanifesto.org/iso/pl/manifesto.html)), ale wiele z tych reguł było już stosowanych o wiele wcześniej. Obecnie na Agile patrzy się w kontekście pewnego **mindsetu**, który trzeba posiąść aby pracować zwinnie.
 
 Podczas mojego szkolenia chciałbym przekazać Ci czym jest praca zwinna i jakie są jej pryncypia. W jaki sposób dostosowywać wdrażanie procesów Agile do swojej firmy i na co uważać. W jaki sposób zmienić strukturę organizacyjną i metryki by lepiej realizować postawione cele biznesowe. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-# Wiedza uzyskana na WARSZTACIE:
+## Wiedza uzyskana na WARSZTACIE:
 
  *   Główne zasady pracy zwinnej
  *   Standardy wdrażania procesów Agile w firmie
@@ -32,7 +32,7 @@ Podczas mojego szkolenia chciałbym przekazać Ci czym jest praca zwinna i jakie
  *   Analiza dobrych i złych metryk
  *   Informacje jak pomyślnie wdrożyć Scrum w swoim zespole
 
-# Możliwy zakres WARSZTATU:
+## Możliwy zakres WARSZTATU:
 
  *   Lean Development
     

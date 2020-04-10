@@ -18,13 +18,13 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-# Opis WARSZTATU
+## Opis WARSZTATU
 
 Event Storming  - Big Picture to najbardziej standardowy sposób przeprowadzania warsztatu. Skupimy się na przejściu przez problem biznesowy rozkładając go na części pierwsze. W rozwiązanie problemu będą zaangażowane wszystkie osoby zgromadzone na sali, niezależnie od twoich podziałów organizacyjnych. Może być to problem zarówno informatyczny, jak i dotyczący dowolnego procesu HR'owego, marketingowego czy menadżerskiego.
 
 Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy, wraz z uwspólnionym zrozumieniem wszystkich członków warsztatu. Można od razu zaczynać pracować nad zdefiniowanymi celami. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-# Wiedza uzyskana na WARSZTACIE:
+## Wiedza uzyskana na WARSZTACIE:
 
  *   Zrozumienie skali problemu z którym się zmagasz
  *   Zdefiniowanie podprocesów i relacji między nimi
@@ -33,7 +33,7 @@ Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy, wraz z uwspólni
  *   Uspójnienie zrozumienia problemu wewnątrz zespołu i wyłapanie błędów
  *   Poprawa komunikacji pomiędzy grupami
 
-# Możliwy zakres WARSZTATU:
+## Możliwy zakres WARSZTATU:
 
  *   Eksploracja procesów
  *   Strukturyzacja procesów

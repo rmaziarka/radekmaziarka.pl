@@ -20,7 +20,7 @@ Pogrupowałem (dość arbitralnie) problemy w 3 grupy:
 
 [![](/images/2020/02/people-2557396_1920.jpg)](/images/2020/02/people-2557396_1920.jpg)
 
-# Praca z ludźmi
+## Praca z ludźmi
 
 ### Brak celu warsztatu
 
@@ -58,7 +58,7 @@ Plan, nawet szczątkowy, z zapowiedzianymi miejscami na chwilę dla siebie, pozw
 
 [![](/images/2020/02/meeting-room-730679_960_720.jpg)](/images/2020/02/meeting-room-730679_960_720.jpg)
 
-# Miejsce warsztatu
+## Miejsce warsztatu
 
 ### Niedopasowana sala
 
@@ -92,7 +92,7 @@ Często przy takich miejscach rozgrywają się naprawdę ciekawe dyskusje, któr
 
 [![](/images/2020/02/white-board-593309_960_720.jpg)](/images/2020/02/white-board-593309_960_720.jpg)
 
-# Facylitator
+## Facylitator
 
 ### Słabe warunki kondycyjne
 
@@ -121,7 +121,7 @@ Prowadzący, gdy przeprowadzamy warsztaty z własnym zespołem, musi umieć zmie
 
 Warto rozważyć tutaj pomoc kogoś spoza zespołu – celowe pożyczenie kolegi / koleżanki na warsztaty by pomogła nam je przeprowadzić, nawet jeśli u siebie mamy takie umiejętności. W ramach kolejnych warsztatów my możemy wystąpić u nich jako facylitator.
 
-# Podsumowanie
+## Podsumowanie
 
 W artykule przedstawiłem kilkanaście różnych problemów z warsztatów, w których brałem udział. Część miała znikome konsekwencje na ogólny rezultat warsztatu, ale część z nich w zdecydowany sposób utrudniła realizację celów. Warto o nich pamiętać, by się ich przestrzegać lub przynajmniej mieć je na uwadze przeprowadzając Event Storming.
 

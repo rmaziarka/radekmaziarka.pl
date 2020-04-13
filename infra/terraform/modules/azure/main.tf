@@ -15,6 +15,11 @@ resource "azurerm_storage_account" "default" {
     index_document = "index.html"
   }
   custom_domain {
-    name = var.blog_domain
+    name          = var.blog_domain
+    use_subdomain = false
   }
+}
+
+output storage_account_web_host {
+  value = azurerm_storage_account.default.primary_web_host
 }

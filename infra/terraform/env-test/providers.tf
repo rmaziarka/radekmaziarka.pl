@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "terraform-state"
     storage_account_name = "radsoftterraformstate"
     container_name       = "state"
-    key                  = "radekmaziarka.prod.terraform.tfstate"
+    key                  = "radekmaziarka.test.terraform.tfstate"
   }
 }
 

@@ -9,3 +9,7 @@ variable "storage_account_name" {
 variable "blog_domain" {
   type = string
 }
+
+variable "dependency_flag"{
+  type = string
+}

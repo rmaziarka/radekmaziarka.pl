@@ -16,6 +16,18 @@ provider "cloudflare" {
   version = "~> 2.0"
 }
 
+provider "azuredevops" {
+  version = ">= 0.0.1"
+}
+
+provider "azuread" {
+  version = "=0.7.0"
+}
+
+provider "random" {
+}
+
+
 data "cloudflare_zones" "default" {
   filter {
     name   = "radekmaziarka.pl"

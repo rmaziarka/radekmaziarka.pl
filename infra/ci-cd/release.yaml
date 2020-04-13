@@ -12,7 +12,7 @@ jobs:
   - task: AzureCLI@1
     displayName: 'Azure CLI: copy files to storage'
     inputs:
-      azureSubscription: 'radekmaziarka.pl-test'
+      azureSubscription: 'test.radekmaziarkapl'
       scriptLocation: inlineScript
       inlineScript: |
          az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name radekmaziarkateststorage
@@ -20,7 +20,7 @@ jobs:
   - task: AzureCLI@1
     displayName: 'Azure CLI: Purge CDN'
     inputs:
-      azureSubscription: 'radekmaziarka.pl-test'
+      azureSubscription: 'test.radekmaziarkapl'
       scriptLocation: inlineScript
       inlineScript: |
         az cdn endpoint purge  -g radekmaziarka-test -n radekmaziarka-test-endpoint --profile-name radekmaziarka-test --content-paths "/*"

@@ -1,7 +1,9 @@
 locals {
-  resource_group_name  = "radekmaziarka-test"
-  storage_account_name = "radekmaziarkateststorage"
-  blog_domain          = "test.radekmaziarka.pl" 
+  resource_group_name           = "radekmaziarka-test"
+  storage_account_name          = "radekmaziarkateststorage"
+  blog_domain                   = "test.radekmaziarka.pl" 
+  azure_devops_application_name = "radsoft-radekmaziarka.pl"
+  service_endpoint_name         = "test.radekmaziarka.pl"
 }
 
 locals {

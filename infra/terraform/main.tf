@@ -73,22 +73,6 @@ resource "cloudflare_zone_settings_override" "default" {
   }
 }
 
-resource "cloudflare_record" "radekmaziarka_1" {
-  zone_id = cloudflare_zone.default.id
-  name    = "@"
-  value   = "91.219.122.12"
-  type    = "A"
-  ttl     = 3600
-}
-
-resource "cloudflare_record" "radekmaziarka_2" {
-  zone_id = cloudflare_zone.default.id
-  name    = "@"
-  value   = "194.88.154.187"
-  type    = "A"
-  ttl     = 3600
-}
-
 resource "cloudflare_record" "test_radekmaziarka" {
   zone_id = cloudflare_zone.default.id
   name    = "test"
@@ -96,43 +80,4 @@ resource "cloudflare_record" "test_radekmaziarka" {
   type    = "CNAME"
   proxied = false
   ttl     = 3600
-}
-
-resource "cloudflare_record" "test_mx_10_1" {
-  zone_id = cloudflare_zone.default.id
-  name    = "test"
-  value   = "mail1.webio.pl"
-  type    = "MX"
-  priority = "10"
-}
-
-resource "cloudflare_record" "test_mx_10_2" {
-  zone_id = cloudflare_zone.default.id
-  name    = "test"
-  value   = "mail2.webio.pl"
-  type    = "MX"
-  priority = "10"
-}
-
-resource "cloudflare_record" "test_mx_10_3" {
-  zone_id = cloudflare_zone.default.id
-  name    = "test"
-  value   = "mail3.webio.pl"
-  type    = "MX"
-  priority = "10"
-}
-
-resource "cloudflare_record" "test_mx_90_1" {
-  zone_id = cloudflare_zone.default.id
-  name    = "test"
-  value   = "mailoffsite.webio.pl"
-  type    = "MX"
-  priority = "90"
-}
-
-resource "cloudflare_record" "test_mail_txt" {
-  zone_id = cloudflare_zone.default.id
-  name    = "test"
-  value   = "v=spf1 a mx ptr ip4:194.88.154.129/26 ip4:31.41.209.34 -all"
-  type    = "TXT"
 }

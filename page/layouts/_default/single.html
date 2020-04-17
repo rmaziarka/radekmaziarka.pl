@@ -10,24 +10,26 @@
   <article class="single">
       <div class="center">
           <article class="single__content">
-{{$featured_image}}
-              <a href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+              <a class="single__categoryLink" href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
               {{- .Params.category -}}
               </a>
-              <h1 class="f1 athelas mt3 mb1">
+              <h1 class="single__title">
                   {{- .Title -}}
               </h1>
-              <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-              {{- .Date.Format "January 2, 2006" -}}
-              </time>
-
-              <img src="/{{$featured_image}}" class="" alt="image from {{ .Title }}">
+              <div class="single__date">
+                  {{.Date.Format "2006-01-02"}}
+              </div>
 
 
-              {{- .Content -}}
+              <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
+
+              <div class="single__text">
+                  {{- .Content -}}
+              </div>
 
 
-              <div class="mt6 instapaper_ignoref">
+
+              <div class="single__disqus">
                   {{ if .Site.DisqusShortname }}
                   {{ template "_internal/disqus.html" . }}
                   {{ end }}
@@ -36,13 +38,10 @@
                   {{ end }}
               </div>
 
-              {{ partial "social-share.html" . }}
-              {{- partial "tags.html" . -}}
-
-
-
-
-
+              <div>
+                  {{- partial "tags.html" . -}}
+                  {{ partial "social-share.html" . }}
+              </div>
           </article>
           <aside class="single__sidebar sidebar">
               {{- partial "menu-contextual.html" . -}}

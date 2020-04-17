@@ -1,0 +1,26 @@
+.sharing {
+  float: right;
+  margin-top: 5px;
+  a {
+    border-radius: 50%;
+    border: 1px solid $borderColor;
+    overflow:hidden;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 45px;
+    text-align: center;
+    margin-left: 5px;
+
+    svg {
+      width: 12px;
+      fill: $colorGray;
+    }
+
+    &:hover {
+      svg {
+        fill: $colorBlue;
+      }
+    }
+  }
+}

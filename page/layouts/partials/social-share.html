@@ -3,7 +3,7 @@
 {{ $icon_size := "32px" }}
 
 {{ if not .Params.disable_share }}
-  <div id="sharing" class="mt3">
+  <div id="sharing" class="sharing">
 
     {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
     <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook">

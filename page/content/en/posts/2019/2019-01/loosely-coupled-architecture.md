@@ -1,10 +1,9 @@
 ---
 title: 'Loosely-Coupled Architecture - how to get rid of the domino effect'
-slug: '/2019/01/15/loosely-coupled-architecture/'
+url: '/2019/01/15/loosely-coupled-architecture/'
 date: Tue, 15 Jan 2019 13:10:45 +0000
 draft: false
 featured_image: 'images/2019/01/loosely-coupled-architecture-1.jpg'
-aliases: ['/2019/01/15/loosely-coupled-architecture/']
 category: 'Design patterns'
 tags: ['architecture', 'ddd', 'design pattern', 'microservices']
 ---
@@ -15,15 +14,13 @@ If you are interested in this topic you can check my [training offer](/szkolenia
 
 You can find slides from my presentation on [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgvcpKhmk0WXxVHUqLw).
 
-Description:
-------------
+## Description:
 
 Traditionally, while creating our system, you don't focus on creating our components separated from each other. As a result, one problem can lead you to the domino effect - the whole system stops working. How to counteract it?
 
 "Loosely coupled architecture" is recognized as the main factor to create a highly-scalable system. It allows you to make changes in your application which won't effect on their other part. See yourself what are the criteria of this architecture to be able to introduce it to your solution from the very beginning.
 
-Materials:
-----------
+## Materials:
 
  *   [Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps](https://www.goodreads.com/book/show/39080433-accelerate)
  *   [Simon Brown - Modular Monolith](https://www.youtube.com/watch?v=5OjqD-ow8GE)

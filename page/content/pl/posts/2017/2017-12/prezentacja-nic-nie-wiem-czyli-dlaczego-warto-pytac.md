@@ -1,6 +1,6 @@
 ---
 title: '"Nic nie wiem" - czyli dlaczego warto pytać'
-slug: '/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/'
+url: '/2017/12/14/prezentacja-nic-nie-wiem-czyli-dlaczego-warto-pytac/'
 date: Thu, 14 Dec 2017 14:37:13 +0000
 draft: false
 featured_image: 'images/2017/12/ask-why-1.jpg'
@@ -23,8 +23,7 @@ Sam pracowałem przy wielu systemach gdzie wystąpił ten problem np.:
 
 Niestety ten ostatni przykład związany jest moim wlasnym błędem. Poświęciłem naprawdę dużo czasu i pieniędzy na stworzenie czegoś, czego finalnie nawet nie udało się testowo wdrożyć. Zamiast programować platformę mogłem zapytać się klientów końcowych o ich potrzeby i na podstawie tej wiedzy zweryfikować i odpowiednio dostosować swój pierwotny pomysł.
 
-Koszt błędów
-------------
+## Koszt błędów
 
 Ten teoretycznie prosty mechanizm, jakim jest projekcja, ma miażdżąco duże znaczenie finansowe w przypadku tworzeniu systemów informacyjnych. [IBM](ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf) opierając się o dane [National Institute of Standards & Technology](https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf) przeanalizowało jakie koszty generują błędy w każdej fazie projektu. Wyniki badania przedstawia wykres poniżej:
 
@@ -34,8 +33,7 @@ Widać, że koszty naprawy błędów rosną wraz z kolejnymi fazami projektu. Im
 
 Świetnie przedstawił ten problem Greg Young w swojej prezentacji [Stop Over-Engenering](https://www.youtube.com/watch?v=GRr4xeMn1uU) - tworząc oprogramowanie warto się skupiać na dostarczaniu go użytkownikom jak najszybciej, by walidować czy wciąż jesteśmy na dobrej drodze. Sprawdzać czy funkcje, które dodajemy do systemu, mają sens w relacji zysków do kosztów, proponować prostsze rozwiązania. Takie zachowanie stoi mocno w opozycji do sprawdzonego w naszej branży wzorca [Big Requirements Up Front](http://agilemodeling.com/essays/examiningBRUF.htm), który przeważnie kończy się ogromną ilością funkcji kompletnie nieprzydatnych lub używanych bardzo rzadko.
 
-Programiści
------------
+## Programiści
 
 Tutaj część osób mogłaby się zapytać co my programiści możemy zaproponować analitykom czy product ownerom w tej kwestii. Odpowiem cytatem, dość popularnym w naszym środowisku:
 

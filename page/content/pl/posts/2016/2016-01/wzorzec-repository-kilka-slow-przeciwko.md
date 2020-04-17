@@ -1,6 +1,6 @@
 ---
 title: 'Wzorzec Repository - kilka słów przeciwko'
-slug: '/2016/01/31/wzorzec-repository-kilka-slow-przeciwko/'
+url: '/2016/01/31/wzorzec-repository-kilka-slow-przeciwko/'
 date: Sun, 31 Jan 2016 22:56:36 +0000
 draft: false
 category: 'Wzorce projektowe'
@@ -48,10 +48,10 @@ Na koniec zostawię zagregowaną listę artykułów / postów mających podobne 
  *   [http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/](http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/)
  *   [http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/](http://piotrgankiewicz.com/2016/03/05/repository-so-we-meet-again/)
  *   [http://codingtv.pl/repozytorium-stosowac-czy-nie/](http://codingtv.pl/repozytorium-stosowac-czy-nie/)
- *   http://commitandrun.pl/2016/05/11/Repozytorium\_najbardziej\_niepotrzebny\_wzorzec\_projektowy/
- *   [http://forum.4programmers.net/Inzynieria\_oprogramowania/214921-wzorzec\_repozytorium?p=940208#id940208 ](http://forum.4programmers.net/Inzynieria_oprogramowania/214921-wzorzec_repozytorium?p=940208#id940208)
+ *   http://commitandrun.pl/2016/05/11/Repozytorium_najbardziej_niepotrzebny_wzorzec_projektowy/
+ *   [http://forum.4programmers.net/Inzynieria_oprogramowania/214921-wzorzec_repozytorium?p=940208#id940208 ](http://forum.4programmers.net/Inzynieria_oprogramowania/214921-wzorzec_repozytorium?p=940208#id940208)
  *   [http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433](http://devpytania.pl/questions/6427/repository-pattern-czy-uzywac/6433)
- *   [http://forum.4programmers.net/Inzynieria\_oprogramowania/230646-testowanie\_repository?p=1018514#id1018514 ](http://forum.4programmers.net/Inzynieria_oprogramowania/230646-testowanie_repository?p=1018514#id1018514)
+ *   [http://forum.4programmers.net/Inzynieria_oprogramowania/230646-testowanie_repository?p=1018514#id1018514 ](http://forum.4programmers.net/Inzynieria_oprogramowania/230646-testowanie_repository?p=1018514#id1018514)
 
 ---
 ### Comments:

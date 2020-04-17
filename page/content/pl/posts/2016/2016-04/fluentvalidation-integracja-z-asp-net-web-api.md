@@ -1,6 +1,6 @@
 ---
 title: 'FluentValidation – integracja z ASP.NET Web API'
-slug: '/2016/04/12/fluentvalidation-integracja-z-asp-net-web-api/'
+url: '/2016/04/12/fluentvalidation-integracja-z-asp-net-web-api/'
 date: Tue, 12 Apr 2016 20:41:06 +0000
 draft: false
 featured_image: 'images/2016/04/picjumbo.com_HNCK9261.jpg'
@@ -16,7 +16,7 @@ Zaczynamy od dodania do naszego projektu biblioteki łączącej _FluentValidati
 Install-Package FluentValidation.WebAPI
 ```
 
-Następnie w miejscu startu aplikacji (u mnie jest to _Application\_Start_ _Global.asax_) dodajemy kod odpowiedzialny za połączenie _FluentValidation_ z domyślną walidacją _WebAPI._
+Następnie w miejscu startu aplikacji (u mnie jest to _Application_Start_ _Global.asax_) dodajemy kod odpowiedzialny za połączenie _FluentValidation_ z domyślną walidacją _WebAPI._
 
 ```
 FluentValidationModelValidatorProvider.Configure(GlobalConfiguration.Configuration);

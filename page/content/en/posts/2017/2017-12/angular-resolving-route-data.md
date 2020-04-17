@@ -1,10 +1,9 @@
 ---
 title: 'Angular - resolving route data'
-slug: '/2017/12/13/angular-resolving-route-data/'
+url: '/2017/12/13/angular-resolving-route-data/'
 date: Wed, 13 Dec 2017 16:07:22 +0000
 draft: false
 featured_image: 'images/2017/12/angular.png'
-aliases: ['/2017/12/13/angular-resolving-route-data/']
 category: 'Angular'
 tags: ['angular']
 ---

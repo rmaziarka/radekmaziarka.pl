@@ -1,10 +1,9 @@
 ---
 title: 'Public speaking - 5 reasons why you should try it'
-slug: '/2017/12/05/public-speaking-5-reasons-why-you-should-try-it/'
+url: '/2017/12/05/public-speaking-5-reasons-why-you-should-try-it/'
 date: Tue, 05 Dec 2017 10:37:01 +0000
 draft: false
 featured_image: 'images/2017/11/public-speaking.jpg'
-aliases: ['/2017/12/05/public-speaking-5-reasons-why-you-should-try-it/']
 category: 'Other'
 tags: ['Public speaking', 'Soft']
 ---
@@ -28,8 +27,7 @@ I grouped advantages of public speaking in 5 points:
  *   [Become a tech leader](#tech-leader)
  *   [Increase your market value](#market-value)
 
-Self confidence
----------------
+## Self confidence
 
 Showing yourself ahead a group of many people **can be stressful and leaving-speechless**. It is a really tough thing to do if you haven't been doing it before. You will find plenty of excuses why not do it and only a few why to do it. Especially when you are quite shy and introvert person.
 
@@ -39,8 +37,7 @@ And you find that it helpful in other situations in your life - in arguing with
 
 It helps to start your journey in a **friendly environment**, which will not focus on some unnecessary details and provide proper feedback after a talk. I remember my first Lightning Talk in my company, about [Gulp pipeline](http://blog.objectivity.co.uk/how-to-improve-the-front-end-work-in-asp-net-using-gulp/). I was really nervous about this speech. During the talk, I was shaking really much. I thought that it would be a disaster. But people were listening how this technology can overcome their problems, focusing on value from the new framework and not concerning about my behavior. At the end, it turned out that **speech was a great success** and friendly faces were congratulating me for my first lightning talk. It told me that you need to make the first step to overcoming your primal fear. After that, it is much easier.
 
-Knowledge sharing
------------------
+## Knowledge sharing
 
 Typically, you run public speakings to share your knowledge with other people. You want to distribute new ideas, thoughts, new look on some topic. Or maybe just teach your folks about technology that they need to know, being on your current project. But in every this situation, **you increase their level of wisdom** and they start to be more competent in the area you describe. They start doing their work in a more effective way. They find some interesting way of using your ideas. Sometimes nothing happens for a quite long time and then - boom - a moment of clarity changes people minds.
 
@@ -50,8 +47,7 @@ Giving them broader insight has one more additional advantage. **People have to 
 
 For example, I was (still am) a big fan of [LinqPad](https://www.linqpad.net/). To interest people in my company in this tool and make company buy a license for it I presented LinqPad in lightning Talk and then wrote few use-cases how to use it. People got more familiar with this tool and company was more eager to pay for it. Without it, my employer wouldn't see a value in buying this tool.
 
-Deeper learning
----------------
+## Deeper learning
 
 To be able to teach other people / present something you have to get a deeper knowledge about your topic. It's easy to recall some info, google it and then use it, but it's much harder to spread this knowledge between other people. Just look at the [Bloom’s Taxonomy of learning](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/).
 
@@ -69,8 +65,7 @@ To be able to teach other people you will need to go **higher in learning ladder
 
 For me, my Azure Functions lighting talk and Angular training gave me an opportunity to master this technology area and spread this knowledge in the company.
 
-Become a tech leader
---------------------
+## Become a tech leader
 
 Public speaking gives you very good opportunity to show your knowledge in front of a group of people and convince them to your ideas. For few moments, your words are everything they hear and analyse. You are proving that your idea / recommendation is so valuable that you decided to share it publicly.  It's the best way to get people attention and interest in your ideas.
 
@@ -78,8 +73,7 @@ Showing yourself gives you an option to prove your skills in particular technol
 
 The process of becoming a tech leader won't be succeeded by a single talk, but public speakings are one of a great component to achieve this goal.
 
-Increase your market value
---------------------------
+## Increase your market value
 
 During my explorations about how to speak well to the public, I found such a simple but interesting and genuine [equation](https://alexba.eu/blog/twoja-wartosc-rynkowa/) how to calculate your market value:
 
@@ -99,8 +93,7 @@ So expertise in particular technology and spending more and more hours to being 
 
 2 years ago, when my new project was starting, I wanted to try [Event Storming](https://www.youtube.com/watch?v=veTVAN0oEkQ) as a way to discover new business domain. Unfortunately, I was so weak in selling this idea to my colleagues that we eventually haven't used it. It told me that having a knowledge and selling are two different things, and we need to develop ourselves in these two topics at the same time.
 
-Summary
--------
+## Summary
 
 I hope that my thoughts will inspire you to start public speaking, or at least think about it. It is really hard to start, but from that point, everything goes like a snowball - every another step comes easier and easier. A few years ago I wouldn't imagine that I will be able to stand in front of few hundreds of people and not to die of a heart attack. This year I did it at [Programistok](http://programistok.org/) and it was great. So if I can handle it, you can do it as well!
 

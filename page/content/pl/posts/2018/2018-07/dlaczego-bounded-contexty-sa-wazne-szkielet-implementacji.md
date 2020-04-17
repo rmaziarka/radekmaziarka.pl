@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne - szkielet implementacji'
-slug: '/2018/07/29/dlaczego-bounded-contexty-sa-wazne-szkielet-implementacji/'
+url: '/2018/07/29/dlaczego-bounded-contexty-sa-wazne-szkielet-implementacji/'
 date: Sun, 29 Jul 2018 21:51:55 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'

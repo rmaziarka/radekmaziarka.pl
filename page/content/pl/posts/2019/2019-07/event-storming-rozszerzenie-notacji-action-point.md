@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming - rozszerzenie notacji - Action Point'
-slug: '/2019/07/22/event-storming-rozszerzenie-notacji-action-point/'
+url: '/2019/07/22/event-storming-rozszerzenie-notacji-action-point/'
 date: Mon, 22 Jul 2019 09:06:16 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'
@@ -16,14 +16,13 @@ Alberto Brandolini, twórca techniki Event Stormingu. często podkreśla, że no
 
 Alberto często przywołuje w tym miejscu metaforę pizzy. Każda pizza składa się z ciasta, sera i sosu pomidorowego. Jedyną różnicą będa składniki, które można dowolnie dobierać.
 
-[caption id="attachment\_1766" align="alignnone" width="446"][![](/images/2019/07/gordon-ramsey-pizza.jpg)](/images/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)[/caption]
+[caption id="attachment_1766" align="alignnone" width="446"][![](/images/2019/07/gordon-ramsey-pizza.jpg)](/images/2019/07/gordon-ramsey-pizza.jpg) Trzeba tylko pamiętać aby nie przesadzić :)[/caption]
 
 Zatem, skoro sam twórca techniki zachęca nas do kreatywności i dostosowywania notacji do własnych potrzeb, to powinniśmy z tego korzystać bez obaw, że zostaniemy posądzeniu o herezje!
 
 W tej serii artykułów chciałbym przedstawić kilka propozycji rozszerzenia notacji, które może śmiało zaadoptować w innych sesjach, a które sprawdziły mi się podczas własnych sesji. Zaczniemy od **Action Point**.
 
- Action Point
-=============
+##  Action Point
 
 [![](/images/2019/07/action-point.jpg)](/images/2019/07/action-point.jpg)
 
@@ -48,8 +47,7 @@ Może w konsekwencji takiego spotkania Marek dowie się więcej od Mariana i bę
 
 Szalenie ważne jest aby pod koniec sesji,  zweryfikować cały model z Hot Spotów w formie pytającej. Tak jak już wcześniej wspomniałem pytania **mogą** oznaczać  niewiedzę, którą trzeba jakoś zaadresować. Jeżeli jest to niemożliwe podczas trwania sesji,  trzeba do **każdego** takiego Hot Spota przypisać  Action Point. Najgorsze co można zrobić to rozejść się po sesji z niewiedzą utrwalona w postaci Hot Spotów. Nie róbmy tego!
 
-Nie tylko pytania!
-==================
+## Nie tylko pytania!
 
 Action Point sprawdzają się również świetnie w przypadku Hot Spotów w formie twierdzącej!
 
@@ -63,12 +61,11 @@ Nie o to w tym chodzi! **Moja heurystyka jest następująca**:
 
 Hot Spoty w formie pytającej, które oznaczają niewiedzę powinny mieć przypisany Action Point - ktoś musi znaleźć odpowiedź na pytanie! W pozostałych przypadkach wszystko zależy od sytuacji i z jak ważnymi problemami się mierzymy. Warto tutaj słuchać co mówią uczestnicy sesji i jeżeli padnie propozycja - “Musimy o tym problemie porozmawiać z ….” - to  zróbmy z tego informację w postaci Action Pointa.
 
-Notacja
-=======
+## Notacja
 
 Do oznaczania action pointów wybrałem karteczkę standardowych rozmiarów koloru żółtego.
 
-[caption id="attachment\_1769" align="alignnone" width="195"][![](/images/2019/07/yellow-cards.jpg)](/images/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point[/caption]
+[caption id="attachment_1769" align="alignnone" width="195"][![](/images/2019/07/yellow-cards.jpg)](/images/2019/07/yellow-cards.jpg) Karteczka koloru żółtego, czyli Action Point[/caption]
 
 Ktoś może zapytać “Ło Panie, po co kolejna nowa karteczka w notacji !? Nie można tego zapisać w formie notatki?”
 

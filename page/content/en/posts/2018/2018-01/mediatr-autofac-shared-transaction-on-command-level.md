@@ -1,10 +1,9 @@
 ---
 title: 'Autofac + MediatR - Shared transaction between ORMs on a command level'
-slug: '/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/'
+url: '/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/'
 date: Thu, 04 Jan 2018 14:17:50 +0000
 draft: false
 featured_image: 'images/2018/01/autofac.png'
-aliases: ['/2018/01/04/mediatr-autofac-shared-transaction-on-command-level/']
 category: 'ORM'
 tags: ['Autofac', 'Dapper', 'Entity Framework', 'MediatR']
 ---

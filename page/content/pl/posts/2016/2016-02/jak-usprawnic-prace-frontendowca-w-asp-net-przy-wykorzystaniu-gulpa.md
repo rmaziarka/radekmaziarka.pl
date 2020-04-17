@@ -1,6 +1,6 @@
 ---
 title: 'Jak usprawnić pracę frontendowca w ASP.NET przy wykorzystaniu Gulpa?'
-slug: '/2016/02/16/jak-usprawnic-prace-frontendowca-w-asp-net-przy-wykorzystaniu-gulpa/'
+url: '/2016/02/16/jak-usprawnic-prace-frontendowca-w-asp-net-przy-wykorzystaniu-gulpa/'
 date: Tue, 16 Feb 2016 08:52:26 +0000
 draft: false
 category: 'Gulp'

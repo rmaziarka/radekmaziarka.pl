@@ -1,6 +1,6 @@
 ---
 title: 'Szkolenia'
-slug: '/szkolenia/'
+url: '/szkolenia/'
 date: Wed, 13 Mar 2019 19:45:45 +0000
 draft: false
 featured_image: 'images/2019/07/szkolenia.jpg'
@@ -10,8 +10,7 @@ W ramach mojej codziennej pracy uczę zespoły programistyczne jak lepiej osiąg
 
 Jeśli chciałbyś bym pojawił się w Twoim zespole to skontaktuj się ze mną przez [formularz kontaktowy](/kontakt) lub złap mnie na [Twitterze](https://twitter.com/RadekMaziarka) 🙂
 
-Lista szkoleń
-=============
+## Lista szkoleń
 
 Szkolenia i warsztaty podzieliłem na 2 rodzaje - te techniczne i miękkie:
 
@@ -33,8 +32,7 @@ Szkolenia i warsztaty podzieliłem na 2 rodzaje - te techniczne i miękkie:
 
 Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb [daj mi znać](/kontakt)! Z chęcią przygotuję coś specjalnie dla Ciebie.
 
-Rekomendacje
-============
+## Rekomendacje
 
 [![](/images/2019/08/tomasz-kurowski.jpg)](https://www.linkedin.com/in/tomasz-kurowski/)
 

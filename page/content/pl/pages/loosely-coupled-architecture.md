@@ -1,6 +1,6 @@
 ---
 title: 'Loosely-Coupled Architecture'
-slug: '/szkolenia/loosely-coupled-architecture/'
+url: '/szkolenia/loosely-coupled-architecture/'
 date: Sun, 18 Aug 2019 11:15:04 +0000
 draft: false
 featured_image: 'images/2019/09/Loosely-coupled.jpg'
@@ -18,23 +18,20 @@ Miejsce szkolenia:
 
 Siedziba klienta
 
-Opis szkolenia
-==============
+## Opis szkolenia
 
 Architektura "Loosely-Coupled" jest kluczowa by osiągać wysoką częstotliwość wdrożeń i jakość produkcji. Bez niej wszystkie nasze działania mogą byc hamowane przez czynniki zewnętrzne - komponenty / systemy / zespoły.
 
 Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak luźno powiązana architektura daje możliwość osiągnięcia wysokiej efektywności pracy przy jednoczesnej wysokiej autonomii. Pracujemy niezależnie, a jednocześnie wciąż mamy pewność, że cały system działa jak należy. Jeśli interesuje Cię ten temat **[skontaktuj się ze mną](/kontakt).**
 
-Wiedza uzyskana na szkoleniu:
-=============================
+## Wiedza uzyskana na szkoleniu:
 
  *   Informacja jak architektura luźno powiązana wpływa na system pracy
  *   Zasady projektowania systemów w oparciu o Loosely-Coupled Architecture
  *   Najczęstsze sposoby łamiania architektury luźno powiązanej
  *   Wiedza jak budować zespoły by działały niezależnie
 
-Możliwy zakres szkolenia:
-=========================
+## Możliwy zakres szkolenia:
 
  *   Podstawy Loosely-Coupled Architecture
     

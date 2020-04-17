@@ -1,10 +1,9 @@
 ---
 title: 'CQRS - Third step - Simple read model'
-slug: '/2018/01/08/cqrs-third-step-simple-read-model/'
+url: '/2018/01/08/cqrs-third-step-simple-read-model/'
 date: Mon, 08 Jan 2018 10:33:54 +0000
 draft: false
 featured_image: 'images/2018/01/simple-read-model.jpg'
-aliases: ['/2018/01/08/cqrs-third-step-simple-read-model/']
 category: 'Design patterns'
 tags: ['CQRS', 'Dapper', 'Domain Events', 'Entity Framework', 'MediatR']
 ---
@@ -22,15 +21,13 @@ You can find source codes [here](https://github.com/rmaziarka/CQRS-4steps).
 
 Stay tuned ;)
 
-Recent state of your app
-------------------------
+## Recent state of your app
 
 In the [second step](/2017/10/31/cqrs-second-step-different-query-model/), you have changed your slow queries to use a more lightweight option to query the database: [ProjectTo](http://automapper.readthedocs.io/en/latest/Queryable-Extensions.html) extension and [Dapper](https://github.com/StackExchange/Dapper) ORM.
 
 As the result of your actions, the system is performing faster. Only required places have been refactored - remaining command and queries, which were optimal, wasn't affected and work seamlessly.
 
-Your current bottleneck - listless searching
---------------------------------------------
+## Your current bottleneck - listless searching
 
 One of your new requirements is to implement more **complex filtering** - by the dynamic field values and by average rating with additional **conditional ordering**. Your complicated query ([listed here](/2017/10/31/cqrs-second-step-different-data-access/#dapper)) gets even more complicated.
 
@@ -38,8 +35,7 @@ After implementation, you find out that performance of the system has decreased
 
 You heard that creating a **different data model **could help with this situation, but how to realize it without refactoring the whole system?
 
-Simple read model - to the rescue
----------------------------------
+## Simple read model - to the rescue
 
 [![](/images/2018/01/simple-read-model.jpg)](/images/2018/01/simple-read-model.jpg)
 
@@ -49,8 +45,7 @@ This pattern allows you to separate your write logic from a read logic - writ
 
 Creating read model is a different thing. You don't want to fill two (or more) different stores with data in a command - it would break single responsibility principle and would cause problems with maintaining the application. So you decide to look at a different solution to this problem - domain events.
 
-Domain events
--------------
+## Domain events
 
 [![](/images/2018/01/domain-events-1.jpg)](/images/2018/01/domain-events-1.jpg)
 
@@ -64,8 +59,7 @@ So you design a graph to show how the events will be thrown and used to create 
 
 Every action, which embraces products, at the end publishes an event. It is handed in the event handler (specially dedicated for product read model) which adds or modify particular data in the database. Simple but powerful.
 
-**Events**
-----------
+## **Events**
 
 Each event contains a set of data which informs what was changed in a command handler.
 ```
@@ -89,8 +83,7 @@ All events are available [here](https://gist.github.com/rmaziarka/6ddb02f3b2380b
 
 Each event implements [INotification](https://github.com/jbogard/MediatR/wiki#publishing) interface from **MediatR** library. It allows publishing an event in MediatR pipeline, at the end of processing command in command handler.
 
-Command handlers
-----------------
+## Command handlers
 
 Now you add throwing an event in every command handler which is dedicated to the product management.
 ```
@@ -119,8 +112,7 @@ All command handlers are listed [here](https://gist.github.com/rmaziarka/8cfec16
 
 Every particular event is created on the basis of data from the model. You pass it to mediator object and publish - no additional logic. Such behavior allows you to keep your command handler simple and maintainable in a longer perspective.
 
-Read model - product structure
-------------------------------
+## Read model - product structure
 
 At that time, you define your product read model, which is used to store the data in the database.
 ```
@@ -147,8 +139,7 @@ Full read model is listed [here](https://gist.github.com/rmaziarka/02045d052fbbf
 
 **Review** and **FieldValues** are created to make the model more flexible and readable. They are stored in the database as JSON string, Review as whole object and FieldValues as dictionary FieldValue.Id - FieldValue.Value.
 
-Event handlers
---------------
+## Event handlers
 
 You create event handlers very straightforward - they create or gather product from the repository, apply the event to model and save it to the database.
 ```
@@ -206,8 +197,7 @@ To be able to find and modify read models you create an additional repository:
 ```
 You use a Dapper internal mechanism to handle serialization and deserialization of JSON columns: Review and FieldValues. With this separation, your event handlers are cut off from database layer and can be tested with more simplicity.
 
-Products query handler
-----------------------
+## Products query handler
 
 Now you change your handler to gather products from new read model. First the command:
 ```
@@ -233,8 +223,8 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
         private readonly SqlConnection _sqlConnection;
         private readonly Dictionary<SortColumn, string> _sortColumnDict = new Dictionary<SortColumn, string>()
         {
-            [SortColumn.ReviewCount] = "JSON\_VALUE(Review, '$.Count') ",
-            [SortColumn.ReviewAverage] = "JSON\_VALUE(Review, '$.Average') ",
+            [SortColumn.ReviewCount] = "JSON_VALUE(Review, '$.Count') ",
+            [SortColumn.ReviewAverage] = "JSON_VALUE(Review, '$.Average') ",
             [SortColumn.OrderAmount] = "OrderAmount "
         };
 
@@ -257,14 +247,14 @@ Then you change your handler to gather data by Dapper extensions to the SqlConn
             // filtering - rating
             if (command.AtLeastRating.HasValue)
             {
-                builder.Where("JSON\_VALUE(Review,'$.Average') >= @AtLeastRating", command);
+                builder.Where("JSON_VALUE(Review,'$.Average') >= @AtLeastRating", command);
             }
 
             // filtering - field values
             foreach (var fieldValue in command.FieldValues)
             {
                 var path = $"$.\\"{fieldValue.Key}\\""; // 1 => $."1"
-                builder.Where(@"JSON\_VALUE(FieldValues, @Path) = @Value", new { Path = path, Value = fieldValue.Value });
+                builder.Where(@"JSON_VALUE(FieldValues, @Path) = @Value", new { Path = path, Value = fieldValue.Value });
             }
 
             // ordering
@@ -287,8 +277,7 @@ You build your SQL query in query handler adding dynamically WHERE and ORDER par
 
 Your products query currently is not using any additional table - just the ProductsReadModel. With a [mechanism](https://docs.microsoft.com/en-us/sql/relational-databases/json/index-json-data) to index JSON columns, your queries are performing a way better than before.
 
-Transaction between Dapper and EF
----------------------------------
+## Transaction between Dapper and EF
 
 To avoid losing data between command handlers and event handlers, in case of failure, there is a need to implement database transaction. It should embrace logic defined in both handlers but it should not affect your written code. So you decide to implement it at the infrastructure level.
 
@@ -296,14 +285,13 @@ There are multiple ways to do it, [at the request level](/2018/01/04/asp-net-au
 
 Creating transaction between database calls versus saving changes in every command / event and handling failure is a decision that everybody needs to make, depending on your requirements. To deepen this topic I recommend a great article in [.NET Microservices. Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation#single-transaction-across-aggregates-versus-eventual-consistency-across-aggregates) book.
 
-Re-create your read model
--------------------------
+## Re-create your read model
 
 Your system is currently running so you cannot just start applying new events because existing products won't be transferred to the read model. You need to handle it yourself, by a different scenario.
 
 You decide to do it as straightforward as it can be - during the database migration. When a new structure for a read model is created, it will automatically be filled with desired data.
 
-Result SQL looks like [that](https://gist.github.com/rmaziarka/fd7921fc70e19d74f9184ba2884adb0e). It goes through every row in Products table and creates the analogical row in the ProductReadModel table. The most difficult part - flattening Field Values is accomplished by using a [STRING\_AGG](https://sqlperformance.com/2016/12/sql-performance/sql-server-v-next-string_agg-performance) function which allows concatenating multiple values into a single one. Unfortunately, the dynamic field value model requires CASE syntax to gather value from the proper column.
+Result SQL looks like [that](https://gist.github.com/rmaziarka/fd7921fc70e19d74f9184ba2884adb0e). It goes through every row in Products table and creates the analogical row in the ProductReadModel table. The most difficult part - flattening Field Values is accomplished by using a [STRING_AGG](https://sqlperformance.com/2016/12/sql-performance/sql-server-v-next-string_agg-performance) function which allows concatenating multiple values into a single one. Unfortunately, the dynamic field value model requires CASE syntax to gather value from the proper column.
 
 Of course, this is the simplest solution and with more complex scenarios, it won't be sufficient to cover all edge cases. More sophisticated solutions are:
 
@@ -313,8 +301,7 @@ Of course, this is the simplest solution and with more complex scenarios, it wo
  *   [Blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - works together with feature flag to get the certainty that returned view is the same.
  *   [Event sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing) - create an event for existing data and store all new events additionally in the different table. Then start [projection](https://abdullin.com/post/event-sourcing-projections/).
 
-Summary
--------
+## Summary
 
 The third step to implement CQRS requires **creating read model** to improve the performance of querying your system. It's better to start doing it synchronously than asynchronously to avoid problems with eventual consistency and reverting failures. By that step, you will have **two different models** for your data - write model and read model. Each dedicated to handling their scenario in a most effective way.
 

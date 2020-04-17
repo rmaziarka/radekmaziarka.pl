@@ -1,6 +1,6 @@
 ---
 title: 'Nowe technologie a współdzielenie wiedzy'
-slug: '/2018/03/04/nowe-technologie-a-wspoldzielenie-wiedzy/'
+url: '/2018/03/04/nowe-technologie-a-wspoldzielenie-wiedzy/'
 date: Sun, 04 Mar 2018 21:14:24 +0000
 draft: false
 featured_image: 'images/2018/03/new-technologies-knowledge-sharing.jpg'

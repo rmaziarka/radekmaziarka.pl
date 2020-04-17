@@ -1,6 +1,6 @@
 ---
 title: 'About me'
-slug: '/about-me/'
+url: '/about-me/'
 date: Sun, 13 Mar 2016 19:41:49 +0000
 draft: false
 ---

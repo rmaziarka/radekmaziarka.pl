@@ -1,6 +1,6 @@
 ---
 title: 'Prelekcje'
-slug: '/prelekcje/'
+url: '/prelekcje/'
 date: Sun, 21 Oct 2018 21:08:08 +0000
 draft: false
 featured_image: 'images/2019/07/prelekcje.jpg'
@@ -8,11 +8,9 @@ featured_image: 'images/2019/07/prelekcje.jpg'
 
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
-Przyszłe
---------
+## Przyszłe
 
-2019
-----
+## 2019
 
  *   2019-12-18 - "Loosely-Coupled Architecture - Jak pozbyć się efektu domina" - [Białostocka Grupa .NET](https://www.facebook.com/events/480310039269803/)
  *   2019-12-11 - "Złożoność mnie pokonała" - [Beat The Nonsense](https://www.meetup.com/pl-PL/GraoSens/events/266459226/)
@@ -36,8 +34,7 @@ Przyszłe
  *   2019-02-09 - "Event Storming - jak szybko odkrywać nieznane" warsztat - [DevWarsztaty](https://www.meetup.com/pl-PL/devWarsztaty/events/258533467/attendees/)
  *   2019-01-19 - "Loosely-Coupled Architecture - Jak pozbyć się efektu domina" - [WROC.NET](https://www.meetup.com/pl-PL/wrocnet/events/257779436/) - [video](https://www.youtube.com/watch?v=1iB87A1W0SA&t=2387s)
 
-2018
-----
+## 2018
 
  *   2018-12-08 - "Jak błędy poznawcze niszczą twoją pracę" - [IT Academic Day Wrocław](https://www.facebook.com/events/538581659941967/permalink/540187079781425/)
  *   2018-11-21 - "Dlaczego biznes nas nie rozumie - podstawy psychologiczne" - [Wrocław Agile Development](https://www.meetup.com/pl-PL/Wroclaw-Agile-Development-Meetup/events/256175599/) - [video](https://www.youtube.com/watch?v=21aRa8rAe8U&t=1s)

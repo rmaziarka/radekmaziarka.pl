@@ -1,6 +1,6 @@
 ---
 title: 'ASP.NET Web Api i identyczne nazwy kontrolerów'
-slug: '/2016/02/11/asp-net-web-api-i-identyczne-nazwy-kontrolerow/'
+url: '/2016/02/11/asp-net-web-api-i-identyczne-nazwy-kontrolerow/'
 date: Thu, 11 Feb 2016 22:24:05 +0000
 draft: false
 category: 'ASP.NET'

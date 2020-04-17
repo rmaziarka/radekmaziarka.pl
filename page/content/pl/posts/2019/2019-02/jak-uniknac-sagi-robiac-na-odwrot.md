@@ -1,6 +1,6 @@
 ---
 title: 'Jak unikać sagi - robiąc na odwrót'
-slug: '/2019/02/13/jak-uniknac-sagi-robiac-na-odwrot/'
+url: '/2019/02/13/jak-uniknac-sagi-robiac-na-odwrot/'
 date: Wed, 13 Feb 2019 21:21:28 +0000
 draft: false
 featured_image: 'images/2019/02/animal-3913023_960_720.jpg'
@@ -12,8 +12,7 @@ Ostatnio natrafiłem na tweeta Udiego Dahana o [sagach](https://twitter.com/UdiD
 
 Zastanowiło mnie to, czy czasem sam nie trafiam na podobny problem.
 
-Domena rezerwacji biletów
--------------------------
+## Domena rezerwacji biletów
 
 Załóżmy że mamy proces sprzedaży biletów kinowych. Użytkownik wybiera godzinę seansu i salę, a następnie prezetujemy mu wygląd sali z krzesłami. Krzesła są albo zajęte, albo wolne, w zależności od dokonanych rezerwacji.
 
@@ -42,15 +41,13 @@ Takie rozwiązanie powoduje, że mamy proces, który wymaga koordynacji pomiędz
 
 #CoRobićJakŻyć
 
-Turn it upside down
--------------------
+## Turn it upside down
 
 Adam Ralph na [DevConf](https://www.youtube.com/watch?v=rsCqHsV9Dxg) podrzucił ciekawą strategię, zaprezentowaną na przykładzie Amazona. Zamiast tworzyć byt w ostanim możliwym momencie, można utworzyć go na początku procesu.Amazon tworzy zamówienie już podczas wejścia do strony "Zamówienie", a nie na jej końcu.
 
 Takie zachowanie pozwala podpiąć wszystkie potrzebne informacje jeszcze w trakcie trwania procesu. Możemy spokojnie dodawać kolejne porcje danych zamiast wykonywać Big Bang Request na samym końcu, co może skończyć się niepowodzeniem.
 
-No-saga w rezerwacji biletów
-----------------------------
+## No-saga w rezerwacji biletów
 
 To co można zrobić w naszym przypadku to stworzyć rezerwację od razu jak użytkownik wybierze salę kina. Następnie, na podstawie identyfikatora danej rezerwacji uderzyć bezpośrednio do kontekstu Sal, prosząc o zajęcie miejsc. Unikamy jakichkolwiek sag - wszystko dzieje się w obrębie jednego kontekstu. Gdy nam się operacja nie powiedzie to możemy bezproblemowo ją ponawiać na innych krzesłach.
 

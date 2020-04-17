@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne – narzędzia Business Inteligence'
-slug: '/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/'
+url: '/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/'
 date: Thu, 23 May 2019 22:13:12 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'
@@ -14,15 +14,13 @@ Po poprzednich, bardziej teoretycznych postach, warto przejść do praktyki. W k
 
 Wszystkie przytoczone przeze mnie przypadki braku kontekstów są realnymi przypadkami. Jedynie domena biznesowa została zmieniona na systemy zakupowe.
 
-Sytuacja biznesowa
-==================
+## Sytuacja biznesowa
 
 Firma tworząca platformę sklepów potrzebowała narzędzia do wykonywania analiz i tworzenia raportów. Chciała ona móc, na podstawie danych w platformie, uzyskiwać bardziej złożoną wiedzę odnośnie akcji klientów w sklepie: przeszukiwane produkty, raporty sprzedażowe tygodniowe / miesięczne / kwartalne, najbardziej popularne produkty / godziny zakupów itd.
 
 Podjęta została decyzja, aby nie pisać tej funkcjonalności od zera, ale wykorzystać jedno z dostępnych na rynku narzędzi Business Inteligence (np. [Power BI](https://powerbi.microsoft.com/en-us/)). Pozwalają one tworzyć wysokiej jakości analizy i raporty, bez konieczności dodawania takich możliwości do samej platformy. Co ważniejsze, bardziej biegli analitycy biznesowi czy project managerowie, również mogli sami tworzyć takie raporty.
 
-Rozwiązanie techniczne
-======================
+## Rozwiązanie techniczne
 
 Po zakupie narzędzia BI połączono się z tabelami wewnątrz bazy danych platformy (narzędzia te rzadko łączą się przez API) w celu pobierania i analizy danych. Biznes (analitycy, PMowie itd.) pracowali na tych samych strukturach danych co developerzy.
 
@@ -30,8 +28,7 @@ Po zakupie narzędzia BI połączono się z tabelami wewnątrz bazy danych platf
 
 Platforma była w tym czasie rozszerzana o nowe funkcjonalności, które modyfikowały jej sposób działania.
 
-Problem
-=======
+## Problem
 
 Po pewnym czasie zauważono, że zespoły pracujące nad danymi modułami bardzo starają się unikać pracy związanej ze zmianami w bazie danych. Ilość tabel rosła niewspółmiernie do zmian jakie były dokonywane. Dodatkowo te tabele, które istniały już wcześniej, miały strukturę nieprzystającą do aktualnych potrzeb.
 
@@ -39,8 +36,7 @@ Zespół argumentował swoje zachowanie faktem, że narzędzie BI nie pozwala im
 
 Osoby te pracowały w jednej firmie i najprawdopodobniej mogłyby się porozumieć odnośnie modyfikacji struktury bazy danych i aktualizacji zarówno po stronie platformy jak i narzędzia BI. Jednak żadna z grup nie wyszła z inicjatywą i developerzy woleli dodawać nowe tabele niż usuwać / modyfikować istniejące.
 
-Bounded Context
-===============
+## Bounded Context
 
 Zabrakło tutaj ewidentnie separacji i jasnego zdefiniowania odpowiedzialności w jaki sposób wybrane narzędzie BI będzie się integrowało z bazą danych. Tak silne połączenie zewnętrznego komponentu z naszym systemem powoduje trudności w rozwoju aplikacji. Jednocześnie zmusza członków zespołu do dokonywania skomplikowanych wyborów i przeprowadzania trudnych rozmów. A ludzie z natury nie lubią ich podejmować / brać w nich udziału i wolą raczej tak działać by nie musieć się z takimi problemami zmagać.
 
@@ -50,8 +46,7 @@ Google w 2015 roku opublikował [badanie](https://rework.withgoogle.com/blog/fiv
 
 Konteksty wspierają to bezpieczeństwo definiując jaki jest kontrakt z zewnętrznym światem, a co jest naszymi wewnętrznymi detalami. Jeśli tylko zadbamy, by efekt naszych zmian nie burzył tego kontraktu **możemy dokonywać dowolne zmiany jakie są dla nas wymagane**. Zmiana bazy danych / frameworka / języka programowania czy nawet zmiana modelu pracy staje się w tym momencie możliwa. Musimy jedynie pamiętać o tym by dotrzymywać wcześniej danego słowa.
 
-Rozwiązanie
-===========
+## Rozwiązanie
 
 W zasadzie, w opisanej sytuacji są możliwe 2 rozwiązania, które zależą od tego, jak chcemy uformować zespoły:
 

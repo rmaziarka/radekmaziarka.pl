@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming w organizacji - Big Picture'
-slug: '/2018/12/10/event-storming-w-organizacji-big-picture/'
+url: '/2018/12/10/event-storming-w-organizacji-big-picture/'
 date: Mon, 10 Dec 2018 22:31:07 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'
@@ -18,8 +18,7 @@ Przechodzimy przez wszystkie elementy standardowego warsztatu, wizualizując zda
 
 Całość warsztatu można zamknąć w kilka godzin, przedłużając albo skracając fazy w zależności od potrzeb. Na końcu następuje podsumowanie warsztatu i dyskusja na temat dalszych kroków.
 
-Korzyści
-========
+## Korzyści
 
 ### Wizualizacja procesów
 
@@ -45,8 +44,7 @@ Przeprowadzenie takiego warsztatu pozwala zaangażować bardzo wiele osób w kr�
 
 Warsztat pomógł zaangażować osoby z różnych działów w życie całej firmy dzięki szerszemu spojrzeniu, jakie uzyskali. Osoby na niższym szczeblu mogły uzmysłowić sobie jak bardzo złożona jest cała “machina biznesu” i jaką rolę odgrywają w kontekście całej firmy, co pozytywnie wpłynęło na motywację.  Wszystkim zaś uzmysłowiło jakie są perspektywy rozwoju firmy i nakreśliło wspólny cel, w jakim wszyscy powinniśmy dążyć.
 
-Możliwe problemy
-================
+## Możliwe problemy
 
 ### Brak przejścia przez wszystkie procesy
 
@@ -74,8 +72,7 @@ Firma to zbiór osób z różnych środowisk i o różnym wykształceniu. Pewne 
 
 Dlatego warto jest wspomnieć na początku warsztatu o szerszym ich celu. Nie spotykamy się tylko po to, by „zarząd” wiedział, jak pracują jego pracownicy. Spotykamy się, bo chcemy długofalowo poprawić problemy na jakie codziennie natrafiają. A do tego potrzebna jest kooperacja i wspólne zrozumienie.
 
-Podsumowanie
-============
+## Podsumowanie
 
 Głównym rezultatem warsztatu Event Storming jest szeroki pogląd na procesy, które się znajdują w firmie. Widzimy, które procesy są zrozumiałe, a przy których mamy dużo problemów. Klaruje się, gdzie mamy punkty styku pomiędzy działami, w których miejscach proces się zakleszcza, a ludzie z poszczególnych działów się nie rozumieją. Dzięki zdobyciu takiej wiedzy możemy podjąć decyzję odnośnie naszej aktywności w poprawie pracy firmy (nie tylko w procesach biznesowych, ale również w zespołach).
 

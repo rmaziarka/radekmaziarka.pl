@@ -1,6 +1,6 @@
 ---
 title: 'Narzędzia pracy konsultanta – część 1'
-slug: '/2020/02/04/narzedzia-pracy-konsultanta-cz1/'
+url: '/2020/02/04/narzedzia-pracy-konsultanta-cz1/'
 date: Tue, 04 Feb 2020 22:14:24 +0000
 draft: false
 featured_image: 'images/2020/02/consultancy.jpg'
@@ -25,8 +25,7 @@ Może was to zdziwić, ale nie rozpocznę od Event Stormingu 😉, choć oczywi�
 
 Zanim przejdziemy do poszczególnych technik i narzędzi, wyjaśnijmy, dlaczego stosowanie takich narzędzi jest warte uwagi.
 
-Wizualizacja
-============
+## Wizualizacja
 
 Każda z metod, o których przeczytacie poniżej jest oparta na wizualizacji. I to jest klucz do sukcesu. Wizualizacja jest ważna, aby osiągnąć wartościowe rozwiązanie w skończonym czasie. Inaczej trudno jest zauważyć, co jest dla nas ważne. Jesteśmy wzrokowcami i bez wykorzystywania tego zmysłu osiąganie rezultatu trwa o wiele dłużej.
 
@@ -34,8 +33,7 @@ To jest szczególnie ważne, gdy pracujemy w grupie. Mając pewne rozwiązanie w
 
 Nieco szerzej opisałem ten temat w poście o [zaletach Event Stormingu](http://radekmaziarka.pl/2019/05/11/event-storming-dlaczego-dziala-tak-dobrze#wizualizacja).
 
-1 - Impact Mapping
-==================
+## 1 - Impact Mapping
 
 Pierwszym narzędziem, które chcę polecić jest [Impact Mapping](https://www.impactmapping.org/) opisany przez Gojko Adzica. Jest to technika pozwalająca wybrać problem, który chcemy rozwiązywać. To jest taki swoisty krok przed.
 
@@ -63,8 +61,7 @@ Kilka zdjęć z innego warsztatu możecie znaleźć na [moim Twitterze](https://
 
 Większość metod pozwala nam opisać najlepszą drogę do celu. Jeśli jednak ten cel nie jest właściwy to cała nasza praca idzie na nic. Impact Mapping pozwala wybrać właściwy cel i rozwiązanie, które później zaadresujemy kolejnymi warsztatami.
 
-2 - Business Model Canvas
-=========================
+## 2 - Business Model Canvas
 
 Narzędziem, które świetnie współgra z Impact Mappingiem jest [Business Model Canvas](https://www.strategyzer.com/canvas/business-model-canvas). Jest to zebranie swojego modelu biznesowego w formę spójnego przekazu, który zawrzemy w jednej kartce A4. Na samym początku wydaje się to zbyt krótkie, ale pozwala nam zwięźle opowiedzieć o naszym modelu biznesowym.
 
@@ -74,7 +71,7 @@ Dodatkowo w wielu firmach różne działy w firmie działają sprzecznie, częst
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Business_Model_Canvas.png/1920px-Business_Model_Canvas.png)
 
-Business Model Canvas - [https://pl.wikipedia.org/wiki/Business\_Model\_Canvas](https://pl.wikipedia.org/wiki/Business_Model_Canvas)
+Business Model Canvas - [https://pl.wikipedia.org/wiki/Business_Model_Canvas](https://pl.wikipedia.org/wiki/Business_Model_Canvas)
 
 Business Model Canvas pozwala nam uwspólnić wizje naszego produktu i skupić się na jego najważniejszych elementach. Jest to nasze bezpośrednie oświadczenie jak powinna działać nasza organizacja – na czym się skupiać, a co pomijać w swoich działaniach.
 
@@ -94,8 +91,7 @@ Business Model Canvas pozwolił uwspólnić wizję osób w projekcie. Zostały z
 
 Jeśli nie potrafimy stworzyć abstraktu na 1 stronę A4 to znaczy, że nasza konkretna oferta biznesowa może być zbyt niespójna. Business Model Canvas pozwala nam wybrać co jest naszym głównym celem i na tej podstawie podejmować konkretne akcje.
 
-3 - Event Storming
-==================
+## 3 - Event Storming
 
 Kiedy mamy już zdefiniowany cel, to kolejnym świetnym warsztatem jest [Event Storming](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/) opisany przez Alberto Brandoliniego. Jest to technika pozwalająca zwizualizować jak będzie wyglądać nasze ostateczne rozwiązanie, biorąc pod uwagę różne scenariusze i sytuacje brzegowe.
 
@@ -105,7 +101,7 @@ A to się bardzo mści. Jeśli bowiem nie znajdziemy tych problemów na etapie p
 
 [![](/images/2020/02/event-storming-part.png)](/images/2020/02/event-storming-part.png)
 
-Kadr książki Introducing Event Storming - [https://leanpub.com/introducing\_eventstorming](https://leanpub.com/introducing_eventstorming)
+Kadr książki Introducing Event Storming - [https://leanpub.com/introducing_eventstorming](https://leanpub.com/introducing_eventstorming)
 
 Event Storming pozwala nam zwizualizować cały proces biznesowy, biorąc pod uwagę różne aspekty i sposoby działania naszych pracowników / systemów. Widząc całość łatwiej jest zauważyć luki lub niespójności, zaproponować udoskonalenia, wybrać najważniejsze problemy do zaadresowania. Dodatkowo uwspólniamy naszą wiedzę o procesie dzieląc się swoim punktem widzenia.
 
@@ -125,8 +121,7 @@ Event Storming pozwolił na zwizualizowanie całego procesu, od postanowienia we
 
 W ekspresowym tempie możemy zwizualizować nasz sposób działania i na jego podstawie podjąć decyzje: czego brakuje, co usprawnić a co usunąć. Technika jest bardzo lekka i można ją wykorzystać w każdym gronie, zarówno technicznym jak i nietechnicznym.
 
-4 - Macierze
-============
+## 4 - Macierze
 
 W tym miejscu nastąpi połączenie różnych technik w jedną kategorię. Wartym rozważenia pomysłem, w przypadku podejmowania decyzji, jest zwizualizowanie ich rezultatów na 2-wymiarowej macierzy. Wybieramy różne parametry osi by wymóc na uczestnikach zastanowienie się nad różnymi aspektami swoich wyborów.
 
@@ -159,8 +154,7 @@ Wdrożenie do praktyki codziennej macierzy Wartość / Koszt pozwoliło tej orga
 
 Macierz jest prostą metodą, którą da się wytłumaczyć i wykorzystać w prawie każdej sytuacji. Pozwala pokazać różne aspekty naszych decyzji i wybrać te właściwe.
 
-Kontynuacja
-===========
+## Kontynuacja
 
 Temat ten będzie kontynuowany jako osobny post (link pojawi się po dodaniu artykułu).
 

@@ -1,6 +1,6 @@
 ---
 title: 'Jak optymalizować mikroserwisy? O procesie decyzyjnym...'
-slug: '/2020/02/17/jak-optymalizowac-mikroserwisy/'
+url: '/2020/02/17/jak-optymalizowac-mikroserwisy/'
 date: Mon, 17 Feb 2020 21:59:43 +0000
 draft: false
 category: 'Wzorce projektowe'
@@ -19,8 +19,7 @@ Wydaje mi się (i oczywiście mogę się mylić), że problem leży w procesie p
 
 A można inaczej…
 
-Impact Mapping
-==============
+## Impact Mapping
 
 Sposobów na lepsze podejmowanie decyzji jest kilka. Ostatnio stosuję i staram się promować model Gojko Adzica zwany Impact Mappingiem:
 
@@ -30,8 +29,7 @@ Aby poprawnie wybrać właściwe rozwiązanie, najpierw trzeba odpowiednio zdefi
 
 I niestety, w przeważającej ilości przypadków mikroserwisy są definiowane jako cel, a powinny być narzędziem, a nawet tylko jednym z elementów narzędzia.
 
-Cel – po co optymalizować?
-==========================
+## Cel – po co optymalizować?
 
 Pierwszym, bezwzględnym pytaniem, jakie trzeba sobie zadać jest: Co chcemy osiągnąć? Nawet jeśli mikroserwisy muszą być rozwiązaniem, to w zależności od celu mikroserwisy można wdrożyć na wiele sposobów.
 
@@ -43,8 +41,7 @@ Aby odpowiednio zdefiniować cel warto pamiętać, że powinien on spełniać za
 
 To co jest ważne podczas definicji celu to współpraca z biznesem – piszemy system dla kogoś, a nie dla nas samych. Cel powinien być wspólny zarówno dla osób technicznych jak i interesariuszy projektu. W przeciwnym wypadku nawet najlepsze rozwiązanie będzie po prostu bezużyteczne.
 
-Aktorzy – jakimi rękoma będziemy optymalizowali
-===============================================
+## Aktorzy – jakimi rękoma będziemy optymalizowali
 
 Tutaj przechodzimy do nieco nieoczekiwanej części – kim jesteśmy w stanie zrealizować dany cel. Ta kwestia na początku wydaje się oczywista, ale jeśli głębiej się nad nią zastanowimy to już taka nie jest. Np. w omawianym tutaj kontekście nie zawsze jest nią zespół programistyczny.
 
@@ -54,8 +51,7 @@ Tutaj przechodzimy do nieco nieoczekiwanej części – kim jesteśmy w stanie z
 
 Nie chodzi tutaj o wyjście z wszystkimi możliwymi osobami z projektu. Raczej o pewien eksperyment myślowy, który pozwoli wyjść poza ramy typowych odpowiedzi. Czasem rozwiązanie przychodzi z zewnątrz, czasem nie wszystko trzeba rozwiązywać technicznie.
 
-Wpływ – jaką zmianę wywołamy na optymalizacji
-=============================================
+## Wpływ – jaką zmianę wywołamy na optymalizacji
 
 W tej części skupiamy się jak nasza akcja wpłynie na ostateczny cel. Czyli chcemy zdefiniować zmianę, która dokona się na danym aktorze bądź, jak aktor przysłuży się nam do osiągnięcia celu. Łatwo jest jednak się pomylić i wychodzić tutaj z listą rozwiązań, zamiast faktycznych zmian w drodze do celu.
 
@@ -73,8 +69,7 @@ Co jest wpływem:
 
 Dlaczego to jest ważne? **Definiując wpływ, a nie rozwiązania, możemy wyjść z różnymi rozwiązaniami do danego wpływu.** Skupiając się na rozwiązaniu zawsze będziemy sobie mogli uzasadnić, że nie ma innego wyjścia z danej sytuacji.
 
-Narzędzia – czym będziemy optymalizowali
-========================================
+## Narzędzia – czym będziemy optymalizowali
 
 Mając zdefiniowane powyższe obszary można przejść do proponowania rozwiązań. Jeśli odpowiednio przeszliśmy przez powyższe punkty, to powinniśmy mieć przynajmniej kilka możliwych pomysłów jak zaadresować daną sytuację.
 
@@ -97,8 +92,7 @@ Na żadną z powyższych kwestii same mikroserwisy nie dadzą nam odpowiedzi. Du
  *   Czy mamy wsparcie klienta w zmianach
  *   Czy klient rozumie problemy wynikające z mikroserwisów (opóźnienia, możliwą niespójność danych, dodatkową pracę)
 
-Simon Brown i mikroserwisy
-==========================
+## Simon Brown i mikroserwisy
 
 W dużej części przypadków mikroserwisy nie są odpowiedzią na postawiony cel, przynajmniej nie na początku projektu. Wszystko to zamyka się w odpowiednio podzielonym monolicie i dobrze odseparowanych od siebie modułach / komponentach. Simon Brown w swojej [prezentacji](https://www.youtube.com/watch?v=5OjqD-ow8GE) przedstawiał drogę do mikroserwisów jako ostatni etap dobrej komponentyzacji (twór własny) swojego systemu:
 

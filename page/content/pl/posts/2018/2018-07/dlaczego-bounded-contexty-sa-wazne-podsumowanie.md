@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne - podsumowanie'
-slug: '/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/'
+url: '/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/'
 date: Mon, 16 Jul 2018 19:39:48 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'

@@ -1,6 +1,6 @@
 ---
 title: 'Dlaczego Bounded Contexty są ważne – partie produktów a działy firmy'
-slug: '/2018/08/28/dlaczego-bounded-contexty-sa-wazne-przyklad-1/'
+url: '/2018/08/28/dlaczego-bounded-contexty-sa-wazne-przyklad-1/'
 date: Tue, 28 Aug 2018 20:33:44 +0000
 draft: false
 featured_image: 'images/2018/07/private-1665019_960_720.jpg'
@@ -14,8 +14,7 @@ Po poprzednich, bardziej teoretycznych postach, warto przejść do praktyki. W k
 
 Wszystkie przytoczone przeze mnie przypadki braku kontekstów są realnymi przypadkami. Jedynie domena biznesowa została zmieniona na systemy zakupowe.
 
-Sytuacja biznesowa
-------------------
+## Sytuacja biznesowa
 
 Firma posiada sieć magazynów i sklepów. W całym procesie możemy wyodrębnić następujące działy (pozostałe działy zostały pominięte dla spójności opisu):
 
@@ -25,8 +24,7 @@ Firma posiada sieć magazynów i sklepów. W całym procesie możemy wyodrębni�
 
 Produkty są dzielone na partie - mogą mieć fabryczny numer produkcji (123) i przyjechać do magazynu na ciężarówce (ABC).
 
-Rozwiązanie techniczne
-----------------------
+## Rozwiązanie techniczne
 
 Aplikacja została napisana w taki sposób, że:
 
@@ -36,8 +34,7 @@ Aplikacja została napisana w taki sposób, że:
 
 Każdy z działów używa zwrotu „partia produktów” w swoich codziennych rozmowach. Spowodowało to stworzenie takiego procesu w aplikacji, w którym model partii przechodzi bez zmiany kształtu od działu Zakupów przez Magazyn po Jakość.
 
-Problem
--------
+## Problem
 
 Osoby z działu Zakupów, myśląc o partii produktów, mają w głowie pojedynczy wiersz Excela – na tym codziennie operują. Przyjdzie tyle i tyle produktów, o numerze fabrycznym 123 na samochodzie ABC. Jeśli mamy produkty o różnych numerach, bądź podróżujące na różnych samochodach to były to dla nich osobne partie. Tak też partia produktów została zamodelowana w aplikacji.
 
@@ -49,15 +46,13 @@ Później dział Jakości sprawdza jakość przywiezionych produktów. A robi to
 
 Okazało się, że ten sam zwrot jest kompletnie inaczej postrzegany w każdym z działów, przez co powinien zostać odmiennie zamodelowany.
 
-Rezultat
---------
+## Rezultat
 
 Aktualnie działy Magazynu i Jakości nie mają zgrupowanych partii według swoich potrzeb. Powoduje to, że muszą dokonywać kilku dodatkowych przyjęć / sprawdzeń jakościowych – na każdym pojedynczej partii z działu Zakupów. Co więcej, także każdorazowa modyfikacja już wprowadzonych danych wymaga kilku identycznych akcji.
 
 Co gorsze, czasem się zdarza, że do magazynu przyjedzie partia z innymi numerami fabrycznymi niż zakładał dział Zakupów. W tym przypadku pracownicy Magazynu muszą nadpisywać poprzednie dane. Powoduje to stratę historii zakupów i trudności z odnalezieniem różnic pomiędzy zakupami a magazynem.
 
-Bounded contexts
-----------------
+## Bounded contexts
 
 Rozwiązaniem problemu byłoby stworzenie oddzielnych kontekstów dla każdego z działów – Zakupów / Magazynu / Jakości. Każdy z nich miałby inny model „partii”:
 

@@ -1,6 +1,6 @@
 ---
 title: 'FluentValidation - integracja z ASP.NET MVC'
-slug: '/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/'
+url: '/2016/03/13/fluentvalidation-integracja-z-asp-net-mvc/'
 date: Sun, 13 Mar 2016 22:03:33 +0000
 draft: false
 category: 'Fluent Validation'
@@ -16,7 +16,7 @@ Install-Package FluentValidation
 Install-Package FluentValidation.MVC5
 ```
 
-Następnie w miejscu startu aplikacji (u mnie jest to _Application\_Start_ _Global.asax_) dodajemy taki fragment kodu:
+Następnie w miejscu startu aplikacji (u mnie jest to _Application_Start_ _Global.asax_) dodajemy taki fragment kodu:
 
 ```
 FluentValidationModelValidatorProvider.Configure();

@@ -1,6 +1,6 @@
 ---
 title: 'Event Storming w organizacji - Single Process'
-slug: '/2018/12/10/event-storming-w-organizacji-single-process/'
+url: '/2018/12/10/event-storming-w-organizacji-single-process/'
 date: Mon, 10 Dec 2018 22:20:48 +0000
 draft: false
 featured_image: 'images/2018/05/eventstorming.logo_.png'
@@ -20,8 +20,7 @@ W tej części więcej będzie odrzuconych kartek i dyskusji, czy te zdarzenia s
 
 Poniżej przedstawiamy korzyści i możliwe problemy wynikające w przeprowadzenia takiego warsztatu. W wielu przypadkach mogą się być one zbieżne z tymi przestawionymi w części [Big Picture](/2018/12/10/event-storming-w-organizacji-big-picture):
 
-Korzyści
-========
+## Korzyści
 
 ### Głęboko poznany proces
 
@@ -39,15 +38,13 @@ Tak zwizualizowany proces świetnie nadaje się do przeprowadzenia analizy zysk�
 
 Takie działanie uświadamia nam, gdzie możemy zadziałać, by sam proces był bardziej ekonomiczny i przynosił nam większą wartość.
 
-Możliwe problemy
-================
+## Możliwe problemy
 
 ### Zapętlenia, końce i początki
 
 Nawet jeśli sam proces główny może być linearny, to poboczne aspekty mogą utrudniać jego całkowite zrozumienie. W takim przypadku przydaje się dodatkowy wskaźnik pokazujący, że proces zawraca, kończy się lub zaczyna.
 
-podsumowanie
-============
+## podsumowanie
 
 Głównym rezultatem warsztatu Event Storming Single Process jest dokładnie zbadany jeden proces biznesowy, którego poznanie było naszym celem. Mamy widoczne wszystkie elementy, którą muszą mieć miejsce by móc osiągać z tego procesu wartość. Problemy i możliwości pozwalają się skupić na następnych akcjach i maksymalizować rezultaty.
 

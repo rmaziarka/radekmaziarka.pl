@@ -1,6 +1,6 @@
 ---
 title: 'Porady dla Team Leadera - [2] - bezpieczeństwo i rozwój'
-slug: '/2018/05/21/porady-dla-team-leadera-2-bezpieczenstwo-rozwoj/'
+url: '/2018/05/21/porady-dla-team-leadera-2-bezpieczenstwo-rozwoj/'
 date: Mon, 21 May 2018 18:04:37 +0000
 draft: false
 featured_image: 'images/2018/05/action-2277292_960_720-1.jpg'
@@ -10,8 +10,7 @@ tags: ['leadership']
 
 // wszystkie porady zostały zebrane w [podsumowaniu cyklu](/2018/05/17/porady-dla-team-leadera-podsumowanie/).
 
-Stwórz atmosferę bezpieczeństwa
--------------------------------
+## Stwórz atmosferę bezpieczeństwa
 
 [Wg Google](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) jedną z głównych cech dobrego zespołu jest bezpieczeństwo – poczucie, że nie zostanie się bezpodstawnie oskarżonym, skrytykowanym, poniżonym. Ludzie naturalnie chronią się przed negatywnymi reakcjami nie wychylając się. Bojąc się krytyki nie dzielą się swoimi, często bardzo wartościowymi przemyśleniami.
 
@@ -21,8 +20,7 @@ I tutaj właśnie pojawia się twoja rola, Team Leaderze - niestety taka atmosfe
 
 Dobry team leader to też “proxy” zespołu ze światem zewnętrznym. Może zdarzyć się sytuacja, w której ktoś zespołu będzie chciał natychmiastowo znaleźć winnego jakiegoś błędu i od razu wymierzyć mu karę. W takich momentach trzeba reagować, by nie niszczyć zbudowanego wcześniej bezpieczeństwa i dbać o stosowanie w zespole konstruktywnej krytyki. Niekiedy będziesz musiał także brać na siebie odpowiedzialność, nawet za rzeczy, które nie do końca były rezultatem twoich akcji. [Branie odpowiedzialności jest zawsze dobrą opcją.](https://conantleadership.com/why-taking-responsibility-best-leadership-choice/)
 
-Rozwijaj swoich ludzi
----------------------
+## Rozwijaj swoich ludzi
 
 Bardzo mocno trafiło do mnie zdanie: Jak być 4 razy bardziej produktywnym? **Naucz swoich 2 kolegów być 2 razy bardziej produktywnymi**.
 

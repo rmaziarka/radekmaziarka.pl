@@ -1,6 +1,6 @@
 ---
 title: 'Programistok - relacja z konferencji'
-slug: '/2017/10/08/programistok-relacja-z-konferencji/'
+url: '/2017/10/08/programistok-relacja-z-konferencji/'
 date: Sun, 08 Oct 2017 16:40:44 +0000
 draft: false
 featured_image: 'images/2017/10/logo_color_whitebkg.jpg'

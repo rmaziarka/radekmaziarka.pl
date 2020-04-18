@@ -6,7 +6,15 @@ terraform {
     key                  = "radekmaziarka.commong.terraform.tfstate"
   }
 }
+provider "azurerm" {
+  version = "= 2.6"
+  features {}
+}
 
 provider "cloudflare" {
   version = "~> 2.0"
+}
+
+provider "azuredevops" {
+  version = ">= 0.0.1"
 }

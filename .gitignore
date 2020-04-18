@@ -98,6 +98,9 @@ Thumbs.db
 *.tfstate.*
 *.tfplan
 
+# .tfvar files
+*.tfvars
+
 # Site itself
 
 quickstart/public/*

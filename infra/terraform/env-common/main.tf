@@ -29,6 +29,11 @@ resource "azuredevops_serviceendpoint_github" "default" {
   }
 }
 
+data "azuredevops_build_definition" "default" {
+  project_id = azuredevops_project.default.id
+  name       = "radekmaziarka.pl"
+}
+
 resource "azuredevops_build_definition" "default" {
   project_id = azuredevops_project.default.id
   name       = "radekmaziarka.pl"

@@ -10,9 +10,11 @@ resource "cloudflare_record" "verify_address_record" {
 module "azure"{
   source = "../modules/azure"
   
-  resource_group_name  = local.resource_group_name
-  storage_account_name = local.storage_account_name
-  blog_domain          = local.blog_domain
+  resource_group_name           = local.resource_group_name
+  storage_account_name          = local.storage_account_name
+  blog_domain                   = local.blog_domain
+  azure_devops_application_name = local.azure_devops_application_name
+  service_endpoint_name         = local.service_endpoint_name
   // needed to wait for a cloudflare record
   dependency_flag      = cloudflare_record.verify_address_record.id
 }

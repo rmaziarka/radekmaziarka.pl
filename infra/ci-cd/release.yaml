@@ -3,7 +3,7 @@ parameters:
   storageAccountName: ""
 
 jobs:
-- job: release_test
+- job: release_to_azure_storage
   pool:
     vmImage: ubuntu-latest
   steps:

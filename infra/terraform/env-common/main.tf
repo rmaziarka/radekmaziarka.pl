@@ -29,11 +29,6 @@ resource "azuredevops_serviceendpoint_github" "default" {
   }
 }
 
-data "azuredevops_build_definition" "default" {
-  project_id = azuredevops_project.default.id
-  name       = "radekmaziarka.pl"
-}
-
 resource "azuredevops_build_definition" "default" {
   project_id = azuredevops_project.default.id
   name       = "radekmaziarka.pl"
@@ -45,5 +40,11 @@ resource "azuredevops_build_definition" "default" {
     service_connection_id = azuredevops_serviceendpoint_github.default.id
     branch_name           = "master"
     yml_path              = "/infra/ci-cd/pipeline.yaml"
+  }
+  
+  lifecycle {
+    ignore_changes = [
+      repository
+    ]
   }
 }

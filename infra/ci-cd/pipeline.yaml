@@ -3,21 +3,21 @@ trigger:
 
 stages:
 # build stage: build site codebase to use for deployment
-- stage: build
+- stage: Build
   jobs:
     - template: /infra/ci-cd/build.yaml
       parameters:
         hugoVersion: '0.67.1'
         blogPath: './page'
       
-- stage: release Test
+- stage: Test_Release
   jobs:
     - template: /infra/ci-cd/release.yaml
       parameters:
         azureSubscription: 'radekmaziarka-test'
         storageAccountName: 'radekmaziarkateststorage'
 
-- stage: release Prod
+- stage: Prod_Release
   jobs:
     - template: /infra/ci-cd/release.yaml
       parameters:

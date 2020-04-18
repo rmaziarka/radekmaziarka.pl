@@ -10,6 +10,16 @@ stages:
         hugoVersion: '0.67.1'
         blogPath: './page'
       
-- stage: release
+- stage: release Test
   jobs:
     - template: /infra/ci-cd/release.yaml
+      parameters:
+        azureSubscription: 'radekmaziarka-test'
+        storageAccountName: 'radekmaziarkateststorage'
+
+- stage: release Prod
+  jobs:
+    - template: /infra/ci-cd/release.yaml
+      parameters:
+        azureSubscription: 'radekmaziarka-prod'
+        storageAccountName: 'radekmaziarkaprodstorage'

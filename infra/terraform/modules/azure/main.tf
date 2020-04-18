@@ -83,6 +83,12 @@ resource "azuredevops_serviceendpoint_azurerm" "azure_devops" {
   azurerm_subscription_name = data.azurerm_subscription.default.display_name
   azurerm_scope             = azurerm_resource_group.default.id
   description               = "${var.blog_domain} service connection"
+
+  lifecycle {
+    ignore_changes = [
+      azurerm_subscription_id, azurerm_subscription_name
+    ]
+  }
 }
 
 output storage_account_web_host {

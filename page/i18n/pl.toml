@@ -22,14 +22,20 @@ other = "Twoje imię"
 [emailAddress]
 other = "Adres email"
 
+[subject]
+other = "Temat"
+
 [message]
 other = "Wiadomość"
 
-[emailRequiredNote]
-other = "Adres email jest wymagany."
-
 [send]
 other = "Wyślij"
+
+[emailSentConfirmation]
+other = "Dziękuję za wysłanie wiadomości. Odpowiem najszybciej jak to możliwe."
+
+[emailNotSent]
+other = "Nie udało się wysłać maila. Skontaktuj się proszę ze mną bezpośrednio na maziarka.radoslaw at outlook.com"
 
 [category]
 other = "Kategoria"

@@ -10,6 +10,11 @@ resource "cloudflare_zone_settings_override" "default" {
   }
 }
 
+resource "azurerm_resource_group" "default" {
+  name     = local.resource_group_name
+  location = "West Europe"
+}
+
 resource "azuredevops_project" "default" {
   project_name       = "radekmaziarka.pl"
   description        = ""

@@ -22,11 +22,17 @@ other = "Your Name"
 [emailAddress]
 other = "Email Address"
 
+[subject]
+other = "Subject"
+
 [message]
 other = "Message"
 
-[emailRequiredNote]
-other = "An email address is required."
+[emailSentConfirmation]
+other = "Thank you for sending a message. I will respond as soon as possible."
+
+[emailNotSent]
+other = "Sending mail was unsuccessful. Please contact me directly: maziarka.radoslaw at outlook.com"
 
 [send]
 other = "Send"

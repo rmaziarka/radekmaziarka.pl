@@ -19,4 +19,3 @@ All these aspects make me look broadly at the software development - I do not cl
 Check more on my [LinkedIn](https://www.linkedin.com/in/maziarka-radoslaw/).
 
 // and I like Pulp Fiction very much ;)
-

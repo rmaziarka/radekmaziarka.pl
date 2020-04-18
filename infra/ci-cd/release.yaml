@@ -16,7 +16,7 @@ jobs:
   - task: AzureCLI@1
     displayName: 'Azure CLI: copy files to storage'
     inputs:
-      azureSubscription: $(azureSubscription)
+      azureSubscription: ${{ parameters.azureSubscription }}
       scriptLocation: inlineScript
       inlineScript: |
-         az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name $(storageAccountName)
+         az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name ${{ parameters.storageAccountName }}

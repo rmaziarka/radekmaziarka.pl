@@ -18,13 +18,15 @@ resource "azuredevops_project" "default" {
   work_item_template = "Agile"
 }
 
+// due to auth_oath type this needs to be imported rather than created
+// service endpoints with personal tokens can be created, but they don't use Azure Pipeline application and you need to create build hook on your own
 resource "azuredevops_serviceendpoint_github" "default" {
 	project_id            = azuredevops_project.default.id
 	service_endpoint_name = "rmaziarka"
   description           = ""
     
-  auth_personal {
-      personal_access_token = var.github_personal_access_token
+  auth_oath {
+    oauth_configuration_id = var.oauth_configuration_id
   }
 }
 

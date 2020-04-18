@@ -1,3 +1,3 @@
-variable github_personal_access_token {
+variable oauth_configuration_id {
   type = string
 }

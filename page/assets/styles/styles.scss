@@ -1,10 +1,10 @@
-@import 'variables';
-@import 'page.scss';
-@import 'homePage.scss';
-@import 'posts.scss';
-@import 'categories';
-@import 'tags';
-@import 'single';
+@import "variables";
+@import "page.scss";
+@import "homePage.scss";
+@import "posts.scss";
+@import "categories";
+@import "tags";
+@import "single";
 
 body {
   color: $textColor;
@@ -12,9 +12,23 @@ body {
   font-family: $textFont;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+
+  &.overlay {
+    overflow: hidden;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $headerColor;
   font-family: $headerFont;
 }
@@ -24,8 +38,8 @@ input {
   font-family: $formFont;
   font-weight: bold;
   font-size: $formSize;
-  outline-style:none;
-  box-shadow:none;
+  outline-style: none;
+  box-shadow: none;
 
   &::placeholder {
     color: $formColor;
@@ -38,6 +52,24 @@ input {
 .center {
   width: 1170px;
   margin: 0 auto;
+
+  @media screen and (max-width: 1200px) {
+    max-width: 100%;
+  }
+}
+
+main {
+  > .center {
+    @media screen and (max-width: 1024px) {
+      padding: 0 25px;
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 a {
@@ -47,11 +79,12 @@ a {
 }
 
 // Partials
-@import 'partials/header';
-@import 'partials/menu';
-@import 'partials/search';
-@import 'partials/summaryWithImage';
-@import 'partials/moreLink';
-@import 'partials/sidebar';
-@import 'partials/footer';
+@import "partials/header";
+@import "partials/menu";
+@import "partials/search";
+@import "partials/summaryWithImage";
+@import "partials/moreLink";
+@import "partials/sidebar";
+@import "partials/footer";
+
 @import 'partials/sharing';

@@ -12,7 +12,7 @@ jobs:
     vmImage: ubuntu-latest
   steps:
   - script: |
-      wget -c https://github.com/gohugoio/hugo/releases/download/v${{parameters.hugoVersion}}/hugo_${{parameters.hugoVersion}}_Linux-64bit.deb
+      wget -c https://github.com/gohugoio/hugo/releases/download/v${{parameters.hugoVersion}}/hugo_extended_${{parameters.hugoVersion}}_Linux-64bit.deb
     displayName: "Download HUGO"
 
   - script: 'sudo dpkg -i hugo_${{parameters.hugoVersion}}_Linux-64bit.deb'

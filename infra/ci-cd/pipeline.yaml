@@ -7,7 +7,7 @@ stages:
   jobs:
     - template: /infra/ci-cd/build.yaml
       parameters:
-        hugoVersion: '0.67.1'
+        hugoVersion: '0.72.0'
         blogPath: './page'
       
 - stage: Test_Release

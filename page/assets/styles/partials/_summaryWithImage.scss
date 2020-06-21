@@ -7,6 +7,10 @@
   text-align: center;
   margin: 20px 0 40px;
 
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
   img {
     display: block;
     margin-bottom: 25px;
@@ -35,7 +39,7 @@
     font-size: $articleBodySize;
     line-height: 28px;
     letter-spacing: -0.025em;
-    text-rendering:optimizelegibility;
+    text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
   }
 

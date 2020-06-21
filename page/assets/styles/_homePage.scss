@@ -4,11 +4,19 @@
   &__content {
     display: inline-block;
     width: 75%;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 
   &__post {
     display: inline-block;
     width: 50%;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 
   &__sidebar {
@@ -17,5 +25,8 @@
     vertical-align: top;
     width: 24.5%;
 
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 }

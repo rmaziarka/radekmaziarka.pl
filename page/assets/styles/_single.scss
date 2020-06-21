@@ -1,10 +1,21 @@
 .single {
   margin-top: 42px;
 
+  @media screen and (max-width: 1024px) {
+    .center {
+      padding: 0 25px;
+    }
+  }
+
   &__content {
     display: inline-block;
     width: 75%;
     padding-top: 18px;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      max-width: 100%;
+    }
 
     img {
       display: block;
@@ -103,5 +114,10 @@
     width: 24.5%;
     display: inline-block;
     vertical-align: top;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 }

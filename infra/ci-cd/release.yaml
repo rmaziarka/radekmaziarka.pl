@@ -4,7 +4,7 @@ parameters:
   environmentName: ""
 
 jobs:
-- job: release_to_azure_storage
+- deployment: release_to_azure_storage
   pool:
     vmImage: ubuntu-latest
   environment: ${{ parameters.environmentName }}

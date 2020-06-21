@@ -19,6 +19,14 @@ jobs:
             path: $(Build.SourcesDirectory)/bin
 
         - task: AzureCLI@1
+          displayName: 'Azure CLI: remove (almost) everything'
+          inputs:
+            azureSubscription: ${{ parameters.azureSubscription }}
+            scriptLocation: inlineScript
+            inlineScript: |
+              az storage blob delete-batch --source \$web --account-name ${{ parameters.storageAccountName }} --pattern "[!robots.txt]"
+
+        - task: AzureCLI@1
           displayName: 'Azure CLI: copy files to storage'
           inputs:
             azureSubscription: ${{ parameters.azureSubscription }}

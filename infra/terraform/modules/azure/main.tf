@@ -20,6 +20,20 @@ resource "azurerm_storage_account" "default" {
   }
 }
 
+resource "azurerm_storage_blob" "robots" {
+  name                   = "robots.txt"
+  storage_account_name   = azurerm_storage_account.default.name
+  storage_container_name = "$web"
+  type                   = "Block"
+  source                 = "${path.cwd}/robots.txt"
+
+  lifecycle {
+    ignore_changes = [
+      source
+    ]
+  }
+}
+
 resource "azuread_application" "azure_devops" {
   name = var.azure_devops_application_name
 }

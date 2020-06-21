@@ -13,15 +13,15 @@ stages:
 - stage: Test_Release
   jobs:
     - template: /infra/ci-cd/release.yaml
-      environment: 'Test'
       parameters:
         azureSubscription: 'radekmaziarka-test'
         storageAccountName: 'radekmaziarkateststorage'
+        environmentName: 'Test'
 
 - stage: Prod_Release
   jobs:
     - template: /infra/ci-cd/release.yaml
-      environment: 'Prod'
       parameters:
         azureSubscription: 'radekmaziarka-prod'
         storageAccountName: 'radekmaziarkaprodstorage'
+        environmentName: 'Prod'

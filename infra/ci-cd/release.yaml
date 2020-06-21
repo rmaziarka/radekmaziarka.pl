@@ -1,9 +1,11 @@
 parameters:
   azureSubscription: ""
   storageAccountName: ""
+  environmentName: ""
 
 jobs:
 - job: release_to_azure_storage
+  environment: ${{ parameters.environmentName }}
   pool:
     vmImage: ubuntu-latest
   steps:

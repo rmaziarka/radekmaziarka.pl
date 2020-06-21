@@ -106,4 +106,4 @@ Thumbs.db
 quickstart/public/*
 uploads/*
 page/public/**/*
-page/resources/__gen/**/*
+page/resources/_gen/**/*

@@ -8,20 +8,20 @@ jobs:
   pool:
     vmImage: ubuntu-latest
   environment: ${{ parameters.environmentName }}
-  strategy:                 # deployment strategy
-  runOnce:              # default strategy
-    deploy:
-      steps:
-      - checkout: none
-      - task: DownloadPipelineArtifact@2
-        inputs:
-          artifact: $(Build.BuildId)
-          path: $(Build.SourcesDirectory)/bin
+  strategy:
+    runOnce:
+      deploy:
+        steps:
+        - checkout: none
+        - task: DownloadPipelineArtifact@2
+          inputs:
+            artifact: $(Build.BuildId)
+            path: $(Build.SourcesDirectory)/bin
 
-      - task: AzureCLI@1
-        displayName: 'Azure CLI: copy files to storage'
-        inputs:
-          azureSubscription: ${{ parameters.azureSubscription }}
-          scriptLocation: inlineScript
-          inlineScript: |
-            az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name ${{ parameters.storageAccountName }}
+        - task: AzureCLI@1
+          displayName: 'Azure CLI: copy files to storage'
+          inputs:
+            azureSubscription: ${{ parameters.azureSubscription }}
+            scriptLocation: inlineScript
+            inlineScript: |
+              az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name ${{ parameters.storageAccountName }}

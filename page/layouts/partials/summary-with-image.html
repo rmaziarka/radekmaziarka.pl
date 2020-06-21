@@ -3,19 +3,16 @@
   <div class="">
     <div class="">
       {{ if .Params.featured_image }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        {{ $featured_image := (trim $featured_image "/") | absURL }}
-
         <div class="">
           <a href="{{.Permalink}}" class="">
-            <img src="{{ $featured_image }}" class="" alt="image from {{ .Title }}">
+            <img src="/{{ $featured_image }}" class="" alt="image from {{ .Title }}">
           </a>
         </div>
       {{ end }}
       <div class="summaryWithImage__info">
-          <span class="summaryWithImage__info--category">
-            {{ .Params.category }}
-          </span>
+          <span><a class="single__categoryLink" href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
+            {{- .Params.category -}}
+          </a>
           <span class="summaryWithImage__info--date">
             - {{.Date.Format "2006-01-02"}}
           </span>

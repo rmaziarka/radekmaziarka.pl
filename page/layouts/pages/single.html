@@ -1,5 +1,6 @@
 {{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
 {{ define "main" }}
+{{ $featured_image := .Params.featured_image }}
   <div class="single">
     <div class="center">
       <article class="">
@@ -7,6 +8,10 @@
           <h1 class="single__title">
             {{ .Title }}
           </h1>
+
+          {{ if $featured_image }}
+          <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
+          {{ end }}
         </header>
         <div class="single__text">
           {{ .Content }}

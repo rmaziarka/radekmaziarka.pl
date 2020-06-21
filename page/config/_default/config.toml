@@ -13,11 +13,11 @@ disqusShortname = "radekmaziarka-pl"
 
 [languages]
   [languages.pl]
-    title = "Radek Maziarka Blog"
+    title = "Radek Maziarka"
     contentDir = "content/pl"
     weight = 1     
   [languages.en]
-    title = "Radek Maziarka Blog"
+    title = "Radek Maziarka"
     contentDir = "content"
     weight = 2
 
@@ -82,13 +82,13 @@ disqusShortname = "radekmaziarka-pl"
 [[languages.pl.menu.main]]
   identifier = "english-posts"
   name = "Check out english posts"
-  url = ""
+  url = "/en"
   weight = 60
   
 [[languages.en.menu.main]]
   identifier = "main"
   name = "Main Page"
-  url = ""
+  url = "/en"
   weight = 10
 
 [[languages.en.menu.main]]

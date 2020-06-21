@@ -20,8 +20,9 @@
                   {{.Date.Format "2006-01-02"}}
               </div>
 
-
+              {{ if $featured_image }}
               <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
+              {{ end }}
 
               <div class="single__text">
                   {{- .Content -}}

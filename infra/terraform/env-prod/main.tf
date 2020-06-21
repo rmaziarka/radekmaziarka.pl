@@ -44,3 +44,19 @@ resource "cloudflare_record" "radekmaziarka_2" {
   type    = "A"
   ttl     = 3600
 }
+
+resource "cloudflare_record" "radblog_1" {
+  zone_id = local.cloudflare_zone_radblog_id
+  name    = "@"
+  value   = "91.219.122.12"
+  type    = "A"
+  ttl     = 3600
+}
+
+resource "cloudflare_record" "radblog_2" {
+  zone_id = local.cloudflare_zone_radblog_id
+  name    = "@"
+  value   = "194.88.154.187"
+  type    = "A"
+  ttl     = 3600
+}

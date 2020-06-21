@@ -10,6 +10,18 @@ resource "cloudflare_zone_settings_override" "default" {
   }
 }
 
+resource "cloudflare_zone" "radblog" {
+    zone = "radblog.pl"
+}
+
+resource "cloudflare_zone_settings_override" "radblog" {
+  zone_id = cloudflare_zone.radblog.id
+
+  settings {
+    automatic_https_rewrites = "on"
+  }
+}
+
 resource "azurerm_resource_group" "default" {
   name     = local.resource_group_name
   location = "West Europe"
@@ -23,7 +35,6 @@ resource "azuredevops_project" "default" {
   work_item_template = "Agile"
 }
 
-// this resource needs to be imported because there is no option to create GitHub SE with Azure Pipelines App by API
 resource "azuredevops_serviceendpoint_github" "default" {
   project_id            = azuredevops_project.default.id
 	service_endpoint_name = "rmaziarka"

@@ -27,3 +27,25 @@ resource "cloudflare_record" "redirect_record" {
   proxied = true
   ttl     = 1
 }
+
+resource "cloudflare_record" "redirect_record_radblog" {
+  zone_id = local.cloudflare_zone_radblog_id
+  name    = "test"
+  value   = "192.0.0.1"
+  type    = "A"
+  proxied = true
+  ttl     = 1
+}
+
+resource "cloudflare_page_rule" "radblog" {
+  zone_id = local.cloudflare_zone_radblog_id
+  target = "*test.radblog.pl/*"
+  priority = 1
+
+  actions {
+    forwarding_url {
+      url = "https://test.radekmaziarka.pl/$2"
+      status_code = 301
+    }
+  }
+}

@@ -50,7 +50,7 @@ resource "random_password" "azure_devops" {
 resource "azuread_service_principal_password" "azure_devops" {
   service_principal_id = azuread_service_principal.azure_devops.id
   value                = random_password.azure_devops.result
-  end_date_relative    = "8760h" # 1 year
+  end_date_relative    = "8760h"
 
   lifecycle {
     ignore_changes = [
@@ -63,7 +63,7 @@ resource "azuread_service_principal_password" "azure_devops" {
 resource "azuread_application_password" "azure_devops" {
   application_object_id = azuread_application.azure_devops.id
   value                 = random_password.azure_devops.result
-  end_date_relative     = "8760h" # 1 year
+  end_date_relative     = "8760h"
 
   lifecycle {
     ignore_changes = [
@@ -76,19 +76,15 @@ resource "azuread_application_password" "azure_devops" {
 resource "azuredevops_serviceendpoint_azurerm" "azure_devops" {
   project_id                = local.azure_devops_project_id
   service_endpoint_name     = var.service_endpoint_name
-  azurerm_spn_clientid      = azuread_application.azure_devops.application_id
-  azurerm_spn_clientsecret  = random_password.azure_devops.result
+    credentials {
+    serviceprincipalid  = azuread_application.azure_devops.application_id
+    serviceprincipalkey = random_password.azure_devops.result
+  }
+
   azurerm_spn_tenantid      = data.azurerm_client_config.default.tenant_id
   azurerm_subscription_id   = data.azurerm_client_config.default.subscription_id
   azurerm_subscription_name = data.azurerm_subscription.default.display_name
-  azurerm_scope             = azurerm_resource_group.default.id
   description               = "${var.blog_domain} service connection"
-
-  lifecycle {
-    ignore_changes = [
-      azurerm_subscription_id, azurerm_subscription_name
-    ]
-  }
 }
 
 output storage_account_web_host {

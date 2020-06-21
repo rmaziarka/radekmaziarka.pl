@@ -12,4 +12,5 @@ locals {
 
 locals {
   cloudflare_zone_id = data.cloudflare_zones.default.zones[0].id
+  cloudflare_zone_radblog_id = data.cloudflare_zones.radblog.zones[0].id
 }

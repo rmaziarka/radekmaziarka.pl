@@ -35,3 +35,11 @@ data "cloudflare_zones" "default" {
     paused = false
   }
 }
+
+data "cloudflare_zones" "radblog" {
+  filter {
+    name   = "radblog.pl"
+    status = "active"
+    paused = false
+  }
+}

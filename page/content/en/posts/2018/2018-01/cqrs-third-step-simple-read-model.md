@@ -3,7 +3,7 @@ title: 'CQRS - Third step - Simple read model'
 url: '/2018/01/08/cqrs-third-step-simple-read-model/'
 date: Mon, 08 Jan 2018 10:33:54 +0000
 draft: false
-featured_image: 'images/2018/01/simple-read-model.jpg'
+images: ['images/2018/01/simple-read-model.jpg']
 category: 'Design patterns'
 tags: ['CQRS', 'Dapper', 'Domain Events', 'Entity Framework', 'MediatR']
 ---

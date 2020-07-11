@@ -3,7 +3,7 @@ title: 'Jak unikać sagi - robiąc na odwrót'
 url: '/2019/02/13/jak-uniknac-sagi-robiac-na-odwrot/'
 date: Wed, 13 Feb 2019 21:21:28 +0000
 draft: false
-featured_image: 'images/2019/02/animal-3913023_960_720.jpg'
+images: ['images/2019/02/animal-3913023_960_720.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

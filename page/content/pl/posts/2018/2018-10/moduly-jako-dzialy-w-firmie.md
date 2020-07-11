@@ -3,7 +3,7 @@ title: 'Moduły jako działy w firmie'
 url: '/2018/10/19/moduly-jako-dzialy-w-firmie/'
 date: Fri, 19 Oct 2018 10:26:15 +0000
 draft: false
-featured_image: 'images/2018/10/calculator-385506_1920.jpg'
+images: ['images/2018/10/calculator-385506_1920.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

@@ -3,7 +3,7 @@ title: 'Train riding and temporal model'
 url: '/2017/05/01/train-riding-and-temporal-model/'
 date: Mon, 01 May 2017 10:30:55 +0000
 draft: false
-featured_image: 'images/2017/05/6276604857_f96c7858d7_b.jpg'
+images: ['images/2017/05/6276604857_f96c7858d7_b.jpg']
 category: 'Design patterns'
 tags: ['']
 ---

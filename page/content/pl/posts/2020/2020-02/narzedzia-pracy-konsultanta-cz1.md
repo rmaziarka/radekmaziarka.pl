@@ -3,7 +3,7 @@ title: 'Narzędzia pracy konsultanta – część 1'
 url: '/2020/02/04/narzedzia-pracy-konsultanta-cz1/'
 date: Tue, 04 Feb 2020 22:14:24 +0000
 draft: false
-featured_image: 'images/2020/02/consultancy.jpg'
+images: ['images/2020/02/consultancy.jpg']
 category: 'Różne'
 tags: ['consultant', 'event storming']
 ---

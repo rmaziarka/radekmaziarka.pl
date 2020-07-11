@@ -3,7 +3,7 @@ title: 'Event Storming w analizie procesu rekrutacji - case study'
 url: '/2019/09/08/event-storming-w-analizie-procesu-rekrutacji-case-study/'
 date: Sun, 08 Sep 2019 10:24:16 +0000
 draft: false
-featured_image: 'images/2018/05/eventstorming.logo_.png'
+images: ['images/2018/05/eventstorming.logo_.png']
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

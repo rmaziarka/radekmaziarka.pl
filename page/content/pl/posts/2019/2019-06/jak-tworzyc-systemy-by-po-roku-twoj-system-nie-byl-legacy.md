@@ -3,7 +3,7 @@ title: 'Jak tworzyć software by po roku twój system nie był Legacy'
 url: '/2019/06/19/jak-tworzyc-systemy-by-po-roku-twoj-system-nie-byl-legacy/'
 date: Wed, 19 Jun 2019 15:52:39 +0000
 draft: false
-featured_image: 'images/2019/06/legacy.jpg'
+images: ['images/2019/06/legacy.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

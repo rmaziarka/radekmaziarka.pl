@@ -3,6 +3,7 @@ title: 'Jak optymalizować mikroserwisy? O procesie decyzyjnym...'
 url: '/2020/02/17/jak-optymalizowac-mikroserwisy/'
 date: Mon, 17 Feb 2020 21:59:43 +0000
 draft: false
+images: []
 category: 'Wzorce projektowe'
 tags: ['microservices', 'modulith', 'monolith']
 ---

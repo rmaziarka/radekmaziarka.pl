@@ -3,7 +3,7 @@ title: 'Wprowadzenie do Agile'
 url: '/szkolenia/wprowadzenie-do-agile/'
 date: Mon, 29 Jul 2019 13:09:04 +0000
 draft: false
-featured_image: 'images/2019/09/Agile.jpg'
+images: ['/images/2019/09/Agile.jpg']
 ---
 
 Czas trwania:

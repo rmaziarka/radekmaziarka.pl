@@ -3,6 +3,7 @@ title: 'Azure Websites i czas lokalny'
 url: '/2016/02/28/azure-websites-i-czas-lokalny/'
 date: Sun, 28 Feb 2016 09:31:24 +0000
 draft: false
+images: []
 category: 'Azure'
 tags: ['']
 ---

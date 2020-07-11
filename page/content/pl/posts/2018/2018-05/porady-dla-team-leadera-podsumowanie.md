@@ -3,7 +3,7 @@ title: 'Porady dla Team Leadera - podsumowanie'
 url: '/2018/05/17/porady-dla-team-leadera-podsumowanie/'
 date: Thu, 17 May 2018 21:07:44 +0000
 draft: false
-featured_image: 'images/2018/05/action-2277292_960_720.jpg'
+images: ['images/2018/05/action-2277292_960_720.jpg']
 category: 'Leadership'
 tags: ['leadership']
 ---

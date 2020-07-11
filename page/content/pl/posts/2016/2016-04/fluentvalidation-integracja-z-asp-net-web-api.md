@@ -3,7 +3,7 @@ title: 'FluentValidation – integracja z ASP.NET Web API'
 url: '/2016/04/12/fluentvalidation-integracja-z-asp-net-web-api/'
 date: Tue, 12 Apr 2016 20:41:06 +0000
 draft: false
-featured_image: 'images/2016/04/picjumbo.com_HNCK9261.jpg'
+images: ['images/2016/04/picjumbo.com_HNCK9261.jpg']
 category: 'Fluent Validation'
 tags: ['']
 ---

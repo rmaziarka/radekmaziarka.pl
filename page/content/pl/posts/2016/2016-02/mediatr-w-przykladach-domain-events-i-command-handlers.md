@@ -3,6 +3,7 @@ title: 'MediatR w przykładach - Domain Events i Command Handlers'
 url: '/2016/02/08/mediatr-w-przykladach-domain-events-i-command-handlers/'
 date: Mon, 08 Feb 2016 22:25:23 +0000
 draft: false
+images: []
 category: 'Wzorce projektowe'
 tags: ['']
 ---

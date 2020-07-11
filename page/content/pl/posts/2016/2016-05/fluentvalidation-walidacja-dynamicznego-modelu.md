@@ -3,7 +3,7 @@ title: 'FluentValidation - walidacja dynamicznego modelu.'
 url: '/2016/05/01/fluentvalidation-walidacja-dynamicznego-modelu/'
 date: Sun, 01 May 2016 19:19:26 +0000
 draft: false
-featured_image: 'images/2016/03/wind-surfing-67627_1280.jpg'
+images: ['images/2016/03/wind-surfing-67627_1280.jpg']
 category: 'Fluent Validation'
 tags: ['']
 ---

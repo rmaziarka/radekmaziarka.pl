@@ -3,7 +3,7 @@ title: 'Dlaczego Bounded Contexty są ważne - ostateczna spójność'
 url: '/2019/09/26/dlaczego-bounded-contexty-sa-wazne-ostateczna-spojnosc/'
 date: Thu, 26 Sep 2019 15:40:42 +0000
 draft: false
-featured_image: 'images/2018/07/private-1665019_960_720.jpg'
+images: ['images/2018/07/private-1665019_960_720.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

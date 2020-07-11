@@ -3,7 +3,7 @@ title: 'Prelekcje'
 url: '/prelekcje/'
 date: Sun, 21 Oct 2018 21:08:08 +0000
 draft: false
-featured_image: 'images/2019/07/prelekcje.jpg'
+images: ['/images/2019/07/prelekcje.jpg']
 ---
 
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂

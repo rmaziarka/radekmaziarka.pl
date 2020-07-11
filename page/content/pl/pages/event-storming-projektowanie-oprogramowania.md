@@ -3,7 +3,7 @@ title: 'Event Storming - Projektowanie oprogramowania'
 url: '/szkolenia/event-storming-projektowanie-oprogramowania/'
 date: Thu, 15 Aug 2019 12:11:54 +0000
 draft: false
-featured_image: 'images/2018/05/eventstorming.logo_.png'
+images: ['/images/2018/05/eventstorming.logo_.png']
 ---
 
 Czas trwania:

@@ -3,7 +3,7 @@ title: 'Co widać i czego nie widać - na przykładzie branży IT'
 url: '/2018/07/22/co-widac-i-czego-nie-widac-na-przykladzie-branzy-it/'
 date: Sun, 22 Jul 2018 17:07:55 +0000
 draft: false
-featured_image: 'images/2018/07/Capture.png'
+images: ['images/2018/07/Capture.png']
 category: 'Różne'
 tags: ['']
 ---

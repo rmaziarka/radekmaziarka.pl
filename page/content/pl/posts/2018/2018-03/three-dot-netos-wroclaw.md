@@ -3,7 +3,7 @@ title: 'Three Dot Netos - Wrocław'
 url: '/2018/03/18/three-dot-netos-wroclaw/'
 date: Sun, 18 Mar 2018 19:16:13 +0000
 draft: false
-featured_image: 'images/2018/03/event-logo.png'
+images: ['images/2018/03/event-logo.png']
 category: 'Recenzja'
 tags: ['.Net', 'performance', 'three dot netos']
 ---

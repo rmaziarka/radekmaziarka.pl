@@ -3,7 +3,7 @@ title: 'Loosely-Coupled Architecture - how to get rid of the domino effect'
 url: '/2019/01/15/loosely-coupled-architecture/'
 date: Tue, 15 Jan 2019 13:10:45 +0000
 draft: false
-featured_image: 'images/2019/01/loosely-coupled-architecture-1.jpg'
+images: ['images/2019/01/loosely-coupled-architecture-1.jpg']
 category: 'Design patterns'
 tags: ['architecture', 'ddd', 'design pattern', 'microservices']
 ---

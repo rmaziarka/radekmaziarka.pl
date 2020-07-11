@@ -1,8 +1,12 @@
-{{ $featured_image := .Params.featured_image }}
+{{ $featured_image := "" }}
+{{if .Params.images}}
+  {{ $featured_image = index .Params.images 0  }}
+{{end}}
+
 <article class="summaryWithImage">
   <div class="">
     <div class="">
-      {{ if .Params.featured_image }}
+      {{ if $featured_image }}
         <div class="">
           <a href="{{.Permalink}}" class="">
             <img src="/{{ $featured_image }}" class="" alt="image from {{ .Title }}">

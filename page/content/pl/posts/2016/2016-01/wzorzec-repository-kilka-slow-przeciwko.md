@@ -3,6 +3,7 @@ title: 'Wzorzec Repository - kilka słów przeciwko'
 url: '/2016/01/31/wzorzec-repository-kilka-slow-przeciwko/'
 date: Sun, 31 Jan 2016 22:56:36 +0000
 draft: false
+images: []
 category: 'Wzorce projektowe'
 tags: ['']
 ---

@@ -3,7 +3,7 @@ title: 'Azure Automation DSC i montowanie obrazu czyli jak się nie poddawać'
 url: '/2016/05/12/azure-automation-dsc-i-montowanie-obrazu-czyli-jak-sie-nie-poddawac/'
 date: Thu, 12 May 2016 19:17:51 +0000
 draft: false
-featured_image: 'images/2016/05/996635-cloud.jpg'
+images: ['images/2016/05/996635-cloud.jpg']
 category: 'Powershell'
 tags: ['AzureDSC', 'Powershell']
 ---

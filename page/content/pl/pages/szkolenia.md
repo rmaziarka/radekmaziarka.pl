@@ -3,7 +3,7 @@ title: 'Szkolenia'
 url: '/szkolenia/'
 date: Wed, 13 Mar 2019 19:45:45 +0000
 draft: false
-featured_image: 'images/2019/07/szkolenia.jpg'
+images: ['/images/2019/07/szkolenia.jpg']
 ---
 
 W ramach mojej codziennej pracy uczę zespoły programistyczne jak lepiej osiągać swoje cele, organizując różnego rodzaju warsztaty i szkolenia. Mam za sobą szkolenia "Train the trainer", które przygotowały mnie jak najefektyywniej przekazywać wiedzę uczestnikom moich warsztatów.

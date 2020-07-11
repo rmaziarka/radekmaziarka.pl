@@ -3,7 +3,7 @@ title: 'Synchronizacja czasu pomiędzy serwerem i przeglądarką'
 url: '/2016/04/04/synchronizacja-czasu-pomiedzy-serwerem-i-przegladarka/'
 date: Mon, 04 Apr 2016 21:28:58 +0000
 draft: false
-featured_image: 'images/2016/04/4072684900_b0201a60f0_o.jpg'
+images: ['images/2016/04/4072684900_b0201a60f0_o.jpg']
 category: 'Javascript'
 tags: ['']
 ---

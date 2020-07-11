@@ -1,6 +1,10 @@
 {{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
 {{ define "main" }}
-{{ $featured_image := .Params.featured_image }}
+{{ $featured_image := "" }}
+{{if .Params.images}}
+  {{ $featured_image = index .Params.images 0  }}
+{{end}}
+
   <div class="single">
     <div class="center">
       <article class="">

@@ -3,7 +3,7 @@ title: 'Błędy poznawcze - warsztat'
 url: '/2019/05/14/bledy-poznawcze-warsztat/'
 date: Tue, 14 May 2019 13:43:02 +0000
 draft: false
-featured_image: 'images/2018/03/POWERPNT_2018-03-20_00-20-38.png'
+images: ['images/2018/03/POWERPNT_2018-03-20_00-20-38.png']
 category: 'Różne'
 tags: ['błędy poznawcze', 'mechanizmy obronne']
 ---

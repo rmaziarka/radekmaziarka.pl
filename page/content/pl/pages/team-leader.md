@@ -3,7 +3,7 @@ title: 'Team Leader'
 url: '/szkolenia/team-leader/'
 date: Sun, 18 Aug 2019 09:57:03 +0000
 draft: false
-featured_image: 'images/2019/09/Team-Leader-2.jpg'
+images: ['/images/2019/09/Team-Leader-2.jpg']
 ---
 
 Czas trwania:

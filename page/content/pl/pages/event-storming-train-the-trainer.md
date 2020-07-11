@@ -3,7 +3,7 @@ title: 'Event Storming - Train the trainer'
 url: '/szkolenia/event-storming-train-the-trainer/'
 date: Thu, 15 Aug 2019 12:19:26 +0000
 draft: false
-featured_image: 'images/2018/05/eventstorming.logo_.png'
+images: ['/images/2018/05/eventstorming.logo_.png']
 ---
 
 Czas trwania:

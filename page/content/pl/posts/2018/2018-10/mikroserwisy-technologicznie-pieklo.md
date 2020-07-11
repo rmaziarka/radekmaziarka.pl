@@ -3,7 +3,7 @@ title: 'Mikroserwisy - technologicznie piekło'
 url: '/2018/10/05/mikroserwisy-technologicznie-pieklo/'
 date: Fri, 05 Oct 2018 22:54:34 +0000
 draft: false
-featured_image: 'images/2018/10/POWERPNT_2018-10-06_00-47-20.png'
+images: ['images/2018/10/POWERPNT_2018-10-06_00-47-20.png']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design', 'microservices']
 ---

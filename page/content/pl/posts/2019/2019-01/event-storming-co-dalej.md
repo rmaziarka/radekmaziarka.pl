@@ -3,7 +3,7 @@ title: 'Event Storming - Co dalej?'
 url: '/2019/01/26/event-storming-co-dalej/'
 date: Sat, 26 Jan 2019 13:21:18 +0000
 draft: false
-featured_image: 'images/2018/05/eventstorming.logo_.png'
+images: ['images/2018/05/eventstorming.logo_.png']
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

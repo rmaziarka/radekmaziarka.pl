@@ -3,7 +3,7 @@ title: 'Praca zwinna – jak osiągnąć więcej robiąc mniej'
 url: '/2019/08/14/praca-zwinna-jak-osiagnac-wiecej-robiac-mniej/'
 date: Wed, 14 Aug 2019 19:31:14 +0000
 draft: false
-featured_image: 'images/2019/08/wild-horses-2239420_960_720.jpg'
+images: ['images/2019/08/wild-horses-2239420_960_720.jpg']
 category: 'Agile'
 tags: ['Agile', 'Scrum']
 ---

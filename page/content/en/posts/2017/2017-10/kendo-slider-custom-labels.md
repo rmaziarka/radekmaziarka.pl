@@ -3,7 +3,7 @@ title: 'Kendo + slider + custom labels'
 url: '/2017/10/14/kendo-slider-custom-labels/'
 date: Sat, 14 Oct 2017 19:51:16 +0000
 draft: false
-featured_image: 'images/2017/10/kendoka-08-350.png'
+images: ['images/2017/10/kendoka-08-350.png']
 category: 'Kendo'
 tags: ['']
 ---

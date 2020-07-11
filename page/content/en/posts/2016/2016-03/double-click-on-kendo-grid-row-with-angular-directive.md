@@ -3,6 +3,7 @@ title: 'Double click on kendo grid row with angular directive'
 url: '/2016/03/05/double-click-on-kendo-grid-row-with-angular-directive/'
 date: Sat, 05 Mar 2016 14:42:39 +0000
 draft: false
+images: []
 category: 'Kendo'
 tags: ['']
 ---

@@ -3,7 +3,7 @@ title: 'Rywalizacja jako narzędzie manipulacyjne - przemyślenia po WROC# Pub Q
 url: '/2018/03/11/rywalizacja-jako-narzedzie-manipulacyjne/'
 date: Sun, 11 Mar 2018 20:45:08 +0000
 draft: false
-featured_image: 'images/2018/03/chess-2489553_960_720.jpg'
+images: ['images/2018/03/chess-2489553_960_720.jpg']
 category: 'Różne'
 tags: ['konkurencja', 'manipulacja', 'rywalizacja']
 ---

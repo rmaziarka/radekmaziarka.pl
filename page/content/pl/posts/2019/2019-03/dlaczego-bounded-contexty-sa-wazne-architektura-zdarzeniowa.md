@@ -3,7 +3,7 @@ title: 'Dlaczego Bounded Contexty są ważne - Architektura zdarzeniowa'
 url: '/2019/03/26/dlaczego-bounded-contexty-sa-wazne-architektura-zdarzeniowa/'
 date: Tue, 26 Mar 2019 21:28:35 +0000
 draft: false
-featured_image: 'images/2018/07/private-1665019_960_720.jpg'
+images: ['images/2018/07/private-1665019_960_720.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

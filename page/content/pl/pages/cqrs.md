@@ -3,7 +3,7 @@ title: 'Command Query Responsibility Segregation'
 url: '/szkolenia/cqrs/'
 date: Sun, 18 Aug 2019 11:34:08 +0000
 draft: false
-featured_image: 'images/2019/09/CQRS.jpg'
+images: ['/images/2019/09/CQRS.jpg']
 ---
 
 Czas trwania:

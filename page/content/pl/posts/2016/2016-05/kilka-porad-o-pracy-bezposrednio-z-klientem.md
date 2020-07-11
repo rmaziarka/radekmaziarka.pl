@@ -3,7 +3,7 @@ title: 'Kilka porad o pracy bezpośrednio z klientem'
 url: '/2016/05/04/kilka-porad-o-pracy-bezposrednio-z-klientem/'
 date: Wed, 04 May 2016 08:42:51 +0000
 draft: false
-featured_image: 'images/2016/05/picjumbo.com_HNCK8990.jpg'
+images: ['images/2016/05/picjumbo.com_HNCK8990.jpg']
 category: 'Różne'
 tags: ['']
 ---

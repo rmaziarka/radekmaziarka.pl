@@ -3,7 +3,7 @@ title: 'Public speaking - 5 reasons why you should try it'
 url: '/2017/12/05/public-speaking-5-reasons-why-you-should-try-it/'
 date: Tue, 05 Dec 2017 10:37:01 +0000
 draft: false
-featured_image: 'images/2017/11/public-speaking.jpg'
+images: ['images/2017/11/public-speaking.jpg']
 category: 'Other'
 tags: ['Public speaking', 'Soft']
 ---

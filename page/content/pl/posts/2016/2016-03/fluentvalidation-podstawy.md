@@ -3,6 +3,7 @@ title: 'FluentValidation - podstawy'
 url: '/2016/03/10/fluentvalidation-podstawy/'
 date: Thu, 10 Mar 2016 17:45:20 +0000
 draft: false
+images: []
 category: 'Fluent Validation'
 tags: ['']
 ---

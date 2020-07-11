@@ -3,7 +3,7 @@ title: 'Scrum'
 url: '/szkolenia/agile-scrum/'
 date: Sun, 18 Aug 2019 09:31:18 +0000
 draft: false
-featured_image: 'images/2019/09/Scrum.jpg'
+images: ['/images/2019/09/Scrum.jpg']
 ---
 
 Czas trwania:

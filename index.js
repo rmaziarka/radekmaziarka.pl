@@ -197,7 +197,9 @@ function handlePostsXML(err, result) {
             fileHeader = ''
             fileHeader += `---\ntitle: '${title}'\nurl: '${postUrl}'\ndate: ${published}\ndraft: false\n`;
             if(featuredImagePath)
-                fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+                fileHeader+= `images: ['${featuredImagePath}']\n`;
+            else 
+                fileHeader+= `images: []\n`;
             
             fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
             fileContent = `${fileHeader}\n${markdown}`;
@@ -377,7 +379,7 @@ function handlePagesXML(err, result) {
                 fileHeader = ''
                 fileHeader += `---\ntitle: '${title}'\nurl: '${pageUrl}'\ndate: ${published}\ndraft: false\n`;
                 if(featuredImagePath)
-                    fileHeader+= `featured_image: '${featuredImagePath}'\n`;
+                    fileHeader+= `images: ['/${featuredImagePath}']\n`;
                 fileHeader+='---\n';
                 fileContent = `${fileHeader}\n${markdown}`;
 

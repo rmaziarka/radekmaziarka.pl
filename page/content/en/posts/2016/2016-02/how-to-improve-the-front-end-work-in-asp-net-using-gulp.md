@@ -3,6 +3,7 @@ title: 'How to improve the front-end work in ASP.NET using Gulp?'
 url: '/2016/02/22/how-to-improve-the-front-end-work-in-asp-net-using-gulp/'
 date: Mon, 22 Feb 2016 08:40:35 +0000
 draft: false
+images: []
 category: 'Gulp'
 tags: ['']
 ---

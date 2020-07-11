@@ -3,7 +3,7 @@ title: 'Jak błędy poznawcze niszczą twoją pracę - prezentacja'
 url: '/2018/03/14/jak-bledy-poznawcze-niszcza-twoja-prace/'
 date: Wed, 14 Mar 2018 15:41:14 +0000
 draft: false
-featured_image: 'images/2018/03/POWERPNT_2018-03-20_00-20-38.png'
+images: ['images/2018/03/POWERPNT_2018-03-20_00-20-38.png']
 category: 'Różne'
 tags: ['błędy poznawcze', 'mechanizmy obronne']
 ---

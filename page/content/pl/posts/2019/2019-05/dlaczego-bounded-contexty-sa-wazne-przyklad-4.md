@@ -3,7 +3,7 @@ title: 'Dlaczego Bounded Contexty są ważne – narzędzia Business Inteligence
 url: '/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/'
 date: Thu, 23 May 2019 22:13:12 +0000
 draft: false
-featured_image: 'images/2018/07/private-1665019_960_720.jpg'
+images: ['images/2018/07/private-1665019_960_720.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

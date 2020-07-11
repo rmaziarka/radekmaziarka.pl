@@ -5,6 +5,9 @@ disqusShortname = "radekmaziarka-pl"
 googleAnalytics = "UA-51551522-2"
 baseURL = "https://radekmaziarka.pl/"
 
+[params]
+  author = "Radek Maziarka"
+
 [permalinks]
   posts = "/:slug"
   pages = "/:slug"
@@ -16,10 +19,12 @@ baseURL = "https://radekmaziarka.pl/"
 [languages]
   [languages.pl]
     title = "Radek Maziarka"
+    description = "Radek Maziarka - blog prywatny"
     contentDir = "content/pl"
     weight = 1     
   [languages.en]
     title = "Radek Maziarka"
+    description = "Radek Maziarka - personal blog"
     contentDir = "content"
     weight = 2
 

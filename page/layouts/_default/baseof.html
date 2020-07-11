@@ -10,7 +10,7 @@
 
 
     {{ $style := resources.Get "styles/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <script src="https://use.fontawesome.com/e16356b299.js"></script>

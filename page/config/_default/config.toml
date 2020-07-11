@@ -55,7 +55,7 @@ googleAnalytics = "UA-51551522-2"
 
 [[languages.pl.menu.main]]
   identifier = "szkolenia-miekkie"
-  name = "Techniczne"
+  name = "Miękkie"
   url = "/szkolenia/miekkie"
   weight = 20
   parent = "szkolenia"

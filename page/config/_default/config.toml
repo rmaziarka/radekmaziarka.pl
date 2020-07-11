@@ -1,8 +1,9 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Radek Maziarka - I solve problems"
 defaultContentLanguage  = "pl"
 disqusShortname = "radekmaziarka-pl"
 googleAnalytics = "UA-51551522-2"
+baseURL = "https://radekmaziarka.pl/"
 
 [permalinks]
   posts = "/:slug"

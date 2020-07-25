@@ -5,9 +5,11 @@ date: Sun, 13 Mar 2016 19:41:49 +0000
 draft: false
 ---
 
-> ### [I'm Winston Wolf. I solve problems.](https://hrspoiler.wordpress.com/2013/05/13/im-winston-wolf-i-solve-problems/)
+[![](/images/2018/10/small.jpg)](/images/2018/10/small.jpg)
 
-My name is Radek Maziarka. On a daily basis, I work as a Solution Architect in PGS Software. Additionally:
+> ### ["I'm Winston Wolf. I solve problems."](https://hrspoiler.wordpress.com/2013/05/13/im-winston-wolf-i-solve-problems/)
+
+My name is Radek Maziarka. On a daily basis, I work as a Solution Architect. Additionally:
 
  *   I conduct internal presentations and trainings in the company
  *   As part of the RadSoft company I provide IT consulting
@@ -19,3 +21,7 @@ All these aspects make me look broadly at the software development - I do not cl
 Check more on my [LinkedIn](https://www.linkedin.com/in/maziarka-radoslaw/).
 
 // and I like Pulp Fiction very much ;)
+
+### Follow me on:
+
+{{< social-media >}}

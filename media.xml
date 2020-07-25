@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.13" created="2020-03-01 19:37" -->
+<!-- generator="WordPress/4.9.15" created="2020-07-25 21:01" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Radek Maziarka</title>
 	<link>https://radekmaziarka.pl</link>
 	<description>O programowaniu słów kilka - .NET i nie tylko</description>
-	<pubDate>Sun, 01 Mar 2020 19:37:38 +0000</pubDate>
+	<pubDate>Sat, 25 Jul 2020 21:01:55 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://radekmaziarka.pl</wp:base_site_url>
@@ -38,7 +38,7 @@
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[radblog]]></wp:author_login><wp:author_email><![CDATA[maziarka.radoslaw@outlook.com]]></wp:author_email><wp:author_display_name><![CDATA[Radek]]></wp:author_display_name><wp:author_first_name><![CDATA[Radek]]></wp:author_first_name><wp:author_last_name><![CDATA[Maziarka]]></wp:author_last_name></wp:author>
 
 
-	<generator>https://wordpress.org/?v=4.9.13</generator>
+	<generator>https://wordpress.org/?v=4.9.15</generator>
 
 <image>
 	<url>https://radekmaziarka.pl/wp-content/uploads/2017/08/cropped-12923344_233672263652960_7394021749044378576_n-32x32.jpg</url>
@@ -7500,7 +7500,7 @@
 	</item>
 	<item>
 		<title>event-storming-part</title>
-		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-cz1/event-storming-part/</link>
+		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/event-storming-part/</link>
 		<pubDate>Tue, 04 Feb 2020 22:18:44 +0000</pubDate>
 		<dc:creator><![CDATA[radblog]]></dc:creator>
 		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png</guid>
@@ -7531,7 +7531,7 @@
 	</item>
 	<item>
 		<title>consultancy</title>
-		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-cz1/consultancy/</link>
+		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/consultancy/</link>
 		<pubDate>Tue, 04 Feb 2020 22:24:25 +0000</pubDate>
 		<dc:creator><![CDATA[radblog]]></dc:creator>
 		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/02/consultancy.jpg</guid>
@@ -7777,5 +7777,884 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:627;s:6:"height";i:400;s:4:"file";s:34:"2020/02/monolith-microservices.jpg";s:5:"sizes";a:15:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"monolith-microservices-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"monolith-microservices-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:34:"monolith-microservices-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:34:"monolith-microservices-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:34:"monolith-microservices-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:34:"monolith-microservices-554x400.jpg";s:5:"width";i:554;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:34:"monolith-microservices-306x400.jpg";s:5:"width";i:306;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:34:"monolith-microservices-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:34:"monolith-microservices-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:34:"monolith-microservices-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:34:"monolith-microservices-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:34:"monolith-microservices-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:34:"monolith-microservices-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:32:"monolith-microservices-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:34:"monolith-microservices-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	<item>
+		<title>way-918900_1280</title>
+		<link>https://radekmaziarka.pl/2020/03/14/wordpress-to-hugo-why-and-how/way-918900_1280/</link>
+		<pubDate>Sat, 14 Mar 2020 15:00:02 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/way-918900_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2100</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-14 16:00:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-14 15:00:02]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[way-918900_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2099</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/way-918900_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/way-918900_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:719;s:4:"file";s:27:"2020/03/way-918900_1280.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:27:"way-918900_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:27:"way-918900_1280-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:27:"way-918900_1280-768x431.jpg";s:5:"width";i:768;s:6:"height";i:431;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:28:"way-918900_1280-1024x575.jpg";s:5:"width";i:1024;s:6:"height";i:575;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:27:"way-918900_1280-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:27:"way-918900_1280-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:27:"way-918900_1280-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:27:"way-918900_1280-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:27:"way-918900_1280-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:27:"way-918900_1280-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:27:"way-918900_1280-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:27:"way-918900_1280-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:27:"way-918900_1280-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:27:"way-918900_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:27:"way-918900_1280-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:27:"way-918900_1280-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:27:"way-918900_1280-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:27:"way-918900_1280-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:27:"way-918900_1280-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:25:"way-918900_1280-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:27:"way-918900_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ingredients-498199_640</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/ingredients-498199_640/</link>
+		<pubDate>Sun, 29 Mar 2020 14:04:51 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ingredients-498199_640.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2114</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:04:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:04:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ingredients-498199_640]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ingredients-498199_640.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ingredients-498199_640.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:640;s:6:"height";i:423;s:4:"file";s:34:"2020/03/ingredients-498199_640.jpg";s:5:"sizes";a:15:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"ingredients-498199_640-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"ingredients-498199_640-300x198.jpg";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:34:"ingredients-498199_640-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:34:"ingredients-498199_640-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:34:"ingredients-498199_640-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:34:"ingredients-498199_640-554x423.jpg";s:5:"width";i:554;s:6:"height";i:423;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:34:"ingredients-498199_640-306x423.jpg";s:5:"width";i:306;s:6:"height";i:423;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:34:"ingredients-498199_640-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:34:"ingredients-498199_640-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:34:"ingredients-498199_640-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:34:"ingredients-498199_640-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:34:"ingredients-498199_640-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:34:"ingredients-498199_640-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:32:"ingredients-498199_640-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:34:"ingredients-498199_640-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>photo-1585230477660-8b044984c007</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/photo-1585230477660-8b044984c007/</link>
+		<pubDate>Sun, 29 Mar 2020 14:08:30 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2115</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:08:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:08:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[photo-1585230477660-8b044984c007]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/photo-1585230477660-8b044984c007.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:584;s:6:"height";i:400;s:4:"file";s:44:"2020/03/photo-1585230477660-8b044984c007.jpg";s:5:"sizes";a:15:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-300x205.jpg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-554x400.jpg";s:5:"width";i:554;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-306x400.jpg";s:5:"width";i:306;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:42:"photo-1585230477660-8b044984c007-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>event storming - high level process</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/event-storming-high-level-process/</link>
+		<pubDate>Sun, 29 Mar 2020 14:09:07 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-high-level-process.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2116</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:09:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:09:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[event-storming-high-level-process]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-high-level-process.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/event-storming-high-level-process.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1926;s:6:"height";i:519;s:4:"file";s:45:"2020/03/event-storming-high-level-process.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:45:"event-storming-high-level-process-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"event-storming-high-level-process-300x81.jpg";s:5:"width";i:300;s:6:"height";i:81;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:45:"event-storming-high-level-process-768x207.jpg";s:5:"width";i:768;s:6:"height";i:207;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:46:"event-storming-high-level-process-1024x276.jpg";s:5:"width";i:1024;s:6:"height";i:276;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:45:"event-storming-high-level-process-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:45:"event-storming-high-level-process-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:45:"event-storming-high-level-process-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:45:"event-storming-high-level-process-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:45:"event-storming-high-level-process-870x519.jpg";s:5:"width";i:870;s:6:"height";i:519;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:45:"event-storming-high-level-process-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:45:"event-storming-high-level-process-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:45:"event-storming-high-level-process-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:45:"event-storming-high-level-process-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:45:"event-storming-high-level-process-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:45:"event-storming-high-level-process-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:45:"event-storming-high-level-process-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:45:"event-storming-high-level-process-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:45:"event-storming-high-level-process-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:45:"event-storming-high-level-process-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:43:"event-storming-high-level-process-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:45:"event-storming-high-level-process-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (1)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-1/</link>
+		<pubDate>Sun, 29 Mar 2020 14:09:53 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2117</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:09:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:09:53]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-1.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:971;s:6:"height";i:1029;s:4:"file";s:24:"2020/03/ES-article-1.jpg";s:5:"sizes";a:23:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-1-283x300.jpg";s:5:"width";i:283;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-1-768x814.jpg";s:5:"width";i:768;s:6:"height";i:814;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-1-966x1024.jpg";s:5:"width";i:966;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-1-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-1-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-main-full";a:4:{s:4:"file";s:25:"ES-article-1-971x1016.jpg";s:5:"width";i:971;s:6:"height";i:1016;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-slider-alt";a:4:{s:4:"file";s:25:"ES-article-1-971x1016.jpg";s:5:"width";i:971;s:6:"height";i:1016;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-1-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-1-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-1-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-1-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-1-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-1-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-1-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-1-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-1-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (2)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-2/</link>
+		<pubDate>Sun, 29 Mar 2020 14:10:41 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2118</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:10:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:10:41]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-2.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-2.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1335;s:6:"height";i:748;s:4:"file";s:24:"2020/03/ES-article-2.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-2-300x168.jpg";s:5:"width";i:300;s:6:"height";i:168;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-2-768x430.jpg";s:5:"width";i:768;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-2-1024x574.jpg";s:5:"width";i:1024;s:6:"height";i:574;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-2-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-2-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-2-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-2-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-2-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-2-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-2-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-2-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-2-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-2-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-2-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-2-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-2-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-2-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-2-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (4)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-4/</link>
+		<pubDate>Sun, 29 Mar 2020 14:11:00 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-4.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2119</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:11:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:11:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-4]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-4.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-4.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1370;s:6:"height";i:729;s:4:"file";s:24:"2020/03/ES-article-4.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-4-300x160.jpg";s:5:"width";i:300;s:6:"height";i:160;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-4-768x409.jpg";s:5:"width";i:768;s:6:"height";i:409;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-4-1024x545.jpg";s:5:"width";i:1024;s:6:"height";i:545;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-4-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-4-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-4-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-4-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-4-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-4-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-4-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-4-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-4-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-4-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-4-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-4-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-4-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-4-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-4-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (3)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-3/</link>
+		<pubDate>Sun, 29 Mar 2020 14:11:19 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-3.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2120</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:11:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:11:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-3]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-3.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-3.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1325;s:6:"height";i:754;s:4:"file";s:24:"2020/03/ES-article-3.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-3-300x171.jpg";s:5:"width";i:300;s:6:"height";i:171;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-3-768x437.jpg";s:5:"width";i:768;s:6:"height";i:437;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-3-1024x583.jpg";s:5:"width";i:1024;s:6:"height";i:583;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-3-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-3-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-3-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-3-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-3-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-3-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-3-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-3-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-3-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-3-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-3-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-3-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-3-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-3-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-3-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article/</link>
+		<pubDate>Sun, 29 Mar 2020 14:11:50 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2121</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:11:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:11:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2197;s:6:"height";i:455;s:4:"file";s:22:"2020/03/ES-article.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"ES-article-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:21:"ES-article-300x62.jpg";s:5:"width";i:300;s:6:"height";i:62;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:22:"ES-article-768x159.jpg";s:5:"width";i:768;s:6:"height";i:159;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:23:"ES-article-1024x212.jpg";s:5:"width";i:1024;s:6:"height";i:212;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:22:"ES-article-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:22:"ES-article-770x455.jpg";s:5:"width";i:770;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:22:"ES-article-960x455.jpg";s:5:"width";i:960;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:22:"ES-article-900x455.jpg";s:5:"width";i:900;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:22:"ES-article-870x455.jpg";s:5:"width";i:870;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:22:"ES-article-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:22:"ES-article-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:22:"ES-article-554x455.jpg";s:5:"width";i:554;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:22:"ES-article-306x455.jpg";s:5:"width";i:306;s:6:"height";i:455;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:22:"ES-article-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:22:"ES-article-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:22:"ES-article-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:22:"ES-article-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:22:"ES-article-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:22:"ES-article-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:20:"ES-article-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:22:"ES-article-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (5)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-5/</link>
+		<pubDate>Sun, 29 Mar 2020 14:12:54 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-5.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2122</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:12:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:12:54]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-5]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-5.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-5.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1059;s:6:"height";i:944;s:4:"file";s:24:"2020/03/ES-article-5.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-5-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-5-300x267.jpg";s:5:"width";i:300;s:6:"height";i:267;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-5-768x685.jpg";s:5:"width";i:768;s:6:"height";i:685;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-5-1024x913.jpg";s:5:"width";i:1024;s:6:"height";i:913;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-5-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-5-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-5-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-5-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-5-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-5-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-5-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-5-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-5-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-5-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-5-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-5-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-5-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-5-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-5-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-5-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-5-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (6)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-6/</link>
+		<pubDate>Sun, 29 Mar 2020 14:13:28 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-6.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2123</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:13:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:13:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-6]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-6.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-6.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1160;s:6:"height";i:861;s:4:"file";s:24:"2020/03/ES-article-6.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-6-300x223.jpg";s:5:"width";i:300;s:6:"height";i:223;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-6-768x570.jpg";s:5:"width";i:768;s:6:"height";i:570;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-6-1024x760.jpg";s:5:"width";i:1024;s:6:"height";i:760;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-6-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-6-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-6-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-6-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-6-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-6-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-6-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-6-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-6-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-6-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-6-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-6-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-6-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-6-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-6-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ES - article (7)</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/es-article-7/</link>
+		<pubDate>Sun, 29 Mar 2020 14:14:30 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-7.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2124</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:14:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:14:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es-article-7]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-7.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/ES-article-7.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1509;s:6:"height";i:662;s:4:"file";s:24:"2020/03/ES-article-7.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ES-article-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ES-article-7-300x132.jpg";s:5:"width";i:300;s:6:"height";i:132;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"ES-article-7-768x337.jpg";s:5:"width";i:768;s:6:"height";i:337;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"ES-article-7-1024x449.jpg";s:5:"width";i:1024;s:6:"height";i:449;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"ES-article-7-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"ES-article-7-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"ES-article-7-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"ES-article-7-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"ES-article-7-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"ES-article-7-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"ES-article-7-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"ES-article-7-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"ES-article-7-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"ES-article-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"ES-article-7-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"ES-article-7-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"ES-article-7-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"ES-article-7-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"ES-article-7-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"ES-article-7-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"ES-article-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>event-storming-miro-comments</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/event-storming-miro-comments/</link>
+		<pubDate>Sun, 29 Mar 2020 14:16:05 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-miro-comments.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2125</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:16:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:16:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[event-storming-miro-comments]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-miro-comments.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/event-storming-miro-comments.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:842;s:6:"height";i:442;s:4:"file";s:40:"2020/03/event-storming-miro-comments.jpg";s:5:"sizes";a:17:{s:9:"thumbnail";a:4:{s:4:"file";s:40:"event-storming-miro-comments-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:40:"event-storming-miro-comments-300x157.jpg";s:5:"width";i:300;s:6:"height";i:157;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:40:"event-storming-miro-comments-768x403.jpg";s:5:"width";i:768;s:6:"height";i:403;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:40:"event-storming-miro-comments-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:40:"event-storming-miro-comments-770x442.jpg";s:5:"width";i:770;s:6:"height";i:442;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:40:"event-storming-miro-comments-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:40:"event-storming-miro-comments-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:40:"event-storming-miro-comments-554x442.jpg";s:5:"width";i:554;s:6:"height";i:442;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:40:"event-storming-miro-comments-306x442.jpg";s:5:"width";i:306;s:6:"height";i:442;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:40:"event-storming-miro-comments-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:40:"event-storming-miro-comments-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:40:"event-storming-miro-comments-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:40:"event-storming-miro-comments-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:40:"event-storming-miro-comments-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:40:"event-storming-miro-comments-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:38:"event-storming-miro-comments-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:40:"event-storming-miro-comments-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:18:"Radosław Maziarka";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1585498547";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>photo-1585230477660-8b044984c007</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/photo-1585230477660-8b044984c007-2/</link>
+		<pubDate>Sun, 29 Mar 2020 14:18:25 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2127</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:18:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:18:25]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[photo-1585230477660-8b044984c007-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2113</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007-1.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/03/photo-1585230477660-8b044984c007-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:747;s:6:"height";i:400;s:4:"file";s:46:"2020/03/photo-1585230477660-8b044984c007-1.jpg";s:5:"sizes";a:15:{s:9:"thumbnail";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-300x161.jpg";s:5:"width";i:300;s:6:"height";i:161;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-554x400.jpg";s:5:"width";i:554;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-306x400.jpg";s:5:"width";i:306;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:44:"photo-1585230477660-8b044984c007-1-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:46:"photo-1585230477660-8b044984c007-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>dddwro</title>
+		<link>https://radekmaziarka.pl/2020/04/09/zdalne-modelowanie-domeny/dddwro/</link>
+		<pubDate>Thu, 09 Apr 2020 15:42:11 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/04/dddwro.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2133</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-09 16:42:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-09 15:42:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dddwro]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2132</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/04/dddwro.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/04/dddwro.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:337;s:4:"file";s:18:"2020/04/dddwro.png";s:5:"sizes";a:15:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"dddwro-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:18:"dddwro-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:18:"dddwro-270x180.png";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:18:"dddwro-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:18:"dddwro-370x337.png";s:5:"width";i:370;s:6:"height";i:337;s:9:"mime-type";s:9:"image/png";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:18:"dddwro-554x337.png";s:5:"width";i:554;s:6:"height";i:337;s:9:"mime-type";s:9:"image/png";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:18:"dddwro-306x337.png";s:5:"width";i:306;s:6:"height";i:337;s:9:"mime-type";s:9:"image/png";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:18:"dddwro-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"cheerup-grid";a:4:{s:4:"file";s:18:"dddwro-370x285.png";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:9:"image/png";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:18:"dddwro-370x305.png";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:9:"image/png";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:18:"dddwro-370x285.png";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:9:"image/png";}s:12:"cheerup-list";a:4:{s:4:"file";s:18:"dddwro-260x200.png";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:18:"dddwro-370x305.png";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:9:"image/png";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:16:"dddwro-87x67.png";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:9:"image/png";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:18:"dddwro-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>internet-rules</title>
+		<link>https://radekmaziarka.pl/2020/04/12/wordpress-to-hugo-transformation-to-markdown/internet-rules/</link>
+		<pubDate>Sun, 12 Apr 2020 19:29:01 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/04/internet-rules.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2143</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-12 20:29:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-12 19:29:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[internet-rules]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2142</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/04/internet-rules.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/04/internet-rules.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:398;s:6:"height";i:398;s:4:"file";s:26:"2020/04/internet-rules.jpg";s:5:"sizes";a:14:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"internet-rules-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"internet-rules-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:26:"internet-rules-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:26:"internet-rules-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:26:"internet-rules-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:26:"internet-rules-306x398.jpg";s:5:"width";i:306;s:6:"height";i:398;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:26:"internet-rules-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:26:"internet-rules-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:26:"internet-rules-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:26:"internet-rules-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:26:"internet-rules-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:26:"internet-rules-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:24:"internet-rules-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:26:"internet-rules-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>hugo-files-1</title>
+		<link>https://radekmaziarka.pl/2020/04/12/wordpress-to-hugo-transformation-to-markdown/hugo-files-1/</link>
+		<pubDate>Sun, 12 Apr 2020 19:38:46 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2144</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-12 20:38:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-12 19:38:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hugo-files-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2142</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-1.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/04/hugo-files-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:534;s:6:"height";i:446;s:4:"file";s:24:"2020/04/hugo-files-1.jpg";s:5:"sizes";a:14:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"hugo-files-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"hugo-files-1-300x251.jpg";s:5:"width";i:300;s:6:"height";i:251;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"hugo-files-1-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"hugo-files-1-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"hugo-files-1-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"hugo-files-1-306x446.jpg";s:5:"width";i:306;s:6:"height";i:446;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"hugo-files-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"hugo-files-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"hugo-files-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"hugo-files-1-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"hugo-files-1-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"hugo-files-1-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"hugo-files-1-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"hugo-files-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>hugo-files-2</title>
+		<link>https://radekmaziarka.pl/2020/04/12/wordpress-to-hugo-transformation-to-markdown/hugo-files-2/</link>
+		<pubDate>Sun, 12 Apr 2020 19:38:51 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2145</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-12 20:38:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-12 19:38:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hugo-files-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2142</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-2.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/04/hugo-files-2.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:971;s:6:"height";i:507;s:4:"file";s:24:"2020/04/hugo-files-2.jpg";s:5:"sizes";a:20:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"hugo-files-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"hugo-files-2-300x157.jpg";s:5:"width";i:300;s:6:"height";i:157;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"hugo-files-2-768x401.jpg";s:5:"width";i:768;s:6:"height";i:401;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"hugo-files-2-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:24:"hugo-files-2-770x507.jpg";s:5:"width";i:770;s:6:"height";i:507;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:24:"hugo-files-2-960x507.jpg";s:5:"width";i:960;s:6:"height";i:507;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:24:"hugo-files-2-900x507.jpg";s:5:"width";i:900;s:6:"height";i:507;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:24:"hugo-files-2-870x507.jpg";s:5:"width";i:870;s:6:"height";i:507;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:24:"hugo-files-2-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:24:"hugo-files-2-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:24:"hugo-files-2-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:24:"hugo-files-2-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:24:"hugo-files-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:24:"hugo-files-2-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:24:"hugo-files-2-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:24:"hugo-files-2-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:24:"hugo-files-2-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:24:"hugo-files-2-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:22:"hugo-files-2-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:24:"hugo-files-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>terraform</title>
+		<link>https://radekmaziarka.pl/2020/05/17/zarzadzanie-infrastruktura-w-chmurze-za-pomoca-terraform/terraform/</link>
+		<pubDate>Sun, 17 May 2020 22:34:24 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/05/terraform.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2158</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-17 23:34:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-17 22:34:24]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[terraform]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2157</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/05/terraform.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/05/terraform.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1084;s:6:"height";i:430;s:4:"file";s:21:"2020/05/terraform.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:21:"terraform-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:21:"terraform-300x119.jpg";s:5:"width";i:300;s:6:"height";i:119;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:21:"terraform-768x305.jpg";s:5:"width";i:768;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:22:"terraform-1024x406.jpg";s:5:"width";i:1024;s:6:"height";i:406;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:21:"terraform-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:21:"terraform-770x430.jpg";s:5:"width";i:770;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:21:"terraform-960x430.jpg";s:5:"width";i:960;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:21:"terraform-900x430.jpg";s:5:"width";i:900;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:21:"terraform-870x430.jpg";s:5:"width";i:870;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:21:"terraform-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:21:"terraform-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:21:"terraform-554x430.jpg";s:5:"width";i:554;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:21:"terraform-306x430.jpg";s:5:"width";i:306;s:6:"height";i:430;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:21:"terraform-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:21:"terraform-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:21:"terraform-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:21:"terraform-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:21:"terraform-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:21:"terraform-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:19:"terraform-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:21:"terraform-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:17:"Radoslaw Maziarka";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1589761998";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>terraform-logo</title>
+		<link>https://radekmaziarka.pl/2020/05/17/zarzadzanie-infrastruktura-w-chmurze-za-pomoca-terraform/terraform-logo/</link>
+		<pubDate>Sun, 17 May 2020 22:41:50 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/05/terraform-logo.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2160</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-17 23:41:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-17 22:41:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[terraform-logo]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2157</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/05/terraform-logo.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/05/terraform-logo.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:480;s:6:"height";i:240;s:4:"file";s:26:"2020/05/terraform-logo.png";s:5:"sizes";a:14:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"terraform-logo-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:26:"terraform-logo-300x150.png";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:26:"terraform-logo-270x180.png";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:26:"terraform-logo-300x240.png";s:5:"width";i:300;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:26:"terraform-logo-370x240.png";s:5:"width";i:370;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:26:"terraform-logo-306x240.png";s:5:"width";i:306;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:26:"terraform-logo-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"cheerup-grid";a:4:{s:4:"file";s:26:"terraform-logo-370x240.png";s:5:"width";i:370;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:26:"terraform-logo-370x240.png";s:5:"width";i:370;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:26:"terraform-logo-370x240.png";s:5:"width";i:370;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:12:"cheerup-list";a:4:{s:4:"file";s:26:"terraform-logo-260x200.png";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:26:"terraform-logo-370x240.png";s:5:"width";i:370;s:6:"height";i:240;s:9:"mime-type";s:9:"image/png";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:24:"terraform-logo-87x67.png";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:9:"image/png";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:26:"terraform-logo-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Lean</title>
+		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/lean/</link>
+		<pubDate>Wed, 27 May 2020 21:45:24 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/02/Lean.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2163</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-27 22:45:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-27 21:45:24]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[lean]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2061</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/02/Lean.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/02/Lean.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:903;s:6:"height";i:602;s:4:"file";s:16:"2020/02/Lean.jpg";s:5:"sizes";a:20:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"Lean-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"Lean-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:16:"Lean-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:16:"Lean-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:16:"Lean-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:16:"Lean-903x508.jpg";s:5:"width";i:903;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:16:"Lean-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:16:"Lean-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:16:"Lean-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:16:"Lean-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:16:"Lean-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:16:"Lean-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:16:"Lean-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:16:"Lean-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:16:"Lean-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:16:"Lean-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:16:"Lean-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:16:"Lean-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:14:"Lean-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:16:"Lean-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>example-mapping</title>
+		<link>https://radekmaziarka.pl/2020/06/17/narzedzia-pracy-konsultanta-example-mapping/example-mapping/</link>
+		<pubDate>Wed, 17 Jun 2020 06:22:14 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/example-mapping.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2195</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-17 07:22:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-17 06:22:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[example-mapping]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2194</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/example-mapping.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/example-mapping.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:720;s:6:"height";i:540;s:4:"file";s:27:"2020/06/example-mapping.jpg";s:5:"sizes";a:18:{s:9:"thumbnail";a:4:{s:4:"file";s:27:"example-mapping-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:27:"example-mapping-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:27:"example-mapping-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:27:"example-mapping-720x515.jpg";s:5:"width";i:720;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:27:"example-mapping-720x508.jpg";s:5:"width";i:720;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:27:"example-mapping-720x515.jpg";s:5:"width";i:720;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:27:"example-mapping-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:27:"example-mapping-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:27:"example-mapping-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:27:"example-mapping-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:27:"example-mapping-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:27:"example-mapping-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:27:"example-mapping-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:27:"example-mapping-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:27:"example-mapping-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:27:"example-mapping-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:25:"example-mapping-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:27:"example-mapping-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>theory-of-constraints</title>
+		<link>https://radekmaziarka.pl/2020/06/19/teoria-ograniczen-w-kaszubskiej-restauracji/theory-of-constraints/</link>
+		<pubDate>Fri, 19 Jun 2020 08:44:47 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/theory-of-constraints.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2201</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-19 09:44:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-19 08:44:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[theory-of-constraints]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2200</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/theory-of-constraints.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/theory-of-constraints.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:840;s:6:"height";i:241;s:4:"file";s:33:"2020/06/theory-of-constraints.jpg";s:5:"sizes";a:17:{s:9:"thumbnail";a:4:{s:4:"file";s:33:"theory-of-constraints-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:32:"theory-of-constraints-300x86.jpg";s:5:"width";i:300;s:6:"height";i:86;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:33:"theory-of-constraints-768x220.jpg";s:5:"width";i:768;s:6:"height";i:220;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:33:"theory-of-constraints-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:33:"theory-of-constraints-770x241.jpg";s:5:"width";i:770;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:33:"theory-of-constraints-300x241.jpg";s:5:"width";i:300;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:33:"theory-of-constraints-370x241.jpg";s:5:"width";i:370;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:33:"theory-of-constraints-554x241.jpg";s:5:"width";i:554;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:33:"theory-of-constraints-306x241.jpg";s:5:"width";i:306;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:33:"theory-of-constraints-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:33:"theory-of-constraints-370x241.jpg";s:5:"width";i:370;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:33:"theory-of-constraints-370x241.jpg";s:5:"width";i:370;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:33:"theory-of-constraints-370x241.jpg";s:5:"width";i:370;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:33:"theory-of-constraints-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:33:"theory-of-constraints-370x241.jpg";s:5:"width";i:370;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:31:"theory-of-constraints-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:33:"theory-of-constraints-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>restauracja</title>
+		<link>https://radekmaziarka.pl/2020/06/19/teoria-ograniczen-w-kaszubskiej-restauracji/restauracja/</link>
+		<pubDate>Fri, 19 Jun 2020 08:45:05 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/restauracja.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2202</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-19 09:45:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-19 08:45:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[restauracja]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2200</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/restauracja.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/restauracja.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:332;s:6:"height";i:339;s:4:"file";s:23:"2020/06/restauracja.jpg";s:5:"sizes";a:13:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"restauracja-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"restauracja-294x300.jpg";s:5:"width";i:294;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:23:"restauracja-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:23:"restauracja-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:23:"restauracja-306x339.jpg";s:5:"width";i:306;s:6:"height";i:339;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:23:"restauracja-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:23:"restauracja-332x285.jpg";s:5:"width";i:332;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:23:"restauracja-332x305.jpg";s:5:"width";i:332;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:23:"restauracja-332x285.jpg";s:5:"width";i:332;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:23:"restauracja-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:23:"restauracja-332x305.jpg";s:5:"width";i:332;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:21:"restauracja-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:23:"restauracja-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>aperol-spritz</title>
+		<link>https://radekmaziarka.pl/2020/06/19/teoria-ograniczen-w-kaszubskiej-restauracji/aperol-spritz/</link>
+		<pubDate>Fri, 19 Jun 2020 08:48:06 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/aperol-spritz-.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2205</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-19 09:48:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-19 08:48:06]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aperol-spritz]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2200</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/aperol-spritz-.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/aperol-spritz-.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:800;s:6:"height";i:373;s:4:"file";s:26:"2020/06/aperol-spritz-.jpg";s:5:"sizes";a:17:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"aperol-spritz--150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"aperol-spritz--300x140.jpg";s:5:"width";i:300;s:6:"height";i:140;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:26:"aperol-spritz--768x358.jpg";s:5:"width";i:768;s:6:"height";i:358;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:26:"aperol-spritz--270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:26:"aperol-spritz--770x373.jpg";s:5:"width";i:770;s:6:"height";i:373;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:26:"aperol-spritz--300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:26:"aperol-spritz--370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:26:"aperol-spritz--554x373.jpg";s:5:"width";i:554;s:6:"height";i:373;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:26:"aperol-spritz--306x373.jpg";s:5:"width";i:306;s:6:"height";i:373;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:26:"aperol-spritz--150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:26:"aperol-spritz--370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:26:"aperol-spritz--370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:26:"aperol-spritz--370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:26:"aperol-spritz--260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:26:"aperol-spritz--370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:24:"aperol-spritz--87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:26:"aperol-spritz--150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1592563450";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>kaszuby</title>
+		<link>https://radekmaziarka.pl/2020/06/19/teoria-ograniczen-w-kaszubskiej-restauracji/kaszuby/</link>
+		<pubDate>Fri, 19 Jun 2020 08:54:17 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/kaszuby.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2206</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-19 09:54:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-19 08:54:17]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[kaszuby]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2200</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/kaszuby.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/kaszuby.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1077;s:6:"height";i:639;s:4:"file";s:19:"2020/06/kaszuby.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"kaszuby-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:19:"kaszuby-300x178.jpg";s:5:"width";i:300;s:6:"height";i:178;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:19:"kaszuby-768x456.jpg";s:5:"width";i:768;s:6:"height";i:456;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:20:"kaszuby-1024x608.jpg";s:5:"width";i:1024;s:6:"height";i:608;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:19:"kaszuby-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:19:"kaszuby-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:19:"kaszuby-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:19:"kaszuby-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:19:"kaszuby-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:19:"kaszuby-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:19:"kaszuby-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:19:"kaszuby-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:19:"kaszuby-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:19:"kaszuby-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:19:"kaszuby-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:19:"kaszuby-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:19:"kaszuby-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:19:"kaszuby-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:19:"kaszuby-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:17:"kaszuby-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:19:"kaszuby-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>wardley-map</title>
+		<link>https://radekmaziarka.pl/2020/06/21/narzedzia-pracy-konsultanta-wardley-map/wardley-map/</link>
+		<pubDate>Sun, 21 Jun 2020 14:51:49 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/06/wardley-map.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2215</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-21 15:51:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-21 14:51:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wardley-map]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2214</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/06/wardley-map.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/06/wardley-map.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1400;s:6:"height";i:804;s:4:"file";s:23:"2020/06/wardley-map.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"wardley-map-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"wardley-map-300x172.jpg";s:5:"width";i:300;s:6:"height";i:172;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:23:"wardley-map-768x441.jpg";s:5:"width";i:768;s:6:"height";i:441;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"wardley-map-1024x588.jpg";s:5:"width";i:1024;s:6:"height";i:588;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:23:"wardley-map-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:23:"wardley-map-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:23:"wardley-map-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:23:"wardley-map-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:23:"wardley-map-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:23:"wardley-map-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:23:"wardley-map-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:23:"wardley-map-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:23:"wardley-map-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:23:"wardley-map-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:23:"wardley-map-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:23:"wardley-map-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:23:"wardley-map-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:23:"wardley-map-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:23:"wardley-map-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:21:"wardley-map-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:23:"wardley-map-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>computer-1245714_1280</title>
+		<link>https://radekmaziarka.pl/2020/02/17/jak-optymalizowac-mikroserwisy/computer-1245714_1280/</link>
+		<pubDate>Sun, 21 Jun 2020 19:40:10 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/wp-content/uploads/2020/02/computer-1245714_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2219</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-21 20:40:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-21 19:40:10]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[computer-1245714_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>2087</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://radekmaziarka.pl/wp-content/uploads/2020/02/computer-1245714_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2020/02/computer-1245714_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:850;s:4:"file";s:33:"2020/02/computer-1245714_1280.jpg";s:5:"sizes";a:21:{s:9:"thumbnail";a:4:{s:4:"file";s:33:"computer-1245714_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:33:"computer-1245714_1280-300x199.jpg";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:33:"computer-1245714_1280-768x510.jpg";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:34:"computer-1245714_1280-1024x680.jpg";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:33:"computer-1245714_1280-270x180.jpg";s:5:"width";i:270;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-main";a:4:{s:4:"file";s:33:"computer-1245714_1280-770x515.jpg";s:5:"width";i:770;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-trendy";a:4:{s:4:"file";s:33:"computer-1245714_1280-960x508.jpg";s:5:"width";i:960;s:6:"height";i:508;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-stylish";a:4:{s:4:"file";s:33:"computer-1245714_1280-900x515.jpg";s:5:"width";i:900;s:6:"height";i:515;s:9:"mime-type";s:10:"image/jpeg";}s:19:"cheerup-slider-grid";a:4:{s:4:"file";s:33:"computer-1245714_1280-870x600.jpg";s:5:"width";i:870;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-grid-sm";a:4:{s:4:"file";s:33:"computer-1245714_1280-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:23:"cheerup-slider-carousel";a:4:{s:4:"file";s:33:"computer-1245714_1280-370x370.jpg";s:5:"width";i:370;s:6:"height";i:370;s:9:"mime-type";s:10:"image/jpeg";}s:21:"cheerup-slider-grid-b";a:4:{s:4:"file";s:33:"computer-1245714_1280-554x466.jpg";s:5:"width";i:554;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:24:"cheerup-slider-grid-b-sm";a:4:{s:4:"file";s:33:"computer-1245714_1280-306x466.jpg";s:5:"width";i:306;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:22:"cheerup-slider-bold-sm";a:4:{s:4:"file";s:33:"computer-1245714_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-grid";a:4:{s:4:"file";s:33:"computer-1245714_1280-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:16:"cheerup-carousel";a:4:{s:4:"file";s:33:"computer-1245714_1280-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:18:"cheerup-carousel-b";a:4:{s:4:"file";s:33:"computer-1245714_1280-370x285.jpg";s:5:"width";i:370;s:6:"height";i:285;s:9:"mime-type";s:10:"image/jpeg";}s:12:"cheerup-list";a:4:{s:4:"file";s:33:"computer-1245714_1280-260x200.jpg";s:5:"width";i:260;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:14:"cheerup-list-b";a:4:{s:4:"file";s:33:"computer-1245714_1280-370x305.jpg";s:5:"width";i:370;s:6:"height";i:305;s:9:"mime-type";s:10:"image/jpeg";}s:13:"cheerup-thumb";a:4:{s:4:"file";s:31:"computer-1245714_1280-87x67.jpg";s:5:"width";i:87;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:17:"cheerup-thumb-alt";a:4:{s:4:"file";s:33:"computer-1245714_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
 </channel>
 </rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 1/1685 objects using disk
+Page Caching using disk: enhanced{w3tc_pagecache_reject_reason}
+Minified using disk (wp-admin)
+Database Caching using disk (Request-wide wp-admin)
+
+Served from: radekmaziarka.pl @ 2020-07-25 22:01:58 by W3 Total Cache
+-->

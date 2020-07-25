@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.13" created="2020-02-23 22:14" -->
+<!-- generator="WordPress/4.9.15" created="2020-07-25 20:21" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Radek Maziarka</title>
 	<link>https://radekmaziarka.pl</link>
 	<description>O programowaniu słów kilka - .NET i nie tylko</description>
-	<pubDate>Sun, 23 Feb 2020 22:14:25 +0000</pubDate>
+	<pubDate>Sat, 25 Jul 2020 20:21:44 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://radekmaziarka.pl</wp:base_site_url>
@@ -38,7 +38,7 @@
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[radblog]]></wp:author_login><wp:author_email><![CDATA[maziarka.radoslaw@outlook.com]]></wp:author_email><wp:author_display_name><![CDATA[Radek]]></wp:author_display_name><wp:author_first_name><![CDATA[Radek]]></wp:author_first_name><wp:author_last_name><![CDATA[Maziarka]]></wp:author_last_name></wp:author>
 
 
-	<generator>https://wordpress.org/?v=4.9.13</generator>
+	<generator>https://wordpress.org/?v=4.9.15</generator>
 
 <image>
 	<url>https://radekmaziarka.pl/wp-content/uploads/2017/08/cropped-12923344_233672263652960_7394021749044378576_n-32x32.jpg</url>
@@ -1662,6 +1662,14 @@ I to wszystko jak na początek. Kod z tego posta można znaleźć na <a href="ht
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[dsq_thread_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[4651136062]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1587194467;i:1;}s:5:"count";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>36</wp:comment_id>
@@ -10500,7 +10508,7 @@ Dodatkowym aspektem jest tutaj czas. Przez zrównoleglenie prac i podział grupy
 <h1>Jak przeprowadzić taki warsztat</h1>
 Istnieje wiele materiałów opisujących warsztat Event Stormingu, zarówno w języku angielskim (<a href="https://buildplease.com/pages/fpc-2/">artykuł</a> / <a href="https://www.youtube.com/watch?v=04tGbixfGEY">video</a>) jak i polskim (<a href="https://rmakara.github.io/Event-Storming-Warsztaty-Agile-Wroclaw">artykuł</a> / <a href="https://www.youtube.com/watch?v=dhoXYRqghws">video</a>), nie wspominając już o tej najważniejszej <a href="https://leanpub.com/introducing_eventstorming">książce</a>. Bardzo ciekawy zbiór zawarł Mariusz Gil na GitHubie w repo <a href="https://github.com/mariuszgil/awesome-eventstorming">Awesome EventStorming</a>.
 
-Także, do dzieła! Gdyby Cię interesował temat to polecam moje<strong> <a href="/szkolenia/event-storming">warsztaty z Event Stormingu</a></strong> lub pozostałe posty z tego tematu:
+Także, do dzieła! Gdyby Cię interesował temat to polecam moje<strong> <a style="font-size: 110%" href="/szkolenia/event-storming">warsztaty z Event Stormingu</a></strong> lub pozostałe posty z tego tematu:
 <ul>
  	<li><a href="https://radekmaziarka.pl/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/">Event Storming – Narzędzie usprawniające pracę organizacji</a></li>
  	<li><a href="https://radekmaziarka.pl/2019/02/22/event-storming-mapowanie-ograniczen/">Event Storming – Mapowanie ograniczeń</a></li>
@@ -11172,6 +11180,14 @@ Dajcie znać z czego wy jeszcze korzystacie w ramach swoich warsztatów &#x1f60a
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
 			<wp:meta_value><![CDATA[Event Storming i co dalej? Kilka przykładów w jaki sposób pracować z rezultatami warsztatu.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1583914428;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -12514,7 +12530,7 @@ Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są siln
  	<li>Dwa, że bardzo trudno stworzyć taki model danych który spełni naraz wszystkie przypadki biznesowe.</li>
  	<li>Trzy, że te rozwiązania techniczne też mają swój poziom skomplikowania, często o wiele wyższy niż rozwiązania związane z kontekstami i ostateczną spójnością.</li>
 </ul>
-O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to <a href="https://twitter.com/cakper">Kacper Gunia</a> na konferencji Explore DDD:
+O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to <a href="https://twitter.com/cakper">Kacper Gunia</a> na konferencji <a href="https://www.youtube.com/watch?v=a1pRsAi9UVs">Explore DDD</a>:
 
 <a href="https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4.png"><img class="alignnone wp-image-2012 size-medium" src="https://radekmaziarka.pl/wp-content/uploads/2019/09/bc4-300x238.png" alt="" width="300" height="238" /></a>
 
@@ -12569,16 +12585,16 @@ To nawiązuje do działania naszego systemu informatycznego. Nie możemy w każd
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Kolejny odcinek z cyklu o Bounded Contextach - tym razem czym jest ostateczna spójność i dlaczego warto ją stosować przy wykorzystaniu kontekstów.]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1570013526;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Kolejny odcinek z cyklu o Bounded Contextach - tym razem czym jest ostateczna spójność i dlaczego warto ją stosować przy wykorzystaniu kontekstów.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>124</wp:comment_id>
@@ -12664,10 +12680,18 @@ Materiały na których bazowałem:
 			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
 			<wp:meta_value><![CDATA[W ramach Wrocławskiego JUGa wystąpiłem z prezentacją “Event Storming - zmapuj dowolny proces”. Prezentacja dostępna jest na OneDrive.]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1586049185;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
-		<title>Narzędzia pracy konsultanta – część 1</title>
-		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-cz1/</link>
+		<title>Narzędzia pracy konsultanta – podsumowanie</title>
+		<link>https://radekmaziarka.pl/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/</link>
 		<pubDate>Tue, 04 Feb 2020 22:14:24 +0000</pubDate>
 		<dc:creator><![CDATA[radblog]]></dc:creator>
 		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2061</guid>
@@ -12678,122 +12702,28 @@ Narzędzia, które opiszę skupiają się na różnych aspektach pracy – defin
 
 Może was to zdziwić, ale nie rozpocznę od Event Stormingu &#x1f609;, choć oczywiście też znalazł się w moim zestawieniu. Lista technik, o których opowiem jest następująca:
 <ol>
- 	<li><a href="#im">Impact Mapping</a></li>
- 	<li><a href="#bmc">Business Model Canvas</a></li>
- 	<li><a href="#es">Event Storming</a></li>
- 	<li><a href="#matrix">Macierze</a></li>
- 	<li>Value Stream Mapping</li>
- 	<li>Wardley Maps</li>
- 	<li>Example Mapping</li>
- 	<li>System Thinking diagram</li>
+ 	<li><a href="/2020/05/29/narzedzia-pracy-konsultanta-impact-mapping/">Impact Mapping</a></li>
+ 	<li><a href="/2020/05/29/narzedzia-pracy-konsultanta-business-model-canvas/">Business Model Canvas</a></li>
+ 	<li><a href="/2020/05/29/narzedzia-pracy-konsultanta-podsumowanie-event-storming/">Event Storming</a></li>
+ 	<li><a href="/2020/05/29/narzedzia-pracy-konsultanta-macierze/">Macierze</a></li>
+ 	<li><a href="/2020/05/29/narzedzia-pracy-konsultanta-value-stream-mapping/">Value-Stream Mapping</a></li>
+ 	<li><a href="/2020/06/17/narzedzia-pracy-konsultanta-example-mapping/">Example Mapping</a></li>
+ 	<li><a href="/2020/06/21/narzedzia-pracy-konsultanta-wardley-map/">Wardley Map</a></li>
 </ol>
-Zanim przejdziemy do poszczególnych technik i narzędzi, wyjaśnijmy, dlaczego stosowanie takich narzędzi jest warte uwagi.
+Zanim przejdziesz do poszczególnych technik i narzędzi, przeczytaj, dlaczego stosowanie takich narzędzi jest warte uwagi.
 <h1>Wizualizacja</h1>
 Każda z metod, o których przeczytacie poniżej jest oparta na wizualizacji. I to jest klucz do sukcesu. Wizualizacja jest ważna, aby osiągnąć wartościowe rozwiązanie w skończonym czasie. Inaczej trudno jest zauważyć, co jest dla nas ważne. Jesteśmy wzrokowcami i bez wykorzystywania tego zmysłu osiąganie rezultatu trwa o wiele dłużej.
 
 To jest szczególnie ważne, gdy pracujemy w grupie. Mając pewne rozwiązanie w głowie, bardzo często okazuje się, że każdy to rozwiązanie wyobraża sobie nieco inaczej. Dopiero wizualizując je wspólnie jesteśmy w stanie zauważyć nasze różnice. Możemy jednoznacznie podjąć decyzję, w którą stronę idziemy. Bez tego, w późniejszych etapach, wychodzą braki i różnice w zrozumieniu, które mogły być odpowiednio wcześniej zaadresowane.
 
-Nieco szerzej opisałem ten temat w poście o <a href="http://radekmaziarka.pl/2019/05/11/event-storming-dlaczego-dziala-tak-dobrze#wizualizacja">zaletach Event Stormingu</a>.
-<h1 id="im">1 - Impact Mapping</h1>
-Pierwszym narzędziem, które chcę polecić jest <a href="https://www.impactmapping.org/">Impact Mapping</a> opisany przez Gojko Adzica. Jest to technika pozwalająca wybrać problem, który chcemy rozwiązywać. To jest taki swoisty krok przed.
-
-Ma to szalenie ważne konsekwencje w kontekście pracy grupowej. Zwykle staramy się złapać zbyt wiele srok za ogon. Tracimy przez to strasznie dużo czasu na zmianę kontekstów, rośnie nam <a href="https://radekmaziarka.pl/2019/08/14/praca-zwinna-jak-osiagnac-wiecej-robiac-mniej/">work-in-progress</a>, wolniej walidujemy nasze rozwiązania. W rezultacie wydłużamy czas dowiezienia czegoś wartościowego.
-
-<img src="https://www.impactmapping.org/assets/im_template.png" />
-<p style="margin-top: -20px; font-size: 80%;">Imact Mapping Example -  <a href="https://www.impactmapping.org/example.html">https://www.impactmapping.org/example.html</a></p>
-Impact Mapping skupia się na definicji mierzalnego i osiągalnego celu. Pomaga to zdefiniować co uznamy za sukces, a co za porażkę. Chcemy rozbić ten cel na pewne etapy, w których będziemy walidować czy jego realizacja posuwa nas we właściwą stronę oraz czy wybrane rozwiązania rzeczywiście działają.
-
-Ze zdefiniowanym celem możemy spróbować znaleźć optymalne rozwiązanie. Najpierw opisujemy kto mógłby nam pomóc dojść do celu, następnie jaki wpływ możemy mieć na te osoby i na końcu czym na nie wpłyniemy. Im głębiej wchodzimy, tym więcej elementów odrzucamy i ostatecznie skupiamy się na tych najważniejszych aspektach.
-
-Rezultatem jest konkretny kierunek, w którą stronę chcemy się posuwać, oraz zdefiniowane priorytety w jaki sposób chcemy iść w tym kierunku. Definicja celu pozwala nam walidowanie czy posuwamy się w odpowiednim kierunku. Jeśli jest przeciwnie, możemy spróbować wykorzystać inną ścieżkę opisaną podczas warsztatu.
-<h3>Przykład wykorzystania</h3>
-Firma sprzedająca produkty elektroniczne poszukiwała najlepszego sposobu na wejście na rynek portugalski. Potrzebowała ustalić jakie metody pozwolą jej wejść na ten rynek i która z nich będzie najbardziej efektywna. Niestety ilość możliwych opcji ją przytłaczała i utrudniała podjęcie konstruktywnej decyzji.
-
-Warsztat Impact Mappingu pozwolił tej organizacji podjąć taką decyzję. W krótkim czasie udało się zdefiniować mierzalny cel, który był trudny, ale możliwy do zrealizowania dla tej firmy. Następnie opisano różne sposoby na dojście do tego celu. Grupa dokonała szybkiej analizy możliwości i wybrała najlepsze, aby móc wejść z impetem na docelowy rynek. W ramach warsztatu wspólnie osiągano kolejne etapy, przez co samo rozwiązanie było wspólne dla wszystkich zebranych uczestników.
-
-Kilka zdjęć z innego warsztatu możecie znaleźć na <a href="https://twitter.com/RadekMaziarka/status/1165249505345884161">moim Twitterze</a>. Są one z sesji zrealizowanej dla jednego z polskich Software House'ów.
-<h3>Dlaczego warto?</h3>
-Większość metod pozwala nam opisać najlepszą drogę do celu. Jeśli jednak ten cel nie jest właściwy to cała nasza praca idzie na nic. Impact Mapping pozwala wybrać właściwy cel i rozwiązanie, które później zaadresujemy kolejnymi warsztatami.
-<h1 id="bmc">2 - Business Model Canvas</h1>
-Narzędziem, które świetnie współgra z Impact Mappingiem jest <a href="https://www.strategyzer.com/canvas/business-model-canvas">Business Model Canvas</a>. Jest to zebranie swojego modelu biznesowego w formę spójnego przekazu, który zawrzemy w jednej kartce A4. Na samym początku wydaje się to zbyt krótkie, ale pozwala nam zwięźle opowiedzieć o naszym modelu biznesowym.
-
-Jest to przydatne w kontekście zbyt szerokiej oferty biznesowej, jaką chcemy wydawać na świat. Ilość możliwych rozwiązań dostarczanych ostatecznemu klientowi może wcale nie rozwiązywać jego potrzeb. Zwykle zarzucamy go opcjami, nie dochodząc do jego prawdziwych potrzeb. Cytując klasyka „more is less”.
-
-Dodatkowo w wielu firmach różne działy w firmie działają sprzecznie, często podkopując swoje działania. Nie mając wizji, w którą stronę chcemy dążyć łatwo jest skupiać się na niewłaściwych aktywnościach. Wtedy lokalnie możemy być bardzo efektywni, ale cała organizacja już taka nie będzie.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Business_Model_Canvas.png/1920px-Business_Model_Canvas.png" />
-<p style="margin-top: -20px; font-size: 80%;">Business Model Canvas - <a href="https://pl.wikipedia.org/wiki/Business_Model_Canvas">https://pl.wikipedia.org/wiki/Business_Model_Canvas</a></p>
-Business Model Canvas pozwala nam uwspólnić wizje naszego produktu i skupić się na jego najważniejszych elementach. Jest to nasze bezpośrednie oświadczenie jak powinna działać nasza organizacja – na czym się skupiać, a co pomijać w swoich działaniach.
-
-Rozpoczynamy od wartości jakie chcemy dostarczyć dla naszych klientów. Jest to o tyle istotne, że wszystkie nasze kroki będą musiały wpisywać w te wartości. Jeśli tak nie jest to znaczy, że źle dostosowujemy rozwiązanie do naszej oferty.
-
-Następnie dokładniej definiujemy klienta oraz w jaki sposób będziemy w stanie do niego dotrzeć. Później przechodzimy do naszych aktywności – na czym się będziemy skupiać oraz kto nam pomoże wygenerować daną ofertę. Na końcu kierujemy się w stronę zysków i kosztów by sprawdzić czy na tak zdefiniowanym modelu będziemy w stanie zarobić.
-
-Podczas tworzenia takiego modelu różne grupy osób mogą wymienić się doświadczeniami, opowiedzieć swoje obawy, pomyśleć nad innymi sposobami na realizację potrzeb. Mając już taki model gotowy poszczególne działy mogą tworzyć strategie, które będą dostosowane do ogólnego celu firmy.
-<h3>Przykład wykorzystania</h3>
-Startup z obszaru IT planował wdrożenie nowych usług informatycznych na rynku abonamentów. Zespół miał bardzo wiele ciekawych pomysłów jak usprawnić ten rynek. Jednak ta mnogość ostatecznie powodowała paraliż decyzyjny oraz ogromną ilość zadań i zmian. Każdy pomysł wydawał się wartościowy, więc każdy z nich chciano wykorzystać.
-
-Business Model Canvas pozwolił uwspólnić wizję osób w projekcie. Zostały zwizualizowane opcje, a następnie podjęte decyzje w który obszar branży chcemy najpierw zainwestować nasz czas. Dzięki temu zmniejszyła się ilość zadań, a sama praca była bardziej skupiona na konkretnym celu biznesowym.
-<h3>Dlaczego warto?</h3>
-Jeśli nie potrafimy stworzyć abstraktu na 1 stronę A4 to znaczy, że nasza konkretna oferta biznesowa może być zbyt niespójna. Business Model Canvas pozwala nam wybrać co jest naszym głównym celem i na tej podstawie podejmować konkretne akcje.
-<h1 id="es">3 - Event Storming</h1>
-Kiedy mamy już zdefiniowany cel, to kolejnym świetnym warsztatem jest <a href="https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/">Event Storming</a> opisany przez Alberto Brandoliniego. Jest to technika pozwalająca zwizualizować jak będzie wyglądać nasze ostateczne rozwiązanie, biorąc pod uwagę różne scenariusze i sytuacje brzegowe.
-
-Niestety tego zwykle brakuje w przypadku planowania naszego rozwiązania, zarówno technicznego jak i biznesowego. Ludzie naturalnie myślą idąc przez „happy-path”, nie biorąc pod uwagę specyficznych przypadków. Zwykle samo rozwiązanie jest tak duże, że przekracza ich możliwości percepcji. W takiej sytuacji trudno jest znaleźć wszystkie możliwe dziury.
-
-A to się bardzo mści. Jeśli bowiem nie znajdziemy tych problemów na etapie planowania to znajdziemy je dopiero podczas implementacji. Zwykle wtedy jest za późno by najlepszą odpowiedź i robi się wszystko byle jak – byle szybko. Im dłużej w taki sposób działamy tym gorsze jest nasze rozwiązanie.
-
-<a href="https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png"><img class="alignnone wp-image-2064 size-full" src="https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png" alt="" width="975" height="745" /></a>
-<p style="margin-top: -20px; font-size: 80%;">Kadr książki Introducing Event Storming - <a href="https://leanpub.com/introducing_eventstorming">https://leanpub.com/introducing_eventstorming</a></p>
-Event Storming pozwala nam zwizualizować cały proces biznesowy, biorąc pod uwagę różne aspekty i sposoby działania naszych pracowników / systemów. Widząc całość łatwiej jest zauważyć luki lub niespójności, zaproponować udoskonalenia, wybrać najważniejsze problemy do zaadresowania. Dodatkowo uwspólniamy naszą wiedzę o procesie dzieląc się swoim punktem widzenia.
-
-Warsztat rozpoczynamy od chaotycznego i nieograniczonego (prawie) zrzutu całej naszej wiedzy na ścianę. Na pierwszy rzut wygląda to dziwnie – ściana dynamicznie jest zapełniana kolejnymi rzędami karteczek, bez żadnego porządku. Dzięki temu szybko osiągamy dużą ilość wiedzy, którą wykorzystujemy w kolejnych etapach.
-
-Mając kartki na ścianie można się zająć ich strukturyzacją. Dokonujemy porządkowania naszego procesu nadając mu konkretny kształt - pokazując w którym miejscu się zaczyna, rozdziela i kończy. Możemy się dzielić na mniejsze grupy zajmujące się konkretnym obszarem bądź wspólnie dzielić się wiedzą. Różne kolory karteczek pozwalają nam skupić się na różnych aspektach – problemy, usprawnienia, definicje, persony, systemy, metryki i inne. W zasadzie ogranicza nas jedynie nasza własna wyobraźnia.
-
-Warsztat kończy się zwizualizowaniem całości procesu. Uczestnicy rozumieją jego przebieg i mogą wybrać najważniejsze miejsca, nad którymi będą dalej pracowali. Mamy ugruntowany wspólny język co upraszcza komunikację wewnątrz organizacji.
-<h3>Przykład zastosowania</h3>
-Software House potrzebował zwizualizować cały proces dostarczania systemów informatycznych w celu znalezienia w tym procesie luk. Samo programowanie było tutaj jedynie wąskim wycinkiem. Trzeba najpierw posiadać liderów obszarów technicznych, zdefiniować procesy rekruterskie, wiedzieć jak promować nasze umiejętności. umieć estymować projekty, wiedzieć jak zbudować docelowy zespół i rozpocząć pracę. Jest to szeroki proces i dużo jest tu miejsca na braki i niespójności.
-
-Event Storming pozwolił na zwizualizowanie całego procesu, od postanowienia wejścia w dany obszar technologiczny do wdrożenia i utrzymywania systemu dla klienta. Zostało znalezione bardzo wiele problemów, które nie były widoczne na zewnątrz. Co więcej, zauważono brak jednego obszaru kompetencji, który powodował istotne straty w ramach całego procesu.
-<h3>Dlaczego warto?</h3>
-W ekspresowym tempie możemy zwizualizować nasz sposób działania i na jego podstawie podjąć decyzje: czego brakuje, co usprawnić a co usunąć. Technika jest bardzo lekka i można ją wykorzystać w każdym gronie, zarówno technicznym jak i nietechnicznym.
-<h1 id="matrix">4 - Macierze</h1>
-W tym miejscu nastąpi połączenie różnych technik w jedną kategorię. Wartym rozważenia pomysłem, w przypadku podejmowania decyzji, jest zwizualizowanie ich rezultatów na 2-wymiarowej macierzy. Wybieramy różne parametry osi by wymóc na uczestnikach zastanowienie się nad różnymi aspektami swoich wyborów.
-
-Takie podejście może pomóc w sytuacjach typowego, jednokierunkowego myślenia, nastawionego na bezpośrednie rezultaty. W wielu sytuacjach grupa zamyka się na konkretne rozwiązania. Widzą tylko jedną stronę konsekwencji swoich decyzji, pomijając tą drugą. A niestety obie są ważne by mieć pełne spojrzenie na sytuację.
-
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Lean prioritization, Hygger review" /><img src="https://hygger.io/blog/wp-content/uploads/2018/08/Lean.jpg" />
-<p style="margin-top: -20px; font-size: 80%;">Macierz Wartość / Koszt - <a href="https://hygger.io/blog/lean-prioritization-approach-ongoing-pm-issues/">https://hygger.io/blog/lean-prioritization-approach-ongoing-pm-issues/</a></p>
-Dana macierz pozwala nam zastanowić się wspólnie nad różnymi aspektami naszych decyzji. Możemy spojrzeć na nasze wybory z różnych stron by nie zapomnieć o żadnej z nich. Tutaj mogę przytoczyć następujące macierze:
-<ul>
- 	<li>Wartość / Ryzyko – chcemy zobaczyć jak ryzykowne jest uzyskanie danej wartości. Przydatne, jeśli nasze decyzje mogą nie być tylko pozytywne.</li>
- 	<li>Wartość / Koszt – pokazanie wydatków na daną pracę w porównaniu, ile możemy uzyskać. Sprawdza się przy współpracy z osobami biznesowymi na temat kosztów pracy zespołów programistycznych.</li>
- 	<li>Satysfakcja / Funkcjonalność – zwana także modelem Kano, pozwala lepiej zrozumieć czego potrzebują od nas nasi klienci. Przydatne, gdy chcemy skupić się na poprawie jakości lub zaadresowaniu nietypowych potrzeb.</li>
- 	<li>Krótkoterminowy zysk / Długoterminowy zysk – wizualizacja możliwych rezultatów w ujęciu krótkiego i dalekiego horyzontu czasowego. Warte wykorzystania, gdy wydaje nam się, że „szybkie zyski” mogą nas później pogrążyć.</li>
- 	<li>Firma / pracownik – wykres zbierający możliwe zyski danej decyzji dla firmy i pracownika. Chcąc działać stabilnie powinniśmy równoważyć te dwa obszary by żaden nie był poszkodowany.</li>
- 	<li>Ilość / Jakość – przedstawienie naszych decyzji / metryk w formie nacisku na jedną z osi. Na tej podstawie łatwo jest znaleźć braki w przeciwnej części macierzy np. gdy mamy metryki zbierające ilość nowych klientów, ale brakuje nam metryk oceniających zysk na nich.</li>
-</ul>
-To jest kilka wykorzystywanych przeze mnie porównań, jednak nie musicie się w nich zamykać. W ramach swojego problemu możecie dobrać takie ramy, jakie są potrzebne. Prawie nic was tutaj nie ogranicza. Prawie…
-
-Dodawanie kolejnych wymiarów jest jednak prawie niemożliwe, ponieważ ogranicza nas nasza własna percepcja. Nie jesteśmy w stanie dobrze pracować na ich większej ilości, a już na pewno nie wizualizować ich tak prosto. Dlatego zwykle spłaszcza się różne wymiary by ostatecznie miały one jedynie 2 osie.
-<h3>Przykład użycia</h3>
-W pewnej organizacji zespoły techniczne i biznesowe pracowały w ramach dużego systemu. Poszczególne grupy miały dużą trudność ze wspólnym zrozumieniem siebie nawzajem i prawidłowym podejmowaniem decyzji. Osoby te rozmawiały nieco innym językiem i skupiały się na innych aspektach tworzenia systemu. Dużo było punktów zapalnych i niezrozumienia.
-
-Wdrożenie do praktyki codziennej macierzy Wartość / Koszt pozwoliło tej organizacji przenieść rozmowy na wspólny grunt, zrozumiały dla obu stron. Zespoły techniczne zrozumiały zyski biznesowe z odpowiednich wymagań i potrafiły lepiej dostosowywać rozwiązania do nich. Z drugiej strony biznes mógł niekiedy uniknąć wdrażania kosztownych rozwiązań, kiedy nie miały przynieść odpowiedniego zysku.
-<h3>Dlaczego warto?</h3>
-Macierz jest prostą metodą, którą da się wytłumaczyć i wykorzystać w prawie każdej sytuacji. Pozwala pokazać różne aspekty naszych decyzji i wybrać te właściwe.
-<h1>Kontynuacja</h1>
-Temat ten będzie kontynuowany jako osobny post (link pojawi się po dodaniu artykułu).
-
-Jeśli masz jakieś ciekawe techniki, którymi się posługujesz w swojej codziennej pracy, to opisz je poniżej &#x1f609;]]></content:encoded>
+Nieco szerzej opisałem ten temat w poście o <a href="http://radekmaziarka.pl/2019/05/11/event-storming-dlaczego-dziala-tak-dobrze#wizualizacja">zaletach Event Stormingu</a>.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2061</wp:post_id>
 		<wp:post_date><![CDATA[2020-02-04 23:14:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2020-02-04 22:14:24]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:post_name>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-podsumowanie]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -12801,8 +12731,8 @@ Jeśli masz jakieś ciekawe techniki, którymi się posługujesz w swojej codzie
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="post_tag" nicename="consultant"><![CDATA[consultant]]></category>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
 		<category domain="post_tag" nicename="event-storming-pl"><![CDATA[event storming]]></category>
-		<category domain="category" nicename="rozne"><![CDATA[Różne]]></category>
 		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -12831,6 +12761,18 @@ Jeśli masz jakieś ciekawe techniki, którymi się posługujesz w swojej codzie
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
 			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
@@ -12970,6 +12912,14 @@ PS. Gdyby Cię interesował temat to polecam moje<strong> </strong><a href="ht
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1587161025;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -13115,14 +13065,6 @@ Także najpierw należy się zastanowić po co, a później brać się za robot�
 			<wp:meta_value><![CDATA[jak-optymalizowac-mikroserwisy-o-procesie-decyzyjnym]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Coraz więcej klientów zaczyna mieć problemy ze swoimi systemami opartymi o mikroserwisy. Zobacz jak można je zoptymalizować, na podstawie podejmowanych decyzji.]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_aioseop_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Jak optymalizować mikroserwisy? O procesie decyzyjnym...]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1582467062;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
@@ -13130,6 +13072,1365 @@ Także najpierw należy się zastanowić po co, a później brać się za robot�
 			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2219]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Coraz więcej klientów zaczyna mieć problemy ze swoimi systemami opartymi o mikroserwisy. Zobacz jak można je zoptymalizować, na podstawie podejmowanych decyzji.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Jak optymalizować mikroserwisy? O procesie decyzyjnym...]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Wordpress to Hugo – why and how</title>
+		<link>https://radekmaziarka.pl/2020/03/14/wordpress-to-hugo-why-and-how/</link>
+		<pubDate>Sat, 14 Mar 2020 15:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2099</guid>
+		<description></description>
+		<content:encoded><![CDATA[A few weeks ago, I began my journey to migrate an existing blog from Wordpress to Hugo. I waited for that moment for a long time, and finally, it got me. This post will be a first of in a series of many about moving to Hugo.
+
+There were several points why I decided to undertake such an activity:
+<ul>
+ 	<li>Wordpress is extremely slow and pages take seconds to load</li>
+ 	<li>Even when I have cache plugins I can’t lower the load time</li>
+ 	<li>Plugins have issues and sometimes works in contrary to each other</li>
+ 	<li>A few months ago a backup plugin, when upgraded, made my whole page crash</li>
+ 	<li>Making changes to the theme was very counterintuitive and timeconsuming</li>
+ 	<li>Debugging Wordpress is extremely difficult</li>
+ 	<li>Wordpress offered multiple options that exceed needs for a simple personal page and constrained these which were essential for me</li>
+</ul>
+After these years I perceive <strong>Wordpress as a gateway drug</strong> – it is easy to start but maintaining this system makes a lot of pain to you. Therefore I decided to switch into a more adjusted option to my needs.
+<h1>Static site generator</h1>
+My eyes turned to the more basic option to create the page – static site. Because the blog is a package of defined pages there is no need for adding a dynamicity there. Therefore, a site generator can be used to create HTML content that I will provide to the end readers. Static site generators are not a new thing (interesting article in <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">Smashing Magazine</a> from 2015), but only a few choose them as a default option, typically preferring Wordpress.
+
+From my perspective there are meaningful advantages to use such a generator for creating a personal page:
+<ul>
+ 	<li>Performance – your site is delivered from a pre-rendered HTML therefore there is no need for any backend actions.</li>
+ 	<li>Improved SEO – with performance boost you get better discoverability and accessibility for your readers.</li>
+ 	<li>Reliability – you provide static files and nothing more. It means that the almost whole site can be stored on CDN. Fewer points that may fail and crash your server.</li>
+ 	<li>Security – static site lowers the attack vectors because there aren’t many options to hack.</li>
+ 	<li>Version control – your whole page can be stored in Git and tracked accordingly.</li>
+ 	<li>Testing – it is much easier to set up a testing environment and test before pushing changes into the production site.</li>
+</ul>
+There are obvious <a href="https://www.sitepoint.com/7-reasons-not-use-static-site-generator/">disadvantages</a> of such a static site generator, but from my perspective, they are not applicable in this context.
+<h1>Hugo</h1>
+<img class="alignnone size-large" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" width="300" height="79" />
+
+There are multiple static site generators over the web: <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://gohugo.io/">Hugo</a>, <a href="https://www.gatsbyjs.org/">Gatsby</a>, <a href="https://nextjs.org/">Next.JS</a> to name a few. All of them have different options and you need to choose your pick wisely. I decided to pick Hugo because of:
+<ul>
+ 	<li>Native support for MD files – I want my posts to be programming language independent.</li>
+ 	<li>Build time – creating a site is extremely fast, even when I change 500 files at the same time (MD files generator).</li>
+ 	<li>Different taxonomies – Hugo doesn’t constraints you in terms of categories / tags / others. You define them and use whatever you like.</li>
+ 	<li>Simple structure - from the very beginning I can be productive and adapt the page to my needs. <a href="https://gohugo.io/documentation/">Documentation</a> is very helpful.</li>
+ 	<li>Support for internationalization – the multi-language site is straightforward and doesn’t require to make a significant change to your posts.</li>
+ 	<li>Written in Go – I wanted to learn Go for a long time and it is an opportunity to start that journey.</li>
+ 	<li>Continuous deployment – there are plenty of materials on how to connect Hugo to your beloved CI/CD pipeline.</li>
+</ul>
+It can differ from your perspective, so check different generators and find most appropriate to your situation.
+<h1>A plan for a migration</h1>
+It is an easy thing to start a page based on a static site generator. When you have over 100 posts, pages, used different plugins and taxonomies things start to get complicated. Therefore, I divided my migration into a multiple-step to track the progress:
+<ul>
+ 	<li>Transform posts and pages to MD files with images and taxonomies</li>
+ 	<li>Theme improvements – menus / code highlighting / multilanguage</li>
+ 	<li>Infrastructure - Setting up test / prod environment with Terraform on Azure</li>
+ 	<li>CI/CD – pipeline in Azure DevOps which uses GitHub triggers</li>
+ 	<li>Server-side functionalities – Disqus comments and Logic Apps contact form</li>
+ 	<li>Redirection - move DNS traffic from the current provider to Azure and handle previous page url</li>
+</ul>
+Wish me luck and wait for the next posts in this series &#x1f609;
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2099</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-14 16:08:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-14 15:08:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[wordpress-to-hugo-why-and-how]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[Check out english posts]]></category>
+		<category domain="post_tag" nicename="hugo"><![CDATA[hugo]]></category>
+		<category domain="category" nicename="hugo-migration"><![CDATA[Hugo migration]]></category>
+		<category domain="post_tag" nicename="wordpress"><![CDATA[wordpress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2100]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:92:"My first post on a journey how to migrate your Wordpress blog to Hugo static site generator.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[My first post on a journey how to migrate your Wordpress blog to Hugo static site generator.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Event Storming remotely – tips and tricks</title>
+		<link>https://radekmaziarka.pl/2020/03/29/event-storming-remotely-tips-and-tricks/</link>
+		<pubDate>Sun, 29 Mar 2020 14:16:50 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2113</guid>
+		<description></description>
+		<content:encoded><![CDATA[Due to the coronavirus epidemic, a lot of different workshops have been canceled. Mine as well. We decided to switch into a virtual world and conduct them remotely. Therefore, let me share with you some tips and tricks on how to perform this workshop in a remote manner.
+<h1>Event Storming Big Picture – is it possible?</h1>
+Let me be straight – you cannot conduct a typical workshop, as usual, converting only people’s attention from the real board to the virtual one. Several things won’t go that smoothly:
+<ul>
+ 	<li>You cannot talk at the same time - when you try you get an immediate buzz.</li>
+ 	<li>Your conversations are focused only on one area and it limits your efficiency.</li>
+ 	<li>It’s hard to keep people’s attention in a remote session. You get distracted very easily. No one will stop you from opening an email account in a second tab.</li>
+ 	<li>Facilitation is much harder. You don’t see people’s reactions, attitude, their body language. You cannot act so quickly.</li>
+ 	<li>Remote sessions cannot last a full day. Sitting for 8 hours straight is impossible.</li>
+</ul>
+Having that in mind you need to create a different plan for the remote Big Picture session to conduct it accordingly. But you can approach Event Storming Process Level and map your domain in multiple smaller workshops. Then you combine your knowledge and sum it up.
+
+But first, you need some preparation for the remote workshop.
+<h1>Preparation for the remote workshop</h1>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ingredients-498199_640.jpg"><img class="alignnone size-full wp-image-2114" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ingredients-498199_640.jpg" alt="" width="640" height="423" /></a>
+
+As a typical workshop, a remote one needs proper preparations.
+<h3>Short sessions</h3>
+Your participants won’t be able to focus on the workshop for the whole day. Prepare smaller slots, preferable are 1.5h – 2h, where you would be maximally concentrated on a goal of the meeting.
+
+If you have enough time, try not to plan more than two sessions per day. They are extremely exhausting and the third/fourth session won’t be so efficient as others.
+<h3>Plan sessions</h3>
+Each session should have a predefined outcome to be achieved by the participants during the session. Similar to the meetings, there is nothing worse than a session without a goal.
+
+This goal will help you during the workshop to manage the group and push them in a given direction. For example, for Event Storming session it could be the main process defined or as many issues discovered as possible.
+<h3>Prepare work area</h3>
+When you know what you would like to gain from the sessions prepare the work area accordingly. You don’t want to spend precious minutes at the beginning of the meeting to move things around. Everything should be settled for the start of the session.
+<h3>Send instructions early on</h3>
+It takes some time before people read their email and go through the instruction. Prepare such information a couple of days before the workshop so the participants could prepare for it.
+
+Inside the invitation, there should be detailed information on how to connect to the session, what tool you are using, what the agenda is. Remote workshops need higher psychological safety – for that reason, it’s better to be more specific than less.
+<h3>Invitations to Miro</h3>
+We used <a href="https://miro.com">Miro</a> to work together remotely.  It is a tool, where you can move virtual cards and add additional notification. In the beginning, we need to make sure that everybody has access to the tool. Send invitations early and confirm that they see online boards. You will save time at the beginning of the session.
+<h1>Starting workshop</h1>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007-1.jpg"><img class="alignnone size-full wp-image-2127" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/photo-1585230477660-8b044984c007-1.jpg" alt="" width="747" height="400" /></a>
+
+There are a few important points worth remembering when you start a session.
+<h3>Cameras turned on</h3>
+Ask your participants to turn on the camera. It will make a more friendly atmosphere and prove that there are actual people on the other side of the cable. People will be more involved and helpful when they see each other.
+
+At the same time, it will help you, as a facilitator, to check if participants work on a defined task. You can spot if people are not focusing on a session and try to engage them more.
+<h3>Introduction to the Miro</h3>
+Miro is a very user-friendly tool. But still, it needs some experience to use it efficiently. Therefore, carry out a short Miro introduction at the beginning of the workshop to show how to use the tool. Ask if participants understand how to put cards and move them. It can last only 5 minutes, but it is time worth spent.
+
+This exercise can be conducted in the form of a game. Maybe you could ask them to share some interesting experiences from their childhood or their current hobby.
+<h3>Introduction to the session</h3>
+If there is their first time in a session like this (especially if it is their first Event Storming session) try to be extremely explanatory when describing session mechanics. During the start of the session explain every step, everything key that you type. Ask your participants very explicitly to share any doubts around the goals and rules.
+
+Remote sessions are overly confusing, and it’s easy to mix up something. You want to make sure that participants know how to work and cooperate.
+<h3>Set timer</h3>
+When you give your participants first (or any) task, set up a timer to let them know that they have a limited amount of time. It will boost the focus and efficiency of the session.
+
+You can use the <a href="https://miro.com/marketplace/countdown/">timer</a> provided by Miro if you have an upgraded version of a service. But physical timer works as well – you can inform your participants how much time they have. It can bring some joy to the session, when the sound of the alarm would be, for example, a <a href="https://www.youtube.com/watch?v=G__eEGwwdBQ">cuckoo</a>.
+<h1>Plan for the Event Storming</h1>
+When we settled the basics, let’s go back to the Event Storming.
+
+During the Big Picture session processes to investigate are discovered naturally. To conduct Event Storming remotely you need to take in mind the “Divide and Conquer” mindset first. You can start with a different session called “Processes overview” to gather the processes to work on later. It can look like that:
+<ul>
+ 	<li>Ask each participant to write down their processes, in their areas.</li>
+ 	<li>Then ask participants, one by one, to move one process to the summary list.</li>
+ 	<li>Ask other participants if they have the same process but named differently. Storm the best name but leave the rest.</li>
+ 	<li>Ask for the start / end process events. Then ask for personas and issues. Issues can be placed simultaneously.</li>
+</ul>
+You should end up with the result looking like this one:
+
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article.jpg"><img class="alignnone size-large wp-image-2121" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-1024x212.jpg" alt="" width="770" height="159" /></a>
+
+During this session you don’t need to be very precise – in the next following sessions, you will gain more knowledge and probably split these processes better. But you have an overall idea of how your domain looks like and where to start.
+<h1>Remote Event Storming</h1>
+Having processes defined you can take the first one (in order, by most important, etc.) and work on it in a separate session – similar to the Process Level Event Storming one. Because there is no possibility to storm events like during on-site workshops, you need to adjust rules a bit.
+<h3>Legend</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-1.jpg"><img class="alignnone wp-image-2117" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-1-966x1024.jpg" alt="" width="400" height="424" /></a>As usual, you start with the description of the workshop details. It is worth, for the newcomers, not showing the whole notation at the beginning. Introduce the new notation, when needed.
+
+Because we work on a process level, show what the constraints are for the session: where our focus starts and ends.
+<h3>Separate work area</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-2.jpg"><img class="alignnone size-large wp-image-2118" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-2-1024x574.jpg" alt="" width="770" height="432" /></a>
+
+Then you ask your participants to storm events in a personal work area. They write as many events as they can, but within the current process. This task should be task constrained with an option to prolong if you see that they are still typing.
+
+To speed this up, you can use <a href="https://help.miro.com/hc/en-us/articles/360017572054-Sticky-Notes">Bulk Model</a> for writing down multiple cards at once (thanks to <a href="https://twitter.com/mczerpinski">Maciek</a> for sharing this tip!). One important thing regarding the bulk mode – you don’t see participants work before they finish. Therefore, you can be worried that they are not working, but actually, they are.
+
+It is worth asking participants not to organize their cards at the beginning and make a short clean up afterward. There could be 5-minutes just for that.
+<h3>Organizing the process</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-3.jpg"><img class="alignnone size-large wp-image-2120" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-3-1024x583.jpg" alt="" width="770" height="438" /></a>
+
+When you gathered all the important information in your personal areas, it’s time to combine this knowledge. You use a predefined area just for that task.
+
+You ask your participants to get the first card from the current process and put it at the beginning of the area. There will be different names or even different events. You storm what the actual event is there, what is a proper name for that etc. If people have any doubts or see any problems related to this card, ask for writing down a hotspot. If there is a new term, call for clarification.
+
+When you settle it, you move to the next event. Ask the participants what is going on next. Achieve consistency step by step.
+
+Typical Event Storming session is much quicker in this activity, but the constraints of remote work prevent you from doing differently. Remotely it works slower but still works very well.
+<h3>Following activities</h3>
+When you agree with the whole scope of the process you can carry on with the rest of the Event Storming tools like external systems, personas, improvements, etc. In the end, ask participants if there is anything worth adding or was missed during the conversations. These hot spots can be your first tasks during another workshop.
+
+After a few rounds of such sessions, you can conduct a different session to aggregate gathered insights and find out which areas need deeper investigations.
+<h1>Remote Event Storming tips</h1>
+There are a few things that are more difficult during the on-site Event Storming workshop but are easier conducted remotely:
+<h3>Arrows</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-4.jpg"><img class="alignnone wp-image-2119" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-4-1024x545.jpg" alt="" width="506" height="269" /></a>
+
+Arrows are connected to the particular cards so it’s much easier to create a flow between them. While changing the order the arrow moves accordingly.
+<h3>Visualizations</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-5.jpg"><img class="alignnone wp-image-2122 size-medium" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-5-300x267.jpg" alt="" width="300" height="267" /></a>
+
+Remotely it’s much easier to create a visualization of what you are thinking of. You can very easily change colors, shapes or copy the whole image.
+<h3>Copying the subprocesses</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-6.jpg"><img class="alignnone wp-image-2123" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/ES-article-6.jpg" alt="" width="500" height="371" /></a>
+
+When you see that some subprocesses are very alike, you can easily copy the whole stream from one to another.
+<h3>Additional information</h3>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-miro-comments.jpg"><img class="alignnone size-full wp-image-2125" src="https://radekmaziarka.pl/wp-content/uploads/2020/03/event-storming-miro-comments.jpg" alt="" width="842" height="442" /></a>
+
+Virtual boards are great tools to visualize additional information on board, that could be confusing during the on-site session. In Miro, you can add tags / emojis to sticky notes, write comments and replies or connect external resources by hyperlinks.
+<h1>Summary</h1>
+Event Storming remotely is a different beast than a typical on-site workshop. Results are gathered slower, it’s harder to make an agreement, sometimes confusion stops you from achieving defined goals. You need to prepare yourself for a completely different experience.
+
+At the same time, remote sessions are a sufficient substitution for the situations when you cannot meet as a group. Following certain rules, you can conduct a session which will allow you to share knowledge, reveal inconsistencies and settle one version of the process. It is definitely worth giving it a go &#x1f60a;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2113</wp:post_id>
+		<wp:post_date><![CDATA[2020-03-29 15:16:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-03-29 14:16:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[event-storming-remotely-tips-and-tricks]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[Check out english posts]]></category>
+		<category domain="category" nicename="event-storming-en"><![CDATA[Event Storming]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1154]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:70:"Tips and tricks on how to conduct the Event Storming session remotely.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tips and tricks on how to conduct the Event Storming session remotely.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Zdalne modelowanie domeny - spotkanie grupy Wrocław DDD</title>
+		<link>https://radekmaziarka.pl/2020/04/09/zdalne-modelowanie-domeny/</link>
+		<pubDate>Thu, 09 Apr 2020 16:09:51 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2132</guid>
+		<description></description>
+		<content:encoded><![CDATA[W ramach ostatniego <a href="https://www.meetup.com/pl-PL/DDD-WRO/">spotkania grupy</a> DDD Wro połączyliśmy się z <a href="https://twitter.com/mpraglowski">Mirkiem Pragłowskim</a>, <a href="https://twitter.com/mariuszgil">Mariuszem Gilem</a>, i <a href="https://twitter.com/mczerpinski">Maćkiem Czerpińskim</a> by porozmawiać na temat zdalnego modelowania domeny - jakich narzędzi i technik używać by odkrywać domenę biznesową i ją kształtować w systemach informatycznych. Poruszone były bardzo szeroko zarówno praktyki jak Event Storming, Event Modeling, Domain Storytelling, ale również ciekawe triki na usprawnienie przeprowadzania takich sesji zdalnych.
+
+Nagranie tego spotkania jest dostępne na YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PVlTcBjPj2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+Zebrałem linki ze spotkania abyście mieli do nich szybszy dostęp &#x1f600;
+<ul>
+ 	<li><a href="https://miro.com/app/">Miro</a> - tablica online do pracy zdalnej</li>
+ 	<li><a href="https://www.eventstorming.com/">Event Storming</a> - technika do odkrywania domeny biznesowej</li>
+ 	<li><a href="https://cucumber.io/blog/bdd/example-mapping-introduction/">Example Mapping</a> - technika do walidowania scenariuszy biznesowych</li>
+ 	<li><a href="https://eventmodeling.org/">Event Modeling</a> - technika komplementarna z Event Stormingiem do odkrywania domeny biznesowej</li>
+ 	<li><a href="https://domainstorytelling.org/">Domain Storytelling</a> - technika komplementarna z Event Stormingiem do odkrywania domeny biznesowej</li>
+ 	<li><a href="https://medium.com/plexiti/story-storming-191756f57387">Story Storming</a> - technika komplementarna z Event Stormingiem do odkrywania domeny biznesowej</li>
+ 	<li><a href="https://medium.com/nick-tune-tech-strategy-blog/core-domain-patterns-941f89446af5">Core Domain Patterns</a> - wzorce podziału domeny biznesowej</li>
+ 	<li><a href="https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms">Zoom breakout rooms</a> - funkcjonalność w Zoom umożliwiająca dynamiczny podział sesji na kilka mniejszych</li>
+ 	<li><a href="https://github.com/mariuszgil/awesome-eventstorming">Awesome EventStorming</a> - podsumowanie linków od Mariusza o Event Stormingu na GitHubie</li>
+ 	<li><a href="https://blog.avanscoperta.it/it/2020/03/26/remote-eventstorming/" rel="nofollow">Remote EventStorming</a> - bardzo szeroki artykuł Alberta Brandoliniego o zdalnym Event Stormingu</li>
+ 	<li><a href="https://medium.com/@maciejczerpinski/remote-event-storming-bc3eff80110b">Remote Event Storming</a> - artykuł Maćka o zdalnym Event Stormingu</li>
+ 	<li><a href="/2020/03/29/event-storming-remotely-tips-and-tricks/">Event Storming remotely</a> - mój artykuł o zdalnym Event Stormingu</li>
+</ul>
+Także nic Cię już nie powstrzymuje by zacząć przeprowadzać swoje modelowanie zdalnie &#x1f609;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2132</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-09 17:09:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-09 16:09:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[zdalne-modelowanie-domeny]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="event-storming"><![CDATA[Event Storming]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2133]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:0:"";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[zdalne-modelowanie-domeny-spotkanie-ddd-wro]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Nagranie i podsumowanie spotkania grupy DDD Wro o zdalnym modelowaniu domeny biznesowej. ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Zdalne modelowanie domeny - webinar grupy Wrocław DDD]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Wordpress to Hugo – transformation to markdown</title>
+		<link>https://radekmaziarka.pl/2020/04/12/wordpress-to-hugo-transformation-to-markdown/</link>
+		<pubDate>Sun, 12 Apr 2020 20:17:03 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2142</guid>
+		<description></description>
+		<content:encoded><![CDATA[My previous post covered the topic of why I decided to move my blog to Hugo. Now it’s time to get dirty – to start working on generating <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> documents based on the existing Wordpress posts and pages.
+<h2>How to start?</h2>
+It’s easier to think about it than actually start moving your data. There are multiple <a href="https://gohugo.io/tools/migrations/">migration tools</a> suggested on the Hugo site but unfortunately, none of them will work like a magic wand. When you have:
+<ul>
+ 	<li>multilanguage page</li>
+ 	<li>multiple different plugins installed (two different ones just for code formatting, don’t ask me why)</li>
+ 	<li>the blog changed address during its life</li>
+ 	<li>you weren’t consistent with the styling</li>
+ 	<li>you want to move your images as well</li>
+</ul>
+you will get a lot of different edge cases to cover. And no tool will support it. So, unfortunately, you must write your own scripts to migrate it.
+
+Luckily, there is a great Palani Raja <a href="https://github.com/palaniraja/blog2md">repo</a> on GitHub with a basic converter from Wordpress XML files to markdown documents. It works with the <a href="https://github.com/domchristie/turndown">turndown</a> library which produces markdown files. These scripts can be your beginning template.
+<h2>Migration script rules</h2>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/04/internet-rules.jpg"><img class="alignnone size-full wp-image-2143" src="https://radekmaziarka.pl/wp-content/uploads/2020/04/internet-rules.jpg" alt="" width="398" height="398" /></a>
+
+<strong>Rule number one</strong> with a migration script is not to make it beautiful and perfect. It is tempting to focus on the naming, good practices, reusability – it’s an easy trap. What is really important is to get the work done. You don’t need any separation of concerns, different files per function in class, etc. Every hack which makes you closer to the target is a hack worth taking.
+
+<strong>Rule number two</strong> is not to try improving everything with a single sitting. You will be overwhelmed by the number of problems. It’s much better to run the first migration, then list all the mistakes and inconsistencies and then fix them one by one.
+
+<strong>Rule number three</strong> is to use GIT with markdown files from the very beginning. There is a high chance that fixes for one problem will create another in a different place. Without change tracking, you won’t spot it early and you will multiply the number of mistakes. Find a problem, fix it, commit, repeat the cycle.
+<h2>My migration script</h2>
+The script is available on my <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd">GitHub</a>, but it needs a proper explanation.
+<h3>Basics</h3>
+The script to run requires 3 different files: <strong>media.xml</strong> / <strong>posts.xml</strong> / <strong>pages.xml</strong>. These are <a href="https://wordpress.org/support/article/tools-export-screen/">basic files</a> that you can generate from your Wordpress and they contain all information regarding data required to leave the old blog.
+
+Besides that, it needs to have all images downloaded from your hosting. I stored them in <strong>/uploads </strong>folder.
+
+The main function is <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L44">wordpressImport</a>. It starts with reading information about images and handing them moving to proper folders. Then it iterates through posts and pages to create markdown files.
+<h3>Images</h3>
+Function <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L83">handleImagesXML</a> is responsible for moving images. First, it <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L63">retrieves paths</a> by removing domain names from the URLs (in XML they are stored as an absolute path) and creating destination folder paths. Then it copies all files to their proper locations. <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L29">myMkdirSync</a> function is used (here and later) to make sure to create a folder if it doesn’t exist.
+
+In the end, an <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L91">imagesById</a> dictionary is filled to simplify finding this image later by its id (it is required for posts / pages featured images).
+<h3>Posts and pages</h3>
+Functions <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L95">handlePostsXML</a> and <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L299">handlePagesXML</a> iterates through posts and pages stored in XML files and at the end write them to the destinated folder. The folder structure is defined as:
+<ul>
+ 	<li>‘content’ – default folder with articles</li>
+ 	<li>‘en’ and ‘pl’</li>
+ 	<li>‘posts’ and ‘pages’ – different articles types</li>
+ 	<li>year / year-month – for logical separation between posts</li>
+</ul>
+<h3>Category / tags / language</h3>
+Kinda strange thing, but all three are stored in Wordpress as the same category XML node with a different domain tag. To extract it there is an <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L155">if statement</a> which analyses tag and sets proper values.
+
+Category and tags are written to the markdown files at the <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L204">end of processing</a>, and language is used to add language to the folder path – I use <a href="https://gohugo.io/content-management/multilingual/#translation-by-content-directory">Translation by content directory</a> option.
+<h3>URL management</h3>
+As a default, Hugo creates a URL address <a href="https://gohugo.io/content-management/urls/">base on the folder structure</a>. I wanted to have structure optimized for maintainability, but it would break existing links to my content. That’s why I used <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L130">URLs</a> to copy existing addresses to the new posts.
+<h3>Featured images</h3>
+By default, Palani script was not handing featured images. Therefore I had to <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L169">set a proper path</a> to the image, by previously created imagesById dictionary. You need to find meta field by '_thumbnail_id" key and get its value from 'wp:meta_value' property.
+<h3>New lines in markdown</h3>
+By default, turndown removes empty lines from a text. You end up with a complete disaster in your post appearance. To avoid it I <a href="https://github.com/domchristie/turndown/issues/264#issuecomment-511063718">replaced a line of code</a> inside the library to turn off this behavior. Dirty hack, but it works.
+<h3>Not trailing empty spaces</h3>
+Another dirty hack. Turndown uses a mechanism to <a href="https://github.com/domchristie/turndown/blob/master/src/collapse-whitespace.js">remove empty spaces</a>. It sounds good, but it breaks formatting from your code samples. So I removed this mechanism by <a href="https://github.com/domchristie/turndown/blob/master/src/root-node.js#L19">commenting out an invocation of this function</a> in RootNode.
+
+It had a negative consequence because then the list formatting has been broken – there were additional spaces before the ‘*’ mark. So I had to fix it as well by <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L261">additional replacement</a>.
+<h3>Code formatting</h3>
+Old code formatting relied on the Wordpress plugin with its own markup language. And it had to be changed into markdown ones. To cover all cases I had to write <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L239">12 different replacements</a>.
+<h3>Use proper image URLs</h3>
+Wordpress, on some occasions, doesn’t use your base photos but generates automatically a smaller one. I want to use base ones, so I had to fix <a href="https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L288">the photo path</a>.
+<h1>End result</h1>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-1.jpg"><img class="alignnone size-full wp-image-2144" src="https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-1.jpg" alt="" width="534" height="446" /></a> <a href="https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-2.jpg"><img class="alignnone size-large wp-image-2145" src="https://radekmaziarka.pl/wp-content/uploads/2020/04/hugo-files-2.jpg" alt="" width="770" height="402" /></a>
+
+The script itself can seem brittle, but it does its work and produce repetitive, the desired result with a single ‘node index.js’ run. It could seem slow with all these ‘replaceAll’ methods, but it takes below 1 sec to generate more than 100 files. And Hugo fast reload mechanism handles it immediately.
+
+Currently, I can write new posts on my old blog and, at the same time, work on the new blog. New posts are integrated by downloading a new XML file and running the script. All the cases are covered.
+
+Soon I will publish my repo with all Hugo’s configuration so you could check the overall result.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2142</wp:post_id>
+		<wp:post_date><![CDATA[2020-04-12 21:17:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-04-12 20:17:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[wordpress-to-hugo-transformation-to-markdown]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[Check out english posts]]></category>
+		<category domain="category" nicename="hugo-migration"><![CDATA[Hugo migration]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2100]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:0:"";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:2:{i:1587016743;i:1;i:1587016746;i:1;}s:5:"count";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Zarządzanie infrastrukturą w chmurze za pomocą Terraform</title>
+		<link>https://radekmaziarka.pl/2020/05/17/zarzadzanie-infrastruktura-w-chmurze-za-pomoca-terraform/</link>
+		<pubDate>Sun, 17 May 2020 22:40:09 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2157</guid>
+		<description></description>
+		<content:encoded><![CDATA[W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”. Prezentacja dostępna jest na <a href="https://1drv.ms/p/s!AjEySs0anBSPg9NkPVEtgnN-5AE2EA?e=tqI1R0">OneDrive</a>.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZGz1_B6AiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+
+Materiały na których bazowałem:
+<ul>
+ 	<li>Dokumentacja Terraform - <a href="https://www.terraform.io/docs/index.html">https://www.terraform.io/docs/index.html</a></li>
+ 	<li>Skrypt wstępny - <a href="https://github.com/rmaziarka/terraform-azure">https://github.com/rmaziarka/terraform-azure</a></li>
+ 	<li>Repozytorium strony radekmaziarka.pl na GitHub -<a href="https://github.com/rmaziarka/radekmaziarka.pl"> https://github.com/rmaziarka/radekmaziarka.pl</a></li>
+ 	<li>Provider Terraform dla Azure DevOps - <a href="https://github.com/microsoft/terraform-provider-azuredevops">https://github.com/microsoft/terraform-provider-azuredevops</a></li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2157</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-17 23:40:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-17 22:40:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[zarzadzanie-infrastruktura-w-chmurze-za-pomoca-terraform]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="azure-pl"><![CDATA[Azure]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<category domain="post_tag" nicename="terraform"><![CDATA[terraform]]></category>
+		<category domain="category" nicename="wzorce-projektowe"><![CDATA[Wzorce projektowe]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:0:"";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2160]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Zarządzanie infrastrukturą w chmurze za pomocą Terraform]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Zarządzanie infrastrukturą w chmurze za pomocą Terraform]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Impact Mapping</title>
+		<link>https://radekmaziarka.pl/2020/05/29/narzedzia-pracy-konsultanta-impact-mapping/</link>
+		<pubDate>Fri, 29 May 2020 13:06:33 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2165</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="im">Impact Mapping</h2>
+Pierwszym narzędziem, które chcę polecić jest <a href="https://www.impactmapping.org/">Impact Mapping</a> opisany przez Gojko Adzica. Jest to technika pozwalająca wybrać problem, który chcemy rozwiązywać. To jest taki swoisty krok przed.
+
+Ma to szalenie ważne konsekwencje w kontekście pracy grupowej. Zwykle staramy się złapać zbyt wiele srok za ogon. Tracimy przez to strasznie dużo czasu na zmianę kontekstów, rośnie nam <a href="https://radekmaziarka.pl/2019/08/14/praca-zwinna-jak-osiagnac-wiecej-robiac-mniej/">work-in-progress</a>, wolniej walidujemy nasze rozwiązania. W rezultacie wydłużamy czas dowiezienia czegoś wartościowego.
+
+<img src="https://www.impactmapping.org/assets/im_template.png" />
+<p style="margin-top: -20px; font-size: 80%;">Imact Mapping Example -  <a href="https://www.impactmapping.org/example.html">https://www.impactmapping.org/example.html</a></p>
+Impact Mapping skupia się na definicji mierzalnego i osiągalnego celu. Pomaga to zdefiniować co uznamy za sukces, a co za porażkę. Chcemy rozbić ten cel na pewne etapy, w których będziemy walidować czy jego realizacja posuwa nas we właściwą stronę oraz czy wybrane rozwiązania rzeczywiście działają.
+
+Ze zdefiniowanym celem możemy spróbować znaleźć optymalne rozwiązanie. Najpierw opisujemy kto mógłby nam pomóc dojść do celu, następnie jaki wpływ możemy mieć na te osoby i na końcu czym na nie wpłyniemy. Im głębiej wchodzimy, tym więcej elementów odrzucamy i ostatecznie skupiamy się na tych najważniejszych aspektach.
+
+Rezultatem jest konkretny kierunek, w którą stronę chcemy się posuwać, oraz zdefiniowane priorytety w jaki sposób chcemy iść w tym kierunku. Definicja celu pozwala nam walidowanie czy posuwamy się w odpowiednim kierunku. Jeśli jest przeciwnie, możemy spróbować wykorzystać inną ścieżkę opisaną podczas warsztatu.
+<h2>Przykład wykorzystania</h2>
+Firma sprzedająca produkty elektroniczne poszukiwała najlepszego sposobu na wejście na rynek portugalski. Potrzebowała ustalić jakie metody pozwolą jej wejść na ten rynek i która z nich będzie najbardziej efektywna. Niestety ilość możliwych opcji ją przytłaczała i utrudniała podjęcie konstruktywnej decyzji.
+
+Warsztat Impact Mappingu pozwolił tej organizacji podjąć taką decyzję. W krótkim czasie udało się zdefiniować mierzalny cel, który był trudny, ale możliwy do zrealizowania dla tej firmy. Następnie opisano różne sposoby na dojście do tego celu. Grupa dokonała szybkiej analizy możliwości i wybrała najlepsze, aby móc wejść z impetem na docelowy rynek. W ramach warsztatu wspólnie osiągano kolejne etapy, przez co samo rozwiązanie było wspólne dla wszystkich zebranych uczestników.
+
+Kilka zdjęć z innego warsztatu możecie znaleźć na <a href="https://twitter.com/RadekMaziarka/status/1165249505345884161">moim Twitterze</a>. Są one z sesji zrealizowanej dla jednego z polskich Software House'ów.
+<h2>Dlaczego warto?</h2>
+Większość metod pozwala nam opisać najlepszą drogę do celu. Jeśli jednak ten cel nie jest właściwy to cała nasza praca idzie na nic. Impact Mapping pozwala wybrać właściwy cel i rozwiązanie, które później zaadresujemy kolejnymi warsztatami.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2165</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-29 14:06:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-29 13:06:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-impact-mapping]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="post_tag" nicename="impact-mapping"><![CDATA[impact mapping]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:125:"Artykuł przedstawia warsztat Impact Mapping - technikę, która pozwala wybrać najlepsze rozwiązanie do postawionego celu.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:3:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;}s:5:"count";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2061]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia warsztat Impact Mapping - technikę, która pozwala wybrać najlepsze rozwiązanie do postawionego celu.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Business Model Canvas</title>
+		<link>https://radekmaziarka.pl/2020/05/29/narzedzia-pracy-konsultanta-business-model-canvas/</link>
+		<pubDate>Fri, 29 May 2020 13:21:11 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2170</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="bmc">Business Model Canvas</h2>
+Narzędziem, które świetnie współgra z Impact Mappingiem jest <a href="https://www.strategyzer.com/canvas/business-model-canvas">Business Model Canvas</a>. Jest to zebranie swojego modelu biznesowego w formę spójnego przekazu, który zawrzemy w jednej kartce A4. Na samym początku wydaje się to zbyt krótkie, ale pozwala nam zwięźle opowiedzieć o naszym modelu biznesowym.
+
+Jest to przydatne w kontekście zbyt szerokiej oferty biznesowej, jaką chcemy wydawać na świat. Ilość możliwych rozwiązań dostarczanych ostatecznemu klientowi może wcale nie rozwiązywać jego potrzeb. Zwykle zarzucamy go opcjami, nie dochodząc do jego prawdziwych potrzeb. Cytując klasyka „more is less”.
+
+Dodatkowo w wielu firmach różne działy w firmie działają sprzecznie, często podkopując swoje działania. Nie mając wizji, w którą stronę chcemy dążyć łatwo jest skupiać się na niewłaściwych aktywnościach. Wtedy lokalnie możemy być bardzo efektywni, ale cała organizacja już taka nie będzie.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Business_Model_Canvas.png/1920px-Business_Model_Canvas.png" />
+<p style="margin-top: -20px; font-size: 80%;">Business Model Canvas - <a href="https://pl.wikipedia.org/wiki/Business_Model_Canvas">https://pl.wikipedia.org/wiki/Business_Model_Canvas</a></p>
+Business Model Canvas pozwala nam uwspólnić wizje naszego produktu i skupić się na jego najważniejszych elementach. Jest to nasze bezpośrednie oświadczenie jak powinna działać nasza organizacja – na czym się skupiać, a co pomijać w swoich działaniach.
+
+Rozpoczynamy od wartości jakie chcemy dostarczyć dla naszych klientów. Jest to o tyle istotne, że wszystkie nasze kroki będą musiały wpisywać w te wartości. Jeśli tak nie jest to znaczy, że źle dostosowujemy rozwiązanie do naszej oferty.
+
+Następnie dokładniej definiujemy klienta oraz w jaki sposób będziemy w stanie do niego dotrzeć. Później przechodzimy do naszych aktywności – na czym się będziemy skupiać oraz kto nam pomoże wygenerować daną ofertę. Na końcu kierujemy się w stronę zysków i kosztów by sprawdzić czy na tak zdefiniowanym modelu będziemy w stanie zarobić.
+
+Podczas tworzenia takiego modelu różne grupy osób mogą wymienić się doświadczeniami, opowiedzieć swoje obawy, pomyśleć nad innymi sposobami na realizację potrzeb. Mając już taki model gotowy poszczególne działy mogą tworzyć strategie, które będą dostosowane do ogólnego celu firmy.
+<h2>Przykład wykorzystania</h2>
+Startup z obszaru IT planował wdrożenie nowych usług informatycznych na rynku abonamentów. Zespół miał bardzo wiele ciekawych pomysłów jak usprawnić ten rynek. Jednak ta mnogość ostatecznie powodowała paraliż decyzyjny oraz ogromną ilość zadań i zmian. Każdy pomysł wydawał się wartościowy, więc każdy z nich chciano wykorzystać.
+
+Business Model Canvas pozwolił uwspólnić wizję osób w projekcie. Zostały zwizualizowane opcje, a następnie podjęte decyzje w który obszar branży chcemy najpierw zainwestować nasz czas. Dzięki temu zmniejszyła się ilość zadań, a sama praca była bardziej skupiona na konkretnym celu biznesowym.
+<h2>Dlaczego warto?</h2>
+Jeśli nie potrafimy stworzyć abstraktu na 1 stronę A4 to znaczy, że nasza konkretna oferta biznesowa może być zbyt niespójna. Business Model Canvas pozwala nam wybrać co jest naszym głównym celem i na tej podstawie podejmować konkretne akcje.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2170</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-29 14:21:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-29 13:21:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-business-model-canvas]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="business-model-canvas"><![CDATA[business model canvas]]></category>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:135:"Artykuł przedstawia warsztat Business Model Canvas - technikę, która pozwala uchwycić kontekst biznesowy firmy na jednej kartce A4.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:3:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;}s:5:"count";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2061]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia warsztat Business Model Canvas - technikę, która pozwala uchwycić kontekst biznesowy firmy na jednej kartce A4.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Event Storming</title>
+		<link>https://radekmaziarka.pl/2020/05/29/narzedzia-pracy-konsultanta-podsumowanie-event-storming/</link>
+		<pubDate>Fri, 29 May 2020 13:24:12 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2171</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="es">Event Storming</h2>
+Kiedy mamy już zdefiniowany cel, to kolejnym świetnym warsztatem jest <a href="https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/">Event Storming</a> opisany przez Alberto Brandoliniego. Jest to technika pozwalająca zwizualizować jak będzie wyglądać nasze ostateczne rozwiązanie, biorąc pod uwagę różne scenariusze i sytuacje brzegowe.
+
+Niestety tego zwykle brakuje w przypadku planowania naszego rozwiązania, zarówno technicznego jak i biznesowego. Ludzie naturalnie myślą idąc przez „happy-path”, nie biorąc pod uwagę specyficznych przypadków. Zwykle samo rozwiązanie jest tak duże, że przekracza ich możliwości percepcji. W takiej sytuacji trudno jest znaleźć wszystkie możliwe dziury.
+
+A to się bardzo mści. Jeśli bowiem nie znajdziemy tych problemów na etapie planowania to znajdziemy je dopiero podczas implementacji. Zwykle wtedy jest za późno by najlepszą odpowiedź i robi się wszystko byle jak – byle szybko. Im dłużej w taki sposób działamy tym gorsze jest nasze rozwiązanie.
+
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png"><img class="alignnone wp-image-2064 size-full" src="https://radekmaziarka.pl/wp-content/uploads/2020/02/event-storming-part.png" alt="" width="975" height="745" /></a>
+<p style="margin-top: -20px; font-size: 80%;">Kadr książki Introducing Event Storming - <a href="https://leanpub.com/introducing_eventstorming">https://leanpub.com/introducing_eventstorming</a></p>
+Event Storming pozwala nam zwizualizować cały proces biznesowy, biorąc pod uwagę różne aspekty i sposoby działania naszych pracowników / systemów. Widząc całość łatwiej jest zauważyć luki lub niespójności, zaproponować udoskonalenia, wybrać najważniejsze problemy do zaadresowania. Dodatkowo uwspólniamy naszą wiedzę o procesie dzieląc się swoim punktem widzenia.
+
+Warsztat rozpoczynamy od chaotycznego i nieograniczonego (prawie) zrzutu całej naszej wiedzy na ścianę. Na pierwszy rzut wygląda to dziwnie – ściana dynamicznie jest zapełniana kolejnymi rzędami karteczek, bez żadnego porządku. Dzięki temu szybko osiągamy dużą ilość wiedzy, którą wykorzystujemy w kolejnych etapach.
+
+Mając kartki na ścianie można się zająć ich strukturyzacją. Dokonujemy porządkowania naszego procesu nadając mu konkretny kształt - pokazując w którym miejscu się zaczyna, rozdziela i kończy. Możemy się dzielić na mniejsze grupy zajmujące się konkretnym obszarem bądź wspólnie dzielić się wiedzą. Różne kolory karteczek pozwalają nam skupić się na różnych aspektach – problemy, usprawnienia, definicje, persony, systemy, metryki i inne. W zasadzie ogranicza nas jedynie nasza własna wyobraźnia.
+
+Warsztat kończy się zwizualizowaniem całości procesu. Uczestnicy rozumieją jego przebieg i mogą wybrać najważniejsze miejsca, nad którymi będą dalej pracowali. Mamy ugruntowany wspólny język co upraszcza komunikację wewnątrz organizacji.
+<h2>Przykład zastosowania</h2>
+Software House potrzebował zwizualizować cały proces dostarczania systemów informatycznych w celu znalezienia w tym procesie luk. Samo programowanie było tutaj jedynie wąskim wycinkiem. Trzeba najpierw posiadać liderów obszarów technicznych, zdefiniować procesy rekruterskie, wiedzieć jak promować nasze umiejętności. umieć estymować projekty, wiedzieć jak zbudować docelowy zespół i rozpocząć pracę. Jest to szeroki proces i dużo jest tu miejsca na braki i niespójności.
+
+Event Storming pozwolił na zwizualizowanie całego procesu, od postanowienia wejścia w dany obszar technologiczny do wdrożenia i utrzymywania systemu dla klienta. Zostało znalezione bardzo wiele problemów, które nie były widoczne na zewnątrz. Co więcej, zauważono brak jednego obszaru kompetencji, który powodował istotne straty w ramach całego procesu.
+<h2>Dlaczego warto?</h2>
+W ekspresowym tempie możemy zwizualizować nasz sposób działania i na jego podstawie podjąć decyzje: czego brakuje, co usprawnić a co usunąć. Technika jest bardzo lekka i można ją wykorzystać w każdym gronie, zarówno technicznym jak i nietechnicznym.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2171</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-29 14:24:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-29 13:24:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-podsumowanie-event-storming]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="post_tag" nicename="event-storming-pl"><![CDATA[event storming]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:103:"Artykuł przedstawia warsztat Impact Mapping - technikę, która pozwala zwizualizować dowolny proces.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:3:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;}s:5:"count";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2061]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia warsztat Impact Mapping - technikę, która pozwala zwizualizować dowolny proces.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – macierze</title>
+		<link>https://radekmaziarka.pl/2020/05/29/narzedzia-pracy-konsultanta-macierze/</link>
+		<pubDate>Fri, 29 May 2020 13:29:11 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2177</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="matrix">Macierze</h2>
+W tym miejscu nastąpi połączenie różnych technik w jedną kategorię. Wartym rozważenia pomysłem, w przypadku podejmowania decyzji, jest zwizualizowanie ich rezultatów na 2-wymiarowej macierzy. Wybieramy różne parametry osi by wymóc na uczestnikach zastanowienie się nad różnymi aspektami swoich wyborów.
+
+Takie podejście może pomóc w sytuacjach typowego, jednokierunkowego myślenia, nastawionego na bezpośrednie rezultaty. W wielu sytuacjach grupa zamyka się na konkretne rozwiązania. Widzą tylko jedną stronę konsekwencji swoich decyzji, pomijając tą drugą. A niestety obie są ważne by mieć pełne spojrzenie na sytuację.
+
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Lean prioritization, Hygger review" /><a href="https://radekmaziarka.pl/wp-content/uploads/2020/02/Lean.jpg"><img class="alignnone size-full wp-image-2163" src="https://radekmaziarka.pl/wp-content/uploads/2020/02/Lean.jpg" alt="" width="903" height="602" /></a>
+<p style="margin-top: -20px; font-size: 80%;">Macierz Wartość / Koszt - <a href="https://hygger.io/blog/lean-prioritization-approach-ongoing-pm-issues/">https://hygger.io/blog/lean-prioritization-approach-ongoing-pm-issues/</a></p>
+Dana macierz pozwala nam zastanowić się wspólnie nad różnymi aspektami naszych decyzji. Możemy spojrzeć na nasze wybory z różnych stron by nie zapomnieć o żadnej z nich. Tutaj mogę przytoczyć następujące macierze:
+<ul>
+ 	<li>Wartość / Ryzyko – chcemy zobaczyć jak ryzykowne jest uzyskanie danej wartości. Przydatne, jeśli nasze decyzje mogą nie być tylko pozytywne.</li>
+ 	<li>Wartość / Koszt – pokazanie wydatków na daną pracę w porównaniu, ile możemy uzyskać. Sprawdza się przy współpracy z osobami biznesowymi na temat kosztów pracy zespołów programistycznych.</li>
+ 	<li>Satysfakcja / Funkcjonalność – zwana także modelem Kano, pozwala lepiej zrozumieć czego potrzebują od nas nasi klienci. Przydatne, gdy chcemy skupić się na poprawie jakości lub zaadresowaniu nietypowych potrzeb.</li>
+ 	<li>Krótkoterminowy zysk / Długoterminowy zysk – wizualizacja możliwych rezultatów w ujęciu krótkiego i dalekiego horyzontu czasowego. Warte wykorzystania, gdy wydaje nam się, że „szybkie zyski” mogą nas później pogrążyć.</li>
+ 	<li>Firma / pracownik – wykres zbierający możliwe zyski danej decyzji dla firmy i pracownika. Chcąc działać stabilnie powinniśmy równoważyć te dwa obszary by żaden nie był poszkodowany.</li>
+ 	<li>Ilość / Jakość – przedstawienie naszych decyzji / metryk w formie nacisku na jedną z osi. Na tej podstawie łatwo jest znaleźć braki w przeciwnej części macierzy np. gdy mamy metryki zbierające ilość nowych klientów, ale brakuje nam metryk oceniających zysk na nich.</li>
+</ul>
+To jest kilka wykorzystywanych przeze mnie porównań, jednak nie musicie się w nich zamykać. W ramach swojego problemu możecie dobrać takie ramy, jakie są potrzebne. Prawie nic was tutaj nie ogranicza. Prawie…
+
+Dodawanie kolejnych wymiarów jest jednak prawie niemożliwe, ponieważ ogranicza nas nasza własna percepcja. Nie jesteśmy w stanie dobrze pracować na ich większej ilości, a już na pewno nie wizualizować ich tak prosto. Dlatego zwykle spłaszcza się różne wymiary by ostatecznie miały one jedynie 2 osie.
+<h2>Przykład użycia</h2>
+W pewnej organizacji zespoły techniczne i biznesowe pracowały w ramach dużego systemu. Poszczególne grupy miały dużą trudność ze wspólnym zrozumieniem siebie nawzajem i prawidłowym podejmowaniem decyzji. Osoby te rozmawiały nieco innym językiem i skupiały się na innych aspektach tworzenia systemu. Dużo było punktów zapalnych i niezrozumienia.
+
+Wdrożenie do praktyki codziennej macierzy Wartość / Koszt pozwoliło tej organizacji przenieść rozmowy na wspólny grunt, zrozumiały dla obu stron. Zespoły techniczne zrozumiały zyski biznesowe z odpowiednich wymagań i potrafiły lepiej dostosowywać rozwiązania do nich. Z drugiej strony biznes mógł niekiedy uniknąć wdrażania kosztownych rozwiązań, kiedy nie miały przynieść odpowiedniego zysku.
+<h2>Dlaczego warto?</h2>
+Macierz jest prostą metodą, którą da się wytłumaczyć i wykorzystać w prawie każdej sytuacji. Pozwala pokazać różne aspekty naszych decyzji i wybrać te właściwe.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2177</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-29 14:29:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-29 13:29:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-macierze]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:104:"Artykuł przedstawia techniki macierzy umożliwiające przedstawienie problemu z 2 różnych perspektyw.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:3:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;}s:5:"count";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2174]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia techniki macierzy umożliwiające przedstawienie problemu z 2 różnych perspektyw.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Value-Stream Mapping</title>
+		<link>https://radekmaziarka.pl/2020/05/29/narzedzia-pracy-konsultanta-value-stream-mapping/</link>
+		<pubDate>Fri, 29 May 2020 14:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2188</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="matrix">Value-Stream Mapping</h2>
+Aby analizować pracę zespołów / organizacji przydatnym warsztatem jest <a href="https://en.wikipedia.org/wiki/Value-stream_mapping">Value-Stream Mapping</a>. Jest to bardzo popularna technika w ruchu Lean, która skupia się na analizie aktualnego i definicji przyszłego stanu procesów dostarczania. Chcemy poznać przebieg pracy zespołów by zrozumieć, ile trwa praca i gdzie ma wąskie gardła.
+
+Niestety, wiele organizacji nie zdaje sobie sprawy, ile czasu zabiera faktyczne dostarczanie wartości (produktów / funkcjonalności) dla ich ostatecznych klientów. Pracując w typowych, firmowych silosach zajmujemy się pojedynczym zadaniem i „przerzucamy” go dalej. Często skupiamy się przez to na lokalnej optymalizacji pracy – by jak najwięcej zadań robić z naszego obszaru. Ale to nie ma nic wspólnego z tym jak szybko nasz odbiorca dostaje finalny produkt. Bo nawet jeśli w naszym dziale praca trwa krótko, to całkowity czas dostarczania może być drastycznie inny.
+
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Lean prioritization, Hygger review" /><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/ValueStreamMapParts.png" />
+<p style="margin-top: -20px; font-size: 80%;">Value-stream Mapping -<a href="https://en.wikipedia.org/wiki/Value-stream_mapping"> https://en.wikipedia.org/wiki/Value-stream_mapping</a></p>
+Value Stream Mapping jest techniką, która pozwala zwizualizować strumień wartości – to w jaki sposób dostarczamy wartość naszemu klientowi. Skupiamy się by pokazać, nie tylko bezpośrednią pracę wykonywaną w danym ośrodku pracy, ale także czas przestojów pomiędzy nimi oraz średnią ilość błędów.
+
+Warsztat rozpoczyna się od wspólnej analizy sposobu naszej pracy, od początku procesu do jego końca. Zbieramy różne informacje (tutaj w kontekście pracy informatycznej) np.:
+<ul>
+ 	<li>Ile mamy zadań w kolejce</li>
+ 	<li>Jak długo trwa zanim zabierzemy dane zadanie</li>
+ 	<li>Jaki jest % błędów w rezultatach pracy poprzedniego zespołu</li>
+ 	<li>Ile trwa przerobienie jednego zadania, bezpośrednio i całkowicie</li>
+ 	<li>Ile trwa zanim trafi do kolejnego działu</li>
+</ul>
+Często robi się to w formie <a href="https://www.system-kanban.pl/definicja/gemba/">Gemba Walku</a> przechodząc przez wszystkie działy w firmie. Na tej podstawie również wspólnie dzielimy się wiedzą i ustalamy konkretne wartości.
+
+Następnie te informacje są łączone w mapę przedstawioną powyżej. Każdy ośrodek pracy jest mapowany wraz z informacją zebraną wcześniej. Na samym końcu zbieramy informacje zbiorcze:
+<ul>
+ 	<li>Czas procesowania – ile czasu faktycznie pracujemy nad konkretnym zadaniem</li>
+ 	<li>Czas dostarczenia – ile czasu trwa dostarczenie danego zadania</li>
+ 	<li>Pracę całkowitą – ile mamy przetwarzanych zadań w całym procesie</li>
+ 	<li>Całkowity współczynnik błędu – ile z tworzonych zadań rzeczywiście jest realizowanych</li>
+</ul>
+i inne.
+
+Rezultatem jest mapa, która obrazuje cały nasz proces – jak szybko dostarczamy wartość klientowi. I w przeważającej ilości przypadków okaże się, że <strong>czas dostarczania jest kilkanaście razy większy niż czas procesowania</strong> oraz mamy <strong>przerażającą ilość pracy w toku (WIP)</strong>. Na tej zaś podstawie można zastanowić się, które miejsca zoptymalizować, aby szybciej dostarczać wartość klientowi.
+<h2>Przykład wykorzystania</h2>
+Firma produkująca sprzęt elektroniczny była zawiedziona czasem dostarczania swoich produktów do firm klienckich. W teorii każdy z działów pracował optymalnie, w praktyce całość przeciągała się i była bardzo błędogenna. Nawet drobne poprawki wymagały olbrzymiego nakładu czasu i docierały zbyt późno do ostatecznych odbiorców.
+
+Warsztat pokazał bardzo dużą ilość pracy w toku, która była realizowana przez poszczególne działy. Zadania były przekładane, priorytety zmieniane, pracownicy skakali pomiędzy tematami. Nacisk był położony na optymalizację pracy działu zamiast tempa dostarczania.
+
+Rezultat pozwolił zastanowić się nad planem zmiany obecnej sytuacji. Postanowiono reorganizować strukturę zespołów by była nastawiona na obszar biznesowy, a nie rodzaj przeprowadzanej pracy. Wewnątrz tych zespołów pracownicy o różnych rolach mieli mocniej ze sobą współpracować by minimalizować ilość pracy w toku.
+<h2>Dlaczego warto?</h2>
+Patrząc szerzej na proces skupiamy się na optymalizacji globalnej, biorąc pod uwagę pracę i przestoje. Jesteśmy w stanie szybciej odnaleźć wąskie gardła oraz poprawić efektywność całego procesu, a nie tylko jego części.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2188</wp:post_id>
+		<wp:post_date><![CDATA[2020-05-29 15:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-05-29 14:06:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-value-stream-mapping]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<category domain="post_tag" nicename="value-stream-mapping"><![CDATA[value stream mapping]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:132:"Artykuł przedstawia Value-Stream Mapping - technikę do wizualizowania w jaki sposób i jak długo dostarczamy wartość klientowi.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:3:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;}s:5:"count";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2177]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze-2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia Value-Stream Mapping - technikę do wizualizowania w jaki sposób i jak długo dostarczamy wartość klientowi.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Example Mapping</title>
+		<link>https://radekmaziarka.pl/2020/06/17/narzedzia-pracy-konsultanta-example-mapping/</link>
+		<pubDate>Wed, 17 Jun 2020 06:25:28 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2194</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2 id="matrix">Example Mapping</h2>
+Metoda <a href="https://cucumber.io/blog/bdd/example-mapping-introduction/">Example Mapping</a> została mi polecona przez <a href="https://www.linkedin.com/in/kenny-baas/">Kenny’ego Baasa</a>, który używa jej razem z Event Stormingiem. Technika świetnie się sprawdza również osobno. Można ją zastosować do zbierania wymagań, znajdowania przypadków brzegowych oraz określenia pytań, na które nie mamy odpowiedzi.
+
+Bardzo przydatne, szczególnie w kontekście grup silnie nastawionych na realizację zadań. Takie osoby będą pomijać trudniejsze przypadki, bądź nawet się  nad nimi nie zastanawiać. Później zaś okaże się, że prosty przypadek ma 20 różnych scenariuszy i ostatecznie kończymy z łataniem czegoś na gorąco.<a href="https://radekmaziarka.pl/wp-content/uploads/2020/06/example-mapping.jpg"><img class="alignnone size-full wp-image-2195" src="https://radekmaziarka.pl/wp-content/uploads/2020/06/example-mapping.jpg" alt="" width="720" height="540" /></a>
+<p style="margin-top: -20px; font-size: 80%;">Example Mapping - <a href="https://xebia.com/blog/example-mapping-steering-the-conversation/">https://xebia.com/blog/example-mapping-steering-the-conversation/</a></p>
+Technika jest bardzo prosta. Rozpoczynamy (zwykle) od wypisania wszystkich możliwych przypadków, które wydaje nam się, że musimy spełniać. Im dłużej to robimy tym łatwiej jest nam dojść do coraz trudniejszych sytuacji. Dodatkowo obok stawiamy wszystkie pytania, na które nie znamy odpowiedzi, a które powinny być odpowiedziane.
+
+Tak zebrane przykłady staramy się zgrupować w reguły. To pozwala nam, na zasadzie dopełnienia, opisać kolejne przypadki jakie powinny być sprawdzone (np. do reguły obniżenia ceny przez rabat możemy dodać przypadek skrajny, gdy cena jest niższa niż rabat). Na końcu grupujemy te reguły w historyjki, czyli pewne jednostki dostarczania danej funkcjonalności. Zwykle nie musimy od początku wdrażać wszystkich przypadków – możemy je podzielić na te które przyniosą nam największą wartość.
+
+Ta technika pozwala nam oddzielić pracę nad rozwiązaniem od pracy nad wymaganiami i nie mieszać tych 2 rzeczy naraz. Jednocześnie możemy szeroko zastanawiać się nad przypadkami szczególnymi. Najpierw zdefiniujemy wszystkie możliwe sposoby działania, a później zastanowimy czy rzeczywiście potrzebujemy tego rodzaju funkcjonalności. Szybko możemy te niepotrzebne usunąć i tworzyć system, w którym mamy tylko to co potrzebujemy.
+<h2>Przykład wykorzystania</h2>
+Zespół programistyczny narzekał na niejasne wymagania dotyczące tworzonej funkcjonalności. Programistyczny kod następnie miał biznesowe dziury, które później powodowały problemy w systemie. Jednocześnie zespół biznesowy zbywał problemy programistów, mówiąc, że zbyt głęboko wchodzili w techniczne szczegóły.
+
+Example Mapping pozwolił porozumieć się na poziomie wspólnych wartości, gdzie rozpoczęliśmy od podstawowych przypadków stopniowo przechodząc do tych bardziej złożonych. Duża część z trudniejszych była od razu odrzucana przez osoby biznesowe. Niektóre z nich jednak były na tyle krytyczne, że brak ich obsługi mógłby wyłożyć cały system.
+<h2>Dlaczego warto?</h2>
+Zmiana mentalna, nakierowana na wytworzenie jak największej ilości przypadków, pozwala zdefiniować takie sytuacje, których w normalnym trybie pracy byśmy nie znaleźli. Na tej podstawie wiemy co może nas czekać i jak sobie z tym poradzić.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2194</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-17 07:25:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-17 06:25:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-example-mapping]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="post_tag" nicename="example-mapping"><![CDATA[example mapping]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:84:"Artykuł przedstawia Example Mapping - technikę do analizy przypadków biznesowych.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:5:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;i:1592405504;i:1;i:1592405505;i:1;}s:5:"count";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze-2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2188]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia Example Mapping - technikę do analizy przypadków biznesowych.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Teoria ograniczeń w kaszubskiej restauracji</title>
+		<link>https://radekmaziarka.pl/2020/06/19/teoria-ograniczen-w-kaszubskiej-restauracji/</link>
+		<pubDate>Fri, 19 Jun 2020 08:56:05 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2200</guid>
+		<description></description>
+		<content:encoded><![CDATA[Swojego czasu bardzo mocno zainspirował mnie <a href="https://www.michalbartyzel.pl/2019/02/zarzadzanie-flow.html">artykuł</a> Michała Bartyzela o bułgarskim hotelu. Opisywał on jak niewłaściwie zaprojektowana restauracja hotelowa potrafi utrudnić zjedzenie obiadu swoim gościom. W teorii właściciele restauracji powinni tak zaplanować obsługę klientów by była ona odpowiednio szybka i bezproblemowa. Praktyka opisana przez Michała temu mocno przeczyła.
+
+Zacząłem więc w różnych miejscach sprawdzać w jaki sposób jest zaprojektowana praca restauracji. A jeśli miałem chwilę to od razu analizować jak można by ją usprawnić.
+
+I tak po kilkunastu miesiącach trafiłem na koronaurlop na Kaszuby. I w wielu miejscach byłem aż przerażony jakością obsługi restauracyjnej. Jedno miejsce szczególnie zwróciło moją uwagę całkowicie pomijając w swojej pracy aspekty teorii ograniczeń. Powodowało to, że cała obsługa gości była niesamowicie wolna i problematyczna. A na Aperol Spritza czekało się bardzo długo &#x1f609;
+<h1>Teoria ograniczeń</h1>
+Lecz najpierw kilka słów w czym rzecz. <a href="https://pl.wikipedia.org/wiki/Teoria_ogranicze%C5%84">Teoria ograniczeń</a> (Theory of Constraints) mówi nam, że każdy proces, nieważne jak złożony, ma jedno ograniczenie, które warunkuje jego ostateczną efektywność.
+
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/06/theory-of-constraints.jpg"><img class="alignnone size-full wp-image-2201" src="https://radekmaziarka.pl/wp-content/uploads/2020/06/theory-of-constraints.jpg" alt="" width="840" height="241" /></a>
+
+Teoria mówi, że nie ma sensu usprawniać pracy przed wąskim gardłem (będziemy tylko dodawać pracy wąskiemu gardłu) i za wąskim gardłem (bo tam nie będzie nad czym pracować). To co może nam pomóc to praca nad samym wąskim gardłem:
+<ul>
+ 	<li>Identyfikacja wąskiego gardła</li>
+ 	<li>Decyzja jak uwidocznić wąskie gardło</li>
+ 	<li>Dostosowanie pozostałych procesów pod wąskie gardło</li>
+ 	<li>Redukcja lub likwidacja wąskiego gardła (jeśli jest to możliwe)</li>
+</ul>
+Teoria została opisana jako pierwsza przez Eliyahu Goldratta w książce <a href="https://www.goodreads.com/book/show/113934.The_Goal">The Goal</a>. Wpłynęła bardzo mocno na całą branżę produkcyjną, skąd później przeszła na inne branże, inspirując powstanie np. bardzo popularnej w świecie IT książki <a href="https://www.goodreads.com/book/show/17255186-the-phoenix-project">The Phoenix Project</a>.
+<h1>Restauracja</h1>
+Gdy już mamy pewne podstawy teoretyczne można wrócić do samej restauracji. Wyglądała ona tak:
+
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/06/restauracja.jpg"><img class="alignnone size-full wp-image-2202" src="https://radekmaziarka.pl/wp-content/uploads/2020/06/restauracja.jpg" alt="" width="332" height="339" /></a>
+
+Restauracja składała się z 3 miejsc:
+<ul>
+ 	<li>Restauracji głównej, gdzie przyrządzane było jedzenie oraz było kilka stolików</li>
+ 	<li>Sekcji zewnętrznej z dużą ilością stolików, przedzielonych deptakiem</li>
+ 	<li>Barem zewnętrznym, gdzie umieszczony był nalewak z prosecco</li>
+</ul>
+Będąc tam półtora godziny, wszelkiego rodzaju obsługa kelnerska (menu, przynoszenie drinków i dań, płatności) trwała koszmarnie długo. Kelnerzy wyglądali na strasznie zabieganych, ale jednocześnie nie było widać postępu w obsłudze gości. Klientów nie było dużo, ale czekając na proste dostarczenie napojów baliśmy się czy w ogóle dostaniemy nasze zamówienie.
+<h1>Deptak i Aperol Spritz</h1>
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/06/aperol-spritz-.jpg"><img class="alignnone size-full wp-image-2205" src="https://radekmaziarka.pl/wp-content/uploads/2020/06/aperol-spritz-.jpg" alt="" width="800" height="373" /></a>
+
+&nbsp;
+
+Przeprowadzając krótkie obserwacje podczas przebywania w restauracji przypuszczam, że kelnerzy starali się skupiać na pracy z pojedynczym stolikiem:
+<ul>
+ 	<li>Przynosili menu z restauracji dla jednego stolika naraz</li>
+ 	<li>Zbierali zamówienie i od razu wracali do restauracji</li>
+ 	<li>Nosili napoje i serwowali dania per jeden stolik</li>
+ 	<li>Załatwiali płatności wracając z każdym rachunkiem do restauracji</li>
+</ul>
+Domyślam się, że kelnerzy zostali poinstruowani aby tak pracować, mając na uwadze zasady właściwej obsługi pojedynczego klienta w restauracji.
+
+Jednocześnie takie podejście pomijało całkowicie istniejące wąskie gardło. Patrząc na samą mapę widać co najbardziej utrudnia pracę kelnerską – odległość pomiędzy restauracją a stolikami na zewnątrz. Droga przejścia przez deptak tam i z powrotem to czas na zebranie zamówień od 4 różnych stolików. Większość czasu przeznaczanego na obsługę było spędzanych na chodzeniu, zamiast na pracy z gośćmi.
+
+To pewnie jeszcze bym przebolał (i nie pisał tego posta) gdyby nie<strong> Aperol Spritz</strong>. Knajpa promowała ten drink i dużo gości go zamawiało. Proces produkcji był jednak kuriozalny:
+<ul>
+ 	<li>Przygotuj aperol z lodem w restauracji</li>
+ 	<li>Zanieś kieliszek do baru na zewnątrz</li>
+ 	<li>Nalej prosecco z nalewaka</li>
+ 	<li>Zanieś klientom</li>
+</ul>
+Tak zaplanowany proces wykorzystywał wąskie gardło, aby dostarczać finalny produkt. A więc w rezultacie przedłużał zrobienie drinka o kilka minut i blokował kelnerów, którzy łazili od jednego miejsca do drugiego. Nic dziwnego, że wszystko trwało tak koszmarnie długo.
+<h1>Praktyka teorii ograniczeń</h1>
+Prostym do likwidacji wąskim gardłem jest tutaj produkcja Aperol Spritza. Przeniesienie produkcji na zewnątrz pozwala na 2 optymalizacje:
+<ul>
+ 	<li>Usunięcie gniazda produkcyjnego (restauracji)</li>
+ 	<li>Usunięcie drogi transportu produktu (deptaka)</li>
+</ul>
+W rezultacie czas produkcji skróci się, goście szybciej dostaną drinki, a kelnerzy zostaną częściowo odciążeni.
+
+Drugie wąskie gardło w postaci drogi do restauracji jest nie do usunięcia. Można tylko dostosować pracę do niego. Wobec czego można:
+<ul>
+ 	<li>Przenieść menu do stolików zewnętrznych</li>
+ 	<li>Zbierać zamówienia od kilku stolików naraz</li>
+ 	<li>Serwować tak dużo potraw i napojów ile to możliwe</li>
+ 	<li>Próbować realizować płatności dla kilku stolików</li>
+</ul>
+To by zmniejszyło ilość kursów stoliki &lt;-&gt; restauracja i w rezultacie pozwoliło obsłużyć większą ilość gości w tym samym czasie.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2200</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-19 09:56:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-19 08:56:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[teoria-ograniczen-w-kaszubskiej-restauracji]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="rozne"><![CDATA[Różne]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<category domain="post_tag" nicename="teoria-ograniczen"><![CDATA[teoria ograniczeń]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2206]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:140:"Krótka historia jak teoria ograniczeń pozwoliłaby poprawić efektywność pracy restauracji na Kaszubach. I gdzie tam był Aperol Spritz.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Krótka historia jak teoria ograniczeń pozwoliłaby poprawić efektywność pracy restauracji na Kaszubach. I gdzie tam był Aperol Spritz.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:1:{i:1592566155;i:1;}s:5:"count";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:2:{i:1592566155;i:1;i:1592566159;i:1;}s:5:"count";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Narzędzia pracy konsultanta – Wardley Map</title>
+		<link>https://radekmaziarka.pl/2020/06/21/narzedzia-pracy-konsultanta-wardley-map/</link>
+		<pubDate>Sun, 21 Jun 2020 14:56:35 +0000</pubDate>
+		<dc:creator><![CDATA[radblog]]></dc:creator>
+		<guid isPermaLink="false">https://radekmaziarka.pl/?p=2214</guid>
+		<description></description>
+		<content:encoded><![CDATA[Wszystkie narzędzia zostały zebrane w <a href="/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie">Narzędzia pracy konsultanta - podsumowanie</a>
+<h2>Wardley Map</h2>
+Mapy Wardley’a są dobrym pomysłem, gdy trzeba wybrać rozwiązanie pasujące do naszego problemu. Nazwa wywodzi się od <a href="https://twitter.com/swardley">Simona Wardley’a</a>, angielskiego doradcy i konsultanta, który jako pierwszy zastosował tą technikę mapowania. Mapa odpowiada na pytanie „Jakie jest nasze otoczenie biznesowe?” i pozwala dobrać odpowiednie rozwiązanie.
+
+Niestety bardzo często firmy wybierają narzędzia na zasadzie „gut-feelingu” zamiast zrozumieć w jakiej sytuacji rynkowej się znajdują i jak wybrane rozwiązanie pasuje do obecnej sytuacji. Tworzy się od zera systemy, kiedy wystarczy wziąć gotowy produkt z rynku i wdrożyć do swoich procesów. Z drugiej strony próbuje się wdrażać gotowy produkt w obszarze przewagi konkurencyjnej ostatecznie ograniczając możliwości adaptacji do potrzeb klientów.
+
+<a href="https://radekmaziarka.pl/wp-content/uploads/2020/06/wardley-map.jpg"><img class="alignnone size-large wp-image-2215" src="https://radekmaziarka.pl/wp-content/uploads/2020/06/wardley-map-1024x588.jpg" alt="" width="770" height="442" /></a>
+<p style="margin-top: -20px; font-size: 80%;">Wardley Maps - <a href="https://medium.com/wardleymaps">https://medium.com/wardleymaps</a></p>
+Mapa Wardley’a skupia się na analizie potrzeb klienta w oparciu o dojrzałość rozwiązań na rynku (ich ewolucję).
+
+Na początku skupiamy się na osi pionowej – strumieniu wartości. Rozrysowujemy naszego klienta, wraz z jego potrzebami, które my chcemy spełniać. Następnie przechodzimy do oznaczenia naszych zdolności jakimi jesteśmy w stanie spełniać te potrzeby. Rozrysowujemy bardzo głęboko, aż do podstawowych zasobów (mocy obliczeniowej czy prądu).
+
+Gdy mamy już cały strumień wartości przechodzimy do osi poziomej – dojrzałości rozwiązań. Simon opisuje tutaj 4 etapy ewolucji rozwiązań:
+<ul>
+ 	<li>Genesis – rynek powstający, gdzie pomysły są odkrywane a potrzeby klientów są nieznane</li>
+ 	<li>Custom – rynek kształtujący się, gdzie powstają pierwsze rozwiązania na zamówienie spełniające specjalistyczne potrzeby klientów</li>
+ 	<li>Product – rynek dojrzewający, gdzie szybko rośnie zapotrzebowanie a klienci rozumieją jak wykorzystywać produkty</li>
+ 	<li>Commodity – rynek w pełni dojrzały, gdzie rozwiązania są szeroko dostępne na rynku a standardy znane i akceptowane</li>
+</ul>
+Nanosząc nasz strumień wartości na oś dojrzałości rozwiązań tworzy nam się wykres, którego następnie możemy wykorzystać np. by ocenić jaką akcję podjąć w kontekście wdrażania systemów informatycznych:
+<ul>
+ 	<li>Im bardziej dany obszar jest niedojrzały i bliski klientowi tym lepiej jest wykorzystać rozwiązanie tworzone od podstaw. Nie znamy dokładnie potrzeb klienta i jego wymagania mogą się często zmieniać. Nasze rozwiązanie będzie mogło się do nich dostosować i szybko reagować na zmiany.</li>
+ 	<li>Im bardziej dany obszar jest dojrzały i daleki od klienta tym lepiej jest wykorzystać gotowe rozwiązania dostępne na rynku. Potrzeby są doskonale znane i jest niewielka szansa na zmiany. Wdrażane rozwiązanie będzie miało wszystkie standardowe funkcjonalności, których nie będziemy musieli pisać od zera.</li>
+</ul>
+Mapę można wykorzystać również do analizy jakie osoby mają być przypisane do konkretnych zespołów, w jaki sposób chcielibyśmy wprowadzić zmiany na rynku, analizie kosztów i innych. Więcej można przeczytać w <a href="https://medium.com/wardleymaps">obszernym zbiorze artykułów</a> Simona.
+<h2>Przykład wykorzystania</h2>
+Firma z branży rolniczej zastanawiała się jakie rozwiązanie informatyczne wybrać do zarządzania ich procesami transportu, magazynowania, kontroli jakości, przetwarzania produktów oraz sprzedaży. Była duża chęć do pisania własnego oprogramowania od zera, by móc odwzorować wszystkie obszary działania firmy.
+
+Po wykonaniu mapy Wardley’a okazało się, że jedynie 2 obszary (kontrola jakości i przetwarzanie produktów) znajdują się w części rynków kształtujących się. Rozwiązania na rynku nie są dopasowane do potrzeb i ich wdrożenie zamknęłoby możliwość adaptacji do potrzeb tych działów.
+
+Z drugiej strony pozostałe obszary firmy są oparte na standardach rynkowych i wdrażanie nowych rozwiązań byłoby kopiowaniem istniejących rozwiązań z systemów firm SAP, Comarch czy Unit4. Koszty duplikacji tych funkcji byłyby ogromne a i tak by nie dorównywały do systemów firm trzecich.
+
+Podjęta więc została decyzja by iść 2 torami – rozwiązanie specjalistyczne dla obszarów nowych oraz standardowe dla obszarów znanych. Pozwoliło to wykorzystać gotowe komponenty i dostarczyć funkcjonalności szybciej. Jednocześnie system był w stanie dostosować się do zmieniających się potrzeb działów.
+<h2>Dlaczego warto?</h2>
+Mapa Wardley’a jest świetnym narzędziem zbliżającym osoby biznesowe i techniczne, które wspólnie mogą się dzielić swoim zrozumieniem otoczenia biznesowego. Po mapowaniu widać jasno jakie akcje powinniśmy podjąć. Mapowanie wymaga nieco wprawy, ale nawet pierwsze iteracje dają dużo wartości mapującym.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2214</wp:post_id>
+		<wp:post_date><![CDATA[2020-06-21 15:56:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2020-06-21 14:56:35]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[narzedzia-pracy-konsultanta-wardley-map]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="consulting"><![CDATA[Consulting]]></category>
+		<category domain="post_tag" nicename="consulting"><![CDATA[consulting]]></category>
+		<category domain="language" nicename="pl"><![CDATA[Sprawdź polskie posty]]></category>
+		<category domain="post_tag" nicename="wardley-map"><![CDATA[wardley map]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_opengraph_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:32:"aioseop_opengraph_settings_title";s:0:"";s:31:"aioseop_opengraph_settings_desc";s:85:"Artykuł przedstawia mapy Wardley&#039;a - technikę mapowania otoczenia biznesowego.";s:36:"aioseop_opengraph_settings_customimg";s:0:"";s:37:"aioseop_opengraph_settings_imagewidth";s:0:"";s:38:"aioseop_opengraph_settings_imageheight";s:0:"";s:32:"aioseop_opengraph_settings_video";s:0:"";s:37:"aioseop_opengraph_settings_videowidth";s:0:"";s:38:"aioseop_opengraph_settings_videoheight";s:0:"";s:35:"aioseop_opengraph_settings_category";s:4:"blog";s:34:"aioseop_opengraph_settings_section";s:0:"";s:30:"aioseop_opengraph_settings_tag";s:0:"";s:34:"aioseop_opengraph_settings_setcard";s:19:"summary_large_image";s:44:"aioseop_opengraph_settings_customimg_twitter";s:0:"";s:44:"aioseop_opengraph_settings_customimg_checker";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_cat_label]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_bunyad_featured_disable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2065]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"votes";a:6:{i:1580892332;i:1;i:1580932251;i:1;i:1580932253;i:1;i:1592405504;i:1;i:1592405505;i:1;i:1592944815;i:1;}s:5:"count";i:6;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sphere_user_likes_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-cz1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narzedzia-pracy-konsultanta-macierze-2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2194]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_aioseop_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artykuł przedstawia mapy Wardley'a - technikę mapowania otoczenia biznesowego.]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 </channel>
 </rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 2/1218 objects using disk
+Page Caching using disk: enhanced{w3tc_pagecache_reject_reason}
+Minified using disk (wp-admin)
+Database Caching using disk (Request-wide wp-admin)
+
+Served from: radekmaziarka.pl @ 2020-07-25 21:21:48 by W3 Total Cache
+-->

@@ -92,7 +92,7 @@ Oczywiście aktualnie dalej jesteśmy w stanie tworzyć systemy, które są siln
  *   Dwa, że bardzo trudno stworzyć taki model danych który spełni naraz wszystkie przypadki biznesowe.
  *   Trzy, że te rozwiązania techniczne też mają swój poziom skomplikowania, często o wiele wyższy niż rozwiązania związane z kontekstami i ostateczną spójnością.
 
-O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to [Kacper Gunia](https://twitter.com/cakper) na konferencji Explore DDD:
+O wiele lepiej jest operować na biznesowych scenariuszach i konsultować przypadki brzegowe z ludźmi, którzy żyją nimi na co dzień. Świetnie skwitował to [Kacper Gunia](https://twitter.com/cakper) na konferencji [Explore DDD](https://www.youtube.com/watch?v=a1pRsAi9UVs):
 
 [![](/images/2019/09/bc4.png)](/images/2019/09/bc4.png)
 

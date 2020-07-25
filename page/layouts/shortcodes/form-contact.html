@@ -1,22 +1,35 @@
-{{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
-{{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
-
 <form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" 
     method="POST" role="form" onsubmit="sendEmail(event)">
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">{{ i18n "yourName" }}</label>
-    <input type="text" id="name" name="name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="name"/>
+    <div>{{ i18n "contactEntry" }}</div>
+    <div class="social-media-icons">
+      <a href="https://www.linkedin.com/in/maziarka-radoslaw/"><img src="/images/social-media/linkedin.png" /></a>
+      <a href="https://www.facebook.com/radblog.radek.maziarka"><img src="/images/social-media/facebook.png" /></a>
+      <a href="https://twitter.com/RadekMaziarka"><img src="/images/social-media/twitter.png" /></a>
+      <a href="https://www.instagram.com/radekmaziarka_pl/"><img src="/images/social-media/instagram.png" /></a>
+    </div>
+    <div class="form-group">
+      <label for="name">{{ i18n "yourName" }}</label>
+      <input type="text" id="name" name="name" class="form-control"  required placeholder=" "  aria-labelledby="name"/>
+    </div>
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}" for="email">{{ i18n "emailAddress" }}</label>
-    <input type="email" id="email" name="email" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="email"/>
+    <div class="form-group">
+      <label for="email">{{ i18n "emailAddress" }}</label>
+      <input type="email" id="email" name="email"  class="form-control"  required placeholder=" "  aria-labelledby="email"/>
+    </div>
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="subject">{{ i18n "subject" }}</label>
-    <input type="text" id="subject" name="subject" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="subject"/>
+    <div class="form-group">
+      <label for="subject">{{ i18n "subject" }}</label>
+      <input type="text" id="subject" name="subject"  class="form-control"  required placeholder=" "  aria-labelledby="subject"/>
+    </div>
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}" for="body">{{ i18n "message" }}</label>
-    <textarea id="body" name="body" class="{{ $.Scratch.Get "inputClasses" }} h4" aria-labelledby="body"></textarea>
+    <div class="form-group">
+      <label for="body">{{ i18n "message" }}</label>
+      <textarea id="body" rows="8" name="body"  class="form-control" aria-labelledby="body"></textarea>
+    </div>
 
-    <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-blck bg-animate bg-black" type="submit" value="{{ i18n "send" }}" />
+    <button class="btn btn-primary" type="submit">{{ i18n "send" }}</button>
+
     <div id="emailSentConfirmation" style="color:green; display: none;">{{ i18n "emailSentConfirmation" }}</div>
     <div id="emailNotSent" style="color:red; display: none;">{{ i18n "emailNotSent" }}</div>
 

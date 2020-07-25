@@ -5,6 +5,12 @@
 @import "categories";
 @import "tags";
 @import "single";
+// bootstrap
+@import "functions";
+@import "bootstrap-variables";
+@import "mixins";
+@import "forms";
+@import "buttons";
 
 body {
   color: $textColor;
@@ -84,9 +90,11 @@ a {
 @import "partials/header";
 @import "partials/menu";
 @import "partials/search";
+@import "partials/forms";
 @import "partials/summaryWithImage";
 @import "partials/moreLink";
 @import "partials/sidebar";
 @import "partials/footer";
 
 @import 'partials/sharing';
+@import 'partials/contact-form';

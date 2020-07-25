@@ -6,6 +6,7 @@ draft: false
 images: ['images/2018/10/POWERPNT_2018-10-06_00-47-20.png']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design', 'microservices']
+aliases: ['/mikroserwisy-technologiczne-pieklo']
 ---
 
 W ramach [konferecji Kariera IT](https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/)  wystąpiłem z prezentacją "Mikroserwisy - technologiczne piekło". Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPguVcTHXm7QLnTHKJjA).

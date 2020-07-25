@@ -7,6 +7,7 @@ images: ['images/2019/10/event-storming-jak-zmapowac-dowolny-proces.jpg']
 description: "W ramach Wrocławskiego JUGa wystąpiłem z prezentacją “Event Storming - zmapuj dowolny proces”. Prezentacja dostępna jest na OneDrive."
 category: 'Event Storming'
 tags: ['event storming']
+aliases: ['/zmapuj-dowolny-proces']
 ---
 
 W ramach [Wrocławskiego JUGa](https://www.meetup.com/pl-PL/WroclawJUG/events/265637715/) wystąpiłem z prezentacją “Event Storming - zmapuj dowolny proces”. Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPg71OkEJD-MKbBwK62w?e=KSbwb9).

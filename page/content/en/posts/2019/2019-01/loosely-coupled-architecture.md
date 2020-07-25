@@ -7,6 +7,7 @@ images: ['images/2019/01/loosely-coupled-architecture-1.jpg']
 description: "In my presentation, I would like to bring closer the topic of Loosely-Coupled Architecture -how to get rid of the domino effect."
 category: 'Design patterns'
 tags: ['architecture', 'ddd', 'design pattern', 'microservices']
+aliases: ['/loosely-coupled-architecture']
 ---
 
 I finished work on my presentation about “Loosely-Coupled Architecture - how to get rid of the domino effect” which will be shown as in [Wrocław .NET User Group](https://www.meetup.com/pl-PL/wrocnet/events/257779436/).

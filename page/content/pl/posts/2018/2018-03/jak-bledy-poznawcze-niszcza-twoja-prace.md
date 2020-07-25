@@ -7,6 +7,7 @@ images: ['images/2018/03/POWERPNT_2018-03-20_00-20-38.png']
 description: "Na grupie Wrocław Agile Development wystąpiłem z prezentacją \"Jak błędy poznawcze niszczą twoją pracę\". Zachęcam do zapoznania się z materiałami."
 category: 'Różne'
 tags: ['błędy poznawcze', 'mechanizmy obronne']
+aliases: ['/bledy-poznawcze']
 ---
 
 W ramach [3 spotkania](https://www.meetup.com/en-AU/Wroclaw-Agile-Development-Meetup/events/248534112/) grupy [Wrocław Agile Development](https://www.meetup.com/en-AU/Wroclaw-Agile-Development-Meetup/) wystąpiłem z prezentacją "Jak błędy poznawcze niszczą twoją pracę". Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgtQXIKetXAlnaIcQPQ).

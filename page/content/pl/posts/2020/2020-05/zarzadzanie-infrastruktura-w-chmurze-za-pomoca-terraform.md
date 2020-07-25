@@ -7,6 +7,7 @@ images: ['images/2020/05/terraform-logo.png']
 description: "W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”."
 category: 'Wzorce projektowe'
 tags: ['Azure', 'terraform']
+aliases: ['/terraform']
 ---
 
 W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”. Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPg9NkPVEtgnN-5AE2EA?e=tqI1R0).

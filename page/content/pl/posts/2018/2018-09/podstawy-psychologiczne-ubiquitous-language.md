@@ -6,6 +6,7 @@ draft: false
 images: ['images/2018/09/artificial-intelligence-2228610_1920.jpg']
 category: 'Różne'
 tags: ['']
+aliases: ['/dlaczego-biznes-nas-nie-rozumie']
 ---
 
 [**Ubiquitous Language**](https://sprawnainzynieriaoprogramowania.blogspot.com/2008/10/najpierw-dziedzina.html), podstawowy składnik Domain Driven Design, kładzie nacisk na porozumiewanie się wspólnym językiem biznesowym w rozmowach z klientem i wewnątrz zespołu. Zamiast zwrotów technicznych używa się tych związanych z problemem, który rozwiązujemy. Słownictwo zgodne z domeną biznesową jest jednym z kluczowych aspektów, by projekt odniósł sukces. Pozwala budować zrozumienie w projekcie i unikać błędów związanych z innym postrzeganiem tych samym słów.

@@ -6,6 +6,7 @@ draft: false
 images: ['images/2019/06/legacy.jpg']
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
+aliases: ['/legacy']
 ---
 
 W ramach prezentacji wewnętrznej w PGS wystąpiłem z prezentacją “Jak tworzyć software by po roku twój system nie był Legacy”. Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPg6ZKE9S4Jr1V_TZZrg).

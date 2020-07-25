@@ -7,6 +7,7 @@ images: ['images/2018/04/POWERPNT_2018-06-26_22-45-26.jpg']
 description: "In my presentation, I would like to bring closer the topic of Domain Driven Design - facts, myths and how it relates to microservices."
 category: 'Design patterns'
 tags: ['ddd', 'design pattern', 'microservices']
+aliases: ['/DDD', '/ddd']
 ---
 
 I finished work on my presentation about “Domain Driven Design - Strategic Design & Microservices” which will be shown as in [Silesian Microsoft Group](https://www.meetup.com/en-AU/Śląska-Grupa-Microsoft-Meetup/events/250018468/).

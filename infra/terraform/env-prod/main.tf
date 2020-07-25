@@ -19,44 +19,33 @@ module "azure"{
   dependency_flag      = cloudflare_record.verify_address_record.id
 }
 
-// wait for the moving to Azure
-# resource "cloudflare_record" "redirect_record" {
-#   zone_id = local.cloudflare_zone_id
-#   name    = "@"
-#   value   = module.azure.storage_account_web_host
-#   type    = "CNAME"
-#   proxied = true
-#   ttl     = 1
-# }
-
-resource "cloudflare_record" "radekmaziarka_1" {
+resource "cloudflare_record" "redirect_record" {
   zone_id = local.cloudflare_zone_id
   name    = "@"
-  value   = "91.219.122.12"
-  type    = "A"
-  ttl     = 3600
+  value   = module.azure.storage_account_web_host
+  type    = "CNAME"
+  proxied = true
+  ttl     = 1
 }
 
-resource "cloudflare_record" "radekmaziarka_2" {
-  zone_id = local.cloudflare_zone_id
-  name    = "@"
-  value   = "194.88.154.187"
-  type    = "A"
-  ttl     = 3600
-}
-
-resource "cloudflare_record" "radblog_1" {
+resource "cloudflare_record" "redirect_record_radblog" {
   zone_id = local.cloudflare_zone_radblog_id
   name    = "@"
-  value   = "91.219.122.12"
+  value   = "192.0.0.1"
   type    = "A"
-  ttl     = 3600
+  proxied = true
+  ttl     = 1
 }
 
-resource "cloudflare_record" "radblog_2" {
+resource "cloudflare_page_rule" "radblog" {
   zone_id = local.cloudflare_zone_radblog_id
-  name    = "@"
-  value   = "194.88.154.187"
-  type    = "A"
-  ttl     = 3600
+  target = "*radblog.pl/*"
+  priority = 1
+
+  actions {
+    forwarding_url {
+      url = "https://radekmaziarka.pl/$2"
+      status_code = 301
+    }
+  }
 }

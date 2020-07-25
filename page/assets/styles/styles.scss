@@ -66,6 +66,12 @@ input {
   }
 }
 
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
 main {
   > .center {
     @media screen and (max-width: 1024px) {

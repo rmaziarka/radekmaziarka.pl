@@ -3,7 +3,7 @@ title: 'Event Storming - Big Picture'
 url: '/szkolenia/event-storming-big-picture/'
 date: Thu, 15 Aug 2019 11:58:10 +0000
 draft: false
-images: ['/images/2018/05/eventstorming.logo_.png']
+images: ['images/2018/05/eventstorming.logo_.png']
 ---
 
 Czas trwania:

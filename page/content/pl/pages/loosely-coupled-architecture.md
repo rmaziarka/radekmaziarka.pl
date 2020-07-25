@@ -3,7 +3,7 @@ title: 'Loosely-Coupled Architecture'
 url: '/szkolenia/loosely-coupled-architecture/'
 date: Sun, 18 Aug 2019 11:15:04 +0000
 draft: false
-images: ['/images/2019/09/Loosely-coupled.jpg']
+images: ['images/2019/09/Loosely-coupled.jpg']
 ---
 
 Czas trwania:

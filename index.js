@@ -379,7 +379,7 @@ function handlePagesXML(err, result) {
                 fileHeader = ''
                 fileHeader += `---\ntitle: '${title}'\nurl: '${pageUrl}'\ndate: ${published}\ndraft: false\n`;
                 if(featuredImagePath)
-                    fileHeader+= `images: ['/${featuredImagePath}']\n`;
+                    fileHeader+= `images: ['${featuredImagePath}']\n`;
                 fileHeader+='---\n';
                 fileContent = `${fileHeader}\n${markdown}`;
 

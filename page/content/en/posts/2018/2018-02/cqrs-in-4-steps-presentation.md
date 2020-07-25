@@ -4,6 +4,7 @@ url: '/2018/02/19/cqrs-in-4-steps-presentation/'
 date: Mon, 19 Feb 2018 22:38:47 +0000
 draft: false
 images: ['images/2018/02/cqrs-in-4-steps.jpg']
+description: "This is a presentation how to introduce CQRS pattern to an existing application, step by step, without breaking changes and holding up the development."
 category: 'Design patterns'
 tags: ['AutoMapper', 'CQRS', 'ddd', 'event sourcing', 'MediatR']
 ---

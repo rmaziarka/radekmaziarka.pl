@@ -4,6 +4,7 @@ url: '/2018/03/26/boiling-frogs-2018-gotowanie-zaby-po-raz-trzeci/'
 date: Mon, 26 Mar 2018 19:57:13 +0000
 draft: false
 images: ['images/2018/03/boilingfrog_logo_rgb.png']
+description: "Zobacz dlaczego Boiling Frogs jest przez niektórych nazywane najlepszą konferencją w Polsce."
 category: 'Recenzja'
 tags: ['']
 ---

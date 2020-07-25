@@ -4,6 +4,7 @@ url: '/2020/02/04/narzedzia-pracy-konsultanta-cz1/'
 date: Tue, 04 Feb 2020 22:14:24 +0000
 draft: false
 images: ['images/2020/02/consultancy.jpg']
+description: "Artykuł przedstawia kilka technik pracy konsultanta, które są warte wykorzystania w przypadku różnych sytuacji i wyzwań."
 category: 'Różne'
 tags: ['consultant', 'event storming']
 ---

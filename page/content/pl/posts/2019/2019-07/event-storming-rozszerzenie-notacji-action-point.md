@@ -4,6 +4,7 @@ url: '/2019/07/22/event-storming-rozszerzenie-notacji-action-point/'
 date: Mon, 22 Jul 2019 09:06:16 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Rozszerzenie notacji w postaci Action Pointa, na podstawie doświadczenia Piotra Klimca."
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

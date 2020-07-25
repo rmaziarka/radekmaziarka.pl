@@ -4,6 +4,7 @@ url: '/2018/07/18/dlaczego-bounded-contexty-sa-wazne-wprowadzenie/'
 date: Wed, 18 Jul 2018 20:48:22 +0000
 draft: false
 images: ['images/2018/07/private-1665019_960_720.jpg']
+description: "Rozpoczynam kolejny cykl - tym razem o Bounded Contextach. Zobacz czym są konteksty i jak mogą pomóc twojej aplikacji."
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

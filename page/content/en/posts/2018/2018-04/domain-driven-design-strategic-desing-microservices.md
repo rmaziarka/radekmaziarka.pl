@@ -4,6 +4,7 @@ url: '/2018/04/20/domain-driven-design-strategic-desing-microservices/'
 date: Thu, 19 Apr 2018 23:04:38 +0000
 draft: false
 images: ['images/2018/04/POWERPNT_2018-06-26_22-45-26.jpg']
+description: "In my presentation, I would like to bring closer the topic of Domain Driven Design - facts, myths and how it relates to microservices."
 category: 'Design patterns'
 tags: ['ddd', 'design pattern', 'microservices']
 ---

@@ -4,6 +4,7 @@ url: '/2018/08/20/dlaczego-bounded-contexty-sa-wazne-jezyk/'
 date: Mon, 20 Aug 2018 21:11:54 +0000
 draft: false
 images: ['images/2018/07/private-1665019_960_720.jpg']
+description: "Kolejny post z serii o Bounded Contextach - język i jego wpływ na tworzenie kontekstów."
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

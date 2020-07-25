@@ -4,6 +4,7 @@ url: '/2019/02/13/jak-uniknac-sagi-robiac-na-odwrot/'
 date: Wed, 13 Feb 2019 21:21:28 +0000
 draft: false
 images: ['images/2019/02/animal-3913023_960_720.jpg']
+description: "Luźne przemyślenie o sagach - na podstawie tweetu Udiego Dahana i prezentacji Adama Ralpha."
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

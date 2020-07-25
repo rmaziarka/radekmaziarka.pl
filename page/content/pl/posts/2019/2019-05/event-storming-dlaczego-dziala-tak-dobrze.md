@@ -4,6 +4,7 @@ url: '/2019/05/11/event-storming-dlaczego-dziala-tak-dobrze/'
 date: Sat, 11 May 2019 18:45:03 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Dlaczego Event Storming działa tak dobrze? Skąd jego olbrzymia popularność? Pozwólcie, że przedstawię  5 powodów..."
 category: 'Event Storming'
 tags: ['ddd', 'event storming']
 ---

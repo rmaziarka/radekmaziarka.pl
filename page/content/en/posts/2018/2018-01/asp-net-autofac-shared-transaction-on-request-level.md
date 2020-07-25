@@ -4,6 +4,7 @@ url: '/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/'
 date: Thu, 04 Jan 2018 01:01:24 +0000
 draft: false
 images: ['images/2018/01/autofac.png']
+description: "I want to show how to achieve transaction between Entity Framework and Dapper, in ASP.NET WebAPI application which uses Autofac DI."
 category: 'ASP.NET'
 tags: ['ASP.NET', 'Autofac', 'Dapper', 'Entity Framework', 'Web Api']
 ---

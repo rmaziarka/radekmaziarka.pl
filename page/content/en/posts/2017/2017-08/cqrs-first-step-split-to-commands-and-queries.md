@@ -4,6 +4,7 @@ url: '/2017/08/19/cqrs-first-step-split-to-commands-and-queries/'
 date: Sat, 19 Aug 2017 09:08:46 +0000
 draft: false
 images: ['images/2017/08/command-query.jpg']
+description: "Some guidance how you can introduce CQRS to your project, step by step."
 category: 'Design patterns'
 tags: ['']
 ---

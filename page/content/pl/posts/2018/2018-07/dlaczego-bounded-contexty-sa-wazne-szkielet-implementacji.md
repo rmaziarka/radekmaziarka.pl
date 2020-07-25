@@ -4,6 +4,7 @@ url: '/2018/07/29/dlaczego-bounded-contexty-sa-wazne-szkielet-implementacji/'
 date: Sun, 29 Jul 2018 21:51:55 +0000
 draft: false
 images: ['images/2018/07/private-1665019_960_720.jpg']
+description: "Kontynuując cykl o Bounded Contextach - kilka słów w jaki sposób zaimplementowac konteksty w swojej aplikacji."
 category: 'Wzorce projektowe'
 tags: ['domain driven design']
 ---

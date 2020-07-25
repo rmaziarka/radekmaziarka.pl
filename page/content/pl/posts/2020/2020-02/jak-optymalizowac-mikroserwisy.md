@@ -4,6 +4,7 @@ url: '/2020/02/17/jak-optymalizowac-mikroserwisy/'
 date: Mon, 17 Feb 2020 21:59:43 +0000
 draft: false
 images: []
+description: "Coraz więcej klientów zaczyna mieć problemy ze swoimi systemami opartymi o mikroserwisy. Zobacz jak można je zoptymalizować, na podstawie podejmowanych decyzji."
 category: 'Wzorce projektowe'
 tags: ['microservices', 'modulith', 'monolith']
 ---

@@ -4,6 +4,7 @@ url: '/2017/10/14/kendo-slider-custom-labels/'
 date: Sat, 14 Oct 2017 19:51:16 +0000
 draft: false
 images: ['images/2017/10/kendoka-08-350.png']
+description: "How to dynamically change labels in kendo slider."
 category: 'Kendo'
 tags: ['']
 ---

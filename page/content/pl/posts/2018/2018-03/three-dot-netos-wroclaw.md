@@ -4,6 +4,7 @@ url: '/2018/03/18/three-dot-netos-wroclaw/'
 date: Sun, 18 Mar 2018 19:16:13 +0000
 draft: false
 images: ['images/2018/03/event-logo.png']
+description: "Trzej Dot Netos odwiedzili Wrocław ze swoimi prezentacjami na temat wydajności w świecie .NET. Oto moja relacja z tego wydarzenia."
 category: 'Recenzja'
 tags: ['.Net', 'performance', 'three dot netos']
 ---

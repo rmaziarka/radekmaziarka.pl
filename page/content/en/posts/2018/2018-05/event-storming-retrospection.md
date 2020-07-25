@@ -4,6 +4,7 @@ url: '/2018/05/24/event-storming-retrospection/'
 date: Thu, 24 May 2018 22:21:45 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "My thoughts and advice after Event Storming workshop, from a facilitator's point of view."
 category: 'Event Storming'
 tags: ['domain driven design', 'event storming']
 ---

@@ -4,6 +4,7 @@ url: '/2019/02/25/conways-law-jak-struktura-organizacji-wplywa-na-osiagane-rezul
 date: Mon, 25 Feb 2019 20:58:01 +0000
 draft: false
 images: ['images/2019/02/acropolis-2725918_960_720.jpg']
+description: "Temat prawa Conwaya jest od dawna przypominany i wraca w kolejnych potwierdzeniach o jego istotności i wagi przy naszej codziennej pracy."
 category: 'Różne'
 tags: ['']
 ---

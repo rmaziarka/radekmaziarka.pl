@@ -4,6 +4,7 @@ url: '/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/'
 date: Thu, 06 Dec 2018 07:06:04 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Wprowadzenie do Event Stormingu - metody, która podbiła moje serce w kwestii modelowania procesów biznesowych."
 category: 'Event Storming'
 tags: ['domain driven design', 'event storming']
 ---

@@ -4,6 +4,7 @@ url: '/2018/06/07/command-query-responsibility-segregation-pierwsze-kroki/'
 date: Thu, 07 Jun 2018 19:13:57 +0000
 draft: false
 images: ['images/2017/08/command-query.jpg']
+description: "Zachęcam do zapoznania się z artykułem opisującym jak prosto jest wdrożyć CQRS do waszego projektu."
 category: 'Wzorce projektowe'
 tags: ['CQRS', 'design patterns']
 ---

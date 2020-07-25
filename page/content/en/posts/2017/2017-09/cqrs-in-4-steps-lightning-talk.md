@@ -4,6 +4,7 @@ url: '/2017/09/17/cqrs-in-4-steps-lightning-talk/'
 date: Sat, 16 Sep 2017 23:13:49 +0000
 draft: false
 images: ['images/2017/08/first-step.jpg']
+description: "This is a presentation how to introduce CQRS pattern to an existing application, step by step, without breaking changes and holding up the development."
 category: 'Design patterns'
 tags: ['']
 ---

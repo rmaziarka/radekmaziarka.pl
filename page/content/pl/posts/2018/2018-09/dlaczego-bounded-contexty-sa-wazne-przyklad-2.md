@@ -4,6 +4,7 @@ url: '/2018/09/17/dlaczego-bounded-contexty-sa-wazne-przyklad-2/'
 date: Mon, 17 Sep 2018 18:49:32 +0000
 draft: false
 images: ['images/2018/07/private-1665019_960_720.jpg']
+description: "Kolejny post z serii o Bounded Contextach - przykład problemów, gdy nie używamy kontekstów w naszych aplikacjach."
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

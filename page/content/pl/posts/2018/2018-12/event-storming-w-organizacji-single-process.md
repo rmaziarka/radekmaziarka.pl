@@ -4,6 +4,7 @@ url: '/2018/12/10/event-storming-w-organizacji-single-process/'
 date: Mon, 10 Dec 2018 22:20:48 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Event Storming w organizacji - metoda Single Process skupiająca się na dokładnym odzworowaniu jednego procesu biznesowego."
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

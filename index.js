@@ -163,8 +163,9 @@ function handlePostsXML(err, result) {
             tagString = 'tags: [\'' + tags.join("', '") + "']\n";
         }
 
-        featuredImagePath = '';
         var metaArray = post['wp:postmeta'] || [];
+
+        featuredImagePath = '';
         var featuredThumbnailMeta = metaArray.filter(meta => {
             return meta['wp:meta_key'][0] === '_thumbnail_id';
         })[0];
@@ -174,6 +175,17 @@ function handlePostsXML(err, result) {
             var featuredImage = imagesById[featuredImageId];
             featuredImagePath = featuredImage.paths.blogPath;
         }
+
+        var description = '';
+        var descriptionMeta = metaArray.filter(meta => {
+            return meta['wp:meta_key'][0] === '_aioseop_description';
+        })[0];
+
+        if(descriptionMeta){
+            description = descriptionMeta['wp:meta_value'][0];
+            description = replaceAll(description, '"', '\\"')
+        }
+            
 
         var pmap = {fname:'', comments:[]};
         var outputPostsDir = getOutputPostsDir(language);
@@ -200,6 +212,9 @@ function handlePostsXML(err, result) {
                 fileHeader+= `images: ['${featuredImagePath}']\n`;
             else 
                 fileHeader+= `images: []\n`;
+
+            if(description)
+                fileHeader+= `description: "${description}"\n`;            
             
             fileHeader+=`category: '${categoryName}'\n${tagString}---\n`
             fileContent = `${fileHeader}\n${markdown}`;

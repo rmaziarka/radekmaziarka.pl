@@ -4,6 +4,7 @@ url: '/2018/06/26/porady-dla-team-leadera-5-sklad-zespolu-cele-i-koszty/'
 date: Tue, 26 Jun 2018 22:43:57 +0000
 draft: false
 images: ['images/2018/05/action-2277292_960_720-1.jpg']
+description: "Na podstawie swojej pracy jako Team Leader zebrałem kilka porad dotyczących prowadzenia zespołem, którymi chciałbym się podzielić. "
 category: 'Leadership'
 tags: ['leadership']
 ---

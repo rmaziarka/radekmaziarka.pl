@@ -4,6 +4,7 @@ url: '/2019/09/26/dlaczego-bounded-contexty-sa-wazne-ostateczna-spojnosc/'
 date: Thu, 26 Sep 2019 15:40:42 +0000
 draft: false
 images: ['images/2018/07/private-1665019_960_720.jpg']
+description: "Kolejny odcinek z cyklu o Bounded Contextach - tym razem czym jest ostateczna spójność i dlaczego warto ją stosować przy wykorzystaniu kontekstów."
 category: 'Wzorce projektowe'
 tags: ['ddd', 'domain driven design']
 ---

@@ -4,6 +4,7 @@ url: '/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/'
 date: Mon, 10 Dec 2018 22:26:27 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Event Storming nie jest narzędziem skierowanym jedynie do problemów informatycznych. Zobacz jak radzi sobie z poprawą pracy organizacji lub firmy."
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

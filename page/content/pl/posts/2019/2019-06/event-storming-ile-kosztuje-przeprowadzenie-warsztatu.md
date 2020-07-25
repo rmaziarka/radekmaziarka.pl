@@ -4,6 +4,7 @@ url: '/2019/06/15/event-storming-ile-kosztuje-przeprowadzenie-warsztatu/'
 date: Sat, 15 Jun 2019 16:49:37 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
+description: "Kilka razy spotkałem się z informacją, że warsztaty Event Stormingowe są drogie w ich przeprowadzaniu. Sprawdźmy, czy tak jest naprawdę!"
 category: 'Event Storming'
 tags: ['ddd', 'domain driven design', 'event storming']
 ---

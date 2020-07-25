@@ -4,6 +4,7 @@ url: '/2018/10/26/entity-attribute-value-fallacy/'
 date: Fri, 26 Oct 2018 10:26:29 +0000
 draft: false
 images: ['images/2018/10/buildings-690696_960_720.jpg']
+description: "When I hear that EAV structure will solve all of our future unknown problems I want to run away. Let me describe why..."
 category: 'Design patterns'
 tags: ['ddd', 'domain driven design']
 ---

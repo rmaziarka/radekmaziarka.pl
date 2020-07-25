@@ -4,6 +4,7 @@ url: '/2018/01/16/dapper-many-to-many-relation-in-single-request/'
 date: Tue, 16 Jan 2018 13:14:57 +0000
 draft: false
 images: ['images/2018/01/00_Dapper.jpg']
+description: "Easy many-to-many data querying with Dapper."
 category: 'ORM'
 tags: ['Dapper', 'MS SQL']
 ---

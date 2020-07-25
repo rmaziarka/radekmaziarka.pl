@@ -4,6 +4,7 @@ url: '/2017/11/12/azure-machine-learning-so-god-damn-easy/'
 date: Sun, 12 Nov 2017 18:43:17 +0000
 draft: false
 images: ['images/2017/11/OverviewOfAzureML_960.jpg']
+description: "Machine Learning is everywhere these days. I want to show how easy is to start your own journey with Azure Machine Learning."
 category: 'Data science'
 tags: ['Azure', 'Machine Learning']
 ---

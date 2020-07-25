@@ -4,6 +4,7 @@ url: '/2018/05/16/porady-dla-team-leadera-1-cechy-zespolu-bledy/'
 date: Wed, 16 May 2018 21:02:19 +0000
 draft: false
 images: ['images/2018/05/action-2277292_960_720.jpg']
+description: "Na podstawie swojej pracy jako Team Leader zebrałem kilka porad dotyczących prowadzenia zespołem, którymi chciałbym się podzielić. "
 category: 'Leadership'
 tags: ['leadership']
 ---

@@ -1,6 +1,7 @@
 <div class="search">
-    <form>
+    <form role="search" method="get" action="https://www.google.com/search">
         <button class="search__button" type="submit"><i class="fa fa-search"></i></button>
-        <input class="search__input" type="text" placeholder="SZUKAJ">
+        <input type="hidden" name="sitesearch" value="radekmaziarka.pl">
+        <input class="search__input" value="" type="text" name="q" placeholder="SZUKAJ">
     </form>
 </div>

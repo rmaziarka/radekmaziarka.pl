@@ -16,6 +16,9 @@ If you are interested in this topic you can check my [training offer](/szkolenia
 
 You can find slides from my presentation on [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgvcpKhmk0WXxVHUqLw).
 
+## Recording [PL]:
+{{< youtube 4jv_E5G9Z04 >}}
+
 ## Description:
 
 Traditionally, while creating our system, you don't focus on creating our components separated from each other. As a result, one problem can lead you to the domino effect - the whole system stops working. How to counteract it?

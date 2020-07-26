@@ -12,7 +12,10 @@ aliases: ['/bledy-poznawcze']
 
 W ramach [3 spotkania](https://www.meetup.com/en-AU/Wroclaw-Agile-Development-Meetup/events/248534112/) grupy [Wrocław Agile Development](https://www.meetup.com/en-AU/Wroclaw-Agile-Development-Meetup/) wystąpiłem z prezentacją "Jak błędy poznawcze niszczą twoją pracę". Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgtQXIKetXAlnaIcQPQ).
 
-**Opis prezentacji:**
+## Nagranie:
+{{< youtube h7RxT977I3I >}}
+
+## Opis prezentacji:
 
 "Jako programiści chętnie dzielimy się swoimi historiami o porażkach technicznych. Zapominamy jednak, że największym i najbardziej kosztownym, a jednocześnie względnie prostym do uniknięcia problemem w projekcie jest niedostosowanie systemu do wymagań klienta. Projekt zrealizowany - klient nie otrzymał tego, co potrzebował; stracił czas i pieniądze.
 
@@ -21,7 +24,7 @@ Na podstawie moich doświadczeń w dotychczasowych projektach chciałbym zapreze
 - W jaki sposób jesteśmy w stanie z nimi walczyć?
 - Jak eliminowanie tych problemów pozwoli nam zaoszczędzić ogromne pieniądze w skali całego projektu."
 
-**Materiały:**
+## Materiały:
 
  *   IBM – „Minimizing code defects to improve software quality and lower development costs.” [ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf](ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf)
  *   NIoST - „The Economic Impacts of Inadequate Infrastructure for Software Testing.” [https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf](https://www.nist.gov/sites/default/files/documents/director/planning/report02-3.pdf)

@@ -14,7 +14,10 @@ W ramach [Wrocławskiego JUGa](https://www.meetup.com/pl-PL/WroclawJUG/events/26
 
 Jeśli  chciałbyś / chciałabyś nauczyć się przeprowadzać Event Storming na kanwie własnych projektów to polecam moje** [warsztaty z Event Stormingu](/szkolenia/event-storming).**
 
-Materiały na których bazowałem:
+## Nagranie:
+{{< youtube 1XrE0NMCmAo >}}
+
+## Materiały:
 
  *   Alberto Brandolini - Introducing EventStorming - [https://www.eventstorming.com/book/](https://www.eventstorming.com/book/)
  *   Radek Maziarka - Event Storming - Jak szybko odkrywać nieznane ?- [/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)

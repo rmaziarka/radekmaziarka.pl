@@ -12,7 +12,10 @@ aliases: ['/terraform']
 
 W ramach Wrocławskiej Grupy .NET wystąpiłem z prezentacją “Zarządzanie infrastrukturą w chmurze za pomocą Terraform”. Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPg9NkPVEtgnN-5AE2EA?e=tqI1R0).
 
-Materiały na których bazowałem:
+## Nagranie
+{{< youtube kZGz1_B6AiA >}}
+
+## Materiały
 
  *   Dokumentacja Terraform - [https://www.terraform.io/docs/index.html](https://www.terraform.io/docs/index.html)
  *   Skrypt wstępny - [https://github.com/rmaziarka/terraform-azure](https://github.com/rmaziarka/terraform-azure)

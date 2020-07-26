@@ -16,7 +16,11 @@ If you attended this presentation please share your thoughts in this [survey](/d
 
 You can find slides from my presentation on [Slideshare](https://www.slideshare.net/RadosawMaziarka/domain-driven-design-strategic-patterns-and-microservices), or download it from [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPgtBVEwOE7p3y6woZ6Q).
 
-Articles:
+## Recording [PL]:
+{{< youtube MHgLJqE2zm0 >}}
+
+## Materials:
+**Articles:**
 
  *   [Weronika Łabaj - DDD Ultra-Lite](https://weronikalabaj.com/ddd-ultra-lite/)
  *   [Herberto Graca - Domain-Driven Design](https://herbertograca.com/2017/09/07/domain-driven-design/)
@@ -29,7 +33,7 @@ Articles:
  *   [Eric Evans - Domain Language](https://domainlanguage.com/)
  *   [Martin Fowler - Domain-Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html)
 
-Videos:
+**Videos:**
 
  *   [DevTalk - DDD with Sławomir Sobótka](https://www.youtube.com/watch?v=WYQ3v3-4M8Y)
  *   [DevTalk Trio - DDD](https://www.youtube.com/watch?v=u6Vb5k5sTN4)
@@ -39,7 +43,7 @@ Videos:
  *   [DDD & Microservices: At Last, Some Boundaries! • Eric Evans](https://www.infoq.com/presentations/ddd-microservices-2016)
  *   [7 Reasons Why DDD Projects Fail](https://vimeo.com/13824218)
 
-Books:
+**Books:**
 
  *   [Eric Evans - Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
  *   [Vernon Vaughn - Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)

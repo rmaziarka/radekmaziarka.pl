@@ -23,6 +23,11 @@ Also, you can check my blog posts:
 
 Moreover, there are sources on [Github](https://github.com/rmaziarka/CQRS-4steps) and I encourage you to go through materials:
 
+## Recording [PL]:
+{{< youtube i0wCilZ0QdY >}}
+
+## Materials:
+
 **CQRS + MediatR implementation:**
 
  *   Jimmy Bogard - CQRS with MediatR and AutoMapper - [https://lostechies.com/jimmybogard/2016/10/27/cqrsmediatr-implementation-patterns/](https://lostechies.com/jimmybogard/2016/10/27/cqrsmediatr-implementation-patterns/)

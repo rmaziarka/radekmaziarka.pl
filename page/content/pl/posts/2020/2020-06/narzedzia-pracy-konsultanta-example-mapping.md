@@ -34,3 +34,5 @@ Example Mapping pozwolił porozumieć się na poziomie wspólnych wartości, gdz
 ## Dlaczego warto?
 
 Zmiana mentalna, nakierowana na wytworzenie jak największej ilości przypadków, pozwala zdefiniować takie sytuacje, których w normalnym trybie pracy byśmy nie znaleźli. Na tej podstawie wiemy co może nas czekać i jak sobie z tym poradzić.
+
+Cokolwiek

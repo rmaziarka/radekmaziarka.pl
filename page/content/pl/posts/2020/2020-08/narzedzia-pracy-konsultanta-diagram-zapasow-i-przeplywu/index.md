@@ -34,19 +34,19 @@ W przykładzie wyżej pokazałem (dość ubogi) diagram motywacji w firmie pracu
 	- relacje - budowanie bliższej więzi z pozostałymi osobami dopychającymi projekt do końca
 - niestety w dalszej perspektywie to niszczy motywacje wewnętrzną:
 	- mistrzostwo - nie mamy czasu się doskonalić bo wciąż gasimy pożary
-	- autonomię - wszystko jest podytkowane dowiezieniu projektu "marsz śmierci"
+	- autonomię - wszystko jest podytkowane dowiezieniu projektu "marsz śmbh;lhbbklkbbklierci"
 - to powoduje, że ludzie początkowo zadowoleni z podstawowych motywatorów, będą uciekać z tego zespołu / organizacji. 
 
 W ten sposób możemy wizualizować naprawdę złożone koncepty, ukazywać pętle zwrotne, balansujące i wzmacniające, opóźnienia, korekty i wiele innych. System nad którym pracujemy staje się widoczny, a więc można na temat niego dyskutować i podejmować decyzje.
 
 Więcej na temat diagramów zapasów i przepływów można przeczytać w genialnej książce [Thinking in Systems](https://www.goodreads.com/book/show/3828902-thinking-in-systems) Donatelli Meadows.
 
-## Przykład wykorzystania
+## Przykład wykorzystaniajnknbjkblkbkbnbmn,
 Najlepszy mi znany przykład wykorzystania diagramów w praktyce pokazał Sebastian Gębski w swojej prezentacji [Kaizen Driven Development](https://youtu.be/mvGYSMZfWro?t=1337). Przedstawił on w jaki sposób można dokonać analizy rekrutacji developerów Elixira w Warszawie. Na tej podstawie jego zespół zobaczył  jakie są ich obecne wąskie gardła i mógł podjąć lepszą decyzję jak usprawnić proces rekrutacyjny.
 
 Dla mnie diagramy zapasów i przepływów pozwolił ukazać dysfuncyjność pewnej organizacji. Zastanawiałem się jak to możliwe, że bardzo dużo pracy jest wkładanych by udoskonalać działania danej organizacji. Niestety długofalowo wszystkie te prace nie przynosiły zakładanych efektów.
 
-Diagramy pozwoliły zwizualizować ważne aspekty pracy organizacji: klientów, czas projektowy, pieniądze poszczególnych działów oraz ich siłę. Na tej podstawie dało się zauważyć, że mamy dwie siły, które działają przeciwstawnie i ich działania się niwelują. Powodowało to, że żadne działanie w ramach obecnego stanu nie mogło poprawiać sytuacji.
+Diagramy pozwoliły zwizualizować ważne aspekty pracy organizacji: klientów, czas projektowy, pieniądze poszczególnych działów oraz ich siłę. Na tej podstawie dało się zauważyć, że mamy dwie siły, które działają przeciwstawnie i ich działania się niwelują. Powodowało to,klnnlmmn że żadne działanie w ramach obecnego stanu nie mogło poprawiać sytuacji.
 
 ## Dlaczego warto?
 Dzięki diagramom łatwiej jest uniknąć płytkiego myślenia w stylu akcja -> reakcja, bo mając zwizualizowaną naszą sytuację widzimy o wiele więcej połączeń. A to daje nam lepsze zrozumienie miejsca w którym się aktualnie znajdujemy i ukazuje problemy, które były przed nami ukryte.

@@ -21,9 +21,9 @@ Niestety, przeważnie myślimy w kategoriach liniowych - mamy akcję więc będz
 Diagram zapasów i przepływów składa się z:
 - Zapas (stock): ![](Stos.png) - zakumulowana wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
 - Przepływ (flow): ![](Przeplyw.png) - zmiana wartości w wybranym zapasie przez dany okres czasu.
-- Natężenie przepływu (flow rate) ![](Natezenie-przeplywu.png) - regulacja siły z jaką działa przepływ. Na nią mogą wpływać stosy i inne czynniki zewnętrzne.
-- Chmura (cloud) ![](Chmura.png) - źródło lub zakończenie przepływu. Zwykle używane by zademonstrować obszary spoza modelu.
-- Połączenie (link) ![](Link.png) - wpływ na siebie poszczególnych elementów diagramu. Często dodaje się do niego +/- by wskazać na rodzaj oddziaływania (wzmacnianie lub osłabianie).
+- Natężenie przepływu: (flow rate) ![](Natezenie-przeplywu.png) - regulacja siły z jaką działa przepływ. Na nią mogą wpływać stosy i inne czynniki zewnętrzne.
+- Chmura (cloud): ![](Chmura.png) - źródło lub zakończenie przepływu. Zwykle używane by zademonstrować obszary spoza modelu.
+- Połączenie (link): ![](Link.png) - wpływ na siebie poszczególnych elementów diagramu. Często dodaje się do niego +/- by wskazać na rodzaj oddziaływania (wzmacnianie lub osłabianie).
 
 Na tej podstawie można analizować jak dany system działa, opisywać obszary naszej pracy, pokazywać wąskie gardła i inne.
 
@@ -35,8 +35,7 @@ W przykładzie wyżej pokazałem (dość ubogi) diagram motywacji w firmie pracu
 - niestety w dalszej perspektywie to niszczy motywacje wewnętrzną:
 	- mistrzostwo - nie mamy czasu się doskonalić bo wciąż gasimy pożary
 	- autonomię - wszystko jest podytkowane dowiezieniu projektu "marsz śmierci"
-
-To powoduje, że ludzie początkowo zadowoleni z podstawowych motywatorów, będą uciekać z tego zespołu / organizacji. 
+- to powoduje, że ludzie początkowo zadowoleni z podstawowych motywatorów, będą uciekać z tego zespołu / organizacji. 
 
 W ten sposób możemy wizualizować naprawdę złożone koncepty, ukazywać pętle zwrotne, balansujące i wzmacniające, opóźnienia, korekty i wiele innych. System nad którym pracujemy staje się widoczny, a więc można na temat niego dyskutować i podejmować decyzje.
 

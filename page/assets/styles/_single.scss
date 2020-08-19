@@ -34,6 +34,10 @@
     display: block;
   }
 
+  &__categoryLink:hover {
+    color: $colorDarkBlue;
+  }
+
   &__title {
     font-family: $articleTitleFont;
     font-size: $articleTitleSize;
@@ -73,6 +77,10 @@
 
     a {
       color: $colorBlue;
+    }
+
+    a:hover{
+      color: $colorDarkBlue;
     }
 
     h1, h2, h3, h4, h5 {

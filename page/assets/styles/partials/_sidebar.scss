@@ -23,6 +23,11 @@
     display: block;
     margin-bottom: 30px;
   }
+  a:hover {
+    h6 {
+      color: $colorBlue;
+    }
+  }
 
   &__title {
     margin-bottom: 35px;

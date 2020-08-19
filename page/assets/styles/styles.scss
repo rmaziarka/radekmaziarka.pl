@@ -6,11 +6,7 @@
 @import "tags";
 @import "single";
 // bootstrap
-@import "functions";
-@import "bootstrap-variables";
-@import "mixins";
-@import "forms";
-@import "buttons";
+@import "bootstrap";
 
 body {
   color: $textColor;

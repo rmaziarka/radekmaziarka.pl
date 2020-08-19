@@ -19,11 +19,11 @@ Niestety, przeważnie myślimy w kategoriach liniowych - mamy akcję więc będz
 ![Diagram systemu motywacji](diagram-systemu-motywacji.jpg)
 
 Diagram zapasów i przepływów składa się z:
-- Zapas (stock): ![](Stos.png) - zakumulowana wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
-- Przepływ (flow): ![](Przeplyw.png) - zmiana wartości w wybranym zapasie przez dany okres czasu.
-- Natężenie przepływu: (flow rate) ![](Natezenie-przeplywu.png) - regulacja siły z jaką działa przepływ. Na nią mogą wpływać stosy i inne czynniki zewnętrzne.
-- Chmura (cloud): ![](Chmura.png) - źródło lub zakończenie przepływu. Zwykle używane by zademonstrować obszary spoza modelu.
-- Połączenie (link): ![](Link.png) - wpływ na siebie poszczególnych elementów diagramu. Często dodaje się do niego +/- by wskazać na rodzaj oddziaływania (wzmacnianie lub osłabianie).
+- ![](Stos.png) Zapas (stock) - zakumulowana wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
+- ![](Przeplyw.png) Przepływ (flow) - zmiana wartości w wybranym zapasie przez dany okres czasu.
+- ![](Natezenie-przeplywu.png) Natężenie przepływu (flow rate) - regulacja siły z jaką działa przepływ. Na nią mogą wpływać stosy i inne czynniki zewnętrzne.
+- ![](Chmura.png) Chmura (cloud) - źródło lub zakończenie przepływu. Zwykle używane by zademonstrować obszary spoza modelu.
+- ![](Link.png) Połączenie (link) - wpływ na siebie poszczególnych elementów diagramu. Często dodaje się do niego +/- by wskazać na rodzaj oddziaływania (wzmacnianie lub osłabianie).
 
 Na tej podstawie można analizować jak dany system działa, opisywać obszary naszej pracy, pokazywać wąskie gardła i inne.
 

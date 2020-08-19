@@ -53,20 +53,6 @@ baseURL = "https://radekmaziarka.pl/"
   weight = 40
 
 [[languages.pl.menu.main]]
-  identifier = "szkolenia-techniczne"
-  name = "Techniczne"
-  url = "/szkolenia/techniczne"
-  weight = 10
-  parent = "szkolenia"
-
-[[languages.pl.menu.main]]
-  identifier = "szkolenia-miekkie"
-  name = "Miękkie"
-  url = "/szkolenia/miekkie"
-  weight = 20
-  parent = "szkolenia"
-
-[[languages.pl.menu.main]]
   identifier = "o-mnie"
   name = "O mnie"
   url = "/o-mnie"

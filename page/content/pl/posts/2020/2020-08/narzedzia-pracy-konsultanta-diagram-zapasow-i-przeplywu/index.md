@@ -2,14 +2,14 @@
 title: 'Narzędzia pracy konsultanta – Diagram zapasów i przepływów'
 url: '/2020/18/21/narzedzia-pracy-konsultanta-diagram-zapasow-i-przeplywow/'
 date: Tue, 18 Aug 2020 14:56:35 +0000
-draft: false
+draft: true
 images: ['images/2020/02/consultancy.jpg']
 description: "Artykuł przedstawia diagram zapasów i przepływów - technikę mapowania złożonych systemów."
 category: 'Consulting'
 tags: ['consulting', 'system thinking']
 ---
 
-Wszystkie narzędzia zostały zebrane w [Narzędzia pracy konsultanta - podsumowanie](/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie)
+Wszystkie narzędzia zostały zebrane w [Narzędzia pracy konsultanta - podsumowanie](/2020/02/04/narzeasdasddzia-pracy-konsultanta-podsumowanie)
 
 ## Diagram zapasów i przepływów
 Diagramy zapasów i przepływów (stocks and flows diagrams) to ciekawe narzędzie do wizualizowania połączonych ze sobą mechanizmów i obszarów. Na ich podstawie możemy wyciągać wnioski o tym, w jaki sposób pracują zespoły, działają organizacje czy całe ekosystemy. Zaczynamy dostrzegać skomplikowaną rzeczywistość.

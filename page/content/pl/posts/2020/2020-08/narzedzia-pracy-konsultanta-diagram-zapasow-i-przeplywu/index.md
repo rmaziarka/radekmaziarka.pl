@@ -16,7 +16,7 @@ Diagramy zapasów i przepływów (stocks and flows diagrams) to ciekawe narzędz
 
 Niestety, przeważnie myślimy w kategoriach liniowych - mamy akcję więc będzie również reakcja. Często wydaje nam się, że wystarczy proste działanie by uzyskać wyniki. Nie widzimy "zestawu naczyń połączonych", który wpływa na ostateczne rezultaty. W takich sytuacjach nasza próba rozwiązania problemu może go jeszcze bardziej skomplikować.
 
-![Diagram systemu motywacji](diagram-systemu-motywacji.jpg)
+// zdjecie diagramu z sieci
 
 Diagram zapasów i przepływów składa się z:
 - ![](Stos.png) Zapas (stock) - zgromadzona wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
@@ -27,16 +27,6 @@ Diagram zapasów i przepływów składa się z:
 
 Za pomocą takich diagramów można analizować jak działa system, opisywać obszary naszej pracy, pokazywać wąskie gardła i inne.
 
-W przykładzie wyżej pokazałem (dość ubogi) diagram motywacji w firmie pracującej nad "marszami śmierci", bazując na [zasadach motywacji Pinka](https://www.goodreads.com/book/show/6452796-drive):
-- liczba projektów "marsz śmierci" wpływa na ilość czasu poświęcanego na nie w stosunku do całej reszty
-- to może początkowo budować motywację zewnętrzną:
-	- pieniądze - więcej nadgodzin spędzanych nad tymi projektami
-	- relacje - budowanie bliższej więzi z pozostałymi osobami dopychającymi projekt do końca
-- niestety w dalszej perspektywie to niszczy motywację wewnętrzną:
-	- mistrzostwo - nie mamy czasu się doskonalić, bo wciąż gasimy pożary
-	- autonomię - wszystko jest podporządkowane dowiezieniu projektu "marsz śmierci"
-- to powoduje, że ludzie początkowo zadowoleni z podstawowych motywatorów, będą uciekać z tego zespołu / organizacji. 
-
 Diagramy zapasów i przepływów pozwalają wizualizować naprawdę złożone koncepty, ukazywać pętle zwrotne, balansujące i wzmacniające, opóźnienia, korekty i wiele innych. Dzięki nim system nad którym pracujemy staje się widoczny, a więc można na temat niego dyskutować i podejmować decyzje.
 
 Więcej na temat diagramów zapasów i przepływów można przeczytać w genialnej książce [Thinking in Systems](https://www.goodreads.com/book/show/3828902-thinking-in-systems) Donatelli Meadows.
@@ -44,7 +34,21 @@ Więcej na temat diagramów zapasów i przepływów można przeczytać w genialn
 ## Przykład wykorzystania
 Najlepszy mi znany przykład wykorzystania diagramów w praktyce pokazał Sebastian Gębski w swojej prezentacji [Kaizen Driven Development](https://youtu.be/mvGYSMZfWro?t=1337). Przedstawił on w jaki sposób można dokonać analizy rekrutacji developerów Elixira w Warszawie. Na tej podstawie jego zespół zobaczył jakie są ich obecne wąskie gardła i mógł podjąć lepszą decyzję jak usprawnić proces rekrutacyjny.
 
-Dla mnie diagramy zapasów i przepływów pozwolił ukazać dysfuncyjność pewnej organizacji. Zastanawiałem się jak to możliwe, że bardzo dużo pracy jest wkładane w udoskonalanie działania tej organizacji, a długofalowo wszystkie nie przynosiło to zakładanych efektów.
+Ja wykorzystałem diagramy zapasów i przepływów by wytłumaczyć koledze menadżerowi dlaczego "z dnia na dzień" zwolniło się u niego kilka osób w zespole. Zespół w teorii zarabiał świetne pieniądze, oraz mocno się zżył. Nie przeszkodziło to jednak w odejściu kluczowych członków zespołu. Wszystko bazowało na [zasad motywacji Pinka](https://www.goodreads.com/book/show/6452796-drive):
+
+![Diagram systemu motywacji](diagram-systemu-motywacji.jpg)
+- w firmie pojawiało się coraz więcej projektów typu ["marsz śmierci"](https://www.goodreads.com/book/show/54259.Death_March)
+- to oczywiście powodowało, że ludzie spędzali w nich więcej czasu niż w normalnych projektach
+- to początkowo budowało motywację zewnętrzną:
+	- pieniądze - zespół był nagradzany za pracę nad takimi trudnymi projektami + brał nadgodziny by dostarczać projekty na czas
+	- relacje - w ramach tej walki projektowej osoby w zespole bardzo mocno się zżyły tworząc paczkę przyjaciów
+- niestety w dalszej perspektywie to zniszczyło motywację wewnętrzną pracowników
+	- mistrzostwo - przez ciągłe gaszenie pożarów zespół nie miał  czasu się uczyć i doskonalić
+	- autonomię - wszystko było podporządkowane dowiezieniu "marszów śmierci", nie było żadnej swobody pracy
+- sama motywacja wewnętrzna znikała wolniej niż motywacja zewnętrzna (dlaczego?)
+- to powoduje, że ludzie początkowo zadowoleni z podstawowych motywatorów, będą uciekać z tego zespołu / organizacji. 
+
+
 
 Diagramy pozwoliły zwizualizować ważne aspekty pracy organizacji: klientów, czas projektowy, pieniądze poszczególnych działów oraz ich siłę. Na tej podstawie dało się zauważyć, że mamy dwie siły, które działają przeciwstawnie i ich działania się niwelują. Powodowało to, że żadne działanie w ramach obecnego stanu nie mogło poprawiać sytuacji.
 

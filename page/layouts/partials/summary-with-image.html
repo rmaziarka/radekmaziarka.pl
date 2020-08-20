@@ -8,7 +8,7 @@
     <div class="">
       {{ if $featured_image }}
         <div class="">
-          <a href="{{.Permalink}}" class="">
+          <a href="{{.RelPermalink}}" class="">
             <img src="/{{ $featured_image }}" class="" alt="image from {{ .Title }}">
           </a>
         </div>
@@ -22,14 +22,14 @@
           </span>
       </div>
         <h2 class="summaryWithImage__title">
-          <a href="{{.Permalink}}" class="">
+          <a href="{{.RelPermalink}}" class="">
             {{ .Title }}
             </a>
         </h2>
         <div class="summaryWithImage__body">
           {{ .Summary | truncate 220 }}
         </div>
-          <a href="{{.Permalink}}" class="moreLink">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+          <a href="{{.RelPermalink}}" class="moreLink">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
         {{/* TODO: add author
         <p class="">By {{ .Author }}</p> */}}
     </div>

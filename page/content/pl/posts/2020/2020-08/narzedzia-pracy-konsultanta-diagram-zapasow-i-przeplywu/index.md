@@ -19,9 +19,9 @@ Niestety, przeważnie myślimy w kategoriach liniowych - mamy akcję więc będz
 ![Diagram systemu motywacji](diagram-systemu-motywacji.jpg)
 
 Diagram zapasów i przepływów składa się z:
-- ![](Stos.png) Zapas (stock) - zakumulowana wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
+- ![](Stos.png) Zapas (stock) - zgromadzona wartość, w danym momencie czasu. Jest zmieniana przez przepływy.
 - ![](Przeplyw.png) Przepływ (flow) - zmiana wartości w wybranym zapasie przez dany okres czasu.
-- ![](Natezenie-przeplywu.png) Natężenie przepływu (flow rate) - regulacja siły z jaką działa przepływ. Na nią mogą wpływać stosy i inne czynniki zewnętrzne.
+- ![](Natezenie-przeplywu.png) Natężenie przepływu (flow rate) - regulacja siły z jaką działa przepływ. Na natężenie mogą wpływać zapasy i inne czynniki zewnętrzne.
 - ![](Chmura.png) Chmura (cloud) - źródło lub zakończenie przepływu. Zwykle używane by zademonstrować obszary spoza modelu.
 - ![](Link.png) Połączenie (link) - wpływ na siebie poszczególnych elementów diagramu. Często dodaje się do niego +/- by wskazać na rodzaj oddziaływania (wzmacnianie lub osłabianie).
 
@@ -44,7 +44,7 @@ Więcej na temat diagramów zapasów i przepływów można przeczytać w genialn
 ## Przykład wykorzystania
 Najlepszy mi znany przykład wykorzystania diagramów w praktyce pokazał Sebastian Gębski w swojej prezentacji [Kaizen Driven Development](https://youtu.be/mvGYSMZfWro?t=1337). Przedstawił on w jaki sposób można dokonać analizy rekrutacji developerów Elixira w Warszawie. Na tej podstawie jego zespół zobaczył jakie są ich obecne wąskie gardła i mógł podjąć lepszą decyzję jak usprawnić proces rekrutacyjny.
 
-Dla mnie diagramy zapasów i przepływów pozwoliył ukazać dysfuncyjność pewnej organizacji. Zastanawiałem się jak to możliwe, że bardzo dużo pracy jest wkładane w udoskonalanie działania tej organizacji, a długofalowo wszystkie nie przynosiło to zakładanych efektów.
+Dla mnie diagramy zapasów i przepływów pozwolił ukazać dysfuncyjność pewnej organizacji. Zastanawiałem się jak to możliwe, że bardzo dużo pracy jest wkładane w udoskonalanie działania tej organizacji, a długofalowo wszystkie nie przynosiło to zakładanych efektów.
 
 Diagramy pozwoliły zwizualizować ważne aspekty pracy organizacji: klientów, czas projektowy, pieniądze poszczególnych działów oraz ich siłę. Na tej podstawie dało się zauważyć, że mamy dwie siły, które działają przeciwstawnie i ich działania się niwelują. Powodowało to, że żadne działanie w ramach obecnego stanu nie mogło poprawiać sytuacji.
 

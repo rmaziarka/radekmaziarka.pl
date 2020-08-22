@@ -1,6 +1,7 @@
 ---
 title: 'Best practices not to forget during starting your project'
 url: '/2017/07/11/best-practices-not-to-forget-during-starting-your-project/'
+aliases: ['/en/2017/07/11/best-practices-not-to-forget-during-starting-your-project/']
 date: Tue, 11 Jul 2017 22:19:06 +0000
 draft: false
 images: ['images/2017/07/todd-quackenbush-701.jpg']

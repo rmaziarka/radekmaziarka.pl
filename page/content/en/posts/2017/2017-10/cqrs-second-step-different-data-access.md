@@ -1,6 +1,7 @@
 ---
 title: 'CQRS - Second step - Different data access'
 url: '/2017/10/31/cqrs-second-step-different-data-access/'
+aliases: ['/en/2017/10/31/cqrs-second-step-different-data-access/']
 date: Tue, 31 Oct 2017 18:44:02 +0000
 draft: false
 images: ['images/2017/10/different-data-access.jpg']

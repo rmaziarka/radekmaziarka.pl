@@ -1,6 +1,7 @@
 ---
 title: 'DevConf 2017'
 url: '/2017/09/19/devconf-2017/'
+aliases: ['/en/2017/09/19/devconf-2017/']
 date: Tue, 19 Sep 2017 20:29:55 +0000
 draft: false
 images: ['images/2017/09/conference.jpg']

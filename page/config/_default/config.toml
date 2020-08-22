@@ -4,13 +4,11 @@ defaultContentLanguage  = "pl"
 disqusShortname = "radekmaziarka-pl"
 googleAnalytics = "UA-51551522-2"
 baseURL = "https://radekmaziarka.pl/"
+paginate = 10
+paginatePath = "page"
 
 [params]
   author = "Radek Maziarka"
-
-[permalinks]
-  posts = "/:slug"
-  pages = "/:slug"
 
 [taxonomies]
   category = "category"
@@ -25,7 +23,7 @@ baseURL = "https://radekmaziarka.pl/"
   [languages.en]
     title = "Radek Maziarka"
     description = "Radek Maziarka - personal blog"
-    contentDir = "content"
+    contentDir = "content/en"
     weight = 2
 
 [[languages.pl.menu.main]]

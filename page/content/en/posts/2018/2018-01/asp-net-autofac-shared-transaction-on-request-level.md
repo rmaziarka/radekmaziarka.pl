@@ -1,6 +1,7 @@
 ---
 title: 'Autofac + ASP.NET - Shared transaction between ORMs on a request level'
 url: '/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/'
+aliases: ['/en/2018/01/04/asp-net-autofac-shared-transaction-on-request-level/']
 date: Thu, 04 Jan 2018 01:01:24 +0000
 draft: false
 images: ['images/2018/01/autofac.png']

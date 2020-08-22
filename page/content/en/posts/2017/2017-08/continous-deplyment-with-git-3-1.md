@@ -1,6 +1,7 @@
 ---
 title: 'Serverless – Continous deployment with GIT [3.1]'
 url: '/2017/08/03/continous-deplyment-with-git-3-1/'
+aliases: ['/en/2017/08/03/continous-deplyment-with-git-3-1/']
 date: Thu, 03 Aug 2017 20:59:42 +0000
 draft: false
 images: ['images/2017/07/benjamin-child-19747.jpg']

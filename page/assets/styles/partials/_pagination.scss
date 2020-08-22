@@ -1,0 +1,10 @@
+.page-link {
+    color: $colorBlue;
+}
+
+.page-item.active { 
+    .page-link {
+        background-color: $colorBlue;
+        border-color: $colorBlue;
+    }
+}

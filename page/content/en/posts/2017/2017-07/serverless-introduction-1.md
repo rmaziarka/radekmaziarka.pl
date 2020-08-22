@@ -1,6 +1,7 @@
 ---
 title: 'Serverless - Introduction [1]'
 url: '/2017/07/05/serverless-introduction-1/'
+aliases: ['/en/2017/07/05/serverless-introduction-1/']
 date: Wed, 05 Jul 2017 22:35:42 +0000
 draft: false
 images: ['images/2017/07/benjamin-child-19747.jpg']

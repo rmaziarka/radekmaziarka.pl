@@ -1,6 +1,7 @@
 ---
 title: 'Entity-Attribute-Value fallacy'
 url: '/2018/10/26/entity-attribute-value-fallacy/'
+aliases: ['/en/2018/10/26/entity-attribute-value-fallacy/']
 date: Fri, 26 Oct 2018 10:26:29 +0000
 draft: false
 images: ['images/2018/10/buildings-690696_960_720.jpg']

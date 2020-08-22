@@ -1,6 +1,7 @@
 ---
 title: 'Kendo - several useful helpers'
 url: '/2016/07/06/kendo-quick-handicaps/'
+aliases: ['/en/2016/07/06/kendo-quick-handicaps/']
 date: Wed, 06 Jul 2016 19:36:09 +0000
 draft: false
 images: ['images/2016/07/HNCK2697.jpg']

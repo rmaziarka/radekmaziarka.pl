@@ -1,6 +1,7 @@
 ---
 title: 'CQRS in 4 steps - Lightning talk'
 url: '/2017/09/17/cqrs-in-4-steps-lightning-talk/'
+aliases: ['/en/2017/09/17/cqrs-in-4-steps-lightning-talk/']
 date: Sat, 16 Sep 2017 23:13:49 +0000
 draft: false
 images: ['images/2017/08/first-step.jpg']

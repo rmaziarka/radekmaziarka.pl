@@ -1,6 +1,7 @@
 ---
 title: 'Event Storming - retrospection'
 url: '/2018/05/24/event-storming-retrospection/'
+aliases: ['/en/2018/05/24/event-storming-retrospection/']
 date: Thu, 24 May 2018 22:21:45 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']

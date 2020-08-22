@@ -1,6 +1,7 @@
 ---
 title: 'Event Storming remotely – tips and tricks'
 url: '/2020/03/29/event-storming-remotely-tips-and-tricks/'
+aliases: ['/en/2020/03/29/event-storming-remotely-tips-and-tricks/']
 date: Sun, 29 Mar 2020 14:16:50 +0000
 draft: false
 images: ['images/2018/05/eventstorming.logo_.png']

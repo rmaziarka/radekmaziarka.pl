@@ -1,6 +1,7 @@
 ---
 title: 'Dapper - JSON type custom mapper'
 url: '/2018/01/22/dapper-json-type-custom-mapper/'
+aliases: ['/en/2018/01/22/dapper-json-type-custom-mapper/']
 date: Mon, 22 Jan 2018 17:27:46 +0000
 draft: false
 images: ['images/2018/01/00_Dapper.jpg']

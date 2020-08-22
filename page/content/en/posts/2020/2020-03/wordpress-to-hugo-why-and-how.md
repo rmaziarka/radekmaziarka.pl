@@ -1,6 +1,7 @@
 ---
 title: 'Wordpress to Hugo – why and how'
 url: '/2020/03/14/wordpress-to-hugo-why-and-how/'
+aliases: ['/en/2020/03/14/wordpress-to-hugo-why-and-how/']
 date: Sat, 14 Mar 2020 15:08:42 +0000
 draft: false
 images: ['images/2020/03/way-918900_1280.jpg']

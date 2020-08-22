@@ -1,6 +1,7 @@
 ---
 title: 'PowerApps - few words against'
 url: '/2017/07/08/powerapps-few-words-against/'
+aliases: ['/en/2017/07/08/powerapps-few-words-against/']
 date: Sat, 08 Jul 2017 20:21:50 +0000
 draft: false
 images: ['images/2017/07/3338426105_771215c074_b.jpg']

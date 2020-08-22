@@ -1,6 +1,7 @@
 ---
 title: 'CQRS - First step - Split to commands and queries'
 url: '/2017/08/19/cqrs-first-step-split-to-commands-and-queries/'
+aliases: ['/en/2017/08/19/cqrs-first-step-split-to-commands-and-queries/']
 date: Sat, 19 Aug 2017 09:08:46 +0000
 draft: false
 images: ['images/2017/08/command-query.jpg']

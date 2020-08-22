@@ -1,6 +1,7 @@
 ---
 title: 'Dynamic model validation with Fluent Validation'
 url: '/2016/03/30/dynamic-model-validation-with-fluent-validation/'
+aliases: ['/en/2016/03/30/dynamic-model-validation-with-fluent-validation/']
 date: Wed, 30 Mar 2016 17:09:43 +0000
 draft: false
 images: ['images/2016/03/wind-surfing-67627_1280.jpg']

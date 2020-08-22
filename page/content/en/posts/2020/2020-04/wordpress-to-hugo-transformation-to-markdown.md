@@ -1,6 +1,7 @@
 ---
 title: 'Wordpress to Hugo – transformation to markdown'
 url: '/2020/04/12/wordpress-to-hugo-transformation-to-markdown/'
+aliases: ['/en/2020/04/12/wordpress-to-hugo-transformation-to-markdown/']
 date: Sun, 12 Apr 2020 20:17:03 +0000
 draft: false
 images: ['images/2020/03/way-918900_1280.jpg']

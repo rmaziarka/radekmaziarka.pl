@@ -94,6 +94,18 @@ a:hover{
   text-decoration: none;
 }
 
+a.header-link {
+  h1,h2,h3,h4,h5,h6{
+    color: $colorBlue;
+  }
+}
+
+a.header-link:hover {
+  h1,h2,h3,h4,h5,h6{
+    color: $colorDarkBlue;
+  }
+}
+
 // Partials
 @import "partials/header";
 @import "partials/menu";
@@ -107,3 +119,12 @@ a:hover{
 @import 'partials/sharing';
 @import 'partials/contact-form';
 @import 'partials/pagination';
+
+.recommendation {
+  margin-bottom: 30px;
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+}

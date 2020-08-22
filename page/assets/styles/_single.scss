@@ -122,12 +122,17 @@
     blockquote{
       padding-left: 45px;
       color: $colorGrayMedium;
+      font-family: $fontMerriweather;
       font-size: $fontSize16;
       font-weight: 300;
       font-style: italic;
       letter-spacing: initial;
       line-height: 1.75;
       -webkit-font-smoothing: initial;
+    }
+
+    blockquote.small{
+      font-size: $fontSize14;
     }
     
     blockquote:before {

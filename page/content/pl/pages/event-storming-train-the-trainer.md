@@ -16,7 +16,7 @@ Zespoły programistyczne, kadra zarządzająca, HR
 
 Miejsce szkolenia:
 
-Siedziba klienta
+Siedziba klienta / Zdalnie
 
 ## Opis WARSZTATU
 

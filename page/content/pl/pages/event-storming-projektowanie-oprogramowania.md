@@ -16,7 +16,7 @@ Zespoły programistyczne
 
 Miejsce szkolenia:
 
-Siedziba klienta
+Siedziba klienta / Zdalnie
 
 ## Opis WARSZTATU
 

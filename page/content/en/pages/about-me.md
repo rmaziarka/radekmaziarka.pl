@@ -5,9 +5,9 @@ date: Sun, 13 Mar 2016 19:41:49 +0000
 draft: false
 ---
 
-[![](/images/2018/10/small.jpg)](/images/2018/10/small.jpg)
+![Profile photo](/images/2018/10/small.jpg)
 
-> ### ["I'm Winston Wolf. I solve problems."](https://hrspoiler.wordpress.com/2013/05/13/im-winston-wolf-i-solve-problems/)
+> ### ["I'm Winston Wolf. I solve problems."](https://www.linkedin.com/pulse/seven-habits-highly-effective-wolf-pulp-fiction-paul-richardson/)
 
 My name is Radek Maziarka. On a daily basis, I work as a Solution Architect. Additionally:
 

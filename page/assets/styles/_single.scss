@@ -118,6 +118,28 @@
       max-width: 100%;
       margin: 5px 0;
     }
+
+    blockquote{
+      padding-left: 45px;
+      color: $colorGrayMedium;
+      font-size: $fontSize16;
+      font-weight: 300;
+      font-style: italic;
+      letter-spacing: initial;
+      line-height: 1.75;
+      -webkit-font-smoothing: initial;
+    }
+    
+    blockquote:before {
+      content: "\201c";
+      float: left;
+      margin-top: 18px;
+      margin-left: -45px;
+      font-style: normal;
+      font-size: 45px;
+      line-height: 0.41;
+      color: $colorBlue;
+    }
   }
 
   &__disqus {

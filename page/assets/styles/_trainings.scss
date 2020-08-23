@@ -1,0 +1,14 @@
+.training-details {
+    margin-bottom: 20px;
+
+    .trainig-detail {
+        font-family: $fontPopins;
+
+        div:first-child{
+            font-weight: 600; 
+            text-transform: 
+            uppercase; 
+            text-align: right;
+        }
+    }
+}

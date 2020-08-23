@@ -1,0 +1,70 @@
+{{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
+{{ define "main" }}
+{{ $featured_image := "" }}
+{{if .Params.images}}
+  {{ $featured_image = index .Params.images 0  }}
+{{end}}
+<div class="single">
+  <div class="center">
+    <article class="">
+      <header>
+        <h1 class="single__title">
+          {{ .Title }}
+        </h1>
+
+        {{ if $featured_image }}
+        <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
+        {{ end }}
+      </header>
+      <div class="single__text">
+        <div class="training-details"> 
+          <div class="row trainig-detail">
+            <div class="col-sm-6">
+              Czas trwania:
+            </div>
+            <div class="col-sm-6">
+              {{ .Params.duration}}
+            </div>
+          </div>
+          <div class="row trainig-detail">
+            <div class="col-sm-6">
+              Grupa docelowa:
+            </div>
+            <div class="col-sm-6">
+              {{ .Params.targetGroup}}
+            </div>
+          </div>
+          <div class="row trainig-detail">
+            <div class="col-sm-6">
+              Miejsce warsztatu:
+            </div>
+            <div class="col-sm-6">
+              {{ .Params.trainingPlace}}
+            </div>
+          </div>
+        </div>
+        {{ .Content }}
+        <p>Jeśli interesowałby Cię ten warsztat <a href="/kontakt"><b>skontaktuj się ze mną</b></a>.</p>
+
+      <div>
+        <h3>Wiedza uzyskiwana na warsztacie:</h3>
+        <ul>
+          {{range .Params.knowledgeToObtain}}
+          <li>{{.}}</li>
+          {{end}}
+        </ul>
+      </div>
+      <div>
+        <h3>Program warsztatów:</h3>
+        <ul>
+          {{range .Params.trainingPlan}}
+          <li>{{.}}</li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+    </article>
+  </div>
+
+</div>
+{{ end }}

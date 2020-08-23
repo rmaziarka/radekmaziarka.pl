@@ -14,6 +14,6 @@ Możliwe jest przeprowadzenie różnych rodzajów tego warsztatu, zarówno na mi
 
  *   [Big Picture](/szkolenia/event-storming-big-picture/)
  *   [Projektowanie oprogramowania](/szkolenia/event-storming-projektowanie-oprogramowania/)
- *   [Train the Trainer](/event-storming-train-the-trainer/)
+ *   [Train the Trainer](/szkolenia/event-storming-train-the-trainer/)
 
 Jeśli interesuje Cię ten temat **[skontaktuj się ze mną ](/kontakt)** lub złap mnie na [**LinkedIn**. ](https://www.linkedin.com/in/maziarka-radoslaw/)Jeśli nie przekonałem Cię na tyle, sprawdź [moje posty](/category/event-storming/) w tematach Event Stormingu 😊

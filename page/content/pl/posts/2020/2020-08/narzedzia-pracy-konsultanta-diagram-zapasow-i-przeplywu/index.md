@@ -2,7 +2,7 @@
 title: 'Narzędzia pracy konsultanta – Diagram zapasów i przepływów'
 url: '/2020/23/21/narzedzia-pracy-konsultanta-diagram-zapasow-i-przeplywow/'
 date: Tue, 23 Aug 2020 14:56:35 +0000
-draft: true
+draft: false
 images: ['images/2020/02/consultancy.jpg']
 description: "Artykuł przedstawia diagram zapasów i przepływów - technikę mapowania złożonych systemów."
 category: 'Consulting'

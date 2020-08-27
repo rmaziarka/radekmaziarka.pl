@@ -36,6 +36,14 @@
           </div>
           <div class="row trainig-detail">
             <div class="col-sm-6">
+              Forma:
+            </div>
+            <div class="col-sm-6">
+              {{ .Params.form}}
+            </div>
+          </div>
+          <div class="row trainig-detail">
+            <div class="col-sm-6">
               Miejsce warsztatu:
             </div>
             <div class="col-sm-6">
@@ -56,6 +64,7 @@
       </div>
       <div>
         <h3>Program warsztatów:</h3>
+        Program opisany poniżej jest propozycją - do każdego szkolenia ustalamy dedykowany program na podstawie twoich potrzeb.
         <ul>
           {{range .Params.trainingPlan}}
           <li>{{.}}</li>

@@ -22,6 +22,7 @@ Może was to zdziwić, ale nie rozpocznę od Event Stormingu 😉, choć oczywi�
  5.  [Value-Stream Mapping](/2020/05/29/narzedzia-pracy-konsultanta-value-stream-mapping/)
  6.  [Example Mapping](/2020/06/17/narzedzia-pracy-konsultanta-example-mapping/)
  7.  [Wardley Map](/2020/06/21/narzedzia-pracy-konsultanta-wardley-map/)
+ 8.  [Diagram zapasów i przepływów](/2020/23/21/narzedzia-pracy-konsultanta-diagram-zapasow-i-przeplywow/)
 
 Zanim przejdziesz do poszczególnych technik i narzędzi, przeczytaj, dlaczego stosowanie takich narzędzi jest warte uwagi.
 

@@ -8,7 +8,13 @@ images: ['images/2019/07/prelekcje.jpg']
 
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
-## Przyszłe
+## 2020
+ * 2020-09-09 - "Event Storming - zwizualizuj i zaplanuj swój proces" - [Gra o Sens](https://www.meetup.com/pl-PL/GraoSens/events/271837071/)
+ * 2020-09-02 - "Zarządzanie infrastrukturą w chmurze za pomocą Terraform" - [Microsoft Azure User Group Poland](https://www.meetup.com/pl-PL/Microsoft-Azure-Users-Group-Poland/events/272804160/)
+ * 2020-08-19 - "Elastyczny produkt cyfrowy - rola Solution Architecta w planowaniu architektury systemu - [How2Product](https://how2product.com/podcast/5-elastyczny-produkt-cyfrowy-rola-solution-architecta-w-planowaniu-architektury-systemu,2020,17803) - [nagranie](https://open.spotify.com/episode/02HjyzGrkFBT5BEcbO1pEN?si=tNhn6XXiQ9eJlRkKXOCfYA)
+ * 2020-07-15 - "Impact Mapping - dostarczaj produkty, które wywierają wpływ" - [Gra o Sens](https://www.meetup.com/pl-PL/GraoSens/events/271791834/)
+ * 2020-07-01 - "Business Model Canvas - określ swój model biznesowy" - [Gra o Sens](https://www.meetup.com/pl-PL/GraoSens/events/271441323/)
+ * 2020-05-19 - "Zarządzanie infrastrukturą w chmurze za pomocą Terraform" - [WROC.NET](https://www.meetup.com/pl-PL/wrocnet/events/268145665/) - [video](https://www.youtube.com/watch?v=kZGz1_B6AiA)
 
 ## 2019
 

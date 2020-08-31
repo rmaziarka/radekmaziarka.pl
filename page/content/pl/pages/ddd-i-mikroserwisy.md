@@ -35,7 +35,6 @@ Podczas mojego szkolenia chciałbym przekazać Ci wiedzę jak tworzyć mikroserw
 ## Możliwy zakres szkolenia:
 
  *   Podstawy mikroserwisów
-    
      *   Jakie są pryncypia architektury mikroserwisowej
      *   Kiedy stosować tą architekturę
      *   Kiedy nie stosować / wystarczy zwykły modularny monolit

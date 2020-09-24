@@ -23,7 +23,7 @@ Każda firma lub organizacja posiada ustalone procesy (jasno lub mgliście), kt�
 
 Typowym, najczęściej stosowanym, rozwiązaniem tych problemów jest zwiększenie liczby organizowanych spotkań i wysyłanych maili. Poświęca się coraz większej ilości czasu na komunikację, a zazwyczaj nie przynosi to żadnych rezultatów. Tracimy czas na spotkaniach, zamiast zajmować się pracą. Czujemy, że możemy działać efektywniej, ale nie potrafimy do tego dojść.
 
-Event Storming pozwala zaadresować ten problem. Do samego warsztatu w firmie można podejść na 2 sposoby: jako **Big Picture** lub **Single Process **(choć pewnie można podejść jeszcze inaczej ;)
+Event Storming pozwala zaadresować ten problem. Do samego warsztatu w firmie można podejść na 2 sposoby: jako **Big Picture** lub **Single Process** (choć pewnie można podejść jeszcze inaczej ;)
 
 Dla zwiększenia czytelności wydzieliliśmy te 2 metody do osobnych postów:
 

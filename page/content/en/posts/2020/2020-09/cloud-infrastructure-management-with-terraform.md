@@ -1,7 +1,7 @@
 ---
 title: 'Cloud infrastructure management with Terraform'
 url: '/2020/09/24/cloud-infrastructure-management-with-terraform/'
-date: Thu, 24 Sep 2020 22:40:09 +0000
+date: Thu, 24 Sep 2020 12:40:09 +0000
 draft: false
 images: ['images/2020/05/terraform-logo.png']
 description: "In cooperation with DataArt I took part in DevOps Day meetup where I presented “Cloud infrastructure management with Terraform”."

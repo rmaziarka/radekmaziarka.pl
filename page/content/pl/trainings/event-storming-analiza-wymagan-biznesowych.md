@@ -5,7 +5,7 @@ draft: false
 images: ['images/2018/05/eventstorming.logo_.png']
 duration: '1-2 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
-url: '/szkolenia-i-warsztaty/event-storming-big-picture'
+url: '/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '10% teoria / 90% praktyka'
 knowledgeToObtain: [

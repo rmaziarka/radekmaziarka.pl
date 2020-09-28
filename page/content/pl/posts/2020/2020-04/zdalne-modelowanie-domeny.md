@@ -11,8 +11,10 @@ tags: ['']
 
 W ramach ostatniego [spotkania grupy](https://www.meetup.com/pl-PL/DDD-WRO/) DDD Wro połączyliśmy się z [Mirkiem Pragłowskim](https://twitter.com/mpraglowski), [Mariuszem Gilem](https://twitter.com/mariuszgil), i [Maćkiem Czerpińskim](https://twitter.com/mczerpinski) by porozmawiać na temat zdalnego modelowania domeny - jakich narzędzi i technik używać by odkrywać domenę biznesową i ją kształtować w systemach informatycznych. Poruszone były bardzo szeroko zarówno praktyki jak Event Storming, Event Modeling, Domain Storytelling, ale również ciekawe triki na usprawnienie przeprowadzania takich sesji zdalnych.
 
-Nagranie tego spotkania jest dostępne na YouTube:
+## Nagranie z prezentacji:
+{{< youtube PVlTcBjPj2w >}}
 
+## Materiały:
 Zebrałem linki ze spotkania abyście mieli do nich szybszy dostęp 😀
 
  *   [Miro](https://miro.com/app/) - tablica online do pracy zdalnej
@@ -29,3 +31,5 @@ Zebrałem linki ze spotkania abyście mieli do nich szybszy dostęp 😀
  *   [Event Storming remotely](/2020/03/29/event-storming-remotely-tips-and-tricks/) - mój artykuł o zdalnym Event Stormingu
 
 Także nic Cię już nie powstrzymuje by zacząć przeprowadzać swoje modelowanie zdalnie 😉
+
+Gdyby Cię interesował temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)**

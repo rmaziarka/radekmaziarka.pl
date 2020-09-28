@@ -49,6 +49,12 @@ paginatePath = "page"
   name = "O mnie"
   url = "/o-mnie"
   weight = 50
+  
+[[languages.pl.menu.main]]
+  identifier = "kontakt"
+  name = "Kontakt"
+  url = "/kontakt"
+  weight = 60
 
 [[languages.pl.menu.main]]
   identifier = "o-mnie-prelekcje"
@@ -56,19 +62,12 @@ paginatePath = "page"
   url = "/prelekcje"
   weight = 10
   parent = "o-mnie"
-  
-[[languages.pl.menu.main]]
-  identifier = "o-mnie-kontakt"
-  name = "Kontakt"
-  url = "/kontakt"
-  weight = 20
-  parent = "o-mnie"
 
 [[languages.pl.menu.main]]
   identifier = "english-posts"
-  name = "Check out english posts"
+  name = "English site"
   url = "/en"
-  weight = 60
+  weight = 70
   
 [[languages.en.menu.main]]
   identifier = "main"
@@ -97,7 +96,7 @@ paginatePath = "page"
 
 [[languages.en.menu.main]]
   identifier = "polish-posts"
-  name = "Sprawdź polskie posty"
+  name = "Strona polska"
   url = "/"
   weight = 50
 

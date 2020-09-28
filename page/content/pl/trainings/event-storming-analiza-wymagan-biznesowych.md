@@ -1,11 +1,12 @@
 ---
-title: 'Event Storming - Big Picture'
+title: 'Event Storming - Analiza wymagań biznesowych'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
-images: ['images/2018/05/eventstorming.logo_.png']
+images: ['images/2019/09/event-storming-showcase.jpg']
+url: '/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych'
+aliases: ['/szkolenia/event-storming-big-picture']
 duration: '1-2 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
-url: '/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '10% teoria / 90% praktyka'
 knowledgeToObtain: [
@@ -26,6 +27,6 @@ trainingPlan: [
     'Wybór pierwszych akcji'
 ]
 ---
-Event Storming  - Big Picture to najbardziej standardowy sposób przeprowadzania warsztatu. Skupimy się na przejściu przez problem biznesowy rozkładając go na części pierwsze. W rozwiązanie problemu będą zaangażowane wszystkie osoby zgromadzone na sali, niezależnie od twoich podziałów organizacyjnych. Może być to problem zarówno informatyczny, jak i dotyczący dowolnego procesu HR’owego, marketingowego czy menadżerskiego.
+Event Storming świetnie nadaje się do analizy wymagań i procesów biznesowych. Skupimy się na przejściu przez problem biznesowy rozkładając go na części pierwsze. W rozwiązanie problemu będą zaangażowane wszystkie osoby zgromadzone na warsztacie, niezależnie od twoich podziałów organizacyjnych. Może być to problem zarówno informatyczny, jak i dotyczący dowolnego procesu biznesowego marketingowego czy menadżerskiego.
 
 **Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy**, wraz z uwspólnionym zrozumieniem wszystkich członków warsztatu. Można od razu zaczynać pracować nad zdefiniowanymi celami. 

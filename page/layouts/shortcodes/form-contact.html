@@ -1,9 +1,13 @@
-<form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" 
+
+<div class="row">
+  <div class="col-sm"> 
+    <div>{{ i18n "contactEntry" | safeHTML }}</div>
+    {{ partial "social-media.html" . }}
+  </div>
+  <div class="col-sm"> 
+    <form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" 
     method="POST" role="form" onsubmit="sendEmail(event)">
 
-    <div>{{ i18n "contactEntry" }}</div>
-
-    {{ partial "social-media.html" . }}
     <div class="form-group">
       <label for="name">{{ i18n "yourName" }}</label>
       <input type="text" id="name" name="name" class="form-control"  required placeholder=" "  aria-labelledby="name"/>
@@ -29,7 +33,10 @@
     <div id="emailSentConfirmation" style="color:green; display: none;">{{ i18n "emailSentConfirmation" }}</div>
     <div id="emailNotSent" style="color:red; display: none;">{{ i18n "emailNotSent" }}</div>
 
-</form>
+    </form>
+  </div>
+</div>
+
 
 <script>
 function sendEmail(event){  

@@ -9,11 +9,11 @@ draft: false
 
 > ### ["I'm Winston Wolf. I solve problems."](https://www.linkedin.com/pulse/seven-habits-highly-effective-wolf-pulp-fiction-paul-richardson/)
 
-Nazywam się Radek Maziarka. Na co dzień pracuję jako Solution Architect. Dodatkowo:
+Nazywam się Radek Maziarka. Na co dzień pracuję jako Solution Architect i Technical Product Owner. Dodatkowo:
 
- *   prowadzę konsultacje i [szkolenia](/szkolenia/) informatyczne
- *   [prezentuję ](/prelekcje/)na grupach i konferencjach
- *   bloguję - sprawdź moje [najnowsze posty]()
+ *   prowadzę konsultacje i [szkolenia](/szkolenia-i-warsztaty/) informatyczne
+ *   [prezentuję](/prelekcje/) na grupach i konferencjach
+ *   bloguję - sprawdź moje [najnowsze posty](/)
  *   wspomagam firmy i organizacje pozarządowe
 
 Te wszystkie aspekty sprawiają że patrzę szeroko na rozwój oprogramowania - nie zamykam się na jedną technologię, a staram się na podstawie dostępnych narzędzi dostarczać jak największą wartość moim klientom. Jestem dużym zwolennikiem szerzenia wiedzy i chcę się nią dzielić z innymi.

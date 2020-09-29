@@ -64,6 +64,7 @@
     margin-right: auto;
     max-height: 400px;
     margin-top: 16px;
+    max-width: 100%;
   }
 
   &__text {
@@ -129,6 +130,11 @@
       letter-spacing: initial;
       line-height: 1.75;
       -webkit-font-smoothing: initial;
+
+      
+      @media screen and (max-width: 1024px) {
+        padding-left: 15px;
+      }
     }
 
     blockquote.small{
@@ -139,11 +145,12 @@
       content: "\201c";
       float: left;
       margin-top: 18px;
-      margin-left: -45px;
+      margin-left: -35px;
       font-style: normal;
-      font-size: 45px;
+      font-size: 60px;
       line-height: 0.41;
       color: $colorBlue;
+      font-family: auto;
     }
   }
 

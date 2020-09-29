@@ -25,3 +25,5 @@ trainingPlan: [
 ]
 ---
 Nazywany również tzw. [Event Storming Design Level](https://buildplease.com/pages/fpc-6/). Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
+
+**Rezultatem warsztatu jest prawidłowo zaplanowany proces informatyczny**. Mamy zrozumienie w jaki sposób system powinien działać, jak się komunikować i jak dzielić się informacjami. Możemy podzielić pracę naszego zespołu by tworzyć stopniowo gotowe rozwiązanie. 

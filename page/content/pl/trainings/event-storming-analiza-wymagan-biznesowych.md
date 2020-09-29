@@ -27,6 +27,6 @@ trainingPlan: [
     'Wybór pierwszych akcji'
 ]
 ---
-Event Storming świetnie nadaje się do analizy wymagań i procesów biznesowych. Skupimy się na przejściu przez problem biznesowy rozkładając go na części pierwsze. W rozwiązanie problemu będą zaangażowane wszystkie osoby zgromadzone na warsztacie, niezależnie od twoich podziałów organizacyjnych. Może być to problem zarówno informatyczny, jak i dotyczący dowolnego procesu biznesowego marketingowego czy menadżerskiego.
+Event Storming świetnie nadaje się do analizy wymagań i procesów biznesowych. Skupimy się na przejściu przez problem biznesowy rozkładając go na części pierwsze. W rozwiązanie problemu będą zaangażowane wszystkie osoby zgromadzone na warsztacie, niezależnie od twoich podziałów organizacyjnych. Może być to problem zarówno informatyczny, jak i dotyczący dowolnego procesu biznesowego, marketingowego czy menadżerskiego.
 
-**Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy**, wraz z uwspólnionym zrozumieniem wszystkich członków warsztatu. Można od razu zaczynać pracować nad zdefiniowanymi celami. 
+**Rezultatem warsztatu jest dobrze zanalizowany proces biznesowy**, a także wspólna wiedza wszystkich członków zespołu. Praca idzie efektywniej, wiemy na czym się skupiać i co przynosi nam największą wartość.

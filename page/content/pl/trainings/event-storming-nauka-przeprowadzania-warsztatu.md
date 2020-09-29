@@ -27,7 +27,7 @@ trainingPlan: [
 ]
 ---
 
-Szkolę członków zespołu z techniki [Event Stormingu](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), aby byli w stanie przeprowadzać takie warsztaty we własnych projektach. Warsztaty te będą miały o wiele szerszą formę niż zwykłe warsztaty przeprowadzane z klientem czy wewnątrz projektu.
+Szkolę członków zespołu z techniki [Event Stormingu](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), aby byli w stanie przeprowadzać takie warsztaty we własnych projektach. Warsztaty te będą miały o wiele szerszą formę niż zwykłe warsztaty przeprowadzane z twoim klientem czy wewnątrz projektu.
 
 Warsztat ten jest przeprowadzany dla:
 * Nowych zespołów chcących wejść w świat Event Stormingu
@@ -35,3 +35,5 @@ Warsztat ten jest przeprowadzany dla:
 * Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym
 
 Warsztat może zostać poszerzony o pozostałe szkolenia - np. w pierwszy dzień nauczymy się techniki, którą później wykorzystamy by rozwiązać rzeczywisty problem biznesowy organizacji.
+
+**Rezultatem warsztatu jest zespół gotowy stosować Event Storming w swojej codziennej pracy.** Wiemy, które elementy techniki wybierać by najlepiej rozwiązać zdefiniowany problem. Praca nad kolejnymi domenami biznesowymi coraz szybciej, dostarczając wysokiej jakości rozwiązania.

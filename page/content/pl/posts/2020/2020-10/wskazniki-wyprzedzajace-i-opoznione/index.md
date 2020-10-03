@@ -2,7 +2,6 @@
 title: 'Wskaźniki wyprzedzające i opóźnione - zysk firmy a jej upadek'
 url: '/2020/10/01/event-storming-modelowanie-czasu'
 date: Fri, 01 Oct 2020 14:56:35 +0000
-draft: true
 images: ['2020/10/01/event-storming-modelowanie-czasu/bankrupt.jpg']
 description: "Modelowanie czasu z Event Stormingiem jako świetne remedium na dziury w makietach"
 category: 'Różne'

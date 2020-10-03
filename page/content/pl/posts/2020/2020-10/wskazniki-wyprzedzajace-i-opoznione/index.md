@@ -12,12 +12,12 @@ Temat wskaźników wyprzedzających i opóźnionych (leading and lagging indicat
 - Wskaźnik wyprzedzający może nam wskazać pewne zjawisko przed jego wystąpieniem. Możemy przewidywać, że coś się stanie.
 - Wskaźnik opóźniony pokaże nam dane zjawisko już po jego wystąpieniu. Czyli analizujemy stan obecny, potwierdzamy pewne fakty.
 
-Najłatwiej to pokazać na przykładzie naszego starania się o zmniejszenie wagi naszego ciała:
+Najłatwiej to pokazać na przykładzie naszego starania się o zmniejszenie wagi ciała:
 
 - Najbardziej typowym wskaźnikiem jest nasza aktualna waga - wskaźnik opóźniony.
 - Mówi nam jak dobrze idą nasze aktualne starania.
 - Nie mówi nam jednak nic o tym jak będzie nam szło w przyszłości - sama waga nic nie zmienia.
-- Wskaźnikami wyprzedzającymi mogą być np. ilość odbywanych treningów albo ilość jedzonych kalorii.
+- Wskaźnikami wyprzedzającymi mogą być np. liczba odbywanych treningów albo liczba jedzonych kalorii.
 - Za pomocą tych wskaźników możemy przewidywać jak będą szły nasze starania w utrzymaniu / zmniejszeniu wagi. 
 	
 Dla mnie takim wskaźnikiem wyprzedzającym jest również planowana wizyta w domu rodzinnym 😉
@@ -26,7 +26,7 @@ Dla mnie takim wskaźnikiem wyprzedzającym jest również planowana wizyta w do
 
 Przejdźmy na grunt biznesowy. Podczas ostatniej rozmowy ze znajomymi zastanowiło mnie jak wiele firm, które osiągały świetne zyski i "przepalały" pieniądze, ostatecznie skończyły w o wiele gorszej sytuacji. I dlaczego nie zauważyły wcześniej, że coś idzie nie tak. Myślę, że opisane wyżej wskaźniki mają tutaj wiele do rzeczy.
 
-**Zysk firmy jest wskaźnikiem opóźnionym** - pokazuje nam ile firma zarobiła w danym miesiącu. W żaden sposób nie wynika z tego, że firmie będzie się dobre powodziło w kolejnych miesiącach. Można mieć świetne zyski w miesiącu X, a w miesiącu X+1 upaść z powodu braku klientów.
+**Zysk firmy jest wskaźnikiem opóźnionym** - pokazuje nam ile firma zarobiła w danym miesiącu. W żaden sposób nie wynika z tego, że firmie będzie się dobrze powodziło w kolejnych miesiącach. Można mieć świetne zyski w miesiącu X, a w miesiącu X+1 upaść z powodu braku klientów.
 
 Do przewidywania rozwoju firmy ważniejsze będą dla nas wskaźniki wyprzedzające. Może to być stosunek nowych projektów do zamykanych projektów, ilość rozmów z klientami o kolejnych inicjatywach itd. To one sprawiają że w kolejnym miesiącu osiągniemy zysk.
 

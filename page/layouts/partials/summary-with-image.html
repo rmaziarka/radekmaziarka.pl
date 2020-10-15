@@ -3,10 +3,10 @@
   {{ $featured_image = index .Params.images 0  }}
 {{end}}
 <article class="summaryWithImage">
-  <div class="">
-    <div class="">
+  <div>
+    <div>
       {{ if $featured_image }}
-        <div class="">
+        <div class="summaryWithImage__image">
           <a href="{{.RelPermalink}}" class="">
             <img src="/{{ $featured_image }}" class="" alt="image from {{ .Title }}">
           </a>

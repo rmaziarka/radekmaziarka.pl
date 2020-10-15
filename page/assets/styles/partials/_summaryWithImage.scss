@@ -17,6 +17,16 @@
     width: 100%;
   }
 
+  @media screen and (min-width: 768px) {
+    &__image{
+      width: 400px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   &__title {
     font-family: $articleTitleFont;
     font-size: $articleTitleSize;

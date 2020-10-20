@@ -90,7 +90,7 @@ Dodatkowym aspektem jest tutaj czas. Przez zrównoleglenie prac i podział grupy
 
 Istnieje wiele materiałów opisujących warsztat Event Stormingu, zarówno w języku angielskim ([artykuł](https://buildplease.com/pages/fpc-2/) / [video](https://www.youtube.com/watch?v=04tGbixfGEY)) jak i polskim ([artykuł](https://rmakara.github.io/Event-Storming-Warsztaty-Agile-Wroclaw) / [video](https://www.youtube.com/watch?v=dhoXYRqghws)), nie wspominając już o tej najważniejszej [książce](https://leanpub.com/introducing_eventstorming). Bardzo ciekawy zbiór zawarł Mariusz Gil na GitHubie w repo [Awesome EventStorming](https://github.com/mariuszgil/awesome-eventstorming).
 
-Także, do dzieła! Gdyby Cię interesował temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)** lub pozostałe posty z tego tematu:
+Także, do dzieła! Jeśli zainteresował Cię ten temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)** lub pozostałe posty z tego tematu:
 
  *   [Event Storming – Narzędzie usprawniające pracę organizacji](/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
  *   [Event Storming – Mapowanie ograniczeń](/2019/02/22/event-storming-mapowanie-ograniczen/)

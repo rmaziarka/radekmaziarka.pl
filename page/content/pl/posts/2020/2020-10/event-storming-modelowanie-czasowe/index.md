@@ -1,8 +1,7 @@
 ---
 title: 'Event Storming - modelowanie czasu'
-url: '/2020/09/23/event-storming-modelowanie-czasu'
-date: Tue, 23 Aug 2020 14:56:35 +0000
-draft: true
+url: '/2020/10/20/event-storming-modelowanie-czasu'
+date: Mon, 20 Oct 2020 14:56:35 +0000
 images: ['images/2018/05/eventstorming.logo_.png']
 description: "Modelowanie czasu z Event Stormingiem jako świetne remedium na dziury w makietach"
 category: 'Event Storming'
@@ -73,38 +72,34 @@ Mając nasze procesy na tablicy możemy połączyć równoległe procesy by wzbu
 To z kolei ułatwi nam zauważenie nowych problemów i nieobsługiwanych warunków. Sam system stanie się odporniejszy na przypadki brzegowe. Jesteśmy w stanie podjąć decyzję czy obsługujemy ten przypadek technicznie, czy rozwiążemy go na zasadzie białkowej "a tego nie klikaj" 😀
 
 ## Modelowanie czasowe w procesie produkcji
-Załóżmy że mamy procesy biznesowe rozpisane w formie następujących karteczek:
-- karteczki z procesem planowania produkcji
-- karteczki z procesem maszyny
-- karteczki z procesem planowania pracy
+Załóżmy że mamy podstawowe procesy biznesowe rozpisane w formie następujących karteczek:
+![ES potrzeby produkcyjnej](es-potrzeba-produkcyjna.jpg)
+![ES maszyny](es-maszyna.jpg)
+![ES planu produkcyjnego](es-plan-produkcyjny.jpg)
 
-Możemy wtedy przesunąc poszczególne kartki obok siebie i zapytać się np.
-- karteczki z procesem planowania pracy i edycją potrzeby produkcyjnej
-    - jak zmiana planowania pracy wpływie na potrzebę produkcyjną?
+Możemy wtedy przesunąc poszczególne kartki obok siebie i zapytać się np. jak zmiana planowania pracy wpływie na potrzebę produkcyjną? Wykorzystując spolszczoną notację Given / When / Then:
+![ES zmiana planu produkcyjnego GWT](es-zmiana-planu-produkcyjnego-gwt.jpg)
 
-Co więcej, możemy się zapytać bardziej dokładnie:
-- karteczki z procesem planowania pracy i edycją potrzeby produkcyjnej na etapach 
-    - stworzono plan
-    - wysłano plan do zatwierdzenia
-    - zatwierdzono plan
+Przypadek ze zmianą nazwy / kodu jest trywialny. Za to pozostałe przypadki już mogą mieć dla nas istotne konsekwencje. Dyskutując z osobami biznesowymi i rozpratrując różne za i przeciw możemy dojść do następującego scenariusza:
+![ES zmiana planu produkcyjnego](es-zmiana-planu-produkcyjnego-przy-zmianie-potrzeby-produkcyjnej.jpg)
 
-Nagle te sytuacje stają się widoczne dla uczestników warsztatu i możemy zastanowić się nad rozwiązawaniem:
-- karteczki z opisanymi rozwiązanami
+Jesteśmy w stanie odkrywać skomplikowane sytuacje za pomocą prostych karteczek. To pozwala budować odporniejsze systemy i rozwiązywać te problemy jeszcze na etapie analizy, a nie podczas budowania systemu. Albo podczas działania produkcyjnego systemu, gdy klient do nas dzwoni że coś nie działa 😉
 
 ## Modelowanie procesów niewidocznych dla użytkowników
-Event Storming świetnie się również sprawdza w modelowaniu procesów przy których nie ma styku człowiek. A te są coraz częstsze w naszych systemach. Mamy coraz więcej systemów, które muszą się natychmiastowo kontaktować i uwspólniać informacje.
+Event Storming świetnie się również sprawdza w modelowaniu procesów przy których nie ma styku człowiek. A te są coraz częstsze w naszych systemach. Mamy coraz więcej systemów, które muszą się ze sobą kontaktować i wymieniać informacje.
 
-Załóżmy, że chcielibyśmy codziennie uruchomić pobieranie danych o planowanej produkcji z dodatkowego systemu. **Makiety nie pomogą nam zamodelować takiego procesu.** Moglibyśmy się uciekać do diagramów BPMNa, ale to dodatkowa notacja do nauczenia. Z Event Stormingiem jest prościej:
+Załóżmy, że chcielibyśmy codziennie uruchomić pobieranie danych o planowanej produkcji z dodatkowego systemu. **Makiety nie pomogą nam zamodelować takiego procesu.** Większość takich procesów jest opisywana słownomuzycznie w dokumentacji, najczęściej bardzo podstawowo. Z Event Stormingiem można taki proces świetnie pokazać - poniżej proces synchronizacji potrzeb produkcyjnych:
 
-- karteczki z procesem importu 
-    - nastąpiła 24
-    - zapytano zewnętrzny system o planowaną produkcję
-    - zewnętrzny system
-    - odebrano informacje o planowanej produkcji 
-    - zaplanowano produkcję
-    - powiadomiono inżynierów produkcji o nowych zleceniach
+![ES synchronizacja](es-synchronizacja.jpg)
 
-Dzięki temu możemy również obsłużyć negatywne ścieżki związane z kontaktem z systemem zewnętrznym
-- brak odpowiedzi od zewn. systemu
-- powiadom inżynierów produkcji o problemie z synchronizacją
+Dzięki temu możemy również obsłużyć negatywne ścieżki związane z kontaktem z systemem zewnętrznym:
+![ES synchronizacja błąd](es-synchronizacja-blad.jpg)
 
+## Podsumowanie
+Event Storming jest jedną z pierwszych technik jakie wybieram podczas pracy nad wymaganiami biznesowymi. Natychmiastowo pozwala odnaleźć dziury w procesach i się nimi zająć. Nie jest to technika do wszystkiego, ale w zauważalnie pozwala obniżyć ilość problemów przy przenoszeniu procesów do systemów informatycznych.
+
+Jeśli zainteresował Cię ten temat to polecam moje **[warsztaty z Event Stormingu](/szkolenia/event-storming)** lub pozostałe posty z tego tematu:
+
+ *   [Event Storming – Narzędzie usprawniające pracę organizacji](/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)
+ *   [Event Storming – Mapowanie ograniczeń](/2019/02/22/event-storming-mapowanie-ograniczen/)
+ *   [Event Storming – Co dalej?](/2019/01/26/event-storming-co-dalej/)

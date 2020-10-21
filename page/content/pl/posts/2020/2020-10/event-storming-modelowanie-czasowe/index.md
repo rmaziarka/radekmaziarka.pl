@@ -86,7 +86,7 @@ Przypadek ze zmianą nazwy / kodu jest trywialny. Za to pozostałe przypadki ju�
 Jesteśmy w stanie odkrywać skomplikowane sytuacje za pomocą prostych karteczek. To pozwala budować odporniejsze systemy i rozwiązywać te problemy jeszcze na etapie analizy, a nie podczas budowania systemu. Albo podczas działania produkcyjnego systemu, gdy klient do nas dzwoni że coś nie działa 😉
 
 ## Modelowanie procesów niewidocznych dla użytkowników
-Event Storming świetnie się również sprawdza w modelowaniu procesów przy których nie ma styku człowiek. A te są coraz częstsze w naszych systemach. Mamy coraz więcej systemów, które muszą się ze sobą kontaktować i wymieniać informacje.
+Event Storming świetnie się również sprawdza w modelowaniu procesów, które są uruchamiane cyklicznie, a przy których nie ma styku człowiek. Z racji rozwoju informatycznego te sytuacje są coraz częstsze. Mamy coraz więcej systemów, które muszą się ze sobą kontaktować i wymieniać informacje.
 
 Załóżmy, że chcielibyśmy codziennie uruchomić pobieranie danych o planowanej produkcji z dodatkowego systemu. **Makiety nie pomogą nam zamodelować takiego procesu.** Większość takich procesów jest opisywana słownomuzycznie w dokumentacji, najczęściej bardzo podstawowo. Z Event Stormingiem można taki proces świetnie pokazać - poniżej proces synchronizacji potrzeb produkcyjnych:
 

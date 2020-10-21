@@ -77,7 +77,7 @@ Załóżmy że mamy podstawowe procesy biznesowe rozpisane w formie następując
 ![ES maszyny](es-maszyna.jpg)
 ![ES planu produkcyjnego](es-plan-produkcyjny.jpg)
 
-Możemy wtedy przesunąc poszczególne kartki obok siebie i zapytać się np. jak zmiana istniejacej potrzeby produkcyjnej wpłynie na plan produkcji? Wykorzystując spolszczoną notację Given / When / Then:
+Możemy wtedy przesunąc poszczególne kartki obok siebie i zapytać się np. jak zmiana istniejącej potrzeby produkcyjnej wpłynie na plan produkcji? Wykorzystując spolszczoną notację Given / When / Then:
 ![ES zmiana planu produkcyjnego GWT](es-zmiana-planu-produkcyjnego-gwt.jpg)
 
 Przypadek ze zmianą nazwy / kodu jest trywialny. Za to pozostałe przypadki już mogą mieć dla nas istotne konsekwencje. Dyskutując z osobami biznesowymi i rozpratrując różne za i przeciw możemy dojść do następującego scenariusza:

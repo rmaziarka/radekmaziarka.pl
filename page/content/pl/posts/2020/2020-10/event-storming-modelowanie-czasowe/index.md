@@ -7,7 +7,7 @@ description: "Modelowanie czasu z Event Stormingiem jako świetne remedium na dz
 category: 'Event Storming'
 tags: ['consulting', 'Event Storming']
 ---
-Przeprowadzając ostatnie [warsztaty zdalne](/szkolenia-i-warsztaty/event-storming) zauważyłem poraz kolejny, że makiety nie działają tak jak powinny. Proste scenariusze biznesowe są świetnie zwizualizowanekolejnymi ekranami do przeklikania, więc przechodząc przez nie masz wrażenie, że wszystko działa jak powinno.
+Przeprowadzając ostatnie [warsztaty zdalne](/szkolenia-i-warsztaty/event-storming) zauważyłem poraz kolejny, że makiety nie działają tak jak powinny. Proste scenariusze biznesowe są świetnie zwizualizowane kolejnymi ekranami do przeklikania. Przechodząc przez nie masz wrażenie, że wszystko działa jak powinno.
 
 Niestety makiety rzadko kiedy biorą pod uwagę czas i jego sposób oddziaływania na system:
 - procesy mogą się dziać równolegle
@@ -86,7 +86,7 @@ Przypadek ze zmianą nazwy / kodu jest trywialny. Za to pozostałe przypadki ju�
 Jesteśmy w stanie odkrywać skomplikowane sytuacje za pomocą prostych karteczek. To pozwala budować odporniejsze systemy i rozwiązywać te problemy jeszcze na etapie analizy, a nie podczas budowania systemu. Albo podczas działania produkcyjnego systemu, gdy klient do nas dzwoni że coś nie działa 😉
 
 ## Modelowanie procesów niewidocznych dla użytkowników
-Event Storming świetnie się również sprawdza w modelowaniu procesów, które są uruchamiane cyklicznie, w których człowiek nie ma żadnego udziału. Z racji rozwoju informatycznego takie sytuacje są coraz częstsze. Mamy coraz więcej systemów, które muszą się ze sobą kontaktować i wymieniać informacje.
+Event Storming świetnie się również sprawdza w modelowaniu procesów, które są uruchamiane cyklicznie, w których człowiek nie ma żadnego udziału. Z racji rozwoju informatycznego takie sytuacje są coraz częstsze. Integrujemy kolejne systemy, które muszą się ze sobą kontaktować i wymieniać informacje.
 
 Załóżmy, że chcielibyśmy codziennie uruchomić pobieranie danych o planowanej produkcji z dodatkowego systemu. **Makiety nie pomogą nam zamodelować takiego procesu.** Większość takich procesów jest opisywana słownomuzycznie w dokumentacji, najczęściej bardzo podstawowo. Z Event Stormingiem można taki proces świetnie pokazać - poniżej proces synchronizacji potrzeb produkcyjnych:
 

@@ -55,7 +55,7 @@ To jednak nie wszystko. Mamy jeszcze kwestie samych maszyn. Makieta nie pokazuje
 
 Dla czytelności pominę kolejną warstwę pytań o wpływie zmiany potrzeby produkcyjnej czy maszyny na plan zakupowy i wysyłki. Problemy stają się coraz trudniejsze do rozwiązania. Najgorsze zaś jest to, **że makiety nie pozwalają łatwo odkrywać takich problemów.** Patrząc na system przez makiety nie widać złożoności procesów, różnych zapętleń, sprzeczności.
 
-Moją hipotezą jest, że **to nie makiety powinny być pierwszą techniką wybieraną** przy przenoszeniu procesów biznesowych do systemów informatycznych. Makiety są z natury statyczne i Nnie pomagają nam zadawać kluczowych pytań o procesy biznesowe, które są oparte o czas. A to te procesy później kształtują działanie systemu.
+Moją hipotezą jest, że **to nie makiety powinny być pierwszą techniką wybieraną** przy przenoszeniu procesów biznesowych do systemów informatycznych. Makiety są z natury statyczne i nie pomagają nam zadawać kluczowych pytań o procesy biznesowe, które są oparte o czas. A to te procesy później kształtują działanie systemu.
 
 ## Modelowanie czasowe
 O wiele łatwiej jest tego rodzaju problemy odkryć wcześnie stosując Event Storming i modelowanie czasowe. Opowiadał o tym Mathias Verraes w swojej post-itowej prezentacji na konferencji GOTO:
@@ -77,7 +77,7 @@ Załóżmy że mamy podstawowe procesy biznesowe rozpisane w formie następując
 ![ES maszyny](es-maszyna.jpg)
 ![ES planu produkcyjnego](es-plan-produkcyjny.jpg)
 
-Możemy wtedy przesunąc poszczególne kartki obok siebie i zapytać się np. jak zmiana istniejącej potrzeby produkcyjnej wpłynie na plan produkcji? Wykorzystując spolszczoną notację Given / When / Then:
+Możemy wtedy przesunąc poszczególne kartki z różnych procesów obok siebie i zapytać się np. jak zmiana istniejącej potrzeby produkcyjnej wpłynie na plan produkcji? Wykorzystując spolszczoną notację Given / When / Then:
 ![ES zmiana planu produkcyjnego GWT](es-zmiana-planu-produkcyjnego-gwt.jpg)
 
 Przypadek ze zmianą nazwy / kodu jest trywialny. Za to pozostałe przypadki już mogą mieć dla nas istotne konsekwencje. Dyskutując z osobami biznesowymi i rozpratrując różne za i przeciw możemy dojść do następującego scenariusza:

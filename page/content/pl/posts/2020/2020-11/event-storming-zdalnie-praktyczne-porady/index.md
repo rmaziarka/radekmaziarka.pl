@@ -25,7 +25,7 @@ Mając to na uwadze **musisz podejść do zdalnego Event Stormingu inaczej**. Mo
 
 ## Przygotowanie warsztatu zdalnego
 
-[![](/images/2020/03/ingredients-498199_640.jpg)](/images/2020/03/ingredients-498199_640.jpg)
+[![](ingredients-498199_640.jpg)](ingredients-498199_640.jpg)
 
 Tak jak zwykły warsztat, ten zdalny również wymaga właściwego przygotowania.
 
@@ -57,7 +57,7 @@ Używam [Miro](https://miro.com) do zdalnej pracy grupowej. Jest to tablica wir
 
 ## Rozpoczęcie warsztatu
 
-[![](/images/2020/03/photo-1585230477660-8b044984c007-1.jpg)](/images/2020/03/photo-1585230477660-8b044984c007-1.jpg)
+[![](photo-1585230477660-8b044984c007-1.jpg)](photo-1585230477660-8b044984c007-1.jpg)
 
 Jest kilka ważnych punktów wartych zapamiętania podczas rozpoczynania sesji.
 
@@ -101,24 +101,24 @@ Wybór pierwszego procesu warto przemyśleć w szerszym gronie. Możesz rozpocz�
 W pewnych przypadkach warto przed sesjami Event Stormingu poświęcić jedną sesję aby wykonać “Przegląd procesów”. Jest to technika, w której zbierzesz informacje o istniejących / planowanych procesach. Może to wyglądać następująco:
 
 1. Każdy uczestnik spisuje na kartkach nazwy procesów w swoim obszarze.
-2. Wtedy pytamy się pierwszej osoby, aby przeniosła najważniejszy proces na "Przegląd procesów".
-3. Każdy pozostały uczestnik szuka kartki, która odpowiada kartce przesuniętej przez pierwszą osobę. Wybieramy najlepszą nazwę na proces.
-4. Pytamy się o opisanie w jednym zdaniu procesu. Następnie spisujemy zdarzenia rozpoczynające i zamykające proces. Kończymy dodając persony zaangażowane w proces i najwazniejsze problemy. Problemy możemy dodawać równolegle.
-5. Wykonujemy punkty 1-4 aż opiszemy wszystkie procesy.
+2. Wtedy pytasz się pierwszej osoby, aby przeniosła najważniejszy proces na "Przegląd procesów".
+3. Każdy pozostały uczestnik szuka kartki, która odpowiada kartce przesuniętej przez pierwszą osobę. Wybieracie najlepszą nazwę na proces.
+4. Pytasz się o opisanie w jednym zdaniu procesu. Następnie spisujesz zdarzenia rozpoczynające i zamykające proces. Kończysz dodając persony zaangażowane w proces i najwazniejsze problemy. Problemy możecie dodawać równolegle.
+5. Wykonujesz punkty 1-4 aż opiszesz wszystkie procesy.
 
 Powinieneś skończyć z czymś podobnym do:
 
-[![](/images/2020/03/ES-article.jpg)](/images/2020/03/ES-article.jpg)
+[![](ES-article.jpg)](ES-article.jpg)
 
 Podczas tej sesji nie musisz być bardzo precyzyjny - w kolejnych sesjach uzyskasz głębszą wiedzę i lepiej podzielisz / opiszesz procesy. Jednak ta technika da Ci zrozumienie jak wygląda biznes i pozwoli szybciej wystartować.
 
 ## Zdalny Event Storming
 
-Po wybraniu procesu z którym rozpoczniemy warsztat możemy rozpocząć nad nim pracę. 
+Po wybraniu procesu z którym rozpoczniesz warsztat możesz rozpocząć nad nim pracę. 
 
 ### Legenda
 
-[![](/images/2020/03/ES-article-1.jpg)](/images/2020/03/ES-article-1.jpg)
+[![](ES-article-1.jpg)](ES-article-1.jpg)
 
 Tak jak w przypadku zwykłych warsztatów, rozpocznij od przedstawienia legendy Event Stormingu. Jeśli jest to pierwsze zetknięcie uczestników z tą techniką to staraj się nie odkrywać całej notacji od początku. Utrudnisz im start ponieważ pokażesz zbyt wiele elementów naraz. Lepiej jest wprowadzać stopniowo, dopiero jak jest taka potrzeba.
 
@@ -126,7 +126,7 @@ Na instrukcji również warto pokazać zdarzenia ograniczające daną sesję - g
 
 ### Prywatne obszary pracy
 
-[![](/images/2020/03/ES-article-2.jpg)](/images/2020/03/ES-article-2.jpg)
+[![](ES-article-2.jpg)](ES-article-2.jpg)
 
 Następnym krokiem jest oczywiście rzucanie karteczek. **Tutaj warto zrobić odstępstwo od standardowego warsztatu i nie rzucać ich od razu na wspólny obszar.** Pozwoli to uczestnikom skupić się na swoim postrzeganiu procesu zamiast podpatrywać co rzucają koledzy i koleżanki. Poproś więc uczestników aby wrzucali wszystkie zdarzenia na swoje prywatne obszary pracy. 
 
@@ -136,7 +136,7 @@ Uczestnicy nie muszą wpisywać swoich kartek w poprawnej kolejności, ponieważ
 
 ### Organizacja procesu
 
-[![](/images/2020/03/ES-article-3.jpg)](/images/2020/03/ES-article-3.jpg)
+[![](ES-article-3.jpg)](ES-article-3.jpg)
 
 Kiedy zbierzesz  wszystkie informacje na prywatnych obszarach nadchodzi pora by je połączyć. Do tego warto wykorzystać dedykowany, wspólny obszar. 
 
@@ -162,25 +162,25 @@ Jest kilka kwestii, które są trudniejsze w standardowym warsztacie, ale w miar
 
 ### Strzałki
 
-[![](/images/2020/03/ES-article-4.jpg)](/images/2020/03/ES-article-4.jpg)
+[![](ES-article-4.jpg)](ES-article-4.jpg)
 
 Strzałki łączą konkretne kartki ze sobą, a więc prościej jest pokazać przejścia pomiędzy nimi. Jeśli ruszasz kartkę, to strzałka również się rusza.
 
 ### Wizualizacja
 
-[![](/images/2020/03/ES-article-5.jpg)](/images/2020/03/ES-article-5.jpg)
+[![](ES-article-5.jpg)](ES-article-5.jpg)
 
 Zdalnie o wiele lepiej jest pokazać o co Ci chodzi. Mamy łatwiejszą możliwość zmiany kolorów, ksztatłów, bądź wklejania całych obrazków.
 
 ### Kopiowanie podprocesów
 
-[![](/images/2020/03/ES-article-6.jpg)](/images/2020/03/ES-article-6.jpg)
+[![](ES-article-6.jpg)](ES-article-6.jpg)
 
 Kiedy widzisz, że poszczególne podprocesy są podobne możesz w prosty sposób stworzyć ich kopię.
 
 ### Dodatkowe informacje
 
-[![](/images/2020/03/event-storming-miro-comments.jpg)](/images/2020/03/event-storming-miro-comments.jpg)
+[![](event-storming-miro-comments.jpg)](event-storming-miro-comments.jpg)
 
 Wirtualne tablice są świetnymi narzędziami by pokazywać dodatkowe informacje, które byłyby mylące podczas zwykłej sesji. W Miro mamy:
 - tagi / emoji, które możemy dodać do karteczek

@@ -188,7 +188,7 @@ Wirtualne tablice są świetnymi narzędziami by pokazywać dodatkowe informacje
 - komentarze i odpowiedzi
 - hiperłącza do zewnętrznych zasobów
 
-## Summary
+## Podsumowanie
 
 Event Storming zdalny to warsztat jednocześnie bardzo podobny do zwykłego warsztatu, a jednak skrajnie odmienny. Rezultaty osiągamy wolniej, trudniej jest o porozumienie, czasem zamieszanie podczas sesji nie pozwala nam kontynuować prac. Musisz przygotować się na kompletnie inne doświadczenie.
 

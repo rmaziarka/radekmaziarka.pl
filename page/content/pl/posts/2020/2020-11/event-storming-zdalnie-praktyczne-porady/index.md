@@ -113,7 +113,7 @@ Podczas tej sesji nie musisz być bardzo precyzyjny - w kolejnych sesjach uzyska
 
 ## Zdalny Event Storming
 
-Gdy proces, któremu poświęcisz sesję jest wybranyy, można rozpocząć nad nim pracę. 
+Gdy proces, któremu poświęcisz sesję jest wybrany, można rozpocząć nad nim pracę. 
 
 ### Legenda
 
@@ -139,7 +139,7 @@ Uczestnicy nie muszą wpisywać swoich kartek w poprawnej kolejności, ponieważ
 
 Kiedy zbierzesz wszystkie informacje na prywatnych obszarach nadchodzi pora by je połączyć. Do tego warto wykorzystać dedykowany, wspólny obszar. 
 
-Poproś swoich uczestników, aby przenieśli pierwszą (w ich mniemaniu) kartkę procesu z prywatnych obszarów na początek wspólnego obszaru. Pojawią się różne nazwy, czasem nawet różne zdarzenia. Wybierz najlepsze razem z zespołem. Jeśli pojawiają się pytania bądź wątpliwości to wykorzystaj czerwony Hot Spot. W przypadku nowych definicji wykorzystaj białą kartkę by opisać je dokładnie.
+Poproś swoich uczestników, aby przenieśli pierwszą (w ich mniemaniu) kartkę procesu z prywatnych obszarów na początek wspólnego obszaru. Pojawią się różne nazwy, czasem nawet różne zdarzenia. Wybierz najlepsze razem z zespołem. Jeśli pojawiają się pytania bądź wątpliwości to wykorzystaj czerwony Punkt Zapalny. W przypadku nowych definicji wykorzystaj białą kartkę by opisać je dokładnie.
 
 Kiedy ustalicie początek, przejdź do kolejnych zdarzeń krok po kroku. Zapytaj się uczestników co się dzieje dalej. W miarę postępu czasu proces będzie osiągał coraz większą spójność.
 
@@ -151,7 +151,7 @@ W ramach dodawania kolejnych zdarzeń możesz przedstawić dodatkową notację -
 
 Na samym końcu zapytaj się uczestników czy nie ma dodatkowych informacji, które warto dodać na tablicę, gdy widzą już całość procesu. Nie wszystko jest widoczne od razu. Często trzeba zobaczyć całoś,ć by uzmysłowić sobie pewne problemy lub możliwości. 
 
-Ze spotkań warto wychodzić z konkretnymi akcjami do wykonania. Szczególnie, jeśli masz dużo Hot Spotów. W takich sytuacjach możesz wykorzystać [Action Point](/2019/07/22/event-storming-rozszerzenie-notacji-action-point/), w którym opiszesz kto ma zająć się jakimś problemem - rozwiązać go poza warsztatem bądź zorganizować dodatkowe spotkanie w jego sprawie.
+Ze spotkań warto wychodzić z konkretnymi akcjami do wykonania. Szczególnie, jeśli masz dużo Punktów Zapalnych. W takich sytuacjach możesz wykorzystać [Action Point](/2019/07/22/event-storming-rozszerzenie-notacji-action-point/), w którym opiszesz kto ma zająć się jakimś problemem - rozwiązać go poza warsztatem bądź zorganizować dodatkowe spotkanie w jego sprawie.
 
 Po kilku sesjach Event Stormingu możesz przeprowadzić kolejną, już na wyższym poziomie. Wtedy zbierzesz dostępne informacje by dokonać ich syntezy i znaleźć luki pomiędzy procesami.
 

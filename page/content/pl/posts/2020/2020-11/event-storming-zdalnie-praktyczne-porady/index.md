@@ -1,8 +1,7 @@
 ---
 title: 'Event Storming zdalnie – praktyczne porady'
-url: '/2020/11/10/event-storming-zdalnie-praktyczne-porady/'
-date: Tue, 10 Nov 2020 11:16:50 +0000
-draft: true
+url: '/2020/11/16/event-storming-zdalnie-praktyczne-porady/'
+date: Mon, 16 Nov 2020 11:16:50 +0000
 images: ['images/2018/05/eventstorming.logo_.png']
 description: "Praktyczne porady jak przeprowadzać zdalny Event Storming."
 category: 'Event Storming'

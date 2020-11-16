@@ -179,7 +179,7 @@ Kiedy widzisz, że poszczególne podprocesy są podobne możesz w prosty sposób
 
 ### Dodatkowe informacje
 
-[![](event-storming-miro-comments.jpg)](event-storming-miro-comments.jpg)
+[![](event-storming-miro-comments.png)](event-storming-miro-comments.png)
 
 Wirtualne tablice są świetnymi narzędziami by pokazywać dodatkowe informacje, które byłyby mylące podczas zwykłej sesji. W Miro mamy:
 - tagi / emoji, które możemy dodać do karteczek

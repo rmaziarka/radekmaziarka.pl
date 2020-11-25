@@ -13,10 +13,3 @@ W ramach cyklu szkoleń [Poradnia Lidera](https://www.graosens.org.pl/poradniali
 
 ## Nagranie
 {{< youtube 9e3E9OewM8s >}}
-
-## Materiały
-
- *   Dokumentacja Terraform - [https://www.terraform.io/docs/index.html](https://www.terraform.io/docs/index.html)
- *   Skrypt wstępny - [https://github.com/rmaziarka/terraform-azure](https://github.com/rmaziarka/terraform-azure)
- *   Repozytorium strony radekmaziarka.pl na GitHub -[ https://github.com/rmaziarka/radekmaziarka.pl](https://github.com/rmaziarka/radekmaziarka.pl)
- *   Provider Terraform dla Azure DevOps - [https://github.com/microsoft/terraform-provider-azuredevops](https://github.com/microsoft/terraform-provider-azuredevops)

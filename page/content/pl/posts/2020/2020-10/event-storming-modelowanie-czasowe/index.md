@@ -5,7 +5,7 @@ date: Mon, 20 Oct 2020 14:56:35 +0000
 images: ['images/2018/05/eventstorming.logo_.png']
 description: "Modelowanie czasu z Event Stormingiem jako świetne remedium na dziury w makietach"
 category: 'Event Storming'
-tags: ['consulting', 'Event Storming']
+tags: ['consulting', 'Event Storming', 'Miro']
 ---
 Przeprowadzając ostatnie [warsztaty zdalne](/szkolenia-i-warsztaty/event-storming) zauważyłem poraz kolejny, że makiety nie działają tak jak powinny. Proste scenariusze biznesowe są świetnie zwizualizowane kolejnymi ekranami do przeklikania. Przechodząc przez nie masz wrażenie, że wszystko działa jak powinno.
 

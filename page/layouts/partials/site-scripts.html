@@ -11,3 +11,17 @@
     })(document);
     smartlook('init', 'efd1f193288721ac9b41a4bb1bd486ec6a99c5fd');
 </script>
+
+<script type='text/javascript'>
+function addAnchor(element) {
+    element.insertAdjacentHTML('beforeend', `<a href="#${element.id}" class="hanchor" ariaLabel="Anchor"> #</a>` )
+}
+document.addEventListener('DOMContentLoaded', function () {
+    // Add anchor links to all headings
+    var headers = document.querySelectorAll('.single__text h1[id], .single__text h2[id], .single__text h3[id], .single__text h4[id]')
+    if (headers) {
+        headers.forEach(addAnchor)
+    }
+ });
+
+</script>

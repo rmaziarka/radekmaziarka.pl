@@ -11,7 +11,7 @@ tags: ['Fault tolerance']
 
 Ten wpis jest krótki spostrzeżeniem po świetnej książce Dawida Myśliwca ["Przepis na człowieka"](https://lubimyczytac.pl/ksiazka/4917880/przepis-na-czlowieka-czyli-krotki-wstep-do-odpowiedzi-na-pytanie-dlaczego-jestesmy-jacy-jestesmy). Opisuje on w przystępny w jaki sposób geny wpływają na nasze życie, i jak to wszystko pod spodem działa.
 
-Jest tam ciekawy fragment o **procesie kopiowania DNA**, który może wydać Ci się interesujący kontekście stabilności systemów informatycznych.
+Jest tam ciekawy fragment o **procesie kopiowania DNA**, który może wydać Ci się interesujący kontekście niezawodności systemów informatycznych.
 
 [![](https://upload.wikimedia.org/wikipedia/commons/3/33/DNA_replication_split_horizontal.svg)](https://upload.wikimedia.org/wikipedia/commons/3/33/DNA_replication_split_horizontal.svg)
 

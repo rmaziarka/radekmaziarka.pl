@@ -8,7 +8,7 @@ category: 'Różne'
 tags: ['Fault tolerance']
 ---
 
-Ten wpis jest krótki spostrzeżeniem po świetnej książce Dawida Myśliwca ["Przepis na człowieka"](https://lubimyczytac.pl/ksiazka/4917880/przepis-na-czlowieka-czyli-krotki-wstep-do-odpowiedzi-na-pytanie-dlaczego-jestesmy-jacy-jestesmy). Opisuje on w przystępny w jaki sposób geny wpływają na nasze życie, i jak to wszystko pod spodem działa.
+Ten wpis jest krótki spostrzeżeniem po świetnej książce Dawida Myśliwca ["Przepis na człowieka"](https://lubimyczytac.pl/ksiazka/4917880/przepis-na-czlowieka-czyli-krotki-wstep-do-odpowiedzi-na-pytanie-dlaczego-jestesmy-jacy-jestesmy). Opisuje on w przystępny sposób jak geny wpływają na nasze życie, i jak to wszystko pod spodem działa.
 
 Jest tam ciekawy fragment o **procesie kopiowania DNA**, który może wydać Ci się interesujący kontekście niezawodności systemów informatycznych.
 
@@ -16,9 +16,9 @@ Jest tam ciekawy fragment o **procesie kopiowania DNA**, który może wydać Ci 
 
 *By Madprime(wikipedia) ([DNA replication split horizontal](https://commons.wikimedia.org/wiki/File:DNA_replication_split_horizontal.svg?uselang=en)) CC BY-SA 2.0*
 
-Otóż podczas kopiowania nici DNA zachodzą błędy na pojedynczych elementach (nukleotydach) i uzyskana kopia nie jest idealnie identyczna. Przynajmniej **raz na 10 mln par** element skopiowany może się nie zgadzać z swoim bazowym kolegą. Jednak nie jest tak, że twój organizm zostawi nić DNA w takim stanie.
+Otóż podczas kopiowania nici DNA zachodzą błędy na pojedynczych elementach (nukleotydach) i uzyskana kopia nie jest idealnie identyczna. Przynajmniej **raz na 10 mln par** element skopiowany może się nie zgadzać ze swoim bazowym kolegą. Jednak nie jest tak, że twój organizm zostawi nić DNA w takim stanie.
 
-Posiadasz dodatkowe mechanizmy naprawy nieprawidłowo skopiowanych elementów (jak np. [MMR](https://en.wikipedia.org/wiki/DNA_mismatch_repair)), które pozwalają wyłapać błędy i je naprawić. Na tym etapie **99% błędów w nowym DNA zostanie wyłapane**. Koniec końców szacuje się, że pomyłki w nie zdarzają się częściej niż 1 na miliard. I tutaj przychodzi nam efekt skali...
+Posiadasz dodatkowe mechanizmy naprawy nieprawidłowo skopiowanych elementów (np. [MMR](https://en.wikipedia.org/wiki/DNA_mismatch_repair)), które pozwalają wyłapać błędy i je naprawić. Na tym etapie **99% błędów w nowym DNA zostanie poprawione**. Koniec końców szacuje się, że pomyłki w nie zdarzają się częściej niż raz na miliard. I tutaj przychodzi nam efekt skali...
 
 Otóż podczas kopiowania pojedynczej komórki w twoim organizmie dochodzi do przynajmniej 2-3 mutacji - nienaprawionych błędów kopiowania. Samych czerwonych krwinek tworzysz od 173 miliardów do 259 mld dziennie ([źródło](https://www.healthline.com/health/number-of-cells-in-body#daily-production)). Efekt jest taki, że **w zasadzie wszystkie twoje komórki zawierają mutacje**. I co najlepsze - dalej jesteś w stanie egzystować. Organizm toleruje błędy i działa pomimo ich występowania.
 
@@ -35,10 +35,10 @@ Taki "system" działa ponieważ **opiera się na bardzo zdroworozsądkowych zał
 - Stworzenie bardzo niezawodnego procesu jest skomplikowane i zwykle nieopłacalne.
 - Dodatkowe procesy naprawiające błędy są tańszą metodą by zwiększyć ogólną niezawodność.
 - Dodatkowe procesy naprawiające błędy nie rozwiążą wszystkich problemów - **zawsze istnieje szansa, że błąd się prześlizgnie**.
--  System nie powinien całkowicie przestawać działać gdy wystąpi błąd.
+-  System nie powinien całkowicie przestawać działać gdy błąd nie zostanie naprawiony.
 
 **I takie założenia warto przyjąć gdy tworzysz swój system informatyczny** - na przykładzie procesu zamówienia w sklepie:
-- Proces zamówienia oprze się np. o kolejkę, której SLA jest na poziomie 99.99% - 1/10000 wiadomości się zgubi.
+- Proces zamówienia oprze się np. o kolejkę, której SLA jest na poziomie 99.99% - potencjalnie 1/10000 wiadomości się zgubi.
 - Możesz dodać osobny proces, który będzie monitorować zamówienia i naprawi błąd gdy zamówienie gdzieś "utknie".
 - To zaś nie uchroni Cię od błędów w samym "naprawiaczu" - np. podczas naprawiania proces może natrafić na nietypową wiadomość, która będzie nienaprawialna.
 - W takich sytuacjach trzeba zadbać by ta sytuacja nie zablokowała pracy reszty systemy - błędną wiadomość lepiej pominąć i np. wrzucić na dead-letter queue niż bez przerwy ponawiać przetwarzanie. 

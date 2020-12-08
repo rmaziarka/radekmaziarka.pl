@@ -1,6 +1,6 @@
 ---
 title: 'Genetyka a niezawodność systemów informatycznych'
-url: '/2020/12/08/genetyka-a-niezawodność-systemow-informatycznych/'
+url: '/2020/12/08/genetyka-a-niezawodnosc-systemow-informatycznych/'
 date: Tue, 08 Dec 2020 18:40:09 +0000
 images: ['2020/12/08/genetyka-a-niezawodnosc-systemow-informatycznych/dna.jpg']
 description: 'W jaki sposób można poprawić niezawodność systemów informatycznych? Odpowiedź tkwi w genach...'

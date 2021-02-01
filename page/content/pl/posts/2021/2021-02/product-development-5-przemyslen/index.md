@@ -27,6 +27,7 @@ Trudniejszą jest zdefiniowanie jak chcemy tą funkcję zrealizować. Jak poszuk
 "Najlepsze" z nich posiadają ogromną listę paczkomatów i szukaj sobie kliencie tego właściwego:
 
 [![](lista-paczkomatow.jpg)](lista-paczkomatow.jpg)
+
 https://forum.shoper.pl/topic/4655-dostawy-paczkomaty-mapa/
 
 Prosty przykład, ale pokazuje różnicę:

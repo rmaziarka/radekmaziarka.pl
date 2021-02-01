@@ -52,6 +52,7 @@ jak i jakościowe bezpośrednio od klientów:
 **Dopiero na podstawie informacji zwrotnych możemy ocenić, czy dana funkcja rzeczywiście realizuje potrzeby klientów.** Przepiękna mapa paczkomatów, którą dostarczyliśmy, może  akurat dla naszych klientów być zbyt skomplikowana. Woleliby automatyczne podpowiadanie najbliższego miejsca odbioru.
 
 [![](mapa-paczkomatow.png)](mapa-paczkomatow.png)
+
 https://www.smartmage.pl/paczkomaty/
 
 Jeśli nie mamy żadnych informacji od klientów to w jaki sposób potwierdzimy, że to co dostarczyliśmy naprawdę przynosi wartość? A niestety łatwo zapomnieć o tym i skupić się jedynie na dostarczaniu.
@@ -61,6 +62,7 @@ Niestety, samo zbieranie danych jest jednak niewystarczające. Łatwo jest groma
 Powstały nawet różne frameworki, które pozwalają w bardziej konkretny sposób definiować i mierzyć określone wskaźniki - [AARRR](https://medium.com/@ms.mbalke/aarrr-framework-metrics-that-let-your-startup-sound-like-a-pirate-ship-e91d4082994b), [RARRA](https://www.ptengine.com/blog/rarra-focus-on-retention-metrics-to-exponentially-grow-your-business), [HEART](https://clevertap.com/blog/google-heart-framework/) i inne nietypowe akronimy. 
 
 [![](google-heart.png)](google-heart.png)
+
 https://clevertap.com/blog/google-heart-framework/
 
 Wszystkie metody podane powyżej to jedynie środki do celu. **Ocena czy nasza realizacja spełnia pokładane w niej założenia to już wyższy poziom problemu.** Zadajmy sobie pytanie: czy wzrastające wykorzystanie funkcji jest OK, jeśli jednocześnie: 
@@ -81,6 +83,7 @@ Jest jednak odwrotnie - to podejście akceptuje otaczającą nas niepewność i 
 Jednym z podejść do takiej rzeczywistości jest [Tworzenie produktów bazujące na hipotezach](https://barryoreilly.com/explore/blog/how-to-implement-hypothesis-driven-development/):
 
 [![](hdd-card.jpg)](hdd-card.jpg)
+
 https://barryoreilly.com/explore/blog/how-to-implement-hypothesis-driven-development/
 
 Jest to kompletnie przeciwne podejście od typowego dla podejść zwinnych opisów "Jako X chcę Y aby Z". Tutaj opisujemy w co wierzymy, co chcemy osiagnąć i jak to sprawdzimy. **Jasne określenie założeń pozwala przyznać się do niewiedzy i lepiej odkrywać nowe rozwiązania.** I na nich się uczyć jak lepiej odpowiadać na potrzeby klientów.
@@ -88,6 +91,7 @@ Jest to kompletnie przeciwne podejście od typowego dla podejść zwinnych opis�
 Warto przytoczyć jeszcze [DIBB framework](https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm?ref=https://product-frameworks.com) stosowany w Spotifyna podstawie którego firma rozwija swoje usługi:
 
 [![](DIBB.png)](DIBB.png)
+
 https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm?ref=https://product-frameworks.com
 
  Widać że kluczowym elementem tworzenia produktu jest **zakład** (bet). Na jego podstawie Spotify określa co chce rozwijać dalej i w jaki sposób zmierzy czy miał rację. Niewiedza została wpisana w proces jako kluczowy czynnik.
@@ -103,6 +107,7 @@ Warto sobie zadać [pytanie](https://blog.amplitude.com/shipping-faster-than-you
 
 Ciągłe dostarczanie może tylko pogłębiać problem. Rozwiązaniem w tej sytuacji może być podejście przeciwne - **włączenie nauki w cykl tworzenia rozwiązania**:
 [![](build-measure-learn.jpeg)](build-measure-learn.jpeg)
+
 https://medium.com/hackernoon/faster-faster-faster-231c7b3d088d
 
 Na tej podstawie po każdym wdrożeniu sprawdzamy czy jesteśmy na właściwej drodze. Jeśli wyniki wskazują, że idziemy w złą stronę to możemy zawrócić z wyznaczonej ścieżki. **Straciliśmy czas na stworzenie funkcji, ale jednocześnie nauczyliśmy się czegoś o potrzebach naszych klientów.** A to jest równie wartościowe.

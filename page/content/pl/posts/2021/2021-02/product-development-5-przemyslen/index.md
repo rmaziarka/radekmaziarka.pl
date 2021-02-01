@@ -98,6 +98,7 @@ https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm?ref=https://produc
 
 ## Dostarczanie a nauka
 Jeśli weźniemy jako pewnik, że to co dostarczamy może nie być sukcesem to diametralnie zmienia się sposób patrzenia na kolejne wdrożenia. **Samo tempo dostarczania przestaje być najwazniejszym wskaźnikiem pracy zespołu.** Co nam ze 100 nowych funkcji, które nie przynoszą wartości?
+
 [![](crap.gif)](crap.gif)
 
 W zasadzie dochodzi do odwrotnej sytuacji - tworzymy bardzo dużo funkcji, które zamiast przynosić zysk to generują straty. Ale im więcej ich mamy tym trudniej je usunąć (technicznie i psychologicznie). I cykl się zamyka.
@@ -106,6 +107,7 @@ Warto sobie zadać [pytanie](https://blog.amplitude.com/shipping-faster-than-you
 >Are you shipping faster than you learn, or learning faster than you ship?
 
 Ciągłe dostarczanie może tylko pogłębiać problem. Rozwiązaniem w tej sytuacji może być podejście przeciwne - **włączenie nauki w cykl tworzenia rozwiązania**:
+
 [![](build-measure-learn.jpeg)](build-measure-learn.jpeg)
 
 https://medium.com/hackernoon/faster-faster-faster-231c7b3d088d

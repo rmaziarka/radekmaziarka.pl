@@ -1,8 +1,8 @@
 ---
 title: 'Product development - 5 przemyśleń'
-url: '/2021/02/01/product-development-5-przemyslen/'
-date: Tue, 08 Dec 2020 18:40:09 +0000
-images: ['2021/02/01/product-development-5-przemyslen/image.jph']
+url: '/2021/02/07/product-development-5-przemyslen/'
+date: Sun, 07 Feb 2021 14:40:09 +0000
+images: ['2021/02/07/product-development-5-przemyslen/product-development.jfif']
 description: ''
 category: 'Product development'
 draft: true
@@ -10,11 +10,11 @@ tags: []
 ---
 
 Przez ostatnie pół roku byłem bezpośrednio zaangażowany w tworzenie produktów cyfrowych - kontakty z użytkownikami, testy i sprawdzanie pomysłów, szybkie pętle zwrotne, itd. Dało mi to pewne przemyślenia, którymi chciałbym się z wami podzielić. Lista punktów:
-- [Różnica pomiędzy Co a Jak](/roznica-pomiedzy-co-i-jak)
-- [Dostarczanie to tylko połowa sukcesu](/dostarczanie-to-tylko-polowa-sukcesu)
-- [Definicja sukcesu](/definicja-sukcesu)
-- [Wszystko jest hipotezą](/wszystko-jest-hipoteza)
-- [Dostarczanie a nauka](/dostarczanie-a-nauka)
+- [Różnica pomiędzy Co a Jak](#r%C3%B3%C5%BCnica-pomi%C4%99dzy-co-a-jak)
+- [Dostarczanie to tylko połowa sukcesu](#dostarczanie-to-tylko-po%C5%82owa-sukcesu)
+- [Definicja sukcesu](#definicja-sukcesu)
+- [Wszystko jest hipotezą](#wszystko-jest-hipotez%C4%85)
+- [Dostarczanie a nauka](#dostarczanie-a-nauka)
 
 ## Różnica pomiędzy Co a Jak
 Kiedy myślimy o nowej funkcji w naszym systemie to chcemy dostarczyć klientom konkretną możliwość. Jeśli produktem jest sklep internetowy to taką funkcją dla klienta może być np. wybór paczkomatu do którego dostarczymy paczkę. To jest ta prosta część.
@@ -36,7 +36,7 @@ Prosty przykład, ale pokazuje różnicę:
 
 Zwykle mamy kilka(dziesiąt) możliwych "Jak" dla danego "Co". **Wybranie właściwego "Jak" jest trudne i przeważnie nie udaje się za pierwszym razem.** Nie mamy odpowiednich danych, nie znamy wystarczająco potrzeb klientów, bazujemy na własnych przeczuciach. Wybieramy opcję, która nam najbardziej pasuje.
 
-**Ostatecznie my możemy być zadowoleni z dostarczonej funkcji, ale może to nie być to to,czego oczekiwali nasi klieci.** Wtedy, albo akceptujemy smutny stan rzeczy, albo zmieniamy to co stworzyliśmy i ponownie sprawdzamy reakcję klientów.
+Ostatecznie my możemy być zadowoleni z dostarczonej funkcji, ale może to nie być to to,czego oczekiwali nasi klieci. Wtedy, albo akceptujemy smutny stan rzeczy, albo zmieniamy to co stworzyliśmy i ponownie sprawdzamy reakcję klientów.
 
 ## Dostarczanie to tylko połowa sukcesu
 Powyższe pokazuje, że udostępnienie danej funkcji klientom to zaledwie początek drogi. Trzeba jeszcze zebrać informacje jak ta funkcja wpłynęła na proces - zarówno ilościowe:
@@ -89,11 +89,11 @@ https://barryoreilly.com/explore/blog/how-to-implement-hypothesis-driven-develop
 
 Jest to kompletnie przeciwne podejście od typowego dla podejść zwinnych opisów "Jako X chcę Y aby Z". Tutaj opisujemy w co wierzymy, co chcemy osiagnąć i jak to sprawdzimy. **Jasne określenie założeń pozwala przyznać się do niewiedzy i lepiej odkrywać nowe rozwiązania.** I na nich się uczyć jak lepiej odpowiadać na potrzeby klientów.
 
-Warto przytoczyć jeszcze [DIBB framework](https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm?ref=https://product-frameworks.com) stosowany w Spotify, na podstawie którego firma rozwija swoje usługi:
+Warto przytoczyć jeszcze [DIBB framework](https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm) stosowany w Spotify, na podstawie którego firma rozwija swoje usługi:
 
 [![](DIBB.png)](DIBB.png)
 
-https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm?ref=https://product-frameworks.com
+https://blog.crisp.se/2016/06/08/henrikkniberg/spotify-rhythm
 
  Widać, że kluczowym elementem tworzenia produktu jest **zakład** (bet). Na jego podstawie Spotify określa co chce rozwijać dalej i w jaki sposób zmierzy, czy miał rację. Niewiedza została wpisana w proces jako kluczowy czynnik.
 

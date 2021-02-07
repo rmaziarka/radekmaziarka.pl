@@ -5,7 +5,6 @@ date: Sun, 07 Feb 2021 14:40:09 +0000
 images: ['2021/02/07/product-development-5-przemyslen/product-development.jfif']
 description: ''
 category: 'Product development'
-draft: true
 tags: []
 ---
 

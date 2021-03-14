@@ -17,7 +17,7 @@ Basically, it means that an organization will deliver a product, that mirrors th
 
 ## Conway's Law - Theoretical example
 
-Let’s assume we run a company that has various departments tackling different segments of the car market: 
+Let’s assume, we run a company that has various departments tackling different segments of the car market: 
 
 * Personal cars
 * Small delivery trucks
@@ -28,8 +28,7 @@ Departments belong internally to the same company, but they have separate teams,
 
 This kind of organizational structure will inefficiently solve problems or create solutions that require cooperation between different departments (e.g. improving effectiveness of engines). Planning meetings, goals definitions, the involvement of people – all of this will be much more difficult because it will require synchronization of groups, which don’t have common deadlines, plans, capabilities.
 
-Additionally, with this kind of structure, improvements will not happen at all, or not enough emphasis will be put on them. You may even observe that departments reinvent the wheel and hear complaints about insufficient cooperation. Everyone will be defending their responsibilities and putting blame on others.
-
+Additionally, with this kind of structure, improvements will not happen at all, or not enough emphasis will be put on them. You may even observe, that departments reinvent the wheel and hear complaints about insufficient cooperation. Everyone will be defending their responsibilities and putting blame on others.
 
 ## Conway's law - software world
 
@@ -39,8 +38,7 @@ Conway’s law has a very strong influence on IT solutions and products. Eric Ra
 * During the discussion, they define their conditions and requirements,
 * These needs are transferred into their modules as interfaces in the code.
 
-
-Conway’s law justifies pressure on the creation of [cross-functional teams](https://agileforall.com/org-structure-software-architecture-and-cross-functional-teams/) and supports [DevOps](https://devops.com/what-can-conways-law-teach-us-about-devops/) culture. The more people in a team with a wider spectrum of solution solving skills, the fewer dependencies from other teams and unnecessary delays. Everything can be enclosed in the same room – analysis, implementation, testing, deployment and maintenance.
+Conway’s law justifies pressure on the creation of [cross-functional teams](https://agileforall.com/org-structure-software-architecture-and-cross-functional-teams/), and supports [DevOps](https://devops.com/what-can-conways-law-teach-us-about-devops/) culture. The more people in a team with a wider spectrum of solution solving skills, the fewer dependencies from other teams and unnecessary delays. Everything can be enclosed in the same room – analysis, implementation, testing, deployment and maintenance.
 
 [![](/images/2019/02/1.jpg)](/images/2019/02/1.jpg)
 
@@ -52,19 +50,22 @@ There is a lot of talk about Conway’s Law when it comes to [microservices](htt
 
 [![](/images/2019/02/2.jpg)](/images/2019/02/2.jpg)
 
-Microsoft has [analyzed and described](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf) how its organizational structure has contributed to the number of bugs and perceived quality of Vista OS. Based on actual data, it was proven that complicated structure and unclear decision process negatively influenced the delivered operating system. 
+Microsoft has [analyzed and described](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf) how its organizational structure has contributed to the number of bugs and perceived quality of Vista OS. Based on actual data, it was proven, that complicated structure and unclear decision process negatively influenced the delivered operating system. 
 
-Another excellent material is the [scientific paper](http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf?lipi=urn:li:page:d_flagship3_pulse_read;Jt69%2BCqYSgSZqq23lkSrbA%3D%3D) from Harvard Business School which describes how different organizational structures influence software structure. Open-source-based organizations tend to create loosely-coupled software, which is also how they operate on a daily basis. Close-sourced organizations work in a more coupled way and it tends to create software with a higher number of interconnections.
+Another excellent material is the [scientific paper](http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf?lipi=urn:li:page:d_flagship3_pulse_read;Jt69%2BCqYSgSZqq23lkSrbA%3D%3D) from Harvard Business School. It describes how different organizational structures influence software structures. Open-source-based organizations tend to create loosely-coupled software, which is also how they operate on a daily basis. Close-sourced organizations work in a more coupled way and it tends to create software with a higher number of interconnections.
 
-There also other, less formal, materials like the [mail to Microsoft employees](https://news.microsoft.com/2018/03/29/satya-nadella-email-to-employees-embracing-our-future-intelligent-cloud-and-intelligent-edge/) from Saya Nadella describing structure changes driven by Conway’s Law or [document](https://assets.publishing.service.gov.uk/media/57a08da640f0b652dd001abc/Usability-issues-in-website-design.pdf) of Nigel Beyan describing how organization structure influences website structure of the organization.
+There are also other, less formal materials like:
+
+- [mail to Microsoft employees](https://news.microsoft.com/2018/03/29/satya-nadella-email-to-employees-embracing-our-future-intelligent-cloud-and-intelligent-edge/) from Saya Nadella describing structure changes driven by Conway’s Law, or 
+- [document](https://assets.publishing.service.gov.uk/media/57a08da640f0b652dd001abc/Usability-issues-in-website-design.pdf) of Nigel Beyan describing how organization structure influences website structure of the organization.
 
 ## Conway's Law - my example
 
 I have also experienced Conway’s Law very much in my professional life. Hence my research on this topic.
 
-In one of my previous projects, there was an employee, that theoretically should have had a low influence on the system – he was supposed to assist when deploying the system to the production environment. Unfortunately, he was outside of the project structure and he had a different Project Manager. We had no chance to influence and convince this person to change their vision to be compatible with our solution.
+In one of my previous projects, there was an employee, that theoretically should have had a low influence on the system – he was supposed to assist when deploying the system to the production environment. Unfortunately, he was outside of the project structure and he had a different Project Manager. We had no options to influence and convince this person to change his vision to be compatible with the created solution.
 
-The person forced us, to come up with a solution that fitted his vision, but at the same time, we weren’t able to create a system that we needed – every change had to be approved by this person. It resulted in big implementation issues and many additional work hours spent on rework and adjustments of the system.
+The person forced us to come up with a solution that fitted his vision. At the same time, we weren’t able to create a system that was required – every change had to be approved by this person. It resulted in big implementation issues and many additional work hours spent on rework and adjustments of the system.
 
 ## Conway's Law - influence on the organization
 
@@ -86,7 +87,7 @@ Instead of supporting adjustments to solve problems properly, the organization s
 
 Conway’s law is not a law in a strict sense – it can’t be proven as a physical law. But there are many reasons, why people may act according to this law:
 
- *   [Communication limitations](https://getlighthouse.com/blog/developing-leaders-team-grows-big/) – it is impossible for a large group to communicate with each other at the same time. We create abstractions, in form of groups and teams, that work as one bigger organism.
+ *   [Communication limitations](https://getlighthouse.com/blog/developing-leaders-team-grows-big/) – it is impossible for a large group to communicate effectively. We create abstractions, in form of groups and teams, that work as one bigger organism.
  *   [Misaligned incentives](https://medium.com/nick-tune-tech-strategy-blog/misaligned-incentives-fuel-organizational-dysfunctions-a67a3ed03890) - they push people from colaborating to solve the problem towards securing their own situations 
  *   [Group cohesiveness](https://en.wikipedia.org/wiki/Group_cohesiveness) and [Groupthinking](https://en.wikipedia.org/wiki/Groupthink) – psychological syndrome, resulting in groups making decisions together, that at times might be irrational.
  *   [Tribalism](https://en.wikipedia.org/wiki/Tribalism) – feeling of being close within the group we identify with – This inborn atavism makes it easier for us to accept solutions close to our surroundings and to compete with opposing groups.
@@ -139,7 +140,7 @@ A common mistake in building your organization is to copy another company's stru
 
 [![](/images/2019/02/7.jpg)](/images/2019/02/7.jpg)
 
-Many companies copied [Spotify’s organizational structure](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf), but they haven’t checked the business reality around Spotify. Many aspects make Spotify’s structure possible to implement: [Scandinavian social culture](https://zenexmachina.wordpress.com/2017/07/25/why-spotifys-agile-patterns-work-and-why-you-shouldnt-copy-them/), [agile culture](http://blog.kevingoldsmith.com/2014/03/14/thoughts-on-emulating-spotifys-matrix-organization-in-other-companies/), [business context](https://medium.com/the-ready/how-to-build-your-own-spotify-model-dce98025d32f). It took 3 years to implement structural change in Spotify. But others want to have an instant implementation of organizational structure - yesterday we worked in an old way, today we work in a new way. It doesn’t work like this, however.
+Many companies copied [Spotify’s organizational structure](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf), but they haven’t checked the business reality around Spotify. Many aspects make Spotify’s structure possible to implement: [Scandinavian social culture](https://zenexmachina.wordpress.com/2017/07/25/why-spotifys-agile-patterns-work-and-why-you-shouldnt-copy-them/), [agile culture](http://blog.kevingoldsmith.com/2014/03/14/thoughts-on-emulating-spotifys-matrix-organization-in-other-companies/), [business context](https://medium.com/the-ready/how-to-build-your-own-spotify-model-dce98025d32f). It took 3 years to implement structural change in Spotify. But others want to have an instant implementation of organizational structure - yesterday we worked in an old way, today we work in a new way. However, it doesn’t work like this.
 
 ## Elements of a good structure
 
@@ -153,7 +154,7 @@ Below you will find some basic elements, that are worthwhile considering when cr
 * Possible bottlenecks
 * Opportunity for a business change
 
-Of course, this list is not completed, rather it is a scratch on the surface. A lot about heuristics on how to structure your teams and organization can be found on [Nick Tune's blog](https://medium.com/nick-tune-tech-strategy-blog/primary-sociotechnical-design-heuristics-5aa164b3e876). Nick uses the word ‘heuristic’ on purpose – there are no good and bad choices here. All principles are just guidelines – they can, but not necessarily will secure a more effective organizational structure.
+Of course, this list is not complete, rather it's rather scratching the surface. A lot about heuristics regarding how to structure your teams or organization can be found on [Nick Tune's blog](https://medium.com/nick-tune-tech-strategy-blog/primary-sociotechnical-design-heuristics-5aa164b3e876). Nick uses the word ‘heuristic’ on purpose – there are no good and bad choices here. All principles are just guidelines – they can, but not necessarily will secure a more effective organizational structure.
 
 ## Podsumowanie
 

@@ -42,11 +42,11 @@ Conway’s law justifies pressure on the creation of [cross-functional teams](ht
 
 [![](/images/2019/02/1.jpg)](/images/2019/02/1.jpg)
 
-There is a lot of talk about Conway’s Law when it comes to [microservices](https://martinfowler.com/articles/microservices.html#OrganizedAroundBusinessCapabilities). Incorrect division of people into teams will result in communicational problems, which will then translate into the created solution. Additionally, team autonomy can be mention as one of the common problems. Teams will be affecting each other, which at the end will be copied into architecture – the created system will be tightly-coupled.
+There is a lot of talk about Conway’s Law, when it comes to [microservices](https://martinfowler.com/articles/microservices.html#OrganizedAroundBusinessCapabilities). Incorrect division of people into teams will result in communicational problems, which will then translate into the created solution. Additionally, team autonomy can be mention as one of the common problems. Teams will be affecting each other, which at the end will be copied into architecture – the created system will be tightly-coupled.
 
 ## Conway’s Law – practical examples
 
-2 interesting examples can be found in the literature that describes exceptionally well Conway’s law in practice.
+2 interesting examples can be found in the literature, that describes exceptionally well Conway’s law in practice.
 
 [![](/images/2019/02/2.jpg)](/images/2019/02/2.jpg)
 
@@ -88,7 +88,7 @@ Instead of supporting adjustments to solve problems properly, the organization s
 Conway’s law is not a law in a strict sense – it can’t be proven as a physical law. But there are many reasons, why people may act according to this law:
 
  *   [Communication limitations](https://getlighthouse.com/blog/developing-leaders-team-grows-big/) – it is impossible for a large group to communicate effectively. We create abstractions, in form of groups and teams, that work as one bigger organism.
- *   [Misaligned incentives](https://medium.com/nick-tune-tech-strategy-blog/misaligned-incentives-fuel-organizational-dysfunctions-a67a3ed03890) - they push people from colaborating to solve the problem towards securing their own situations 
+ *   [Misaligned incentives](https://medium.com/nick-tune-tech-strategy-blog/misaligned-incentives-fuel-organizational-dysfunctions-a67a3ed03890) - they push people from colaborating to solve the problem towards securing their own situations.
  *   [Group cohesiveness](https://en.wikipedia.org/wiki/Group_cohesiveness) and [Groupthinking](https://en.wikipedia.org/wiki/Groupthink) – psychological syndrome, resulting in groups making decisions together, that at times might be irrational.
  *   [Tribalism](https://en.wikipedia.org/wiki/Tribalism) – feeling of being close within the group we identify with – This inborn atavism makes it easier for us to accept solutions close to our surroundings and to compete with opposing groups.
  *   [Cognitive load theory](https://en.wikipedia.org/wiki/Cognitive_load) – there is a limit of information that we can work with. Working in a group will make people focus on internal knowledge and filter information from outside of the group.

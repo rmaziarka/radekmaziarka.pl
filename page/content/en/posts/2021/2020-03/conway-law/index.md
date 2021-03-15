@@ -159,4 +159,5 @@ Of course, this list is not complete, rather it's rather scratching the surface.
 ## Summary
 
 Creating and managing an organization’s structure is a very difficult task. Often, resistance is met and every change significantly influences the organization. However, it is important to understand that we are not able to solve all the problems at once. There is no such thing as a perfect organizational structure. An organizational structure that solves problems of today, may not solve problems of tomorrow, so it may need to be updated.
+
 This is a brief description of a big and comprehensive subject. I hope I was able to convince you to get your attention and make you more interested in this area of knowledge 😊

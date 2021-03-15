@@ -1,6 +1,6 @@
 ---
 title: "Conway's Law - how organization's structure influences its results"
-url: '/2021/03/14/conways-law-jak-struktura-organizacji-wplywa-na-osiagane-rezultaty/'
+url: '/2021/03/14/conways-law-how-organizations-structure-influences-its-results/'
 date: Sun, 14 Mar 2021 15:58:01 +0000
 draft: false
 images: ['images/2019/02/acropolis-2725918_960_720.jpg']

@@ -154,7 +154,7 @@ Below you will find some basic elements, that are worthwhile considering when cr
 * Possible bottlenecks
 * Opportunity for a business change
 
-Of course, this list is not complete, rather it's rather scratching the surface. A lot about heuristics regarding how to structure your teams or organization can be found on [Nick Tune's blog](https://medium.com/nick-tune-tech-strategy-blog/primary-sociotechnical-design-heuristics-5aa164b3e876). Nick uses the word ‘heuristic’ on purpose – there are no good and bad choices here. All principles are just guidelines – they can, but not necessarily will secure a more effective organizational structure.
+Of course, this list is not complete, rather it's rather scratching the surface. A lot about heuristics, regarding how to structure your teams or organization, can be found on [Nick Tune's blog](https://medium.com/nick-tune-tech-strategy-blog/primary-sociotechnical-design-heuristics-5aa164b3e876). Nick uses the word ‘heuristic’ on purpose – there are no good and bad choices here. All principles are just guidelines – they can, but not necessarily will secure a more effective organizational structure.
 
 ## Podsumowanie
 

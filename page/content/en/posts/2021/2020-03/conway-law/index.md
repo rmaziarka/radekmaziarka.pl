@@ -32,7 +32,7 @@ Additionally, with this kind of structure, improvements will not happen at all, 
 
 ## Conway's law - software world
 
-Conway’s law has a very strong influence on IT solutions and products. Eric Raymond, the co-founder of Open Source Initiative, described in [Jargon](http://catb.org/~esr/jargon/html/C/Conways-Law.html), że: „If you have four groups working on a compiler, you'll get a 4-pass compiler.”  That is a description of a simple observation:
+Conway’s law has a very strong influence on IT solutions and products. Eric Raymond, the co-founder of Open Source Initiative, described in [Jargon](http://catb.org/~esr/jargon/html/C/Conways-Law.html), that: „If you have four groups working on a compiler, you'll get a 4-pass compiler.”  That is a description of a simple observation:
 
 * There are separate groups that have to cooperate,
 * During the discussion, they define their conditions and requirements,
@@ -156,7 +156,7 @@ Below you will find some basic elements, that are worthwhile considering when cr
 
 Of course, this list is not complete, rather it's rather scratching the surface. A lot about heuristics, regarding how to structure your teams or organization, can be found on [Nick Tune's blog](https://medium.com/nick-tune-tech-strategy-blog/primary-sociotechnical-design-heuristics-5aa164b3e876). Nick uses the word ‘heuristic’ on purpose – there are no good and bad choices here. All principles are just guidelines – they can, but not necessarily will secure a more effective organizational structure.
 
-## Podsumowanie
+## Summary
 
 Creating and managing an organization’s structure is a very difficult task. Often, resistance is met and every change significantly influences the organization. However, it is important to understand that we are not able to solve all the problems at once. There is no such thing as a perfect organizational structure. An organizational structure that solves problems of today, may not solve problems of tomorrow, so it may need to be updated.
 This is a brief description of a big and comprehensive subject. I hope I was able to convince you to get your attention and make you more interested in this area of knowledge 😊

@@ -37,12 +37,6 @@ paginatePath = "page"
   name = "Narzędzia pracy konsultanta"
   url = "/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/"
   weight = 20
-  
-[[languages.pl.menu.main]]
-  identifier = "szkolenia"
-  name = "Szkolenia i warsztaty"
-  url = "/szkolenia-i-warsztaty"
-  weight = 40
 
 [[languages.pl.menu.main]]
   identifier = "o-mnie"

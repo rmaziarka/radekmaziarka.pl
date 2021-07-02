@@ -1,23 +1,4 @@
 
-terraform {
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-      version = "2.66.0"
-    }
-
-    azuread = {
-      source = "hashicorp/azuread"
-      version = "1.6.0"
-    }
-
-    azuredevops = {
-      source = "microsoft/azuredevops"
-      version = "0.1.5"
-    }
-  }
-}
-
 resource "azurerm_resource_group" "default" {
   name     = var.resource_group_name
   location = "West Europe"
@@ -47,11 +28,6 @@ resource "azurerm_storage_blob" "robots" {
   type                   = "Block"
   source                 = "${path.cwd}/robots.txt"
 
-  lifecycle {
-    ignore_changes = [
-      source
-    ]
-  }
 }
 
 resource "azuread_application" "azure_devops" {
@@ -74,30 +50,31 @@ resource "azurerm_role_assignment" "azure_devops" {
   principal_id         = azuread_service_principal.azure_devops.id
 }
 
+resource "time_rotating" "azure" {
+  rotation_days = 365
+}
 
 resource "random_password" "azure_devops" {
   length = 32
   special = true
   override_special = "_%@"
+  
+  keepers = {
+    expiry = time_rotating.azure.rotation_rfc3339
+  }
 }
 
 resource "azuread_service_principal_password" "azure_devops" {
   service_principal_id = azuread_service_principal.azure_devops.id
   value                = random_password.azure_devops.result
-  end_date_relative    = "8760h"
+  end_date              = time_rotating.azure.rotation_rfc3339
 
-  lifecycle {
-    ignore_changes = [
-      value,
-      end_date_relative
-    ]
-  }
 }
 
 resource "azuread_application_password" "azure_devops" {
   application_object_id = azuread_application.azure_devops.id
   value                 = random_password.azure_devops.result
-  end_date_relative     = "8760h"
+  end_date              = time_rotating.azure.rotation_rfc3339
 
   lifecycle {
     ignore_changes = [

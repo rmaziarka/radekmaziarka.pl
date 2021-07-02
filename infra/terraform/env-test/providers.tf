@@ -33,6 +33,11 @@ terraform {
       source = "hashicorp/random"
       version = "3.1.0"
     }
+    
+    time = {
+      source = "hashicorp/time"
+      version = "0.7.2"
+    }
   }
 }
 
@@ -51,6 +56,9 @@ provider "azuread" {
 }
 
 provider "random" {
+}
+
+provider "time" {
 }
 
 

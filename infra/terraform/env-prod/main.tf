@@ -40,7 +40,7 @@ resource "cloudflare_record" "redirect_record_radblog" {
 resource "cloudflare_page_rule" "radblog" {
   zone_id = local.cloudflare_zone_radblog_id
   target = "*radblog.pl/*"
-  priority = 2
+  priority = 1
 
   actions {
     forwarding_url {

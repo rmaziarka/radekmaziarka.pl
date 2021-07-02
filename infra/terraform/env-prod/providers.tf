@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "terraform-state"
     storage_account_name = "radsoftterraformstate"
     container_name       = "state"
-    key                  = "radekmaziarka.test.terraform.tfstate"
+    key                  = "radekmaziarka.prod.terraform.tfstate"
   }
 }
 
@@ -33,6 +33,11 @@ terraform {
       source = "hashicorp/random"
       version = "3.1.0"
     }
+    
+    time = {
+      source = "hashicorp/time"
+      version = "0.7.2"
+    }
   }
 }
 
@@ -51,6 +56,9 @@ provider "azuread" {
 }
 
 provider "random" {
+}
+
+provider "time" {
 }
 
 

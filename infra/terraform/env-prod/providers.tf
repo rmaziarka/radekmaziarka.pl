@@ -3,21 +3,54 @@ terraform {
     resource_group_name  = "terraform-state"
     storage_account_name = "radsoftterraformstate"
     container_name       = "state"
-    key                  = "radekmaziarka.prod.terraform.tfstate"
+    key                  = "radekmaziarka.test.terraform.tfstate"
+  }
+}
+
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "2.66.0"
+    }
+
+    azuread = {
+      source = "hashicorp/azuread"
+      version = "1.6.0"
+    }
+
+    cloudflare = {
+      source = "cloudflare/cloudflare"
+      version = "2.23.0"
+    }
+
+    azuredevops = {
+      source = "microsoft/azuredevops"
+      version = "0.1.5"
+    }
+
+    random = {
+      source = "hashicorp/random"
+      version = "3.1.0"
+    }
   }
 }
 
 provider "azurerm" {
-  version = "=2.2.0"
   features {}
 }
 
 provider "cloudflare" {
-  version = "~> 2.0"
+   email      = "maziarka.radoslaw@outlook.com"
+}
+
+provider "azuredevops" {
 }
 
 provider "azuread" {
-  version = "=0.7.0"
+}
+
+provider "random" {
 }
 
 

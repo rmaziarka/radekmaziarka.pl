@@ -92,6 +92,7 @@ Thumbs.db
 
 # Local .terraform directories
 **/.terraform/*
+*.lock.hcl
 
 # .tfstate / tfplan files
 *.tfstate

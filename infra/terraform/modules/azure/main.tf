@@ -1,3 +1,23 @@
+
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "2.66.0"
+    }
+
+    azuread = {
+      source = "hashicorp/azuread"
+      version = "1.6.0"
+    }
+
+    azuredevops = {
+      source = "microsoft/azuredevops"
+      version = "0.1.5"
+    }
+  }
+}
+
 resource "azurerm_resource_group" "default" {
   name     = var.resource_group_name
   location = "West Europe"

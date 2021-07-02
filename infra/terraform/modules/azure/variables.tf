@@ -23,7 +23,7 @@ variable "service_endpoint_name"{
 }
 
 data "azuredevops_projects" "default" {
-    project_name = "radekmaziarka.pl"
+    name = "radekmaziarka.pl"
 }
 
 locals {

@@ -9,7 +9,7 @@
 
   &__content {
     display: inline-block;
-    width: 75%;
+    width: 100%; // sidebar disabled
     padding-top: 18px;
 
     @media screen and (max-width: 1024px) {

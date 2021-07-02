@@ -3,7 +3,7 @@
 
   &__content {
     display: inline-block;
-    width: 75%;
+    width: 100%; //Sidebar disabled
 
     @media screen and (max-width: 1024px) {
       width: 100%;

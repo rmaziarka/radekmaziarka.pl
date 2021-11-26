@@ -3,7 +3,7 @@ title: "There is no CRUD division"
 url: '/2021/11/19/there-is-no-crud-division/'
 date: Fri, 19 Nov 2021 11:58:01 +0000
 draft: true
-images: ['images/2019/02/acropolis-2725918_960_720.jpg']
+images: []
 description: ""
 category: 'Other'
 tags: ['']
@@ -29,7 +29,9 @@ Created addresses are validated nowadays against actual address from a country l
 
 What about limits in creation? Our potential SaaS could limit number of products per client or flatten the category tree. And do not even start thinking about authorization rules. Usually you have admins / managers / employees etc with separated rules of behavior.
 
-Read
+## Read
+There is no problem with reading a single entity from the database. But in most situations you aren't interested in looking at the single entity.
+
 Problems with more complicated views like categories and all assigned products. 
 
 What kind of products you should take into consideration - all / not hidden / in sale / with price.

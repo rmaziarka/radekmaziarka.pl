@@ -9,3 +9,6 @@ tags: ['Conway Law']
 aliases: ['/prawo-conwaya-w-praktyce']
 ---
 W ramach konferencji [Boiling Frogs](https://2021.boilingfrogs.pl/) wystąpiłem z prezentacją “Struktura organizacji a wytwarzane oprogramowanie – prawo Conway'a w praktyce”. Prezentacja, wraz ze wszystkimi materiałami, dostępna jest na [Miro](https://miro.com/app/board/o9J_lRrEu8A=/).
+
+## Nagranie z prezentacji:
+{{< youtube mpcdIs8L8iI >}}

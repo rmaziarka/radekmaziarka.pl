@@ -33,16 +33,16 @@ paginatePath = "page"
   weight = 10
 
 [[languages.pl.menu.main]]
-  identifier = "leadership"
-  name = "Porady dla Team Leadera"
-  url = "/2018/05/17/porady-dla-team-leadera-podsumowanie/"
-  weight = 20
-
-[[languages.pl.menu.main]]
   identifier = "consultancy"
   name = "Narzędzia pracy konsultanta"
   url = "/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/"
   weight = 30
+
+[[languages.pl.menu.main]]
+  identifier = "szkolenia"
+  name = "Szkolenia i warsztaty"
+  url = "/szkolenia-i-warsztaty"
+  weight = 40
 
 [[languages.pl.menu.main]]
   identifier = "o-mnie"
@@ -65,7 +65,7 @@ paginatePath = "page"
 
 [[languages.pl.menu.main]]
   identifier = "english-posts"
-  name = "English site"
+  name = ""
   url = "/en"
   weight = 70
   
@@ -96,7 +96,7 @@ paginatePath = "page"
 
 [[languages.en.menu.main]]
   identifier = "polish-posts"
-  name = "Strona polska"
+  name = ""
   url = "/"
   weight = 50
 

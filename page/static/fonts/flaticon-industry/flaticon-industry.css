@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "flaticon-industry";
+  src: url("./flaticon-industry.eot");
+  src: url("./flaticon-industry.eot?#iefix") format("embedded-opentype"),
+       url("./flaticon-industry.woff2") format("woff2"),
+       url("./flaticon-industry.woff") format("woff"),
+       url("./flaticon-industry.ttf") format("truetype"),
+       url("./flaticon-industry.svg#flaticon-industry") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "flaticon-industry";
+    src: url("./flaticon-industry.svg#flaticon-industry") format("svg");
+  }
+}
+
+.fimanager:before {
+  font-family: "flaticon-industry";
+}
+
+.flaticon-industry-001-tank:before { content: "\f100"; }
+.flaticon-industry-002-pallet:before { content: "\f101"; }
+.flaticon-industry-003-calculator:before { content: "\f102"; }
+.flaticon-industry-004-plan:before { content: "\f103"; }
+.flaticon-industry-005-factory:before { content: "\f104"; }
+.flaticon-industry-006-tools:before { content: "\f105"; }
+.flaticon-industry-007-plan:before { content: "\f106"; }
+.flaticon-industry-008-checklist:before { content: "\f107"; }
+.flaticon-industry-009-check-list:before { content: "\f108"; }
+.flaticon-industry-010-warehouse:before { content: "\f109"; }
+.flaticon-industry-011-idea:before { content: "\f10a"; }
+.flaticon-industry-012-toolbox:before { content: "\f10b"; }
+.flaticon-industry-013-electricity:before { content: "\f10c"; }
+.flaticon-industry-014-oil-tank:before { content: "\f10d"; }
+.flaticon-industry-015-bolt:before { content: "\f10e"; }
+.flaticon-industry-016-wrench:before { content: "\f10f"; }
+.flaticon-industry-017-weld:before { content: "\f110"; }
+.flaticon-industry-018-spray-gun:before { content: "\f111"; }
+.flaticon-industry-019-radioactive:before { content: "\f112"; }
+.flaticon-industry-020-drill:before { content: "\f113"; }
+.flaticon-industry-021-cutting:before { content: "\f114"; }
+.flaticon-industry-022-conveyor:before { content: "\f115"; }
+.flaticon-industry-023-forklift:before { content: "\f116"; }
+.flaticon-industry-024-saw-machine:before { content: "\f117"; }
+.flaticon-industry-025-cargo:before { content: "\f118"; }
+.flaticon-industry-026-shipping-truck:before { content: "\f119"; }
+.flaticon-industry-027-trolley:before { content: "\f11a"; }
+.flaticon-industry-028-car-manufacturing:before { content: "\f11b"; }
+.flaticon-industry-029-trolley:before { content: "\f11c"; }
+.flaticon-industry-030-freight-wagon:before { content: "\f11d"; }
+.flaticon-industry-031-conveyor:before { content: "\f11e"; }
+.flaticon-industry-032-conveyor:before { content: "\f11f"; }
+.flaticon-industry-033-factory-machine:before { content: "\f120"; }
+.flaticon-industry-034-bottle:before { content: "\f121"; }
+.flaticon-industry-035-robotic-arm:before { content: "\f122"; }
+.flaticon-industry-036-employee:before { content: "\f123"; }
+.flaticon-industry-037-foreman:before { content: "\f124"; }
+.flaticon-industry-038-architect:before { content: "\f125"; }
+.flaticon-industry-039-green-factory:before { content: "\f126"; }
+.flaticon-industry-040-car-manufacturing:before { content: "\f127"; }
+.flaticon-industry-041-truck:before { content: "\f128"; }
+.flaticon-industry-042-pressure-gauge:before { content: "\f129"; }
+.flaticon-industry-043-hook:before { content: "\f12a"; }
+.flaticon-industry-044-container:before { content: "\f12b"; }
+.flaticon-industry-045-pallet:before { content: "\f12c"; }
+.flaticon-industry-046-worker:before { content: "\f12d"; }
+.flaticon-industry-047-water-machine:before { content: "\f12e"; }
+.flaticon-industry-048-laser:before { content: "\f12f"; }
+.flaticon-industry-049-computer:before { content: "\f130"; }
+.flaticon-industry-050-conveyor:before { content: "\f131"; }

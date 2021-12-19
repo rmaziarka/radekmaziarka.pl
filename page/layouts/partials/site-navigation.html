@@ -1,80 +1,26 @@
-<nav class="menu" role="navigation">
-    <div class="center">
-        <span class="menu__burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </span>
-        <ul class="menu__list {{ .Lang }}">
-            <span class="menu__close">
-                <i class="fa fa-times"></i>
-            </span>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-            <li class="menu__item {{ if $currentPage.IsMenuCurrent "main" . }}menu__item--active{{ end }}">
-            <a class="menu__link" href="{{ .URL }}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-                <span class="menu__arrow">
-                        <i class="fa fa-chevron-down"></i>
-                    </span>
-            </a>
-            <ul class="menu__submenu">
-                {{ range .Children }}
-                <li class="menu__subItem {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                <a class="menu__link" href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-            </li>
 
-            {{ else }}
-            <li class="menu__item">
-                <a class="menu__link" href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span></span>
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            {{ end }}
-            {{ end }}
-
-        </ul>
-        {{ partial "search.html" . }}
-    </div>
+<nav id="top-primary-nav" class="menuzord theme-color1 menuzord-responsive" data-effect="fade" data-animation="none" data-align="right"><a href="javascript:void(0)" class="showhide"><em></em><em></em><em></em></a>
+  <ul id="main-nav" class="menuzord-menu menuzord-right menuzord-indented scrollable" style="max-height: 100%;">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+      <a href="{{ .URL }}">
+        {{ .Pre }}
+        <span>{{ .Name }}</span>
+        <span class="indicator"><i class="fa fa-angle-down"></i></span>
+      </a>
+      <ul class="dropdown" style="right: auto; display: none;">
+        
+        {{ range .Children }}
+        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </li>
+    {{ else }}
+    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
+    {{ end }}
+    {{ end }}
 </nav>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var $body = document.body;
-    var $burger = document.querySelector('.menu__burger');
-    var $closeMenu = document.querySelector('.menu__close')
-    var $menu = document.querySelector('.menu__list');
-
-    function toggleMenu(el) {
-      el.addEventListener('click', function () {
-        $menu.classList.toggle('active');
-        $body.classList.toggle('overlay');
-      })
-    }
-
-    toggleMenu($burger);
-    toggleMenu($closeMenu);
-
-    var $itemWithSub = document.querySelectorAll('.menu__item a .menu__arrow');
-    [].forEach.call($itemWithSub, function ($el) {
-      var $item = $el;
-      $item.addEventListener('click', function (event) {
-        event.preventDefault()
-        var $this = this;
-        $this.classList.toggle('active');
-        var $thisParent = $this.parentNode;
-        var $subMenu = $thisParent.nextSibling.nextSibling;
-        $subMenu.classList.toggle('visible');
-      });
-    });
-
-  });
-</script>

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-tank:before { content: "\f100"; }
+.flaticon-002-pallet:before { content: "\f101"; }
+.flaticon-003-calculator:before { content: "\f102"; }
+.flaticon-004-plan:before { content: "\f103"; }
+.flaticon-005-factory:before { content: "\f104"; }
+.flaticon-006-tools:before { content: "\f105"; }
+.flaticon-007-plan:before { content: "\f106"; }
+.flaticon-008-checklist:before { content: "\f107"; }
+.flaticon-009-check-list:before { content: "\f108"; }
+.flaticon-010-warehouse:before { content: "\f109"; }
+.flaticon-011-idea:before { content: "\f10a"; }
+.flaticon-012-toolbox:before { content: "\f10b"; }
+.flaticon-013-electricity:before { content: "\f10c"; }
+.flaticon-014-oil-tank:before { content: "\f10d"; }
+.flaticon-015-bolt:before { content: "\f10e"; }
+.flaticon-016-wrench:before { content: "\f10f"; }
+.flaticon-017-weld:before { content: "\f110"; }
+.flaticon-018-spray-gun:before { content: "\f111"; }
+.flaticon-019-radioactive:before { content: "\f112"; }
+.flaticon-020-drill:before { content: "\f113"; }
+.flaticon-021-cutting:before { content: "\f114"; }
+.flaticon-022-conveyor:before { content: "\f115"; }
+.flaticon-023-forklift:before { content: "\f116"; }
+.flaticon-024-saw-machine:before { content: "\f117"; }
+.flaticon-025-cargo:before { content: "\f118"; }
+.flaticon-026-shipping-truck:before { content: "\f119"; }
+.flaticon-027-trolley:before { content: "\f11a"; }
+.flaticon-028-car-manufacturing:before { content: "\f11b"; }
+.flaticon-029-trolley:before { content: "\f11c"; }
+.flaticon-030-freight-wagon:before { content: "\f11d"; }
+.flaticon-031-conveyor:before { content: "\f11e"; }
+.flaticon-032-conveyor:before { content: "\f11f"; }
+.flaticon-033-factory-machine:before { content: "\f120"; }
+.flaticon-034-bottle:before { content: "\f121"; }
+.flaticon-035-robotic-arm:before { content: "\f122"; }
+.flaticon-036-employee:before { content: "\f123"; }
+.flaticon-037-foreman:before { content: "\f124"; }
+.flaticon-038-architect:before { content: "\f125"; }
+.flaticon-039-green-factory:before { content: "\f126"; }
+.flaticon-040-car-manufacturing:before { content: "\f127"; }
+.flaticon-041-truck:before { content: "\f128"; }
+.flaticon-042-pressure-gauge:before { content: "\f129"; }
+.flaticon-043-hook:before { content: "\f12a"; }
+.flaticon-044-container:before { content: "\f12b"; }
+.flaticon-045-pallet:before { content: "\f12c"; }
+.flaticon-046-worker:before { content: "\f12d"; }
+.flaticon-047-water-machine:before { content: "\f12e"; }
+.flaticon-048-laser:before { content: "\f12f"; }
+.flaticon-049-computer:before { content: "\f130"; }
+.flaticon-050-conveyor:before { content: "\f131"; }
+
+$font-Flaticon-001-tank: "\f100";
+$font-Flaticon-002-pallet: "\f101";
+$font-Flaticon-003-calculator: "\f102";
+$font-Flaticon-004-plan: "\f103";
+$font-Flaticon-005-factory: "\f104";
+$font-Flaticon-006-tools: "\f105";
+$font-Flaticon-007-plan: "\f106";
+$font-Flaticon-008-checklist: "\f107";
+$font-Flaticon-009-check-list: "\f108";
+$font-Flaticon-010-warehouse: "\f109";
+$font-Flaticon-011-idea: "\f10a";
+$font-Flaticon-012-toolbox: "\f10b";
+$font-Flaticon-013-electricity: "\f10c";
+$font-Flaticon-014-oil-tank: "\f10d";
+$font-Flaticon-015-bolt: "\f10e";
+$font-Flaticon-016-wrench: "\f10f";
+$font-Flaticon-017-weld: "\f110";
+$font-Flaticon-018-spray-gun: "\f111";
+$font-Flaticon-019-radioactive: "\f112";
+$font-Flaticon-020-drill: "\f113";
+$font-Flaticon-021-cutting: "\f114";
+$font-Flaticon-022-conveyor: "\f115";
+$font-Flaticon-023-forklift: "\f116";
+$font-Flaticon-024-saw-machine: "\f117";
+$font-Flaticon-025-cargo: "\f118";
+$font-Flaticon-026-shipping-truck: "\f119";
+$font-Flaticon-027-trolley: "\f11a";
+$font-Flaticon-028-car-manufacturing: "\f11b";
+$font-Flaticon-029-trolley: "\f11c";
+$font-Flaticon-030-freight-wagon: "\f11d";
+$font-Flaticon-031-conveyor: "\f11e";
+$font-Flaticon-032-conveyor: "\f11f";
+$font-Flaticon-033-factory-machine: "\f120";
+$font-Flaticon-034-bottle: "\f121";
+$font-Flaticon-035-robotic-arm: "\f122";
+$font-Flaticon-036-employee: "\f123";
+$font-Flaticon-037-foreman: "\f124";
+$font-Flaticon-038-architect: "\f125";
+$font-Flaticon-039-green-factory: "\f126";
+$font-Flaticon-040-car-manufacturing: "\f127";
+$font-Flaticon-041-truck: "\f128";
+$font-Flaticon-042-pressure-gauge: "\f129";
+$font-Flaticon-043-hook: "\f12a";
+$font-Flaticon-044-container: "\f12b";
+$font-Flaticon-045-pallet: "\f12c";
+$font-Flaticon-046-worker: "\f12d";
+$font-Flaticon-047-water-machine: "\f12e";
+$font-Flaticon-048-laser: "\f12f";
+$font-Flaticon-049-computer: "\f130";
+$font-Flaticon-050-conveyor: "\f131";

@@ -28,14 +28,14 @@ paginatePath = "page"
 
 [[languages.pl.menu.main]]
   identifier = "main"
-  name = "Strona główna"
+  name = "🏠"
   url = "/"
   weight = 10
 
 [[languages.pl.menu.main]]
-  identifier = "consultancy"
-  name = "Narzędzia pracy konsultanta"
-  url = "/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/"
+  identifier = "uslugi"
+  name = "Usługi"
+  url = "/uslugi"
   weight = 30
 
 [[languages.pl.menu.main]]
@@ -45,29 +45,34 @@ paginatePath = "page"
   weight = 40
 
 [[languages.pl.menu.main]]
+  identifier = "konsultacje"
+  name = "Konsultacje"
+  url = "/konsultacje"
+  weight = 50
+  
+[[languages.pl.menu.main]]
+  identifier = "case-studies"
+  name = "Case studies"
+  url = "/case-studies"
+  weight = 60
+
+[[languages.pl.menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
+  weight = 70
+
+[[languages.pl.menu.main]]
   identifier = "o-mnie"
   name = "O mnie"
   url = "/o-mnie"
-  weight = 50
-  
+  weight = 80
+
 [[languages.pl.menu.main]]
   identifier = "kontakt"
   name = "Kontakt"
   url = "/kontakt"
-  weight = 60
-
-[[languages.pl.menu.main]]
-  identifier = "o-mnie-prelekcje"
-  name = "Prelekcje"
-  url = "/prelekcje"
-  weight = 10
-  parent = "o-mnie"
-
-[[languages.pl.menu.main]]
-  identifier = "english-posts"
-  name = ""
-  url = "/en"
-  weight = 70
+  weight = 90
   
 [[languages.en.menu.main]]
   identifier = "main"

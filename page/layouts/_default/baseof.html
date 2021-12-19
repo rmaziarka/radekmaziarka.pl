@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
   <head>
@@ -10,11 +12,28 @@
 
 
     {{ $style := resources.Get "styles/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap&subset=latin-ext" rel="stylesheet">
-    <script src="https://use.fontawesome.com/e16356b299.js"></script>
+
+    <!-- Stylesheet -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/javascript-plugins-bundle.css" rel="stylesheet"/>
+
+    <!-- CSS | menuzord megamenu skins -->
+    <link href="/js/menuzord//css/menuzord.css" rel="stylesheet"/>
+
+    <!-- CSS | timeline -->
+    <link href="/js/timeline-cp-responsive-vertical/timeline-cp-responsive-vertical.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS | Main style file -->
+    <link href="/css/style-main.css" rel="stylesheet" type="text/css">
+    <link id="menuzord-menu-skins" href="/css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+
+    <!-- CSS | Responsive media queries -->
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+
+    <!-- CSS | Theme Color -->
+    <link href="/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
 
 
     <link rel="icon" href="/images/favicon.jpg" sizes="192x192">
@@ -44,5 +63,17 @@
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
     {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
+    
+<!-- external javascripts -->
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/javascript-plugins-bundle.js"></script>
+<script src="/js/menuzord//js/menuzord.js"></script>
+<script src="/js/custom.js"></script>
+
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="/js/revolution-slider//js/revolution.tools.min.js"></script>
+<script type="text/javascript" src="/js/revolution-slider//js/rs6.min.js"></script>
   </body>
 </html>

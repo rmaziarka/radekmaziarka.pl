@@ -108,3 +108,4 @@ quickstart/public/*
 uploads/*
 page/public/**/*
 page/resources/_gen/**/*
+/page/.hugo_build.lock

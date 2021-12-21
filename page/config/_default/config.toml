@@ -26,11 +26,6 @@ paginatePath = "page"
     contentDir = "content/en"
     weight = 2
 
-[[languages.pl.menu.main]]
-  identifier = "main"
-  name = "🏠"
-  url = "/"
-  weight = 10
 
 [[languages.pl.menu.main]]
   identifier = "uslugi"

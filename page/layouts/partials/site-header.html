@@ -1,25 +1,9 @@
-<!-- <header class="header">
-    {{ partial "site-navigation.html" . }}
-    
-    {{ $url := "/" }}
-    {{ $language := printf "%s" .Site.Language }}
-    {{ if eq $language "en" }}
-        {{ $url = "/en" }}
-    {{ end }}
-
-    <div class="header__title">
-        <a href="{{ $url }}">
-            <h1>{{ default .Site.Title }}</h1>
-            <div class="header__subheading">Think. Plan. Execute. Repeat.</div>
-        </a>
-    </div>
-</header> -->
 <header id="header" class="header header-layout-type-header-2rows">
     <div class="header-top">
       <div class="container">
         <div class="row">
           <div class="col-xl-auto header-top-left align-self-center text-center text-xl-start">
-              Radek Maziarka Logo
+              <a style="color: white" href="/">Radek Maziarka</a>
           </div>
           <div class="col-xl-auto ms-xl-auto header-top-right align-self-center text-center text-xl-end">
             <div class="element pt-0 pt-lg-10 pb-0">
@@ -34,7 +18,7 @@
         <div class="menuzord-container header-nav-container">
           <div class="container position-relative">
             <div class="row header-nav-col-row">
-              <div class="col-sm-auto ms-auto pr-0 align-self-center">
+              <div class="col-sm-auto pr-0">
                 {{ partial "site-navigation.html" . }}
               </div>
               <div class="col-sm-auto align-self-center nav-side-icon-parent">

@@ -162,7 +162,7 @@ html {
 
 body {
   line-height: 2;
-  color: #66788a;
+  color: #364049;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -6576,7 +6576,7 @@ textarea.form-control {
         font-weight: 600;
         color: #ccc; }
       .page-404-wrapper .helpful-links ul li a {
-        color: #66788a;
+        color: #364049;
         font-size: 0.875rem;
         font-weight: 500; }
 
@@ -7318,7 +7318,7 @@ table {
     padding-right: 0 !important;
     margin-left: 10px; }
     .pagination > .page-item .page-link {
-      color: #66788a;
+      color: #364049;
       border-color: #ddd;
       background-color: #fff;
       border: 3px solid rgba(35, 35, 35, 0.15);
@@ -9059,7 +9059,7 @@ blockquote.blockquote-style8 {
   .icon-box .content p {
     margin-bottom: 0; }
   .icon-box .content a:not(.btn) {
-    color: #66788a;
+    color: #364049;
     font-weight: 400; }
   .icon-box.icon-left .icon {
     float: right;
@@ -10821,7 +10821,7 @@ body .vc_row .tm-stretched-bg-active.vc_column_container .vc_column-inner:before
 .nav-tabs {
   border: none; }
   .nav-tabs > li > a {
-    color: #66788a;
+    color: #364049;
     font-size: 1rem;
     font-weight: 400; }
     .nav-tabs > li > a .fa {
@@ -12537,7 +12537,7 @@ footer#footer.footer-black .widget_calendar #today {
       font-weight: 400;
       font-size: 16px; }
       .tm-widget-contact-info ul li .text a {
-        color: #66788a; }
+        color: #364049; }
       .tm-widget-contact-info ul li .text p {
         margin-bottom: 0; }
     .tm-widget-contact-info ul li:last-child {
@@ -13095,7 +13095,7 @@ footer#footer.footer-black .widget_calendar #today {
     display: block;
     font-weight: 700; }
     .product_meta > span a, .product_meta > span .sku {
-      color: #66788a;
+      color: #364049;
       margin-right: 10px;
       font-weight: normal; }
       .product_meta > span a:hover, .product_meta > span .sku:hover {
@@ -13163,7 +13163,7 @@ footer#footer.footer-black .widget_calendar #today {
 
 .product-summary .review-link {
   font-size: 0.9rem;
-  color: #66788a;
+  color: #364049;
   font-weight: normal; }
   .product-summary .review-link:hover {
     text-decoration: underline; }
@@ -13941,12 +13941,12 @@ body.single-portfolio-items .portfolio-single .portfolio-meta {
     display: inline-block;
     font-size: 0.875rem;
     font-weight: normal;
-    color: #66788a;
+    color: #364049;
     margin-bottom: 0; }
     body.single-portfolio-items .portfolio-single .portfolio-meta .each-meta .info a {
       font-size: 0.875rem;
       font-weight: normal;
-      color: #66788a; }
+      color: #364049; }
 
 body.single-portfolio-items .portfolio-single .launch-project-link {
   margin-bottom: 30px; }
@@ -14891,7 +14891,7 @@ body.single-portfolio-items .portfolio-single .tm-social-share-icons {
     color: #092a49;
     margin-top: 0; }
   .widget.widget-staff.staff-contact-info .speciality {
-    color: #66788a;
+    color: #364049;
     font-size: 0.75rem; }
   .widget.widget-staff.staff-contact-info .dl-horizontal dt {
     color: #092a49; }
@@ -14901,7 +14901,7 @@ body.single-portfolio-items .portfolio-single .tm-social-share-icons {
     color: #092a49;
     margin-bottom: 0; }
   .widget.widget-staff.staff-info .speciality {
-    color: #66788a; }
+    color: #364049; }
 
 .tm-sc-staff .tm-staff .staff-content,
 .tm-cpt-archive-staff .tm-staff .staff-content {
@@ -14943,7 +14943,7 @@ body.single-portfolio-items .portfolio-single .tm-social-share-icons {
     font-weight: normal; }
     .tm-sc-staff .tm-staff .contact-info li a,
     .tm-cpt-archive-staff .tm-staff .contact-info li a {
-      color: #66788a;
+      color: #364049;
       font-weight: normal; }
     .tm-sc-staff .tm-staff .contact-info li i,
     .tm-cpt-archive-staff .tm-staff .contact-info li i {
@@ -16076,7 +16076,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     .about-box-contents {
       padding-right: 0px; } }
   .about-box-contents .subtitle {
-    color: #66788a;
+    color: #364049;
     font-size: 16px;
     font-weight: 400; }
   .about-box-contents .title {
@@ -16143,7 +16143,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
   .tm-sc-testimonials.testimonials-style-current-theme .testimonial-text-holder .author-text {
     font-size: 18px;
     font-style: normal;
-    color: #66788a;
+    color: #364049;
     line-height: 2;
     margin-bottom: 30px;
     transition: all 0.5s; }
@@ -16157,7 +16157,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     line-height: 1.333;
     margin-bottom: 0; }
   .tm-sc-testimonials.testimonials-style-current-theme .testimonial-text-holder .testimonial-author-info-holder .position {
-    color: #66788a;
+    color: #364049;
     font-size: 14px;
     font-weight: 500; }
   .tm-sc-testimonials.testimonials-style-current-theme .testimonial-text-holder .testimonial-image-holder .author-thumb {
@@ -16643,7 +16643,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     .tm-sc-blog.blog-style2-current-theme .post .entry-date {
       background-color: #e9eef4;
       border-radius: 5px;
-      color: #66788a;
+      color: #364049;
       font-size: 14px;
       font-family: "Mulish", sans-serif;
       font-weight: 600;
@@ -16706,7 +16706,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     .statistics-funfact:hover .counter {
       color: #092a49; }
     .statistics-funfact:hover .title {
-      color: #66788a; }
+      color: #364049; }
 
 .mailchimp_subscription {
   border-radius: 5px;

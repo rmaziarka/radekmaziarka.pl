@@ -1,59 +1,58 @@
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "site-header.html" . }}
+{{/* We can override any block in the baseof file be defining it in the template */}}
+{{ partial "site-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
-  {{ $featured_image := "" }}
-  {{if .Params.images}}
-    {{ $featured_image = index (.Params.images) 0  }}
-  {{end}}
+{{ $section := .Site.GetPage "section" .Section }}
+{{ $featured_image := "" }}
+{{if .Params.images}}
+{{ $featured_image = index (.Params.images) 0 }}
+{{end}}
 
-  <article class="single">
-      <div class="center">
-          <article class="single__content">
-              <a class="single__categoryLink" href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
-              {{- .Params.category -}}
-              </a>
-              <h1 class="single__title">
-                  {{- .Title -}} 
-              </h1>
-              <div class="single__date">
-                  {{.Date.Format "2006-01-02"}}
-              </div>
-
-              {{ if $featured_image }}
-              <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
-              {{ end }}
-
-              <div class="single__text">
-                  {{- .Content -}}
-              </div>
-
-
-
-              <div class="single__disqus">
-                  {{ if .Site.DisqusShortname }}
-                  {{ template "_internal/disqus.html" . }}
-                  {{ end }}
-                  {{ if .Site.Params.commentoEnable }}
-                  {{- partial "commento.html" . -}}
-                  {{ end }}
-              </div>
-
-              <div>
-                  {{- partial "tags.html" . -}}
-                  {{ partial "social-share.html" . }}
-              </div>
-          </article>
-          <aside class="single__sidebar sidebar">
-              {{- partial "menu-contextual.html" . -}}
-          </aside>
-      </div>
-
-
-
-
-  </article>
+<section>
+    <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row">
+            <div class="col-lg-9 order-lg-2">
+                <div class="blog-posts single-post">
+                    <article class="post clearfix mb-0">
+                        <div class="entry-header mb-30">
+                            <div class="post-thumb thumb">
+                                <img class="img-responsive img-fullwidth" src="/{{$featured_image}}" alt="image from {{ .Title }}">
+                            </div>
+                            <h1>{{- .Title -}}</h2>
+                            <div class="entry-meta mt-0">
+                                <span class="mb-10 text-gray-darkgray mr-10 font-size-13">
+                                  <i class="far fa-flag mr-10 text-theme-colored1"></i>
+                                  <a href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
+                                  {{- .Params.category -}}
+                                  </a>
+                                </span>
+                                <span class="mb-10 text-gray-darkgray mr-10 font-size-13"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>{{.Date.Format "2006-01-02"}}</span>
+                              </div>
+                        </div>
+                        <div class="entry-content">                            
+                            {{- .Content -}}
+                        </div>
+                    </article>
+                    <div>                        
+                        {{- partial "tags.html" . -}}
+                        {{ partial "social-share.html" . }}
+                    </div>
+                    <div class="comment-box mt-30">                        
+                        {{ if .Site.DisqusShortname }}
+                        {{ template "_internal/disqus.html" . }}
+                        {{ end }}
+                        {{ if .Site.Params.commentoEnable }}
+                        {{- partial "commento.html" . -}}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                {{- partial "menu-contextual.html" . -}}
+            </div>
+        </div>
+    </div>
+</section>
 {{ end }}

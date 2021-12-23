@@ -2,35 +2,29 @@
 {{if .Params.images}}
   {{ $featured_image = index .Params.images 0  }}
 {{end}}
-<article class="summaryWithImage">
-  <div>
-    <div>
-      {{ if $featured_image }}
-        <div class="summaryWithImage__image">
-          <a href="{{.RelPermalink}}" class="">
-            <img src="/{{ $featured_image }}" class="" alt="image from {{ .Title }}">
-          </a>
-        </div>
-      {{ end }}
-      <div class="summaryWithImage__info">
-          <span><a class="single__categoryLink" href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
-            {{- .Params.category -}}
-          </a>
-          <span class="summaryWithImage__info--date">
-            - {{.Date.Format "2006-01-02"}}
-          </span>
-      </div>
-        <h2 class="summaryWithImage__title">
-          <a href="{{.RelPermalink}}" class="">
-            {{ .Title }}
-            </a>
-        </h2>
-        <div class="summaryWithImage__body">
-          {{ .Summary | truncate 220 }}
-        </div>
-          <a href="{{.RelPermalink}}" class="moreLink">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-        {{/* TODO: add author
-        <p class="">By {{ .Author }}</p> */}}
+
+
+<article class="post clearfix mb-30 pb-30">
+  <div class="entry-header">
+    <div class="post-thumb thumb">
+      <a href="{{.RelPermalink}}">
+        <img src="/{{ $featured_image }}" alt="image from {{ .Title }}" class="img-responsive img-fullwidth">
+      </a>
     </div>
+  </div>
+  <div class="entry-content border-1px p-20 pr-10">
+    <div class="entry-meta mt-0">
+      <span class="mb-10 text-gray-darkgray mr-10 font-size-13">
+        <i class="far fa-flag mr-10 text-theme-colored1"></i>
+        <a href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
+        {{- .Params.category -}}
+        </a>
+      </span>
+      <span class="mb-10 text-gray-darkgray mr-10 font-size-13"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>{{.Date.Format "2006-01-02"}}</span>
+    </div>
+    <h4 class="entry-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+    <p class="mt-10">{{ .Summary | truncate 250 }}</p>
+    <a href="{{.RelPermalink}}" class="btn btn-plain-text-with-arrow">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+    <div class="clearfix"></div>
   </div>
 </article>

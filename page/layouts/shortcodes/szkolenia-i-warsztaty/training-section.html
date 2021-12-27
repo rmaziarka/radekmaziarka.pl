@@ -1,0 +1,3 @@
+{{ range (where (where .Site.Pages "Section" "trainings") ".Params.type" "==" "tech")}}
+    {{ partial "szkolenia-i-warsztaty/training-tile" . }}
+{{ end }}

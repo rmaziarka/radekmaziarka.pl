@@ -5,6 +5,8 @@ draft: false
 images: ['images/2019/09/event-storming-showcase.jpg']
 url: '/szkolenia-i-warsztaty/event-storming-projektowanie-oprogramowania'
 duration: '1-2 dni'
+type: 'tech'
+promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '10% teoria / 90% praktyka'

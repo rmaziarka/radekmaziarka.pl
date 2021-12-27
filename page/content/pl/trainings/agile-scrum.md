@@ -1,5 +1,5 @@
 ---
-title: 'Scrum'
+title: 'Scrum asd'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
 images: ['images/2019/09/Scrum.jpg']

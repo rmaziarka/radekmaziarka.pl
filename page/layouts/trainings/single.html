@@ -2,59 +2,63 @@
 {{ define "main" }}
 {{ $featured_image := "" }}
 {{if .Params.images}}
-  {{ $featured_image = index .Params.images 0  }}
+{{ $featured_image = index .Params.images 0 }}
 {{end}}
-<div class="single">
-  <div class="center">
-    <article class="">
-      <header>
-        <h1 class="single__title">
+
+
+<section>
+  <div class="container mt-30 mb-30 pt-30 pb-30">
+    <div class="row">
+
+      <div class="col-sm-12">
+
+        <img src="{{$featured_image}}" alt="image from {{ .Title }}">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>
           {{ .Title }}
         </h1>
-
-        {{ if $featured_image }}
-        <img class="single__image" src="/{{$featured_image}}" alt="image from {{ .Title }}">
-        {{ end }}
-      </header>
-      <div class="single__text">
-        <div class="training-details"> 
-          <div class="row trainig-detail">
-            <div class="col-sm-6">
-              Czas trwania:
-            </div>
-            <div class="col-sm-6">
-              {{ .Params.duration}}
-            </div>
-          </div>
-          <div class="row trainig-detail">
-            <div class="col-sm-6">
-              Grupa docelowa:
-            </div>
-            <div class="col-sm-6">
-              {{ .Params.targetGroup}}
-            </div>
-          </div>
-          <div class="row trainig-detail">
-            <div class="col-sm-6">
-              Forma:
-            </div>
-            <div class="col-sm-6">
-              {{ .Params.form}}
-            </div>
-          </div>
-          <div class="row trainig-detail">
-            <div class="col-sm-6">
-              Miejsce warsztatu:
-            </div>
-            <div class="col-sm-6">
-              {{ .Params.trainingPlace}}
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Czas trwania:</th>
+              <td>{{ .Params.duration }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Grupa docelowa:</th>
+              <td>{{ .Params.targetGroup }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Forma:</th>
+              <td>{{ .Params.form }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Miejsce warsztatu:</th>
+              <td>{{ .Params.trainingPlace }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row mt-50">
+      <div class="col-sm-12">
         {{ .Content }}
-        <p>Jeśli interesowałby Cię ten warsztat <a href="/kontakt"><b>skontaktuj się ze mną</b></a>. Przeczytaj również <a href="/szkolenia-i-warsztaty/#rekomendacje" >rekomendacje</a>.</p>
 
-      <div>
+        <p>Jeśli interesowałby Cię ten warsztat <a href="/kontakt"><b>skontaktuj się ze mną</b></a>. Przeczytaj również
+          <a href="/szkolenia-i-warsztaty/#rekomendacje">rekomendacje</a>.
+        </p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
         <h3>Wiedza uzyskiwana na warsztacie:</h3>
         <ul>
           {{range .Params.knowledgeToObtain}}
@@ -62,18 +66,29 @@
           {{end}}
         </ul>
       </div>
-      <div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
         <h3>Program warsztatów:</h3>
-        Program opisany poniżej jest propozycją - do każdego szkolenia ustalamy dedykowany program na podstawie twoich potrzeb.
+        Program opisany poniżej jest propozycją - do każdego szkolenia ustalamy dedykowany program na podstawie twoich
+        potrzeb.
         <ul>
-          {{range .Params.trainingPlan}}
-          <li>{{.}}</li>
+            {{range .Params.trainingPlan}}  
+              {{if reflect.IsSlice .}}       
+                <li>{{index . 0}}
+                  <ul>
+                    {{range after 1 .}}  
+                      <li>{{.}}</li>
+                    {{end}}
+                  </ul>
+                </li>
+              {{else}}
+                <li>{{.}}</li>
+              {{end}}
           {{end}}
         </ul>
       </div>
     </div>
-    </article>
   </div>
-
-</div>
-{{ end }}
+</section>
+{{end}}

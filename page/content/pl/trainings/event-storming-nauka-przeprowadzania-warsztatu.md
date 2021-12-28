@@ -1,10 +1,12 @@
 ---
-title: 'Event Storming - Nauka przeprowadzania warsztatu'
+title: 'Event Storming: Nauka przeprowadzania warsztatu'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
 images: ['images/2019/09/event-storming-showcase.jpg']
 url: '/szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu'
 aliases: ['/szkolenia/event-storming-train-the-trainer']
+workshopType: 'soft'
+promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
 duration: '1-2 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'

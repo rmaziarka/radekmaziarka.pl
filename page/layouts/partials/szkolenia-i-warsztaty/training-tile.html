@@ -1,8 +1,8 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
-    <a href="/szkolenia-i-warsztaty/event-storming-projektowanie-oprogramowania">
+    <a href="{{.Params.url}}">
         <div class="tm-sc-service service-item-current-style2">
             <div class="service-thumb">
-                <img class="img-fullwidth" src="/images/2018/05/eventstorming.logo_.png" alt="5.jpg">
+                <img class="img-fullwidth" src="{{index .Params.images 0}}" alt="5.jpg">
             </div>
             <div class="service-content">
                 <h4 class="title service-title">{{.Params.title}}</h4>

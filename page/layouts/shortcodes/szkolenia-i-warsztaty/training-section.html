@@ -1,3 +1,4 @@
-{{ range (where (where .Site.Pages "Section" "trainings") ".Params.type" "==" "tech")}}
+{{ $workshopType := .Get "workshopType" }}
+{{ range (where (where .Site.Pages "Section" "trainings") ".Params.workshopType" "==" $workshopType)}}
     {{ partial "szkolenia-i-warsztaty/training-tile" . }}
 {{ end }}

@@ -1,15 +1,15 @@
 ---
-title: 'Event Storming - Projektowanie oprogramowania'
+title: 'Event Storming: Projektowanie systemu'
 date: Wed, 15 Aug 2020 19:31:14 +0000
 draft: false
-images: ['images/2019/09/event-storming-showcase.jpg']
-url: '/szkolenia-i-warsztaty/event-storming-projektowanie-oprogramowania'
+images: ['/images/2018/05/eventstorming.logo_.png']
+url: '/szkolenia-i-warsztaty/event-storming-projektowanie-systemu'
 duration: '1-2 dni'
-type: 'tech'
+workshopType: 'tech'
 promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
-form: '10% teoria / 90% praktyka'
+form: '20% teoria / 80% praktyka'
 knowledgeToObtain: [
     'Określenie modułów / obszarów możliwych do niezależnej implementacji',
     'Opracowanie planu na integrację modułów między sobą',

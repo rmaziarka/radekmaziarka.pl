@@ -2,36 +2,82 @@
 title: 'Event Storming: Nauka przeprowadzania warsztatu'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
-images: ['images/2019/09/event-storming-showcase.jpg']
+images: ['/images/2018/05/eventstorming.logo_.png']
 url: '/szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu'
 aliases: ['/szkolenia/event-storming-train-the-trainer']
 workshopType: 'soft'
-promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
-duration: '1-2 dni'
+promoText: 'Naucz się przeprowadzać warsztat Event Storming.'
+duration: '1-3 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
-form: '10% teoria / 90% praktyka'
+form: '20% teoria / 80% praktyka'
 knowledgeToObtain: [
-    'Umiejętność przeprowadzania warsztatów w swojej firmie / organizacji',
-    'Rozwiązania trudnych sytuacji podczas warsztatu',
-    'Dobre i złe praktyki przeprowadzanej sesji',
-    'Wady i zalety każdego z kroków warsztatu',
-    'Szeroka notacja dostosowywalna do potrzeby biznesowej',
-    'Podstawy psychologiczne stojące za każdym elementem Event Stormingu'
+    'Nauczysz się przeprowadzać Event Storming w swojej firmie / organizacji',
+    'Rozwiążesz trudne sytuacje podczas warsztatu',
+    'Poznasz dobre i złe praktyki przeprowadzanej sesji',
+    'Zrozumiesz cele każdego z kroków warsztatu',
+    'Poznasz szeroką notację dostosowywaną do twojej potrzeby biznesowej',
+    'Zrozumiesz podstawy psychologiczne stojące za Event Stormingiem'
 ]
 trainingPlan: [
-    'Wprowadzenie do Event Stormingu', 
-    'Przygotowanie sesji', 
-    'Facylitacja sesji',
-    'Praca z domeną warsztatową',
-    'Rezultaty warsztatu i dalsze kroki',
-    'Dobre i złe praktyki'
+    [
+        'Wprowadzenie do Event Stormingu',
+        'Notacja warsztatowa',
+        'Różne rozumienie zdarzeń biznesowych',
+        'Techniki pracy z tablicą (wirtualną)',
+        'Podstawy psychologiczne'
+    ],
+    [
+        'Big Picture Event Storming',
+        'Eksploracja procesów', 
+        'Strukturyzacja procesów', 
+        'Analiza grup i stron zewnętrznych',
+        'Wypracowanie definicji i słownika dziedzinowego',
+        'Definicja usprawnień', 
+        'Określenie metryk i ryzyk', 
+        'Wybór głównych obszarów działania',
+        'Sprawdzanie spójności procesu'
+    ],
+    [
+        'Process Level Event Storming',
+        'Eksploracja procesu', 
+        'Komendy', 
+        'Read Modele',
+        'Polityki',
+        'Analiza granic i spójności', 
+        'Single Source of Truth',
+        'Podział reguł biznesowych na 6 kategorii'
+    ],
+    [
+        'Design Level Event Storming',
+        'Agregat i inne builiding blocki', 
+        '4 warstwy modelu', 
+        'Przetwarzanie współbieżne',
+        'Reguły w modelu i poza nim'
+    ],
+    [
+        'Techniki komplementarne',
+        'Example Mapping',
+        'User Story Mapping',
+        'Value-Stream Mapping',
+        'Core Domain Charts',
+        'Domain Storytelling'
+    ],
+    [
+        'Praktyki miękkie podczas warsztatu',
+        'Różne role warsztatowe',
+        'Jak sobie radzić z kłótniami',
+        'Jak sobie radzić z brakiem zaangażowania',
+        'Jak sobie radzić z problematyczną osobą',
+        'Jak sobie radzić z trudnymi pytaniami' 
+    ]
 ]
 ---
 
 Szkolę członków zespołu z techniki [Event Stormingu](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), aby byli w stanie przeprowadzać takie warsztaty we własnych projektach. Warsztaty te będą miały o wiele szerszą formę niż zwykłe warsztaty przeprowadzane z twoim klientem czy wewnątrz projektu.
 
 Warsztat ten jest przeprowadzany dla:
+
 * Nowych zespołów chcących wejść w świat Event Stormingu
 * Analityków biznesowych chcących poznać nowe narzędzie ułatwiające poznawanie domeny klienta
 * Project managerów szukających techniki zbliżającej świat techniczny ze światem biznesowym

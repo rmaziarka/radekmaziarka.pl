@@ -11,21 +11,66 @@ targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
 knowledgeToObtain: [
-    'Określenie modułów / obszarów możliwych do niezależnej implementacji',
-    'Opracowanie planu na integrację modułów między sobą',
-    'Wizualizacja szczegółów biznesowych i technicznych',
-    'Możliwa roadmapa pracy nad projektem',
-    'Właściwe praktyki architektoniczne zaplanowane w systemie'
+    'Zaprojektujesz model działania swojego systemu',
+    'Określisz moduły / obszary do niezależnej implementacji',
+    'Opracujesz plan na integrację modułów między sobą',
+    'Zwizualizujesz szczegóły biznesowe i techniczne',
+    'Zbudujesz roadmapę pracy nad systemem',
+    'Wprowadzisz właściwe praktyki architektoniczne do systemu'
 ]
 trainingPlan: [
-    'Definicja komend / polityk / reguł / operacji',
-    'Wizualizacja widoków danych',
-    'Określenie powiązania z systemami zewnętrznymi',
-    'Zdefiniowanie obiektów biznesowych',
-    'Określenie testów akceptacyjnych',
-    'Opracowanie planu czasowego wdrożenia systemu'
+    [
+        'Wprowadzenie do Event Stormingu',
+        'Notacja warsztatowa',
+        'Różne rozumienie zdarzeń biznesowych',
+        'Techniki pracy z tablicą (wirtualną'
+    ],
+    [
+        'Big Picture Event Storming',
+        'Eksploracja procesów', 
+        'Strukturyzacja procesów', 
+        'Analiza grup i stron zewnętrznych',
+        'Wypracowanie definicji i słownika dziedzinowego',
+        'Definicja usprawnień', 
+        'Określenie metryk i ryzyk', 
+        'Wybór głównych obszarów działania'
+    ],
+    [
+        'Process Level Event Storming',
+        'Eksploracja procesu', 
+        'Komendy', 
+        'Read Modele',
+        'Polityki',
+        'Analiza granic i spójności', 
+        'Single Source of Truth',
+        'Podział reguł biznesowych na 6 kategorii'
+    ],
+    [
+        'Design Level Event Storming',
+        'Agregat i inne builiding blocki', 
+        '4 warstwy modelu', 
+        'Przetwarzanie współbieżne',
+        'Reguły w modelu i poza nim'
+    ],
+    [
+        'Wizualizacja architektury - Model C4',    
+        'Czym jest model C4',
+        'Context',
+        'Container',
+        'Component',
+        'Code',
+        'Automatyzacja tworzenia modeli',
+    ],
+    [
+        'Modelowanie',    
+        'Podstawy Domain Driven Design',
+        'Bounded Context',
+        'Podstawy modelowania',
+        'Strategie dekompozycji',
+        'Reużywalność',
+    ],
 ]
 ---
-Nazywany również tzw. [Event Storming Design Level](https://buildplease.com/pages/fpc-6/). Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
+Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
 
-**Rezultatem warsztatu jest prawidłowo zaplanowany proces informatyczny**. Mamy zrozumienie w jaki sposób system powinien działać, jak się komunikować i jak dzielić się informacjami. Możemy podzielić pracę naszego zespołu by tworzyć stopniowo gotowe rozwiązanie. 
+**Rezultatem warsztatu jest prawidłowo zaplanowany system informatyczny**. Mamy zrozumienie w jaki sposób system powinien działać, jak się komunikować i jak dzielić się informacjami. Możemy podzielić pracę naszego zespołu by tworzyć stopniowo gotowe rozwiązanie. 

@@ -204,11 +204,6 @@ Vertical Timeline - by CodyHouse.co
   display: inline-block;
 }
 
-
-.cd-timeline .cd-timeline__container .cd-timeline__block .cd-timeline__date {
-  float: left;
-}
-
 @media only screen and (min-width: 768px) {
   .cd-timeline .cd-timeline__container .cd-timeline__block .cd-timeline__content h2 {
   }

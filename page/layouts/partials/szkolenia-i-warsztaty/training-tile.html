@@ -1,12 +1,16 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
     <a href="{{.Params.url}}">
         <div class="tm-sc-service service-item-current-style2">
-            <div class="service-thumb">
+            <div class="service-thumb equal-size">
                 <img class="img-fullwidth" src="{{index .Params.images 0}}" alt="5.jpg">
             </div>
-            <div class="service-content">
-                <h4 class="title service-title">{{.Params.title}}</h4>
-                <p style="color: #092a49">{{.Params.promoText}}</p>
+            <div class="service-content equal-size">
+                <div class="service-header">
+                    <h4 class="title service-title">{{.Params.title}}</h4>
+                </div>
+                <div class="service-description">
+                    <p style="color: #092a49">{{.Params.promoText}}</p>
+                </div>
             </div>
         </div>
     </a>

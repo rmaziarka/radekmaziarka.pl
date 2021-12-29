@@ -14,7 +14,7 @@ aliases: ['/szkolenia']
         <div class="section-content">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2 class="title text-white">Szkolenia i warsztaty</h2>
+                    <h1 class="title text-white">Szkolenia i warsztaty</h2>
                 </div>
             </div>
         </div>
@@ -27,7 +27,8 @@ aliases: ['/szkolenia']
 
             <div class="col-sm">
                 <p>Staram się w prosty i przystępny sposób przedstawić złożone tematy.
-                    Celem jest aby każdy poczuł się dobrze podczas warsztatu i dawał z siebie wszystko. Wtedy wspólnie osiągamy najlepsze rezultaty.</p>
+                    Celem jest aby każdy poczuł się dobrze podczas warsztatu i dawał z siebie wszystko. Wtedy wspólnie
+                    osiągamy najlepsze rezultaty.</p>
             </div>
         </div>
         <div class="row">
@@ -35,56 +36,119 @@ aliases: ['/szkolenia']
                 <h2>Lista gotowych warsztatów</h2>
                 <h3>Szkolenia i warsztaty techniczne</h3>
             </div>
-            
-            
-            {{< szkolenia-i-warsztaty/training-section workshopType="tech" >}}
-            
-            <div class="col-md-12">
-                <h3>Szkolenia i warsztaty miękkie</h3>
-            </div>
 
-            {{< szkolenia-i-warsztaty/training-section workshopType="soft" >}}
-            
 
-            <div class="col-sm">
+            {{< szkolenia-i-warsztaty/training-section workshopType="tech">}}
 
-                <a class="header-link" href="/szkolenia/techniczne">
-                </a>
-                <ul>
-                    <li><a href="/szkolenia-i-warsztaty/event-storming-projektowanie-oprogramowania">Event Storming -
-                            projektowanie oprogramowania</a></li>
-                    <li><a href="/szkolenia/wzorce-architektoniczne">Wzorce architektoniczne</a></li>
-                    <li><a href="/szkolenia/ddd-i-mikroserwisy">DDD i Mikroserwisy</a></li>
-                    <li><a href="/szkolenia/loosely-coupled-architecture">Loosely-Coupled Architecture</a></li>
-                    <li><a href="/szkolenia/cqrs">CQRS</a></li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <a class="header-link" href="/szkolenia/miekkie">
+                <div class="col-md-12">
                     <h3>Szkolenia i warsztaty miękkie</h3>
-                </a>
-                <ul>
-                    <li><a href="/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych">Event Storming -
-                            analiza
-                            wymagań biznesowych</a></li>
-                    <li><a href="/szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu">Event Storming -
-                            nauka
-                            przeprowadzania warsztatu</a></li>
-                    <li><a href="/szkolenia/wprowadzenie-do-agile">Wprowadzenie do Agile</a></li>
-                    <li><a href="/szkolenia/agile-scrum">Scrum</a></li>
-                    <li><a href="/szkolenia/team-leader">Team Leader - zarządzanie zespołem</a></li>
-                </ul>
-            </div>
-            <div class="col-md-12">
+                </div>
 
-            </div>
-            <div class="col-md-12">
-                Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb <a href="/kontakt">daj mi znać</a>. Z chęcią
-                przygotuję coś
-                właśnie dla Ciebie!
-            </div>
+                {{< szkolenia-i-warsztaty/training-section workshopType="soft">}}
+
+
+                    <div class="col-md-12">
+                        Jeśli chciałbyś coś skrojonego specjalnie do swoich potrzeb <a href="/kontakt">daj mi znać</a>.
+                        Z chęcią
+                        przygotuję coś
+                        właśnie dla Ciebie!
+                    </div>
         </div>
     </div>
+</section>
+
+<section class="bg-silver-light">
+    <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row">
+
+            <div class="col-md-12">
+                <h2 class="text-center mt-70 mb-20 text-theme-colored1">Proces organizacji warsztatu</h3>
+                    <div class="tm-timeline-vertical cd-timeline js-cd-timeline">
+                        <div class="cd-timeline__container">
+                            <div class="cd-timeline__block js-cd-block">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored1">
+                                    <i class="fas fa-envelope text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Kontakt ze mną</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Kontaktujesz się ze mną mailowo / przez Social Media opisując w skrócie tworze
+                                        potrzeby. Wystarczą 3-4 zdania - tak bym wiedział o co zapytać dalej.</p>
+                                </div>
+                            </div>
+                            <div class="cd-timeline__block js-cd-block cd-timeline__block-reverse">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored2">
+                                    <i class="fas fa-phone text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Rozmowa doszczegóławiająca</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Umawiamy się na krótką rozmowę, gdzie poznaję dokładnie twoje potrzeby. Chcę
+                                        zrozumieć z czym się zmagasz aby lepiej dopasować ofertę warsztatową.</p>
+                                </div>
+                            </div>
+                            <div class="cd-timeline__block js-cd-block">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored3">
+                                    <i class="fas fa-handshake text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Oferta i umowa</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Wysyłam Ci ofertę warsztatową, wraz z planem, opisem, kosztami oraz wszystkimi
+                                        informacjami dodatkowymi. Na tej podstawie dogadujemy wszystkie detale i
+                                        wybieramy najlepszą opcję. Na koniec podpisujemy umowę.</p>
+                                </div>
+                            </div>
+                            <div class="cd-timeline__block js-cd-block cd-timeline__block-reverse">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored1">
+                                    <i class="fas fa-calendar text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Rozmowa przedwarsztatowa</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Na kilka / kilkanaście przed warsztatem umawiamy się na krótką rozmowę aby
+                                        podsumować cele i plan przeprowadzenia warsztatu. Wprowadzamy ostatnie poprawki
+                                        i definiujemy docelową listę uczestników warsztatu.</p>
+                                </div>
+                            </div>
+                            <div class="cd-timeline__block js-cd-block">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored2">
+                                    <i class="fas fa-users text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Seria warsztatów</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Spotykamy się na miejscu / zdalnie aby przeprowadzić warsztaty na temat twojego
+                                        problemu biznesowego.</p>
+                                </div>
+                            </div>
+                            <div class="cd-timeline__block js-cd-block cd-timeline__block-reverse">
+                                <div
+                                    class="cd-timeline__img js-cd-img d-flex align-items-center justify-content-center bg-theme-colored3">
+                                    <i class="fas fa-wine-glass text-white font-size-19"></i>
+                                </div>
+                                <div class="cd-timeline__date js-cd-date">
+                                    <h4>Rozmowa powarsztatowa</h4>
+                                </div>
+                                <div class="cd-timeline__content js-cd-content">
+                                    <p>Kilka dni po warsztacie zdzwaniamy się aby zebrać feedback powarsztatowy oraz
+                                        zastanowić się jakie są dalsze kroki.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
 </section>
 
 

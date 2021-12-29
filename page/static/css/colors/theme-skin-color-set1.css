@@ -2214,6 +2214,9 @@ blockquote.footer-cite-theme-colored footer {
 .tm-sc-section-title.line-bottom-style2-solid-line .title-wrapper:after {
   background-color: #0795fe; }
 
+.bg-theme-colored1 .tm-sc-section-title.line-bottom-style2-solid-line .title-wrapper:after {
+  background-color: white; }
+
 .tm-sc-section-title.line-bottom-style3-bordered-line .title-wrapper:after {
   border-color: #0795fe; }
 

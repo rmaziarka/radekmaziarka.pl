@@ -4,9 +4,9 @@ date: Wed, 15 Aug 2020 19:31:14 +0000
 draft: false
 images: ['/images/2019/09/Mikroserwisy.jpg']
 url: '/szkolenia-i-warsztaty/ddd'
-duration: '1-2 dni'
+duration: '2-3 dni'
 workshopType: 'tech'
-promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
+promoText: 'Wprowadzenie do mikroserwisów z wykorzystaniem DDD.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '30% teoria / 70% praktyka'

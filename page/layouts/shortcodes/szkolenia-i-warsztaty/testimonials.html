@@ -1,30 +1,29 @@
-<div class="tm-sc-testimonials testimonial-style3-classic testimonial-has-quote-icon">
+<div class="tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon">
     <div class="owl-carousel owl-theme tm-owl-carousel-2col owl-loaded owl-drag" data-nav="true" data-dots="true"
         data-autoplay="true" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30"
         data-stagepadding="0">
         {{ range $.Site.Data.testimonials}}
         <div class="owl-item">
+
+
             <div class="tm-carousel-item">
                 <div class="tm-testimonial">
                     <div class="testimonial-inner">
-                        <div class="testimonial-image-holder">
-                            <div class="author-thumb">
-                                <img width="75" height="75" src="{{.image}}" class="img-thumbnail rounded-circle"
-                                    alt="images">
-                            </div>
-                        </div>
                         <div class="testimonial-author-details">
-                            <div class="testimonial-author-info-holder">
-                                <div class="testimonial-text-holder">
-                                    <div class="author-text"> {{.content}}</div>
-                                    <div class="star-rating">
-                                        <span data-tm-width="90%" style="width: 90%;"></span>
-                                    </div>
+                            <div class="testimonial-header">
+                                <div class="author-text">{{.content}}</div>
+                            </div>
+                            <div class="testimonial-footer mt-30">
+                                <div class="testimonial-image-holder">
+                                    <div class="author-thumb"> <img width="75" height="75" src="{{.image}}"
+                                            class="img-fullwidth rounded-circle wp-post-image" alt="images"></div>
                                 </div>
-                                <a href="{{.url}}">
-                                    <h5 class="name">{{.name}}</h5>
-                                </a>
-                                <span class="job-position">{{.position}}</span></a>
+                                <div class="author-info">
+                                    <a href="{{.url}}">
+                                        <h5 class="name">{{.name}}</h5>
+                                    </a>
+                                    <span class="job-position">{{.position}}</a>
+                                </div>
                             </div>
                         </div>
                     </div>

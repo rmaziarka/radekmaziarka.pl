@@ -1,72 +1,63 @@
+<form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get " action" }}" method="POST" role="form"
+  onsubmit="sendEmail(event)">
 
-<div class="row">
-  <div class="col-sm"> 
-    <div>{{ i18n "contactEntry" | safeHTML }}</div>
-    {{ partial "social-media.html" . }}
+  <div class="form-group">
+    <label for="name">{{ i18n "yourName" }}</label>
+    <input type="text" id="name" name="name" class="form-control" required placeholder=" " aria-labelledby="name" />
   </div>
-  <div class="col-sm"> 
-    <form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" 
-    method="POST" role="form" onsubmit="sendEmail(event)">
 
-    <div class="form-group">
-      <label for="name">{{ i18n "yourName" }}</label>
-      <input type="text" id="name" name="name" class="form-control"  required placeholder=" "  aria-labelledby="name"/>
-    </div>
-
-    <div class="form-group">
-      <label for="email">{{ i18n "emailAddress" }}</label>
-      <input type="email" id="email" name="email"  class="form-control"  required placeholder=" "  aria-labelledby="email"/>
-    </div>
-
-    <div class="form-group">
-      <label for="subject">{{ i18n "subject" }}</label>
-      <input type="text" id="subject" name="subject"  class="form-control"  required placeholder=" "  aria-labelledby="subject"/>
-    </div>
-
-    <div class="form-group">
-      <label for="body">{{ i18n "message" }}</label>
-      <textarea id="body" rows="8" name="body"  class="form-control" aria-labelledby="body"></textarea>
-    </div>
-
-    <button class="btn btn-primary" type="submit">{{ i18n "send" }}</button>
-
-    <div id="emailSentConfirmation" style="color:green; display: none;">{{ i18n "emailSentConfirmation" }}</div>
-    <div id="emailNotSent" style="color:red; display: none;">{{ i18n "emailNotSent" }}</div>
-
-    </form>
+  <div class="form-group">
+    <label for="email">{{ i18n "emailAddress" }}</label>
+    <input type="email" id="email" name="email" class="form-control" required placeholder=" " aria-labelledby="email" />
   </div>
-</div>
 
+  <div class="form-group">
+    <label for="subject">{{ i18n "subject" }}</label>
+    <input type="text" id="subject" name="subject" class="form-control" required placeholder=" "
+      aria-labelledby="subject" />
+  </div>
+
+  <div class="form-group">
+    <label for="body">{{ i18n "message" }}</label>
+    <textarea id="body" rows="8" name="body" class="form-control" aria-labelledby="body"></textarea>
+  </div>
+
+  <button class="btn btn-primary" type="submit">{{ i18n "send" }}</button>
+
+  <div id="emailSentConfirmation" style="color:green; display: none;">{{ i18n "emailSentConfirmation" }}</div>
+  <div id="emailNotSent" style="color:red; display: none;">{{ i18n "emailNotSent" }}</div>
+
+</form>
 
 <script>
-function sendEmail(event){  
-  event.preventDefault();
+  function sendEmail(event) {
+    event.preventDefault();
 
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var subject = document.getElementById("subject").value;
-  var body = document.getElementById("body").value;
-  var url = "https://prod-43.westeurope.logic.azure.com:443/workflows/7614b8d35726447887f0072dbd8ebe47/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uTKuvon-rO_TKqn0JiVfBEeMMUoveMCjPriCmgDOUyI"
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var body = document.getElementById("body").value;
+    var url = "https://prod-43.westeurope.logic.azure.com:443/workflows/7614b8d35726447887f0072dbd8ebe47/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uTKuvon-rO_TKqn0JiVfBEeMMUoveMCjPriCmgDOUyI"
 
-  fetch(url, {
-    method : "POST",
-    body : JSON.stringify({
-      name: name,
-      email: email,
-      subject: subject,
-      body: body
-    }),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  }).then(emailSent, emailNotSent);
-}
+    fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        subject: subject,
+        body: body
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(emailSent, emailNotSent);
+  }
 
-function emailSent(){
-  document.getElementById("emailSentConfirmation").style.display = "block";
-}
+  function emailSent() {
+    document.getElementById("emailSentConfirmation").style.display = "block";
+  }
 
-function emailNotSent(){
-  document.getElementById("emailNotSent").style.display = "block";
-}
+  function emailNotSent() {
+    document.getElementById("emailNotSent").style.display = "block";
+  }
 </script>

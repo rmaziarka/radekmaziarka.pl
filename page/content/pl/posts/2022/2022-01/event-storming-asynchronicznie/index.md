@@ -18,9 +18,9 @@ Warto przeczytać [cały wątek](https://twitter.com/oskar_at_net/status/1475153
 
 Poniżej kilka przykładów jak możemy to zrealizować:
 
-- Asynchroniczne projektowanie
-- Konkurencyjne rozwiązania
-- Formalny proces
+- [Asynchroniczne projektowanie](#asynchroniczne-projektowanie)
+- [Konkurencyjne rozwiązania](#konkurencyjne-rozwiązania)
+- [Formalny proces](#formalny-proces)
 
 ## Przykłady
 
@@ -47,11 +47,11 @@ Mogą również kontynuować pracę od miejsca, w którym zakończyliśmy pracę
 
 ### Konkurencyjne rozwiązania
 
-Ten sposób jest dobry gdy mamy dwie (lub więcej) osoby, które mają różne pomysły na rozwiązanie danego problemu. Zamiast dyskutować te rozbieżności na wspólnej sesji to najpierw zaczynamy od zwizualizowania naszych pomysłów.
+Ten sposób jest dobry gdy mamy dwie (lub więcej) osoby, które mają różne pomysły na rozwiązanie danego problemu. Zamiast dyskutować te rozbieżności na wspólnej sesji to zaczynamy od równoległego zwizualizowania naszych pomysłów.
 
 [![](comp-1.jpg)](comp-1.jpg)
 
-Następnie, gdy wszyscy skończą, to zmieniamy miejsce naszego skupienia się. Przechodzimy do rozwiązań naszych kolegów i koleżanek aby dokonać analizy ich propozycji. Szukamy zarówno dziur, jak i dobrych pomysłów.  
+Następnie, gdy wszyscy skończą, to zmieniamy miejsce naszego skupienia. Przechodzimy do rozwiązań naszych kolegów i koleżanek aby dokonać analizy ich propozycji. Szukamy zarówno dziur, jak i dobrych pomysłów.  
 
 [![](comp-2.jpg)](comp-2.jpg)
 

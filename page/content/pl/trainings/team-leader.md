@@ -6,7 +6,7 @@ draft: false
 images: ['/images/2019/09/Team-Leader-2.jpg']
 duration: '1-2 dni'
 workshopType: 'soft'
-promoText: 'Bądź liderem zespołu za którym podążają inni.'
+promoText: 'Bądź liderem za którym podążają inni.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'

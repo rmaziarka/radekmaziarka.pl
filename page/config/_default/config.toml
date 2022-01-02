@@ -37,25 +37,19 @@ paginatePath = "page"
   name = "Szkolenia i warsztaty"
   url = "/szkolenia-i-warsztaty"
   weight = 20
-
+ 
+  
 [[languages.pl.menu.main]]
-  identifier = "narzedzia"
-  name = "Narzędzia pracy konsultanta"
-  url = "/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/"
-  weight = 60
+  identifier = "prelekcje"
+  name = "Prelekcje"
+  url = "/prelekcje"
+  weight = 70
   
 [[languages.pl.menu.main]]
   identifier = "o-mnie"
   name = "O mnie"
   url = "/o-mnie"
   weight = 80
-  
-[[languages.pl.menu.main]]
-  identifier = "prelekcje"
-  name = "Prelekcje"
-  url = "/prelekcje"
-  weight = 80
-  parent = "o-mnie"
 
 
 [[languages.pl.menu.main]]

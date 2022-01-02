@@ -1,4 +1,4 @@
-<form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get " action" }}" method="POST" role="form"
+<form class="black-80 sans-serif" accept-charset="UTF-8" method="POST" role="form"
   onsubmit="sendEmail(event)">
 
   <div class="form-group">
@@ -22,7 +22,7 @@
     <textarea id="body" rows="8" name="body" class="form-control" aria-labelledby="body"></textarea>
   </div>
 
-  <a href="/kontakt" target="_self" class="btn btn-flat btn-theme-colored4 btn-lg mt-10">{{ i18n "send" }}</a>
+  <a href="#" onclick="sendEmail(event)" target="_self" class="btn btn-flat btn-theme-colored4 btn-lg mt-10">{{ i18n "send" }}</a>
 
 
   <div id="emailSentConfirmation" style="color:green; display: none;">{{ i18n "emailSentConfirmation" }}</div>

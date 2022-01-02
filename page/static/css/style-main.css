@@ -2106,7 +2106,7 @@ header#header .nav-side-icon-list {
     line-height: 1.55; }
   /* Show/hide button */
   .menuzord-responsive .showhide {
-    margin-top: 20px; }
+    margin-top: 35px; }
   /* Menu */
   .menuzord-responsive .menuzord-menu {
     width: 100%;
@@ -2752,7 +2752,7 @@ header#header .menuzord-brand {
         max-width: 200px !important; } }
     @media (max-width: 991.98px) {
       header#header .menuzord-brand img {
-        max-height: 40px !important; } }
+        max-height: 60px !important; } }
   header#header .menuzord-brand img.logo-2x {
     display: none; }
 
@@ -2919,8 +2919,8 @@ body.admin-bar .header-nav .navbar-scrolltofixed.scroll-to-fixed-fixed {
 
 @media (max-width: 1199.98px) {
   header#header.header-layout-type-header-2rows .menuzord-brand {
-    margin-bottom: 25px;
-    margin-top: 25px; } }
+    margin-bottom: 5px;
+    margin-top: 5px; } }
 
 header#header.header-layout-type-header-3rows .header-nav {
   border-top: 1px solid #eee; }
@@ -18285,43 +18285,11 @@ $grid-breakpoints: (
 /* ====== custom  */
 
 .training-testimonials .owl-stage-outer {
-  min-height: 450px;
+  min-height: 465px;
 }
 
-.btn-theme-colored-red {
-  color: #000;
-  background-color: #e30000;
-  border-color: #e30000; }
-.btn-theme-colored-red:hover {
-  color: #000;
-  background-color: #2ca5fe;
-  border-color: #20a0fe; }
-.btn-check:focus + .btn-theme-colored-red, .btn-theme-colored-red:focus {
-  color: #000;
-  background-color: #2ca5fe;
-  border-color: #20a0fe;
-  box-shadow: 0 0 0 0.25rem rgba(6, 127, 216, 0.5); }
-.btn-check:checked + .btn-theme-colored-red,
-.btn-check:active + .btn-theme-colored-red, .btn-theme-colored-red:active, .btn-theme-colored-red.active,
-.show > .btn-theme-colored-red.dropdown-toggle {
-  color: #000;
-  background-color: #39aafe;
-  border-color: #20a0fe; }
-.btn-check:checked + .btn-theme-colored-red:focus,
-.btn-check:active + .btn-theme-colored-red:focus, .btn-theme-colored-red:active:focus, .btn-theme-colored-red.active:focus,
-.show > .btn-theme-colored-red.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(6, 127, 216, 0.5); }
-.btn-theme-colored-red:disabled, .btn-theme-colored-red.disabled {
-  color: #000;
-  background-color: #e30000;
-  border-color: #e30000; }
-
-.btn-theme-colored-red {
-  color: var(--text-color-bg-theme-color1); }
-.btn-theme-colored-red:hover, .btn-theme-colored-red:focus {
-  color: var(--text-color-bg-theme-color3); }
-
-.btn-outline-theme-colored-red:hover,
-.btn-outline-theme-colored2:hover {
-  border-color: var(--theme-color3) !important;
-  color: #fff !important; }
+@media (max-width: 1240px) {
+  .training-testimonials .owl-stage-outer {
+    min-height: 600px;
+  }
+}

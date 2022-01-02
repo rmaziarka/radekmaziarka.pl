@@ -2739,7 +2739,7 @@ header#header .menuzord-brand {
     header#header .menuzord-brand {
       margin-right: 0; } }
   header#header .menuzord-brand img {
-    max-height: 54px;
+    max-height: 84px;
     width: auto;
     transition: all 0.3s ease; }
     @media (prefers-reduced-motion: reduce) {
@@ -8107,7 +8107,8 @@ blockquote.blockquote-style8 {
   padding: 1.0rem 1.7rem; }
 
 .btn-group-lg > .btn, .btn-lg {
-  padding: 1.3rem 3.00rem; }
+  font-size: 150%;
+}
 
 [class*=" btn-outline-"] {
   border-width: 3px;
@@ -18284,3 +18285,41 @@ $grid-breakpoints: (
 .training-testimonials .owl-stage-outer {
   min-height: 450px;
 }
+
+.btn-theme-colored-red {
+  color: #000;
+  background-color: #e30000;
+  border-color: #e30000; }
+.btn-theme-colored-red:hover {
+  color: #000;
+  background-color: #2ca5fe;
+  border-color: #20a0fe; }
+.btn-check:focus + .btn-theme-colored-red, .btn-theme-colored-red:focus {
+  color: #000;
+  background-color: #2ca5fe;
+  border-color: #20a0fe;
+  box-shadow: 0 0 0 0.25rem rgba(6, 127, 216, 0.5); }
+.btn-check:checked + .btn-theme-colored-red,
+.btn-check:active + .btn-theme-colored-red, .btn-theme-colored-red:active, .btn-theme-colored-red.active,
+.show > .btn-theme-colored-red.dropdown-toggle {
+  color: #000;
+  background-color: #39aafe;
+  border-color: #20a0fe; }
+.btn-check:checked + .btn-theme-colored-red:focus,
+.btn-check:active + .btn-theme-colored-red:focus, .btn-theme-colored-red:active:focus, .btn-theme-colored-red.active:focus,
+.show > .btn-theme-colored-red.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(6, 127, 216, 0.5); }
+.btn-theme-colored-red:disabled, .btn-theme-colored-red.disabled {
+  color: #000;
+  background-color: #e30000;
+  border-color: #e30000; }
+
+.btn-theme-colored-red {
+  color: var(--text-color-bg-theme-color1); }
+.btn-theme-colored-red:hover, .btn-theme-colored-red:focus {
+  color: var(--text-color-bg-theme-color3); }
+
+.btn-outline-theme-colored-red:hover,
+.btn-outline-theme-colored2:hover {
+  border-color: var(--theme-color3) !important;
+  color: #fff !important; }

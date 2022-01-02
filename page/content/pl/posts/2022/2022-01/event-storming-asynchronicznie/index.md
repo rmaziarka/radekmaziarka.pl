@@ -9,7 +9,7 @@ category: 'Event Storming'
 
 Kilka dni temu Oskar Dudycz napisał na twitterze dość istotny zarzut dotyczący różnych technik kolaboracyjnych, w tym także Event Stormingu:
 
-{{< tweet user="oskar_at_net" id="1475160616671358980" >}}
+{{< tweet user="oskar_at_net" id=1475160616671358980 >}}
 
 Warto przeczytać [cały wątek](https://twitter.com/oskar_at_net/status/1475153807910879232). Sam zgadzam się z zarzutem - techniki kolaboracyjne wymagają wysokiej atencji i dużej ilości interakcji. Jednocześnie część osób lepiej pracuje będąc w [strefie Zen](https://www.zenprogrammer.org/en/10-rules-of-a-zen-programmer.html) skupiając się głęboko nad danym obszarem produktu. Wmuszając w te osoby w "jeden słuszny" model pracy tracimy stracimy na tym bardzo dużo.
 

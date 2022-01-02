@@ -4,7 +4,7 @@ date: Fri, 02 Jun 2021 09:40:09 +0000
 url: '/2021/07/02/system-informatyczny-jako-uklad-nerwowy'
 images: ['2021/07/02/system-informatyczny-jako-uklad-nerwowy/neural-system.jpg']
 description: "Czyli dlaczego systemy informatyczne są skomplikowane w budowie"
-category: 'Różne'
+category: 'Biznes w IT'
 tags: ['System nerwowy']
 draft: true
 ---

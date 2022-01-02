@@ -6,27 +6,27 @@
 
       {{ range $key, $value := .Site.Taxonomies.category }}
         {{ if ge (len $value) 3}}
-        <li class="cat-item"><a href="/category/{{ $key | urlize  }}">{{ $key | humanize }}</a> ({{ len $value }})</li>
+        <li class="cat-item"><a href="/category/{{ $key | urlize  }}">{{ (index $value.Pages 0).Params.category }}</a> ({{ len $value }})</li>
         {{ end }}
       {{ end}}
     </ul>
   </div>
- <!-- <div class="widget widget_tag_cloud">
+  <div class="widget widget_tag_cloud">
     <h4 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">Szkolenia i warsztaty</h4>
-    <a href="/szkolenia/event-storming/">
-      <h5 class="sidebar__element">Event Storming</h6>
+    <a href="/szkolenia-i-warsztaty/event-storming/">
+      <h5 class="sidebar__element">Event Storming</h5>
       <img src="/images/2018/05/eventstorming.logo_.png">
     </a>
-      <a href="/szkolenia/wzorce-architektoniczne/">
-        <h5 class="sidebar__element">Wzorce architektoniczne</h6>
+      <a href="/szkolenia-i-warsztaty/wzorce-architektoniczne/">
+        <h5 class="sidebar__element">Wzorce architektoniczne</h5>
         <img src="/images/2019/09/Wzorce-Architektoniczne.jpg">
       </a>
-      <a href="/szkolenia/ddd-i-mikroserwisy/">
-        <h5 class="sidebar__element">DDD i mikroserwisy</h6>
+      <a href="/szkolenia-i-warsztaty/ddd-i-mikroserwisy/">
+        <h5 class="sidebar__element">DDD i mikroserwisy</h5>
         <img src="/images/2019/09/Mikroserwisy.jpg">
       </a>
       <a href="/szkolenia-i-warsztaty">
-        <h5 class="sidebar__element sidebar__element&#45;&#45;more">Pozostałe</h6>
+        <h5 class="sidebar__element sidebar__element--more">Pozostałe</h5>
       </a>
-  </div>-->
+  </div>
 </div>

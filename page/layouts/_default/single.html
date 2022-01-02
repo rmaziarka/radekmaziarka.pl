@@ -13,14 +13,14 @@
 <section>
     <div class="container mt-30 mb-30 pt-30 pb-30">
         <div class="row">
-            <div class="col-lg-8 order-lg-2">
+            <div class="col-lg-9 order-lg-2">
                 <div class="blog-posts single-post">
                     <article class="post clearfix mb-0">
                         <div class="entry-header mb-30">
                             <div class="post-thumb thumb">
                                 <img class="img-responsive img-fullwidth" src="/{{$featured_image}}" alt="image from {{ .Title }}">
                             </div>
-                            <h1>{{- .Title -}}</h2>
+                            <h1>{{- .Title -}}</h1>
                             <div class="entry-meta mt-0">
                                 <span class="mb-10 text-gray-darkgray mr-10 font-size-13">
                                   <i class="far fa-flag mr-10 text-theme-colored1"></i>
@@ -35,10 +35,6 @@
                             {{- .Content -}}
                         </div>
                     </article>
-                    <div>                        
-                        {{- partial "tags.html" . -}}
-                        {{ partial "social-share.html" . }}
-                    </div>
                     <div class="comment-box mt-30">                        
                         {{ if .Site.DisqusShortname }}
                         {{ template "_internal/disqus.html" . }}
@@ -49,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 {{- partial "menu-contextual.html" . -}}
             </div>
         </div>

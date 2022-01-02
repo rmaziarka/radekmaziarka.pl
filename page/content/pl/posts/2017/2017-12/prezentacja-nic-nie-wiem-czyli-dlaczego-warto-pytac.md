@@ -5,7 +5,7 @@ date: Thu, 14 Dec 2017 14:37:13 +0000
 draft: false
 images: ['images/2017/12/ask-why-1.jpg']
 description: "Klient chciał =/= dostał. Dlaczego? Czy dobrze zbadaliśmy jego wymagania? A może to nie były wcale jego wymagania..."
-category: 'Różne'
+category: 'Wystąpienia publiczne'
 tags: ['Agile', 'BDD']
 ---
 

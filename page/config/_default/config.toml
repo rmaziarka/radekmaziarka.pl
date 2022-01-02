@@ -26,42 +26,37 @@ paginatePath = "page"
     contentDir = "content/en"
     weight = 2
 
-
 [[languages.pl.menu.main]]
-  identifier = "uslugi"
-  name = "Usługi"
-  url = "/uslugi"
-  weight = 30
-
+  identifier = "blog"
+  name = "Blog"
+  url = "/"
+  weight = 10
+  
 [[languages.pl.menu.main]]
   identifier = "szkolenia"
   name = "Szkolenia i warsztaty"
   url = "/szkolenia-i-warsztaty"
-  weight = 40
+  weight = 20
 
 [[languages.pl.menu.main]]
-  identifier = "konsultacje"
-  name = "Konsultacje"
-  url = "/konsultacje"
-  weight = 50
-  
-[[languages.pl.menu.main]]
-  identifier = "case-studies"
-  name = "Case studies"
-  url = "/case-studies"
+  identifier = "narzedzia"
+  name = "Narzędzia pracy konsultanta"
+  url = "/2020/02/04/narzedzia-pracy-konsultanta-podsumowanie/"
   weight = 60
-
-[[languages.pl.menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog"
-  weight = 70
-
+  
 [[languages.pl.menu.main]]
   identifier = "o-mnie"
   name = "O mnie"
   url = "/o-mnie"
   weight = 80
+  
+[[languages.pl.menu.main]]
+  identifier = "prelekcje"
+  name = "Prelekcje"
+  url = "/prelekcje"
+  weight = 80
+  parent = "o-mnie"
+
 
 [[languages.pl.menu.main]]
   identifier = "kontakt"

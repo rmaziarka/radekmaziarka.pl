@@ -6,6 +6,20 @@ draft: false
 images: ['images/2019/07/prelekcje.jpg']
 ---
 
+<section class="page-title divider layer-overlay overlay-theme-colored2-8 section-typo-light"
+         data-tm-bg-img="/images/2019/07/prelekcje.jpg"
+         style="background-image: url(/images/2019/07/prelekcje.jpg); background-position-y: 35%;">
+    <div class="container pt-250 pb-250">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="title text-white">Szkolenia i warsztaty</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
 ## 2020

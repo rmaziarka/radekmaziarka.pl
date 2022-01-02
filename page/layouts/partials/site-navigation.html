@@ -1,10 +1,11 @@
 
-<nav id="top-primary-nav" class="menuzord theme-color1 menuzord-responsive" data-effect="fade" data-animation="none" data-align="right"><a href="javascript:void(0)"><em></em><em></em><em></em></a>
+<nav id="top-primary-nav" class="menuzord theme-color2 menuzord-responsive" 
+     data-effect="fade" data-animation="none" data-align="right">
   <ul id="main-nav" class="menuzord-menu menuzord-indented" style="max-height: 100%;">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
-    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+    <li {{ if eq $currentPage.URL .URL }}class="active"{{ end }}>
       <a href="{{ .URL }}">
         {{ .Pre }}
         <span>{{ .Name }}</span>
@@ -20,7 +21,7 @@
       </ul>
     </li>
     {{ else }}
-    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
+    <li {{ if eq $currentPage.URL .URL }}class="active"{{ end }}><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
     {{ end }}
     {{ end }}
 </nav>

@@ -1,5 +1,38 @@
 {{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
 {{ define "main" }}
-{{ .Content }}
 
+{{if eq .File.Ext "md" }}
+
+{{ $featured_image := "" }}
+{{if .Params.images}}
+{{ $featured_image = index (.Params.images) 0 }}
+{{end}}
+
+<section class="page-title divider layer-overlay overlay-theme-colored2-8 section-typo-light"
+         data-tm-bg-img="/{{$featured_image}}"
+         style="background-image: url(/{{$featured_image}}); background-position-y: 35%;">
+    <div class="container pt-250 pb-250">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="title text-white">{{.Params.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row">
+            <div class="col-lg-9 order-lg-2">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{else}}
+{{ .Content }}
+{{end}}
 {{ end }}

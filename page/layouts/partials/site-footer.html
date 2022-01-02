@@ -1,8 +1,53 @@
-<footer>
-  <div class="center">
-    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-    </a>
-    <div>{{ partial "social-follow.html" . }}</div>
+<footer id="footer" class="footer">
+  <div class="footer-widget-area">
+    <div class="container pt-90 pb-60">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="tm-widget-contact-info contact-info-style1 contact-icon-theme-colored1">
+            <div class="thumb">
+              <img alt="Logo" src="images/logo-white.png">
+            </div>
+            <div class="description">Radek Maziarka - profesjonalne usługi IT dla biznesu</div>
+          </div>
+          <ul class="styled-icons  icon-rounded clearfix">
+            {{ partial "social-media.html" . }} 
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-8">
+          <div class="widget widget_nav_menu">            
+            <h4 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">Linki</h4>
+
+            {{ $first := add (div (len .Site.Menus.main) 2) (mod (len .Site.Menus.main) 2) }}
+            {{ $last := div (len .Site.Menus.main) 2 }}
+            
+            <div class="row">
+              <div class="col-md-6">
+                {{ range first $first .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
+                {{ end }}
+              </div>
+              <div class="col-md-6">
+                {{ range last $last .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
+                {{ end }}
+              </div>
+            </div>
+            <ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom" data-tm-bg-color="#2A2A2A" style="background-color: rgb(42, 42, 42) !important;">
+      <div class="container">
+        <div class="row pt-20 pb-20">
+          <div class="col-sm-12">
+            <div class="footer-paragraph">
+              © {{ now.Year }} Radosław Maziarka RadSoft
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>

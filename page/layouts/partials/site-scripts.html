@@ -18,7 +18,7 @@ function addAnchor(element) {
 }
 document.addEventListener('DOMContentLoaded', function () {
     // Add anchor links to all headings
-    var headers = document.querySelectorAll('.single__text h1[id], .single__text h2[id], .single__text h3[id], .single__text h4[id]')
+    var headers = document.querySelectorAll('.single-post h2[id], .single-post h3[id], .single-post h4[id]')
     if (headers) {
         headers.forEach(addAnchor)
     }

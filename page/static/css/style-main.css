@@ -2595,6 +2595,8 @@ header#header .nav-side-icon-list {
 
 #top-primary-nav .menuzord-menu > li,
 #top-primary-nav-clone .menuzord-menu > li {
+  margin-right: 3px;
+  margin-left: 3px;
   position: relative; }
   #top-primary-nav .menuzord-menu > li > a,
   #top-primary-nav-clone .menuzord-menu > li > a {
@@ -2739,7 +2741,7 @@ header#header .menuzord-brand {
     header#header .menuzord-brand {
       margin-right: 0; } }
   header#header .menuzord-brand img {
-    max-height: 84px;
+    max-height: 65px;
     width: auto;
     transition: all 0.3s ease; }
     @media (prefers-reduced-motion: reduce) {

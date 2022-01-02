@@ -1,49 +1,58 @@
 <header id="header" class="header header-layout-type-header-2rows">
     <div class="header-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-auto header-top-left align-self-center text-center text-xl-start">
-              <a class="menuzord-brand site-brand" href="/">
-                  <img class="logo-default logo-1x" src="/images/logo/logo-white.png" alt="Logo">
-              </a>
-          </div>
-<!--          <div class="col-xl-auto ms-xl-auto header-top-right align-self-center text-center text-xl-end">-->
-<!--            <div class="element pt-0 pt-lg-10 pb-0">-->
-<!--              <a href="/konsultacje" class="btn btn-theme-colored2 btn-sm ajaxload-popup">Umów konsultacje</a>-->
-<!--            </div>-->
-<!--          </div>-->
+        <div class="container">
+            <div class="row">
+                <!--          <div class="col-xl-auto ms-xl-auto header-top-right align-self-center text-center text-xl-end">-->
+                <!--            <div class="element pt-0 pt-lg-10 pb-0">-->
+                <!--              <a href="/konsultacje" class="btn btn-theme-colored2 btn-sm ajaxload-popup">Umów konsultacje</a>-->
+                <!--            </div>-->
+                <!--          </div>-->
+            </div>
         </div>
-      </div>
     </div>
     <div class="header-nav tm-enable-navbar-hide-on-scroll">
-      <div class="header-nav-wrapper navbar-scrolltofixed" style="z-index: auto; position: static; top: 0px;">
-        <div class="menuzord-container header-nav-container">
-          <div class="container position-relative">
-            <div class="row header-nav-col-row">
-              <div class="col-sm-auto pr-0">
-                {{ partial "site-navigation.html" . }}
-              </div>
-              <div class="col-sm-auto align-self-center nav-side-icon-parent">
-                <ul class="list-inline nav-side-icon-list">
-                  <li class="hidden-mobile-mode"><a href="#" id="top-nav-search-btn"><i class="search-icon fa fa-search"></i></a></li>
-                </ul>
-                <div id="top-nav-search-form" class="clearfix">
-                  <form action="#" method="GET">
-                    <input type="text" name="s" value="" placeholder="Type and Press Enter..." autocomplete="off">
-                  </form>
-                  <a href="#" id="close-search-btn"><i class="fa fa-times"></i></a>
+        <div class="header-nav-wrapper navbar-scrolltofixed" style="z-index: auto; position: static; top: 0px;">
+            <div class="menuzord-container header-nav-container">
+                <div class="container position-relative">
+                    <div class="row header-nav-col-row">
+                        <div class="col-xl-auto header-top-left align-self-center text-center text-xl-start">
+                            <a class="menuzord-brand site-brand" href="/">
+                                <img class="logo-default logo-1x" src="/images/logo/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-auto pr-0">
+                            {{ partial "site-navigation.html" . }}
+                        </div>
+                        <div class="col-sm-auto align-self-center nav-side-icon-parent">
+                            <ul class="list-inline nav-side-icon-list mt-10 mb-0">
+                                <li class="hidden-mobile-mode"><a href="#" id="top-nav-search-btn"><i
+                                        class="search-icon fa fa-search"></i></a></li>
+                            </ul>
+                            <div id="top-nav-search-form" class="clearfix">
+                                <form action="https://www.google.com/search" method="GET">
+                                    <input type="hidden" name="sitesearch" value="radekmaziarka.pl">
+                                    <input type="text" name="q" value="" placeholder="Wpisz i wciśnij Enter"
+                                           autocomplete="off">
+                                </form>
+                                <a href="#" id="close-search-btn"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-block d-xl-none">
+                        <div class="col-12">
+                            <nav id="top-primary-nav-clone"
+                                 class="menuzord d-block d-xl-none default menuzord-color-default menuzord-border-boxed menuzord-responsive"
+                                 data-effect="slide" data-animation="none" data-align="right" style="">
+                                <ul id="main-nav-clone"
+                                    class="menuzord-menu menuzord-right menuzord-indented scrollable"
+                                    style="max-height: 100%;">
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="row d-block d-xl-none">
-               <div class="col-12">
-                <nav id="top-primary-nav-clone" class="menuzord d-block d-xl-none default menuzord-color-default menuzord-border-boxed menuzord-responsive" data-effect="slide" data-animation="none" data-align="right" style="">
-                     <ul id="main-nav-clone" class="menuzord-menu menuzord-right menuzord-indented scrollable" style="max-height: 100%;">
-                     </ul>
-               </div>
-            </div>
-          </div>
         </div>
-      </div><div style="display: none; width: 1903px; height: 100px; float: none;"></div>
+        <div style="display: none; width: 1903px; height: 100px; float: none;"></div>
     </div>
-  </header>
+</header>

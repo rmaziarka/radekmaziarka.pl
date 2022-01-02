@@ -49,6 +49,14 @@ paginatePath = "page"
   name = "O mnie"
   url = "/o-mnie"
   weight = 80
+  
+[[languages.pl.menu.main]]
+  identifier = "prelekcje"
+  name = "Prelekcje"
+  url = "/prelekcje"
+  weight = 80
+  parent = "o-mnie"
+
 
 [[languages.pl.menu.main]]
   identifier = "kontakt"

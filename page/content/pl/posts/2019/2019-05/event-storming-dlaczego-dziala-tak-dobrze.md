@@ -84,7 +84,7 @@ To co przedstawiłem powyżej to kilka elementów, które w mojej ocenie sprawia
 
 Chyba Event Storming za bardzo zawrócił mi w głowie 😉 Niech Event Storming będzie z Nami!
 
-PS. Gdyby Cię interesował temat to polecam moje [szkolenie z Event Stormingu](/szkolenia-event-storming/) lub pozostałe posty z tego tematu:
+PS. Gdyby Cię interesował temat to polecam moje [szkolenie z Event Stormingu](/szkolenia-i-warsztaty/event-storming/) lub pozostałe posty z tego tematu:
 
  *   [Event Storming - Jak szybko odkrywać nieznane](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/)
  *   [Event Storming – Narzędzie usprawniające pracę organizacji](/2018/12/10/event-storming-narzedzie-usprawniajace-prace-organizacji/)

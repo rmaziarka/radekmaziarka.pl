@@ -75,36 +75,3 @@ Cytując Wikipedię:
 > Wzorzec architektoniczny (ang. architectural pattern) – uznany i sprawdzony sposób rozwiązania danego problemu z zakresu architektury oprogramowania. 
 
 Wiedza na temat wzorców pozwala przyśpieszyć wdrażanie nowych funkcjonalności, uspójnić tworzone oprogramowanie czy zmniejszych ilość powstających błędów. Jednak nie są to tzw. silver bullety. Każdy z wzorców niesie za sobą konkretny koszt, który musimy ponieść by go wdrożyć. Dodatkowo pewne zmiany nie są możliwe, kiedy wykorzystujemy specyficzną architekturę. Czy wdrażać dany wzorzec? Na to pytanie znajdziesz odpowiedź na tych warsztatach.
-
-## Wiedza uzyskana na szkoleniu:
-
-
-## Możliwy zakres szkolenia:
-
- *   Czym jest architektura oprogramowania
- *   Architektura aplikacji a systemu
- *   Architektury aplikacji
-    
-     *   CRUD
-     *   N-layer
-     *   CQRS
-     *   Hexagonal Architecture
-     *   Ports and Adapters
-     *   Event driven architecture
-     *   Serverless
-     *   Lambda architecture
-     *   Actors
-    
- *   Architektury systemu
-    
-     *   Moduły jako osobne aplikacje
-     *   Microservices
-     *   REST / GraphQL
-     *   Message-driven architecture
-     *   Microkernel
-     *   Space based architecture
-    
- *   Jak opisywać architekturę - model opisu architektury C4
- *   Jak testować architekturę
- *   Jak mierzyć architekturę
- *   Jak dokumentować architekturę

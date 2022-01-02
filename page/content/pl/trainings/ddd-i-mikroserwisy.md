@@ -3,7 +3,8 @@ title: 'DDD i Mikroserwisy'
 date: Wed, 15 Aug 2020 19:31:14 +0000
 draft: false
 images: ['/images/2019/09/Mikroserwisy.jpg']
-url: '/szkolenia-i-warsztaty/ddd'
+url: '/szkolenia-i-warsztaty/ddd-i-mikroserwisy'
+aliases: ['/szkolenia-i-warsztaty/ddd']
 duration: '2-3 dni'
 workshopType: 'tech'
 promoText: 'Wprowadzenie do mikroserwisów z wykorzystaniem DDD.'

@@ -5,7 +5,7 @@ date: Fri, 19 Jun 2020 08:56:05 +0000
 draft: false
 images: ['images/2020/06/kaszuby.jpg']
 description: "Krótka historia jak teoria ograniczeń pozwoliłaby poprawić efektywność pracy restauracji na Kaszubach. I gdzie tam był Aperol Spritz."
-category: 'Różne'
+category: 'Biznes w IT'
 tags: ['teoria ograniczeń']
 ---
 

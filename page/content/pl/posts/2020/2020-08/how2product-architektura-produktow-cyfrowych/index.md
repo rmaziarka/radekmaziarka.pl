@@ -5,7 +5,7 @@ date: Tue, 20 Aug 2020 14:56:35 +0000
 draft: false
 images: ['images/2020/08/how2product-architektura.jpg']
 description: "Nagranie z webinaru How2Product o architekturze produktów cyfrowych."
-category: 'Wzorce projektowe'
+category: 'Wystąpienia publiczne'
 tags: ['archiktektura', 'ewolucyjna architektura', 'drivery architektoniczne']
 ---
 

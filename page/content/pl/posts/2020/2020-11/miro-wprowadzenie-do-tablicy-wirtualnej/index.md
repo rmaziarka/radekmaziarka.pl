@@ -5,7 +5,7 @@ date: Wed, 25 Nov 2020 18:40:09 +0000
 draft: false
 images: ['2020/11/25/miro-wprowadzenie-do-tablicy-wirtualnej/miro-featured-image.jpg']
 description: 'W ramach cyklu szkoleń "Poradnia Lidera" przeprowadziliśmy wprowadzenie do tablicy wirtualnej Miro.'
-category: 'Różne'
+category: 'Wystąpienia publiczne'
 tags: ['Miro']
 ---
 

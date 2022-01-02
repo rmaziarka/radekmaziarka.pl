@@ -4,7 +4,7 @@ url: '/2020/10/01/wskazniki-wyprzedzajace-i-opoznione-zysk-firmy-a-jej-upadek'
 date: Fri, 01 Oct 2020 14:56:35 +0000
 images: ['2020/10/01/wskazniki-wyprzedzajace-i-opoznione-zysk-firmy-a-jej-upadek/bankrupt.jpg']
 description: "Pokaz działania wskaźników wyprzedzających i opóźnionych na działanie firmy"
-category: 'Różne'
+category: 'Biznes w IT'
 tags: ['consulting']
 ---
 Temat wskaźników wyprzedzających i opóźnionych (leading and lagging indicators) jest wg mnie kluczowy by móc w swojej pracy i codziennym życiu planować działania. Jeśli chcemy wiedzieć jak nam idzie, obserwować progres to:

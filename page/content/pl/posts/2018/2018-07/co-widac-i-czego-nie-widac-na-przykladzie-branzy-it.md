@@ -5,7 +5,7 @@ date: Sun, 22 Jul 2018 17:07:55 +0000
 draft: false
 images: ['images/2018/07/Capture.png']
 description: "Czyli jak nasze krótkofalowe zyski mogą zostać wyparte przez długofalowe straty."
-category: 'Różne'
+category: 'Biznes w IT'
 tags: ['']
 ---
 

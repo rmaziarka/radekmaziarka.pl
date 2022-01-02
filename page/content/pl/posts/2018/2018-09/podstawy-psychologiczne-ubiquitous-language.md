@@ -4,7 +4,7 @@ url: '/2018/09/28/podstawy-psychologiczne-ubiquitous-language/'
 date: Thu, 27 Sep 2018 23:31:29 +0000
 draft: false
 images: ['images/2018/09/artificial-intelligence-2228610_1920.jpg']
-category: 'Różne'
+category: 'Biznes w IT'
 tags: ['']
 aliases: ['/dlaczego-biznes-nas-nie-rozumie']
 ---

@@ -7,11 +7,11 @@ description: "Czyli dlaczego systemy informatyczne są skomplikowane w budowie"
 category: 'Event Storming'
 ---
 
-Kilka dni temu Oskar Dudycz napisał na twitterze dość istotny zarzut dotyczący różnych technik kolaboracyjnych, w tym także Event Stormingu:
+Kilka dni temu Oskar Dudycz napisał na Twitterze dość istotny zarzut dotyczący różnych technik kolaboracyjnych, w tym także Event Stormingu:
 
 {{< tweet user="oskar_at_net" id=1475160616671358980 >}}
 
-Warto przeczytać [cały wątek](https://twitter.com/oskar_at_net/status/1475153807910879232). Sam zgadzam się z zarzutem - techniki kolaboracyjne wymagają wysokiej atencji i dużej ilości interakcji. Jednocześnie część osób lepiej pracuje będąc w [strefie Zen](https://www.zenprogrammer.org/en/10-rules-of-a-zen-programmer.html) skupiając się głęboko nad danym obszarem produktu. Wmuszając w te osoby w "jeden słuszny" model pracy tracimy stracimy na tym bardzo dużo.
+Warto przeczytać [cały wątek](https://twitter.com/oskar_at_net/status/1475153807910879232). Sam zgadzam się z zarzutem - techniki kolaboracyjne wymagają wysokiej atencji i dużej ilości interakcji. Jednocześnie część osób lepiej pracuje będąc w [strefie Zen](https://www.zenprogrammer.org/en/10-rules-of-a-zen-programmer.html), skupiając się głęboko nad danym obszarem produktu. Wmuszając te osoby w "jeden słuszny" model pracy stracimy na tym bardzo dużo.
 
 **Na szczęście Event Storming można również przeprowadzić inaczej - asynchronicznie**. Dzięki temu łączymy 2 światy - głęboką wizualizację tworzonego rozwiązania z możliwością pracy w różnych godzinach i nad różnymi zadaniami. 
 
@@ -28,11 +28,11 @@ Poniżej kilka przykładów jak możemy to zrealizować:
 
 Rozpoczynamy od stworzenia choćby bazowego rozwiązania na Miro. Nie musimy mieć od razu całego procesu gotowego. Zrzucamy tyle ile wiemy na ten moment. 
 
-Do tablicy możemy dodać również komentarze opisujące dlaczego wybraliśmy dane rozwiązanie. Pomoże to  czytelnikom zrozumieć nasze intencje. Warto też zaznaczyć na czym skończyliśmy pracę.
+Do tablicy możemy dodać również notatki opisujące dlaczego wybraliśmy dane rozwiązanie. Pomoże to  czytelnikom zrozumieć nasze intencje. Warto też zaznaczyć na czym skończyliśmy pracę. Wtedy pozostałe osoby mogą podjąć działanie od tego momentu.
 
 [![](async-1.jpg)](async-1.jpg)
 
-Dobrym pomysłem jest również zrzucenie na tablicę naszej niewiedzy. Bezpośrednio pokażemy gdzie nasze rozwiązanie ma braki, oraz co jeszcze rozważamy. Wtedy pozostałe osoby mogą podjąć analizę od tego momentu.
+Dobrym pomysłem jest również zrzucenie na tablicę naszej niewiedzy. Bezpośrednio pokażemy gdzie nasze rozwiązanie ma braki, oraz co jeszcze rozważamy.
 
 [![](async-2.png)](async-2.png)
 
@@ -63,7 +63,7 @@ Na końcu można w jednym miejscu zwizualizować wszystkie za i przeciw, aby ła
 
 Event Stormingu możemy również wykorzystać aby przeprowadzić bardziej formalne procesy jak np. [Request for Comments](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/) czy Googlowy [Design Doc](https://luanjunyi.medium.com/how-do-i-write-engineering-design-docs-in-google-an-example-f19febe0297c).
 
-Najpierw wizualizujemy nasze rozwiązanie w tablicy wirtualnej. Przeprowadzamy typową analizę tworzonego rozwiązania. Wizualizujemy poszczególne kroki, zdarzenia i ich transformację pomiędzy poszczególnymi modułami. 
+Najpierw wizualizujemy naszą propozycję w tablicy wirtualnej. Przeprowadzamy typową analizę tworzonego rozwiązania. Pokazujemy poszczególne kroki, zdarzenia i ich transformację pomiędzy wybranymi modułami. 
 
 [![](rfc-1.jpg)](rfc-1.jpg)
 
@@ -75,7 +75,7 @@ Wtedy przesyłamy taką pigułkę do sprawdzenia i akceptacji. Następują kolej
 
 ## Podsumowanie
 
-Efektywna praca asynchroniczna opiera się na dobrym zaplanowaniu procesu oraz wykorzystaniu odpowiednich narzędzi. W Miro możemy:
+Efektywna praca asynchroniczna opiera się na dobrym zaplanowaniu procesu oraz wykorzystaniu odpowiednich narzędzi. Wykorzystując Event Storming i tablicę wirtualną możemy:
 
 - Dodawać komentarze i odpowiadać na nie. Te komentarze przesuwają się wraz z kartkami czy ramkami.
 - Sprawdzać co zostało zmienione podczas naszej ostatniej wizyty.

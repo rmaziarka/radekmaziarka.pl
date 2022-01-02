@@ -1,6 +1,6 @@
 ---
 title: "Event Storming asynchronicznie"
-date: Fri, 02 Jun 2021 09:40:09 +0000
+date: Sun, 02 Jan 2022 09:40:09 +0000
 url: '/2022/01/01/event-storming-asynchronicznie'
 images: ['images/2018/05/eventstorming.logo_.png']
 description: "Czyli dlaczego systemy informatyczne są skomplikowane w budowie"

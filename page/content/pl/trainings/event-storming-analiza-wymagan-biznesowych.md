@@ -2,7 +2,7 @@
 title: 'Event Storming: Analiza wymagań biznesowych'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
-images: ['/images/2018/05/eventstorming.logo_.png']
+images: ['/images/trainings/tech-service.png']
 url: '/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych'
 aliases: ['/szkolenia/event-storming-big-picture']
 workshopType: 'soft'

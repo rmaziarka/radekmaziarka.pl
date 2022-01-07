@@ -2,7 +2,7 @@
 title: 'Event Storming: Projektowanie systemu'
 date: Wed, 15 Aug 2020 19:31:14 +0000
 draft: false
-images: ['/images/2018/05/eventstorming.logo_.png']
+images: ['/images/trainings/operative-system.png']
 url: '/szkolenia-i-warsztaty/event-storming-projektowanie-systemu'
 duration: '1-2 dni'
 workshopType: 'tech'

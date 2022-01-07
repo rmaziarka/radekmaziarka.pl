@@ -2,7 +2,7 @@
 title: 'Event Storming: Nauka od podstaw'
 date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
-images: ['/images/2018/05/eventstorming.logo_.png']
+images: ['/images/trainings/organisation.png']
 url: '/szkolenia-i-warsztaty/event-storming-nauka-od-podstaw'
 aliases: ['/szkolenia/event-storming-train-the-trainer', /szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu']
 workshopType: 'soft'

@@ -17025,28 +17025,6 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
         background-image: none;
         z-index: 2; }
 
-.tm-sc-service .service-thumb.equal-size {
-  height: 200px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-}
-
-.tm-sc-service .service-content.equal-size {
-  padding: 0 20px 0 20px
-}
-
-.tm-sc-service .service-content.equal-size .service-header{
-  height: 95px;
-  display: flex;
-  align-items: center;
-}
-
-.tm-sc-service .service-content.equal-size .service-description{
-  height: 95px;
-}
-
-
 .tm-features-style-top {
   box-shadow: 0 -12px 8px 2px rgba(0, 0, 0, 0.03); }
 
@@ -18292,4 +18270,39 @@ $grid-breakpoints: (
   .training-testimonials .owl-stage-outer {
     min-height: 600px;
   }
+}
+
+
+.tm-sc-service .service-thumb.equal-size {
+  height: 200px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-sc-service .service-content.equal-size {
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+
+.tm-sc-service .service-content.equal-size .service-header{
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-sc-service .service-content.equal-size .service-description{
+  height: 75px;
+}
+
+.tm-sc-service.service-item-current-style2{
+  border-radius: 0px;
+}
+
+.tm-sc-service .service-thumb.equal-size img{
+  max-height: 190px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -3,7 +3,7 @@ title: 'Wzorce architektoniczne'
 url: '/szkolenia-i-warsztaty/wzorce-architektoniczne/'
 date: Mon, 29 Jul 2019 11:42:22 +0000
 draft: false
-images: ['/images/2019/09/Wzorce-Architektoniczne.jpg']
+images: ['/images/trainings/architecture.png']
 duration: '2-3 dni'
 workshopType: 'tech'
 promoText: 'Poznaj wzorce architektoniczne ułatwiające tworzenie systemów.'

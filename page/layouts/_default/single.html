@@ -10,6 +10,16 @@
 {{ $featured_image = index (.Params.images) 0 }}
 {{end}}
 
+{{ $readingTime := add (math.Round (div (countwords .Content) 220.0)) 1 }}
+{{ $minutesDescription := "" }}
+{{if  eq (mod $readingTime 10) 1 }}
+{{$minutesDescription = "minuta"}}
+{{else if or (eq (mod $readingTime 10) 2) (eq (mod $readingTime 10) 3) (eq (mod $readingTime 10) 4)}}
+{{$minutesDescription = "minuty"}}
+{{else}}
+{{$minutesDescription = "minut"}}
+{{end}}
+
 <section>
     <div class="container mt-30 mb-30 pt-30 pb-30">
         <div class="row">
@@ -22,14 +32,21 @@
                             </div>
                             <h1>{{- .Title -}}</h1>
                             <div class="entry-meta mt-0">
-                                <span class="mb-10 text-gray-darkgray mr-10 font-size-13">
-                                  <i class="far fa-flag mr-10 text-theme-colored1"></i>
-                                  <a href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
-                                  {{- .Params.category -}}
-                                  </a>
+                                <a href='{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}'>
+                                    <span class="mb-10 mr-20 font-size-16">
+                                        <i class="far fa-flag mr-10 text-theme-colored1"></i>
+                                        {{- .Params.category -}}
+                                    </span>
+                                                    </a>
+                                                    <span class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+                                <i class="far fa-calendar-alt mr-10"></i>
+                                {{.Date.Format "2006-01-02"}}
                                 </span>
-                                <span class="mb-10 text-gray-darkgray mr-10 font-size-13"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>{{.Date.Format "2006-01-02"}}</span>
-                              </div>
+                                                    <span class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+                                    <i class="far fa-clock mr-10"></i>
+                                    {{$readingTime}} {{$minutesDescription}}
+                                </span>
+                            </div>
                         </div>
                         <div class="entry-content">                            
                             {{- .Content -}}

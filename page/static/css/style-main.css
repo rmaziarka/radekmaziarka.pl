@@ -18274,7 +18274,7 @@ $grid-breakpoints: (
 
 
 .tm-sc-service .service-thumb.equal-size {
-  height: 200px;
+  height: 160px;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -18302,7 +18302,7 @@ $grid-breakpoints: (
 }
 
 .tm-sc-service .service-thumb.equal-size img{
-  max-height: 190px;
+  max-height: 150px;
   margin-left: auto;
   margin-right: auto;
 }

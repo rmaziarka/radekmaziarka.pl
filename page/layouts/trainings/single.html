@@ -8,16 +8,12 @@
 
 <section>
   <div class="container mt-15 mb-30 pt-15 pb-30">
-    <div class="row">
 
-      <div class="col-sm-8 offset-md-2">
-
-        <img style="max-height: 400px;" src="{{$featured_image}}" alt="image from {{ .Title }}">
+    <div class="row mb-15">
+      <div class="col-sm-2 offset-md-2">
+        <img style="max-height: 300px;" src="{{$featured_image}}" alt="image from {{ .Title }}">
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-8 offset-md-2">
+      <div class="col-sm-6">
         <h1>
           {{ .Title }}
         </h1>
@@ -47,7 +43,7 @@
         </table>
       </div>
     </div>
-    <div class="row mt-50">
+    <div class="row mt-25">
       <div class="col-sm-8 offset-md-2">
         {{ .Content }}
 

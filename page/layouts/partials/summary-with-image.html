@@ -1,30 +1,48 @@
 {{ $featured_image := "" }}
 {{if .Params.images}}
-  {{ $featured_image = index .Params.images 0  }}
+{{ $featured_image = index .Params.images 0  }}
 {{end}}
 
+{{ $readingTime := add (math.Round (div (countwords .Content) 220.0)) 1 }}
+{{ $minutesDescription := "" }}
+{{if  eq (mod $readingTime 10) 1 }}
+{{$minutesDescription = "minuta"}}
+{{else if or (eq (mod $readingTime 10) 2) (eq (mod $readingTime 10) 3) (eq (mod $readingTime 10) 4)}}
+{{$minutesDescription = "minuty"}}
+{{else}}
+{{$minutesDescription = "minut"}}
+{{end}}
 
 <article class="post clearfix mb-30 pb-30">
-  <div class="entry-header">
-    <div class="post-thumb thumb">
-      <a href="{{.RelPermalink}}">
-        <img src="/{{ $featured_image }}" alt="image from {{ .Title }}" class="img-responsive img-fullwidth">
-      </a>
+    <div class="entry-header">
+        <div class="post-thumb thumb">
+            <a href="{{.RelPermalink}}">
+                <img src="/{{ $featured_image }}" alt="image from {{ .Title }}" class="img-responsive img-fullwidth">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="entry-content border-1px p-20 pr-10">
-    <div class="entry-meta mt-0">
-      <span class="mb-10 text-gray-darkgray mr-10 font-size-13">
-        <i class="far fa-flag mr-10 text-theme-colored1"></i>
-        <a href="{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}">
-        {{- .Params.category -}}
-        </a>
-      </span>
-      <span class="mb-10 text-gray-darkgray mr-10 font-size-13"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>{{.Date.Format "2006-01-02"}}</span>
+    <div class="entry-content border-1px p-20 pr-10">
+        <div class="entry-meta mt-0">
+            <a href='{{ "/category/" | relLangURL }}{{ .Params.category | urlize }}'>
+                <span class="mb-10 mr-20 font-size-16">
+                    <i class="far fa-flag mr-10 text-theme-colored1"></i>
+                    {{- .Params.category -}}
+                </span>
+            </a>
+            <span class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+            <i class="far fa-calendar-alt mr-10"></i>
+            {{.Date.Format "2006-01-02"}}
+            </span>
+                <span class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+                <i class="far fa-clock mr-10"></i>
+                {{$readingTime}} {{$minutesDescription}}
+            </span>
+        </div>
+        <h4 class="entry-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+        <p class="mt-10">{{ .Summary | truncate 250 }}</p>
+        
+        <a href="{{.RelPermalink}}" class="btn btn-theme-colored1 btn-view-details">{{ $.Param "read_more_copy" | default (i18n
+            "readMore") }} ➞</a>
+        <div class="clearfix"></div>
     </div>
-    <h4 class="entry-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
-    <p class="mt-10">{{ .Summary | truncate 250 }}</p>
-    <a href="{{.RelPermalink}}" class="btn btn-plain-text-with-arrow">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-    <div class="clearfix"></div>
-  </div>
 </article>

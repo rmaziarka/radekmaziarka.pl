@@ -3,7 +3,7 @@ title: 'Team Leader'
 url: '/szkolenia-i-warsztaty/team-leader'
 date: Sun, 18 Aug 2019 09:57:03 +0000
 draft: false
-images: ['/images/2019/09/Team-Leader-2.jpg']
+images: ['/images/trainings/leadership.png']
 duration: '1-2 dni'
 workshopType: 'soft'
 promoText: 'Bądź liderem za którym podążają inni.'

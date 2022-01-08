@@ -4,7 +4,7 @@ date: Wed, 14 Aug 2020 19:31:14 +0000
 draft: false
 images: ['/images/trainings/organisation.png']
 url: '/szkolenia-i-warsztaty/event-storming-nauka-od-podstaw'
-aliases: ['/szkolenia/event-storming-train-the-trainer', /szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu']
+aliases: ['/szkolenia/event-storming-train-the-trainer', '/szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu']
 workshopType: 'soft'
 promoText: 'Naucz się przeprowadzać warsztat Event Storming w swoim zespole.'
 duration: '1-3 dni'

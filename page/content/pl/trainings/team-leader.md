@@ -1,6 +1,7 @@
 ---
 title: 'Team Leader'
 url: '/szkolenia-i-warsztaty/team-leader'
+aliases: ['/szkolenia/team-leader/']
 date: Sun, 18 Aug 2019 09:57:03 +0000
 draft: false
 images: ['/images/trainings/leadership.png']

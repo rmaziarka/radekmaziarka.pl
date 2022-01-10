@@ -28,7 +28,13 @@ Na potrzeby tego artykułu wyszczególniłem takie 5 heurystyk dzielenia systemu
 ## Czym jest heurestyka
 Lecz najpierw wyjaśnijmy sobie krótko czym jest heurestyka.
 
-Zadaj sobie pytanie: "Jakie kryterium przyjmiesz dzieląc mieszkanie na mniejsze pokoje?" Nie ma tutaj jednoznacznie poprawnych odpowiedzi. Część rozwiązań będzie bardziej techniczna (jak biegną rury i elektryka), część związana z potrzebami (chęć posiadania dużej kuchni), część z czynnikami zewnętrznymi (skąd świeci słońce, na co wychodzą okna). W pewnym przypadku bardziej skłonisz się ku kwestiom technicznym, a czasem ku kwestiom bazującym na potrzebach. 2 podobne mieszkania mogą mieć całkowicie różny podział - nie ma tutaj najlepszego wyboru.
+Zadaj sobie pytanie: "Jakie kryterium przyjmiesz dzieląc mieszkanie na mniejsze pokoje?" Nie ma tutaj jednoznacznie poprawnych odpowiedzi. 
+
+- Część rozwiązań będzie bardziej techniczna (jak biegną rury i elektryka), 
+- część związana z potrzebami osoby posiadającej mieszkanie (chęć posiadania dużej kuchni), 
+- część z czynnikami zewnętrznymi (skąd świeci słońce, na co wychodzą okna). 
+- 
+W pewnym przypadku bardziej skłonisz się ku kwestiom technicznym, a czasem oprzesz się na celach jakie masz zrealizować. 2 podobne mieszkania mogą mieć całkowicie różny podział - nie ma tutaj najlepszego wyboru.
 
 I tym właśnie jest **heurystyka - pomocą w rozwiązaniu problemu**, który nie bazuje na 100% powtarzalnym procesie, a raczej na wskazówkach i połączeniu ze sobą faktów z różnych dziedzin wiedzy. W pewnych sytuacjach wybierzesz heurystykę X, a w pewnych heurystykę Y.  
 
@@ -65,15 +71,11 @@ Przydatną techniką tutaj jest [Mapa Wardley'a](https://learnwardleymapping.com
 
 ### Źródło wiedzy
 
-Ta heurestyka pozwala nam skupić się na bardziej ukrytych kontekstach. Są to również te konteksty, które podskórnie poszukują nasi klienci.
+Ta heurestyka pozwala nam skupić się na bardziej ukrytych kontekstach. Są to również te konteksty, których podskórnie poszukują nasi klienci.
 
+Załóżmy, że tworzymy rozbudowany system e-commerce. Możemy sprzedawać / rezerwować / zamieniać reklamacyjnie produkty. Każda z tych akcji blokuje konkretne sztuki produktów. Zadaj sobie wtedy pytanie "Ile mam danego produktu możliwego do sprzedaży?" Odpowiedź na to pytanie nie będzie łatwa - wymagane będzie przeliczenie 3 zbiorów danych. 
 
-Odpowiedź na główne pytanie.
-
-Załóżmy, że tworzymy rozbudowany system e-commerce. Możemy sprzedawać / rezerwować / zamieniać reklamacyjnie produkty. Każda z tych akcji blokuje konkretne sztuki produtków. Zadaj sobie wtedy pytanie "Ile mam danego produktu możliwego do sprzedaży?" Odpowiedź na to pytanie nie będzie łatwa - wymagane będzie przeliczenie 3 zbiorów danych. 
-
-To jest sugestia, że brakuje nam dodatkowego obszaru, który będzie się zajmować dokładie
-W ten sposób np. da się wyciągnąć potrzebę **stworzenia kontekstu Dostępności** w systemie e-commerce.
+To jest sugestia, że brakuje nam dodatkowego obszaru, który będzie się zajmować obsługą dostępności produktów. Kontekst _Dostępności_ będzie tutaj **źródłem wiedzy**. To do niego pozostałe konteksty będą uderzać aby pytać o dostępność produktów i blokować poszczególne towary.
 
 **Pytania pomocniczne:**
 - Na jakie główne pytania powiniśmy odpowiedzieć w naszym systemie?
@@ -82,13 +84,34 @@ W ten sposób np. da się wyciągnąć potrzebę **stworzenia kontekstu Dostępn
 
 ### Językowe różnice
 
-Lead w marketingu i sprzedaży. Model predykcyjny dla definiującego wzór i dla obsługującego konkretne użycie modelu.
+Kontekst w ujęciu DDD dzieli rozwiązanie techniczne na mniejsze obszary, gdzie wybrane pojęcia mają jedno dokładne znaczenie. To nam pozwala dostrzec, w których miejscach nasze rozwiązanie powinno się dzielić na mniejsze konteksty. 
+
+Weźmy na tapet słowo **Lead**. W zalezności czy mówimy o zespole Marketingu czy Sprzedaży to te [2 określenia będą znaczyły coś zdecydowanie innego](https://www.linkedin.com/feed/update/urn:li:activity:6545309519982014464/).
+Taką istotną różnicę warto odseparować od siebie - inaczej skończymy z olbrzymim modelem mającym bardzo dużą odpowiedzialność.
+
+Analogicznie może być w przypadku słowa **Pracownik** w systemie HRowym. W zależności od kontekstu, te słowa mogą znaczyć:
+- Szansa na zatrudnienie - dla kontekstu _Poszukiwanie kandydatów_
+- Potencjalne miejsce angażu - dla kontekstu _Projekty_
+- Miejce w drabince organizacyjnej - dla kontekstu _Struktura organizacyjna_
+- Stawka godzinowa oraz dni urlopowe - dla konktestu _Koszty_
+
+**Pytania pomocnicze:**
+- Jakie zwroty są różnie rozumiane w moim biznesie?
+- O jakie odpowiedzialności / cechy kłócą się współpracownicy?
+- Jakie pojęcia są strasznie niejasne (a więc ich klasy / obiekty w kodzie olbrzymie)? 
 
 ### Reużywalność
 
-Płatności są tego dobrym przykładem. Na początku chcielibyśmy aby klienci nam mogłi płacić za towary. Połączenie odpowiedzialności płatności z zamówieniem wydają się dobrą początkową decyzją. Później jednak możemy chcieć aby klient mógł zapłacić dodatkową kwotę za rzeczy niezwiązane z zamówieniem - dodatkową wysyłkę, wymianę. 
+Jednym z naszych kryteriów tworzenia 
 
-Tworzymy tutaj konteksty reużywalne - takie które mogą być wykorzystywane przez konteksty wyższego poziomu.
+_Płatności_ są tego dobrym przykładem. Na początku chcielibyśmy aby klienci nam mogłi płacić za towary. Połączenie odpowiedzialności płatności z zamówieniem wydają się dobrą początkową decyzją. Później jednak możemy chcieć aby klient mógł zapłacić dodatkową kwotę za rzeczy niezwiązane z zamówieniem - dodatkową wysyłkę, wymianę. Dodanie takiej funkcji do już istniejących płatności w zamówieniach może przyprawić o siwe włosy.
+
+Wydzielenie reużywalnego kontekstu _Płatności_ daje nam duże zyski w tworzeniu bardziej modularnego systemu. Wtedy konteksty wyższego rzędu mogą prosić _Płatności_ o realizację płatności, bez informowania kontekstu po co się to dzieje. Możemy łączyć ze sobą potrzeby
+
+Pytania pomocnicze:
+- Jakie funkcje mogą być wykorzystywane przez różne części biznesu?
+- Jaka odpowiedzialność powtarza się w procesach biznesowych?
+- Co jest wspólne dla XYZ
 
 ## Podsumowanie i materiały
 

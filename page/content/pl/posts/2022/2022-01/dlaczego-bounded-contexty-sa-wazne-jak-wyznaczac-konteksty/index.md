@@ -118,18 +118,16 @@ Pytania pomocnicze:
 
 ## Podsumowanie i materiały
 
+[Mathias Verraes pisał](https://verraes.net/2021/06/split-domain-across-bounded-contexts/):
 
-`` Bounded Contexts shouldn’t serve the designer’s sensibilities and need for perfection, but enable business opportunities.
+> Bounded Contexts shouldn’t serve the designer’s sensibilities and need for perfection, but enable business opportunities.
 
-W internecie jest o wiele więcje metod podziału o których możecie przeczytać
+Wydzielanie kontekstów to zadanie, które jest zarówno techniczne, jak i biznesowe. Nie przeprowadzamy podziału by chwalić sie najlepszym technicznie podziałem. Im bardziej mamy podzielony system, tym trudniej jest nam je rozwijać. Jednak dobrze wydzielone konteksty przyśpieszają pracę i pozwalają na rozwijanie nowych możliwości biznesowych. I tego wam życzę.
 
-https://www.dddheuristics.com/design-heuristics/
+W internecie możecie poczytać więcej o metodach dzielenia na konteksty:
 
-https://www.youtube.com/watch?v=ez9GWESKG4I
-
-https://www.youtube.com/watch?v=ZEJ2Vyk1HA0
-
-[Panel] Splitting systems towards bounded contexts and microservices
-https://www.youtube.com/watch?v=h-7-lMJ_jdw
-
-https://verraes.net/2021/06/split-domain-across-bounded-contexts/
+- [Design heuristics](https://www.dddheuristics.com/design-heuristics/)
+- [The Art of Discovering Bounded Contexts by Nick Tune](https://www.youtube.com/watch?v=ez9GWESKG4I)
+- [Bounded Contexts - Cyrille Martraire](https://www.youtube.com/watch?v=ZEJ2Vyk1HA0)
+- [[Panel] Splitting systems towards bounded contexts and microservices](https://www.youtube.com/watch?v=h-7-lMJ_jdw)
+- [Splitting a Domain Across Multiple Bounded Contexts](https://verraes.net/2021/06/split-domain-across-bounded-contexts/)

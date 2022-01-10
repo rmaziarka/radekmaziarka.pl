@@ -5,7 +5,6 @@ url: '/2022/01/01/dlaczego-bounded-contexty-sa-wazne-jak-wyznaczac/'
 images: ['images/2018/07/private-1665019_960_720.jpg']
 description: "Kilka heurystyk jak wyznaczać Bounded Contexty"
 category: 'Wzorce projektowe'
-draft: true
 ---
 
 // wszystkie materiały zostały zebrane w [podsumowaniu cyklu](/2018/07/16/dlaczego-bounded-contexty-sa-wazne-podsumowanie/). 

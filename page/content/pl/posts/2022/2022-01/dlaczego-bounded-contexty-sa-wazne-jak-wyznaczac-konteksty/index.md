@@ -3,7 +3,7 @@ title: "Dlaczego Bounded Contexty są ważne - jak wyznaczać?"
 date: Sun, 08 Jan 2022 09:40:09 +0000
 url: '/2022/01/01/dlaczego-bounded-contexty-sa-wazne-jak-wyznaczac/'
 images: ['images/2018/07/private-1665019_960_720.jpg']
-description: "Kilka heurystyk jak wyznaczać Bounded Contexty"
+description: "Kilka podejść w jaki sposób wyznaczać Bounded Contexty"
 category: 'Wzorce projektowe'
 ---
 

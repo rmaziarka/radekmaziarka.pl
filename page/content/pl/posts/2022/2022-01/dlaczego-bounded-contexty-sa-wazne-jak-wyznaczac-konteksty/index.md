@@ -19,7 +19,7 @@ Nieprawidłowy podział systemu niesie ze sobą szczególne wady:
 
 Na potrzeby tego artykułu wyszczególniłem 5 metod dzielenia systemu na konteksty:
 - [Proces i jego podział](#proces-i-jego-podział)
-- [Możliwości zmiany i autonomia](#możliwość-zmiany-i-autonomia)
+- [Możliwości zmiany i autonomia](#możliwości-zmiany-i-autonomia)
 - [Źródło wiedzy](#źródło-wiedzy)
 - [Różnice językowe](#różnice-językowe)
 - [Reużywalność](#reużywalność)
@@ -39,7 +39,7 @@ Następnie szukamy zdarzeń granicznych ([pivotal events](https://www.dddheurist
 
 - Zlecono wysyłkę - dział Zamówień oddał pracę dalej do działu Dostaw
 - Uruchomiono kampanię marketingową - teraz dział Marketingu skupi się na zbieraniu leadów
-- Wyłączono produkt ze sprzedaży - dalej sprzedaż produktu nie jest już możliwa
+- Wyłączono produkt ze sprzedaży - sprzedaż produktu nie jest już możliwa
 
 
 Bardzo często miejsce podziału procesu będzie pokrywało się z obecną strukturą organizacyjną, bądź z strumieniem wartości ([value stream](https://bacoach.nl/2020/11/business-value-streams-and-capabilities/#:~:text=make%20better%20decisions.-,Business%20Value%20Streams,-Next%20to%20capability)). **W ten sposób odkryjemy główny podział procesu i mniejsze obszary biznesowe.**
@@ -132,7 +132,7 @@ Wydzielenie reużywalnego kontekstu _Płatności_ daje nam duże zyski w tworzen
 
 Wydzielanie kontekstów to zadanie, które jest zarówno techniczne, jak i biznesowe. Nie przeprowadzamy podziału by chwalić sie najlepszym technicznie podziałem. Jednak dobrze wydzielone konteksty przyśpieszają pracę i pozwalają na rozwijanie nowych możliwości biznesowych. I tego wam życzę.
 
-W internecie możecie poczytać więcej o metodach dzielenia na konteksty:
+W internecie możecie poczytać więcej o metodach dzielenia na konteksty - daj znać w komentarzach jakie Ty stosujesz podejścia 😀
 
 - [Design heuristics](https://www.dddheuristics.com/design-heuristics/)
 - [The Art of Discovering Bounded Contexts by Nick Tune](https://www.youtube.com/watch?v=ez9GWESKG4I)

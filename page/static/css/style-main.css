@@ -372,7 +372,8 @@ ol, ul {
   list-style-position: inside;
   margin: 0;
   margin-bottom: 30px;
-  padding: 0; }
+  padding: 0;
+  margin-top: -15px;}
 
 ol ol li, ol ul li,
 ul ol li, ul ul li {

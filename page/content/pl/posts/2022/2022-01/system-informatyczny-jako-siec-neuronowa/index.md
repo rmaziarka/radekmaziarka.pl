@@ -7,17 +7,17 @@ description: "Czyli dlaczego systemy informatyczne są skomplikowane w budowie"
 category: 'Biznes w IT'
 tags: ['System nerwowy']
 ---
-Wiele napisano o tym, dlaczego systemy informatyczne są trudne w budowie i utrzymaniu. Pozwólcie dołożyć do tego kilka słów ode mnie 😀 W mojej ocenie **ten problem wynika ze złej metafory**, jaką wykorzystujemy, myśląc o systemach informatycznych.
+Wiele osób narzeka, że ich systemy informatyczne okazały się trudniejsze w budowie i utrzymaniu niż zakładali. Pozwólcie mi dołożyć do tego kilka słów ode mnie 😀 W mojej ocenie **ten problem wynika ze złej metafory**, jaką wykorzystujemy, myśląc o systemach informatycznych.
 
 [![](ikea.png)](ikea.png)
 
-**Dla wielu osób system informatyczny to coś podobnego do mebla z Ikei**. Na początku dostajemy gotową paczkę elementów wraz z instrukcją. Składamy je razem i mamy szafkę (plus kilka nadmiarowych śrubek 😉). Niestety tworzenie systemu informatycznego jest kompletnie przeciwne.
+**Dla wielu osób system informatyczny to coś podobnego do mebla z Ikei**. Na początku dostajemy gotową paczkę elementów wraz z instrukcją. Składamy je razem i mamy szafkę (plus kilka nadmiarowych śrubek 😉). Niestety, tworzenie systemu informatycznego nie jest w żaden sposób podobne do składania mebli. Jest od niego o wiele, wiele razy trudniejsze.
 
 Pora na inną metaforę, która odpowie nam dlaczego:
 
 - nie ma identycznych systemów informatycznych,
 - kopiowanie funkcjonalności jest trudne,
-- integracje są takie trudne.
+- integracje są takie czasochłonne.
 
 ## Układ nerwowy a system informatyczny
 
@@ -72,11 +72,11 @@ Identycznie jest z systemem informatycznym. **Nie da się tak po prostu przenie�
 
 - różny sposób wprowadzania informacji - proces biznesowy się różni, mamy inne biblioteki / frameworki, korzystamy z web / mobile,
 - różny sposób gromadzenia i przetwarzania informacji - mamy inne procesy decyzyjne, różnimy się silnikami baz danych, modelem i nazwami pól,
-- różny sposób ich udostępniania dalej - posiadamy inne sposoby wysyłania informacji do klientów, różnimy się wykorzystywanymi systemami zewnętrznymi.
+- różny sposób udostępniania informacji dalej - posiadamy inne sposoby wysyłania informacji do klientów, różnimy się wykorzystywanymi systemami zewnętrznymi.
 
-Nawet drobna zmiana w polu _nazwisko_ z _second_name_ na _lastName_ potrafi wywrócić całą funkcjonalność biznesową systemu informatycznego.
+Nawet drobna zmiana w polu _nazwisko_ z _second_name_ na _last_name_ potrafi wywrócić kopiowaną funkcjonalność biznesową systemu informatycznego. W przypadku kopiowania większych funkcjonalności do dostosowania będzie o wiele więcej.
 
-## Dlaczego integracje są takie trudne?
+## Dlaczego integracje są takie czasochłonne?
 
 Kilka tygodni temu pojawił się świetny artykuł na blogu Martina Fowlera [You Can't Buy Integration](https://martinfowler.com/articles/cant-buy-integration.html):
 
@@ -88,7 +88,7 @@ który dokładnie pasuje do metafory układu nerwowego jako systemu informatyczn
 
 Otóż integrację można postrzegać jako przyszycie kończyny (np. dłoni), gdy ktoś uległ wypadkowi. Nie można po prostu przyczepić 2 części ciała. Najtrudniejszą sprawą w takich operacjach jest odpowiednie połączenie nerwów. **Odpowiednia transmisja informacji jest kluczowa, aby nowa część organizmu połączyła się z resztą.** Bez tego możemy mieć dłoń, ale nie będziemy w stanie nią ruszać.
 
-Tak też to wygląda w przypadku wykorzystywaniu gotowych komponentów w systemach informatycznych. Jeśli chcemy np. wykorzystać bramkę [stripe](https://stripe.com/en-gb-pl) do płatności internetowych to nie wystarczy nam tylko ją dodać na stronę. **Integracja musi się bezbłędnie łączyć z naszym systemem** - mieć ten sam model komunikacji, nazewnictwo pól, adaptować się do naszego procesu biznesowego. Wszystkie małe drobiazgi muszą działać, bo inaczej na którymś etapie wystąpi błąd. I niemiłe debugowanie.
+Tak też to wygląda w przypadku wykorzystywaniu gotowych komponentów w systemach informatycznych. Jeśli chcemy np. wykorzystać bramkę [Stripe](https://stripe.com/en-gb-pl) do płatności internetowych to nie wystarczy nam tylko ją dodać na stronę. **Integracja musi się bezbłędnie łączyć z naszym systemem** - mieć ten sam model komunikacji, nazewnictwo pól, adaptować się do naszego procesu biznesowego. Wszystkie małe drobiazgi muszą działać, bo inaczej na którymś etapie wystąpi błąd. I niemiłe debugowanie.
 
 A jeszcze gorzej wygląda, jak mamy wiele zewnętrznych integracji. Kto nie miał problemu z różnym nazewnictwem pól adresów _firstLine_ / _street_ / _streetName_ pomiędzy systemami? Nagle mamy 10 różnych modeli i sposobów działania.
 

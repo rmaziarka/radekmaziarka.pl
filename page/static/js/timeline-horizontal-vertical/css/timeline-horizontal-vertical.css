@@ -1,4 +1,4 @@
-.tm-timeline-horizontal-vertical {
+﻿.tm-timeline-horizontal-vertical {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	position: relative
@@ -84,12 +84,17 @@
 .tm-timeline-horizontal-vertical .timeline__content {
 	background-color: #fff;
 	border: 1px solid #ccc;
-	border-radius: 10px;
+	border-radius: 0px;
 	color: #333;
 	display: block;
-	padding: 1.25rem;
+	padding: 10px;
 	position: relative
 }
+
+.tm-timeline-horizontal-vertical .timeline__content h5{
+	margin: 0px;
+}
+
 .tm-timeline-horizontal-vertical .timeline__content:after, .tm-timeline-horizontal-vertical .timeline__content:before {
 	content: '';
 	height: 0;

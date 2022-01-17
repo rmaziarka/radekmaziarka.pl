@@ -37,6 +37,12 @@ paginatePath = "page"
   name = "Szkolenia i warsztaty"
   url = "/szkolenia-i-warsztaty"
   weight = 20
+  
+[[languages.pl.menu.main]]
+  identifier = "konsultacje"
+  name = "Konsultacje"
+  url = "/konsultacje"
+  weight = 20
  
   
 [[languages.pl.menu.main]]

@@ -22,6 +22,9 @@ images: ['images/2019/07/prelekcje.jpg']
 
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
+## 2021
+* 2021-03-11 - "Struktura organizacji a wytwarzane oprogramowanie – prawo Conway’a w praktyce" - [Boiling Frogs](https://2021.boilingfrogs.pl/schedule/struktura-organizacji-a-wytwarzane-oprogramowanie-prawo-conwaya-w-praktyce/) - [nagranie](https://www.youtube.com/watch?v=mpcdIs8L8iI)
+
 ## 2020
  * 2020-11-18 - "Miro - naucz się korzystać z tablicy wirtualnej" - [Gra o Sens](https://www.meetup.com/pl-PL/GraoSens/events/274021018/) - [nagranie](https://www.youtube.com/watch?v=9e3E9OewM8s)
  * 2020-10-14 - "Value Stream Mapping - przeanalizuj procesy dostarczające wartość - [Gra o Sens](https://www.meetup.com/pl-PL/GraoSens/events/271837078/)

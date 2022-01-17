@@ -98,5 +98,7 @@ Wykorzystanie zewnętrznego komponentu wymaga odpowiedniego dopasowania go do na
 
 Myślenie o systemach informatycznych jako o meblach, które można składać wg instrukcji jest błędne. Przysporzyło nam dużo problemów w przeszłości. Mam nadzieję, że ta metafora będzie lepszym sposobem myślenia o systemach. Takim, które pokazuje z jak skomplikowanym tworem mamy do czynienia.
 
+Jeśli zainteresował Cię temat metafor i ich wpływu na nasze myślenie, to polecam Ci ksiażkę [Metaphors We Live By](https://www.goodreads.com/en/book/show/34459) Goerge'a Lakoffa.
+
 Trafiła do Ciebie ta metafora? Daj znać w komentarzu 😀
 

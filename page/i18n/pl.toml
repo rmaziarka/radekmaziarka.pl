@@ -25,6 +25,9 @@ other = "Adres email"
 [subject]
 other = "Temat"
 
+[serviceCategory]
+other = "Kategoria usług"
+
 [message]
 other = "Wiadomość"
 

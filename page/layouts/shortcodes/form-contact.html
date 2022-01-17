@@ -6,20 +6,30 @@
     <input type="text" id="name" name="name" class="form-control" required placeholder=" " aria-labelledby="name" />
   </div>
 
-  <div class="form-group">
+  <div class="form-grou mt-10">
     <label for="email">{{ i18n "emailAddress" }}</label>
     <input type="email" id="email" name="email" class="form-control" required placeholder=" " aria-labelledby="email" />
   </div>
 
-  <div class="form-group">
+  <div class="form-group mt-10">
+    <label for="serviceCategory">{{ i18n "serviceCategory" }}</label>
+    <select type="select" id="serviceCategory" name="category" class="form-control" 
+      aria-labelledby="serviceCategory" >
+      <option>Szkolenia i warsztaty</option>
+      <option>Konsultacje</option>
+      <option>Ogólne pytanie</option>
+    </select>
+  </div>
+  
+  <div class="form-group mt-10">
     <label for="subject">{{ i18n "subject" }}</label>
     <input type="text" id="subject" name="subject" class="form-control" required placeholder=" "
-      aria-labelledby="subject" />
+           aria-labelledby="subject" />
   </div>
 
-  <div class="form-group">
+  <div class="form-group mt-10">
     <label for="body">{{ i18n "message" }}</label>
-    <textarea id="body" rows="8" name="body" class="form-control" aria-labelledby="body"></textarea>
+    <textarea id="body" rows="4" name="body" class="form-control" aria-labelledby="body"></textarea>
   </div>
 
   <a href="#" onclick="sendEmail(event)" target="_self" class="btn btn-flat btn-theme-colored4 btn-lg mt-10">{{ i18n "send" }}</a>
@@ -29,6 +39,15 @@
   <div id="emailNotSent" style="color:red; display: none;">{{ i18n "emailNotSent" }}</div>
 
 </form>
+
+<script>
+  let params = new URLSearchParams(window.location.search);
+  let subject = params.get('subject');
+  if(subject){
+    subject = "Warszat " + subject;
+    document.getElementById("subject").value = subject;
+  }
+</script>
 
 <script>
   function sendEmail(event) {

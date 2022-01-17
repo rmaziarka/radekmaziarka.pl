@@ -7,120 +7,124 @@
 
 
 <section>
-  <div class="container mt-15 mb-30 pt-15 pb-30">
+    <div class="container mt-15 mb-30 pt-15 pb-30">
 
-    <div class="row mb-15">
-      <div class="col-sm-2 offset-md-2">
-        <img style="max-height: 300px;" src="{{$featured_image}}" alt="image from {{ .Title }}">
-      </div>
-      <div class="col-sm-6">
-        <h1>
-          {{ .Title }}
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-8 offset-md-2">
-        <table class="table">
-          <tbody>
-            <tr>
-              <th scope="row">Czas trwania:</th>
-              <td>{{ .Params.duration }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Grupa docelowa:</th>
-              <td>{{ .Params.targetGroup }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Forma:</th>
-              <td>{{ .Params.form }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Miejsce warsztatu:</th>
-              <td>{{ .Params.trainingPlace }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="row mt-25">
-      <div class="col-sm-8 offset-md-2">
-        {{ .Content }}
-
-        <p>Jeśli interesowałby Cię ten warsztat skontaktuj się ze mną. Przeczytaj również
-          <a href="/szkolenia-i-warsztaty/#rekomendacje">rekomendacje</a>.
-        </p>
-        <a href="/kontakt" target="_self" class="btn btn-flat btn-theme-colored4 btn-lg mt-10"> Skontaktuj się </a>
+        <div class="row mb-15">
+            <div class="col-sm-2 offset-md-2">
+                <img style="max-height: 300px;" src="{{$featured_image}}" alt="image from {{ .Title }}">
+            </div>
+            <div class="col-sm-6">
+                <h1>
+                    {{ .Title }}
+                </h1>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-sm-8 offset-md-2">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Czas trwania:</th>
+                        <td>{{ .Params.duration }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Grupa docelowa:</th>
+                        <td>{{ .Params.targetGroup }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Forma:</th>
+                        <td>{{ .Params.form }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Miejsce warsztatu:</th>
+                        <td>{{ .Params.trainingPlace }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mt-25">
+            <div class="col-sm-8 offset-md-2">
+                {{ .Content }}
+
+                <p>Jeśli interesowałby Cię ten warsztat skontaktuj się ze mną. Przeczytaj również
+                    <a href="/szkolenia-i-warsztaty/#rekomendacje">rekomendacje</a>.
+                </p>
+                <a href="/kontakt?subject={{ .Title }}" target="_self" class="btn btn-flat btn-theme-colored4 btn-lg mt-10"> Skontaktuj
+                    się </a>
+            </div>
+        </div>
 
     </div>
-  </div>
 </section>
 <section class="bg-silver-light">
-  <div class="container pt-30 pb-30">
-    <div class="row">
-      <div class="col-sm-8 offset-md-2">
-        <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
-          <div class="title-wrapper">
-            <h2 class="title text-theme-colored1"><span class="">Po warsztatach</span></h2>
-            <div class="title-seperator-line"></div>
-          </div>
+    <div class="container pt-30 pb-30">
+        <div class="row">
+            <div class="col-sm-8 offset-md-2">
+                <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
+                    <div class="title-wrapper">
+                        <h2 class="title text-theme-colored1"><span class="">Po warsztatach</span></h2>
+                        <div class="title-seperator-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 offset-md-2 tm-sc-unordered-list list-style1">
+                <ul>
+                    {{range .Params.knowledgeToObtain}}
+                    <li>{{.}}</li>
+                    {{end}}
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-8 offset-md-2 tm-sc-unordered-list list-style1">
-        <ul>
-          {{range .Params.knowledgeToObtain}}
-          <li>{{.}}</li>
-          {{end}}
-        </ul>
-      </div>
     </div>
-  </div>
-  </div>
 </section>
 <section>
-  <div class="container pt-30 pb-30">
-    <div class="row">
-      
-      <div class="col-sm-8 offset-md-2">
-        <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
-          <div class="title-wrapper">
-            <h2 class="title"><span class="">Program warsztatów</span></h2>
-            <div class="title-seperator-line"></div>
-            <div class="paragraph">
-              <p>Program opisany poniżej jest propozycją - do każdego warsztatu ustalamy dedykowany program na podstawie
-                twoich potrzeb.</p>
+    <div class="container pt-30 pb-30">
+        <div class="row">
+
+            <div class="col-sm-8 offset-md-2">
+                <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
+                    <div class="title-wrapper">
+                        <h2 class="title"><span class="">Program warsztatów</span></h2>
+                        <div class="title-seperator-line"></div>
+                        <div class="paragraph">
+                            <p>Program opisany poniżej jest propozycją - do każdego warsztatu ustalamy dedykowany
+                                program na podstawie
+                                twoich potrzeb.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-8 offset-md-2">
-        <div class="accordion tm-accordion accordion-classic accordion-theme-colored1" id="training-plan-accordion">
-          {{range $index, $element := .Params.trainingPlan}}
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="training-plan-header-{{$index}}">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#training-plan-item-{{$index}}" aria-expanded="true" aria-controls="collapse501">
-                <strong>{{add $index 1}}. {{index $element 0}}</strong>
-              </button>
-            </h2>
-            <div id="training-plan-item-{{$index}}" class="accordion-collapse collapse" aria-labelledby="training-plan-header-{{$index}}" 
-            data-bs-parent="#training-plan-accordion">
-              <div class="accordion-body">
-                {{if reflect.IsSlice $element}}
-                <ol>
-                  {{range after 1 $element}}
-                  <li>{{.}}</li>
-                  {{end}}
-                </ol>
-                {{end}}
-              </div>
+            <div class="col-sm-8 offset-md-2">
+                <div class="accordion tm-accordion accordion-classic accordion-theme-colored1"
+                     id="training-plan-accordion">
+                    {{range $index, $element := .Params.trainingPlan}}
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="training-plan-header-{{$index}}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#training-plan-item-{{$index}}" aria-expanded="true"
+                                    aria-controls="collapse501">
+                                <strong>{{add $index 1}}. {{index $element 0}}</strong>
+                            </button>
+                        </h2>
+                        <div id="training-plan-item-{{$index}}" class="accordion-collapse collapse"
+                             aria-labelledby="training-plan-header-{{$index}}"
+                             data-bs-parent="#training-plan-accordion">
+                            <div class="accordion-body">
+                                {{if reflect.IsSlice $element}}
+                                <ol>
+                                    {{range after 1 $element}}
+                                    <li>{{.}}</li>
+                                    {{end}}
+                                </ol>
+                                {{end}}
+                            </div>
+                        </div>
+                    </div>
+                    {{end}}
+                </div>
             </div>
-          </div>
-          {{end}}
         </div>
-      </div>
     </div>
-  </div>
 </section>
 {{end}}

@@ -19,7 +19,7 @@ W tym poście będę zbierał materiały opublikowane w cyklu "Dlaczego Bounded 
  *   [Przykład braku kontekstów - Narzędzia Business Inteligence](/2019/05/23/dlaczego-bounded-contexty-sa-wazne-przyklad-4/)
  *   [Architektura zdarzeniowa](/2019/03/26/dlaczego-bounded-contexty-sa-wazne-architektura-zdarzeniowa/)
  *   [Ostateczna spójność](/2019/09/26/dlaczego-bounded-contexty-sa-wazne-ostateczna-spojnosc/)
- *   Jak wyznaczać konteksty?
+ *   [Jak wyznaczać konteksty?](/2022/01/01/dlaczego-bounded-contexty-sa-wazne-jak-wyznaczac/)
  *   Zbiory danych
 
 Na koniec pojawi się podsumowanie.

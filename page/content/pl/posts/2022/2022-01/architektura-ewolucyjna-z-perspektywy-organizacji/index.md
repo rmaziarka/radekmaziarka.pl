@@ -3,7 +3,7 @@ title: "Architektura ewolucyjna z perspektywy organizacji"
 date: Fri, 21 Jan 2022 09:40:09 +0000
 url: '/2022/01/21/architektura-ewolucyjna-z-perspektywy-organizacji'
 images: ['2022/01/21/architektura-ewolucyjna-z-perspektywy-organizacji/EA.jpg']
-description: "Budowa organizacji i jej działanie ma bardzo duży wpływ na techniczny rozwój architektury naszego system`u`"
+description: "Budowa organizacji i jej działanie ma bardzo duży wpływ na techniczny rozwój architektury naszego systemu"
 category: 'Biznes w IT'
 ---
 
@@ -60,7 +60,7 @@ Zespół realizujący rozwiązanie bezpośrednio wsłuchuje się w potrzeby klie
 
 **Dodatkowo, zespół realizujący rozwiązanie pracuje bliżej klientów.** Rozumie ich potrzeby. Na tej podstawie ewolucja systemu staje się bardziej zorientowana na biznes. Nie tworzymy architektury dla samej architektury - tworzymy kręgosłup dla ogólnego celu biznesowego.
 
-**Ta idea często przedstawiana jest jako zespół produktowy**. Jest ona szczegółowo przedstawiona w książce [Empowered](https://www.goodreads.com/book/show/53481975-empowered) Marty'ego Cagana i Chrisa Jonesa. Zespół jest odpowiedzialny za zebranie potrzeb klienta, znalezienie odpowiedniego rozwiązania, wdrożenie go i zebranie informacji zwrotnej. Pętla informacji zwrotnej jest krótka, a my odpowiednio kształtujemy architekturę.
+**Ta idea często przedstawiana jest jako zespół produktowy**. Jest ona szczegółowo opisana w książce [Empowered](https://www.goodreads.com/book/show/53481975-empowered) Marty'ego Cagana i Chrisa Jonesa. Zespół jest odpowiedzialny za zebranie potrzeb klienta, znalezienie odpowiedniego rozwiązania, wdrożenie go i zebranie informacji zwrotnej. Pętla informacji zwrotnej jest krótka, a my odpowiednio kształtujemy architekturę.
 
 ### Cele ewolucyjne
 

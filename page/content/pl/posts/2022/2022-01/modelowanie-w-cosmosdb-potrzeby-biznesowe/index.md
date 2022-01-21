@@ -5,6 +5,7 @@ url: '/2022/01/20/modelowanie-w-cosmos-db-potrzeby-biznesowe'
 images: ['2022/01/20/modelowanie-w-cosmos-db-potrzeby-biznesowe/neural-system.jpg']
 description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - zebranie potrzeb"
 category: 'Wzorce projektowe'
+draft: true
 ---
 
 Większość przykładów opartych o Cosmos DB jest albo:

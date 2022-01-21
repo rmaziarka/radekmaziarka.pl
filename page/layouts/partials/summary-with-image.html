@@ -5,7 +5,7 @@
 
 {{ $readingTime := add (math.Round (div (countwords .Content) 220.0)) 1 }}
 {{ $minutesDescription := "" }}
-{{if  eq (mod $readingTime 10) 1 }}
+{{if eq $readingTime 1 }}
 {{$minutesDescription = "minuta"}}
 {{else if or (eq (mod $readingTime 10) 2) (eq (mod $readingTime 10) 3) (eq (mod $readingTime 10) 4)}}
 {{$minutesDescription = "minuty"}}

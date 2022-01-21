@@ -70,7 +70,7 @@ W końcu odkrywamy, że mimo posiadania działającego systemu, nie potrafimy go
 
 [Gerald Weinberg](https://en.wikipedia.org/wiki/Gerald_Weinberg) napisał w swojej książce [The Secrets of Consulting](https://www.goodreads.com/en/book/show/566213):
 
-> "Im lepiej jesteś przystosowany, tym mniejszą masz skłonność do przystosowywania się". 
+> Im lepiej jesteś przystosowany, tym mniejszą masz skłonność do przystosowywania się. 
 
 **Organizacje, które skupiają się tylko na bieżącej sytuacji, nie są w stanie dostosować się do przyszłych potrzeb.** Architektura jest tak silnie sprzężona, że bez ogromnego poświęcenia żadna zmiana nie może być wprowadzona.
 

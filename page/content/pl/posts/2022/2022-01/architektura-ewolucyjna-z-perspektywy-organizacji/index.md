@@ -11,11 +11,17 @@ Ten artykuł jest tłumaczeniem mojego wpisu na [InfoQ](https://www.infoq.com/ar
 
 Cały artykuł jest podzielony na sekcje:
 
-* Architektura ewolucyjna i jej znaczenie
-* Problemy z techniczną perspektywą dla AE
-* Cele organizacyjne dla AE
-  * IT i Biznes jako jeden zespół
-  * 
+* [Architektura ewolucyjna i jej znaczenie](#architektura-ewolucyjna-i-jej-znaczenie)
+* [Architektura ewolucyjna to nie tylko technologia](#architektura-ewolucyjna-to-nie-tylko-technologia)
+* [Cechy organizacyjne architektury ewolucyjnej](#cechy-organizacyjne-architektury-ewolucyjnej)
+  * [IT i Biznes jako jeden zespół](#it-i-biznes-jako-jeden-zesp%C3%B3%C5%82)
+  * [Cele ewolucyjne](#cele-ewolucyjne)
+  * [Zrozumienie i dostosowanie do domeny biznesowej](#zrozumienie-i-dostosowanie-do-domeny-biznesowej)
+  * [Wzorce ewolucyjne dla poszczególnych obszarów](#wzorce-ewolucyjne-dla-poszczeg%C3%B3lnych-obszar%C3%B3w)
+  * [Kultura współpracy i kontraktów](#kultura-wsp%C3%B3%C5%82pracy-i-kontrakt%C3%B3w)
+  * [Myślenie oparte na hipotezach i eksperymentach](#my%C5%9Blenie-oparte-na-hipotezach-i-eksperymentach)
+  * [Myślenie systemowe zastosowane w architekturze](#my%C5%9Blenie-systemowe-zastosowane-w-architekturze)
+* [Podsumowanie](#podsumowanie)
 
 
 ## Architektura ewolucyjna i jej znaczenie
@@ -26,7 +32,7 @@ Architektura ewolucyjna jest często postrzegana jako kluczowy element tworzenia
 
 > Software is never done.
 
-## Problemy z technicznym postrzeganiem architektury ewolucyjnej
+## Architektura ewolucyjna to nie tylko technologia
 
 Większość materiałów wokół architektury ewolucyjnej poświęcona jest tematom technicznym. Oprócz Fitness Functions, popularne tematy to mikroserwisy, ciągłe wdrażanie i dostarczanie, ewolucyjne wzorce baz danych, testy automatyczne i wiele innych. Nie ulega wątpliwości, że są to kluczowe elementy dla osiągnięcia tej architektury.
 
@@ -34,7 +40,7 @@ Jednocześnie, bazując na [prawie Conway'a](/2019/02/25/conways-law-jak-struktu
 
 **Architektura ewolucyjna musi opierać się na organizacji** - bez właściwej współpracy całej firmy nie możemy zakładać, że wzorce techniczne będą wystarczające do zapewnienia ewolucji systemu.
 
-## Cechy organizacyjne dla architektury ewolucyjnej 
+## Cechy organizacyjne architektury ewolucyjnej 
 
 Jeśli chodzi o architekturę ewolucyjną, istnieje kilka interesujących cech organizacyjnych, które powinny być brane pod uwagę:
 

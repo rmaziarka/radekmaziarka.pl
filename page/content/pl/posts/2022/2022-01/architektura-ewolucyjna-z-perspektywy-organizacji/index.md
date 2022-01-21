@@ -7,7 +7,9 @@ description: "Budowa organizacji i jej działanie ma bardzo duży wpływ na tech
 category: 'Biznes w IT'
 ---
 
-Ten artykuł jest tłumaczeniem mojego artykułu z [InfoQ](https://www.infoq.com/articles/evolutionary-architecture-organizational/) gdzie pojawił się on w maju 2021. Cały artykuł jest podzielony na sekcje:
+Ten artykuł jest tłumaczeniem mojego wpisu na [InfoQ](https://www.infoq.com/articles/evolutionary-architecture-organizational/), gdzie pojawił się on w maju 2021 roku. Część terminów zostawiłem w obecnym kształcie - trudno jest znaleźć dla nich polskie odpowiedniki.
+
+Cały artykuł jest podzielony na sekcje:
 
 * Architektura ewolucyjna i jej znaczenie
 * Problemy z techniczną perspektywą dla AE
@@ -18,21 +20,22 @@ Ten artykuł jest tłumaczeniem mojego artykułu z [InfoQ](https://www.infoq.com
 
 ## Architektura ewolucyjna i jej znaczenie
 
-Bazując na książce [Building Evolutionary Architecture](https://www.goodreads.com/book/show/35755822-building-evolutionary-architectures) Neala Forda, Rebecci Parsons i Patricka Kua, **architekturę ewolucyjną (AE) można opisać jako architekturę zaprojektowaną tak, aby akceptowała przyrostowe i kierowane zmiany**. Wraz z ewolucją wymagań biznesowych dbamy o to, aby nasze cechy architektoniczne nie uległy erozji. Dlatego w AE duży nacisk kładzie się na [Fitness Functions](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function) - czyli metryki architektoniczne, które pomagają nam ocenić stan naszej architektury.
+Bazując na książce [Building Evolutionary Architecture](https://www.goodreads.com/book/show/35755822-building-evolutionary-architectures) Neala Forda, Rebecci Parsons i Patricka Kua, **architekturę ewolucyjną można opisać jako architekturę zaprojektowaną tak, aby akceptowała przyrostowe i kierowane zmiany**. Wraz z ewolucją wymagań biznesowych dbamy o to, aby nasza architektura nie uległa pogorszeniu. Dlatego w architekturze ewolucyjnej duży nacisk kładzie się na [Fitness Functions](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function) - metryki architektoniczne, które pomagają nam ocenić stan naszej architektury.
 
-AE jest bardzo często postrzegana jako cel końcowy architektury systemowej. Nie możemy oczekiwać, że wszystkie wymagania będą z góry znane. Nasza architektura musi to uwzględniać. Rozwój nowych funkcjonalności powinien być traktowany jako ciągły ruch do przodu, bez stanu końcowego. Stąd powszechne powiedzenie 
+Architektura ewolucyjna jest często postrzegana jako kluczowy element tworzenia produktu. Nie możemy oczekiwać, że wszystkie wymagania będą z góry znane. **Nasza architektura musi uwzględniać tą niewiedzę.** Dostosowywać się do nowych sytuacji. Rozwój nowych funkcjonalności powinien być traktowany jako ciągły ruch do przodu, bez stanu końcowego. Stąd powszechne powiedzenie:
 
-> produkt cyfrowy nigdy nie jest skończony
+> Software is never done.
 
-## Problemy z technicznym postrzeganiem AE
+## Problemy z technicznym postrzeganiem architektury ewolucyjnej
 
 Większość materiałów wokół architektury ewolucyjnej poświęcona jest tematom technicznym. Oprócz Fitness Functions, popularne tematy to mikroserwisy, ciągłe wdrażanie i dostarczanie, ewolucyjne wzorce baz danych, testy automatyczne i wiele innych. Nie ulega wątpliwości, że są to kluczowe elementy dla osiągnięcia tej architektury.
 
 Jednocześnie, bazując na [prawie Conway'a](/2019/02/25/conways-law-jak-struktura-organizacji-wplywa-na-osiagane-rezultaty/), wiemy, że **struktury organizacyjne mogą być wysoce nieproduktywne**. W rezultacie, pożądana architektura może nie zostać dostarczona. W oprogramowaniu zawsze istnieje czynnik ludzki. Zespoły nie stworzą długotrwałych produktów jeśli będą zmuszone do pracy przeciwko sobie.
 
-Architektura ewolucyjna musi opierać się na organizacji - bez właściwej współpracy całej firmy nie możemy zakładać, że wzorce techniczne będą wystarczające do zapewnienia ewolucji systemu.
+**Architektura ewolucyjna musi opierać się na organizacji** - bez właściwej współpracy całej firmy nie możemy zakładać, że wzorce techniczne będą wystarczające do zapewnienia ewolucji systemu.
 
-##Cechy organizacyjne dla architektury ewolucyjnej: 
+## Cechy organizacyjne dla architektury ewolucyjnej 
+
 Jeśli chodzi o architekturę ewolucyjną, istnieje kilka interesujących cech organizacyjnych, które powinny być brane pod uwagę:
 
 ### IT i Biznes jako jeden zespół
@@ -45,19 +48,19 @@ W takim środowisku, architektura bardzo łatwo dryfuje zdala od potrzeb bizneso
 
 [![](EA1.jpg)](EA1.jpg)
 
-Biznes i IT muszą współpracować, aby zrozumieć środowisko biznesowe i odpowiednio dostosować architekturę. Tylko wtedy pętla informacji pomiędzy nowymi potrzebami klienta a tworzonym rozwiązaniem jest wystarczająco krótka, aby ewoluować architekturę we właściwym kierunku.
+**Biznes i IT muszą blisko współpracować, aby rozumieć środowisko biznesowe i odpowiednio dostosowywać architekturę.** Tylko wtedy pętla informacji pomiędzy potrzebami klienta, a tworzonym rozwiązaniem jest wystarczająco krótka, aby ewoluować architekturę we właściwym kierunku.
 
 Zespół realizujący rozwiązanie bezpośrednio wsłuchuje się w potrzeby klienta i proponuje rozwiązanie. Dzięki temu nasza architektura ewoluuje naturalnie wraz z całym biznesem. Nie ma dodatkowej warstwy komunikacji, która spowalnia dostosowanie się do zmian. Gdy architektura nie odpowiada środowisku biznesowemu, jesteśmy w stanie znacznie szybciej ją przemodelować.
 
-Dodatkowo, zespół realizujący rozwiązanie pracuje bliżej klientów. Rozumie ich potrzeby. Na tej podstawie ewolucja systemu staje się bardziej zorientowana na biznes. Nie tworzymy architektury dla samej architektury - tworzymy kręgosłup dla ogólnego celu biznesowego.
+**Dodatkowo, zespół realizujący rozwiązanie pracuje bliżej klientów.** Rozumie ich potrzeby. Na tej podstawie ewolucja systemu staje się bardziej zorientowana na biznes. Nie tworzymy architektury dla samej architektury - tworzymy kręgosłup dla ogólnego celu biznesowego.
 
-Ta idea często przedstawiana jest jako **zespół produktowy**. Jest ona szczegółowo przedstawiona w książce [Empowered](https://www.goodreads.com/book/show/53481975-empowered) Marty'ego Cagana i Chrisa Jonesa. Zespół jest odpowiedzialny za zebranie potrzeb klienta, znalezienie odpowiedniego rozwiązania, wdrożenie go i zebranie informacji zwrotnej. Pętla informacji zwrotnej jest krótka, a my odpowiednio kształtujemy architekturę.
+**Ta idea często przedstawiana jest jako zespół produktowy**. Jest ona szczegółowo przedstawiona w książce [Empowered](https://www.goodreads.com/book/show/53481975-empowered) Marty'ego Cagana i Chrisa Jonesa. Zespół jest odpowiedzialny za zebranie potrzeb klienta, znalezienie odpowiedniego rozwiązania, wdrożenie go i zebranie informacji zwrotnej. Pętla informacji zwrotnej jest krótka, a my odpowiednio kształtujemy architekturę.
 
 ### Cele ewolucyjne
 
 Kiedy nasze organizacje skupiają się na krótkoterminowych celach, łatwo jest stracić z oczu szerszy obraz. Funkcjonalności są tak ważne, że dopychamy kolanem do oporu, aby udało się to dostarczyć. **Deadline jest traktowany tak, jakby nie było dnia po nim - ale zazwyczaj jest.**
 
-W końcu odkrywamy, że mimo posiadania działającego systemu, nie potrafimy go dostosować do nowych potrzeb. **Architektura systemu została zaprojektowana do realizacji celów krótkoterminowych.** Wszystkie ograniczenia są ustawione w takim miejscu, że nie możemy ich przesunąć bez rozerwania całego systemu.
+W końcu odkrywamy, że mimo posiadania działającego systemu, nie potrafimy go dostosować do nowych potrzeb. Architektura systemu została zaprojektowana do realizacji celów krótkoterminowych. Wszystkie ograniczenia są ustawione w takim miejscu, że nie możemy ich przesunąć bez rozerwania całego systemu.
 
 [Gerald Weinberg](https://en.wikipedia.org/wiki/Gerald_Weinberg) napisał w swojej książce [The Secrets of Consulting](https://www.goodreads.com/en/book/show/566213):
 
@@ -71,7 +74,7 @@ Cele krótkoterminowe muszą być wspólne z celami długoterminowymi. Tylko wte
 
 Kiedy koncentrujemy się na szczegółowym zestawie funkcjonalności, nie możemy zapominać, że ostatecznie chcemy prowadzić długoterminowy biznes. A w nim długoterminowy system. **Dlatego obecne prace nie powinny ograniczać szejrzych możliwości architektury systemu.** Kontekst biznesowy i dalekosiężne cele pozwolą nam dobrać właściwą architekturę - nie tylko do obecnych potrzeb, ale również do przyszłych.
 
-Ciekawym podejściem do tego problemu jest użycie **dwuwymiarowej macierzy do oceny decyzji**. Na jednej osi umieszczamy:
+Ciekawym podejściem do tego problemu jest **użycie dwuwymiarowej macierzy do oceny decyzji**. Na jednej osi umieszczamy:
 
 - na jednej osi zysk krótkoterminowy
 - na drugiej osi zysk długoterminowy
@@ -80,7 +83,7 @@ Następnie możemy zmierzyć, jak nasza decyzja wpływa na całą architekturę.
 
 ### Zrozumienie i dostosowanie do domeny biznesowej
 
-Zazwyczaj istnieje wiele grup klientów. Używają oni produktu z różnych powodów i dla różnych celów. Nawet pojedyncza funkcjonalność może być różnie definiowana, w zależności od tego, kogo pytamy. Niektóre wymagania wydają się być sprzeczne z innymi. **Wszystkie potrzeby są wymieszane, a my dostarczamy oprogramowanie zgodnie z naszym rozumieniem.**
+Zazwyczaj istnieje wiele grup klientów. Używają oni produktu z różnych powodów i dla różnych celów. Nawet pojedyncza funkcjonalność może być różnie definiowana, w zależności od tego, kogo pytamy. Niektóre wymagania wydają się być sprzeczne z innymi. **Wszystkie potrzeby są wymieszane, a my dostarczamy oprogramowanie zgodnie z naszym niezrozumieniem.**
 
 To zamieszanie wpływa na ogólną architekturę. Potrzeby różnych klientów nakładają się na siebie, podobnie jak nasze rozwiązania. Próbujemy rozwijać system w jednej części, ale okazuje się, że jest on złączony z innymi częściami. Złożoność i zależności utrudniają implementację nowych funkcjonalności.
 Kończymy z monolityczną, [wielką kulą błota](https://en.wikipedia.org/wiki/Big_ball_of_mud) - co jest oczywistym zaprzeczeniem architektury ewolucyjnej.
@@ -103,9 +106,9 @@ Mamy tendencję do podobnego traktowania problemów. Pracujemy w danym kontekśc
 
 [Mapy Wardley'a](https://learnwardleymapping.com/) uczą nas, że różne subdomeny mają różny poziom dojrzałości i inaczej ewoluują. Możemy wykorzystać ten fakt, aby poradzić sobie ze zmianami w naszej ewolucyjnej architekturze.
 
-**Bardziej oczywiste obszary (np. Zamówienia) są rozpoznawane jako stabilne przez Twoich klientów.** Koncentrujemy się na tej stabilności - awarie nie są tolerowane. Twoja implementacja musi to odzwierciedlać - profesjonalne wzorce architektoniczne są niezbędne do obsługi złożonych scenariuszy biznesowych. Rygorystyczne testowanie jest postrzegane jako konieczność. Architektura może być bardziej stabilna i ograniczona.
+**W bardziej stabilnych obszarach (np. Zamówienia) klienci nie będą akceptować żadnego błędu.** Koncentrujemy się więc na tej stabilności dostarczając zrozumiałe i pewne rozwiązanie. Twoja implementacja musi to odzwierciedlać - profesjonalne wzorce architektoniczne są niezbędne do obsługi złożonych scenariuszy biznesowych. Rygorystyczne testowanie jest postrzegane jako konieczność. Architektura może być bardziej zrównoważona i ograniczona.
 
-Z drugiej strony, **bardziej dynamiczne obszary (np. Marketing) wymagają bardziej innowacyjnego i elastycznego sposobu radzenia sobie z problemami.** Testujemy nasze założenia, aby otrzymać informację zwrotną tak szybko, jak to możliwe. Zmiany wprowadzane są codziennie i łamią utarte schematy. Dla tych subdomen bardziej wyrafinowane wzorce mogą być obciążeniem. Architektura powinna być tak elastyczna, jak to tylko możliwe, aby dostosować się do codziennych zmian.
+Z drugiej strony, **dynamiczne obszary (np. Marketing) wymagają bardziej innowacyjnego i elastycznego sposobu radzenia sobie z problemami.** Testujemy nasze założenia, aby otrzymać informację zwrotną tak szybko, jak to możliwe. Zmiany wprowadzane są codziennie i łamią utarte schematy. Dla tych subdomen bardziej wyrafinowane wzorce mogą być obciążeniem. Architektura powinna być tak elastyczna, jak to tylko możliwe, aby dostosować się do codziennych zmian.
 
 Mapy Wardley'a to tylko jedna z technik pozwalających myśleć o ewolucji subdomen w inny sposób. Inne ciekawe techniki to [Core Domain Patterns](https://medium.com/nick-tune-tech-strategy-blog/core-domain-patterns-941f89446af5), [Cynefin Framework](https://en.wikipedia.org/wiki/Cynefin_framework), czy [Diffusion of innovations](https://en.wikipedia.org/wiki/Diffusion_of_innovations).
 
@@ -113,13 +116,13 @@ Mapy Wardley'a to tylko jedna z technik pozwalających myśleć o ewolucji subdo
 
 Ewolucja to ciągła zmiana. W naturalny sposób zmieniamy nasze metody pracy, aby dostosować się do nowych wymagań biznesowych. Często zdarza się, że potrzebujemy informacji od zewnętrznych zespołów, aby wykonywać naszą pracę. Podobnie, pracownicy innych zespołów używają naszych funkcjonalności do uruchamiania swojego kodu.
 
-**Zaczyna się to powoli, ale z czasem okazuje się, że nie znamy naszych zależności - zarówno my->świat zewnętrzny jak i świat zewnętrzny->my.** Polegamy na niewypowiedzianych umowach. Zmiana w naszej funkcjonalności łamie czyjś kod. Taka sytuacja generuje problemy z synchronizacją i opóźnienia wynikające z harmonogramu zewnętrznego zespołu. Powstrzymuje nas to przed wprowadzaniem zmian, prowadzi do nieporozumień i niepokoju.
+**Zaczyna się to powoli, ale z czasem okazuje się, że nie znamy naszych zależności - zarówno my->świat jak i świat->my.** Polegamy na niewypowiedzianych umowach. Zmiana w naszym zespole rozwala funkcje innego zespołu. Taka sytuacja generuje problemy z synchronizacją i opóźnienia wynikające z harmonogramu zewnętrznego zespołu. Powstrzymuje nas to przed wprowadzaniem zmian, prowadzi do nieporozumień i niepokoju.
 
-**Architektura jest odzwierciedleniem tego problemu. Zamiast być modularną i oddzielną strukturą, staje się pajęczyną połączeń** w całym systemie i zaczyna polegać na głębokiej wiedzy o funkcjonalności każdego zespołu. Ostatecznie, oprogramowanie nie może ewoluować w pożądany sposób.
+Architektura jest odzwierciedleniem tego problemu. **Zamiast być modularną i dobrze odseparowaną strukturą, staje się pajęczyną połączeń w całym systemie** i zaczyna polegać na głębokiej wiedzy o funkcjonalności każdego zespołu. Ostatecznie, oprogramowanie nie może ewoluować w pożądany sposób.
 
 [![](EA5.jpg)](EA5.jpg)
 
-W dynamicznym środowisku, współpraca pomiędzy zespołami musi osiągnąć znacznie wyższy poziom, aby umożliwić płynne działanie całego rozwiązania. Tylko wtedy architektura może podążać za dynamicznym środowiskiem i akceptować zmiany bez naruszania ustalonego porządku.
+W dynamicznym środowisku współpraca pomiędzy zespołami musi osiągnąć znacznie wyższy poziom. Tylko wtedy architektura może podążać za dynamicznym środowiskiem i akceptować zmiany bez naruszania ustalonego porządku.
 
 **Oczekiwania wobec pozostałych zespołów powinny być jasne i zaakceptowane.** Powinniśmy być bardzo rozważni w informacjach, które udostępniamy jako nasz kontrakt. Nie możemy obiecywać kontraktu, który wkrótce złamiemy. To musi być świadoma decyzja, co udostępnić innym zespołom. Jednocześnie, zespoły muszą rygorystycznie udowodnić swoją zdolność do dostarczenia ustalonej umowy. Wprowadzanie zmian powinno być autoryzowane i obsługiwane przez wszystkie zespoły.
 

@@ -2,7 +2,7 @@
 title: "Modelowanie w Cosmos DB - potrzeby biznesowe"
 date: Mon, 24 Jan 2022 09:40:09 +0000
 url: '/2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe'
-images: ['2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe/neural-system.jpg']
+images: ['2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe/cosmos-modeling.jpg']
 description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - zebranie potrzeb biznesowych"
 category: 'Wzorce projektowe'
 ---

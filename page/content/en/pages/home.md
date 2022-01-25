@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-url: '/home/'
+url: '/en/'
 date: Sun, 24 Jun 2018 15:19:57 +0000
 draft: false
 ---

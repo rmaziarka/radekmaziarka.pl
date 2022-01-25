@@ -25,6 +25,9 @@ paginatePath = "page"
     description = "Radek Maziarka - personal blog"
     contentDir = "content/en"
     weight = 2
+    
+  [languages.pl.permalinks]
+    post = "blog/:slug"
 
 [[languages.pl.menu.main]]
   identifier = "blog"

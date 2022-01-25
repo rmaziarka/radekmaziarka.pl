@@ -8,6 +8,10 @@ images: ['images/2019/07/prelekcje.jpg']
 
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
+## 2022
+* 2021-04-07 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [4Developers](https://4developers.org.pl/4dev-2022/)
+* 2021-03-19 - "Jak tworzyć produkt, a nie zbiór funkcjonalności" - [Boiling Frogs](https://2022.boilingfrogs.pl/?schedule=jak-tworzyc-produkt-a-nie-zbior-funkcjonalnosci)
+
 ## 2021
 * 2021-03-11 - "Struktura organizacji a wytwarzane oprogramowanie – prawo Conway’a w praktyce" - [Boiling Frogs](https://2021.boilingfrogs.pl/schedule/struktura-organizacji-a-wytwarzane-oprogramowanie-prawo-conwaya-w-praktyce/) - [nagranie](https://www.youtube.com/watch?v=mpcdIs8L8iI)
 

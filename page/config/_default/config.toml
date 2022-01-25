@@ -32,7 +32,7 @@ paginatePath = "page"
 [[languages.pl.menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "/"
+  url = "/blog"
   weight = 10
   
 [[languages.pl.menu.main]]

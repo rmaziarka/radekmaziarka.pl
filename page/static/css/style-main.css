@@ -18303,7 +18303,7 @@ $grid-breakpoints: (
 }
 
 .tm-sc-service .service-content.equal-size .service-description{
-  height: 75px;
+  min-height: 75px;
 }
 
 .tm-sc-service.service-item-current-style2{

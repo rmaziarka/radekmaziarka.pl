@@ -5,6 +5,7 @@ url: '/2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe'
 images: ['2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe/cosmos-modeling.jpg']
 description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - zebranie potrzeb biznesowych"
 category: 'Wzorce projektowe'
+draft: true
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB z rozmowami z biznesem i analizą ich potrzeb. Rozpoczynamy od początku, czyli od rezerwacji.

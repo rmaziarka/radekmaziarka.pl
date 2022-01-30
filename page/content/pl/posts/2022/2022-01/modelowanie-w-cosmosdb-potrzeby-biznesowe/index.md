@@ -67,10 +67,10 @@ Wzorowałem się na aktualnej skali i możliwościach Wrocławskiego Roweru Miej
 Na potrzeby cyklu zakładam więc, że:
 
  - Wrocławski Rower Miejski osiągnął sukces i działa w 50 miastach Polski 😀
- - Miasta mają od 10 do 200 stacji
- - Miasta mają od 100 do 2000 rowerów
- - Miasta mają od 500 do 10000 wypożyczeń dziennie
- - Najmniejsze miasto ma odpowiednio 10/100/500, największe 200/2000/10000, a reszta liniowo
+ - Miasta mają od 10 do 400 stacji
+ - Miasta mają od 100 do 4000 rowerów
+ - Miasta mają od 1000 do 40000 wypożyczeń dziennie
+ - Najmniejsze miasto ma odpowiednio 10/100/1000, największe 400/4000/40000, a reszta liniowo
 
 To pozwoli doświadczenie typowych problemów Cosmos DB - związanych ze zbyt dużymi partycjami, hot partycjami, albo zapytaniami pomiędzy partycjami (jeśli nie znasz tych terminów to nie martw się - wyjaśnię dokładniej, kiedy dany problem wystąpi).
 

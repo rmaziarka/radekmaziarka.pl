@@ -1,6 +1,6 @@
 ---
 title: "Modelowanie w Cosmos DB - rezerwacje"
-date: Mon, 24 Jan 2022 09:40:09 +0000
+date: Sun, 30 Jan 2022 09:40:09 +0000
 url: '/2022/01/30/modelowanie-w-cosmos-db-rezerwacje'
 images: ['2022/01/30/modelowanie-w-cosmos-db-rezerwacje/cosmos-modeling.jpg']
 description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - analiza potrzeb w obszarze rezerwacji"

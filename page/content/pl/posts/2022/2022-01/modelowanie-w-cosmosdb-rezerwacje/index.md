@@ -84,7 +84,7 @@ Biznes kontynuuje.
 
 - "I to chyba wszystko w rezerwacji..."
 
-## Domain Storytelling post scriptum
+## Domain Storytelling postscriptum 
 
 ### Ominięcie kroków
 

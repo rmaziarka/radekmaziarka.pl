@@ -79,6 +79,7 @@ Pytamy się dalej, jak wygląda sprawa z anulowaniem rezerwacji.
 Biznes kontynuuje.
 
 - "Jeśli zaś minie czas rezerwacji, to system sam anuluje rezerwację. Wtedy również rower wraca do puli rezerwacji. Dodatkowo trzeba również jakoś powiadomić klienta, że anulowaliśmy mu rezerwację."
+
 [![](system-cancels.jpg)](system-cancels.jpg)
 
 - "I to chyba wszystko w rezerwacji..."

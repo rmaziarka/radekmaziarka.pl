@@ -1,9 +1,9 @@
 ---
-title: "Modelowanie w Cosmos DB - potrzeby biznesowe"
+title: "Modelowanie w Cosmos DB - rezerwacje"
 date: Mon, 24 Jan 2022 09:40:09 +0000
-url: '/2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe'
-images: ['2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe/cosmos-modeling.jpg']
-description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - zebranie potrzeb biznesowych"
+url: '/2022/01/30/modelowanie-w-cosmos-db-rezerwacje'
+images: ['2022/01/30/modelowanie-w-cosmos-db-rezerwacje/cosmos-modeling.jpg']
+description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - analiza potrzeb w obszarze rezerwacji"
 category: 'Wzorce projektowe'
 draft: true
 ---
@@ -36,7 +36,7 @@ Pytamy się biznesu o rezerwację roweru, który z 2 scenariuszy jest prostszy. 
 - "A co z anulowaniem?"
 - "A co z nim? 🤔"
 - "Skąd będziemy wiedzieć kiedy anulować rezerwację?"
-- "No powinien się jakiś licznik włączyć, czy cuś, aby po kwadransie system wiedział, żeby tą rezerwacje anulować."
+- "No powinien się jakiś licznik włączyć, czy coś, aby po kwadransie system wiedział, żeby tą rezerwacje anulować."
 
 Składając tą konwersację w całość uzyskujemy następujący scenariusz #DomainStorytelling:
 
@@ -67,14 +67,39 @@ Biznes po pokazaniu scenariusza mówi:
 - "Tutaj mogą wyjść problemy - jeśli stacja ma wiele rowerów, a klient chwilę czekał, to jest duża szansa, że ktoś już ten rower zarezerwował. I klient dostanie błąd na twarz."
 - "Hmm rzeczywiście. A na pewno nie chcemy mu pokazywać, że rowera nie ma, skoro jest 10 innych."
 
-## Anulowanie przez klienta
+## Anulowanie rezerwacji
 
-## Anulowanie przez system
+Pytamy się dalej, jak wygląda sprawa z anulowaniem rezerwacji.
+
+- "Tutaj sprawa jest prosta. Jeśli klient chce, to może w ciągu kwadransa anulować rezerwację. Wtedy rower wraca do puli dostępnych rowerów."
+- "I oczywiście musimy wyłączyć licznik rezerwacji."
+- "To się rozumie samo przez się 🙄"
+
+[![](client-cancels.jpg)](client-cancels.jpg)
+
+Biznes kontynuuje.
+
+- "Jeśli zaś minie czas rezerwacji, to system sam anuluje rezerwację. Wtedy również rower wraca do puli rezerwacji. Dodatkowo trzeba również jakoś powiadomić klienta, że anulowaliśmy mu rezerwację."
+[![](system-cancels.jpg)](system-cancels.jpg)
+
+- "I to chyba wszystko w rezerwacji..."
 
 ## Domain Storytelling post scriptum
+
+### Ominięcie kroków
 
 Scenariusz pierwszy nie posiada kroku z tworzeniem rezerwacji po stronie systemu, ale drugi już ją posiada. Czy nie powinniśmy dodać do pierwszego scenariusza tego kroku?
 
 Możemy, ale nie musimy. **Domain Storytelling skupia się na opowieści i zbieraniu scenariuszy.** Pierwszy scenariusz jest bardziej trywialny i tam to rozróżnienie nie wnosi wiele do rozmowy. W drugim przypadku to rozróżnienie jest kluczowe. Inaczej wynikałoby, że dokonujemy rezerwacji na model roweru, a tak nie jest. 
 
-Tutaj jestem otwarty na sugestie bo #tozależy 😉
+Tutaj jestem otwarty na sugestie z waszej strony bo #tozależy
+
+### Kwestie  (wcale nie)oczywiste 
+
+Weźmy na tapet te dwa pytania do biznesu:
+- "Czyli klient może wybrać sobie konkretny egzemplarz roweru ze stacji?"
+- "I oczywiście musimy wyłączyć licznik rezerwacji."
+
+Drugie z nich potwierdziło to co biznes uznawał za oczywiste. Jednak pierwsze z nich sprawiło, że odkryliśmy dość istotną zmianę w procesie biznesowym. Z perspektywy technicznej dla nas pewnie nie ma znaczenia, który scenariusz zrealizujemy. **Ale dla biznesu oczywiste było tym, co dla nas wcale oczywiste nie było.**
+
+Dlatego podczas dyskusji z biznesem i tworzenia scenariuszy warto szczególną uwagę zwrócić na takie oczywistości. Pytać o kolejne przypadki by znajdować luki w naszym myśleniu. Lepiej teraz niż na prodzie 😉

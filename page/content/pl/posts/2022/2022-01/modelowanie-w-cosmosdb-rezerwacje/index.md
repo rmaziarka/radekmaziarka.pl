@@ -9,7 +9,7 @@ category: 'Wzorce projektowe'
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB z rozmowami z biznesem i analizą ich potrzeb. Rozpoczynamy od początku, czyli od rezerwacji.
 
-# Mapa miasta
+## Mapa miasta
 
 Biznes przychodzi do nas ze szkicem, jak to wygląda u nich w głowie. Tutaj już pojawiają się dodatkowe trudności.
 
@@ -27,7 +27,7 @@ Czyli z jednego zdania "Klient może rezerwować rower" mamy kilka złożonych s
 
 Zacznijmy to rozkładać na czynniki pierwsze.
 
-# Rezerwacja roweru wolnostojącego
+## Rezerwacja roweru wolnostojącego
 
 Pytamy się biznesu o rezerwację roweru, który z 2 scenariuszy jest prostszy. Biznes odpowiada, że rezerwacja roweru wolnostojącego:
 
@@ -43,7 +43,7 @@ Składając tą konwersację w całość uzyskujemy następujący scenariusz #Do
 
 Pytamy się biznesu czy on tak to widzi - odpowiada, że jest git. Więc idziemy dalej.
 
-# Rezerwacja roweru ze stacji
+## Rezerwacja roweru ze stacji
 
 Drążymy dalej temat rezerwacji.
 

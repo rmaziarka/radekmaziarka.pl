@@ -40,7 +40,7 @@ Biznes nieco zdziwiony dodaje...
 
 ## Domain Storytelling postscriptum 
 
-### Budowanie przez analogię i różnice
+### Budowanie przez analogie i różnice
 
 Dobrze zadanie pytanie potrafi być na wagę złota.
 

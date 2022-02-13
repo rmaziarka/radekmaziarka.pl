@@ -43,11 +43,13 @@ Mapę można wykorzystać również do analizy jakie osoby mają być przypisane
 
 Firma z branży rolniczej zastanawiała się jakie rozwiązanie informatyczne wybrać do zarządzania ich procesami transportu, magazynowania, kontroli jakości, przetwarzania produktów oraz sprzedaży. Była duża chęć do pisania własnego oprogramowania od zera, by móc odwzorować wszystkie obszary działania firmy.
 
+[![](/images/2020/06/wardley-map-production.png)](/images/2020/06/wardley-map-production.png)
+
 Po wykonaniu mapy Wardley’a okazało się, że jedynie 2 obszary (kontrola jakości i przetwarzanie produktów) znajdują się w części rynków kształtujących się. Rozwiązania na rynku nie są dopasowane do potrzeb i ich wdrożenie zamknęłoby możliwość adaptacji do potrzeb tych działów.
 
 Z drugiej strony pozostałe obszary firmy są oparte na standardach rynkowych i wdrażanie nowych rozwiązań byłoby kopiowaniem istniejących rozwiązań z systemów firm SAP, Comarch czy Unit4. Koszty duplikacji tych funkcji byłyby ogromne a i tak by nie dorównywały do systemów firm trzecich.
 
-Podjęta więc została decyzja by iść 2 torami – rozwiązanie specjalistyczne dla obszarów nowych oraz standardowe dla obszarów znanych. Pozwoliło to wykorzystać gotowe komponenty i dostarczyć funkcjonalności szybciej. Jednocześnie system był w stanie dostosować się do zmieniających się potrzeb działów.
+Podjęta więc została decyzja by iść 2 torami – rozwiązanie specjalistyczne dla obszarów nowych oraz standardowe dla obszarów znanych. Pozwoliłoby to wykorzystać gotowe komponenty i dostarczyć funkcjonalności szybciej. Jednocześnie system byłby w stanie dostosować się do zmieniających się potrzeb działów.
 
 ## Dlaczego warto?
 

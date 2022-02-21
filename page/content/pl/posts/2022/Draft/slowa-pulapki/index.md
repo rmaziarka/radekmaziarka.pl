@@ -23,8 +23,8 @@ Załóżmy, że mamy taką sytuację:
 
 Słowo "natychmiast" jest tutaj słowem pułapką. **Dla różnych grup osób słowo "natychmiast" będzie miało inne znaczenie**:
 
-- Osoby techniczne - spójność na poziomie systemu, tak aby nie było rozróżnienia pomiędzy ścieżką write / read.
-- Menadżer nieruchomości - aby nie musiał czekać całego dnia by zobaczyć zmiany. Wystarczy, że dane będą widoczne, gdy wróci z z kawą z kuchni.
+- Osoby techniczne - spójność na poziomie systemu, tak aby nie było niespójności pomiędzy bazami.
+- Menadżer nieruchomości - aby nie musiał czekać całego dnia by zobaczyć zmiany. Wystarczy, że dane będą widoczne, gdy wróci z kawą z kuchni.
 
 ## Słowa pułapki
 

@@ -11,6 +11,7 @@ promoText: 'Bądź liderem za którym podążają inni.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
+promo: true
 knowledgeToObtain: [
     'Główne zasady dotyczące dowodzenia pracą zespołu',
     'Umiejętność prawidłowego powierzania zadań zespołowi',

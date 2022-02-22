@@ -11,9 +11,10 @@ promoText: 'Poznaj wzorce architektoniczne ułatwiające tworzenie systemów.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
+promo: true
 knowledgeToObtain: [
     'Zdobędziesz wiedzę na temat wzorców architektonicznych',
-    'Zrozumieniesz zyski i koszta wdrażania każdego z wzorców',
+    'Zrozumiesz zyski i koszta wdrażania każdego z wzorców',
     'Dobierzesz właściwy wzorzec do napotkanego problemu',
     'Zaimplementujesz wybrany wzorzec wraz z odpowiednią dokumentacją i testami',
 ]

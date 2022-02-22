@@ -10,6 +10,7 @@ promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
+promo: true
 knowledgeToObtain: [
     'Zaprojektujesz model działania swojego systemu',
     'Określisz moduły / obszary do niezależnej implementacji',

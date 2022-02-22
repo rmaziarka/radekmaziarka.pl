@@ -11,6 +11,7 @@ promoText: 'Wprowadzenie do mikroserwisów z wykorzystaniem DDD.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '30% teoria / 70% praktyka'
+promo: true
 knowledgeToObtain: [
     'Uzyskasz wiedzę na temat architektury mikroserwisów',
     'Nauczysz się liczyć zyski i koszta wdrażania tej architektury',

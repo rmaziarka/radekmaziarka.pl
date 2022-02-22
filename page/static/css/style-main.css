@@ -375,6 +375,11 @@ ol, ul {
   padding: 0;
   margin-top: -15px;}
 
+.accordion-body ol, .accordion-body ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 ul ul, ol ol{
   margin-top: 0px;
 }

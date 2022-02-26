@@ -29,6 +29,9 @@ Ta technika pozwala nam oddzielić pracę nad rozwiązaniem od pracy nad wymagan
 
 Zespół programistyczny narzekał na niejasne wymagania dotyczące tworzonej funkcjonalności. Programistyczny kod następnie miał biznesowe dziury, które później powodowały problemy w systemie. Jednocześnie zespół biznesowy zbywał problemy programistów, mówiąc, że zbyt głęboko wchodzili w techniczne szczegóły.
 
+
+[![](/images/2020/02/example-mapping-example.jpg)](/images/2020/02/example-mapping-example.jpg)
+
 Example Mapping pozwolił porozumieć się na poziomie wspólnych wartości, gdzie rozpoczęliśmy od podstawowych przypadków stopniowo przechodząc do tych bardziej złożonych. Duża część z trudniejszych była od razu odrzucana przez osoby biznesowe. Niektóre z nich jednak były na tyle krytyczne, że brak ich obsługi mógłby wyłożyć cały system.
 
 ## Dlaczego warto?

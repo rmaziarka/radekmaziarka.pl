@@ -31,6 +31,8 @@ Rezultatem jest konkretny kierunek, w którą stronę chcemy się posuwać, oraz
 
 Firma sprzedająca produkty elektroniczne poszukiwała najlepszego sposobu na wejście na rynek portugalski. Potrzebowała ustalić jakie metody pozwolą jej wejść na ten rynek i która z nich będzie najbardziej efektywna. Niestety ilość możliwych opcji ją przytłaczała i utrudniała podjęcie konstruktywnej decyzji.
 
+[![](/images/2020/02/impact-mapping-example.jpg)](/images/2020/02/impact-mapping-example.jpg)
+
 Warsztat Impact Mappingu pozwolił tej organizacji podjąć taką decyzję. W krótkim czasie udało się zdefiniować mierzalny cel, który był trudny, ale możliwy do zrealizowania dla tej firmy. Następnie opisano różne sposoby na dojście do tego celu. Grupa dokonała szybkiej analizy możliwości i wybrała najlepsze, aby móc wejść z impetem na docelowy rynek. W ramach warsztatu wspólnie osiągano kolejne etapy, przez co samo rozwiązanie było wspólne dla wszystkich zebranych uczestników.
 
 Kilka zdjęć z innego warsztatu możecie znaleźć na [moim Twitterze](https://twitter.com/RadekMaziarka/status/1165249505345884161). Są one z sesji zrealizowanej dla jednego z polskich Software House'ów.

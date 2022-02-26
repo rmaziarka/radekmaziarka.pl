@@ -1,5 +1,7 @@
+{{ $numberOfShownTestimonials := .Get "numberOfShownTestimonials" }}
+
 <div class="tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon">
-    <div class="owl-carousel owl-theme tm-owl-carousel-2col owl-loaded owl-drag" data-nav="true" data-dots="true"
+    <div class="owl-carousel owl-theme tm-owl-carousel-{{$numberOfShownTestimonials}}col owl-loaded owl-drag" data-nav="true" data-dots="true"
         data-autoplay="false"  data-margin="30"
         data-stagepadding="0">
         {{ range $.Site.Data.testimonials}}

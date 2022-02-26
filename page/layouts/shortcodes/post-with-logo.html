@@ -1,0 +1,24 @@
+﻿{{ $pagePath := .Get "pagePath" }}
+{{ $page := .Site.GetPage $pagePath }}
+
+{{ $featured_image := "" }}
+{{if $page.Params.images}}
+{{ $featured_image = index $page.Params.images 0  }}
+{{end}}
+
+<article class="post clearfix mb-30 pb-30">
+    <div class="entry-header">
+        <div class="post-thumb thumb">
+            <a href="{{$page.RelPermalink}}">
+                <img src="/{{ $featured_image }}" alt="image from {{ $page.Title }}" class="img-responsive img-fullwidth">
+            </a>
+        </div>
+    </div>
+    <div class="entry-content border-1px p-20 pr-10">
+        <h4 class="entry-title"><a href="{{$page.RelPermalink}}">{{ $page.Title }}</a></h4>
+
+        <a href="{{$page.RelPermalink}}" class="btn btn-theme-colored1 btn-view-details">{{ i18n
+            "readMore" }} ➞</a>
+        <div class="clearfix"></div>
+    </div>
+</article>

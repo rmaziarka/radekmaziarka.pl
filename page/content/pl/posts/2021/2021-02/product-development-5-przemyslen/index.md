@@ -3,7 +3,7 @@ title: 'Product development - 5 przemyśleń'
 url: '/2021/02/07/product-development-5-przemyslen/'
 date: Sun, 07 Feb 2021 14:40:09 +0000
 images: ['2021/02/07/product-development-5-przemyslen/product-development.jfif']
-description: ''
+description: '5 porad w jaki sposób zmienić swoje podejście programistyczne na bardziej produktowe'
 category: 'Product development'
 tags: []
 ---

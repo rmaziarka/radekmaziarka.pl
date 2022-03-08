@@ -1,6 +1,6 @@
 ---
 title: "Jak modernizować legacy - krok po kroku"
-date: 2022-01-27T09:59:30+01:00
+date: 2022-03-06T09:59:30+01:00
 draft: true
 ---
 

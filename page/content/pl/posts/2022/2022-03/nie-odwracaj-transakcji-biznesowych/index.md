@@ -14,7 +14,7 @@ Kluczowe procesy biznesowe rzadko kiedy są proste. Np. dla procesu zakupowego w
 - przeprowadzamy płatność
 - generujemy dokument sprzedaży
 
-Zwykle wtedy dzielimy taki proces na mniejsze części. Następnie w systemie informatycznym realizujemy je jako osobne kroki.
+W takich sytuacjach dzielimy nasz proces na mniejsze części. Następnie w systemie informatycznym realizujemy je jako osobne kroki.
 
 Jednak zawsze może nastąpić błąd (zarówno biznesowy, jak i techniczny). W takim razie, z punktu widzenia konkretnego procesu, trzeba umieć ten błąd obsłużyć. Nie chcemy skończyć z rozpoczętym procesem, który nie został zakończony.
 

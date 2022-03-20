@@ -82,11 +82,11 @@ Można się zastanowić - dlaczego firmy tak robią? Czemu nie dbają, aby wszys
 
 [![](consistency.jpg)](consistency.jpg)
 
-Biorąc pod uwagę to, co powyżej, musimy inaczej podejść do wdrażania procesu biznesowego w naszym kodzie. Trzeba inaczej zaplanować kształt procesu, aby brał pod uwagę możliwe problemy.
+Biorąc pod uwagę to, co powyżej, musimy inaczej podejść do obsługi procesu biznesowego w naszym kodzie. Trzeba inaczej zaplanować kształt procesu. Nie możemy polegać już tylko na zawracaniu całości. Należy biznesowo przemyśleć wszystkie możliwości i wyjść z najlepszą propozycją.
 
-Możemy sobie w tym momencie zadać następujące pytania:
+**Możemy sobie w tym momencie zadać następujące pytania:**
 
-1. Jaka jest szansa na niepowodzenie procesu?
+1. Jaka jest szansa na niepowodzenie procesu? W których miejscach?
 2. Jakie problemy możemy zaakceptować?
 3. Czy możemy inaczej ustawić proces biznesowy?
 4. Czy możemy zrealizować dodatkowe akcje?

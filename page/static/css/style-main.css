@@ -2592,6 +2592,8 @@ header#header .nav-side-icon-list {
 
 #top-primary-nav.menuzord,
 #top-primary-nav-clone.menuzord {
+  width: 106%;
+  margin-left: -3%;
   padding: 0;
   z-index: 111; }
 
@@ -2618,6 +2620,14 @@ header#header .nav-side-icon-list {
       #top-primary-nav-clone .menuzord-menu > li > a {
         padding-left: 10px;
         padding-right: 10px; } }
+
+
+@media (max-width: 1199.98px) {
+  #top-primary-nav .menuzord-menu > li,
+  #top-primary-nav-clone .menuzord-menu > li {
+    width: 98%;
+  }
+}
 
 #top-primary-nav .menuzord-menu ul.dropdown,
 #top-primary-nav-clone .menuzord-menu ul.dropdown {

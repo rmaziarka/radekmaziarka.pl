@@ -33,4 +33,4 @@ jobs:
             azureSubscription: ${{ parameters.azureSubscription }}
             scriptLocation: inlineScript
             inlineScript: |
-              az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name ${{ parameters.storageAccountName }}
+              az storage blob upload-batch --destination \$web --source $(Build.SourcesDirectory)/bin --account-name ${{ parameters.storageAccountName }} --overwrite

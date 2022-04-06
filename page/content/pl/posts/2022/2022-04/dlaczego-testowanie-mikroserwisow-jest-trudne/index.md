@@ -23,7 +23,13 @@ Jak tworzymy większy serwis informatyczny to naturalnie dzielimy go na mniejsze
 
 Pierwsze rozwiązanie jest stosowane tylko w ograniczonym zakresie. Przetestowanie wszystkich przypadków dla całego rozwiązania jest w większym systemie niemożliwe.
 
-Drugie rozwiązanie jest o wiele częściej spotykane. Z racji, że mamy mniejszy mikroserwis to możemy stworzyć automatyczny test dla danego scenariusza biznesowego. Następnie uruchamiamy ten test przed każdym wdrożeniu. Gdy test przejdzie to znaczy, że jesteśmy gotowi do wdrożenia.
+Drugie rozwiązanie jest o wiele częściej spotykane. Polega ono na tym, że:
+
+- Nasz proces biznesowy dzieli się na mniejsze części, obsługiwane przez pojedyncze mikroserwisy.
+- Mniejsze części procesu biznesowego stają się dla nas przypadkami testowymi.
+- Dla tych przypadków testowych piszemy testy automatyczne dla danego mikroserwisu (jednostkowe / integracyjne / komponentowe / inne)
+- Takie testy uruchamiamy przed każdym wdrożeniu. 
+- Gdy test przejdzie to znaczy, że jesteśmy gotowi do wdrożenia.
 
 **Praca w drugim podejściu zakłada, że działamy na zasadzie puzzli. Nasze testy wzajemnie się zazębiają.** Wyjście mikroserwisu A jest następnie wejściem do mikroserwisu B. Testowanie poszczególnych części daje nam pewność, że całość działa.
 
@@ -69,9 +75,7 @@ Jeśli nie to w teście:
 
 **78 przypadków.** To wszystko biorąc pod uwagę, że nie bierzemy pod uwagę duplikatów wiadomości. Wtedy w ogóle "sky is the limit" 🤣
 
-Oczywiście, duża część przypadków będzie nierozróżnialna dla naszego mikroserwisu. Pytanie które musicie sobie zadać:
-
-> Jeśli 78-ty przypadek rozwali nam mikroserwis na produkcji to czy nasz biznes będzie obchodziło, że przetestowaliśmy pozostałe 77?
+Oczywiście, duża część przypadków będzie nierozróżnialna dla naszego mikroserwisu. Pytanie które musicie sobie zadać: **Jeśli 78-ty przypadek rozwali nam mikroserwis na produkcji to czy nasz biznes będzie obchodziło, że przetestowaliśmy pozostałe 77?**
 
 Pozostawiam wam odpowiedź na to pytanie.
 
@@ -79,9 +83,9 @@ Pozostawiam wam odpowiedź na to pytanie.
 
 > Mikroserwis zawsze dla {W1, W2, W3} zwróci R1
 
-Powyższe oznacza, że nasz mikroserwis zachowuje się deterministycznie. Na podstawie wejścia {W1, W2, W3}  otrzymujemy rezultat R1.
+Powyższe oznacza, że nasz mikroserwis jest linią produkcyjną. Informacje wejściowe są przetwarzane w ten sam sposób i wypychane dalej. Nie ma żadnej zmiany sposobu przetwarzania.
 
-Jednak nasze serwisy rzadko kiedy są deterministyczne. A to dlatego, że **zwykle tworzymy mikroserwisy stanowe - posiadające w sobie własne informacje**. To sprawia, że mikroserwis przetwarzając wiadomości, bazuje również na własnym stanie.
+Jednak nasze serwisy rzadko kiedy tak pracują. A to dlatego, że **obsługa wiadomości wejściowych nie zależy tylko od wiadomośći wejściowych**. Zwykle tworzymy mikroserwisy stanowe - gromadzące swój stan w czasie pracy.
 
 Wobec czego funkcja f ({W1, W2, W3}) zamienia się w:
 
@@ -127,7 +131,7 @@ Z prostego testu nagle urodził nam się całkiem skomplikowane zadanie. Oczywi�
 
 Drugie podejście jest droższe i bardziej czasochłonne. Pierwsze będzie nas (błędnie) zapewniać, że wszystko mamy pod kontrolą. A później wdrożenie na proda i system w płomieniach. Choose your poison 🍶
 
-## Co robić, jak żyć?
+## Jak testować mikroserwisy na poważnie?
 
 [![](co-robic-jak-zyc.jpg)](co-robic-jak-zyc.jpg)
 
@@ -158,13 +162,18 @@ Oraz bardziej defensywne podejście świata zewnętrznego:
 
 ### Praca mikroserwisu
 
-XYZ
+Zmniejszanie ilości stanu od którego zależy proces:
+
+- Usuwanie zależności
+- Spłaszczanie informacji - DDD i modelowanie
+- 
+
 
 ### Akceptowane wyjścia
 
 XYZ
 
-## Myślenie obietnicami
+## Myślenie przypadkami brzegowymi
 
 Myśląc takim stylem można się czasem poczuć jak Jocker z Dark Knight:
 

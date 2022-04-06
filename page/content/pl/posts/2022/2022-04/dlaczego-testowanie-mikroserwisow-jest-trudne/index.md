@@ -5,7 +5,6 @@ url: '/2022/04/02/dlaczego-testowanie-mikroserwisow-jest-trudne'
 images: ['2022/04/02/dlaczego-testowanie-mikroserwisow-jest-trudne/main.jpg']
 description: ""
 category: 'Wzorce projektowe'
-draft: true
 ---
 
 Tłem dla tego artykułu będzie cykl tweetów Orosza:

@@ -166,7 +166,11 @@ Zmniejszanie ilości stanu od którego zależy proces:
 
 - Usuwanie zależności
 - Spłaszczanie informacji - DDD i modelowanie
-- 
+
+Prostolinijne obsługiwanie wejścia
+
+- Dla dużej liczby przypadków  wejściowych mamy to samo wyjście
+- Dla bardzo małej liczby przypadków wejściowych w ogóle sprawdzamy stan wewnętrzny
 
 
 ### Akceptowane wyjścia

@@ -7,11 +7,22 @@ description: ""
 category: 'Wzorce projektowe'
 ---
 
-Tłem dla tego artykułu będzie cykl tweetów Orosza:
+Mikroserwisy to skomplikowany wzorzec, zarówno pod względem implementacyjnym, jak i testowym. Dodatkowa warstwa techniczna utrudnia skorzystania z "starych sprawdzownych metod testerskich", zwiększa różnorodność, wymaga dodatkowej wiedzy o tym wzorcu.
+
+Jednak pytanie "Dlaczego testowanie mikroserwisów jest trudne?" zawiera drugie dno. **Pod pytaniem o testowanie mikroserwisu kryje się pytanie "Co w rzeczywistości testujemy?"**. Jakie scenariusze bierzemy pod uwagę? Gdzie się kończy cudza odpowiedzialność i zaczyna nasza? I tutaj myślę, że leży główna odpowiedź na tytułowe pytanie.
+
+A więc by odpowiedzieć na nasze pytanie:
+
+- przyjrzymy się codziennej praktyce testów mikroserwisów,
+- znajdziemy dziury w standardowym podejściu do testów
+- wejdziemy w złożoność przypadków testowych
+- odpowiemy sobie na pytanie co można robić lepiej
+
+Tłem dla tego artykułu będzie cykl tweetów Gergely'ego Orosza:
 
 {{< tweet user="GergelyOrosz" id="1502947315279187979" >}}
 
-Czyli jak zmiana w zewnętrznej zalezności mikroserwisu Ubera spowodowała olbrzymie straty całej firmy.
+gdzie zmiana w serwisie zewnętrznym, z którego korzystał Uber, spowodowała duże straty finansowe firmy.
 
 ## Codzienna praktyka testów mikroserwisów
 
@@ -172,6 +183,9 @@ Prostolinijne obsługiwanie wejścia
 - Dla dużej liczby przypadków  wejściowych mamy to samo wyjście
 - Dla bardzo małej liczby przypadków wejściowych w ogóle sprawdzamy stan wewnętrzny
 
+Zakładaj najgorsze:
+
+-
 
 ### Akceptowane wyjścia
 

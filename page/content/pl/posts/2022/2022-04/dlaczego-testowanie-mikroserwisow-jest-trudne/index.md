@@ -138,10 +138,10 @@ Z prostego testu nagle urodził nam się całkiem skomplikowane zadanie. Oczywi�
 
 - odhaczyć sobie taska w Jirze 😉 - wtedy robimy bazowym podejściem.
 - realnie zapewnić jakość 😎 - musimy  zastanowić się z czym się zmagamy i jak rozwiążemy dany problem.
-
+i
 Drugie podejście jest droższe i bardziej czasochłonne. Pierwsze będzie nas (błędnie) zapewniać, że wszystko mamy pod kontrolą. A później wdrożenie na proda i system w płomieniach. Pick your poison 🍶
 
-## Jak upraszczać testy mikroserwisów?
+## Jak upraszczać mikroserwisy i ich testy?
 
 [![](co-robic-jak-zyc.jpg)](co-robic-jak-zyc.jpg)
 

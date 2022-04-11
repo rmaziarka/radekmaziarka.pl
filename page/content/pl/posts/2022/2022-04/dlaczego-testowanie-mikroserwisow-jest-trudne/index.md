@@ -3,7 +3,7 @@ title: "Dlaczego testowanie mikroserwisów jest trudne"
 date: 2022-04-02T09:59:30+01:00
 url: '/2022/04/02/dlaczego-testowanie-mikroserwisow-jest-trudne'
 images: ['2022/04/02/dlaczego-testowanie-mikroserwisow-jest-trudne/main.jpg']
-description: ""
+description: "Testowanie nie jest proste. Testowanie mikroserwisów jest zaś bardzo trudne. Ale dlaczego tak jest?"
 category: 'Wzorce projektowe'
 ---
 
@@ -173,7 +173,14 @@ Następnie należy bardziej defensywne podchodzić do świata zewnętrznego. Mus
 
 ### Praca mikroserwisu
 
-Mamy zmniejszą złożoność na wejściu. Teraz możemy się skupić na poprawie samego procesu wewnątrz mikroserwisu. Pierwszym krokiem jest zmniejszenie liczby stanów od której zależy proces:
+Mamy zmniejszą złożoność na wejściu. Teraz możemy się skupić na poprawie samego procesu wewnątrz mikroserwisu. 
+
+Na początku musimy zrozumieć od czego zależy nasz proces:
+
+- Określenie liczby stanów, które biorą udział w procesie.
+- Znalezienie systemów zewnętrznych, które są nadmiarowo odpytywane podczas procesu.
+
+Następnie należy zmniejszyć liczbę tych stanów przez: 
 
 - Spłaszczanie informacji - np. do obsługi klienta w mikroserwisie reklamacji nie potrzebujemy jego 40 statusów a jedynie 2.
 - Podział procesów na bardziej detaliczne - tak aby nie mieć jednego olbrzymiego, który zależy od całego stanu. 

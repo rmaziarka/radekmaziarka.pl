@@ -158,14 +158,14 @@ Na początek należy zająć się parametrami.
 
 Jak widać w punkcie [założenia wejściowe](#założenia-wejściowe) różnorodność parametrów wejściowych potrafi absurdalnie zwiększyć liczbę przypadków testowych.  
 
-Rozwiązaniem tutaj jest przede wszystkim obniżenie liczby takich przypadków przez:
+Rozwiązaniem tutaj jest przede wszystkim **obniżenie liczby  przypadków testowych** przez:
 
 - Zmniejszenie liczby połączeń do serwisów zewnętrznych - np. tylko jeden mikroserwis wyśle do nas komplet informacji, zamiast 4 różnych.
 - Zmniejszanie liczby potencjalnych informacji w wiadomościach - np. wysłanie podsumowania zamówienia zamiast zamówienia ze wszystkimi polami / statusami / zdarzeniami.
 - Ograniczanie zrównoleglania - np. dogadujemy się z zespołem, że nie wyślą nam wiadomości dopóki wcześniej nie uzyskają poprzednika od innego systemu.com/equivalence-partitioning-boundary-value-analysis.html).
 - Testy kontraktów - upewniamy się, że system zależny zachowa się w sposób, jaki zdefiniujemy.
 
-Następnie należy bardziej defensywne podchodzić do świata zewnętrznego. Musimy założyć, że wiadomości przyjdą powtórzone bądź błędne. To co możemy zrobić:
+Następnie należy **bardziej defensywne podchodzić do świata zewnętrznego**. Musimy założyć, że wiadomości przyjdą powtórzone bądź błędne. To co możemy zrobić:
 
 - Podział przypadków obsługiwanych na prawidłowe i nieprawidłowe - np. korzystając z technik [Equivalence Partitioning](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html).
 - Opieranie się tylko na oczywistych zachowaniach API serwisów zewnętrznych - niejawne założenia z reguły po pewnym czasie są łamane.
@@ -175,29 +175,29 @@ Następnie należy bardziej defensywne podchodzić do świata zewnętrznego. Mus
 
 Mamy zmniejszą złożoność na wejściu. Teraz możemy się skupić na poprawie samego procesu wewnątrz mikroserwisu. 
 
-Na początku musimy zrozumieć od czego zależy nasz proces:
+Na początku musimy **zrozumieć od czego zależy nasz proces**:
 
 - Określenie liczby stanów, które biorą udział w procesie.
 - Znalezienie systemów zewnętrznych, które są nadmiarowo odpytywane podczas procesu.
 
-Następnie należy zmniejszyć liczbę tych stanów przez: 
+Następnie należy **zmniejszyć liczbę wewnętrznych stanów** przez: 
 
 - Spłaszczanie informacji - np. do obsługi klienta w mikroserwisie reklamacji nie potrzebujemy jego 40 statusów a jedynie 2.
 - Podział procesów na bardziej detaliczne - tak aby nie mieć jednego olbrzymiego, który zależy od całego stanu. 
 
-Do tego dochodzi prostolinijne obsługiwanie procesu wewnątrz mikroserwisu:
+Do tego dochodzi **prostolinijne obsługiwanie procesu wewnątrz mikroserwisu**:
 
 - Analiza stanu mikroserwisu tylko dla prawidłowych wiadomości. Dla pozostałych sytuacji domyślna obsługa negatywna.
 - Usuwanie zależności zewnętrznych podczas bezpośredniej realizacji procesu - np. w formie odwrócenia zależności przez nasłuchiwanie zdarzeń z zewnętrznych serwisów.
 - Obsługa biznesowych przypadków w [Functional Core](https://www.kennethlange.com/functional-core-imperative-shell) bez zależności zewnętrznych.
 
-Na koniec należy zakładać najgorsze - stany nierealizowalne na pewno się zrealizują np. przez race-condition na serwisach zewnętrznych 😉
+Na koniec **należy zakładać najgorsze - stany nierealizowalne na pewno się zrealizują** np. przez race-condition na serwisach zewnętrznych 😉
 
 - Odpowiednia obsługa niewłaściwych stanów np. przez odpowiednie modelowanie  [link1](https://khalilstemmler.com/articles/typescript-domain-driven-design/make-illegal-states-unrepresentable/), [link2](https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/)
 
 ### Akceptowane wyjścia
 
-Rzeczywistość jest złożona. Procesy biznesowe w mikroserwisach też takie będą. Wobec czego czasami musimy zaakceptować negatywne sytuacje i obsłużyć je zarówno na warstwie technicznej, jak i biznesowej.
+Rzeczywistość jest złożona. Procesy biznesowe w mikroserwisach też takie będą. Wobec czego czasami musimy **zaakceptować negatywne sytuacje i obsłużyć je** zarówno na warstwie technicznej, jak i biznesowej.
 
 - Obsługa braku odpowiedzi od systemów zewnętrznych - zamiast anulować proces można wyłączyć część funkcjonalności. Wtedy proces będzie kontynuować w okrojonym zakresie. 
 - Obsługa race-condition w procesie biznesowym - np. gdy faktura przyjdzie przed zamówieniem bo ktoś zapomniał wysłać zamówienie a faktura idzie automatycznie. Na taki scenariusz warto mieć przygotowany plan na rekoncyliację.

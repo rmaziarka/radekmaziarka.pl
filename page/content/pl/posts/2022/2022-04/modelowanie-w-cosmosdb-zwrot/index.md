@@ -38,8 +38,6 @@ Na podstawie artykułu Microsoftu przygotowałem poniższą tabelkę.
 
 ![](tablica-wzorcow-dostepu.png)
 
-### Podstawy 
-
 Przechodzimy po kolei scenariusze biznesowe. Na ich podstawie uzupełniamy kolejne kolumny - dodajemy karteczki z opisem:
 
 - Rodzaj: czy to jest zapytanie o dane (Query), czy zmiana stanu (Command)
@@ -47,9 +45,13 @@ Przechodzimy po kolei scenariusze biznesowe. Na ich podstawie uzupełniamy kolej
 - Ilość zapytań / zmian - Jak dużo planujemy zapytań w naszym systemie
 - Jak duży jest zbiór - Jak wiele danych będzie w odpytywanym zbiorze
 - Czy zbiór rośnie (C) - W przypadku zmiany stanu chcemy zrozumieć czy zmieniany zbiór nam rośnie
-- Jak bardzo (C) - Jeśli nasz zbiór rośnie to chcemy zrozumieć jak bardzo
+- Jak bardzo (C) - Jeśli nasz zbiór rośnie to określamy jak bardzo
 
-### Przykład wzorców dostępu
+Nie musimy wpisywać dokładnych liczb, czy być super szczegółowi wobec zbiorów danych.
+
+## Tablica wzorców dostępu - rezerwacja
+
+
 
 ![](tablica-wzorcow-dostepu-with-data.png)
 
@@ -59,7 +61,21 @@ Przechodzimy po kolei scenariusze biznesowe. Na ich podstawie uzupełniamy kolej
 2. Widzimy co jest odpytywane wspólnie, co rozdzielnie
 3. Dostrzegamy gdzie potrzebne jest więcej danych
 
-## Zarzuty do tablicy wzorców dostępu
+## Parę komentarzy do tablicy wzorców dostępu
+
+Dostałem parę komentarzy odnośnie tej tablicy. Pomyślałem, że odniosę się do nich od razu.
+
+### Nie mamy przypadków biznesowych
+
+To oznacza, że nie przeszliśmy przez poprzednie kroki naszego cyklu. Bez przypadków biznesowych trudno jest zaplanować kształt systemu i bazy danych. Musimy wrócić do początku i zrozumieć potrzeby biznesowe. Na tej podstawie rozpisać scenariusze biznesowe. Wtedy będziemy gotowi by zając się wzorcami dostępu 😊
+
+### Nie wiemy jakie liczby wpisywać
+
+Jeśli nic nie wiemy, to trudno jest zaplanować system. Zapytajmy się więc naszego biznesu. 
+
+> A co jeśli biznes również nie wie jakie jest / powinno być wykorzystanie?
+ 
+Biznes wie, chociaż na swój sposób. Jeśli zadamy mu pytanie o dokładną wartość to bardzo możliwe, że wiedzieć nie będzie. A
 
 ### To nie jest zwinne
 

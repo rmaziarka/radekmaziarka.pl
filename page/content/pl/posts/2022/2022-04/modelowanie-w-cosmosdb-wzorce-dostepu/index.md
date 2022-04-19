@@ -3,13 +3,13 @@ title: "Modelowanie w Cosmos DB - wzorce dostępu"
 date: 2022-04-17T09:59:30+01:00
 url: '/2022/04/17/modelowanie-w-cosmos-db-wzorce-dostepu'
 images: ['2022/04/17/modelowanie-w-cosmos-db-wzorce-dostepu/cosmos-modeling.jpg']
-description: "Kolejny odcinek o modelowaniu w Cosmos DB - przedstawienie tablicy wzorców dostępu"
+description: "Kolejny odcinek o modelowaniu w Cosmos DB - przedstawienie tabeli wzorców dostępu"
 category: 'Wzorce projektowe'
 ---
 
-Kontynuujemy cykl o modelowaniu w Cosmos DB. Skończyliśmy analizę potrzeb biznesowych. Teraz trzeba się zastanowić się nad potrzebami bazy danych. Wykorzystamy do tego **tablicę wzorców dostępu**.
+Kontynuujemy cykl o modelowaniu w Cosmos DB. Skończyliśmy analizę potrzeb biznesowych. Teraz trzeba się zastanowić się nad potrzebami bazy danych. Wykorzystamy do tego **tabelę wzorców dostępu**.
 
-W tym odcinku wam przybliżę tę technikę. W kolejnym odcinku przeniesiemy cały obszar biznesowy na tę tablicę oraz zaproponujemy syntezę zgromadzonej wiedzy.
+W tym odcinku wam przybliżę tę technikę. W kolejnym odcinku przeniesiemy cały obszar biznesowy na tę tabelę oraz zaproponujemy syntezę zgromadzonej wiedzy.
 
 ## Mapowanie potrzeb biznesowych na bazodanowe
 
@@ -42,11 +42,11 @@ Jednak dla nas najważniejsze z tego artykułu są wzorce dostępu - główny sp
 
 To jest świetne podejście by odczepić model bazy danych (a nawet silnik bazy danych) od rzeczywistych potrzeb dotyczących bazy danych. **Możemy najpierw zdefiniować wzorce dostępu do bazy, a następnie porównywać propozycje modeli bazodanowych.** Dzięki temu mamy obiektywny sposób oceny struktury względem potrzeb. 
 
-## Tablica wzorców dostępu
+## Tabela wzorców dostępu
 
 Pomyślałem, że można rozwinąć powyższe wzorce o dodatkowe parametry. Dzięki nim jeszcze lepiej zanalizujemy potrzeby bazodanowe:
 
-[![](tablica-wzorcow-dostepu.jpg)](tablica-wzorcow-dostepu.jpg)
+[![](tabela-wzorcow-dostepu.jpg)](tabela-wzorcow-dostepu.jpg)
 
 Przechodzimy po kolei scenariusze biznesowe. Na ich podstawie definiujemy poszczególne wzorce dostępu do bazy danych. Uzupełniamy kolejne kolumny:
 
@@ -62,12 +62,12 @@ Nie musimy wpisywać dokładnych liczb, czy być super szczegółowi wobec zbior
 
 Powyższe kolumny są propozycją - jeśli macie sugestię jak usprawnić tę tabelę, to dajcie znać w komentarzach 📩
 
-## Tablica wzorców dostępu - przykład
+## Tabela wzorców dostępu - przykład
 
 Pełny spis wzorców dostępu dla systemu wypożyczeń pojawi się w kolejnych odcinkach. Tutaj opiszę przykład na jednego scenariusza - [rezerwacji roweru wolnostojącego](/2022/01/30/modelowanie-w-cosmos-db-rezerwacje/).
 
 [![](free-standing-bike.jpg)](free-standing-bike.jpg)
-[![](tablica-wzorcow-dostepu-with-data.jpg)](tablica-wzorcow-dostepu-with-data.jpg)
+[![](tabela-wzorcow-dostepu-with-data.jpg)](tabela-wzorcow-dostepu-with-data.jpg)
 
 Wpisujemy w tabelę informacje, które bazują na scenariuszach biznesowych poznanych wcześniej oraz na dalszych rozmowach z biznesem. Większość informacji w tabeli powyżej tłumaczy się sama. Poruszę więc tylko najwazniejsze kwestie:
 
@@ -81,11 +81,11 @@ Tak prosty przykład, a już widzimy, że:
 - Mamy wzorce, które różnią się sposobem działania oraz liczbami.
 - Będziemy posiadali silnie rosnący zbiór Rezerwacji, który potencjalnie może utrudnić nam planowany model bazy danych.
 
-## Zalety tablicy wzorców dostępu
+## Zalety tabeli wzorców dostępu
 
 [![](profit.jpg)](profit.jpg)
 
-Tablica wzorców dostępu pozwala nam spojrzeć potrzeby bazodanowe w całości. Równocześnie widzimy detale każdej pożądanej operacji. To ma szereg zalet, ponieważ możemy:
+Tabela wzorców dostępu pozwala nam spojrzeć potrzeby bazodanowe w całości. Równocześnie widzimy detale każdej pożądanej operacji. To ma szereg zalet, ponieważ możemy:
 
 1. Zauważyć podobieństwa i różnice zapytań, przez wszystkie scenariusze biznesowe.
 2. Przemyśleć, gdzie musimy szczególnie zadbać o odpowiednie modele bazy danych, a gdzie możemy nieco odpuścić.
@@ -95,7 +95,7 @@ Tablica wzorców dostępu pozwala nam spojrzeć potrzeby bazodanowe w całości.
 
 ## Komentarze do komentarzy
 
-Rozmawiając z kolegami i koleżankami o tej tablicy dostałem parę komentarzy. Pomyślałem, że odniosę się do nich od razu.
+Rozmawiając z kolegami i koleżankami o tej tabeli dostałem parę komentarzy. Pomyślałem, że odniosę się do nich od razu.
 
 ### Nie mamy przypadków biznesowych
 
@@ -137,6 +137,6 @@ Wolę więc najpierw zwinnie zrozumieć potrzeby, a później usiąść do kodze
 W sumie nic nieznanego. Mamy 2 podejścia: 
 
 - Jeśli to wymaganie możesz obsłużyć obecną strukturą, to nie ma się co stresować. 
-- Jeśli wymaganie wymaga dużej zmiany w bazie, to i tak powinniśmy najpierw wykonać analizę zmian, zanim zaczniemy je aplikować. Tablica wzorców dostępu jest jednym z podejść by sprawdzić jak nowe wymaganie wpasowuje się w obecne potrzeby.
+- Jeśli wymaganie wymaga dużej zmiany w bazie, to i tak powinniśmy najpierw wykonać analizę zmian, zanim zaczniemy je aplikować. Tabela wzorców dostępu jest jednym z podejść by sprawdzić jak nowe wymaganie wpasowuje się w obecne potrzeby.
 
 W kolejnych odcinkach będzie informacja, w jaki sposób ocenić jak bardzo problematyczne może być nowe wymaganie.

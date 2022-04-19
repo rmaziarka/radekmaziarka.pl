@@ -10,28 +10,28 @@ draft: true
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. Skonczyliśmy analizę potrzeb biznesowych. Teraz trzeba sie zastanowić się nad potrzebami bazy danych. Wykorzystamy do tego **tablicę wzorców dostępu**.
 
-W tym odcinku wam przybliżę tą technikę. W kolejnym odcinku zmapujemy cały obszar biznesowy na tą strukturę oraz zaproponujemy syntezę zgromadzonej wiedzy.
+W tym odcinku wam przybliżę tą technikę. W kolejnym odcinku przeniesiemy cały obszar biznesowy na tą tablicę oraz zaproponujemy syntezę zgromadzonej wiedzy.
 
-## Mapowanie potrzeb biznesowych na bazodanowe XYZ
+## Mapowanie potrzeb biznesowych na bazodanowe
 
 U większości zespołów praca nad bazą danych przebiega następująco:
 
 1. Zebraliśmy potrzeby biznesowe
 2. Tworzymy model bazy danych
 
-I jest to dobre podejście, jednak podskórnie robimy tutaj pewien krok, którego nie widać. Otóż same potrzeby biznesowe nie mapują się na bazę danych. To co się naprawdę dzieje to:
+I jest to dobre podejście, jednak podskórnie robimy tutaj pewien krok, którego nie widać. Otóż same potrzeby biznesowe nie mapują się bezpośrednio na bazę danych. To co się naprawdę dzieje to:
 
 1. Zebraliśmy potrzeby biznesowe
-2. **Mapujemy potrzeby biznesowe na potrzeby bazy danych**
+2. **Mapujemy potrzeby biznesowe na potrzeby dotyczące bazy danych**
 3. Tworzymy model bazy danych na podstawie potrzeb bazodanowych
 
-To dzieje się w naszych głowach. Tworzymy spis potrzeb bazodanowych. Problemem jest to, że to co w naszej głowie trudno jest pokazać drugiej osobie. Jeśli nie wynosimy tych potrzeb bazodanowych na zewnątrz to łatwo jest nam się pokłócić o detale modelu bazy danych.
+To dzieje się w naszych głowach. Tworzymy spis potrzeb bazodanowych. Problemem jest to, że to co w naszej głowie trudno jest pokazać drugiej osobie. Jeśli nie wyniesiemy tych potrzeb bazodanowych na zewnątrz to łatwo jest nam się pokłócić o detale modelu bazy danych.
 
 ## Wzorce dostępu - jak to robi Microsoft
 
 Na stronie dokumentacji CosmosDB możemy znaleźć [artykuł](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/how-to-model-partition-example#identify-the-main-access-patterns) o optymalizacji zapytań do tej bazy. Autorzy na początku **określili wzorce dostępu do bazy danych** w swojej aplikacji. Następnie krok po kroku optymalizowali strukturę bazy danych pod te wzorce.
 
-![](microsoft-wzorce-dostepu.jpg)
+![](microsoft-wzorce-dostepu.png)
 
 Jednak dla nas najwazniejsze z tego artykułu są wzorce dostępu - główny sposób pobierania danych. W tym podejściu podejściu **traktujemy bazę danych jako blackbox** - skupiamy się na jej obserwowalnych zachowaniach.
 
@@ -43,7 +43,7 @@ Pomyślałem, że można rozwinąć powyższe wzorce o dodatkowe parametry. Na i
 
 Proponowana lista parametrów poniżej:
 
-![](tablica-wzorcow-dostepu.png)
+![](tablica-wzorcow-dostepu.jpg)
 
 Przechodzimy po kolei scenariusze biznesowe. Na ich podstawie definiujemy poszczególne wzorce dostępu do bazy danych. Uzupełniamy kolejne kolumny:
 
@@ -61,13 +61,12 @@ Powyższe kolumny są tylko propozycją - jeśli macie sugestię jak usprawnić 
 
 ## Tablica wzorców dostępu - przykład
 
-Pełny spis wzorców dostępu dla systemu wypożyczeń będzie w kolejnych odcinkach. Tutaj opiszę przykład na jednego scenariusza - [rezerwacji roweru wolnostojącego](/2022/01/30/modelowanie-w-cosmos-db-rezerwacje/). 
-Pełny spis wzorców dostępu dla systemu wypożyczeń będzie w kolejnych odcinkach. Tutaj opiszę przykład na jednego scenariusza - [rezerwacji roweru wolnostojącego](/2022/01/30/modelowanie-w-cosmos-db-rezerwacje/). 
+Pełny spis wzorców dostępu dla systemu wypożyczeń pojawi się w kolejnych odcinkach. Tutaj opiszę przykład na jednego scenariusza - [rezerwacji roweru wolnostojącego](/2022/01/30/modelowanie-w-cosmos-db-rezerwacje/).
 
 ![](free-standing-bike.jpg)
 ![](tablica-wzorcow-dostepu-with-data.jpg)
 
-To co wpisujemy bazuje na scenariuszach biznesowych poznanych wcześniej oraz na dalszych rozmowach z biznesem. Większość informacji tłumaczy się sama, ale warto poruszyć najwazniejsze kwestie:
+To co wpisujemy w tabelę bazuje na scenariuszach biznesowych poznanych wcześniej oraz na dalszych rozmowach z biznesem. Większość informacji tłumaczy się sama, ale warto poruszyć najwazniejsze kwestie:
 
 - Biznes powiedział nam, że około połowa dziennych wypożyczeń dzieje się na podstawie rezerwacji. Mamy więc 500-20 000 rezerwacji.
 - Każde wykonanie rezerwacji powoduje, że rośnie nam zbiór danych. Możemy kiedyś to zoptymalizować, ale domyślnie tak jest.
@@ -79,16 +78,18 @@ Tak prosty przykład a już widzimy, że:
 - Mamy wzorce, które różnią się docelowymi danymi oraz sposobem działania.
 - Mamy silnie rosnący zbiór Rezerwacji, który potencjalnie może utrudnić nam model bazy danych.
 
-## Jak tablica wzorców dostępu nam pomaga
+## Zalety tablicy wzorców dostępu
 
 XYZ obrazek jakichs zyskow
 
-Cała tabelka pozwala nam:
+Tablica wzorców dostępu pozwala nam spojrzeć potrzeby bazodanowe w całości. Równocześnie widzimy również detale. To ma szereg zalet, ponieważ możemy:
 
-2. Widzimy co jest odpytywane wspólnie, co rozdzielnie
-3. Zauważyć gdzie musimy szczególnie zadbać o odpowiednie modele bazy danych, a gdzie możemy nieco odpuścić.
+1. Zauważyć podobieństwa i różnice zapytań, przez wszystkie scenariusze biznesowe.
+2. Przemyśleć gdzie musimy szczególnie zadbać o odpowiednie modele bazy danych, a gdzie możemy nieco odpuścić.
+3. Znaleźć zbiory, które są wspólnie odpytywane. 
+4. Przewidzieć, że nasz model może nie obsłużyć pożądanego ruchu.
+5. 
 
-Zobaczycie na samym końcu jak wiele mamy informacji widocznych.
 
 ## Komentarze do komentarzy
 

@@ -5,7 +5,7 @@ date: Mon, 29 Jul 2019 11:42:22 +0000
 draft: false
 images: ['/images/trainings/database.png']
 duration: '2-3 dni'
-workshopType: 'tech'
+workshopType: 'training'
 promoText: 'Zaprojektuj dojrzałe rozwiązanie w Cosmos DB.'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'

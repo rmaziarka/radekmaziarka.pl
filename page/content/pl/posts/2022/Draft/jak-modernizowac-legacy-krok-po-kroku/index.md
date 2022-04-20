@@ -165,3 +165,5 @@ Więcej informacji można znaleźć w następujących książkach:
 - https://www.goodreads.com/book/show/44144499-monolith-to-microservices
 - https://www.goodreads.com/book/show/58153482-software-architecture
 - https://www.goodreads.com/book/show/55782292-strategic-microservices-and-monoliths
+- https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
+- https://www.goodreads.com/book/show/33221518-software-architecture-for-developers

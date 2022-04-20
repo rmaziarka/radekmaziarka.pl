@@ -6,7 +6,7 @@ draft: false
 images: ['/images/trainings/architecture.png']
 aliases: ['/szkolenia/wzorce-architektoniczne']
 duration: '2-3 dni'
-workshopType: 'tech'
+workshopType: 'training'
 promoText: 'Poznaj wzorce architektoniczne ułatwiające tworzenie systemów.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'

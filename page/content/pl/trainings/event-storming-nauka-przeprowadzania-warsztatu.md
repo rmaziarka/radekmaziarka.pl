@@ -5,7 +5,7 @@ draft: false
 images: ['/images/trainings/organisation.png']
 url: '/szkolenia-i-warsztaty/event-storming-nauka-od-podstaw'
 aliases: ['/szkolenia/event-storming-train-the-trainer', '/szkolenia-i-warsztaty/event-storming-nauka-przeprowadzania-warsztatu']
-workshopType: 'soft'
+workshopType: 'training'
 promoText: 'Naucz się przeprowadzać warsztat Event Storming w swoim zespole.'
 duration: '1-3 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'

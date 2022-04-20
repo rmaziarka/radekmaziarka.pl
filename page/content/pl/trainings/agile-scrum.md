@@ -8,6 +8,7 @@ targetGroup: 'Zespoły programistyczne, kadra zarządzająca'
 url: '/szkolenia-i-warsztaty/agile-scrum/'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '30% teoria / 70% praktyka'
+workshopType: 'training'
 knowledgeToObtain: [
     'Podstawy zwinnych metod produkcji', 
     'Różnice pomiędzy pracą tradycyjną a adaptacyjną', 

@@ -9,9 +9,11 @@ images: ['images/2019/07/prelekcje.jpg']
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
 ## 2022
+* 2022-06-04 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [Craft-IT](https://craft-it.pl/)
+* 2022-04-09 - "Modelowanie biznesowe w Cosmos DB" - [Microsoft Azure User Group Poland ](https://www.meetup.com/Microsoft-Azure-Users-Group-Poland/events/284682303/)
 * 2022-04-07 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [4Developers](https://4developers.org.pl/4dev-2022/)
 * 2022-03-19 - "Jak tworzyć produkt, a nie zbiór funkcjonalności" - [Boiling Frogs](https://2022.boilingfrogs.pl/?schedule=jak-tworzyc-produkt-a-nie-zbior-funkcjonalnosci)
-* 2022-02-19 - "Modelowanie biznesowe w CosmosDB" - [devWarsztaty](https://www.meetup.com/pl-PL/devWarsztaty/events/283646888/)
+* 2022-02-19 - "Modelowanie biznesowe w Cosmos DB" - [devWarsztaty](https://www.meetup.com/pl-PL/devWarsztaty/events/283646888/)
 
 ## 2021
 * 2021-03-11 - "Struktura organizacji a wytwarzane oprogramowanie – prawo Conway’a w praktyce" - [Boiling Frogs](https://2021.boilingfrogs.pl/schedule/struktura-organizacji-a-wytwarzane-oprogramowanie-prawo-conwaya-w-praktyce/) - [nagranie](https://www.youtube.com/watch?v=mpcdIs8L8iI)

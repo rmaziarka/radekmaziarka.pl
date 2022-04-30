@@ -9,6 +9,9 @@
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }} {{ end }}</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     {{ hugo.Generator }}
+    {{ if .Params.redirectTo }}
+      <meta http-equiv="refresh" content="0; url={{- .Params.redirectTo -}}"/>
+    {{end}}
 
 
     {{ $style := resources.Get "styles/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -57,23 +60,27 @@
 
   </head>
 
-  <body>
-
-    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
-    {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
-    
-  <!-- external javascripts -->
-  <script src="/js/jquery.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/javascript-plugins-bundle.js"></script>
-  <script src="/js/menuzord/js/menuzord.js"></script>
-  <script src="/js/timeline-horizontal-vertical/js/timeline-horizontal-vertical.min.js"></script>
-  <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
-  <script src="/js/custom.js"></script>
-
-  </body>
+  {{ if not .Params.redirectTo }}
+    <body>
+  
+  
+      {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+      <main role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+      {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
+      
+    <!-- external javascripts -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/javascript-plugins-bundle.js"></script>
+    <script src="/js/menuzord/js/menuzord.js"></script>
+    <script src="/js/timeline-horizontal-vertical/js/timeline-horizontal-vertical.min.js"></script>
+    <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
+  
+    </body>
+  {{end}}
 </html>
+

@@ -138,7 +138,7 @@ Z prostego testu nagle urodził nam się całkiem skomplikowane zadanie. Oczywi�
 
 - odhaczyć sobie taska w Jirze 😉 - wtedy robimy bazowym podejściem.
 - realnie zapewnić jakość 😎 - musimy  zastanowić się z czym się zmagamy i jak rozwiążemy dany problem.
-i
+
 Drugie podejście jest droższe i bardziej czasochłonne. Pierwsze będzie nas (błędnie) zapewniać, że wszystko mamy pod kontrolą. A później wdrożenie na proda i system w płomieniach. Pick your poison 🍶
 
 ## Jak upraszczać mikroserwisy i ich testy?
@@ -162,7 +162,7 @@ Rozwiązaniem tutaj jest przede wszystkim **obniżenie liczby  przypadków testo
 
 - Zmniejszenie liczby połączeń do serwisów zewnętrznych - np. tylko jeden mikroserwis wyśle do nas komplet informacji, zamiast 4 różnych.
 - Zmniejszanie liczby potencjalnych informacji w wiadomościach - np. wysłanie podsumowania zamówienia zamiast zamówienia ze wszystkimi polami / statusami / zdarzeniami.
-- Ograniczanie zrównoleglania - np. dogadujemy się z zespołem, że nie wyślą nam wiadomości dopóki wcześniej nie uzyskają poprzednika od innego systemu.com/equivalence-partitioning-boundary-value-analysis.html).
+- Ograniczanie zrównoleglania - np. dogadujemy się z zespołem, że nie wyślą nam wiadomości dopóki wcześniej nie uzyskają poprzednika od innego systemu.
 - Testy kontraktów - upewniamy się, że system zależny zachowa się w sposób, jaki zdefiniujemy.
 
 Następnie należy **bardziej defensywne podchodzić do świata zewnętrznego**. Musimy założyć, że wiadomości przyjdą powtórzone bądź błędne. To co możemy zrobić:

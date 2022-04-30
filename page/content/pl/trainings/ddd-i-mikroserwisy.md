@@ -6,8 +6,8 @@ images: ['/images/trainings/distribution.png']
 url: '/szkolenia-i-warsztaty/ddd-i-mikroserwisy'
 aliases: ['/szkolenia-i-warsztaty/ddd', '/szkolenia/ddd-i-mikroserwisy/']
 duration: '2-3 dni'
-workshopType: 'tech'
-promoText: 'Wprowadzenie do mikroserwisów z wykorzystaniem DDD.'
+workshopType: 'training'
+promoText: 'Zaprojektuj mikroserwisy za pomocą dojrzałych wzorców DDD.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '30% teoria / 70% praktyka'

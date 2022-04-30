@@ -5,7 +5,7 @@ draft: false
 images: ['/images/trainings/operative-system.png']
 url: '/szkolenia-i-warsztaty/event-storming-projektowanie-systemu'
 duration: '1-2 dni'
-workshopType: 'tech'
+workshopType: 'workshop'
 promoText: 'Zaprojektuj system od A do Z z Event Stormingiem.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'

@@ -6,12 +6,11 @@ date: Sun, 18 Aug 2019 09:57:03 +0000
 draft: false
 images: ['/images/trainings/leadership.png']
 duration: '1-2 dni'
-workshopType: 'soft'
+workshopType: 'training'
 promoText: 'Bądź liderem za którym podążają inni.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
-promo: true
 knowledgeToObtain: [
     'Główne zasady dotyczące dowodzenia pracą zespołu',
     'Umiejętność prawidłowego powierzania zadań zespołowi',

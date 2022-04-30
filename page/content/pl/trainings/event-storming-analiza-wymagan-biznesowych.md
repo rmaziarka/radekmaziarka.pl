@@ -5,8 +5,8 @@ draft: false
 images: ['/images/trainings/tech-service.png']
 url: '/szkolenia-i-warsztaty/event-storming-analiza-wymagan-biznesowych'
 aliases: ['/szkolenia/event-storming-big-picture']
-workshopType: 'soft'
-promoText: 'Wykonaj dogłębną analizę systemu z wykorzystaniem Event Stormingu.'
+workshopType: 'workshop'
+promoText: 'Wykonaj dogłębną analizę potrzeb z wykorzystaniem Event Stormingu.'
 duration: '1-2 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'

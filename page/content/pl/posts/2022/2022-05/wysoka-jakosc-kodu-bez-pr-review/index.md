@@ -20,6 +20,7 @@ Wykorzystałem kilka artykułów z internetu i zebrałem poniższą listę powod
 - Spełnienie wymogów Compliance, jak np. [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
 - Wymiana wiedzy w zespole lub organizacji
 - XYZ
+- Dysfunkcje w zespole takiej jak brak zaufania do nowych programistów, czy micromanagement
 
 
 ## Dlaczego nie robić PR Review?
@@ -82,7 +83,8 @@ Co jest nie zawsze oczywiste, code review wykonywany podczas pair programmingu s
 
 {{< tweet user="seanjreilly" id="1163455556209795073" >}}
 
-Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpaths/application-development/pair-programming/)), które z definicji pracują w ten sposób. Jednak jest oczywiste że nie wszystkie firmy mogą pracować w ten sposób. Również trudne może być przez 100% czasu pracować w ten sposób. Możemy więc omówić inne sposoby.
+Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpaths/application-development/pair-programming/)), które z definicji pracują w ten sposób. Jednak jest oczywiste że nie wszystkie firmy mogą pracować w ten sposób. Również trudne może być przez 100% czasu pracować w ten sposób. Również praca asynchroniczna, w różnych strefach czasowych może komplikować użycie tyh metod.
+Możemy więc omówić inne sposoby.
 
 ### Ad-hoc code review
 

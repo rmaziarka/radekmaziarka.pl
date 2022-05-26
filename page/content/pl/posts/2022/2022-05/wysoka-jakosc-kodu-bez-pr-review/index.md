@@ -114,7 +114,8 @@ XYZ
 - Nie musimy tego robić synchronicznie - opisałem w artykule jak przeprowadzać Event Storming asynchronicznie
 - Wtedy mamy mniejsza szansę że napiszemy kod który znacznie łamie nasze wymagania architektoniczne.
 - Nasze code review podczas pracy są o wiele szybsze i mniej jest tam konfliktów.
-  Ogólne zalety
+
+Ogólne zalety
 - Niewątpliwą zaletą jest szybsze korygowanie kursu developmentu. Możemy na wczesnym etapie zauważyć że coś jest nie tak i
 - Duża większą wymiana wiedzy -
 - Wciąganie więcej ról w development

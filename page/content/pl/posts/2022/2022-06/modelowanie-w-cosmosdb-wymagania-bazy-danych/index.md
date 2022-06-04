@@ -72,9 +72,44 @@ Na koniec przyjrzyjmy się zwrotowi:
 
 [![](automatic-stop.jpg)](automatic-stop.jpg)
 
+Nie mamy tutaj zbyt wiele dodatkowych wzorców dostępu. Można je zamknąc w 3 wpisach:
+
+[![](return-wymagania.jpg)](return-wymagania.jpg)
+
+Zsumowaliśmy wszystkie wzorce skupione na kończeniu wypożyczenia - mamy ich tyle samo ile startów wypożyczeń.
+
+Ciekawa sytuacja jest za to z pobieraniem danych o wypożyczeniach. Mamy tutaj dwa różne podejścia - jedno sprawdzające aktywne wypożyczenia, a drugie sprawdzające rower w wypożyczenia. Może to mieć wpływ na naszą wydajność.
+
+## Podsumowanie
+
+Zróbmy połączenie wszystkich opisanych przez nas wzorców razem:
+
+[![](wymagania-bazodanowe.jpg)](wymagania-bazodanowe.jpg)
+
+Mamy 16 różnych wzorców dostępu, z 3 obszarów - rezerwacji, wypożyczeń, zwrotów. Widzimy zapytania i komendy do różnych zbiorów, różną liczbę zapytań, różne podejścia. Jest nad czym pracować 😀
+
+W kolejnym odcinku przeprowadzimy syntezę zebranych informacji.
 
 ## Pytania
 
-### Czemu nie ma point-readów?
+### Czemu nie ma odczytów pojedynczych obiektów?
 
-Ponieważ one nie są wymagane do ogarniania planu bazy danych. Za to będą wartościowe by wyliczyć ostateczny koszt, ale to jest lepiej robić na bazie bezpośrednich wyników z bazy danych.
+W części scenariuszy biznesowych będzie wymagane np. pobranie pojedynczej rezerwacji na podstawie jej identyfikatora. Dlaczego nie wpisujemy tego w tabelę wzorców dostępu?
+
+**Ponieważ (w mojej ocenie) nie są one wymagane do planowania struktury bazy danych.** Zawsze odczytujemy cały obiekt. W bazie Cosmos DB jest to najprostszy i najmniej problematyczny mechanizm. Zależy oczywiście od odpowiedniego zamodelowania obiektu - to zrobimy w kolejnych odcinkach.
+
+Pojedyncze odczyty będą wartościowe by wyliczyć ostateczny koszt. To jednak jest lepiej robić na bazie bezpośrednich wyników z bazy danych.
+
+### Skąd wiadomo jakie zbiory mieć?
+
+W naszej tabeli wzorców dostępu wykorzystujemy następujące zbiory:
+
+- Dostępne rowery
+- Rezerwacje
+- Wypożyczenia
+
+Skąd wiadomo, że nie potrzebujemy np. zbioru Zwrotu? Zamiast zmieniać Wypożyczenie, będziemy na jego podstawie tworzyć obiekt Zwrotu.
+
+**Na tym momencie to nie ma aż takiego znaczenia.** Potrzebujemy mieć ogólne zrozumienie co chcemy z tej bazy danych wyciągnąć. Nie musimy być tutaj 100% prawidłowi.
+
+Na podstawie wymagań bazy danych będziemy następnie proponować obiekty bazodanowe. Wtedy możemy się zastanowić nad plusami i minusami każdego zbioru.

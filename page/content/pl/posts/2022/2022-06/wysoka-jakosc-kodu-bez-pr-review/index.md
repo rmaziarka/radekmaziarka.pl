@@ -4,6 +4,8 @@ date: 2022-01-27T09:59:30+01:00
 draft: true
 ---
 
+(Artykuł zakłada, że nie pracujesz w stylu [Trunk Based Development](https://trunkbaseddevelopment.com/) - twoje branche żyją kilka / kilkanaście dni.)
+
 Pull Request Review  wydaje się być bardzo głęboko zakorzeniony w procesie wytwarzania oprogramowania. Większość artykułów o pracy zespołów programistycznych zawiera taki PR Review. Również jest on obecny w domyślnych szablonach pracy w narzędziach CI/CD.
 
 Ja osobiście stoję po stronie barykady, która twierdzi, że w przeważającej liczbie przypadków **PR Review jest zabójcze dla szybkości dostarczania**. I chciałbym w tym artykule dostarczyć remedium na te problemy.
@@ -17,31 +19,24 @@ Wykorzystałem kilka artykułów z internetu i zebrałem poniższą listę powod
 - Sprawdzanie spełnienia wymagań biznesowych
 - Zapewnienie spójnego kodu z resztą systemu, pod względem architektury
 - Odnajdywanie błędów, zarówno biznesowych jak i technicznych, optymalizacyjnych i innych
-- Spełnienie wymogów Compliance, jak np. [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
-- Wymiana wiedzy w zespole lub organizacji
-- XYZ
-
+- Spełnienie wymogów Compliance, jak np. [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard).
+- Wymiana wiedzy w zespole lub organizacji.
 
 ## Dlaczego nie robić PR Review?
 
 Otóż PR Code Review jest zabójcze dla prędkości dostarczania. 
 
-Aby to pokazać może pomóc przykład z innej branży - instalowania hydrauliki w budynku:
-- Ugadujemy się bardzo ogólnie na to jakie rury gdzie chcemy mieć.
-- Ktoś pracuje solo przez tydzień. Następnie pokazuje kolegom jakie rury zamontował.
-- Brygadzista mówi że część rur trzeba wymienić z stalowych na miedziane. Jednak ich akurat nie ma na stanie. Czekamy tydzień na ich odbiór.
-- Rury przyszły więc wymieniamy przez dzień. Następnie zgłaszamy naszą instalację ponownie do odbioru.
-- Któryś majster mówi, że w tym miejscu rury powinny iść w przeciwnym kierunku. Niezgadza się z tym inny majster. Dyskusja trwa przez tydzień. W końcu dochodzą do wniosku, że jednak trzeba to zmienić.
-- Jednak malarze już zaczęli gładzić i malować ściany. Musimy zedrzeć cześć farby, wymienić rury, a potem powiedzieć malarzom że znów muszą to wymalować.
-- Kończymy 3 tygodnie po terminie, mając równocześnie rozgrzebanych 5 równoległych instalacji. 
- 
-**To brzmi absurdalnie. Jednak tak absurdalna praca dzieje się codziennie w wielu firmach produktowych i software house'ach.** Zmieńmy brygadzistę na team leadera, instalowanie hydrauliki na pisanie kodu, wymianę rur na redesign, malowanie ścian na kolejną aktywność w procesie developerskim. Gotowe.
+Aby to pokazać wystarczy spojrzeć na typową linię czasu przy wykorzystaniu PR Review ([tweet Dragana Stepanovića](https://twitter.com/d_stepanovic/status/1379451260638785536)):
+
+[![](pr-timeline.jfif)](pr-timeline.jfif)
+
+To jest komunikacja tylko z jedną osobą + wymagane są niewielkie zmiany. **Jednak i tak wdrożenie zmian z PR Review trwa kilka dni.** W przypadku komentarzy wielu osób i dużych zmian architektonicznych całość może trwać tygodnie.
 
 W mojej ocenie PR Review:
 
 - Jest przeprowadzane zbyt późno - koszt wprowadzania zmian na tym etapie jest ogromny. Bardzo często musimy zmienić całą architekturę rozwiązania.
 - Jest przeprowadzane dla zbyt dużych kawałków kodu - całą funkcjonalność jest bardzo trudno sprawdzić, koszt poznawczy jest wysoki.
-- Tworzy znaczne kolejki w zespole - jak opisałem w artykule XYZ.
+- Tworzy znaczne kolejki w zespole - jak opisałem w artykule [Dlaczego tak wolno dowozimy](/2022/05/29/dlaczego-tak-wolno-dowozimy-o-kolejkach/).
 - Tworzy opóźnienie w pętli zwrotnej uczenia się zespołu - przeskakujemy z tematu na temat.
 
 Ale przede wszystkim **PR Review nie daje odpowiednich zysków w stosunku do kosztów jakie ponosimy**. Problem, że mało kto to liczy 🙄
@@ -66,7 +61,7 @@ Na dole przedstawiłem kilka propozycji, z różnych obszarów pracy zespołowej
 
 Przy jednoczesnym zachowaniu wszystkich powodów posiadania PR Review opisanych wyżej.
 
-(Celowo pomijam poniżej [Trunk Based Development](https://trunkbaseddevelopment.com/) - dla firm zmagających się z problemami wolnego PR Review podejście TBD będzie jednocześnie uznane za nieaplikowalne i wyśmiane przez zespół)
+(Celowo pomijam poniżej Trunk Based Development - powód na końcu artykułu)
 
 ###  Pair Programming / Mob Programming
 
@@ -125,6 +120,10 @@ Ogólne zalety
 
 Na koniec zapytam Ciebie - czy wiesz jak długo trwa u Ciebie zakończenie PR Review?
 
-Wiele zespołów tego nie wie. A skoro nie wie, to nie może z tym nic zrobić. Praca idzie wolno, czas ucieka. 
+Wiele zespołów tego nie wie. A skoro nie wie, to nie może z tym nic zrobić. Praca idzie wolno, czas ucieka ⏰
 
-XYZ
+PS. Draft artykułu wzbudził bardzo ciekawą dyskusję na [Twitterze](https://twitter.com/RadekMaziarka/status/1528817293785976832). Jan Kosmala pokusił się również o polemikę w artykule [Pull requests/code review jako dobra praktyka – kit czy hit?](https://blog.jankosmala.eu/2022/05/25/pull-requests-code-review-jako-dobra-praktyka-kit-czy-hit/).
+
+Odpowiedzią większości osób były praktyki, które były bliźniaczo podobne do TBD - małe branche, krótki czas życia. Jednak w mojej ocenie jest to zbyt prosta porada. **Wdrożenie TBD wymaga drastycznego przearanżowania naszej pracy + zmiany mindsetu.** To nie jest coś co da się wdrożyć przez miesiąc, czy nawet kwartał. 
+
+Ale to jest coś co można opisać w artykule 😉

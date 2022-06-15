@@ -3,7 +3,8 @@ title: "Pull Request Review - szybciej, lepiej, inaczej"
 images: ['2022/06/14/pull-request-review-szybciej-lepiej-inaczej/review.jpg']
 url: '/2022/06/14/pull-request-review-szybciej-lepiej-inaczej'
 date: 2022-06-14T09:59:30+01:00
-draft: true
+description: "Dlaczego Pull Request Review jest niewydajną praktyką i jak to robić lepiej"
+category: 'Leadership'
 ---
 
 (Artykuł zakłada, że nie pracujesz w stylu [Trunk Based Development](https://trunkbaseddevelopment.com/) - twoje branche żyją kilka / kilkanaście dni.)

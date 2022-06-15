@@ -12,15 +12,15 @@ Pull Request Review  wydaje się być bardzo głęboko zakorzeniony w procesie w
 
 Ja osobiście stoję po stronie barykady, która twierdzi, że w przeważającej liczbie przypadków **PR Review jest zabójcze dla szybkości dostarczania**. I chciałbym w tym artykule dostarczyć remedium na te problemy.
 
-Jednak aby właściwie zaadresować problemy, najpierw warto przedstawić po co robimy PR Code Review. 
+Jednak aby właściwie zaadresować problemy, najpierw warto przedstawić, po co robimy PR Code Review. 
 
 ##  Powody posiadania PR  Review
 
 Wykorzystałem kilka artykułów z internetu i zebrałem poniższą listę powodów posiadania PR Review (dorzućcie w komentarzach, jeśli jeszcze macie jakiś przykład):
 
-- Sprawdzenie czy kod spełnia wymagania biznesowe.
+- Sprawdzenie, czy kod spełnia wymagania biznesowe.
 - Zapewnienie spójnego kodu z resztą systemu, pod względem architektury.
-- Odnajdywanie błędów, zarówno biznesowych jak i technicznych, optymalizacyjnych i innych.
+- Odnajdywanie błędów, zarówno biznesowych, jak i technicznych, optymalizacyjnych i innych.
 - Spełnienie wymogów Compliance, jak np. [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard).
 - Wymiana wiedzy w zespole lub organizacji.
 
@@ -74,17 +74,17 @@ Możemy zacząć od humorystycznego obrazka Vincenta Déniela ([tweet](https://t
 
 Praca w parach / grupie jest dobrą przeciwwagą na PR Review. A to dlatego, że wykonujemy sprawdzenie kodu natychmiastowo jak pisze go druga osoba. Chyba nie da się szybciej 😂
 
-Jest to wysoce błędne przekonanie, że taka praca idzie wolniej bo pracują nad nią dwie osoby. Jak widać na obrazku linii czasu wyżej **praca samemu połączona z PR Review trwa o wiele dłużej**. Koszt wytworzenia kodu wspólnie jest mniejszy, niż wytworzenia kodu samemu, a następnie poddaniu go sprawdzeniu.
+Jest to wysoce błędne przekonanie, że taka praca idzie wolniej, bo pracują nad nią dwie osoby. Jak widać na obrazku linii czasu wyżej **praca samemu połączona z PR Review trwa o wiele dłużej**. Koszt wytworzenia kodu wspólnie jest mniejszy, niż wytworzenia kodu samemu, a następnie poddaniu go sprawdzeniu.
 
-Taką pracę w parach (a więc i sprawdzanie kodu) można robić również zdalnie. Dziś nawet posiadamy narzędzia, ze można pisać naraz w jednym IDE (jak [VS Code Live Share](https://code.visualstudio.com/learn/collaboration/live-share)). Pozwala nam to pracować wspólnie, nawet jak jesteśmy kilometry od siebie.
+Taką pracę w parach (a więc i sprawdzanie kodu) można robić również zdalnie. Dziś nawet posiadamy narzędzia, dzięki którym można pisać naraz w jednym IDE (jak [VS Code Live Share](https://code.visualstudio.com/learn/collaboration/live-share)). Pozwala nam to pracować wspólnie, nawet jak jesteśmy kilometry od siebie.
  
-Co jest nie zawsze oczywiste, code review wykonywany podczas pair programmingu spełnia wymogi instytucji finansowych czy PCI:
+Co jest nie zawsze oczywiste, code review wykonywany podczas pair programmingu spełnia wymogi instytucji finansowych, czy PCI:
 
 {{< tweet user="wouterla" id="1163455000338739200" >}}
 
 {{< tweet user="seanjreilly" id="1163455556209795073" >}}
 
-Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpaths/application-development/pair-programming/)), które z definicji pracują w ten sposób. Jednak jest oczywiste że nie wszystkie firmy mogą pracować w ten sposób. Również trudne może być przez 100% czasu pracować w ten sposób. Możemy więc omówić inne sposoby.
+Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpaths/application-development/pair-programming/)), które z definicji pracują w ten sposób. Jednak jest oczywiste, że nie wszystkie firmy mogą pracować w ten sposób. Również trudne może być przez 100% czasu pracować w ten sposób. Możemy więc omówić inne sposoby.
 
 ### Ad-hoc code review
 
@@ -92,13 +92,13 @@ Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpat
 
 Nikt nam nie broni robić sprawdzenia naszego kodu częściej, niż tylko na PR Review.
 
-Kilka firm z którymi współpracowałem posiadało praktykę przeprowadzenia code review co każdy commit. Braliśmy osobę obok / zdzwanialo się osobę wolną. Następnie opowiadaliśmy napisany kod. Zwykle wychodziło wiele rzeczy do poprawy, więc od razu to aplikowaliśmy.
+Kilka firm, z którymi współpracowałem, posiadało praktykę przeprowadzenia code review co każdy commit. Braliśmy osobę obok / zdzwaniało się osobę wolną. Następnie opowiadaliśmy napisany kod. Zwykle wychodziło wiele rzeczy do poprawy, więc od razu je aplikowaliśmy.
 
 **Metoda ad-hoc code review jest świetnym remedium na problemy PR Code Review**. Taka praktyka pozwala na bardzo wczesne zauważenie, że coś idzie nie tak. Mamy szybki feedback. W zasadzie już pojedynczy commit pozwala nam na zauważenie, że praca podąża w złym kierunku.
 
-Nie musimy jednak robić tego tylko synchronicznie. **Praktyka ta może być również przeprowadzona asynchronicznie.** Zgłaszamy informację o nowym commicie na wybranym kanale. Ktoś, kto ma akurat wolna chwilę wskakuje i sprawdza nasz kod. Szybki feedback połączony z pracą async.
+Nie musimy jednak robić tego tylko synchronicznie. **Praktyka ta może być również przeprowadzona asynchronicznie.** Zgłaszamy informację o nowym commicie na wybranym kanale. Ktoś, kto ma akurat wolną chwilę wskakuje i sprawdza nasz kod. Szybki feedback połączony z pracą async.
 
-To co jest tutaj problemem, to dość ad-hocowy (jak nazwa wskazuje) sposób przeprowadzania review. Część osób będzie się czuła rozpraszana. Można więc to rozganizować inaczej.
+To co jest tutaj problemem, to dość ad-hocowy (jak nazwa wskazuje) sposób przeprowadzania review. Część osób będzie się czuła rozpraszana. Można więc to zorganizować inaczej.
 
 ### Cykliczny code review
 
@@ -110,7 +110,7 @@ Ciekawy przykład takiego spotkania podał Maciej Jędrzejewski:
 
 {{< tweet user="mjjedmac" id="1523807732054507520" >}}
 
-Pojedyncze spotkanie, zamiast serii rozpraszaczy podczas dnia. **W jednym spotkaniu możemy upchać wiele różnych code review.** Wszystkie osoby w zespole wiedzą kiedy mogą oczekiwać sprawdzenia swojego kodu. Łatwiej jest zaplanować swoją pracę.
+Pojedyncze spotkanie, zamiast serii rozpraszaczy podczas dnia. **W jednym spotkaniu możemy upchać wiele różnych code review.** Wszystkie osoby w zespole wiedzą, kiedy mogą oczekiwać sprawdzenia swojego kodu. Łatwiej jest zaplanować swoją pracę.
 
 Wszystkie opisane powyżej działania skupiają się na ocenie pracy. A co jeśli można sprawić, by ogólnie było mniej zmian podczas code review?
 
@@ -121,7 +121,7 @@ Wszystkie opisane powyżej działania skupiają się na ocenie pracy. A co jeśl
 
 Zmieńmy nieco naszą optykę. Na co poświęcamy najwięcej czasu podczas PR Review? Na zmianach architektonicznych.
 
-Chcemy więc wypracować razem z zespołem odpowiednie plan, zanim zaczniemy wdrażać. **Usprawnieniem będą więc metody, które ułatwiają właściwe zaprojektowanie naszej architektury.** W lekki sposób określimy komunikację, kontrakt, sposób przetwarzania danych i inne.
+Chcemy więc wypracować razem z zespołem odpowiedni plan wykonania, zanim zaczniemy implementację. **Usprawnieniem będą więc metody, które ułatwiają właściwe zaprojektowanie naszej architektury.** W lekki sposób określimy komunikację, kontrakt, sposób przetwarzania danych i inne.
 
 To na co warto zwrócić uwagę:
 
@@ -129,7 +129,7 @@ To na co warto zwrócić uwagę:
 - Kolaboratywne narzędzia pracy: tablice wirtualne (np. [Miro](https://miro.com/)), tablice modelowania (np. [DomoRoboto](https://domorobo.to/)) miejsca gromadzenia wiedzy (np. [Notion](https://www.notion.so/)).
 - Techniki projektowania i ustalania rozwiązania: wizualne (np. [Event Storming](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), [Example Modeling](https://eventmodeling.org/)) czy tekstowe (np. [ADR](https://adr.github.io/) czy [RFC](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/))
 
-Taka praca również nie musi być synchroniczna. **Techniki projektowania świetnie sprawdzają się w wersji asynchronicznej** - tutaj przykład dla [Event Stormingu](/2022/01/01/event-storming-asynchronicznie/). Skupiamy sie na zbudowaniu wielu propozycji. Następnie spotykamy się razem tylko na podjęciu decyzji.
+Taka praca również nie musi być synchroniczna. **Techniki projektowania świetnie sprawdzają się w wersji asynchronicznej** - tutaj przykład dla [Event Stormingu](/2022/01/01/event-storming-asynchronicznie/). Skupiamy się na równoległym zbudowaniu wielu propozycji i zderzaniu pomysłów. Następnie spotykamy się razem tylko na podjęciu decyzji.
 
 W ostatnich latach widać coraz większą popularność takich praktyk, przez:
 
@@ -147,6 +147,6 @@ Wiele zespołów tego nie wie. A skoro nie wie, to nie może z tym nic zrobić. 
 
 PS. Draft artykułu wzbudził bardzo ciekawą dyskusję na [Twitterze](https://twitter.com/RadekMaziarka/status/1528817293785976832). Jan Kosmala pokusił się również o polemikę w artykule [Pull requests/code review jako dobra praktyka – kit czy hit?](https://blog.jankosmala.eu/2022/05/25/pull-requests-code-review-jako-dobra-praktyka-kit-czy-hit/).
 
-Odpowiedzią większości osób były praktyki, które były bliźniaczo podobne do TBD - małe branche, krótki czas życia. Jednak w mojej ocenie jest to zbyt prosta porada. Większość zespołów pracuje z ogromnymi zadaniami, w bardzo skostniałych strukturach. **Wdrożenie TBD wymaga drastycznego przearanżowania naszej pracy + zmiany mindsetu.** To nie jest coś co da się wdrożyć przez miesiąc, czy nawet kwartał. 
+Odpowiedzią większości osób były praktyki, które były bliźniaczo podobne do TBD - małe branche, krótki czas życia. Jednak w mojej ocenie jest to zbyt prosta porada. Większość zespołów pracuje z ogromnymi zadaniami, w bardzo skostniałych strukturach. **Wdrożenie TBD wymaga drastycznego przearanżowania naszej pracy + zmiany mindsetu.** To nie jest coś, co da się wdrożyć przez noc, i na drugi dzień mieć wszystko działające.
 
-Ale jest to coś, co można opisać w artykule 😉
+Ale jest to coś, co można opisać w formie listy praktyk i kolejnych kroków w osobnym artykule 😉

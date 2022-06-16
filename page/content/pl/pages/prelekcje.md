@@ -10,9 +10,9 @@ Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji
 
 ## 2022
 * 2022-06-24 - "How organizational structure affects software - Conway's law in practice" - [Devoxx](https://devoxx.pl/talk-details/?id=2313)
-* 2022-06-09 - "Modelowanie biznesowe w Cosmos DB" - [Running .NET in Azure](https://rna.gutstapp.com/#speakers)
+* 2022-06-09 - "Modelowanie biznesowe w Cosmos DB" - [Running .NET in Azure](https://rna.gutstapp.com/#speakers) - [nagranie](https://www.youtube.com/watch?v=_SRZzXiMj04&list=PLa7n6f7icPaC6Z-uPmwDjzrj9n_Jg-S8l&index=4)
 * 2022-06-04 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [Craft-IT](https://craft-it.pl/)
-* 2022-05-17 - "Mapy Wardley'a" - [Better Software Design](http://localhost:1313/2022/05/17/better-software-design-wardley-mapping/)
+* 2022-05-17 - "Mapy Wardley'a" - [Better Software Design](/2022/05/17/better-software-design-wardley-mapping/) - [nagranie](https://open.spotify.com/episode/1OiTXhiajc3gIowfi7D1Pc?si=378a245774ea4e13)
 * 2022-04-09 - "Modelowanie biznesowe w Cosmos DB" - [Microsoft Azure User Group Poland ](https://www.meetup.com/Microsoft-Azure-Users-Group-Poland/events/284682303/)
 * 2022-04-07 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [4Developers](https://4developers.org.pl/4dev-2022/)
 * 2022-03-19 - "Jak tworzyć produkt, a nie zbiór funkcjonalności" - [Boiling Frogs](https://2022.boilingfrogs.pl/?schedule=jak-tworzyc-produkt-a-nie-zbior-funkcjonalnosci)

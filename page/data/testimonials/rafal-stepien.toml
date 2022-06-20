@@ -3,3 +3,4 @@ url = 'https://www.linkedin.com/in/stepienrafal/'
 image = '/images/trainings/rafal-stepien.jpg'
 position = 'Team Leader & Senior .Net Dev at Amsterdam Standard'
 content = 'Warsztaty z Event Stormingu z Radkiem to prawdziwa gratka dla ludzi ze świata IT. Świetnie pokazuje jak radzić sobie z trudnymi tematami w taki sposób, aby cały warsztat szedł płynnie. Jako facilitator potrafi dostrzec, które osoby potrzebują większego zaangażowania w spotkanie i szybko reaguje by maksymalnie wykorzystać potencjał zebranych ludzi. Mocno polecam i wdrażam w swoją codzienną praktykę. '
+mainOrder = 1

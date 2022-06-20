@@ -388,6 +388,11 @@ ol ol li, ol ul li,
 ul ol li, ul ul li {
   padding-left: 20px; }
 
+
+ul a:hover, ul a:focus {
+  text-decoration: underline; }
+
+
 /*
  * common.scss
  * -----------------------------------------------
@@ -6344,15 +6349,11 @@ textarea.form-control {
       height: 50px;
       border-radius: 50%; }
     .owl-carousel .owl-nav button.owl-prev {
-      left: -10px; }
+      left: -20px; }
     .owl-carousel .owl-nav button.owl-next {
-      right: -10px; }
+      right: -20px; }
   .owl-carousel:hover .owl-nav > button {
     opacity: 1; }
-    .owl-carousel:hover .owl-nav > button.owl-prev {
-      left: 20px; }
-    .owl-carousel:hover .owl-nav > button.owl-next {
-      right: 20px; }
   .owl-carousel[data-focused-center-image="true"] .owl-item {
     opacity: 0.3;
     transition: all 0.4s ease; }
@@ -8117,7 +8118,7 @@ blockquote.blockquote-style8 {
   overflow: hidden;
   display: inline-block;
   white-space: nowrap;
-  transition: all 0.2s ease-in-out; }
+  transition: none; }
   @media (prefers-reduced-motion: reduce) {
     .btn {
       transition: none; } }
@@ -8424,32 +8425,6 @@ blockquote.blockquote-style8 {
 .hvr-shutter-out-horizontal:not(.btn-outline):active {
   color: #222; }
 
-.btn-theme-colored1,
-.btn-theme-colored2,
-.btn-outline-theme-colored1,
-.btn-outline--theme-colored2 {
-  position: relative;
-  z-index: 0; }
-  .btn-theme-colored1:before,
-  .btn-theme-colored2:before,
-  .btn-outline-theme-colored1:before,
-  .btn-outline--theme-colored2:before {
-    position: absolute;
-    content: '';
-    background: var(--theme-color3);
-    width: 0;
-    height: 100%;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    z-index: -1;
-    transition: all .5s ease; }
-  .btn-theme-colored1:hover:before,
-  .btn-theme-colored2:hover:before,
-  .btn-outline-theme-colored1:hover:before,
-  .btn-outline--theme-colored2:hover:before {
-    width: 100%;
-    opacity: 1; }
 
 /*
  * Shortcode: call-to-action.scss
@@ -17165,6 +17140,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
             transition: none; } }
     .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details {
       padding: 45px;
+      padding-bottom: 20px;
       position: relative;
       z-index: 0;
       transition: all 0.3s ease; }
@@ -18328,4 +18304,8 @@ $grid-breakpoints: (
   max-height: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.owl-stage-outer {
+  min-height: 440px !important;
 }

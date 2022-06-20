@@ -4,7 +4,7 @@
     <div class="owl-carousel owl-theme tm-owl-carousel-{{$numberOfShownTestimonials}}col owl-loaded owl-drag" data-nav="true" data-dots="true"
         data-autoplay="false"  data-margin="30"
         data-stagepadding="0">
-        {{ range $.Site.Data.testimonials}}
+        {{ range sort $.Site.Data.testimonials "mainOrder" "desc" }}
         <div class="owl-item">
 
 

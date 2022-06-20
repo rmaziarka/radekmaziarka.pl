@@ -128,7 +128,7 @@ To na co warto zwrócić uwagę:
 
 - Praktyki pracy: równoległe projektowanie, wykorzystywanie wizualizacji, zderzanie różnych pomysłów, niezależne oceny rozwiązań i wybieranie najlepszych. 
 - Kolaboratywne narzędzia pracy: tablice wirtualne (np. [Miro](https://miro.com/)), tablice modelowania (np. [DomoRoboto](https://domorobo.to/)) miejsca gromadzenia wiedzy (np. [Notion](https://www.notion.so/)).
-- Techniki projektowania i ustalania rozwiązania: wizualne (np. [Event Storming](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), [Example Modeling](https://eventmodeling.org/)) czy tekstowe (np. [ADR](https://adr.github.io/) czy [RFC](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/))
+- Techniki projektowania i ustalania rozwiązania: wizualne (np. [Event Storming](https://radekmaziarka.pl/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/), [Event Modeling](https://eventmodeling.org/)) czy tekstowe (np. [ADR](https://adr.github.io/) czy [RFC](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/))
 
 Taka praca również nie musi być synchroniczna. **Techniki projektowania świetnie sprawdzają się w wersji asynchronicznej** - tutaj przykład dla [Event Stormingu](/2022/01/01/event-storming-asynchronicznie/). Skupiamy się na równoległym zbudowaniu wielu propozycji i zderzaniu pomysłów. Następnie spotykamy się razem tylko na podjęciu decyzji.
 

@@ -9,6 +9,8 @@ images: ['images/2019/07/prelekcje.jpg']
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
 ## 2022
+* 2022-09-08 - "Jak modularyzacja wspiera testy" - [TestWarez](https://2022.testwarez.pl/speaker/radoslaw-maziarka/) - keynote
+* 2022-09-07 - "Event Storming i BDD - jak zacząć" - [TestWarez](https://2022.testwarez.pl/speaker/radoslaw-maziarka/) - warsztaty
 * 2022-06-24 - "How organizational structure affects software - Conway's law in practice" - [Devoxx](https://devoxx.pl/talk-details/?id=2313)
 * 2022-06-09 - "Modelowanie biznesowe w Cosmos DB" - [Running .NET in Azure](https://rna.gutstapp.com/#speakers) - [nagranie](https://www.youtube.com/watch?v=_SRZzXiMj04&list=PLa7n6f7icPaC6Z-uPmwDjzrj9n_Jg-S8l&index=4)
 * 2022-06-04 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [Craft-IT](https://craft-it.pl/)

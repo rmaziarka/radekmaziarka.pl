@@ -11,4 +11,4 @@ aliases: ['/conways-law-in-practice']
 
 During the [Devoxx](https://devoxx.pl/talk-details/?id=2313) conference I gave a presentation entitled "Loosely-Coupled Architecture - how to get rid of the domino effect".
 
-Slides and other resources from my presentation are available at [Miro](https://miro.com/app/board/uXjVOyGoCqg=).
+Slides and other resources from my presentation are available on [Miro](https://miro.com/app/board/uXjVOyGoCqg=).

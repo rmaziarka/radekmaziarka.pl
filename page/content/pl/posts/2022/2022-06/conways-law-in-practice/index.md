@@ -1,9 +1,9 @@
 ---
 title: 'Loosely-Coupled Architecture - how to get rid of the domino effect'
-url: '/2022/06/21/loosely-coupled-architecture/'
+url: '/2022/06/21/conways-law-in-public/'
 date: 2022-06-21T09:59:30+01:00
 draft: false
-images: ['2022/06/21/loosely-coupled-architecture/main.jpg']
+images: ['2022/06/21/conways-law-in-public/main.jpg']
 description: "In my presentation, I want to share how organizational structure affects created software system."
 category: 'Wystąpienia publiczne'
 aliases: ['/conways-law-in-practice']

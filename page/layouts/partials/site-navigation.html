@@ -3,12 +3,12 @@
      data-effect="fade" data-animation="none" data-align="right">
   <ul id="main-nav" class="menuzord-menu menuzord-indented" style="max-height: 100%;">
     {{ $currentPage := . }}
-    {{ $currentUrl := trim $currentPage.URL "/" }}
+    {{ $currentUrl := trim $currentPage.Permalink "/" }}
     {{ range .Site.Menus.main }}
     {{ $siteUrl := trim .URL "/" }}
     {{ if .HasChildren }}
     <li {{ if eq $currentUrl $siteUrl }}class="active"{{ end }}>
-      <a href="{{ .URL }}">
+      <a href="{{ .Permalink }}">
         {{ .Pre }}
         <span>{{ .Name }}</span>
         <span class="indicator"><i class="fa fa-angle-down"></i></span>
@@ -17,7 +17,7 @@
         
         {{ range .Children }}
         <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>
+          <a href="{{ .Permalink }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>

@@ -1,5 +1,5 @@
 ---
-title: 'How organizational structure affects software - Conway's Law in Practice'
+title: "How organizational structure affects software - Conway's Law in Practice"
 url: '/2022/06/21/conways-law-in-practice/'
 date: 2022-06-21T09:59:30+01:00
 draft: false

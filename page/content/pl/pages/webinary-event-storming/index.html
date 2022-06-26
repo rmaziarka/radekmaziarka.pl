@@ -16,7 +16,10 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
         <div class="section-content">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="title text-white text-center">Naucz się rozwiązywać problemy produktów&nbsp;cyfrowych za pomocą</h2>
+                    <h3 class="title text-white text-center">Naucz się rozwiązywać</h3>
+                    <h3 class="title text-white text-center">problemy produktów&nbsp;cyfrowych</h3>
+                    <h3 class="title text-white text-center">za
+                        pomocą</h3>
                     <h1 class="title text-white text-center">Event Stormingu</h1>
                 </div>
             </div>
@@ -28,39 +31,66 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
     <div class="container pt-xs--0 pb-xs--0">
         <div class="row">
             <div class="col-sm-8">
-                <h3>Kolejny webinar:</h3>
-                <h2>"Jak wypracowywać architekturę, która ułatwi rozwój produktu"</h2>
-                <div>13 lipca 18:00-19:00</div>
-                <div>Zostało: XYZ Licznik</div>
+                <h4>Kolejny webinar:</h4>
+                <h2>"Jak tworzyć architekturę, która ułatwi rozwój produktu"</h2>
+                <div class="font-size-32">
+                    <div><strong>Data: </strong>13 lipca 18:00-19:00</div>
+                    <div><strong>Zostało: </strong></div>
+                    <div id="flipclock1" class="clock flip-clock-wrapper" style="margin:2em;"></div>
+                </div>
             </div>
 
             <div class="col-sm-4">
-                XYZ Formularz
+                <div class="ml-embedded" data-form="2XLF9a"></div>
                 <div>
                     <strong>Dzięki zapisowi do newslettera dostaniesz:</strong>
-                    <div>👉 informacje o webinarze - przypomnienie,  link do dołączenia do spotkania, link do nagrania, materiały o Event Stormingu
-                        </div>
+                    <div>👉 informacje o webinarze - przypomnienie, link do dołączenia do spotkania, link do nagrania,
+                        materiały o Event Stormingu
+                    </div>
                     <div>👉 informacje o kolejnych spotkaniach</div>
-                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania prelekcji</div>
-                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowany czas zakończenia pisania sierpień 2022</div>
+                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania prelekcje</div>
+                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowany czas zakończenia pisania
+                        sierpień 2022
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var clock;
+        // Grab the current date
+        var currentDate = new Date();
+        // Set some date in the future. In this case, it's always Jan 1
+        var futureDate  = new Date(2022, 6, 14, 18, 0); //Date(year, month, day, hours, minutes, seconds, milliseconds);
+        // Calculate the difference in seconds between the future and current date
+        var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+        // Instantiate a coutdown FlipClock
+        clock = jQuery('#flipclock1').FlipClock(diff, {
+            clockFace: 'DailyCounter',
+            countdown: true,
+            showSeconds: false,
+            language: 'fr'
+            
+        });
+    });
+</script>
 
 <section class="bg-silver-light">
     <div class="container">
         <div class="row">
-            <div class="col-sm-10 offset-md-1 text-center">
+            <div class="col-sm-10 offset-md-1">
                 <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
-                    <div class="title-wrapper">
+                    <div class="title-wrapper  text-center">
                         <h2 class="mb-50 text-theme-colored2">Czego dowiesz się na najbliższym webinarze?</h2>
                         <div class="title-seperator-line"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 font-size-32">
                         <div>✅ Jakie problemy posiada budowanie architektury ad-hoc, bez planu</div>
                         <div>✅ Czym jest architektura ewolucyjna, skupiona na długofalowym rozwoju produktu</div>
                         <div>✅ Jak wykorzystać Event Storming do planowania zmian architektonicznych</div>
@@ -76,22 +106,22 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
         <div class="row">
             <div class="col-md-12">
                 <h2 class="title">Informacje o webinarze:</h2>
-                <div>
-                    <p>Jak uczestniczyć?</p>
-                        <ul>
-                            <li>Chcesz tylko obejrzeć: YouTube</li>
-                            <li>Chcesz zadać pytanie: dostaniesz linka po zapisie do newslettera</li>
-                            <li>Chcesz dodatkowe materiały po spotkaniu: linki w newsletterze</li>
-                            <li>Chcesz obejrzeć do 3 dni po webinarze: link w newsletterze</li>
-                        </ul>
-                    <p>Plan spotkania:</p>
-                                            <ul>
-                            <li>10 minut - opis problemu</li>
-                            <li>30 minut - rozwiązanie z Event Stormingiem</li>
-                            <li>20 minut - pytania i odpowiedzi</li>
-                        </ul>
-                    
-                    <p>Panel Q&A nie będzie dostępny po spotkaniu!</p>
+                <div class=" font-size-32">
+                    <p class="mb-10"><strong>Jak uczestniczyć?</strong></p>
+                    <ul>
+                        <li>Chcesz tylko obejrzeć: <a href="https://www.youtube.com/">YouTube</a></li>
+                        <li>Chcesz zadać pytanie: dostaniesz linka po zapisie do newslettera</li>
+                        <li>Chcesz dodatkowe materiały po spotkaniu: linki w newsletterze</li>
+                        <li>Chcesz obejrzeć do 3 dni po webinarze: link w newsletterze</li>
+                    </ul>
+                    <p class="mb-10"><strong>Plan spotkania:</strong></p>
+                    <ul>
+                        <li>10 minut - opis problemu</li>
+                        <li>30 minut - rozwiązanie z Event Stormingiem</li>
+                        <li>20 minut - pytania i odpowiedzi</li>
+                    </ul>
+
+                    <p><strong>Panel Q&A nie będzie dostępny po spotkaniu!</strong></p>
                 </div>
             </div>
         </div>
@@ -115,11 +145,11 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
                 </div>
                 <div>
                     <h3>Radek Maziarka</h3>
-                    <ul>
-                        <li>10 lat doświadczenia w branży</li>
-                        <li>Popularyzator techniki Event Stormingu i metod warsztatowych</li>
-                        <li>Architekt rozwiązań skupiony na tworzeniu produktów cyfrowych w chmurze</li>
-                    </ul>
+                    <div class=" font-size-26">
+                        <div>➕ 10 lat doświadczenia w branży</div>
+                        <div>📝 Popularyzator techniki Event Stormingu i metod warsztatowych</div>
+                        <div>👷‍♂  Architekt rozwiązań skupiony na tworzeniu produktów cyfrowych w chmurze</div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-1"></div>
@@ -141,14 +171,15 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6  text-center">
-                <h3 class="text-white">Jak przeprowadzić analizę potrzeb klienta, aby określić wszystkie kluczowe wymagania</h3>
+            <div class="col-sm-6 text-center">
+                <h3 class="text-white">Jak przeprowadzić analizę potrzeb klienta, aby określić wszystkie kluczowe
+                    wymagania</h3>
             </div>
             <div class="col-sm-6  text-center">
                 <h3 class="text-white">Jak zaplanować przebudowę systemu legacy</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row font-size-26">
             <div class="col-sm-6  text-center">
                 <div>Sierpień 2022</div>
             </div>
@@ -166,15 +197,16 @@ description: 'Naucz się rozwiązywać problemy produktów cyfrowych za pomocą 
                 <img src="miro.jpg"/>
             </div>
             <div class="col-sm-4">
-
-                XYZ Formularz
+                <div class="ml-embedded" data-form="2XLF9a"></div>
                 <div>
                     <strong>Dzięki zapisowi do newslettera dostaniesz:</strong>
-                    <div>
-                        👉🏼 informacje o webinarze - przypomnienie,  link do dołączenia do spotkania, link do nagrania, materiały o Event Stormingu
-                        👉🏼 informacje o kolejnych spotkaniach
-                        👉🏼 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania prelekcji
-                        👉🏼 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowany czas zakończenia pisania sierpień 2022
+                    <div>👉 informacje o webinarze - przypomnienie, link do dołączenia do spotkania, link do nagrania,
+                        materiały o Event Stormingu
+                    </div>
+                    <div>👉 informacje o kolejnych spotkaniach</div>
+                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania prelekcje</div>
+                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowany czas zakończenia pisania
+                        sierpień 2022
                     </div>
                 </div>
             </div>

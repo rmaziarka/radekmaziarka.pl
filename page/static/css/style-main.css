@@ -18309,3 +18309,16 @@ $grid-breakpoints: (
 .owl-stage-outer {
   min-height: 440px !important;
 }
+
+.flip-clock-label{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.flip-clock-divider .flip-clock-label {
+  bottom: -1.5em !important;
+  right: unset !important;
+  top: unset !important;
+  text-align: center !important;
+  left: 60px;
+}

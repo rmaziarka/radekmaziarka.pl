@@ -5,7 +5,6 @@ url: '/2022/06/22/modelowanie-w-cosmos-db-obiekty-bazodanowe'
 images: ['2022/06/22/modelowanie-w-cosmos-db-obiekty-bazodanowe/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - obiekty bazodanowe"
 category: 'Wzorce projektowe'
-draft: true
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. W [poprzednim odcinku](/2022/06/05/modelowanie-w-cosmos-db-wymagania-bazy-danych/) opisaliśmy wzorce dostępu do bazy wymagane do spełnienia potrzeb biznesowych.
@@ -18,7 +17,7 @@ Zwykle jak modelujemy obiekty w kodzie, to skupiamy się na aspektach fizycznych
 
 **Gdy mamy bardziej złożony biznes modelowanie skupione na właściwościach prowadzi do spaghetti code.** Kończymy z olbrzymimi modelami, które robią wszystko. A więc nie robią nic dobrze.
 
-Zobaczmy jak to wygląda na przykładzie modelu Klienta. Rozpoczynamy od prostego modelu skupionego na szukaniu klienta. Posiadamy imię klienta + przynajmniej jeden sposób w którym możemy się z tym klientem skontaktować. Na tym etapie nasi sprzedażowcy nie mają więcej danych.
+Zobaczmy jak to wygląda na przykładzie modelu Klienta. Rozpoczynamy od prostego modelu skupionego na szukaniu klienta. Posiadamy imię klienta + przynajmniej jeden sposób, w którym możemy się z tym klientem skontaktować. Na tym etapie nasi sprzedażowcy nie mają więcej danych.
 
 [![](cosmos-objects-1.jpg)](cosmos-objects-1.jpg)
 
@@ -26,7 +25,7 @@ Następnie podpisujemy umowę, a wtedy potrzebujemy dodatkowych danych - imienia
 
 [![](cosmos-objects-2.jpg)](cosmos-objects-2.jpg)
 
-Tutaj jednak zaczyna coś nie grać. Nagle email staje się wymagany. Dołączają dodatkowe pola, które w jednym przypadku są wymagane, a w drugim nie. **W tym momencie pojawią się statusy.** Inaczej nie będziemy mogli sprawdzić jakie pola muszą być wymagane.
+Tutaj jednak coś zaczyna nie grać. Nagle email staje się wymagany. Dołączają dodatkowe pola, które w jednym przypadku są wymagane, a w drugim nie. **W tym momencie pojawią się statusy.** Inaczej nie będziemy mogli sprawdzić, jakie pola muszą być wymagane.
 
 Idziemy dalej i uzupełnimy model Klienta o właściwości z obszaru Płatności i Wierzytelności. 
 
@@ -36,7 +35,7 @@ Tutaj już widzimy do jakiego piekła doszliśmy. Mamy masę informacji, ale one
 
 Z takim podejściem ucieka nam również część możliwości biznesowych:
 
-- Trudno wyliczyć skąd przychodzą klienci bo pola kontaktowe są reużywane.
+- Trudno wyliczyć, skąd przychodzą klienci, bo pola kontaktowe są reużywane.
 - Mamy informację tylko o jednym zadłużeniu, poprzednie nam uciekają.
 
 ## Being, behaving, becoming
@@ -53,16 +52,16 @@ Na podstawie analizy odpowiedzialności obiektu Klienta moglibyśmy dojść do n
 
 [![](cosmos-objects-5.jpg)](cosmos-objects-5.jpg)
 
-Posiadamy obiekty, które odwzorowują zarówno stan faktyczny jak i działanie. Mamy bardziej detaliczne obiekty, które odpowiadają na konkretne potrzeby. Nie nazywamy ich od początku. **Chcemy to zrobić dopiero wtedy kiedy mamy pewność jaka jest ich odpowiedzialność.** To pozwala nam uniknąć błędu poznawczego - [zakotwiczenia](https://pl.wikipedia.org/wiki/Heurystyka_zakotwiczenia_i_dostosowania).
+Posiadamy obiekty, które odwzorowują zarówno stan faktyczny, jak i działanie. Mamy bardziej detaliczne obiekty, które odpowiadają na konkretne potrzeby. Nie nazywamy ich od początku. **Chcemy to zrobić dopiero wtedy, kiedy mamy pewność, jaka jest ich odpowiedzialność.** To pozwala nam uniknąć błędu poznawczego - [zakotwiczenia](https://pl.wikipedia.org/wiki/Heurystyka_zakotwiczenia_i_dostosowania).
 
 
 [![](cosmos-objects-6.jpg)](cosmos-objects-6.jpg)
 
 Na tej podstawie osiągamy wymierne zyski:
 
-- Możemy mieć różne scenariusze działania - Poszukującego i Klienta, lub samego Klienta
-- Płatnik ma dane dostosowane do swojego modelu pracy
-- Dany klient może być kilka razy Dłużnikiem
+- Możemy mieć różne scenariusze działania - Poszukującego i Klienta, lub samego Klienta.
+- Płatnik ma dane dostosowane do swojego modelu pracy.
+- Dany klient może być kilka razy Dłużnikiem.
 
 ## Rozwiązanie w domenie rowerów
 
@@ -84,12 +83,12 @@ W tym momencie możemy zauważyć, że brakuje nam dodatkowego obiektu. Takiego,
 
 [![](cosmos-objects-8.jpg)](cosmos-objects-8.jpg)
 
-Widzimy, że pomimo bycia rowerem obiekty Bike i BikeAvailability różnią się wzajemnie. **Możliwość zadania sobie dodatkowych pytań pomaga nam znaleźć lepsze propozycje obiektów.** Dzięki temu odpowiedzialności zarządzania flotą rowerów i dostępnością rowerów nie przenika na siebie wzajemnie.
+Widzimy, że pomimo bycia rowerem obiekty Bike i BikeAvailability różnią się wzajemnie. **Zadanie sobie dodatkowych pytań pomaga nam znaleźć lepsze propozycje obiektów.** Dzięki temu odpowiedzialności zarządzania flotą rowerów i dostępnością rowerów nie przenika na siebie wzajemnie.
 
 
 ### Obiekty przyrastające w czasie
 
-Na koniec zastanówmy się w jaki sposób odwzorować obiekty związane z akcjami użytkownika.
+Na koniec zastanówmy się, w jaki sposób odwzorować obiekty związane z akcjami użytkownika.
 
 Tutaj możemy zapropowować 2 obiekty - Reservation i Rental:
 
@@ -110,8 +109,6 @@ W tym momencie może nam przyjść do głowy pytanie:
 W tym przypadku oceniam, że nie - odpowiedzialność takiego obiektu byłaby minimalna. Gdy w przyszłości pojawią się dodatkowe wymagania możemy zrewidować naszą decyzję.
 
 ## Podsumowanie
-
-(zdjęcie)
 
 Dzięki zastosowaniu techniki Being / Behaving / Becoming możemy zaprojektować bardziej dopasowane modele. Złożoność nie przenika pomiędzy konceptami. Poszczególne odpowiedzialności obiektów są dobrze dopasowane do problemu.
 

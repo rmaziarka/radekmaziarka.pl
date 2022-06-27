@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }} {{ end }}</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    {{ hugo.Generator }}
+
+
+    {{ $style := resources.Get "styles/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+
+    <!-- Stylesheet -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/javascript-plugins-bundle.css" rel="stylesheet"/>
+
+    <!-- CSS | Main style file -->
+    <link href="/css/style-main.css" rel="stylesheet" type="text/css">
+    <link id="menuzord-menu-skins" href="/css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+
+    <!-- CSS | Responsive media queries -->
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+
+    <!-- CSS | Theme Color -->
+    <link href="/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="icon" href="/images/favicon.jpg" sizes="192x192">
+
+    {{ if .OutputFormats.Get "RSS" }}
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      {{ end }}
+    {{ end }}
+    
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+
+
+    {{ template "_internal/google_analytics_async.html" . }}
+
+    <!-- MailerLite Universal -->
+    <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+              .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+              n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '81336');
+    </script>
+    <!-- End MailerLite Universal -->
+  </head>
+
+  {{ if not .Params.redirectTo }}
+    <body>
+  
+  
+      <main role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+  
+    </body>
+  {{end}}
+</html>
+

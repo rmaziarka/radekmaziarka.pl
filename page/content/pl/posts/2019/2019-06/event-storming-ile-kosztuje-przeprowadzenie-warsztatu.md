@@ -25,15 +25,15 @@ Osobiście polecam karteczki dwóch firm, które oferują zdecydowanie tańsze z
 
 Pierwsza z nich to marka **OFFICE** (wersja neon). Koszt standardowego bloczka o wymiarach 76x76mm to 2PLN.
 
-[caption id="attachment_1751" align="alignnone" width="300"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png) Różowe karteczki, czyli Hot Spot.[/caption]
+[![](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-1.png) 
 
-Ich jakość jest naprawdę bardzo dobra a cena bardzo niska.
+Różowe karteczki, czyli Hot Spot. Ich jakość jest naprawdę bardzo dobra a cena bardzo niska.
 
 Druga to firma **STICK'N**.
 
-[caption id="attachment_1752" align="alignnone" width="300"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png) Zdarzenia domenowe są koloru pomarańczowego.[/caption]
+[![](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png)](/images/2019/06/event-storming-ile-kosztuje-warsztat-2.png) 
 
-Cena to około 3PLN. Jakość również bardzo dobra!
+Zdarzenia domenowe są koloru pomarańczowego. Cena to około 3PLN. Jakość również bardzo dobra!
 
 Karteczki obu tych firm miałem okazje przetestować podczas wielu warsztatów i mogę je zdecydowanie rekomendować. Naprawdę nie widzę sensu wybierania najdroższych na rynku karteczek, skoro tańsze zamienniki robią robotę a kosztują zdecydowanie mniej. Jest to element, na którym możemy najwięcej zaoszczędzić (bez utraty jakości!)
 
@@ -57,7 +57,9 @@ Może również wykorzystać szary papier wykorzystywany do pakowania przesyłek
 
 Ważne aby nie przyklejać karteczke bezpośrednio do ściany. Po pierwsze klej z karteczek może ją pobrudzić. Po drugie po zakończeniu sesji będziemy prawdopodobnie chcieli przenieść powstały model w inne miejsce niż to, gdzie robiliśmy warsztat.
 
-[caption id="attachment_1753" align="alignnone" width="770"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg) Przykład wykorzystania szarej rolki papieru, dostepnej na każdej poczcie. (obrazek pochodzi z : https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d)[/caption]
+[![](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-3.jpg)
+
+Przykład wykorzystania szarej rolki papieru, dostepnej na każdej poczcie. (obrazek pochodzi z [postu](https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d) Donala Springa)
 
 ## Event Storming starter kit
 
@@ -78,9 +80,9 @@ Poniżej skompletowałem zestaw, kupowany przy stanie braku absolutnie wszystkie
 
 Taśmy malarskiej (oprócz do wydzielania subdomen) użyjemy do przyklejenia papieru do ściany tak by stworzyć nasz warsztat pracy.
 
-[caption id="attachment_1754" align="alignnone" width="770"][![](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg) Przygotowywanie miejsca pracy przy użyciu taśmy malarskiej.[/caption]
+[![](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-4.jpg) Przygotowywanie miejsca pracy przy użyciu taśmy malarskiej.
 
-Całość zamknie się w około 150 zł netto
+Całość zamknie się w około 150 zł netto.
 
 [![](/images/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)](/images/2019/06/event-storming-ile-kosztuje-warsztat-5.jpg)
 

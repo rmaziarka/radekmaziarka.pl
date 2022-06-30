@@ -40,7 +40,7 @@ Z takim podejściem ucieka nam również część możliwości biznesowych:
 
 ## Being, behaving, becoming
 
-Sławek Sobótka na swojej [prezentacji](https://www.youtube.com/watch?v=do-xqIbKZ_8) "Co gryzie świadomego programistę" przedstawił remedium na taki stan rzeczy (a w zasadzie przytoczył metodę z [książki](https://www.goodreads.com/book/show/1639010.Rethinking_Systems_Analysis_and_Design) "Rethinking Systems Analysis and Design" Gerrego Weinberga).
+Sławek Sobótka na swojej [prezentacji](https://www.youtube.com/watch?v=do-xqIbKZ_8) "Co gryzie świadomego programistę" przedstawił remedium na taki stan rzeczy (a w zasadzie przytoczył podejście z [książki](https://www.goodreads.com/book/show/1639010.Rethinking_Systems_Analysis_and_Design) "Rethinking Systems Analysis and Design" Geralda Weinberga).
 
 Sławek pokazał jak można lepiej modelować obiekty na podstawie podejścia Being / Behaving / Becoming:
 

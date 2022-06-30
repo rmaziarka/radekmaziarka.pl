@@ -30,26 +30,39 @@ layout: 'webinars'
 <section class="">
     <div class="container pt-xs-40 pb-xs-40">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12 text-center">
                 <h4>Kolejny webinar:</h4>
-                <h2>"Jak projektować architekturę, która ułatwi rozwój Twojego produktu"</h2>
-                <div style="font-size:150%; color: rgb(9, 42, 73); font-family: Mulish, sans-serif;">
-                    <div>Kiedy? <strong>13 lipca 18:00-19:00 </strong></div>
-                    <div>Zostało: <strong><span id="countdown"></span></strong></div>
+                <h2>"Jak projektować architekturę,<br/> która ułatwi rozwój Twojego produktu"</h2>
+                <h4 class="mt-40">Kiedy:</h4>
+                <h3>20 lipca 18:00-19:00</h3>
+                <h4 class="mt-40">Zostało:</h4>
+                <h3 id="countdown"></h3>
+                <p class="mt-30 mb-10">Spotkanie będzie transmitowane na <a href="https://www.youtube.com/">YouTube</a>.</p>
+                <a href="#newsletter"  class="btn btn-theme-colored2 btn-lg">Chcę dostęp ekstra</a>
+                <p class="mt-10 mb-0"><strong>Dostęp ekstra przez newsletter:</strong></p>
+                <div>
+                    <div>👉 Możesz zadać pytanie podczas sesji Q&A.</div>
+                    <div>👉 Dostaniesz dodatkowe materiały w temacie spotkania.</div>
+                    <div>👉 Dostaniesz link z nagraniem aktywny do 3 dni po webinarze.</div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
 
-            <div class="col-sm-4 mt-xs-20">
+<section class="bg-silver-light" id="newsletter">
+    <div class="container pt-xs-40 pb-xs-40">
+        <div class="row">
+            <div class="col-sm-8 offset-md-2">
                 <div class="ml-embedded" data-form="2XLF9a"></div>
-                <div class="mt-xs-10">
+                <div class="mt-10">
                     <strong>Dzięki zapisowi do newslettera dostaniesz:</strong>
-                    <div>👉 informacje o webinarze - przypomnienie, link do dołączenia do spotkania, link do nagrania,
-                        materiały o Event Stormingu
+                    <div>👉 dostęp ekstra do webinaru - przypomnienie, link do dołączenia do spotkania, link do nagrania,
+                        materiały o Event Stormingu.
                     </div>
-                    <div>👉 informacje o kolejnych spotkaniach</div>
-                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania, kursy, prelekcje</div>
-                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowana data publikacji
-                        sierpień 2022
+                    <div>👉 informacje o kolejnych spotkaniach.</div>
+                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania, kursy, prelekcje.</div>
+                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowana data publikacji sierpień 2022.
                     </div>
                 </div>
             </div>
@@ -89,18 +102,18 @@ layout: 'webinars'
 
             // format countdown string + set tag value
             countdown.innerHTML = '<span class="days">' + days +  ' <label>dni,</label></span> <span class="hours">' + hours + ' <label>godzin,</label></span> <span class="minutes">'
-                + minutes + ' <label>minut,</label></span> <span class="seconds">' + seconds + ' <label>sekund.</label></span>';
+                + minutes + ' <label>minut,</label></span> <span class="seconds">' + seconds + ' <label>sekund</label></span>';
 
         }
 </script>
 
-<section class="bg-silver-light">
+<section class="bg-theme-colored1 text-white">
     <div class="container pt-xs-40 pb-xs-40">
         <div class="row">
             <div class="col-sm-10 offset-md-1">
                 <div class="tm-sc-section-title section-title section-title-style1 text-center  line-bottom-style2-solid-line">
                     <div class="title-wrapper  text-center">
-                        <h2 class="mb-50 text-theme-colored2">Czego dowiesz się na najbliższym webinarze?</h2>
+                        <h2 class="mb-50 text-white">Czego dowiesz się na najbliższym webinarze?</h2>
                         <div class="title-seperator-line"></div>
                     </div>
                 </div>
@@ -122,18 +135,19 @@ layout: 'webinars'
             <div class="col-md-12">
                 <h2 class="title">Informacje o webinarze:</h2>
                 <div style="font-size:150%;">
-                    <p class="mt-30 mb-10"><strong>Jak uczestniczyć?</strong></p>
-                    <ul>
-                        <li>Chcesz tylko obejrzeć: <a href="https://www.youtube.com/">YouTube</a></li>
-                        <li>Chcesz zadać pytanie: dostaniesz linka po zapisie do newslettera</li>
-                        <li>Chcesz dodatkowe materiały po spotkaniu: linki w newsletterze</li>
-                        <li>Chcesz obejrzeć do 3 dni po webinarze: link w newsletterze</li>
-                    </ul>
                     <p class="mb-10"><strong>Plan spotkania:</strong></p>
                     <ul>
                         <li>10 minut - opis problemu</li>
                         <li>30 minut - rozwiązanie z Event Stormingiem</li>
                         <li>20 minut - pytania i odpowiedzi</li>
+                    </ul>
+
+                    <p class="mb-10"><strong>Poruszane tematy:</strong></p>
+                    <ul>
+                        <li>Big Ball of Mud</li>
+                        <li>Architektura ewolucyjna</li>
+                        <li>Event Storming Process Level</li>
+                        <li>Bounded Context</li> 
                     </ul>
 
                     <p><strong>Panel Q&A nie będzie dostępny po spotkaniu!</strong></p>
@@ -202,22 +216,21 @@ layout: 'webinars'
 <section>
     <div class="container  pt-xs-30 pb-xs-30">
         <div class="row">
-            <div class="col-sm-8">
-                <img src="miro.jpg"/>
+            <div class="col-sm-1">
             </div>
             <div class="col-sm-4 pt-xs-20">
-                <div class="ml-embedded" data-form="2XLF9a"></div>
+                <a href="#newsletter"  class="btn btn-theme-colored2 btn-lg">Chcę dostęp ekstra</a>
+                <p class="mt-10 mb-0"><strong>Dostęp ekstra przez newsletter:</strong></p>
                 <div>
-                    <strong>Dzięki zapisowi do newslettera dostaniesz:</strong>
-                    <div>👉 informacje o webinarze - przypomnienie, link do dołączenia do spotkania, link do nagrania,
-                        materiały o Event Stormingu
-                    </div>
-                    <div>👉 informacje o kolejnych spotkaniach</div>
-                    <div>👉 wartościowe treści w tematach mojej aktywności np. nowe artykuły, nagrania prelekcje</div>
-                    <div>👉 ebook "Jak rozpocząć pracę z Event Stormingiem" - planowana data publikacji
-                        sierpień 2022
-                    </div>
+                    <div>👉 Możesz zadać pytanie podczas sesji Q&A.</div>
+                    <div>👉 Dostaniesz dodatkowe materiały w temacie spotkania.</div>
+                    <div>👉 Dostaniesz link z nagraniem aktywny do 3 dni po webinarze.</div>
                 </div>
+            </div>
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-6">
+                <img src="miro.jpg"/>
             </div>
         </div>
     </div>

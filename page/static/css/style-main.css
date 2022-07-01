@@ -18309,3 +18309,21 @@ $grid-breakpoints: (
 .owl-stage-outer {
   min-height: 440px !important;
 }
+
+.webinar-information-topic-text{
+  display: flex; align-items: center; justify-content: right;
+}
+
+.webinar-information-topic-icon{
+  display: flex; align-items: center; justify-content: left;
+}
+
+@media (max-width: 991.98px) {
+  .webinar-information-topic-text{
+    justify-content: center;
+  }
+  
+  .webinar-information-topic-icon{
+    justify-content: center;
+  }
+}

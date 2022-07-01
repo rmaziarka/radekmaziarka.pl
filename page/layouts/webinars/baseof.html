@@ -29,6 +29,10 @@
     <!-- CSS | Theme Color -->
     <link href="/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
 
+    <!-- CSS | timeline -->
+    <link href="/js/timeline-cd-horizontal/css/timeline-cd-horizontal.css" rel="stylesheet" type="text/css">
+    <link href="/js/timeline-cd-vertical/css/timeline-cd-vertical.css" rel="stylesheet" type="text/css">
+    <link href="/js/timeline-horizontal-vertical/css/timeline-horizontal-vertical.css" rel="stylesheet" type="text/css">
 
     <link rel="icon" href="/images/favicon.jpg" sizes="192x192">
 
@@ -66,6 +70,9 @@
         {{ block "main" . }}{{ end }}
       </main>
       {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+      
+      <script src="/js/timeline-horizontal-vertical/js/timeline-horizontal-vertical.min.js"></script>
+      <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
   
     </body>
   {{end}}

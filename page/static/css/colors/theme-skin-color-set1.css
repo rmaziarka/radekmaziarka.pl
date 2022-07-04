@@ -2211,6 +2211,11 @@ blockquote.footer-cite-theme-colored footer {
  * Shortcode: section-title.scss
  * -----------------------------------------------
 */
+
+
+.bg-silver-light .tm-sc-section-title.line-bottom-style2-solid-line .title-wrapper:after {
+  background-color: #092a49; }
+
 .tm-sc-section-title.line-bottom-style2-solid-line .title-wrapper:after {
   background-color: #004aad; }
 

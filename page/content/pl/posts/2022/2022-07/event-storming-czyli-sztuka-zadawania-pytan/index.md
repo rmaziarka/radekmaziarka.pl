@@ -10,13 +10,13 @@ draft: true
 
 Storming to oczywiście są karteczki pomarańczowe ze zdarzeniami. Rzucamy je na tablicę aby pokazać określony proces biznesowy. Następnie układamy je wedle konkretnego schematu. Określamy kilka problemów i gotowe.
 
-Tak niestety nie jest. **Nie zadając odpowiednich pytań tracimy 80% zysku z wykorzystywania Event Stormingu**.  Wtedy ta technika nie będzie bardziej skuteczna niż zwykła analiza wykonana w Wordzie. Dopiero wizualizacja + pytania dają nam odpowiedni poziom analizy problemu.
+Tak niestety nie jest. **Nie zadając odpowiednich pytań tracimy 80% zysku z wykorzystywania Event Stormingu**.  Wtedy ta technika nie będzie bardziej skuteczna niż zwykła analiza wykonana w Wordzie, czy na makietach. Dopiero odpowiednia wizualizacja + dokładne pytania dają nam właściwy poziom analizy.
 
-Pokażmy sobie ten problem na podstawie zwrotu produktów do Zalando.
+Pokażmy sobie ten problem na podstawie zwrotu produktów do sklepu (np. do Zalando).
 
 ## W czym leży problem
 
-Załóżmy, że chcemy zwizualizować proces zwrotu towaru do Zalando. Po analizie z biznesem wyszedł nam taki rezultat:
+Załóżmy, że pracujemy z Działem Zwrotów. Po analizie z pracownikami tego działu wyszedł nam poniższy proces:
 
 // ES
 		○ Klient utworzył zwrot w aplikacji
@@ -27,7 +27,7 @@ Załóżmy, że chcemy zwizualizować proces zwrotu towaru do Zalando. Po analiz
         ○ Wysłano maila do klienta z informacją
 
 
-Posiadamy tutaj cały proces, po kolei wszystkie zdarzenia. Proces jest kompletny - od utworzenia zwrotu do wysłania maila z informacją, że zwrot pieniedzy miał miejsce. 
+Proces wydaje się kompletny - od utworzenia zwrotu do wysłania maila z informacją, że zwrot pieniedzy miał miejsce. 
 
 Czy powinniśmy być zadowoleni? Sądzicie, że jest OK?
 
@@ -54,7 +54,7 @@ Na tej podstawie możemy dojść do następujących wniosków:
 - Nie możemy 100% określić, że klient wysłał do nas paczkę. Nawet jeśli wygenerował przez naszą stronę wysyłkę kurierem to mógł ją nadać inaczej. Musimy monitorować zwroty, aby móc znaleźć te rozbieżności.
 - Paczka mogła się zgubić po drodze lub zawieruszyć u dostawcy. Wtedy klient będzie zły, że nie otrzymał pieniędzy, a zrobił wszystko co powinien.
 
-Nasza tablica ES może wtedy wyglądać następująco:
+W takim przypadku rozwiązaniem może być prosty monitoring zwrotu, który najpierw skontaktuje się z klientem. Następnie, gdy klient nie odpowie, to zamknie zwrot. Nasza tablica ES może wtedy wyglądać następująco:
 
 ### Czy klient zawsze postępuje tak samo?
 
@@ -66,7 +66,7 @@ Na tej podstawie pojawia się nam scenariusz:
 
 - Czy klient może wysłać towary do zwrotu bez dodania zwrotu w systemie?
 
-**Oczywiście, że może - sam tak zrobiłem 😀** W tym przypadku, zdarzenie "Odebrano zwrot" jest nieprawidłowym zdarzeniem. My nie wiemy czy paczka ze zwrotem posiada swój odpowiednik w systemie. Wobec czego musimy podejść do tematu oddzielnie:
+**Oczywiście, że może - sam tak zrobiłem 😀** W tym przypadku, zdarzenie "Odebrano zwrot" jest nieprawidłowym zdarzeniem. My nie wiemy czy paczka ze zwrotem posiada swój odpowiednik w systemie. Jednocześnie skoro klient wysłał nam te towary to pewnie chce dokonać tego zwrotu. Wobec czego w przypadku braku zwrotu w systemie musimy go sami stworzyć:
 
 // ES
 
@@ -87,7 +87,7 @@ Tego pytania używamy, aby znaleźć reguły reakcji na istotne zdarzenia w nasz
 
 - Czego klient nie może zrobić po stworzeniu zwrotu?
 
-Najprawdopodobniej nie może już utworzyć nowego zwrotu na te same towary. To mogłoby spowodować duże zamieszanie w systemie i potencjalny wielokrotny zwrot tych samych pieniedzy. Warto by mu więc ograniczyć możliwość dokonania zwrotu drugi raz.
+Najprawdopodobniej nie może już utworzyć nowego zwrotu na te same towary. To mogłoby spowodować duże zamieszanie w systemie i potencjalny wielokrotny zwrot tych samych pieniedzy. Warto by mu więc ograniczyć możliwość dokonania zwrotu drugi raz.doda
 
 // ES
 
@@ -108,3 +108,13 @@ Tutaj technicznie można wszystko obsłużyć. Ale biznesowo część opcji moż
 Wtedy nasz proces będzie wyglądać następująco:
 
 Mała uwaga dotycząca stosowania tego pytania w praktyce. **Nie pozwalajcie na równocześnie na słowa "Wyedytowano" / "Zaktualizowano" w waszych zdarzeniach** (przynajmniej bez głębszej analizy). To jest ukryte siedlisko różnych przypadków brzegowych.
+
+## Podsumowanie
+
+Z 6 zdarzeń i 2 procesów doszliśmy do 18 zdarzeń i 7 procesów. Jeśli wejdziemy głębiej w detale wysyłania paczki czy problemów ze zwrotem pewnie jeszcze zwiększymy ten wynik. Robi się coraz bardziej skomplikowane 😨
+
+Ale taki jest cel ponieważ taka jest otaczająca nas rzeczywistość. **Odpowiednia wizualizacja pozwala nam na zadawanie lepszych pytań.** Zaś lepsze pytania pozwalają nam jeszcze głębiej odkrywać złożoności naszego procesu. I lepiej go wizualizować. Mamy tutaj typowe sprzeżenie zwrotne dodanie:
+
+// zdjęcie wizualizacja -> zrozumienie problemu -> pytanie -> odpowiedź -> wizualizacja
+
+To co jest ważne to podejście iteracyjne. Za pierwszym razem nie uda nam się znaleźć wszystkich scenariuszy. Ale nikt nie mówił, że należy tylko raz przeprowadzać sesję Event Stormingu 😀

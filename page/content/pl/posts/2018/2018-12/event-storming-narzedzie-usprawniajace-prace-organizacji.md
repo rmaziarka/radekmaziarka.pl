@@ -15,6 +15,8 @@ W poprzednim [artykule](/2018/12/06/event-storming-jak-szybko-odkrywac-nieznane/
 
 Jednak, to czego brakuje w internecie, to informacji czy i w jaki sposób ten warsztat pozwalałby wyjść poza ramy systemów IT. **Postanowiliśmy więc opisać jak wykorzystać Event Storming do poprawy procesów firmy lub organizacji.** W opisie poniżej znajdziecie możliwe porady i nasze przemyślenia, wraz ze zdjęciami z warsztatów, które współprowadziliśmy.
 
+{{< advertisement type="Event Storming">}}
+
 ## Po co w ogóle Event Storming w organizacji
 
 Każda firma lub organizacja posiada ustalone procesy (jasno lub mgliście), które pozwalają jej działać i osiągać cele. Często jednak sposób działania poszczególnych jednostek, bądź całych działów nie jest efektywny. Nie zauważamy, co się dzieje obok nas, pewne rzeczy dzieją się zupełnie bez naszej wiedzy, a równie często zdarza się, robimy kilka razy to samo. Zachodzi tutaj  problem dystrybucji wiedzy, który świetnie przedstawił Alberto w swojej [prezentacji](https://www.slideshare.net/ziobrando/50000-orange-stickies-later/12) o Event Stormingu:

@@ -17,6 +17,8 @@ Warsztat ten jest skierowany i opisywany głównie na podstawie systemów inform
 
 Przeprowadzenie warsztatów nie wymaga specjalistycznej znajomości opasłych ksiąg i dziesiątek video – wszystko zaczyna się od pomarańczowej karteczki.
 
+{{< advertisement type="Event Storming">}}
+
 ## Zdarzenie domenowe – serce warsztatu
 
 Event Storming opiera się na zdarzeniach domenowych – faktach opisujących pracę naszego systemu. Każde zdarzenie zapisujemy na karteczce i umieszczamy na ścianie. Poniżej moje (lekko niestarannie napisane) zdarzenie- dodanie produktu do koszyka.

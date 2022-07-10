@@ -10,6 +10,8 @@ tags: ['']
 
 Mamy kolejną falę epidemii wirusa. Ponownie wszystkie warsztaty na miejscu zostały anulowane. Postanowiłem więc przetłumaczyć [mój artykuł](/2020/03/29/event-storming-remotely-tips-and-tricks/) z poprzedniego lockdownu, o tym jak przeprowadzać warsztaty Event Storming (i nie tylko) przez internet. Powinien wam pomóc rozpocząć przygodę ze zdalną pracą nad procesami, dopóki sytuacja się nie poprawi.
 
+{{< advertisement type="Event Storming">}}
+
 ## Event Storming zdalnie - czy to w ogóle możliwe?
 
 Rozpocznę od bardzo ważnej kwestii - nie da się przeprowadzić warsztatów tak jak się to robiło do tej pory, jedynie zmieniając formę pracy ze ściany w firmie na ścianę wirtualną. Kilka kwestii nie będzie działało tak jak dotychczas:

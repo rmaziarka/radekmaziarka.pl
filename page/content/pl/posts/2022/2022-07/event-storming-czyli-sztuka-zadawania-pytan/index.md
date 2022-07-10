@@ -15,6 +15,8 @@ Taki proces nie wytrzyma zderzenia z rzeczywistością, ponieważ sesja nie pomo
 
 Pokażmy sobie ten problem na podstawie zwrotu produktów do sklepu (np. do Zalando).
 
+{{< advertisement type="Event Storming">}}
+
 ## W czym leży problem
 
 Załóżmy, że pracujemy z Działem Zwrotów. Po analizie z pracownikami tego działu wyszedł nam poniższy proces:

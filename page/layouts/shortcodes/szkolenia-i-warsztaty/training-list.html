@@ -1,0 +1,9 @@
+{{$trainings :=
+    (where
+        (where .Site.Pages "Section" "trainings")
+    ".Params.title" "!=" nil )
+}}
+
+{{ range sort $trainings "Params.title" "asc" }}
+    {{ partial "szkolenia-i-warsztaty/training-tile" . }}
+{{ end }}

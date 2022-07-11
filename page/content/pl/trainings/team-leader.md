@@ -12,10 +12,10 @@ targetGroup: 'Zespoły programistyczne, architekci, testerzy, kadra zarządzają
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
 knowledgeToObtain: [
-    'Główne zasady dotyczące dowodzenia pracą zespołu',
-    'Umiejętność prawidłowego powierzania zadań zespołowi',
-    'Techniki motywacyjne i wspierające zespół',
-    'Czynniki psychologiczne wpływające na pracę zespołu',
+    'Poznasz główne zasady dotyczące dowodzenia pracą zespołu',
+    'Nabędziesz umiejętności prawidłowego powierzania zadań zespołowi',
+    'Nauczysz się technik motywacji i wspierania zespołu',
+    'Poznasz czynniki psychologiczne zwiększające wydajność zespołu',
 ]
 trainingPlan: [
     [

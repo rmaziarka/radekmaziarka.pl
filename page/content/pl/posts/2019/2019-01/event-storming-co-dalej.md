@@ -13,6 +13,8 @@ Co można zrobić dalej z rezultatem warsztatu Event Storming Big Picture?
 
 Wszystko zależy do waszych potrzeb 😉 Przygotowałem parę przykładów, które mogą być dla was wskazówką w kontynuacji warsztatów. Część z nich jest zorientowana bardziej na tworzenie rozwiązania, część skupia się na dalszym brainstormingu, a cześć ma za zadanie zakończyć warsztat estymacją i roadmapą. Kolejność dość przypadkowa.
 
+{{< advertisement type="Event Storming">}}
+
 ## 1 - Zdjęcie / zrzut do pliku
 
 Przykład najbardziej trywialny. W niektórych biurach nie da zostawić się efektów warszatu na ściacie. Trzeba więc go jakoś zdigitalizować.

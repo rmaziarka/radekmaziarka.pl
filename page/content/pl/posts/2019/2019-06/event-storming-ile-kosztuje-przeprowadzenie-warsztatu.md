@@ -15,6 +15,8 @@ Z Event Stormingiem jest jak z jazdą na rowerze - wymaga praktyki. Można przec
 
 Ile zatem kosztuje przeprowadzenie sesji dla średniej wielkości zespołu? Co trzeba mieć a bez czego można się obejść? Jak zoptymalizować koszty, bez utraty jakości?
 
+{{< advertisement type="Event Storming">}}
+
 ## Karteczki
 
 Karteczki samoprzylepne (ang: Sticky Notes) czyli fundament naszego warsztatu. Będziemy ich potrzebować dosyć sporo i nie warto oszczędzać na ich ilości. Alberto Brandolini - czyli twórca techniki, dość mocno promuje karteczki marki Post-it.

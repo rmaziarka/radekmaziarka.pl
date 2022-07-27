@@ -4,12 +4,14 @@ date: Sun, 27 Feb 2022 09:40:09 +0000
 url: '/2022/02/27/modelowanie-w-cosmos-db-zwrot'
 images: ['2022/02/27/modelowanie-w-cosmos-db-zwrot/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - analiza potrzeb w obszarze zwrotów"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. W  tym odcinku skończymy analizę potrzeb biznesowych obszarem zwrotu wypożyczonych rowerów.
 
 W kolejnych odcinkach przejdziemy do analizy scenariuszy pod kątem wymagań bazy danych 💻
+
+{{< advertisement type="Cosmos">}}
 
 ## Wypożyczenia bez rezerwacji
 

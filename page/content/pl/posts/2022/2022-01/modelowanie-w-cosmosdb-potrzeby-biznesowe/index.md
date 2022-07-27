@@ -4,8 +4,10 @@ date: Mon, 24 Jan 2022 09:40:09 +0000
 url: '/2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe'
 images: ['2022/01/24/modelowanie-w-cosmos-db-potrzeby-biznesowe/cosmos-modeling.jpg']
 description: "Rozpoczęcie cyklu o modelowaniu w Cosmos DB - zebranie potrzeb biznesowych"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
+
 ---
+
 
 W internecie niewiele jest dobrze opisanych przykładów modelowania danych w Cosmos DB. 
 Większość przykładów opartych o tą bazę jest albo:
@@ -23,6 +25,8 @@ Chcę wziąć na tapet ciekawy problem biznesowy i rozpisać jak krok po kroku d
 - Określić, które rozwiązanie będzie najlepiej spełniało potrzeby
 
 A więc do dzieła!
+
+{{< advertisement type="Cosmos">}}
 
 ## Modelowanie
 

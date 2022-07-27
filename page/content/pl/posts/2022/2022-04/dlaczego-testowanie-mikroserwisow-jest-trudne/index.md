@@ -22,6 +22,7 @@ Tłem dla tego artykułu będzie cykl tweetów Gergely'ego Orosza. Zmiana w serw
 
 {{< tweet user="GergelyOrosz" id="1502947315279187979" >}}
 
+{{< advertisement type="DDD">}}
 
 ## Codzienna praktyka testów mikroserwisów
 

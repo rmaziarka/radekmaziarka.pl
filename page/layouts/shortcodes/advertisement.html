@@ -1,8 +1,36 @@
 {{ $type := .Get "type" }}
 
+{{ if eq $type "Event Storming" }}
+<!--
 <a href="/webinary-event-storming/">
     <picture>
         <source media="(min-width: 768px)" srcset="/images/advertisement/wide.png">
         <img src="/images/advertisement/square.png"/>
     </picture>
 </a>
+-->
+<a class="mt-40 mb-40" style="display: block" href="/szkolenia-i-warsztaty/event-storming-nauka-od-podstaw/">
+    <picture>
+        <source media="(min-width: 768px)" srcset="/images/advertisement/es-wide.jpg">
+        <img src="/images/advertisement/es-square.jpg"/>
+    </picture>
+</a>
+{{ else if eq $type "DDD" }}
+
+<a class="mt-40 mb-40" style="display: block"  href="/szkolenia-i-warsztaty/domain-driven-design/">
+    <picture>
+        <source media="(min-width: 768px)" srcset="/images/advertisement/ddd-wide.jpg">
+        <img src="/images/advertisement/ddd-square.jpg"/>
+    </picture>
+</a>
+
+{{ else if eq $type "Cosmos" }}
+
+<a class="mt-40 mb-40" style="display: block"  href="/szkolenia-i-warsztaty/modelowanie-biznesowe-z-cosmos-db/">
+    <picture>
+        <source media="(min-width: 768px)" srcset="/images/advertisement/cosmosdb-wide.jpg">
+        <img src="/images/advertisement/cosmosdb-square.jpg"/>
+    </picture>
+</a>
+{{ end }}
+

@@ -4,12 +4,14 @@ date: 2022-06-22T09:59:30+01:00
 url: '/2022/06/22/modelowanie-w-cosmos-db-obiekty-bazodanowe'
 images: ['2022/06/22/modelowanie-w-cosmos-db-obiekty-bazodanowe/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - obiekty bazodanowe"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. W [poprzednim odcinku](/2022/06/05/modelowanie-w-cosmos-db-wymagania-bazy-danych/) opisaliśmy wzorce dostępu do bazy wymagane do spełnienia potrzeb biznesowych.
 
 W tym odcinku określimy obiekty bazodanowe. Chciałbym tutaj przedstawić podejście, które pozwoli nam uniknąć głównych problemów związanych z takim modelowaniem.
+
+{{< advertisement type="Cosmos">}}
 
 ## Problem z modelowaniem obiektów
 

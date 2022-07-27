@@ -4,10 +4,12 @@ date: Sat, 12 Feb 2022 09:40:09 +0000
 url: '/2022/02/12/modelowanie-w-cosmos-db-wypozyczenie'
 images: ['2022/02/12/modelowanie-w-cosmos-db-wypozyczenie/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - analiza potrzeb w obszarze wypożyczeń"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB, na podstawie rozmów biznesem i analizą ich potrzeb. Po rezerwacjach przechodzimy do obszaru wypożyczeń.
+
+{{< advertisement type="Cosmos">}}
 
 ## Wypożyczenia bez rezerwacji
 

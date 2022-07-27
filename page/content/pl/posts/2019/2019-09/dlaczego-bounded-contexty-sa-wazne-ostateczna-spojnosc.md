@@ -13,6 +13,8 @@ tags: ['ddd', 'domain driven design']
 
 Punktem, który często pojawia się podczas pisania systemów rozproszonych jest kwestia zapanowania nad spójnością danych. Temat jest bardzo często interpretowany w sposób kompletnie nieprzystający do rzeczywistości, w ramach której pracujemy. Ostateczna spójność (Eventual Consistency) jest odrzucana jako coś niepożądanego. Chcemy osiągnąć natychmiastową spójność, co rodzi więcej problemów niż tworzy zysków.
 
+{{< advertisement type="DDD">}}
+
 ## Rozproszony system zamówień
 
 Załóżmy, że posiadamy rozproszony system e-commerce. Każdy z mikroserwisów realizuje swoją funkcję:

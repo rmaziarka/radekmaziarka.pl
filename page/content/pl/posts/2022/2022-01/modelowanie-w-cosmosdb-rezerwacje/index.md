@@ -4,10 +4,12 @@ date: Sun, 30 Jan 2022 09:40:09 +0000
 url: '/2022/01/30/modelowanie-w-cosmos-db-rezerwacje'
 images: ['2022/01/30/modelowanie-w-cosmos-db-rezerwacje/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - analiza potrzeb w obszarze rezerwacji"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB z rozmowami z biznesem i analizą ich potrzeb. Rozpoczynamy od początku, czyli od rezerwacji.
+
+{{< advertisement type="Cosmos">}}
 
 ## Mapa miasta
 

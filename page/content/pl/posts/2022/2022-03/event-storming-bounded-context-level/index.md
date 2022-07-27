@@ -13,6 +13,8 @@ category: 'Event Storming'
 
 Powstaje jednak pytanie jak pokazać procesy wewnątrz takiego Bounded Contextu.
 
+{{< advertisement type="DDD">}}
+
 ## Skąd potrzeba
 
 Załóżmy, że mamy taki proces biznesowy:

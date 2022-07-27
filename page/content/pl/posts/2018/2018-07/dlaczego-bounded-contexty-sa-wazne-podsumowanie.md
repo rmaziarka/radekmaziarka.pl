@@ -22,4 +22,4 @@ W tym poście będę zbierał materiały opublikowane w cyklu "Dlaczego Bounded 
  *   [Jak wyznaczać konteksty?](/2022/01/01/dlaczego-bounded-contexty-sa-wazne-jak-wyznaczac/)
  *   Zbiory danych
 
-Na koniec pojawi się podsumowanie.
+{{< advertisement type="DDD">}}

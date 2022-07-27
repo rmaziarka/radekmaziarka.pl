@@ -4,12 +4,14 @@ date: 2022-06-04T09:59:30+01:00
 url: '/2022/06/05/modelowanie-w-cosmos-db-wymagania-bazy-danych'
 images: ['2022/06/05/modelowanie-w-cosmos-db-wymagania-bazy-danych/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - zdefiniowanie wymagań bazy danych"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. W poprzednim odcinku wykorzystaliśmy **tabelę wzorców dostępu**, aby pokazać, w jaki sposób można zdefiniować wymagania dotyczące bazy danych - [artykuł](/2022/04/17/modelowanie-w-cosmos-db-wzorce-dostepu/).
 
 W tym odcinku przejdziemy przez wszystkie wymagania i spiszemy je w formie wzorców dostępu. 
+
+{{< advertisement type="Cosmos">}}
 
 ## Rezerwacje
 

@@ -12,7 +12,7 @@ aliases: ['/zmapuj-dowolny-proces']
 
 W ramach [Wrocławskiego JUGa](https://www.meetup.com/pl-PL/WroclawJUG/events/265637715/) wystąpiłem z prezentacją “Event Storming - zmapuj dowolny proces”. Prezentacja dostępna jest na [OneDrive](https://1drv.ms/p/s!AjEySs0anBSPg71OkEJD-MKbBwK62w?e=KSbwb9).
 
-Jeśli  chciałbyś / chciałabyś nauczyć się przeprowadzać Event Storming na kanwie własnych projektów to polecam moje** [warsztaty z Event Stormingu](/szkolenia/event-storming).**
+{{< advertisement type="Event Storming">}}
 
 ## Nagranie:
 {{< youtube 1XrE0NMCmAo >}}

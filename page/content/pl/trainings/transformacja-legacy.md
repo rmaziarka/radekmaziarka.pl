@@ -10,7 +10,6 @@ promoText: 'Zaplanuj transformację systemu, aby szybciej wdrażać nowe funkcje
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '10% teoria / 90% praktyka'
-promo: true
 knowledgeToObtain: [
     'Określisz główne cele związane z transformacją Legacy',
     'Zwizualizujesz jak działa system oraz wskażesz istniejące problemy',

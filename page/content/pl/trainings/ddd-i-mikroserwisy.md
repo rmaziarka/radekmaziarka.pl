@@ -4,14 +4,13 @@ date: Wed, 15 Aug 2020 19:31:14 +0000
 draft: false
 images: ['/images/trainings/distribution.png']
 url: '/szkolenia-i-warsztaty/ddd-i-mikroserwisy'
-aliases: ['/szkolenia-i-warsztaty/ddd', '/szkolenia/ddd-i-mikroserwisy/']
+aliases: ['/szkolenia/ddd-i-mikroserwisy/']
 duration: '2-3 dni'
 workshopType: 'training'
 promoText: 'Zaprojektuj mikroserwisy za pomocą dojrzałych wzorców DDD.'
 targetGroup: 'Zespoły programistyczne, architekci, testerzy'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '30% teoria / 70% praktyka'
-promo: true
 knowledgeToObtain: [
     'Uzyskasz wiedzę na temat architektury mikroserwisów',
     'Nauczysz się liczyć zyski i koszta wdrażania tej architektury',

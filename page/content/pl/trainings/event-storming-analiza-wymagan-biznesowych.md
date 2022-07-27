@@ -11,7 +11,6 @@ duration: '1-2 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '10% teoria / 90% praktyka'
-promo: true
 knowledgeToObtain: [
     'Zrozumiesz skalę problemu z którym się zmagasz', 
     'Zdefiniujesz podprocesy i relację między nimi', 

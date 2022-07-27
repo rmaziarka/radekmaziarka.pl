@@ -2,9 +2,7 @@
 
 {{$trainings := 
     (where
-        (where
-            (where .Site.Pages "Section" "trainings")
-        ".Params.workshopType" "==" $workshopType)
+        (where .Site.Pages "Section" "trainings")
     ".Params.promo" "==" true)
 }}
 

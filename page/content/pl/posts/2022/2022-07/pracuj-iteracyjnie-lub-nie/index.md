@@ -1,5 +1,5 @@
 ---
-title: "Praca iteracyjna lub nie"
+title: "Pracuj iteracyjnie lub nie"
 date: 2022-07-25T09:59:30+01:00
 category: 'Biznes w IT'
 draft: true

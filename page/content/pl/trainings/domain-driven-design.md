@@ -36,8 +36,8 @@ trainingPlan: [
     [
         'Domena biznesowa i poddomeny',    
         'Splątanie potrzeb biznesowych',
-        'Poddomeny - cele',
-        'Rodzaje poddomen',
+        'Poddomeny – określanie celów',
+        'Rodzaje poddomen - Core, Supporting, Generic',
         'Rozwiązania techniczne dla poddomen'
     ],
     [

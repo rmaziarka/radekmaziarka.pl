@@ -78,7 +78,7 @@ Gdy posiadamy różne propozycje należy je następnie zanalizować. Warto posia
 - Liczymy ile mamy żądań do bazy - co pozwala znaleźć sytuację gdy mamy N+1 zapytań.
 - Analizujemy czy zbiór danych nie zaburzy partycji - co może nastąpić gdy zbiór jest silnie rosnący lub gdy będziemy posiadać dane trudne do przeszukania.
 
-Jeśli macie inne propozycje analizy, to podajcie je w komentarzach 😊
+Jeśli masz inne propozycje analizy, to podaj je w komentarzach 😊
 
 #### Pierwsza z brzegu propozycja
 

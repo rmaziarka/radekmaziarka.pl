@@ -18327,3 +18327,28 @@ $grid-breakpoints: (
     justify-content: center;
   }
 }
+
+
+.modal-dialog-bottom-right {
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+}
+
+.modal-open {
+  padding-right: 0px !important;
+}
+
+.modal{
+  pointer-events: none;
+}
+
+.modal-footer{
+  border: 0;
+}
+
+.modal button{
+  padding: 10px 15px;
+}

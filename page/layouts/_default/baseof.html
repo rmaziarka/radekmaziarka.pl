@@ -80,6 +80,21 @@
       {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
       {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
       
+      <!-- modals -->
+      <div id="esModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-bottom-right">
+          <div class="modal-content">
+            <div class="modal-body" style="padding: 0px !important;">
+              <img src="/images/popup/es-2022-aug.png"/>
+            </div>
+            <div class="modal-footer" style="padding: 10px 0 10px 0 !important; justify-content: center;">
+              <button type="button" class="btn btn-xs btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+              <button id="esModal-redirect" type="button" class="btn btn-xs btn-theme-colored2 btn-view-details">Chcę uczestniczyć ➞</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     <!-- external javascripts -->
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -88,7 +103,41 @@
     <script src="/js/timeline-horizontal-vertical/js/timeline-horizontal-vertical.min.js"></script>
     <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
     <script src="/js/custom.js"></script>
-  
+    <script>
+      var popupShown = window.localStorage.getItem('es-2022-aug');
+      
+      if(!popupShown)
+        show();
+      
+      function show(){
+        setTimeout(function(){
+          var modalElement = document.getElementById('esModal');
+          modal = new bootstrap.Modal(modalElement
+                  ,
+                  {
+                    backdrop: false,
+                    keyboard: false
+                  }
+          );
+          modal.show();
+          modalElement.addEventListener('hidden.bs.modal', onClose);
+
+          var redirectButton = document.getElementById('esModal-redirect');
+          redirectButton.addEventListener('click', onRedirect);
+        },5000);
+
+      }
+      
+      function onRedirect(){
+        window.localStorage.setItem('es-2022-aug', 'closed');
+        location.href = 'https://radekmaziarka.pl/webinary-event-storming/';
+      }
+      
+      function onClose(){
+        window.localStorage.setItem('es-2022-aug', 'closed');
+      }
+      
+    </script>
     </body>
   {{end}}
 </html>

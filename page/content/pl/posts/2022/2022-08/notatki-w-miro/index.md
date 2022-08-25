@@ -3,6 +3,7 @@ title: "Spotkania wizualne"
 date: 2022-08-01T09:59:30+01:00
 category: 'Biznes w IT'
 url: '/2022/08/01/pracuj-zwinnie-lub-nie'
+draft: true
 images: ['2022/08/01/pracuj-zwinnie-lub-nie/main.jpg']
 description: "Zobacz w jaki sposób przeprowadzać spotkania wizualne w Miro."
 ---

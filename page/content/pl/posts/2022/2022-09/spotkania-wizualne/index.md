@@ -9,9 +9,9 @@ description: "Zobacz w jaki sposób przeprowadzać spotkania wizualne w tablicy 
 
 Pandemia spowodowała, że dużą część spotkań przenieśliśmy do świata wirtualnego. To spowodowało, że nie możemy wykorzystywać naturalnych narzędzi, jakie mieliśmy w biurach - tablic, notatek, rysowania na kartkach. Bardzo często spotkania zdalne są pustym rzucaniem słów. Nic nie jest pokazywane naszym rozmówcom.
 
-Aby poradzić sobie z brakiem elementu wizualnego na spotkaniach zacząłem stosować analogiczne techniki wizualne z wykorzystaniem tablicy wirtualnej.
+Od pewnego czasu zacząłem na prowadzonych przeze mnie konsultacjach i warsztatach stosować wizualizację tego, o czym rozmawiamy. I spotkania bardzo mocno przyśpieszyły.
 
-Artykuł jest inspirowany postem Nicka Tune'a [Freestyle Visual Collaboration](https://medium.com/nick-tune-tech-strategy-blog/freestyle-visual-collaboration-5a1e88e041cd), gdzie Nick proponował swoje podejście i notację. 
+Artykuł jest inspirowany postem Nicka Tune'a [Freestyle Visual Collaboration](https://medium.com/nick-tune-tech-strategy-blog/freestyle-visual-collaboration-5a1e88e041cd), gdzie Nick proponował podobne podejście i swoją notację. 
 
 ## Dlaczego pracować wizualnie?
 

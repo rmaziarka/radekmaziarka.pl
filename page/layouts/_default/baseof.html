@@ -85,7 +85,7 @@
         <div class="modal-dialog modal-dialog-bottom-right">
           <div class="modal-content">
             <div class="modal-body" style="padding: 0px !important;">
-              <img src="/images/popup/es-2022-aug.png"/>
+              <img src="/images/popup/es-2022-oct.png"/>
             </div>
             <div class="modal-footer" style="padding: 10px 0 10px 0 !important; justify-content: center;">
               <button type="button" class="btn btn-xs btn-secondary" data-bs-dismiss="modal">Zamknij</button>
@@ -104,10 +104,11 @@
     <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
     <script src="/js/custom.js"></script>
     <script>
-      var popupShown = window.localStorage.getItem('es-2022-aug');
+      var popupKey = 'es-2022-oct'
+      var popupShown = window.localStorage.getItem(popupKey);
       
-      //if(!popupShown)
-      //  show();
+      if(!popupShown)
+        show();
       
       function show(){
         setTimeout(function(){
@@ -129,12 +130,12 @@
       }
       
       function onRedirect(){
-        window.localStorage.setItem('es-2022-aug', 'closed');
+        window.localStorage.setItem(popupKey, 'closed');
         location.href = 'https://radekmaziarka.pl/webinary-event-storming/';
       }
       
       function onClose(){
-        window.localStorage.setItem('es-2022-aug', 'closed');
+        window.localStorage.setItem(popupKey, 'closed');
       }
       
     </script>

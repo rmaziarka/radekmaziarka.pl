@@ -48,7 +48,9 @@ Ale przede wszystkim **PR Review nie daje odpowiednich zysków w stosunku do kos
 
 Analogiczne zdanie na ten temat ma wiele osób z obszaru Continuous Delivery, jak Jez Humble (twórca książki [Accelerate](https://www.goodreads.com/en/book/show/35747076)) czy Thierry de Pauw:
 
-{{< tweet user="jezhumble" id="1456100358762074120" >}}
+> If you think pair programming is inefficient, try waiting hours to get your code reviewed & having to context switch between tasks while you wait. And then switch back when you get the feedback & have to rethink your approach because you weren’t discussing it as you wrote it.
+>
+> — Jez Humble (@jezhumble) [November 4, 2021](https://twitter.com/jezhumble/status/1456100358762074120)
 
 {{< tweet user="tdpauw" id="1509031345904832516" >}}
 

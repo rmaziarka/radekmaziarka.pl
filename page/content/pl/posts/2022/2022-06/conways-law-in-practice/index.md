@@ -12,3 +12,6 @@ aliases: ['/conways-law-in-practice']
 During the [Devoxx](https://devoxx.pl/talk-details/?id=2313) conference I gave a presentation entitled "How organizational structure affects software - Conway's Law in Practice".
 
 Slides and other resources from my presentation are available on [Miro](https://miro.com/app/board/uXjVOyGoCqg=).
+
+## Video from presentation:
+{{< youtube g3M-JWTn5HA >}}

@@ -13,7 +13,7 @@ Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji
 * 2022-09-07 - "Event Storming i BDD - jak zacząć" - [TestWarez](https://2022.testwarez.pl/speaker/radoslaw-maziarka/) - warsztaty
 * 2022-07-14 - "Modelowanie biznesowe w Cosmos DB" - [Śląska Grupa Microsoft](https://www.meetup.com/pl-PL/%C5%9Bl%C4%85ska-grupa-microsoft-meetup/events/286903096/)
 * 2022-07-14 - "Jak tworzyć produkt, a nie zbiór funkcjonalności" - [Śląska Grupa Microsoft](https://www.meetup.com/pl-PL/%C5%9Bl%C4%85ska-grupa-microsoft-meetup/events/286903096/)
-* 2022-06-24 - "How organizational structure affects software - Conway's law in practice" - [Devoxx](https://devoxx.pl/talk-details/?id=2313)
+* 2022-06-24 - "How organizational structure affects software - Conway's law in practice" - [Devoxx](https://devoxx.pl/talk-details/?id=2313) - [nagranie](https://www.youtube.com/watch?v=g3M-JWTn5HA)
 * 2022-06-09 - "Modelowanie biznesowe w Cosmos DB" - [Running .NET in Azure](https://rna.gutstapp.com/#speakers) - [nagranie](https://www.youtube.com/watch?v=_SRZzXiMj04&list=PLa7n6f7icPaC6Z-uPmwDjzrj9n_Jg-S8l&index=4)
 * 2022-06-04 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [Craft-IT](https://craft-it.pl/) - [nagranie](https://www.youtube.com/watch?v=v1iebfacJtQ)
 * 2022-05-17 - "Mapy Wardley'a" - [Better Software Design](/2022/05/17/better-software-design-wardley-mapping/) - [nagranie](https://open.spotify.com/episode/1OiTXhiajc3gIowfi7D1Pc?si=378a245774ea4e13)

@@ -91,6 +91,6 @@ trainingPlan: [
     ],
 ]
 ---
-Wykorzystywany w celu optymalnego zaprojektowania systemu informatycznego, który planujemy zaimplementować. Pozwala na stworzenie rozwiązania, które jest dobrze zmodularyzowane, łatwe do rozwijania i odporne na przypadki brzegowe. Dodatkowo określimy testy akceptacyjne, które następnie posłużą nam jako „dokumentacja” naszego projektu.
+Dziś jako lider techniczny potrzebujesz znacznie szerszych umiejętności niż dawniej. Zwykliśmy myśleć, że liderzy techniczni muszą jedynie posiadać wiedzę techniczną. Jednak posiadanie odpowiednich umiejętności technicznych to tylko czubek góry lodowej. Potrzebujesz również współpracować z biznesem, definiować i oceniać rozwiązania, planować pracę, współpracować z zespołem. Bardzo szeroki zakres umiejętności.
 
-**Rezultatem warsztatu jest prawidłowo zaplanowany system informatyczny**. Mamy zrozumienie w jaki sposób system powinien działać, jak się komunikować i jak dzielić się informacjami. Możemy podzielić pracę naszego zespołu by tworzyć stopniowo gotowe rozwiązanie. 
+**Szkolenie "Tech Lead" pomoże Ci zdobyć te umiejętności.** Poznasz techniki, które pomogą Ci w codziennej pracy na każdym szczeblu działania. Kompleksowe szkolenie da Ci umiejętności potrzebne do pokonania każdego wyzwania, które stanie na Twojej drodze.

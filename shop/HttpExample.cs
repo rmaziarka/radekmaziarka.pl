@@ -30,12 +30,14 @@ namespace shop
                     new SessionLineItemOptions
                     {
                         // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
-                        Price = "price_1M30MiFecJIMSlsEqP1AYu2y",
+                        Price = "price_1MCTs3FecJIMSlsE6OHzQ1ff",
                         Quantity = 1,
-                        TaxRates = new List<string>(){"txr_1M30NFFecJIMSlsEcarDkVSz"}
+                        TaxRates = new List<string>(){"txr_1MCTsqFecJIMSlsEX3hADzIp"}
                     },
                 },
                 TaxIdCollection = new SessionTaxIdCollectionOptions(){ Enabled = true},
+                InvoiceCreation = new SessionInvoiceCreationOptions() {Enabled = true},
+                BillingAddressCollection = "auto",
                 Mode = "payment",
                 SuccessUrl = domain + "/success.html",
                 CancelUrl = domain + "/cancel.html",

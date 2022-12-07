@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.10.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
-    <PackageReference Include="Stripe.net" Version="40.16.0" />
+    <PackageReference Include="Stripe.net" Version="41.2.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

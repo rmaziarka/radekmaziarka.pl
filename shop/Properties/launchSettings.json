@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "shop": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7067",
+      "launchBrowser": false
+    }
+  }
+}

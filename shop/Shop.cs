@@ -45,9 +45,9 @@ namespace shop
                 },
                 TaxIdCollection = new SessionTaxIdCollectionOptions() { Enabled = true },
                 InvoiceCreation = new SessionInvoiceCreationOptions() { Enabled = true },
-                BillingAddressCollection = "auto",
+                BillingAddressCollection = "required",
                 Mode = "payment",
-                SuccessUrl = domain + "/success.html",
+                SuccessUrl = domain + "/sukces/",
                 CancelUrl = domain + "/",
             };
             var service = new SessionService();

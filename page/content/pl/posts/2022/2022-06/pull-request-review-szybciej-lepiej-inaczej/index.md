@@ -85,7 +85,10 @@ Co jest nie zawsze oczywiste, code review wykonywany podczas pair programmingu s
 
 {{< tweet user="wouterla" id="1163455000338739200" >}}
 
-{{< tweet user="seanjreilly" id="1163455556209795073" >}}
+> It counts towards PCI compliance where I am, as well.
+> In my experience the "co-authored-by" footer works very well for an audit trail.
+> 
+> — Sean Reilly 💙💛 (@seanjreilly) [August 19, 2019](https://twitter.com/seanjreilly/status/1163455556209795073)
 
 Są nawet firmy (jak np. [vmware](https://tanzu.vmware.com/developer/learningpaths/application-development/pair-programming/)), które z definicji pracują w ten sposób. Jednak jest oczywiste, że nie wszystkie firmy mogą pracować w ten sposób. Również trudne może być przez 100% czasu pracować w ten sposób. Możemy więc omówić inne sposoby.
 

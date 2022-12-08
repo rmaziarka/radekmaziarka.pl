@@ -5,6 +5,8 @@
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+    <PackageReference Include="Azure.Storage.Common" Version="12.13.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.10.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
     <PackageReference Include="Stripe.net" Version="41.2.0" />
@@ -17,5 +19,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Azure.Identity">
+      <HintPath>..\..\..\..\.AzureToolsForIntelliJ\AzureFunctionsCoreTools\v4\4.30.0\Azure.Identity.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

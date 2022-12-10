@@ -49,6 +49,7 @@ namespace shop
                 Mode = "payment",
                 SuccessUrl = domain + "/sukces/",
                 CancelUrl = domain + "/",
+                AllowPromotionCodes = true
             };
             var service = new SessionService();
             Session session = service.Create(options);

@@ -37,10 +37,9 @@ namespace shop
                 {
                     new SessionLineItemOptions
                     {
-                        // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
-                        Price = "price_1MCTs3FecJIMSlsE6OHzQ1ff",
+                        Price = "price_1M30MiFecJIMSlsEqP1AYu2y",
                         Quantity = 1,
-                        TaxRates = new List<string>() { "txr_1MCTsqFecJIMSlsEX3hADzIp" }
+                        TaxRates = new List<string>() { "txr_1M30NFFecJIMSlsEcarDkVSz" }
                     },
                 },
                 TaxIdCollection = new SessionTaxIdCollectionOptions() { Enabled = true },
@@ -70,7 +69,7 @@ namespace shop
                 from = new { email = senderEmail, name= "Radek Maziarka"},
                 to = new[] { new {email = clientEmail} },
                 template_id = "0r83ql32nxz4zw1j",
-                subject = "test",
+                subject = "Zakup ze strony radekmaziarka.pl",
                 variables = new
                 {
                     substitutions = new
@@ -112,7 +111,6 @@ namespace shop
                     secret
                 );
 
-                // Handle the checkout.session.completed event
                 if (stripeEvent.Type == Events.CheckoutSessionCompleted)
                 {
                     var session = stripeEvent.Data.Object as Session;

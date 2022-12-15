@@ -39,7 +39,25 @@ Ale nie jesteśmy w świecie drogich zasobów 💪 Możemy niskim kosztem stworz
 Takie podejście  bazuje na modelu Cynefin Dave'a Snowdena:
 // cynefin
 
-Mówi on, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce.
+Mówi on, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce. A co będziemy testować? Przede wszystkim liczbę zużywanych RU.
+
+## Request Unit - koszty zapytań
+
+W Cosmos DB koszt wszystkich operacji jest wyliczany na bazie wykorzystywanych zasobów:
+
+[![](request-units.png)](request-units.png)
+
+Im więcej dane zapytanie zużyje pamięci / CPU / dysku tym więcej będzie kosztowało nas zapytanie. 
+
+Koszt zapytania jest wyrażony w Request Unitach - RU. Zapytanie kosztuje:
+
+- Odczyt obiektu - 1RU za każdy KB - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#point-reads)
+- Dodanie, edycja, usunięcie obiektu - ~5.5RU za każdy KB - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#writing-data)
+- Wyszukiwanie obiektów - sky is the limit 😅 - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#queries)
+
+**Z tego powodu istotne jest zrozumienie scenariuszy wykorzystania bazy danych.** Tworząc rozwiązanie w ciemno bardzo łatwo jest wpaść na minę i robić bardzo nieefektywne zapytania.   
+
+Więcej o samych kosztach Cosmos DB w [dokumentacji](https://learn.microsoft.com/en-us/azure/cosmos-db/request-units) Microsoftu. Powiemy sobie o nich również więcej w kolejnych odcinkach cyklu, gdy będziemy wybierali model rozliczania się.
 
 ## Scenariusz testowy
 
@@ -51,9 +69,5 @@ A więc jak może wyglądać nasz scenariusz testowy?
 4. Porównaj rezultaty dla obu sturktur.
 
 Co będzie dla nas głównym elementem porównania? Koszty RU.
-
-## Request Unit - koszty zapytań
-
-Z racji wykorzystania bazy Cosmos DB wymaga nieco opowiedzenia co będziemy opowiadania.
 
 

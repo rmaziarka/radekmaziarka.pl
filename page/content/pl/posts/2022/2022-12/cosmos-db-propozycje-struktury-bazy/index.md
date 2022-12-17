@@ -34,12 +34,14 @@ Na obecnym poziomie nie da się dokładniej porównać kosztowności obu rozwią
 
 W świecie drogich zasobów musielibyśmy aktualnie podjąć arbitralną decyzję. Wybralibyśmy jeden model kosztem drugiego. Zaczęlibyśmy tworzyć rozwiązanie produkcyjne, które ostatecznie mogłoby się nie sprawdzić.
 
-Ale nie jesteśmy w świecie drogich zasobów 💪 Możemy niskim kosztem stworzyć naszą bazę następnie ją usunąć, kiedy nie jest już potrzebna. Nic nie stoi na przeszkodzie, by przetestować kilka opcji na rzeczywitych przypadkach. Wtedy sprawdzimy, która z nich jest rzeczywiście lepsza. 
+Ale nie jesteśmy w świecie drogich zasobów 💪 Możemy niskim kosztem stworzyć naszą bazę. Następnie usunąć ją, kiedy nie jest już potrzebna. Nic nie stoi na przeszkodzie, by przetestować kilka opcji na rzeczywistych przypadkach. Wtedy sprawdzimy, która z nich jest aktualnie lepsza. 
 
-Takie podejście  bazuje na modelu Cynefin Dave'a Snowdena:
+Takie podejście bazuje na modelu Cynefin Dave'a Snowdena:
 // cynefin
 
-Mówi on, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce. A co będziemy testować? Przede wszystkim liczbę zużywanych RU.
+Mówi on, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce. 
+
+A co będziemy testować? Przede wszystkim liczbę zużywanych RU.
 
 ## Request Unit - koszty zapytań
 
@@ -52,10 +54,10 @@ Im więcej dane zapytanie zużyje pamięci / CPU / dysku tym więcej będzie kos
 Koszt zapytania jest wyrażony w Request Unitach - RU. Zapytanie kosztuje:
 
 - Odczyt obiektu - 1RU za każdy KB - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#point-reads)
-- Dodanie, edycja, usunięcie obiektu - ~5.5RU za każdy KB - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#writing-data)
+- Dodanie, edycja, usunięcie obiektu - ~5.5RU za każdy KB + RU za indeksację - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#writing-data)
 - Wyszukiwanie obiektów - sky is the limit 😅 - [dokumentacja](https://learn.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#queries)
 
-**Z tego powodu istotne jest zrozumienie scenariuszy wykorzystania bazy danych.** Tworząc rozwiązanie w ciemno bardzo łatwo jest wpaść na minę i robić bardzo nieefektywne zapytania.   
+Zapytania są najdroższym elementem wykorzystania Cosmos DB. Przeprowadzając nieefektywne zapytania będziemy dramatycznie mnożyć koszty. **Z tego powodu istotne jest zrozumienie scenariuszy wykorzystania bazy danych.** Tworząc rozwiązanie w ciemno bardzo łatwo jest wpaść na minę i zbudować niewłaściwą strukturę bazy danych.
 
 Więcej o samych kosztach Cosmos DB w [dokumentacji](https://learn.microsoft.com/en-us/azure/cosmos-db/request-units) Microsoftu. Powiemy sobie o nich również więcej w kolejnych odcinkach cyklu, gdy będziemy wybierali model rozliczania się.
 
@@ -66,8 +68,8 @@ A więc jak może wyglądać nasz scenariusz testowy?
 1. Stwórz strukturę bazodanową odpowiednią na podstawie prostych skryptów CLI.
 2. Zapełnij bazę przykładowymi, ale rzeczywistymi danymi.
 3. Sprawdź kosztowność zapytań przechodząc przez wzorce dostępu.
-4. Porównaj rezultaty dla obu sturktur.
+4. Porównaj rezultaty dla obu struktur.
 
-Co będzie dla nas głównym elementem porównania? Koszty RU.
+Ale to już w kolejnych artykułach 😎
 
 

@@ -5,7 +5,6 @@ url: '/2022/12/14/cosmos-db-struktury-bazy-do-testów'
 images: ['2022/12/14/cosmos-db-struktury-bazy-do-testów/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - struktury bazy do testów"
 category: 'Cosmos DB'
-draft: true
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. W [poprzednim odcinku](/2022/08/08/cosmos-db-propozycje-struktury-bazy/) określiliśmy kilka propozycji struktury bazy daych. Następnie wykonaliśmy ich ewaluację, odrzucając nieefektywne modele.

@@ -20,13 +20,13 @@ Podczas analizy wyszło nam, że dla przetrzymywania obiektu Bike Avaiability ma
 
 Z drugiej strony dla obiektów Reservation i Rental możemy mieć dwie opcje:
 1. Partycjonować po UserId
-2. Partycjonować po CityId i dniu - wykorzystując [klucz syntetyczny](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/synthetic-partition-keys) 
+2. Partycjonować po CityId i dniu - wykorzystując [klucz syntetyczny](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/synthetic-partition-keys)
 
-// zdjęcie
+[![](structures.jpg)](structures.jpg)
 
 Każda z opcji posiada swoje plusy i minusy. Wszystkie one są umieszczone pod linkami - obrazki analiz nie zmieściłyby się na blogu 😅:
-- Analiza - opcja 1
-- Analiza - opcja 2
+- Analiza - [opcja 1](structure-1-assessment.jpg)
+- Analiza - [opcja 2](structure-2-assessment.jpg)
 
 ## Dlaczego wybieramy dwie struktury danych?
 
@@ -36,10 +36,11 @@ W świecie drogich zasobów musielibyśmy aktualnie podjąć arbitralną decyzj�
 
 Ale nie jesteśmy w świecie drogich zasobów 💪 Możemy niskim kosztem stworzyć naszą bazę. Następnie usunąć ją, kiedy nie jest już potrzebna. Nic nie stoi na przeszkodzie, by przetestować kilka opcji na rzeczywistych przypadkach. Wtedy sprawdzimy, która z nich jest aktualnie lepsza. 
 
-Takie podejście bazuje na modelu Cynefin Dave'a Snowdena:
-// cynefin
+Takie podejście bazuje na modelu Cynefin Dave'a Snowdena, gdzie dzielimy problemy na 4 rodzaje:
 
-Mówi on, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce. 
+[![](cynefin.jpg)](cynefin.jpg)
+
+Model Cynefin mówi, aby w obszarach dużej niepewności wykorzystywać bezpieczne ekspermenty ([safe-to-fail probes](https://cynefin.io/wiki/Safe_to_fail_probes)), aby sprawdzić jak dany scenariusz sprawdza się w praktyce. 
 
 A co będziemy testować? Przede wszystkim liczbę zużywanych RU.
 

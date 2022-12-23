@@ -1,38 +1,31 @@
 {{ $numberOfShownTestimonials := .Get "numberOfShownTestimonials" }}
+{{ $testimonialsFocus := .Get "testimonialsFocus" }}
 
 <div class="tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon">
     <div class="owl-carousel owl-theme tm-owl-carousel-{{$numberOfShownTestimonials}}col owl-loaded owl-drag" data-nav="true" data-dots="true"
         data-autoplay="false"  data-margin="30"
         data-stagepadding="0">
-        {{ range sort $.Site.Data.testimonials "mainOrder" "desc" }}
-        <div class="owl-item">
 
-
-            <div class="tm-carousel-item">
-                <div class="tm-testimonial">
-                    <div class="testimonial-inner">
-                        <div class="testimonial-author-details">
-                            <div class="testimonial-header">
-                                <div class="author-text">{{.content}}</div>
-                            </div>
-                            <div class="testimonial-footer mt-30">
-                                <div class="testimonial-image-holder">
-                                    <div class="author-thumb"> <img width="75" height="75" src="{{.image}}"
-                                            class="img-fullwidth rounded-circle wp-post-image" alt="images"></div>
-                                </div>
-                                <a style="cursor:pointer" href="{{.url}}">
-                                <div class="author-info">
-                                        <h5 class="name">{{.name}}</h5>
-                                    <span class="job-position">{{.position}}</span>
-
-                                </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- ugly hack with double loop to avoid problem with filtering testimonials -->
+        <!-- for some reasons where on Data.testimonials always returned empty map -->
+        {{ if $testimonialsFocus}}
+            {{ range sort $.Site.Data.testimonials "mainOrder" "desc" }}
+                {{if in .focus $testimonialsFocus }}
+                    {{ partial "testimonial.html" . }}
+                {{end}}
+            {{end}}
+            {{ range sort $.Site.Data.testimonials "mainOrder" "desc" }}
+                {{if not (in .focus $testimonialsFocus) }}
+                    {{ partial "testimonial.html" . }}
+                {{end}}
+            {{end}}
+        
+        {{else}}
+            {{ range sort $.Site.Data.testimonials "mainOrder" "desc" }}
+    
+            {{ partial "testimonial.html" . }}
+        {{end}}
+        
         {{end}}
     </div>
     <div class="owl-nav"></div>

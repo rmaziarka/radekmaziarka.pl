@@ -114,7 +114,7 @@ namespace shop
                 if (stripeEvent.Type == Events.CheckoutSessionCompleted)
                 {
                     var session = stripeEvent.Data.Object as Session;
-
+                    
 
                     var fileName = "Jak zacząć ze zdalnym Event Stormingiem - Radek Maziarka";
                     var fileNameWithExt = "Jak zacząć ze zdalnym Event Stormingiem - Radek Maziarka.pdf";
@@ -132,6 +132,53 @@ namespace shop
                 log.Log(LogLevel.Error, e.Message);
                 return new BadRequestResult();
             }
+        }
+
+
+        [FunctionName("SendInvoice")]
+        public static async Task<IActionResult> SendInvoice()
+        {
+            var senderEmail = "radek@radekmaziarka.pl";
+            var token = Environment.GetEnvironmentVariable("FakturowniaKey", EnvironmentVariableTarget.Process);
+            
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Accept","application/json");
+            client.DefaultRequestHeaders.Add("Content-Type","application/json");
+            var data = new
+            {
+                api_token = token,
+                invoice= new {
+                    kind="vat",
+                    number = (string) null,
+                    sell_date= DateTime.Now.ToString("yyyy-MM-dd"),
+                    issue_date= DateTime.Now.ToString("yyyy-MM-dd"),
+                    payment_to= DateTime.Now.ToString("yyyy-MM-dd"),
+                    seller_name= "RadSoft Radosław Maziarka",
+                    seller_tax_no= "6772634277",
+                    buyer_name= "Client1 SA",
+                    buyer_tax_no= "5252445767",
+                    buyer_post_code= "06000",
+                    buyer_city= "Nice",
+                    buyer_street= "Rue de la Joie 11",
+                    buyer_country= "FR",
+                    buyer_email = "",
+                    buyer_override=true,
+                    positions = new object[] {
+                        new { name= "Produkt A1", tax=23, total_price_gross=10.23, quantity=1 }
+                    }
+                }
+            };
+            
+            var response = await client.PostAsync("https://radekmaziarka.fakturownia.pl/invoices.json", 
+                new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json"));
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                return new BadRequestResult();
+            }
+            
+            return new OkResult();
         }
 
         private static string GenerateUrlToAccessResource(string fileName)

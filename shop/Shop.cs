@@ -136,14 +136,16 @@ namespace shop
 
 
         [FunctionName("SendInvoice")]
-        public static async Task<IActionResult> SendInvoice()
+        public static async Task<IActionResult> SendInvoice(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
+            HttpRequest req,
+            ILogger log)
         {
             var senderEmail = "radek@radekmaziarka.pl";
             var token = Environment.GetEnvironmentVariable("FakturowniaKey", EnvironmentVariableTarget.Process);
             
             var client = new HttpClient();
             client.DefaultRequestHeaders.Add("Accept","application/json");
-            client.DefaultRequestHeaders.Add("Content-Type","application/json");
             var data = new
             {
                 api_token = token,
@@ -154,14 +156,17 @@ namespace shop
                     issue_date= DateTime.Now.ToString("yyyy-MM-dd"),
                     payment_to= DateTime.Now.ToString("yyyy-MM-dd"),
                     seller_name= "RadSoft Radosław Maziarka",
-                    seller_tax_no= "6772634277",
-                    buyer_name= "Client1 SA",
-                    buyer_tax_no= "5252445767",
-                    buyer_post_code= "06000",
-                    buyer_city= "Nice",
-                    buyer_street= "Rue de la Joie 11",
-                    buyer_country= "FR",
-                    buyer_email = "",
+                    seller_tax_no= "6772364277",
+                    seller_post_code = "54-234",
+                    seller_street = "Białowieska 97/12",
+                    seller_city = "Wrocław",
+                    buyer_name= "Bio ActiW",
+                    buyer_tax_no= "8722420595",
+                    buyer_post_code= "39-204",
+                    buyer_city= "Żyraków",
+                    buyer_street= "Zawierzbie 80",
+                    buyer_country= "PL",
+                    buyer_email = "maziarka.radoslaw@outlook.com",
                     buyer_override=true,
                     positions = new object[] {
                         new { name= "Produkt A1", tax=23, total_price_gross=10.23, quantity=1 }
@@ -169,14 +174,23 @@ namespace shop
                 }
             };
             
-            var response = await client.PostAsync("https://radekmaziarka.fakturownia.pl/invoices.json", 
+            var createInvoiceResponse = await client.PostAsync("https://radekmaziarka.fakturownia.pl/invoices.json", 
                 new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json"));
 
-            if (!response.IsSuccessStatusCode)
+            
+            if (!createInvoiceResponse.IsSuccessStatusCode)
             {
-                var responseContent = await response.Content.ReadAsStringAsync();
                 return new BadRequestResult();
             }
+            var createInvoiceResponseContent = await createInvoiceResponse.Content.ReadAsStringAsync();
+            var invoice = JsonConvert.DeserializeAnonymousType(createInvoiceResponseContent, new { Id = 1 });
+            
+            
+            var sendEmailResponse = await client.PostAsync(
+                $"https://radekmaziarka.fakturownia.pl/invoices/{invoice.Id}/send_by_email.json?api_token={token}", null);
+
+
+            var sendEmailResponseContent = await sendEmailResponse.Content.ReadAsStringAsync();
             
             return new OkResult();
         }

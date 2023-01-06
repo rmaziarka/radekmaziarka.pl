@@ -134,6 +134,10 @@ namespace shop
                     var clientEmail = session.CustomerDetails.Email;
 
                     await SendEmail(clientEmail, product.Name, product.Link);
+
+                    if (session.CustomerDetails.TaxIds.Any())
+                        await SendInvoice(session.CustomerDetails, session.AmountTotal.Value/100, product.Name);
+                    
                     log.Log(LogLevel.Information, "Succeeded with sending a file for {email}", clientEmail);
                 }
 
@@ -146,12 +150,7 @@ namespace shop
             }
         }
 
-
-        [FunctionName("SendInvoice")]
-        public static async Task<IActionResult> SendInvoice(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
-            HttpRequest req,
-            ILogger log)
+        private async Task SendInvoice(SessionCustomerDetails sessionCustomerDetails, long totalPrice, string productName)
         {
             var senderEmail = "radek@radekmaziarka.pl";
             var token = Environment.GetEnvironmentVariable("FakturowniaKey", EnvironmentVariableTarget.Process);
@@ -172,16 +171,16 @@ namespace shop
                     seller_post_code = "54-234",
                     seller_street = "Białowieska 97/12",
                     seller_city = "Wrocław",
-                    buyer_name= "Bio ActiW",
-                    buyer_tax_no= "8722420595",
-                    buyer_post_code= "39-204",
-                    buyer_city= "Żyraków",
-                    buyer_street= "Zawierzbie 80",
+                    buyer_name= sessionCustomerDetails.Name,
+                    buyer_tax_no= sessionCustomerDetails.TaxIds.First().Value,
+                    buyer_post_code= sessionCustomerDetails.Address.PostalCode,
+                    buyer_city= sessionCustomerDetails.Address.City,
+                    buyer_street= sessionCustomerDetails.Address.Line1 + " " + sessionCustomerDetails.Address.Line2,
                     buyer_country= "PL",
-                    buyer_email = "maziarka.radoslaw@outlook.com",
+                    buyer_email = sessionCustomerDetails.Email,
                     buyer_override=true,
                     positions = new object[] {
-                        new { name= "Produkt A1", tax=23, total_price_gross=10.23, quantity=1 }
+                        new { name= productName, tax=23, total_price_gross=totalPrice, quantity=1 }
                     }
                 }
             };
@@ -189,41 +188,16 @@ namespace shop
             var createInvoiceResponse = await client.PostAsync("https://radekmaziarka.fakturownia.pl/invoices.json", 
                 new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json"));
 
+            var createInvoiceResponseContent = await createInvoiceResponse.Content.ReadAsStringAsync();
             
             if (!createInvoiceResponse.IsSuccessStatusCode)
             {
-                return new BadRequestResult();
+                throw new Exception(createInvoiceResponseContent);
             }
-            var createInvoiceResponseContent = await createInvoiceResponse.Content.ReadAsStringAsync();
             var invoice = JsonConvert.DeserializeAnonymousType(createInvoiceResponseContent, new { Id = 1 });
             
-            
-            var sendEmailResponse = await client.PostAsync(
+            await client.PostAsync(
                 $"https://radekmaziarka.fakturownia.pl/invoices/{invoice.Id}/send_by_email.json?api_token={token}", null);
-
-
-            var sendEmailResponseContent = await sendEmailResponse.Content.ReadAsStringAsync();
-            
-            return new OkResult();
-        }
-
-        private static string GenerateUrlToAccessResource(string fileName)
-        {
-            string azureStorageKey = Environment.GetEnvironmentVariable("AzureWebJobsStorage", EnvironmentVariableTarget.Process);
-            BlobClient blobClient = new BlobClient(azureStorageKey, "shop-items", fileName);
-
-            BlobSasBuilder sasBuilder = new BlobSasBuilder()
-            {
-                BlobContainerName = blobClient.BlobContainerName,
-                BlobName = blobClient.Name,
-                Resource = "b",
-                ExpiresOn = DateTimeOffset.UtcNow.AddDays(28)
-            };
-
-            sasBuilder.SetPermissions(BlobSasPermissions.Read);
-            Uri sasUri = blobClient.GenerateSasUri(sasBuilder);
-            
-            return sasUri.AbsoluteUri;
         }
     }
 }

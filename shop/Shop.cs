@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -12,23 +13,27 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Stripe;
 using Stripe.Checkout;
 
 namespace shop
 {
-    public static class Shop
+    public class Shop
     {
         [FunctionName("CreateCheckout")]
-        public static async Task<IActionResult> CreateCheckout(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
-            HttpRequest req,
+        public async Task<IActionResult> CreateCheckout(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "CreateCheckout/{productCode}")]
+            HttpRequest req, string productCode, 
             ILogger log)
         {
            
             StripeConfiguration.ApiKey =
                 System.Environment.GetEnvironmentVariable("StripeKey", EnvironmentVariableTarget.Process);
+
+            var shopConfig = ShopConfigProvider.Get();
+            var product = shopConfig.Products.First(el => el.Code == productCode);
 
             var domain = "https://radekmaziarka.pl";
             var options = new SessionCreateOptions
@@ -37,13 +42,12 @@ namespace shop
                 {
                     new SessionLineItemOptions
                     {
-                        Price = "price_1M30MiFecJIMSlsEqP1AYu2y",
+                        Price = product.PriceId,
                         Quantity = 1,
-                        TaxRates = new List<string>() { "txr_1M30NFFecJIMSlsEcarDkVSz" }
+                        TaxRates = new List<string>() { shopConfig.TaxId }
                     },
                 },
                 TaxIdCollection = new SessionTaxIdCollectionOptions() { Enabled = true },
-                InvoiceCreation = new SessionInvoiceCreationOptions() { Enabled = true },
                 BillingAddressCollection = "required",
                 Mode = "payment",
                 SuccessUrl = domain + "/sukces/",
@@ -95,7 +99,7 @@ namespace shop
         }
 
         [FunctionName("HandleSuccess")]
-        public static async Task<IActionResult> HandleSuccess(
+        public async Task<IActionResult> HandleSuccess(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
             HttpRequest req,
             ILogger log)
@@ -115,13 +119,21 @@ namespace shop
                 {
                     var session = stripeEvent.Data.Object as Session;
                     
-
-                    var fileName = "Jak zacząć ze zdalnym Event Stormingiem - Radek Maziarka";
-                    var fileNameWithExt = "Jak zacząć ze zdalnym Event Stormingiem - Radek Maziarka.pdf";
-                    var urlToResource = GenerateUrlToAccessResource(fileNameWithExt);
+                    var options = new SessionListLineItemsOptions
+                    {
+                        Limit = 5,
+                    };
+                    
+                    var service = new SessionService();
+                    StripeList<LineItem> lineItems = service.ListLineItems(session.Id, options);
+                    var lineItem = lineItems.First();
+                    var priceId = lineItem.Price.Id;
+                    var products = ShopConfigProvider.Get().Products;
+                    var product = products.First(el => el.PriceId == priceId);
+                    
                     var clientEmail = session.CustomerDetails.Email;
 
-                    await SendEmail(clientEmail, fileName, urlToResource);
+                    await SendEmail(clientEmail, product.Name, product.Link);
                     log.Log(LogLevel.Information, "Succeeded with sending a file for {email}", clientEmail);
                 }
 

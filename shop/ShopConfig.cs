@@ -5,12 +5,8 @@ using Newtonsoft.Json;
 namespace shop;
 
 public record ShopConfig(List<Product> Products, string TaxId);
-public record Product(string PriceId, string Code, string Name, ProductType Type, string Link);
+public record Product(string PriceId, string Code, string Name, string Link);
 
-public enum ProductType
-{
-    Ebook, Video
-}
 public static class ShopConfigProvider {
 
     public static ShopConfig Get()

@@ -11,7 +11,7 @@ public static class ShopConfigProvider {
 
     public static ShopConfig Get()
     {
-        var json = System.Environment.GetEnvironmentVariable("Products", EnvironmentVariableTarget.Process);
+        var json = System.Environment.GetEnvironmentVariable("ShopConfig", EnvironmentVariableTarget.Process);
         var config = JsonConvert.DeserializeObject<ShopConfig>(json);
         return config;
     }

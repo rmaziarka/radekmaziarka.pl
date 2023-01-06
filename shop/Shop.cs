@@ -136,7 +136,11 @@ namespace shop
                     await SendEmail(clientEmail, product.Name, product.Link);
 
                     if (session.CustomerDetails.TaxIds.Any())
-                        await SendInvoice(session.CustomerDetails, session.AmountTotal.Value/100, product.Name);
+                    {
+                        var totalPrice = ((decimal)session.AmountTotal.Value) / 100;
+                        
+                        await SendInvoice(session.CustomerDetails, totalPrice, product.Name);
+                    }
                     
                     log.Log(LogLevel.Information, "Succeeded with sending a file for {email}", clientEmail);
                 }
@@ -150,7 +154,7 @@ namespace shop
             }
         }
 
-        private async Task SendInvoice(SessionCustomerDetails sessionCustomerDetails, long totalPrice, string productName)
+        private async Task SendInvoice(SessionCustomerDetails sessionCustomerDetails, decimal totalPrice, string productName)
         {
             var senderEmail = "radek@radekmaziarka.pl";
             var token = Environment.GetEnvironmentVariable("FakturowniaKey", EnvironmentVariableTarget.Process);

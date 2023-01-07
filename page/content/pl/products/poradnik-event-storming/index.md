@@ -14,7 +14,7 @@ knowledgeToObtain: [
     'Co dalej robić po Event Stormingu?'
 ]
 ---
-Poradnik "Jak zacząć ze zdalnym Event Stormingiem" to kompletny opis kroków jak rozpocząć pracę z tą techniką.
+Poradnik "Jak zacząć ze zdalnym Event Stormingiem" to prawie 50-stronnicowy opis kroków jak rozpocząć pracę z tą techniką.
 
 Zawiera szczegółowy opis jak poradzić sobie z organizacją warsztatu, jego przeprowadzeniem, a także z kontynuacją pracy po warsztacie.
 

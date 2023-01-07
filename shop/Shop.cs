@@ -132,15 +132,12 @@ namespace shop
                     var product = products.First(el => el.PriceId == priceId);
                     
                     var clientEmail = session.CustomerDetails.Email;
-
                     await SendEmail(clientEmail, product.Name, product.Link);
 
-                    if (session.CustomerDetails.TaxIds.Any())
-                    {
-                        var totalPrice = ((decimal)session.AmountTotal.Value) / 100;
-                        
-                        await SendInvoice(session.CustomerDetails, totalPrice, product.Name);
-                    }
+
+                    var totalPrice = ((decimal)session.AmountTotal.Value) / 100;
+                    await SendInvoice(session.CustomerDetails, totalPrice, product.Name);
+
                     
                     log.Log(LogLevel.Information, "Succeeded with sending a file for {email}", clientEmail);
                 }
@@ -161,6 +158,11 @@ namespace shop
             
             var client = new HttpClient();
             client.DefaultRequestHeaders.Add("Accept","application/json");
+            
+            var taxNumber = sessionCustomerDetails.TaxIds.Count > 0
+                ? sessionCustomerDetails.TaxIds.First().Value
+                : null;
+            
             var data = new
             {
                 api_token = token,
@@ -176,7 +178,7 @@ namespace shop
                     seller_street = "Białowieska 97/12",
                     seller_city = "Wrocław",
                     buyer_name= sessionCustomerDetails.Name,
-                    buyer_tax_no= sessionCustomerDetails.TaxIds.First().Value,
+                    buyer_tax_no= taxNumber,
                     buyer_post_code= sessionCustomerDetails.Address.PostalCode,
                     buyer_city= sessionCustomerDetails.Address.City,
                     buyer_street= sessionCustomerDetails.Address.Line1 + " " + sessionCustomerDetails.Address.Line2,

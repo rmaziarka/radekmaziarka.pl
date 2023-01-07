@@ -5,7 +5,7 @@
     <ul>
 
       {{ range $key, $value := .Site.Taxonomies.category }}
-        {{ if ge (len $value) 3}}
+        {{ if ge (len $value) 5}}
         <li class="cat-item"><a href="/category/{{ $key | urlize  }}">{{ (index $value.Pages 0).Params.category }}</a> ({{ len $value }})</li>
         {{ end }}
       {{ end}}

@@ -4,7 +4,7 @@ date: 2022-04-17T09:59:30+01:00
 url: '/2022/04/17/modelowanie-w-cosmos-db-wzorce-dostepu'
 images: ['2022/04/17/modelowanie-w-cosmos-db-wzorce-dostepu/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - przedstawienie tabeli wzorców dostępu"
-category: 'Wzorce projektowe'
+category: 'Cosmos DB'
 ---
 
 Kontynuujemy cykl o modelowaniu w Cosmos DB. Skończyliśmy analizę potrzeb biznesowych. Teraz trzeba się zastanowić się nad potrzebami bazy danych. Wykorzystamy do tego **tabelę wzorców dostępu**.

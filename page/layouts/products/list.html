@@ -13,37 +13,39 @@
     <div class="container mt-30 mb-30 pt-30 pb-30">
         <div class="row">
 
-            <div class="col-md-4">
-                <div class="blog-posts" style="font-size: 80%; text-align: center">
-                    {{ $paginator := .Paginate $section }}
-                    {{ range $paginator.Pages }}
+            {{ $paginator := .Paginate $section }}
+            {{ range $paginator.Pages }}
 
-                    {{ $featured_image := index .Params.images 0 }}
-                    <article class="post clearfix mb-30 pb-30">
+            {{ $featured_image := index .Params.images 0 }}
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="blog-posts" style="font-size: 80%; text-align: center">
+                    <article class="post clearfix mb-15 pb-15">
                         <div class="entry-header">
-                            <div class="post-thumb thumb">
+                            <div class="post-thumb thumb" style="display: flex; align-items: center; justify-content: center; height: 250px">
                                 <a href="{{.RelPermalink}}">
                                     <img src="{{.RelPermalink}}{{ $featured_image }}"  alt="image from {{ .Title }}"
-                                         class="img-responsive " style="max-height: 300px; width: auto;">
+                                         class="img-responsive " style="max-height: 250px; width: auto;">
                                 </a>
                             </div>
                         </div>
                         <div class="entry-content">
-                            <h4 class="entry-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+                            <h5 class="entry-title" style="display: flex; align-items: center; justify-content: center; height: 81px">
+                                <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                            </h5>
                             <p class="mb-10 text-gray-darkgray  mr-20 font-size-16">
                                 {{.Params.price}}zł (netto)
                             </p>
 
-                            <a href="{{.RelPermalink}}" class="btn btn-theme-colored2 btn-view-details">Zobacz produkt ➞</a>
+                            <a href="{{.RelPermalink}}" class="btn btn-xs btn-theme-colored2">Zobacz produkt ➞</a>
                             <div class="clearfix"></div>
                         </div>
                     </article>
-                    {{ end }}
-
-
-                    {{ template "_internal/pagination.html" . }}
                 </div>
             </div>
+            {{ end }}
+
+
+            {{ template "_internal/pagination.html" . }}
         </div>
     </div>
 </section>

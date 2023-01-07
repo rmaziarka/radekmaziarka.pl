@@ -36,6 +36,12 @@ paginatePath = "page"
   weight = 10
   
 [[languages.pl.menu.main]]
+  identifier = "shop"
+  name = "Sklep"
+  url = "/sklep"
+  weight = 15
+  
+[[languages.pl.menu.main]]
   identifier = "szkolenia"
   name = "Szkolenia i warsztaty"
   url = "/szkolenia-i-warsztaty"
@@ -47,12 +53,6 @@ paginatePath = "page"
   url = "/konsultacje"
   weight = 20
  
-  
-[[languages.pl.menu.main]]
-  identifier = "prelekcje"
-  name = "Prelekcje"
-  url = "/prelekcje"
-  weight = 70
   
 [[languages.pl.menu.main]]
   identifier = "o-mnie"

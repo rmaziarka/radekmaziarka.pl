@@ -3,7 +3,7 @@ title: 'Poradnik "Jak zacząć ze zdalnym Event Stormingiem"'
 images: ['main.jpg']
 url: '/sklep/ebook-event-storming'
 code: 'ebook-event-storming'
-price: 79
+price: 99
 knowledgeToObtain: [
     'Czym jest Event Storming Big Picture?', 
     'Jak przeprowadzać Event Storming zdalnie?', 

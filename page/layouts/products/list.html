@@ -11,6 +11,11 @@
 
 <section>
     <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row mb-30">
+            <div class="col-sm-12">
+                <h2>Sklep</h2>
+            </div>
+        </div>
         <div class="row">
 
             {{ $paginator := .Paginate $section }}
@@ -32,7 +37,7 @@
                             <h5 class="entry-title" style="display: flex; align-items: center; justify-content: center; height: 81px">
                                 <a href="{{.RelPermalink}}">{{ .Title }}</a>
                             </h5>
-                            <p class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+                            <p class="mb-10 font-size-18">
                                 {{.Params.price}}zł (netto)
                             </p>
 

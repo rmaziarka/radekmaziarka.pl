@@ -5,25 +5,25 @@ url: '/sklep/video-analiza'
 code: 'video-analiza'
 price: 79
 knowledgeToObtain: [
-    'Czym jest Event Storming Big Picture?', 
-    'Jak przeprowadzać Event Storming zdalnie?', 
-    'Jak wizualizować procesy biznesowe?', 
-    'Jaka jest główna notacja, a jaka rozszerzona?', 
-    'Jak zaplanować sesję z grupą?', 
-    'Jak przeprowadzić warsztat z uczestnikami?', 
-    'Co dalej robić po Event Stormingu?'
+    'Co rozumiemy przez wartościowe funkcje?', 
+    'Jakie są problemy z typową analizą wymagań?', 
+    'Czym jest książkowa analiza wymagań?', 
+    'Jak określać cele?', 
+    'Jak definiować wymagania?', 
+    'Jak wyznaczać reguły biznesowe?',
+    'Jak określać atrybuty jakościowe?'
 ]
 ---
-Poradnik "Jak zacząć ze zdalnym Event Stormingiem" to kompletny opis kroków jak rozpocząć pracę z tą techniką.
+Webinar "Jak analizować potrzeby klienta, aby dostarczyć wartościowe funkcjonalności" to przekrojowy materiał ukazujący cały spektrum analizy biznesowej.
 
-Zawiera szczegółowy opis jak poradzić sobie z organizacją warsztatu, jego przeprowadzeniem, a także z kontynuacją pracy po warsztacie.
+Przechodzimy przez typowe problemy płytkiej analizy biznesowej. Wtedy, na podstawie książki "Software Requirements" definiujemy jak powinna wyglądać właściwa analiza biznesowa.
 
-Każdy element Event Stormingu jest przedstawiony na przykładzie, wraz z obszernym opisem dlaczego w taki sposób przeprowadzamy warsztat. Dodatkowo w poradniku znajduje się bardzo wiele wskazówek w jaki sposób ustrzec się typowych błędów.
+Następnie pokazujemy najważniejsze elementy analizy biznesowej: cele i potrzeby, wymagania funkcjonalne, reguły biznesowe, atrybuty jakościowe. 
 
-- Czym jest Event Storming Big Picture?
-- Jak przeprowadzać Event Storming zdalnie?
-- Jak wizualizować procesy biznesowe?
-- Jaka jest główna notacja, a jaka rozszerzona?
-- Jak zaplanować sesję z grupą?
-- Jak przeprowadzić warsztat z uczestnikami?
-- Co dalej robić po Event Stormingu?
+- Co rozumiemy przez wartościowe funkcje? 
+- Jakie są problemy z typową analizą wymagań? 
+- Czym jest książkowa analiza wymagań? 
+- Jak określać cele? 
+- Jak definiować wymagania? 
+- Jak wyznaczać reguły biznesowe?
+- Jak określać atrybuty jakościowe?

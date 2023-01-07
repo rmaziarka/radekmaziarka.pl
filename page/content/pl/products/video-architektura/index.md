@@ -5,25 +5,23 @@ url: '/sklep/video-architektura'
 code: 'video-architektura'
 price: 79
 knowledgeToObtain: [
-    'Czym jest Event Storming Big Picture?', 
-    'Jak przeprowadzać Event Storming zdalnie?', 
-    'Jak wizualizować procesy biznesowe?', 
-    'Jaka jest główna notacja, a jaka rozszerzona?', 
-    'Jak zaplanować sesję z grupą?', 
-    'Jak przeprowadzić warsztat z uczestnikami?', 
-    'Co dalej robić po Event Stormingu?'
+    'Jakie problemy pojawiają się, gdy produkt zaczyna być złożony?', 
+    'Czym jest architektura Big Ball of Mud?', 
+    'Jak myśleć o architekturze?', 
+    'Czym jest architektura ewolucyjna?', 
+    'Jak Event Storming pomaga na poziomie analizy procesów?', 
+    'Jak Event Storming pomaga na poziomie architektury produktu?'
 ]
 ---
-Poradnik "Jak zacząć ze zdalnym Event Stormingiem" to kompletny opis kroków jak rozpocząć pracę z tą techniką.
+Webinar "Jak projektować architekturę, aby efektywnie rozwijać Twój produkt" przechodzi od A do Z etapy pracy nad architekturą produktu cyfrowego.
 
-Zawiera szczegółowy opis jak poradzić sobie z organizacją warsztatu, jego przeprowadzeniem, a także z kontynuacją pracy po warsztacie.
+Rozpoczynamy od zapoznania się z typowym problemem rosnącej złożoności. Przedstawiam architekturę Big Ball of Mud i w jej kontrze architekturę ewolucyjną.
 
-Każdy element Event Stormingu jest przedstawiony na przykładzie, wraz z obszernym opisem dlaczego w taki sposób przeprowadzamy warsztat. Dodatkowo w poradniku znajduje się bardzo wiele wskazówek w jaki sposób ustrzec się typowych błędów.
+Na tej podstawie pokazuję  wykorzystanie Event Stormingu do efektywnego rozwoju produktu. Wykorzystuję podejście Event Storming Big Picture i Process Level.
 
-- Czym jest Event Storming Big Picture?
-- Jak przeprowadzać Event Storming zdalnie?
-- Jak wizualizować procesy biznesowe?
-- Jaka jest główna notacja, a jaka rozszerzona?
-- Jak zaplanować sesję z grupą?
-- Jak przeprowadzić warsztat z uczestnikami?
-- Co dalej robić po Event Stormingu?
+- Jakie problemy pojawiają się, gdy produkt zaczyna być złożony? 
+- Czym jest architektura Big Ball of Mud? 
+- Jak myśleć o architekturze? 
+- Czym jest architektura ewolucyjna? 
+- Jak Event Storming pomaga na poziomie analizy procesów? 
+- Jak Event Storming pomaga na poziomie architektury produktu?

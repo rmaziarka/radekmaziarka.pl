@@ -5,25 +5,23 @@ url: '/sklep/video-legacy'
 code: 'video-legacy'
 price: 79
 knowledgeToObtain: [
-    'Czym jest Event Storming Big Picture?', 
-    'Jak przeprowadzać Event Storming zdalnie?', 
-    'Jak wizualizować procesy biznesowe?', 
-    'Jaka jest główna notacja, a jaka rozszerzona?', 
-    'Jak zaplanować sesję z grupą?', 
-    'Jak przeprowadzić warsztat z uczestnikami?', 
-    'Co dalej robić po Event Stormingu?'
+    'W jaki sposób systemy zostają legacy?', 
+    'Jak nie przeprowadzać przebudowy legacy?', 
+    'Jak analizować stan obecny i cele przebudowy?', 
+    'Jak określać stan docelowy przebudowy?', 
+    'Od czego rozpoczynać przebudowę?', 
+    'Jak stopniowo wdrażać nowe funkcje?'
 ]
 ---
-Poradnik "Jak zacząć ze zdalnym Event Stormingiem" to kompletny opis kroków jak rozpocząć pracę z tą techniką.
+Webinar "Jak zaplanować skuteczną przebudowę systemu legacy" to przekrojowy instruktaż jak wykonać przebudowę systemu legacy.
 
-Zawiera szczegółowy opis jak poradzić sobie z organizacją warsztatu, jego przeprowadzeniem, a także z kontynuacją pracy po warsztacie.
+Rozpoczynamy od długu technicznego oraz dlaczego produkty zostają legacy. Następnie opowiadam dlaczego nie przeprowadzać przebudowy w stylu Big Bang.
 
-Każdy element Event Stormingu jest przedstawiony na przykładzie, wraz z obszernym opisem dlaczego w taki sposób przeprowadzamy warsztat. Dodatkowo w poradniku znajduje się bardzo wiele wskazówek w jaki sposób ustrzec się typowych błędów.
+Instruktaż przebudowy zaczyna się od określenia stanu obecnego i celów przebudowy. Następnie definiujemy stan docelowy i kroki. Wszystko poparte przykładami z Event Stormingiem.
 
-- Czym jest Event Storming Big Picture?
-- Jak przeprowadzać Event Storming zdalnie?
-- Jak wizualizować procesy biznesowe?
-- Jaka jest główna notacja, a jaka rozszerzona?
-- Jak zaplanować sesję z grupą?
-- Jak przeprowadzić warsztat z uczestnikami?
-- Co dalej robić po Event Stormingu?
+- W jaki sposób systemy zostają legacy? 
+- Jak nie przeprowadzać przebudowy legacy? 
+- Jak analizować stan obecny i cele przebudowy? 
+- Jak określać stan docelowy przebudowy? 
+- Od czego rozpoczynać przebudowę? 
+- Jak stopniowo wdrażać nowe funkcje?

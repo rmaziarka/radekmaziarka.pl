@@ -1,0 +1,37 @@
+{{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
+{{ define "main" }}
+
+{{ $featured_image := "" }}
+{{if .Params.images}}
+{{ $featured_image = index (.Params.images) 0 }}
+{{end}}
+
+<div class="container mt-25 mb-50 pt-25 pb-50">
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="{{ $featured_image }}">
+                <img src="{{ $featured_image }}" alt="Poradnik 'Jak zacząć ze zdalnym Event Stormingiem'">
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <h3>{{ .Params.title }}</h3>
+            <p class="mb-10 font-size-20">
+                {{.Params.price}}zł (netto)
+            </p>
+            <p>
+                <ul style="font-size: 90%">
+                    {{range .Params.knowledgeToObtain }}
+                    <li>{{.}}</li>
+                    {{end}}
+                </ul>
+            </p>
+            <a href="https://radekmaziarka-prod-shop.azurewebsites.net/api/CreateCheckout/{{ .Params.code }}" target="_self" class="btn btn-theme-colored2 btn-lg mt-10"> Kup </a>
+        </div>
+    </div>
+    <div class="row mt-40">
+        <div class="col-sm-12">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

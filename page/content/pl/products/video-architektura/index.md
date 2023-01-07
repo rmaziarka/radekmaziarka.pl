@@ -1,6 +1,7 @@
 ---
 title: 'Webinar "Jak projektować architekturę, aby efektywnie rozwijać Twój produkt"'
 images: ['main.jpg']
+url: '/sklep/video-architektura'
 code: 'video-architektura'
 price: 79
 knowledgeToObtain: [

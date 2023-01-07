@@ -9,7 +9,7 @@ paginatePath = "page"
 
 [params]
   author = "Radek Maziarka"
-
+  
 [taxonomies]
   category = "category"
   tag = "tags"
@@ -28,7 +28,6 @@ paginatePath = "page"
     
   [languages.pl.permalinks]
     post = "blog/:slug"
-    product = "sklep/:slug"
 
 [[languages.pl.menu.main]]
   identifier = "blog"

@@ -1,6 +1,7 @@
 ---
 title: 'Webinar "Jak analizować potrzeby klienta, aby dostarczyć wartościowe funkcjonalności"'
 images: ['main.jpg']
+url: '/sklep/video-analiza'
 code: 'video-analiza'
 price: 79
 knowledgeToObtain: [

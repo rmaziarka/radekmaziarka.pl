@@ -9,7 +9,7 @@ images: ['images/2019/07/prelekcje.jpg']
 Poniżej możecie znaleźć kalendarz moich przyszłych i przeszłych prelekcji i warsztatów. Jeśli chciałbyś bym wystąpił na twoim spotkaniu / konferencji to łap mnie przez [Kontakt](/kontakt) lub [Twittera](https://twitter.com/RadekMaziarka) 🙂
 
 ## 2022
-* 2022-12-26 - "Jak pastrami i żeberka zrobią z Ciebie architekta" - [Programeetstok](https://www.facebook.com/events/678353893660452/) - [nagranie](https://youtu.be/1wcsHRsfrSY?t=13088)
+* 2022-11-26 - "Jak pastrami i żeberka zrobią z Ciebie architekta" - [Programeetstok](https://www.facebook.com/events/678353893660452/) - [nagranie](https://youtu.be/1wcsHRsfrSY?t=13088)
 * 2022-11-22 - "Modelowanie biznesowe w Cosmos DB" - [WrocNET](https://www.meetup.com/pl-PL/wrocnet/events/289669574/)
 * 2022-11-08 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [4Developers Wrocław](https://4developers.org.pl/wroclaw-2022/)
 * 2022-10-27 - "Bounded Context - jak modularyzować systemy w kilku krokach" - [4Developers Poznań](https://4developers.org.pl/poznan-2022/)

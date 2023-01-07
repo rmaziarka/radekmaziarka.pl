@@ -25,11 +25,13 @@
                 {{ range first $first .Site.Menus.main }}
                 <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
                 {{ end }}
+                <li><a href="/polityka-prywatnosci">Polityka prywatności</a></li>                
               </div>
               <div class="col-md-6">
                 {{ range last $last .Site.Menus.main }}
                 <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
                 {{ end }}
+                <li><a href="/regulamin-sklepu">Regulamin sklepu</a></li>
               </div>
             </div>
             <ul>

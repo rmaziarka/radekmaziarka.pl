@@ -1,0 +1,50 @@
+{{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
+{{ define "main" }}
+
+{{$section :=
+    (where
+        (where .Site.Pages "Section" "products")
+            ".Params.title" "!=" nil )
+}}
+
+{{ $section_count := len $section }}
+
+<section>
+    <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="blog-posts" style="font-size: 80%; text-align: center">
+                    {{ $paginator := .Paginate $section }}
+                    {{ range $paginator.Pages }}
+
+                    {{ $featured_image := index .Params.images 0 }}
+                    <article class="post clearfix mb-30 pb-30">
+                        <div class="entry-header">
+                            <div class="post-thumb thumb">
+                                <a href="{{.RelPermalink}}">
+                                    <img src="{{.RelPermalink}}{{ $featured_image }}"  alt="image from {{ .Title }}"
+                                         class="img-responsive " style="max-height: 300px; width: auto;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="entry-content">
+                            <h4 class="entry-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+                            <p class="mb-10 text-gray-darkgray  mr-20 font-size-16">
+                                {{.Params.price}}zł (netto)
+                            </p>
+
+                            <a href="{{.RelPermalink}}" class="btn btn-theme-colored2 btn-view-details">Zobacz produkt ➞</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </article>
+                    {{ end }}
+
+
+                    {{ template "_internal/pagination.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,7 +1,9 @@
 ---
-title: 'Poradnik "Jak zacząć ze zdalnym Event Stormingiem"'
+title: 'Jak zacząć ze zdalnym Event Stormingiem'
+description: 'Jak zacząć ze zdalnym Event Stormingiem'
 images: ['main.jpg']
 url: '/sklep/ebook-event-storming'
+productType: 'Poradnik'
 code: 'ebook-event-storming'
 price: 79
 knowledgeToObtain: [

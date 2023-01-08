@@ -9,6 +9,8 @@
 
 {{ $section_count := len $section }}
 
+{{ $section = sort $section "Type" "desc" }}
+
 <section>
     <div class="container mt-30 mb-30 pt-30 pb-30">
         <div class="row mb-30">
@@ -34,6 +36,9 @@
                             </div>
                         </div>
                         <div class="entry-content">
+                            <span class="mb-0 text-gray-darkgray  mr-20 font-size-16">
+                                {{ .Params.ProductType }}
+                            </span>
                             <h5 class="entry-title" style="display: flex; align-items: center; justify-content: center; height: 81px">
                                 <a href="{{.RelPermalink}}">{{ .Title }}</a>
                             </h5>
@@ -41,7 +46,7 @@
                                 {{.Params.price}}zł (netto)
                             </p>
 
-                            <a href="{{.RelPermalink}}" class="btn btn-xs btn-theme-colored2">Zobacz produkt ➞</a>
+                            <a href="https://radekmaziarka-prod-shop.azurewebsites.net/api/CreateCheckout/{{ .Params.code }}" class="btn btn-xs btn-theme-colored2">Kup produkt ➞</a>
                             <div class="clearfix"></div>
                         </div>
                     </article>

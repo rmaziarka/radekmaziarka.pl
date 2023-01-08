@@ -1,8 +1,10 @@
 ---
-title: 'Webinar "Jak zaplanować skuteczną przebudowę systemu legacy"'
+title: 'Jak zaplanować skuteczną przebudowę systemu legacy'
+description: 'Jak zaplanować skuteczną przebudowę systemu legacy'
 images: ['main.jpg']
 url: '/sklep/video-legacy'
 code: 'video-legacy'
+productType: 'Dostęp do webinaru'
 price: 79
 knowledgeToObtain: [
     'W jaki sposób systemy zostają legacy?', 

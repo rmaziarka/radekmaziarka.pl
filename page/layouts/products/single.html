@@ -10,10 +10,13 @@
     <div class="row">
         <div class="col-sm-4">
             <a href="{{ $featured_image }}">
-                <img src="{{ $featured_image }}" alt="Poradnik 'Jak zacząć ze zdalnym Event Stormingiem'">
+                <img src="{{ $featured_image }}" alt="{{ .Params.title }}">
             </a>
         </div>
         <div class="col-sm-8">
+            <span class="mb-0 text-gray-darkgray  mr-20 font-size-16">
+                {{ .Params.ProductType }}
+            </span>
             <h3>{{ .Params.title }}</h3>
             <p class="mb-10 font-size-20">
                 {{.Params.price}}zł (netto)
@@ -25,11 +28,12 @@
                     {{end}}
                 </ul>
             </p>
-            <a href="https://radekmaziarka-prod-shop.azurewebsites.net/api/CreateCheckout/{{ .Params.code }}" target="_self" class="btn btn-theme-colored2 btn-lg mt-10"> Kup </a>
+            <a href="https://radekmaziarka-prod-shop.azurewebsites.net/api/CreateCheckout/{{ .Params.code }}" target="_self" class="btn btn-theme-colored2 btn-lg mt-10"> Kup produkt</a>
         </div>
     </div>
     <div class="row mt-40">
         <div class="col-sm-12">
+            <h4>Opis produktu:</h4>
             {{ .Content }}
         </div>
     </div>

@@ -1,8 +1,10 @@
 ---
-title: 'Webinar "Jak projektować architekturę, aby efektywnie rozwijać Twój produkt"'
+title: 'Jak projektować architekturę, aby efektywnie rozwijać Twój produkt'
+description: 'Jak projektować architekturę, aby efektywnie rozwijać Twój produkt'
 images: ['main.jpg']
 url: '/sklep/video-architektura'
 code: 'video-architektura'
+productType: 'Dostęp do webinaru'
 price: 79
 knowledgeToObtain: [
     'Jakie problemy pojawiają się, gdy produkt zaczyna być złożony?', 

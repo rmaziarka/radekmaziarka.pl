@@ -1,8 +1,10 @@
 ---
-title: 'Webinar "Jak analizować potrzeby klienta, aby dostarczyć wartościowe funkcjonalności"'
+title: 'Jak analizować potrzeby klienta, aby dostarczyć wartościowe funkcjonalności'
+description: 'Jak analizować potrzeby klienta, aby dostarczyć wartościowe funkcjonalności'
 images: ['main.jpg']
 url: '/sklep/video-analiza'
 code: 'video-analiza'
+productType: 'Dostęp do webinaru'
 price: 79
 knowledgeToObtain: [
     'Co rozumiemy przez wartościowe funkcje?', 

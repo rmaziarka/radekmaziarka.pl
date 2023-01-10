@@ -1,8 +1,8 @@
 ---
 title: "Motywacja nie wystarczy - jak wdrażać nawyki"
 date: 2023-01-10T09:59:30+01:00
-url: '/2023/01/10/rozne-role-podczas-event-stormingu'
-images: ['2023/01/10/rozne-role-podczas-event-stormingu/main.jpg']
+url: '/2023/01/10/motywacja-nie-wystarczy-jak-wdrazac-nawyki'
+images: ['2023/01/10/motywacja-nie-wystarczy-jak-wdrazac-nawyki/main.jpg']
 description: "W jaki sposób wdrażać nawyki, nawet jeśli nie mamy do tego motywacji."
 category: 'Other'
 ---

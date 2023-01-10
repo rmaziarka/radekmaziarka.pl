@@ -34,7 +34,7 @@ Duża zmiana składa się więc w z małych zmian. Zamiast wieczoru z chipsami �
 
 Aby to się jednak stało nawyk musi się zakorzenić w twoim życiu. [Badania w kwestii nawyków](https://www.healthline.com/health/how-long-does-it-take-to-form-a-habit) wskazują, że trwa to średnio 66 dni (rozstrzał w tej kwestii jest duży – od 18 do nawet 254 dni). Jeśli odpuścimy, to nawyk się nie przyjmie. A wtedy wracamy do starych zachowań.
 
-**Co jest istotne z powyższego opisu?** Kluczowym aspektem wprowadzenia zmiany jest wytrwałość. Nie możemy przerwać robienia tego, co robimy, przez odpowiednio długi czas. Dopiero wtedy nowe nawyki stają się naszymi naturalnymi nawykami.
+Co jest istotne z powyższego opisu? **Kluczowym aspektem wprowadzenia zmiany jest wytrwałość.** Nie możemy przerwać robienia tego, co robimy, przez odpowiednio długi czas. Dopiero wtedy nowe nawyki stają się naszymi naturalnymi nawykami.
 
 I tutaj na scenę wchodzi motywacja.
 
@@ -50,7 +50,7 @@ Jeśli nasze działania bazujemy jedynie na motywacji, to mamy dużą pewność,
 - Jednak po kilku dniach losowa sytuacja sprawia, że nie ćwiczymy / że więcej jemy.
 - To zaś powoduje, że czujemy się źle - przecież mieliśmy robić lepiej, a robimy po staremu.
 - Przez co spada nam motywacja, bo tracimy poczucie własnej wartości.
-- Z powodu spadku motywacji przestajemy pracować nad zmianą nawyków .
+- Z powodu spadku motywacji przestajemy pracować nad wdrożeniem nawyków .
 
 **Motywacja pomoże nam rozpocząć zmianę. Jednak motywacja nie pomoże nam zbudować nawyków.** Głównie dlatego, że nawyki bazują na podświadomej pracy organizmu, a nie tej racjonalnej. A motywacja jest przede wszystkim racjonalna.
 
@@ -60,7 +60,7 @@ Aby to przedstawić musimy się odnieść do Kahnemana i systemów 1 i 2.
 
 ![](system-1-2.jpg)
 
-Terminy „system 1" i „system 2" zostały opisane przez izraelskiego psychologa Daniela Kahnemana w książkce [Pułapki myślenia. O myśleniu szybkim i wolnym](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow). Dzieli on pracę naszego mózgu na dwa systemy:
+Terminy „system 1" i „system 2" zostały opisane przez izraelskiego psychologa Daniela Kahnemana w książkce ["Pułapki myślenia. O myśleniu szybkim i wolnym"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow). Dzieli on pracę naszego mózgu na dwa systemy:
 
 - **System 1** – Podświadomy system, który pracuje szybko i podejmuje większość decyzji. Jest automatyczny, bazuje na emocjach i stereotypach. Wykorzystujesz go, gdy:
     - Leci w Ciebie piłka, a ty się uchylasz.
@@ -84,6 +84,8 @@ Jak się ma to do naszego wątku o motywacji i nawykach?
 
 ## Motywacja nie pomaga
 
+![](motivation-loss.jpg)
+
 Motywacja jest myśleniem na poziomie systemu 2. Jednak główny problem w przeniesieniu naszego celu w nawyki jest na poziomie systemu 1. **Motywacja nie pomoże nam w zmianie naszych podświadomych zachowań.**
 
 Załóżmy sytuację, że zmotywowani planujemy bieganie na 17:00 następnego dnia. Pracujemy od rana. Nadchodzi 17:00. Jak się zachowuje nasz organizm?
@@ -98,10 +100,8 @@ Załóżmy sytuację, że zmotywowani planujemy bieganie na 17:00 następnego dn
 
 - System 1 łatwo przekłada pracę od 9:00 i deszcz na argumenty, by odwołać bieganie – WYSIATI.
 - Nie znajduje on za to żadnego argumentu za bieganiem (pamiętaj, że motywacja to system 2) – cognitive ease.
-
 - System 1 posiada tylko argumenty przeciwko bieganiu, podejmuje decyzję, by nie biegać – jump to conclusion.
-
-- Następnie uruchamia mechanizm racjonalizacji podjętej decyzji na systemie 2 – bieganie w deszczu, gdy jest się zmęczonym, nie jest najlepsze dla zdrowia – confirmation bias.
+- Następnie uruchamia mechanizm racjonalizacji podjętej decyzji – przekonuje system 2, że bieganie w deszczu nie jest najlepsze dla zdrowia – confirmation bias.
 
 W następstwie czego uznajemy, że słusznie odwołaliśmy biegania. A to powoduje, że próba utrwalenia nawyku spełznie na niczym.
 
@@ -109,11 +109,11 @@ W następstwie czego uznajemy, że słusznie odwołaliśmy biegania. A to powodu
 
 ## Co robić, gdy motywacja nie pomaga
 
-![](motivation-loss.jpg)
+![](question-mark.jpg)
 
 Aby zrobić pierwszy krok do zmiany potrzebujemy zadziałać na system 2. **Jednak, aby zmiana była długofalowa, trzeba zacząć działać również na systemie 1.**
 
-Wiele przykładów, w jaki sposób radzić sobie z systemem 1 możemy znaleźć w książkach typu [„Atomowe nawyki"](https://lubimyczytac.pl/ksiazka/4898707/atomowe-nawyki-drobne-zmiany-niezwykle-efekty) czy [„Siła nawyku"](https://lubimyczytac.pl/ksiazka/171834/sila-nawyku-dlaczego-robimy-to-co-robimy-i-jak-mozna-to-zmienic-w-zyciu-i-biznesie). Warto wyszczególnić:
+Wiele przykładów, w jaki sposób radzić sobie z systemem 1 możemy znaleźć w książkach typu [„Atomowe nawyki"](https://lubimyczytac.pl/ksiazka/4898707/atomowe-nawyki-drobne-zmiany-niezwykle-efekty) czy [„Siła nawyku"](https://lubimyczytac.pl/ksiazka/171834/sila-nawyku-dlaczego-robimy-to-co-robimy-i-jak-mozna-to-zmienic-w-zyciu-i-biznesie). **Warto wyszczególnić kilka praktyk**:
 
 - Sprawmy, aby stosowanie nowego nawyku było proste np. kupmy jedną więcej parę strojów do biegania, aby nie brakowało ich, kiedy chcemy biegać.
 - Zaprojektujmy swoje środowisko, tak aby wykonywanie zmiany było automatyczne np. nie kupujmy sobie słodyczy do mieszkania, jeśli lubimy podjadać.

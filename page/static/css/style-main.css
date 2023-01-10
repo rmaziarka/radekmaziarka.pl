@@ -18352,3 +18352,10 @@ $grid-breakpoints: (
 .modal button{
   padding: 10px 15px;
 }
+
+.entry-content {
+  line-height: 30px;
+}
+.entry-content li{
+  margin-bottom: 5px;
+}

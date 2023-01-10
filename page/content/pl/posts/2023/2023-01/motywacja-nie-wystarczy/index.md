@@ -30,7 +30,7 @@ Niestety tylko w założeniach. Nie wystarczy mniej jeść i więcej ćwiczyć p
 
 Duża zmiana składa się więc w z małych zmian. Zamiast wieczoru z chipsami – niepodjadanie po 20:00. Zamiast przeglądania storisków na insta po pracy – bieganie w parku. Pomnożone razy 100 dadzą odpowiedni efekt.
 
-**Wobec czego zmianę (taką długofalową) można określić jako wprowadzenie do swojego życia nowych nawyków.** Jeśli te nawyki utrzymasz odpowiednio długo, to wtedy osiągniesz zamierzony efekt. Z tygodnia na tydzień waga będzie się zmniejszać.
+**Wobec czego zmianę (taką długofalową) można określić jako wprowadzenie do swojego życia nowych nawyków.** Jeśli te nawyki utrzymamy odpowiednio długo, to wtedy osiągniemy zamierzony efekt. Z tygodnia na tydzień waga będzie się zmniejszać.
 
 Aby to się jednak stało nawyk musi się zakorzenić w twoim życiu. [Badania w kwestii nawyków](https://www.healthline.com/health/how-long-does-it-take-to-form-a-habit) wskazują, że trwa to średnio 66 dni (rozstrzał w tej kwestii jest duży – od 18 do nawet 254 dni). Jeśli odpuścimy, to nawyk się nie przyjmie. A wtedy wracamy do starych zachowań.
 
@@ -42,7 +42,7 @@ I tutaj na scenę wchodzi motywacja.
 
 ![](persistence.jpg)
 
-Przede wszystkim - motywacja nie jest połączona z wytrwałością. To, że jesteśmy bardzo zmotywowani, nie oznacza, że będziemy wytrwali w naszych nawykach.
+Przede wszystkim - motywacja nie jest połączona z wytrwałością. To, że jesteśmy bardzo zmotywowani, nie oznacza, że będziemy wytrwali w nawykach.
 
 Jeśli nasze działania bazujemy jedynie na motywacji, to mamy dużą pewność, że nie uda nam się wytrwać w nawykach. Łatwo to przedstawić na prostej historyjce:
 
@@ -56,22 +56,22 @@ Jeśli nasze działania bazujemy jedynie na motywacji, to mamy dużą pewność,
 
 Aby to przedstawić musimy się odnieść do Kahnemana i systemów 1 i 2.
 
-## System pierwszy i drugi, a motywacja
+## System pierwszy i drugi
 
 ![](system-1-2.jpg)
 
 Terminy „system 1" i „system 2" zostały opisane przez izraelskiego psychologa Daniela Kahnemana w książkce ["Pułapki myślenia. O myśleniu szybkim i wolnym"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow). Dzieli on pracę naszego mózgu na dwa systemy:
 
-- **System 1** – Podświadomy system, który pracuje szybko i podejmuje większość decyzji. Jest automatyczny, bazuje na emocjach i stereotypach. Wykorzystujesz go, gdy:
-    - Leci w Ciebie piłka, a ty się uchylasz.
-    - Lokalizujesz źródło dźwięku.
-    - Prowadzisz samochód.
-    - Czytasz tekst na bilboardzie.
-- **System 2** – System, który wymaga naszego świadomego działania. Jest logiczny, powolny, potrzebujemy wysiłku, aby go wykorzystywać. Wykorzystujesz go, gdy:
-    - Rozwiązujesz zadanie matematyczne.
-    - Planujesz kolejny dzień.
-    - Szukasz konkretnej osoby w tłumie.
-    - Parkujesz samochód w ciasnym miejscu.
+- **System 1** – Podświadomy system, który pracuje szybko i podejmuje większość decyzji. Jest automatyczny, bazuje na emocjach i stereotypach. Wykorzystujemy go, gdy:
+    - Leci w nas piłka i się uchylamy.
+    - Lokalizujemy źródło dźwięku.
+    - Prowadzimy samochód.
+    - Czytamy tekst na bilboardzie.
+- **System 2** – System, który wymaga naszego świadomego działania. Jest logiczny, powolny, potrzebujemy wysiłku, aby go wykorzystywać. Wykorzystujemy go, gdy:
+    - Rozwiązujemy zadanie matematyczne.
+    - Planujemy kolejny dzień.
+    - Szukamy konkretnej osoby w tłumie.
+    - Parkujemy samochód w ciasnym miejscu.
 
 System 1 upraszcza codzienne działanie - bez niego nad wszystkim musielibyśmy się zastanawiać się. **Jednocześnie system 1 powoduje u nas bardzo wiele błędów poznawczych** np.:
 
@@ -86,9 +86,9 @@ Jak się ma to do naszego wątku o motywacji i nawykach?
 
 ![](motivation-loss.jpg)
 
-Motywacja jest myśleniem na poziomie systemu 2. Jednak główny problem w przeniesieniu naszego celu w nawyki jest na poziomie systemu 1. **Motywacja nie pomoże nam w zmianie naszych podświadomych zachowań.**
+Motywacja jest myśleniem na poziomie systemu 2. Jednak główny problem w przeniesieniu celu w nawyki jest na poziomie systemu 1. **Motywacja nie pomoże nam w zmianie naszych podświadomych zachowań.**
 
-Załóżmy sytuację, że zmotywowani planujemy bieganie na 17:00 następnego dnia. Pracujemy od rana. Nadchodzi 17:00. Jak się zachowuje nasz organizm?
+Załóżmy sytuację, że zmotywowani planujemy bieganie na 17:00 następnego dnia. Pracujemy od rana. Nadchodzi 17:00. Jak się może zachować nasz organizm?
 
 - Bieganie jest czynnością wymagająca wysiłku.
 - Organizm ludzki nie lubi ponosić wysiłku.
@@ -145,9 +145,9 @@ I tutaj dochodzimy do ciekawej kwestii. Otóż, **aby wprowadzić w sobie nawyk 
 
 Opieranie się na motywacji skupia nas na tych dniach, kiedy jesteśmy wypoczęci, szczęśliwi i chętni do działania. Kiedy jest „nasz dzień". Ale takich dni w roku jest może kilkanaście. Reszta to dni szarej codzienności, niechęci, marazmu.
 
-Jeśli chcemy wprowadzić zmianę to musimy założyć, że w większość dni będziemy mieć niską chęć do działania. Nasz organizm będzie nas zniechęcał do kontynuacji nawyku. Będziemy postępować nieracjonalnie.
+Jeśli chcemy wprowadzić zmianę to musimy założyć, że w większość dni będziemy mieć niską chęć do działania. Organizm będzie nas zniechęcał do kontynuacji nawyku. Będziemy postępować nieracjonalnie.
 
-**Dlatego musimy się przygotować na nieracjonalne działanie naszego organizmu.** Często nazywa się to systemem (niestety, identyczne słowo, ale znaczące coś innego). Jest to zbiór praktyk, które stosujemy, by nasze automatyczne reakcje kierować w określoną stronę. Wtedy jesteśmy w stanie wytrwać w nawyku, nawet jeśli nasz organizm nam w tym nie pomaga.
+**Dlatego musimy się przygotować na nieracjonalne działanie naszego organizmu.** Często nazywa się to systemem (niestety, identyczne słowo, ale znaczące coś innego). Jest to zbiór praktyk, które stosujemy, by automatyczne reakcje kierować w określoną stronę. Wtedy jesteśmy w stanie wytrwać w nawyku, nawet jeśli organizm nam w tym nie pomaga.
 
 **Aby zbudować taki system praktyk możemy sobie zadać pytania:**
 

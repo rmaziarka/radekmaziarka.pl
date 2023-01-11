@@ -98,10 +98,10 @@ Załóżmy sytuację, że zmotywowani planujemy bieganie na 17:00 następnego dn
 
 **I wtedy do gry wchodzi nasz podświadomy system** – może to wyglądać następująco:
 
-- System 1 łatwo przekłada pracę od 9:00 i deszcz na argumenty, by odwołać bieganie – WYSIATI.
-- Nie znajduje on za to żadnego argumentu za bieganiem (pamiętaj, że motywacja to system 2) – cognitive ease.
-- System 1 posiada tylko argumenty przeciwko bieganiu, podejmuje decyzję, by nie biegać – jump to conclusion.
-- Następnie uruchamia mechanizm racjonalizacji podjętej decyzji – przekonuje system 2, że bieganie w deszczu nie jest najlepsze dla zdrowia – confirmation bias.
+- System 1 łatwo przekłada pracę od 9:00 i deszcz na argumenty, by odwołać bieganie – [WYSIATI](https://www.shortform.com/blog/what-you-see-is-all-there-is/).
+- Nie znajduje on za to żadnego argumentu za bieganiem (pamiętaj, że motywacja to system 2) – [cognitive ease](https://medium.com/@drsimonj/thinking-decisions-and-data-chapter-5-cognitive-ease-c66e8a532a87).
+- System 1 posiada tylko argumenty przeciwko bieganiu, podejmuje decyzję, by nie biegać – [jumping to conclusion](https://tcagley.wordpress.com/2019/06/15/thinking-fast-and-slow-by-daniel-kahneman-re-read-week-8-chapter-7-a-machine-for-jumping-to-conclusions/).
+- Następnie uruchamia mechanizm racjonalizacji podjętej decyzji – przekonuje system 2, że bieganie w deszczu nie jest najlepsze dla zdrowia – [confirmation bias](https://www.theatlantic.com/health/archive/2012/01/study-of-the-day-confirmation-bias-shapes-how-we-read-online/250686/).
 
 W następstwie czego uznajemy, że słusznie odwołaliśmy biegania. A to powoduje, że próba utrwalenia nawyku spełznie na niczym.
 

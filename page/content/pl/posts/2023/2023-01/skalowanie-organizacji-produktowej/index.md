@@ -4,9 +4,13 @@ url: '/2023/01/11/skalowanie-organizacji-produktowej-za-pomoca-celow'
 images: ['2023/01/11/skalowanie-organizacji-produktowej-za-pomoca-celow/main.jpg']
 description: "W jaki sposób skalować swoją organizację produktową unikając typowych 'zwinnych' podejść."
 category: 'Biznes w IT'
+draft: true
 ---
 
-Załóżmy, że mamy organizację produktową, której się powiodło. Mamy market-fit, kasa płynie zaczynamy się skalować. Dochodzimy do 50 osób technicznych i biznesowych.
+Załóżmy, że mamy organizację produktową, której się powiodło. Mamy market-fit, kasa płynie zaczynamy się skalować. Dochodzimy do 50 osób technicznych i biznesowych. Powstaje wtedy pytanie:
+
+- Jak sobie radzić wtedy z podziałem na zespoły?
+- Jak ogarnąć procesy pomiędzyzespołowe?
 
 Wiele firm rozgląda się wtedy za jakimiś frameworkami do skalowania się. Naturalnie trafiają na [LeSS](https://less.works/less/framework), [Nexus](https://www.scrum.org/resources/scaling-scrum) czy [Scrum at Scale](https://www.scrumatscale.com/scrum-at-scale-guide-online/). Frameworki skalujące pracę zwinną.
 
@@ -15,11 +19,11 @@ A gdybym wam powiedział, że jest inna droga?
 
 ## Miary skalowania
 
-Dużo organizacji wybierając frameworki do skalowania nie zadaje sobie tego pytania - jak będzie mierzyć progres.
+Dużo organizacji wybierając frameworki do skalowania nie zadaje sobie tego pytania - jak będzie mierzyć sukces takiego wdrożenia. I jak upewnić się, że mierzymy właściwą rzecz.
 
-Więc mierzymy proste rzeczy - jak dużo zadań jest spełnianych. Tylko pytanie czy to sprawia, że ostatecznie osiągamy cel?
+Bo jeśli coś już mierzymy to mierzymy proste rzeczy - np. jak dużo user story jest dowożonych. Tylko pytanie czy to sprawia, że ostatecznie osiągamy cel?
 
-Ja bym zacząć od myślenia tematami zespołowymi:
+Ja bym zacząć od myślenia tematami bardziej produktowymi:
 - Time to Market - Szybkość dowożenia danej funkcji od początku zgłoszenia
 - Liczbę eksperymentów - produkty nie żyją tylko funkcjonalnościami.
 - Szybkość zmian, reakcji - jak długo potrwa zanim będziemy w stanie zmienić kurs?
@@ -30,15 +34,11 @@ Ja bym zacząć od myślenia tematami zespołowymi:
 - Bycie atrakcyjną firmą dla pracowników
 - XYZ
 
-Cagan i jego słowa na [Product San Francisco](https://www.youtube.com/watch?v=9dccd8lihpQ) o inżynierach oraz o osobach, które na codzień pracują z danymi:
-> Consistently the best single source of ideas it's your engineers. It's because they're working with the technology every day and they're in the best possible position to see what's just now possible.
->
-> Another favorite source of ideas for me is data in the hands of the people doing the ideation. The executives maybe you know they see date a third hand but they're not inside the data every day.
+I na tej podstawie mierzył sukces wdrożenia metody skalowania.
 
-I na tej podstawie określał
-
-## Frameworki zwinne
+## Frameworki "zwinne"
 //Obrazek lessa huge
+
 Czy ktoś sobie wyobraża że taki moloch jest w stanie się zwinnie dostosowywać do rynku?
 
 //Fibit i jego porażka z SAF:
@@ -46,8 +46,17 @@ https://www.smharter.com/blog/the-mixed-results-of-companies-scaling-agile-with-
 
 Większość tych frameworków za miarę sukcesu uznaje liczbę "ticketów w Jirze" jaka została przeniesiona do kolumny Done. Czy to jest miara sukcesu organizacji produktowej?
 
+Patrząc jeszcze z innej strony. Jako organizacja produktowa, chcemy wychodzić z jak najlepszymi pomysłami rozwiązywania problemów klienta. Marty Cagan na prezentacji  [Product San Francisco](https://www.youtube.com/watch?v=9dccd8lihpQ) wspomniał, że najlepszym źródłem pomysłów są inżynierowie oraz osoby, które na codzień pracują z danymi od klientów:
+> Consistently the best single source of ideas it's your engineers. It's because they're working with the technology every day and they're in the best possible position to see what's just now possible.
+>
+> Another favorite source of ideas for me is data in the hands of the people doing the ideation. The executives maybe you know they see date a third hand but they're not inside the data every day.
+
+Jaką szansę ma zwykły członek zespołu, w tym wielkim molochu procesowym, na zgłoszenie i implementację swojego pomysłu?
+
+
 ## Jak zwinne zespoły mają firmy tech
 Przede wszystkim prawie żadna z nich nie korzysta z frameworków zwinnych. Za Oroszem
+
 // obrazek
 
 Jak się skalują
@@ -82,6 +91,25 @@ https://blog.agilityscales.com/can-big-consultancies-deliver-agile-transformatio
 
 
 ## Dlaczego to nie jest proste
-Ponieważ rozmawianie o celach jest o wiele trudniejsze, niż rozmawianie o funkcjonalnościach. Funkcjonalności są namacalne, a cele nie są.
+
+### Cele w organizacji
+Rozmawianie o celach jest o wiele trudniejsze, niż rozmawianie o funkcjonalnościach. Funkcjonalności są namacalne, a cele nie są.
 
 Przez co też łatwiej jest komuś powiedzieć "dowieź X" niż "osiągnij Y". Ponieważ na osiągnięcie Y wpływa o wiele więcej rzeczy + cele bardziej eksponują to co może pójść dobrze / nie dobrze. Przez co jeśli nie osiągniemy Y to także może być nasza wina [czy na pewno?]
+
+### Podział produktu na mniejsze
+
+Podział produktu na mniejsze to nie jest rzecz, na którą znajdziecie od razu najlepszą odpowiedź.
+
+Przytoczę tutaj [artykuł](https://medium.com/nick-tune-tech-strategy-blog/aligning-teams-with-business-capabilities-to-improve-flow-why-you-shouldnt-b2996b959546) Nicka Tune'a o różnych sposobach dzielenia się. Możemy podzielić się wysokopoziomowo:
+- Produkt
+- Segment klientów
+- Rodzaj rynku
+- Urządzenia, doświadczenie klienta
+- Region, kraj
+
+A następnie bardziej niskopoziomowo:
+- User Journey
+- Business Capabilities
+- Bounded Context
+

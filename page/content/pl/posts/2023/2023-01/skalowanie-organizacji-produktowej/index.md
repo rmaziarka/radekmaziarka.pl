@@ -21,7 +21,7 @@ A gdybym wam powiedział, że jest inna droga?
 
 Dużo organizacji wybierając frameworki do skalowania nie zadaje sobie tego pytania - jak będzie mierzyć sukces takiego wdrożenia. I jak upewnić się, że mierzymy właściwą rzecz.
 
-Bo jeśli coś już mierzymy to mierzymy proste rzeczy - np. jak dużo user story jest dowożonych. Tylko pytanie czy to sprawia, że ostatecznie osiągamy cel?
+Bo jeśli coś już mierzymy to mierzymy proste rzeczy - np. jak dużo user story jest dowożonych. XYZ
 
 Ja bym zacząć od myślenia tematami bardziej produktowymi:
 - Time to Market - Szybkość dowożenia danej funkcji od początku zgłoszenia
@@ -32,18 +32,19 @@ Ja bym zacząć od myślenia tematami bardziej produktowymi:
 - Spełnianie potrzeb naszego klienta - to jest chyba najtrudniejsze do mierzenia.
 - Zadowolenie pracy w zespole - aby w miarę rośnięcia nie ucierpiało zadowolenie pracowników.
 - Bycie atrakcyjną firmą dla pracowników
+- Liczba tematów które dzieją się w zespole vs liczba tych które wychodzą poza zespół. 
 - XYZ
 
 I na tej podstawie mierzył sukces wdrożenia metody skalowania.
 
 ## Frameworki "zwinne"
 //Obrazek lessa huge
-
-Czy ktoś sobie wyobraża że taki moloch jest w stanie się zwinnie dostosowywać do rynku?
+Zanim przejdziemy sobie do skalowania przez cele porozmawiajmy o franeworkach zwinnych. Na ile w podejściu wielu poziomów PO będziemy w stanie zachować obecne wskaźniki np. szybkość zmian, czy spełnianie potrzeb klienta. Kiedy duży PO posiada pod sobą kilka zespołów i kilkadziesiąt osób. Na ile można realnie przetwarzać feedback od klientów przy takiej skali. 
+Czy ktoś sobie wyobraża że taki moloch jest w stanie się zwinnie dostosowywać do rynku? Na ile ludzie z góry drabinki nie staną się wąskim gardłem w podejmownaiu decyzji? Jaki będzie koszt zmiany tego behemota? 
 
 //Fibit i jego porażka z SAF:
 https://www.smharter.com/blog/the-mixed-results-of-companies-scaling-agile-with-a-scaled-framework/
-
+Wydaje się, że powyższe metody skupiają się raczej na pracy top-down, niż bottom-up, w kwestii dostosowania do potrzeb klientów. 
 Większość tych frameworków za miarę sukcesu uznaje liczbę "ticketów w Jirze" jaka została przeniesiona do kolumny Done. Czy to jest miara sukcesu organizacji produktowej?
 
 Patrząc jeszcze z innej strony. Jako organizacja produktowa, chcemy wychodzić z jak najlepszymi pomysłami rozwiązywania problemów klienta. Marty Cagan na prezentacji  [Product San Francisco](https://www.youtube.com/watch?v=9dccd8lihpQ) wspomniał, że najlepszym źródłem pomysłów są inżynierowie oraz osoby, które na codzień pracują z danymi od klientów:
@@ -53,16 +54,21 @@ Patrząc jeszcze z innej strony. Jako organizacja produktowa, chcemy wychodzić 
 
 Jaką szansę ma zwykły członek zespołu, w tym wielkim molochu procesowym, na zgłoszenie i implementację swojego pomysłu?
 
+Wydaje się, że powyższe procesy skalowania są skupione raczej na fabrykach funkcjonalności (gdzie większość wymagań przychodzi z góry) niż dla organizacji produktowych. 
 
-## Jak zwinne zespoły mają firmy tech
-Przede wszystkim prawie żadna z nich nie korzysta z frameworków zwinnych. Za Oroszem
+## Empowered teams
 
-// obrazek
-
-Jak się skalują
-- My personal view is that in organizations with empowered teams, objectives and key results (OKRs), key performance indicators (KPIs) and goals are far better tools for aligning teams, than rolling out a rigid methodology like Scrum for the sake of reporting.
+// pokazanie obrazka cutlera o empowered i feature teams 
+XYZ proponuje inny sposób skalowania się - przez tworzenie Empowered Teams, które mają do osiągnięcia konkretne cele organizacyjne. Zespół (ew. 2-3 zespoły) pracują, aby zrealizować konretny cel biznesowy. Jednak to jak to osiągnąć jest już w gesti zespołu - wybór rozwiązania, wdrażania oraz zbieranie feedbacku. 
 
 Głównie dlatego, że firmy technologicznie nie starają się skalować produktu. **One tworzą wiele różnych produktów, pod wspólną egidą.**
+
+// obrazek od Orosza
+
+Przede wszystkim prawie żadna z nich nie korzysta z frameworków zwinnych. Za Oroszem
+
+> My personal view is that in organizations with empowered teams, objectives and key results (OKRs), key performance indicators (KPIs) and goals are far better tools for aligning teams, than rolling out a rigid methodology like Scrum for the sake of reporting.
+
 
 //
 ![](scaling.png)
@@ -112,4 +118,8 @@ A następnie bardziej niskopoziomowo:
 - User Journey
 - Business Capabilities
 - Bounded Context
+
+### Zaufanie 
+
+W takim modelu trzeba o wiele bardziej ufać sobie wzajemnie. Trochę tak jak z kimś kto robi wam remont - łatwo jest oddelegować malowanie ścian, trudniej wybór rozwiązań czy XYZ. 
 

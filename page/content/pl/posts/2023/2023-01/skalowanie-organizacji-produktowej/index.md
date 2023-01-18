@@ -16,6 +16,7 @@ Wiele firm rozgląda się wtedy za jakimiś frameworkami do skalowania się. Nat
 
 A gdybym wam powiedział, że jest inna droga?
 
+Ale zanim odpowiemy sobie na pytanie jak skalować, odpowiemy na pytanie jak mierzyć skalowanie.
 
 ## Miary skalowania
 
@@ -37,9 +38,11 @@ Ja bym zacząć od myślenia tematami bardziej produktowymi:
 
 I na tej podstawie mierzył sukces wdrożenia metody skalowania.
 
-## Frameworki "zwinne"
+## Skalowanie frameworkami "zwinnymi"
 //Obrazek lessa huge
+
 Zanim przejdziemy sobie do skalowania przez cele porozmawiajmy o franeworkach zwinnych. Na ile w podejściu wielu poziomów PO będziemy w stanie zachować obecne wskaźniki np. szybkość zmian, czy spełnianie potrzeb klienta. Kiedy duży PO posiada pod sobą kilka zespołów i kilkadziesiąt osób. Na ile można realnie przetwarzać feedback od klientów przy takiej skali. 
+
 Czy ktoś sobie wyobraża że taki moloch jest w stanie się zwinnie dostosowywać do rynku? Na ile ludzie z góry drabinki nie staną się wąskim gardłem w podejmownaiu decyzji? Jaki będzie koszt zmiany tego behemota? 
 
 //Fibit i jego porażka z SAF:
@@ -48,6 +51,9 @@ Wydaje się, że powyższe metody skupiają się raczej na pracy top-down, niż 
 Większość tych frameworków za miarę sukcesu uznaje liczbę "ticketów w Jirze" jaka została przeniesiona do kolumny Done. Czy to jest miara sukcesu organizacji produktowej?
 
 Patrząc jeszcze z innej strony. Jako organizacja produktowa, chcemy wychodzić z jak najlepszymi pomysłami rozwiązywania problemów klienta. Marty Cagan na prezentacji  [Product San Francisco](https://www.youtube.com/watch?v=9dccd8lihpQ) wspomniał, że najlepszym źródłem pomysłów są inżynierowie oraz osoby, które na codzień pracują z danymi od klientów:
+
+// może video wkleić?
+
 > Consistently the best single source of ideas it's your engineers. It's because they're working with the technology every day and they're in the best possible position to see what's just now possible.
 >
 > Another favorite source of ideas for me is data in the hands of the people doing the ideation. The executives maybe you know they see date a third hand but they're not inside the data every day.
@@ -59,6 +65,7 @@ Wydaje się, że powyższe procesy skalowania są skupione raczej na fabrykach f
 ## Empowered teams
 
 // pokazanie obrazka cutlera o empowered i feature teams 
+
 XYZ proponuje inny sposób skalowania się - przez tworzenie Empowered Teams, które mają do osiągnięcia konkretne cele organizacyjne. Zespół (ew. 2-3 zespoły) pracują, aby zrealizować konretny cel biznesowy. Jednak to jak to osiągnąć jest już w gesti zespołu - wybór rozwiązania, wdrażania oraz zbieranie feedbacku. 
 
 Głównie dlatego, że firmy technologicznie nie starają się skalować produktu. **One tworzą wiele różnych produktów, pod wspólną egidą.**
@@ -105,12 +112,10 @@ Przez co też łatwiej jest komuś powiedzieć "dowieź X" niż "osiągnij Y". P
 
 ### Podział produktu na mniejsze
 
-Podział produktu na mniejsze to nie jest rzecz, na którą znajdziecie od razu najlepszą odpowiedź.
-
-Przytoczę tutaj [artykuł](https://medium.com/nick-tune-tech-strategy-blog/aligning-teams-with-business-capabilities-to-improve-flow-why-you-shouldnt-b2996b959546) Nicka Tune'a o różnych sposobach dzielenia się. Możemy podzielić się wysokopoziomowo:
+Podział produktu na mniejsze to nie jest rzecz, na którą znajdziecie od razu najlepszą odpowiedź. Głównie dlatego, że istnieje wiele wymiarów, przez które można dzielić produkt na mniejsze. Przytoczę tutaj [artykuł](https://medium.com/nick-tune-tech-strategy-blog/aligning-teams-with-business-capabilities-to-improve-flow-why-you-shouldnt-b2996b959546) Nicka Tune'a o różnych sposobach dzielenia się. Możemy podzielić się wysokopoziomowo:
 - Produkt
 - Segment klientów
-- Rodzaj rynku
+- Rynki i branże
 - Urządzenia, doświadczenie klienta
 - Region, kraj
 
@@ -119,6 +124,7 @@ A następnie bardziej niskopoziomowo:
 - Business Capabilities
 - Bounded Context
 
+Odpowiedź na to jaki sposób jest najlepszy zależy od waszej strategii - na jakich celach chcielibyście się skupić. Podział w jednym wymiarze (np. na rynek medyczny i finansowy) spowoduje, że trudniej będzie dowozić cele skupione na krajach (np. ekspansja na Niemcy i Austrię).
 ### Zaufanie 
 
 W takim modelu trzeba o wiele bardziej ufać sobie wzajemnie. Trochę tak jak z kimś kto robi wam remont - łatwo jest oddelegować malowanie ścian, trudniej wybór rozwiązań czy XYZ. 

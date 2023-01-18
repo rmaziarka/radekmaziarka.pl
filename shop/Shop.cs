@@ -22,16 +22,18 @@ namespace shop
 {
     public class Shop
     {
+        public Shop()
+        {
+            StripeConfiguration.ApiKey =
+                System.Environment.GetEnvironmentVariable("StripeKey", EnvironmentVariableTarget.Process);
+        }
+        
         [FunctionName("CreateCheckout")]
         public async Task<IActionResult> CreateCheckout(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "CreateCheckout/{productCode}")]
             HttpRequest req, string productCode, 
             ILogger log)
         {
-           
-            StripeConfiguration.ApiKey =
-                System.Environment.GetEnvironmentVariable("StripeKey", EnvironmentVariableTarget.Process);
-
             var shopConfig = ShopConfigProvider.Get();
             var product = shopConfig.Products.First(el => el.Code == productCode);
 

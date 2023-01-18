@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using System;
+using Microsoft.Extensions.Hosting;
+using Stripe;
 
 namespace shop;
 

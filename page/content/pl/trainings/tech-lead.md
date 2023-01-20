@@ -91,6 +91,6 @@ trainingPlan: [
     ],
 ]
 ---
-Dziś jako lider techniczny potrzebujesz znacznie szerszych umiejętności niż dawniej. Zwykliśmy myśleć, że liderzy techniczni muszą jedynie posiadać wiedzę techniczną. Jednak posiadanie odpowiednich umiejętności technicznych to tylko czubek góry lodowej. Potrzebujesz również współpracować z biznesem, definiować i oceniać rozwiązania, planować pracę, współpracować z zespołem. Bardzo szeroki zakres umiejętności.
+Dziś jako lider techniczny potrzebujesz znacznie szerszych umiejętności niż dawniej. Zwykliśmy myśleć, że liderzy techniczni muszą jedynie posiadać wiedzę techniczną. Jednak posiadanie odpowiednich umiejętności technicznych to tylko czubek góry lodowej. Potrzebujesz również współpracować z biznesem, definiować i oceniać rozwiązania, planować pracę, dowodzić zespołem. Bardzo szeroki zakres umiejętności.
 
 **Szkolenie "Tech Lead" pomoże Ci zdobyć te umiejętności.** Poznasz techniki, które pomogą Ci w codziennej pracy na każdym szczeblu działania. Kompleksowe szkolenie da Ci umiejętności potrzebne do pokonania każdego wyzwania, które stanie na Twojej drodze.

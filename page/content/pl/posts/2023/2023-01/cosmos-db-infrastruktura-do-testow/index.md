@@ -15,21 +15,21 @@ W tym odcinku utworzymy infrastrukturę, którą będziemy testować w kolejnych
 
 ## Infrastruktura chmurowa
 
-Poniżej pokażę jak krok po kroku stworzyć testową infrastrukturę. Cały kod jest dostępny na [**moim GitHub**](https://github.com/rmaziarka/BikeSharing/tree/master/BikeSharing.Infrastructure) w repozytorium BikeSharing.
-
-Aby przetestować nasz scenariusz stworzymy następującą architekturę:
+Aby przetestować nasz scenariusz musimy przetestować 2 przypadki bazodanowe. Stworzymy więc odpowiednią architekturę dla obu przypadków. Poniżej przykład dla pierwszego przypadku:
 
 [![](infrastructure.jpg)](infrastructure.jpg)
 
 Skoro testujemy bazę danych, to nasza infrastruktura będzie zawierała:
 
 - **Konto Azure Cosmos DB**. Nazwa zawiera w sobie dynamiczny identyfikator, który wyjaśnię poniżej. 
-- **Bazę danych**. Tutaj faktycznie będą umieszczone nasze kontenery. Nazwa wskazuje na scenariusz biznesowy, który testujemy.
+- **Bazę danych**. Tutaj będą umieszczone nasze kontenery. Nazwa wskazuje na scenariusz biznesowy, który testujemy.
 - **Kontenery** - Availability i Rentals. Tutaj będą umieszczone dane.
 
-Dodatkowo, na potrzeby analizy ruchu, wykorzystamy **Log Analytics Workspace**. Nie jest to kluczowy element do naszych testów wydajności. Jednak testy wydajności wygenerują wykorzystanie bazy danych, które pokażę jak analizować w podsumowaniu serii. 
+Dodatkowo, na potrzeby analizy ruchu, wykorzystamy [**Log Analytics Workspace**](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace?tabs=azure-portal). Nie jest to kluczowy element do naszych testów wydajności. Jednak testy wydajności wygenerują wykorzystanie bazy danych, które pokażę jak analizować w podsumowaniu serii. 
 
 Zauważcie, że **nie mamy tutaj żadnego serwisu compute**. Jest to celowe - aby uruchomić testy wydajności bazy danych nie musimy do tego posiadać dodatkowej infrastruktury. Wystarczy nam nasz prywatny komputer.
+
+Drugi przypadek jest analogiczny, zmienia się jedynie nazwa bazy danych.
 
 ## Tworzenie infrastruktury
 
@@ -51,9 +51,9 @@ Aby tworzyć taką infrastrukturę należy przez to narzędzie potrzebujemy:
 
 ## Skrypty tworzące bazę danych
 
-Poniżej umieściłem kod odpowiadający za tworzenie infrastruktury, podzielony na sekcje. Cały kod umieszczony jest na moim GitHub, w repozytorium [BikeRentals](https://github.com/rmaziarka/BikeSharing/tree/master/BikeSharing.Infrastructure).
+Poniżej umieściłem kod odpowiadający za tworzenie infrastruktury, podzielony na logiczne sekcje. Cały kod umieszczony jest na moim GitHub, w repozytorium [BikeRentals](https://github.com/rmaziarka/BikeSharing/tree/master/BikeSharing.Infrastructure).
 
-Poniższy kod opisuje pierwszy przypadek - partycjonowanie kontenera _Rentals_ po identyfikatorze klienta. Jest on w 95% identyczny jak drugi przypadek. Małe różnice opisałem w ramach listowania skryptów. Nie będę drugi raz listować tego samego 😉  
+Poniższy kod opisuje pierwszy przypadek - partycjonowanie kontenera _Rentals_ po identyfikatorze klienta. Jest on w 98% identyczny jak drugi przypadek. Małe różnice opisałem w ramach listowania skryptów. Nie będę drugi raz listować tego samego 😉  
 
 ### Zmienne lokalne
 
@@ -114,3 +114,76 @@ az cosmosdb sql database create \
     -g $resourceGroupName \
     -n $databaseName
 ```
+
+Tworzymy resource groupę, konto i bazę Cosmos DB. Nic szczególnego 😀
+
+### Kontenery
+
+```sh
+# Create Availability container
+az cosmosdb sql container create \
+    -a $accountName \
+    -g $resourceGroupName \
+    -d $databaseName \
+    -n $availabilityContainerName \
+    -p $availabilityPartitionKey \
+    --idx @cosmos-index-policy.json
+
+# Create Rental container
+az cosmosdb sql container create \
+    -a $accountName \
+    -g $resourceGroupName \
+    -d $databaseName \
+    -n $rentalsContainerName \
+    -p $rentalsPartitionKey \
+    --idx @cosmos-index-policy.json
+```
+
+Tworzymy dwa kontenery - Availability i Rentals. Dla obu tych kontenerów definicje są identyczne, poza nazwą oraz kluczem partycjonującym.
+
+W pliku @cosmos-index-policy.json mamy następującą definicję indeksu.
+```json
+{
+  "indexingMode": "none",
+  "automatic": false
+}
+```
+Czyli po prostu indeksowania nie ma ❌ Pozwoli to uniknąć kosztów indeksowania danych, gdy będziemy zapełniać bazę danych testowymi danymi. Indeksy włączymy ponownie, po wrzuceniu danych. Więcej info na [stronie dokumentacji](https://learn.microsoft.com/en-us/azure/cosmos-db/index-policy#indexing-mode).
+
+### Log Analytics Workspace
+
+```sh
+# Create Log Analytics Workspace
+az monitor log-analytics workspace create \
+    -g $resourceGroupName \
+    -n $workspaceName \
+    -l $location
+
+
+subscriptionId=$(az account show --query id --output tsv)
+resourceName="//subscriptions\\$subscriptionId\\resourceGroups\\$resourceGroupName\\providers\\Microsoft.DocumentDb\\databaseAccounts\\$accountName"
+workspacePath="//subscriptions\\$subscriptionId\\resourcegroups\\$resourceGroupName\\providers\\microsoft.operationalinsights\\workspaces\\$workspaceName"
+
+# Connect Log Analytics Workspace to Cosmos DB
+az monitor diagnostic-settings create \
+    --resource $resourceName \
+    -n 'Cosmos DB' \
+    --export-to-resource-specific true \
+    --logs "@log-analytics-diagnostic-logs.json" \
+    --metrics '[{"category": "Requests","categoryGroup": null,"enabled": true,"retentionPolicy": {"enabled": false,"days": 0}}]' \
+    --workspace $workspacePath
+```
+
+Tutaj tworzymy Log Analytics Workspace, oraz konfigurujemy konto Cosmos DB, aby logi z bazy spływały do agregatora.
+
+## Co dalej?
+
+Jeśli uruchomimy skrypt dla przypadku pierwszego to powinniśmy zobaczyć taki rezultat na Azure:
+
+[![](azure.png)](azure.png)
+
+Wchodząc do bazy danych zobaczymy:
+
+[![](azure2.png)](azure2.png)
+
+Teraz pozostaje nam zapełnić tą bazę danymi. Ale o tym w kolejnym odcinku 🤩

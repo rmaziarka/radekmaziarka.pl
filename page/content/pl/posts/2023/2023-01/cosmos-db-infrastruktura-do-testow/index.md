@@ -1,7 +1,7 @@
 ---
 title: "Modelowanie w Cosmos DB - struktury bazy do testów"
 date: 2023-01-24T09:59:30+01:00
-url: '/2023/01/24/cosmos-db-infrastruktura-do-testow'
+url: '/2023/01/24/cosmos-db-infrastruktura-do-do-testow'
 images: ['2023/01/24/cosmos-db-infrastruktura-do-do-testow/cosmos-modeling.jpg']
 description: "Kolejny odcinek o modelowaniu w Cosmos DB - infrastruktura do testów"
 category: 'Cosmos DB'

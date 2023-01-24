@@ -115,7 +115,7 @@ az cosmosdb sql database create \
     -n $databaseName
 ```
 
-Tworzymy resource groupę, konto i bazę Cosmos DB. Nic szczególnego 😀
+Tworzymy grupę zasobów, konto i bazę Cosmos DB. Model kosztów bazy danych ustawiamy na [Serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/serverless) - w ramach testów lepiej jest płacić stricte za wykorzystywane zasoby. 
 
 ### Kontenery
 

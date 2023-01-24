@@ -51,10 +51,66 @@ Aby tworzyć taką infrastrukturę należy przez to narzędzie potrzebujemy:
 
 ## Skrypty tworzące bazę danych
 
-Na obecnym poziomie nie da się dokładniej porównać kosztowności obu rozwiązań. Mamy konkurencyjne struktury, które na papierze wyglądają bardzo podobnie. Tylko bezpośrednie uruchomienie danej struktury może nam odpowiedzieć na pytanie jak ona się sprawdza.
+Poniżej umieściłem kod odpowiadający za tworzenie infrastruktury, podzielony na sekcje. Cały kod umieszczony jest na moim GitHub, w repozytorium [BikeRentals](https://github.com/rmaziarka/BikeSharing/tree/master/BikeSharing.Infrastructure).
 
-```console
+Poniższy kod opisuje pierwszy przypadek - partycjonowanie kontenera _Rentals_ po identyfikatorze klienta. Jest on w 95% identyczny jak drugi przypadek. Małe różnice opisałem w ramach listowania skryptów. Nie będę drugi raz listować tego samego 😉  
 
+### Zmienne lokalne
+
+```sh
+# Variables for SQL API resources
+uniqueId=$RANDOM
+resourceGroupName="bikesharing-$uniqueId"
+location='westeurope'
+accountName="$resourceGroupName-cosmos"
+workspaceName="$resourceGroupName-workspace"
+databaseName='case1'
+
+availabilityContainerName='availability'
+availabilityPartitionKey='//CityId'
+
+rentalsContainerName='rentals'
+rentalsPartitionKey='//ClientId'
 ```
 
+Aby uprościć nieco skrypty wykorzystamy na samym początku zmienne lokalne. Dzięki temu podczas definicji zasobów nie będziemy musieli powielać tych samych nazw.
 
+**Z rzeczy, które warto wyjaśnić:**
+
+```sh
+uniqueId=$RANDOM
+```
+Dzięki _uniqueId_ będziemy w stanie uruchamiać ten sam skrypt na wiele razy. Nie będziemy konfliktu z nazwami na Azure (nazwy konta CosmosDB są unikatowe).
+
+```sh
+databaseName='case1'
+```
+Tutaj mamy nazwę naszej bazy danych, która wskazuje na pierwszy przypadek testowy. W skrypcie dla drugiego przypadku będziemy mieli _case2_.
+
+```sh
+rentalsPartitionKey='//ClientId'
+```
+W ramach tego przypadku wskazujemy aby partycjonować kontener po identyfikatorze klienta. W skrypcie dla drugiego przypadku będziemy mieli _//CityIdDate_.
+
+
+### Konto i baza
+
+
+```sh
+## Create a resource group
+az group create -n $resourceGroupName -l $location
+
+# Create a Cosmos account for SQL API
+az cosmosdb create \
+    -n $accountName \
+    -g $resourceGroupName \
+    --default-consistency-level Session \
+    --locations regionName=$location failoverPriority=0 isZoneRedundant=False \
+    --capabilities EnableServerless
+
+# Create a SQL API database
+az cosmosdb sql database create \
+    -a $accountName \
+    -g $resourceGroupName \
+    -n $databaseName
+```

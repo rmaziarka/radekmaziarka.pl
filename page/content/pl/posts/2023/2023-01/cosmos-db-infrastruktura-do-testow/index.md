@@ -31,6 +31,24 @@ Dodatkowo, na potrzeby analizy ruchu, wykorzystamy **Log Analytics Workspace**. 
 
 Zauważcie, że **nie mamy tutaj żadnego serwisu compute**. Jest to celowe - aby uruchomić testy wydajności bazy danych nie musimy do tego posiadać dodatkowej infrastruktury. Wystarczy nam nasz prywatny komputer.
 
+## Tworzenie infrastruktury
+
+W tym momencie powstaje pytanie - jak tworzyć tą infrastrukturę?
+
+Możemy po prostu przejść do tworzenia infrastruktury w panelu Azure. Niestety, **wyklikanie całego rozwiązanie to droga do nikąd**. Nie będziemy w stanie się upewnić, czy nasze infrastruktury są w rzeczywistości identyczne, kiedy tworzymy je manualnie. Dodatkowo jest to bardzo mozolny proces, w którym łatwo o pomyłkę.
+
+**Tworzenie infrastruktury ze skryptów jest o wiele bardziej pewne.** A przy tym niewiele wolniejsze (pod względem pisania). Z racji, że nie piszemy tutaj aplikacji produkcyjnej, to nie musimy się silić na zaawansowane przekazywanie secretów czy rozwiązania w stylu [Terraform](https://www.terraform.io/) czy [Pulumi](https://www.pulumi.com/).
+
+![](azcli.png)
+
+Do automatyzacji tworzenia infrastruktury wykorzystamy Azure Command-Line Interface - w skrócie Azure CLI 😀
+
+Aby tworzyć taką infrastrukturę należy przez to narzędzie potrzebujemy:
+
+- [Zainstalować Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [Zalogować się do chmury](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli)
+- [Poznać składnię dotyczącą CosmosDB](https://learn.microsoft.com/en-us/cli/azure/cosmosdb?view=azure-cli-latest) 
+
 ## Skrypty tworzące bazę danych
 
 Na obecnym poziomie nie da się dokładniej porównać kosztowności obu rozwiązań. Mamy konkurencyjne struktury, które na papierze wyglądają bardzo podobnie. Tylko bezpośrednie uruchomienie danej struktury może nam odpowiedzieć na pytanie jak ona się sprawdza.

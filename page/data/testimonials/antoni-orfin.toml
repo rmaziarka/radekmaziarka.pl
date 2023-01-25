@@ -1,0 +1,7 @@
+name = 'Antoni Orfin'
+url = 'https://www.linkedin.com/in/antoniorfin/'
+image = '/images/trainings/antoni-orfin.jpg'
+position = 'Director of Engineering at eSky'
+plcontent = "Radek pomaga nam w rozwoju kompetencji programistów i managerów prowadząc dla nich cykle szkoleń. Szkolenia te są dostosowane do potrzeb naszego działu i są wysoko oceniane przez uczestników. Przeprowadza audyt architektury naszych aplikacji i trafnie wskazuje obszary wymagające poprawy. Do każdego tematu z którym zwrócimy się do Radka, przygotowuje się starannie, zbierając informacje z rynku i z literatury. Jest nieocenionym wsparciem dla naszego zespołu."
+content = "Vue Storefront is currently scaling to expand its services. Radek helped run several workshops to accelerate this growth. First, on the C-level, concerning the establishment of organizational goals. Then, with Tech Leaders to improve the work of teams. In addition, he supports us with his knowledge in the field of architectural and organizational activities by conducting consultations."
+mainOrder = 7

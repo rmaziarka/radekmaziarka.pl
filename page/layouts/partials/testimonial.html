@@ -1,4 +1,4 @@
-<div class="owl-item">
+<div class="swiper-slide">
     <div class="tm-carousel-item">
         <div class="tm-testimonial">
             <div class="testimonial-inner">
@@ -11,13 +11,13 @@
                             <div class="author-thumb"> <img width="75" height="75" src="{{.image}}"
                                                             class="img-fullwidth rounded-circle wp-post-image" alt="images"></div>
                         </div>
-                        <a style="cursor:pointer" href="{{.url}}">
-                            <div class="author-info">
+                        <div class="author-info" style="float:left">
+                            <a style="cursor:pointer" href="{{.url}}">
                                 <h5 class="name">{{.name}}</h5>
                                 <span class="job-position">{{.position}}</span>
-
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>

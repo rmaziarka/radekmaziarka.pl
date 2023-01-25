@@ -2774,7 +2774,7 @@ header#header .menuzord-brand {
         transition: none; } }
     @media (max-width: 575.98px) {
       header#header .menuzord-brand img {
-        max-width: 200px !important; } }
+        max-width: 195px !important; } }
     @media (max-width: 991.98px) {
       header#header .menuzord-brand img {
         max-height: 60px !important; } }
@@ -17139,11 +17139,17 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
           .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-inner:after {
             transition: none; } }
     .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details {
-      padding: 45px;
-      padding-bottom: 20px;
+      padding: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
       position: relative;
       z-index: 0;
       transition: all 0.3s ease; }
+      
+      @media (max-width: 991.98px) {
+        .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details {
+          padding: 20px;}
+      }
       @media (prefers-reduced-motion: reduce) {
         .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details {
           transition: none; } }
@@ -17207,9 +17213,18 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     transition: none; } }
 
 .author-info {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  float: left;
+  width: calc(100% - 100px);
   position: relative; }
+
+
+  @media (max-width: 991.98px) {
+    .author-info {
+      margin-top: 0px;
+    }
+  }
   .author-info:before {
     position: absolute;
     background-image: url(../images/testimonials/quote.png);
@@ -18231,33 +18246,33 @@ $grid-breakpoints: (
 /*==========  minimum and maximum breakpoint Method  ==========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
-    font-size: 1.1rem; }
+    font-size: 1.0rem; }
   h1 {
-    font-size: 3.3rem; }
-  h2 {
-    font-size: 2.5rem; }
-  h3 {
-    font-size: 2.2rem; } }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    font-size: 1.1rem; }
-  h1 {
-    font-size: 3.1rem; }
-  h2 {
-    font-size: 2.3rem; }
-  h3 {
-    font-size: 2.1rem; } }
-
-@media (max-width: 575.98px) {
-  body {
-    font-size: 1.1rem; }
-  h1 {
-    font-size: 3.0rem; }
+    font-size: 2.8rem; }
   h2 {
     font-size: 2.2rem; }
   h3 {
-    font-size: 2.0rem; } }
+    font-size: 1.8rem; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 1.0rem; }
+  h1 {
+    font-size: 2.8rem; }
+  h2 {
+    font-size: 2.2rem; }
+  h3 {
+    font-size: 1.8rem; } }
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 1.0rem; }
+  h1 {
+    font-size: 2.8rem; }
+  h2 {
+    font-size: 2.0rem; }
+  h3 {
+    font-size: 1.8rem; } }
 
 /* ====== custom  */
 
@@ -18304,10 +18319,6 @@ $grid-breakpoints: (
   max-height: 150px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.owl-stage-outer {
-  min-height: 440px !important;
 }
 
 .webinar-information-topic-text{
@@ -18358,4 +18369,33 @@ $grid-breakpoints: (
 }
 .entry-content li{
   margin-bottom: 5px;
+}
+
+
+.swiper-button-prev {
+  left: 0px!important;
+}
+
+.swiper-button-next  {
+  right: 0px!important;
+}
+
+@media (max-width: 991.98px) {
+  .swiper{
+    overflow: unset!important;
+  }
+  
+  .swiper-button-prev {
+    left: -7px!important;
+    width: 20px!important;
+    height: 30px!important;
+  }
+
+  .swiper-button-next  {
+    right: -7px!important;
+    width: 20px!important;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px!important;
+  }  
 }

@@ -40,6 +40,8 @@
     <!-- CSS | Theme Color -->
     <link href="/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
 
+    <!-- CSS | swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" >
 
     <link rel="icon" href="/images/favicon.jpg" sizes="192x192">
 
@@ -102,42 +104,30 @@
     <script src="/js/menuzord/js/menuzord.js"></script>
     <script src="/js/timeline-horizontal-vertical/js/timeline-horizontal-vertical.min.js"></script>
     <script src="/js/timeline-horizontal-vertical/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/js/custom.js"></script>
     <script>
-      var popupKey = 'es-2022-oct'
-      var popupShown = window.localStorage.getItem(popupKey);
-      
-      if(false)
-        show();
-      
-      function show(){
-        setTimeout(function(){
-          var modalElement = document.getElementById('esModal');
-          modal = new bootstrap.Modal(modalElement
-                  ,
-                  {
-                    backdrop: false,
-                    keyboard: false
-                  }
-          );
-          modal.show();
-          modalElement.addEventListener('hidden.bs.modal', onClose);
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-          var redirectButton = document.getElementById('esModal-redirect');
-          redirectButton.addEventListener('click', onRedirect);
-        },5000);
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
 
-      }
-      
-      function onRedirect(){
-        window.localStorage.setItem(popupKey, 'closed');
-        location.href = 'https://radekmaziarka.pl/webinary-event-storming/';
-      }
-      
-      function onClose(){
-        window.localStorage.setItem(popupKey, 'closed');
-      }
-      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
     </script>
     </body>
   {{end}}

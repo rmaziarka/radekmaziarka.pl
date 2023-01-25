@@ -1,10 +1,8 @@
 {{ $numberOfShownTestimonials := .Get "numberOfShownTestimonials" }}
 {{ $testimonialsFocus := .Get "testimonialsFocus" }}
 
-<div class="tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon">
-    <div class="owl-carousel owl-theme tm-owl-carousel-{{$numberOfShownTestimonials}}col owl-loaded owl-drag" data-nav="true" data-dots="true"
-        data-autoplay="false"  data-margin="30"
-        data-stagepadding="0">
+<div class="swiper tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon ">
+    <div class="swiper-wrapper tm-owl-carousel-{{$numberOfShownTestimonials}}">
 
         <!-- ugly hack with double loop to avoid problem with filtering testimonials -->
         <!-- for some reasons where on Data.testimonials always returned empty map -->
@@ -28,7 +26,8 @@
         
         {{end}}
     </div>
-    <div class="owl-nav"></div>
-    <div class="owl-dots"></div>
-    <div class="owl-thumbs"></div>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 </div>

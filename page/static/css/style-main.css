@@ -17170,6 +17170,13 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
         margin-top: 30px; }
       .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer {
         margin-bottom: 30px; }
+
+
+      @media (max-width: 991.98px) {
+        .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer {
+          margin-bottom: 10px; }
+      }
+      
         .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer .testimonial-image-holder {
           width: 90px;
           float: left;

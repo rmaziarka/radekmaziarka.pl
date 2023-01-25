@@ -1,6 +1,6 @@
 name = 'Michał Kwieciński'
 url = 'https://www.linkedin.com/in/mkwiecinski/'
 image = '/images/trainings/michal-kwiecinski.jpg'
-position = 'CTO/CDO at Platforma Detalistów'
+position = 'CTO/CDO w Platforma Detalistów'
 content = 'Ze wsparciem Radka przeszliśmy Event Storming na kilka sposobów poznając szereg dobrych praktyk: w online i w offline, szerokim zespołem i w gronie programistów schodząc głęboko w szczegóły techniczne. Projektując nowe elementy systemu, Radek wsparł nas dodatkowo swoim doświadczeniem jako architekt, gdzie największe wrażenie na zespole zrobiły dostarczone gotowe wzorce do rozwiązania kilku naszych problemów.'
 mainOrder = 4

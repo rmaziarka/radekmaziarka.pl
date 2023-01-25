@@ -2,7 +2,7 @@
 {{ $testimonialsFocus := .Get "testimonialsFocus" }}
 
 <div class="swiper tm-sc-testimonials testimonial-style7-current-theme testimonial-has-quote-icon"
-     swiper-slide-per-view="{{$numberOfShownTestimonials}}">
+     data-swiper-slide-per-view="{{$numberOfShownTestimonials}}">
     <div class="swiper-wrapper" >
 
         <!-- ugly hack with double loop to avoid problem with filtering testimonials -->

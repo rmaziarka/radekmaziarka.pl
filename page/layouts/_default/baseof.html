@@ -107,11 +107,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/js/custom.js"></script>
     <script>
+      var slideNumber = $('.swiper').data('swiper-slide-per-view');
+      var breakpoints = null;
+      if(slideNumber > 1)
+        breakpoints = {
+          999: {
+            slidesPerView: 2
+          }
+        };
+      
       const swiper = new Swiper('.swiper', {
         // Optional parameters
 
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
+        breakpoints: breakpoints,
+        
         direction: 'horizontal',
         loop: true,
 

@@ -18378,31 +18378,37 @@ $grid-breakpoints: (
   margin-bottom: 5px;
 }
 
-
 .swiper-button-prev {
-  left: 0px!important;
+  left: 2px!important;
 }
 
 .swiper-button-next  {
-  right: 0px!important;
+  right: 2px!important;
+}
+
+.swiper-pagination {
+  margin-top: 5px!important;
+  position: unset!important;
 }
 
 @media (max-width: 991.98px) {
-  .swiper{
-    overflow: unset!important;
-  }
-  
-  .swiper-button-prev {
-    left: -7px!important;
-    width: 20px!important;
-    height: 30px!important;
-  }
-
-  .swiper-button-next  {
-    right: -7px!important;
-    width: 20px!important;
-  }
-  .swiper-button-next:after, .swiper-button-prev:after{
-    font-size: 30px!important;
-  }  
+.swiper{
+overflow: unset!important;
 }
+
+.swiper-button-prev {
+left: -7px!important;
+width: 20px!important;
+height: 30px!important;
+}
+
+.swiper-button-next  {
+right: -7px!important;
+width: 20px!important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+font-size: 30px!important;
+}  
+}
+
+

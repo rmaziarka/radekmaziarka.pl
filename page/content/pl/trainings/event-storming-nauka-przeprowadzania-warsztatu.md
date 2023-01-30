@@ -11,7 +11,6 @@ duration: '1-3 dni'
 targetGroup: 'Zespoły programistyczne, architekci, analitycy, kadra zarządzająca'
 trainingPlace: 'Siedziba klienta lub Zdalnie'
 form: '20% teoria / 80% praktyka'
-promo: true
 knowledgeToObtain: [
     'Nauczysz się przeprowadzać Event Storming w swojej firmie / organizacji',
     'Rozwiążesz trudne sytuacje podczas warsztatu',

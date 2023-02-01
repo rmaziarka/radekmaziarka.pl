@@ -51,6 +51,11 @@ OKR to skrót od angielskiego określenia Objectives and Key Results, czyli Cele
 
 // grafika
 
+https://huryn.substack.com/p/business-outcomes-vs-product-outcomes?utm_source=profile&utm_medium=reader2
+
+https://www.amazon.com/Outcomes-Over-Output-customer-behavior-ebook/dp/B07QJ1Y8Y5
+
+
 OKR powinny być skupione na outcome, a nie na output, ponieważ outcome jest bardziej skutecznym sposobem określania i mierzenia sukcesu. Outcome oznacza pozytywny rezultat, który jest wywoływany przez działanie, podczas gdy output to po prostu efekt działania, bez względu na to, czy jest on pozytywny czy negatywny.
 
 Skupianie się na outcome pozwala na bardziej precyzyjne i wartościowe określenie celów i osiąganie pozytywnych rezultatów, które rzeczywiście wpływają na sukces biznesowy. Outcome pozwala na uwzględnienie wartości dodanej, którą działanie przynosi dla klientów, biznesu lub społeczeństwa jako całości.

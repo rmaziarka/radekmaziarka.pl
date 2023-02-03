@@ -18,7 +18,7 @@ Osoba na stanowisku tech leada łączy umiejętności techniczne z nietechniczny
 Nie da się podać jednoznacznej definicji lidera technicznego. W zależności od zakresu działalności firmy, stanowisko to będzie określone na podstawie różnych aspektów. 
 **Istnieje jednak kilka wspólnych odpowiedzialności łączących każde stanowisko tech leada.** Poznaj je i wykorzystaj w praktyce, by Twój zespół ze sobą współdziałał, a projekty kończyły się sukcesem.
 
-## **Odpowiedzialności**
+## Odpowiedzialności
 Poniższe odpowiedzialności są opisane w skrócie, z przykładami. W kolejnych tygodniach opiszę dokładniej te odpowiedzialności w akcji:
 
 ### Przekładanie celów biznesowych na aspekty techniczne

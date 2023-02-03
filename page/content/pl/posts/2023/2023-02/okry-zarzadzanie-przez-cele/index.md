@@ -1,3 +1,4 @@
+---
 title: "OKRy - zarządzanie przez cele"
 date: 2023-01-10T09:59:30+01:00
 url: '/2023/02/01/okry-zarzadzanie-przez-cele'

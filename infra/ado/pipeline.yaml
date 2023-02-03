@@ -1,0 +1,18 @@
+trigger:
+- master
+
+stages:
+# build stage: build site codebase to use for deployment
+- stage: Build
+  jobs:
+    - template: /infra/ci-cd/build.yaml
+      parameters:
+        hugoVersion: '0.91.2'
+        blogPath: './page'
+      
+- stage: Prod_Release
+  jobs:
+    - template: /infra/ci-cd/release.yaml
+      parameters:
+        azureStaticWebAppsApiToken: $(azureStaticWebAppsApiToken)
+        environmentName: 'Prod'

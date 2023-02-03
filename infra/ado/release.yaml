@@ -1,0 +1,32 @@
+parameters:
+  azureStaticWebAppsApiToken: ""
+  environmentName: ""
+  
+variables:
+  - group: ${{ parameters.environmentName }}
+
+jobs:
+- deployment: release_to_azure_storage
+  pool:
+    vmImage: ubuntu-latest
+  environment: ${{ parameters.environmentName }}
+  strategy:
+    runOnce:
+      deploy:
+        steps:
+        - checkout: none
+        - download: none
+        - task: DownloadPipelineArtifact@2
+          inputs:
+            artifact: $(Build.BuildId)
+            path: $(Build.SourcesDirectory)/page
+        - task: AzureStaticWebApp@0
+          displayName: Deploy to production environment
+          inputs:
+            app_location: frontend/wwwroot
+            api_location: api
+            skip_app_build: true
+            skip_api_build: true
+            verbose: true
+            azure_static_web_apps_api_token: $(azureStaticWebAppsApiToken)
+            workingDirectory: $(System.ArtifactsDirectory)/drop

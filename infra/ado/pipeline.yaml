@@ -13,6 +13,7 @@ stages:
 - stage: Prod_Release
   jobs:
     - template: /infra/ci-cd/release.yaml
+      variables:
+        - group: Prod
       parameters:
-        azureStaticWebAppsApiToken: $(azureStaticWebAppsApiToken)
         environmentName: 'Prod'

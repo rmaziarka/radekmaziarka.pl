@@ -30,6 +30,7 @@ jobs:
           app_location: "/page/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
+          deployment_environment: staging
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

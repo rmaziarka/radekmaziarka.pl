@@ -11,9 +11,9 @@ stages:
         blogPath: './page'
       
 - stage: Prod_Release
+  variables:
+      - group: Prod
   jobs:
     - template: /infra/ci-cd/release.yaml
-      variables:
-        - group: Prod
       parameters:
         environmentName: 'Prod'

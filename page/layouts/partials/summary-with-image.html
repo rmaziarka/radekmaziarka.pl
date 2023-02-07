@@ -3,6 +3,11 @@
 {{ $featured_image = index .Params.images 0  }}
 {{end}}
 
+{{if .Params.pageImage}}
+{{ $featured_image = .Params.pageImage }}
+{{end}}
+
+
 {{ $readingTime := add (math.Round (div (countwords .Content) 220.0)) 1 }}
 {{ $minutesDescription := "" }}
 {{if eq $readingTime 1 }}

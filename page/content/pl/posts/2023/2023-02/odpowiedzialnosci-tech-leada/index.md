@@ -26,9 +26,9 @@ Poniższe odpowiedzialności są opisane w skrócie, z przykładami. W kolejnych
 
 Jedną z najważniejszych odpowiedzialności lidera technicznego jest **zrozumienie potrzeb i celów biznesowych klientów** , a następnie przełożenie ich na rozwiązania techniczne.
 
-Zacznij od zrozumienia, czego oczekują Twoi interesariusze. **Co chcą osiągnąć? Czego się obawiają?** Zebrane odpowiedzi przełóż na tzw. drivery architektoniczne, wpływające na implementację systemu. Są to np.: wymagania funkcjonalne, atrybuty jakościwoe czy ograniczenia projektowe.
+Zacznij od zrozumienia, czego oczekują Twoi interesariusze. **Co chcą osiągnąć? Czego się obawiają?** Zebrane odpowiedzi przełóż na tzw. drivery architektoniczne, wpływające na implementację systemu. Są to np.: wymagania funkcjonalne, atrybuty jakościowe czy ograniczenia projektowe.
 
-Podsumowując wszystkie zebrane informacje, będziesz mógł stworzyć optymalne rozwiązanie.
+Podsumowując wszystkie zebrane informacje, będziesz mógł zaplanować optymalne rozwiązanie.
 
 _Ustaliłem, że biznesowi najbardziej zależy na aktualnych danych z portalu CRM na poziomie minut opóźnienia, a nie dni. W tym przypadku należy skupić się na stabilnym pobieraniu i aktualizacji danych maksymalnie co 5 minut. Dane muszą być cacheowane, gdyby system zewnętrzny przestał działać._
 

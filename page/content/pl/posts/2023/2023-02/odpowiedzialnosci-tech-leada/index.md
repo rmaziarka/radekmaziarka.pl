@@ -34,7 +34,7 @@ _Ustaliłem, że biznesowi najbardziej zależy na aktualnych danych z portalu CR
 
 ### Projektowanie rozwiązania
 
-Po przełożeniu celów biznesowych na aspekty techniczne, czas na zaprojektowanie rozwiązania. Zadaniem Tech Leada – czyli Twoim 😊 - jest stworzenie kilku propozycji i ich ocena na podstawie driverów architektonicznych. Ważne jest również, by plan rozwiązania został udokumentowany za pomocą RFC, czy później ADR. 
+Po przełożeniu celów biznesowych na aspekty techniczne, czas na zaprojektowanie rozwiązania. Zadaniem Tech Leada – czyli Twoim 😊 - jest stworzenie kilku propozycji i ich ocena na podstawie driverów architektonicznych. Ważne jest również, by plan rozwiązania został udokumentowany. Możesz to zrobić za pomocą RFC, czy później ADR. 
 
 **W ten sposób określisz właściwe rozwiązanie, zdefiniujesz wymagane procesy i utrzymasz spójność operacyjną.**
 

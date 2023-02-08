@@ -19,6 +19,7 @@ void CreateCommonResources(string resourceGroupNameBase, string location)
     var dnsZone = new Zone(dnsZoneName, new()
     {
         ResourceGroupName = commonResourceGroup.Name,
+        ZoneName = dnsZoneName,
         Location = "global"
     });
 }
@@ -64,6 +65,13 @@ void CreateProdResources(string resourceGroupNameBase, string location)
             Name = "Free",
             Tier = "Free",
         },
+    });
+    
+    var staticSiteCustomDomain = new StaticSiteCustomDomain(prodResourcesName, new()
+    {
+        DomainName = "radekmaziarka.pl",
+        Name = staticSite.Name,
+        ResourceGroupName = resourceGroup.Name,
     });
 }
 

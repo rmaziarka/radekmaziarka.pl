@@ -26,4 +26,3 @@ jobs:
             skip_api_build: true
             verbose: true
             azure_static_web_apps_api_token: $(azureStaticWebAppsApiToken)
-            workingDirectory: $(System.ArtifactsDirectory)/drop

@@ -1,9 +1,6 @@
 parameters:
   azureStaticWebAppsApiToken: ""
   environmentName: ""
-  
-variables:
-  - group: ${{ parameters.environmentName }}
 
 jobs:
 - deployment: release_to_azure_storage

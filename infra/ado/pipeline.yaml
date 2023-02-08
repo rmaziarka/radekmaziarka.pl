@@ -5,7 +5,7 @@ stages:
 # build stage: build site codebase to use for deployment
 - stage: Build
   jobs:
-    - template: /infra/ci-cd/build.yaml
+    - template: /infra/ado/build.yaml
       parameters:
         hugoVersion: '0.91.2'
         blogPath: './page'
@@ -14,6 +14,6 @@ stages:
   variables:
       - group: Prod
   jobs:
-    - template: /infra/ci-cd/release.yaml
+    - template: /infra/ado/release.yaml
       parameters:
         environmentName: 'Prod'

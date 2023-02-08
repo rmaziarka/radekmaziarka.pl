@@ -4,15 +4,32 @@ using Pulumi.AzureNative.Storage;
 using Pulumi.AzureNative.Storage.Inputs;
 using Pulumi.AzureNative.Web;
 using Pulumi.AzureNative.Web.Inputs;
+using Pulumi.AzureNative.Network;
 
-return await Pulumi.Deployment.RunAsync(() =>
+void CreateCommonResources(string resourceGroupNameBase, string location)
 {
-    var resourceGroupName = "radekmaziarka";
-    var prodResourceGroupName = resourceGroupName + "-prod";
+    var commonResourceGroupName = resourceGroupNameBase + "-common";
+    var dnsZoneName = "radekmaziarka.pl";
+    var commonResourceGroup = new ResourceGroup(commonResourceGroupName, new ResourceGroupArgs()
+    {
+        ResourceGroupName = commonResourceGroupName,
+        Location = location,
+    });
+
+    var dnsZone = new Zone(dnsZoneName, new()
+    {
+        ResourceGroupName = commonResourceGroup.Name,
+        Location = "global"
+    });
+}
+
+void CreateProdResources(string resourceGroupNameBase, string location)
+{
+    var prodResourceGroupName = resourceGroupNameBase + "-prod";
     var prodResourcesName = prodResourceGroupName;
-    var prodStorageAccountName = resourceGroupName + "prod";
-    var location = "West Europe";
-    
+    var prodStorageAccountName = resourceGroupNameBase + "prod";
+
+
     var resourceGroup = new ResourceGroup(prodResourceGroupName, new ResourceGroupArgs()
     {
         ResourceGroupName = prodResourceGroupName,
@@ -26,11 +43,11 @@ return await Pulumi.Deployment.RunAsync(() =>
         Location = location,
         Sku = new SkuArgs
         {
-            Name = SkuName.Standard_LRS
+            Name = Pulumi.AzureNative.Storage.SkuName.Standard_LRS
         },
         Kind = Kind.StorageV2
     });
-    
+
     var staticSite = new StaticSite(prodResourcesName, new()
     {
         Name = prodResourcesName,
@@ -48,5 +65,14 @@ return await Pulumi.Deployment.RunAsync(() =>
             Tier = "Free",
         },
     });
+}
+
+return await Pulumi.Deployment.RunAsync(() =>
+{
+    var resourceGroupName = "radekmaziarkapl";
+    var location = "West Europe";
     
+    CreateCommonResources(resourceGroupName, location);
+
+    CreateProdResources(resourceGroupName, location);
 });

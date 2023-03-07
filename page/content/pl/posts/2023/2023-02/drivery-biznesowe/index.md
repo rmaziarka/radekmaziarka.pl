@@ -13,10 +13,9 @@ W pracy z interesariuszami bardzo ważne jest umiejętne zdefiniowanie celu proj
 
 **Jak odróżnić cele biznesowe od potrzeb? Jakie pytania pomogą Ci w ich wyznaczeniu? Co, jako lider techniczny, musisz wiedzieć?**
 
-Te zagadnienia rozwijam w drugiej części cyklu o pracy tech leada w zespołach produktowych.
+Te zagadnienia rozwijam w drugiej części cyklu o pracy tech leada w zespołach produktowych. Pozostałe artykuły z cyklu Lider Techniczny przeczytasz tu: [link](/category/tech-lead).
 
-Część pierwszą przeczytasz tu: [link](/2023/02/03/odpowiedzialnosci-lidera-technicznego/).
-
+{{< advertisement type="TechLead">}}
 
 ## Co to jest Driver Biznesowy?
 
@@ -94,5 +93,3 @@ Określenie celu jest wartościowe, by podjąć kolejne działania. To główny 
 Jeśli ten temat Cię interesuje polecam książkę ["Software Requirements 3"](https://www.goodreads.com/book/show/22500540-software-requirements). Konkretna wiedza przekazana w przystępny sposób.
 
 Polecam również mój kurs, gdzie o wiele szerzej opowiadam o zagadnieniach związanymi z celami. Uczę budowy procesów w zespole, które pomagają za każdym razem określić kluczowe cele u klientów.
-
-{{< advertisement type="TechLead">}}

@@ -12,6 +12,8 @@ Lider techniczny to osoba, która nie tylko potrafi programować, ale też bierz
 
 W cyklu artykułów o pracy lidera technicznego w zespołach produktowych odpowiem na te – i nie tylko – pytania, bazując na podstawie własnego doświadczenia i obserwacji organizacji, z którymi współpracowałem.
 
+{{< advertisement type="TechLead">}}
+
 ## Kim jest Tech Lead?
 
 Osoba na stanowisku Tech Leada łączy umiejętności techniczne z nietechnicznymi - projektowymi, czy analitycznymi. Lider techniczny jest odpowiedzialny za kierowanie prac zespołu technicznego, tworzenie wizji technicznej i dowożenie rozwiązań dla klientów.
@@ -69,6 +71,4 @@ Opisane przeze mnie odpowiedzialności są niezależne od technologii. Czy pracu
 
 **Pracując na tym stanowisku, kształtujesz procesy wdrażania i stajesz się osobą odpowiedzialną za prace zespołu i niejednokrotnie – gwarantem sukcesu.** Stanowisko lidera technicznego to ogromna odpowiedzialność. Jednocześnie jest to rola, która daje dużo satysfakcji. Gdy dowieziona funkcjonalność działa, biznes jest zadowolony, a jakość jest wysoka to jest to powód do dumy 😎 
 
-Więcej o umiejętnościach nowoczesnego lidera technicznego w kolejnych artykułach. Może również zainteresować Cię kurs na którym poruszamy dogłębnie powyższe zagadnienia i trenujemy je w praktyce:
-
-{{< advertisement type="TechLead">}}
+Więcej o umiejętnościach nowoczesnego lidera technicznego w kolejnych artykułach. Może również zainteresować Cię **[szkolenie Tech Lead](/szkolenia-i-warsztaty/tech-lead)** na którym poruszamy dogłębnie powyższe zagadnienia i trenujemy je w praktyce
